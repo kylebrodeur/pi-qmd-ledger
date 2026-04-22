@@ -155,6 +155,36 @@ If you moved the config after scaffolding, the paths are relative to the config'
 
 ---
 
+## qmd_search returns no results
+
+**Symptom:** `qmd_search(query="...")` returns empty output even though documents exist.
+
+**Fix:**
+1. Check if documents are indexed: `qmd_status`
+2. If pending embeddings are high, run `/qmd-index` to rebuild.
+3. If no collections exist, add one:
+   ```bash
+   qmd collection add ./docs --name my-docs
+   /qmd-index
+   ```
+4. Try searching with a broader query or higher limit.
+
+---
+
+## Pending queue has entries but /qmd-approve doesn't run
+
+**Symptom:** `/qmd-approve` says "No pending entries" but `query_ledger(ledger="pending")` shows data.
+
+**Fix:**
+1. The pending ledger path may have changed after config edits. Check `ledger_stats` for the pending ledger path.
+2. If the file exists but is empty (only newlines), delete it and let gated mode recreate it:
+   ```bash
+   rm ledger/pending.jsonl
+   ```
+3. Run `/qmd-validate` to confirm paths.
+
+---
+
 ## Still stuck?
 
 Open an issue at https://github.com/kylebrodeur/pi-qmd-ledger/issues with:
