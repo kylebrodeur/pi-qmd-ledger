@@ -4,6 +4,27 @@ All notable changes to this project follow [Semantic Versioning](https://semver.
 
 ## [Unreleased]
 
+## [0.1.4] — 2026-04-22
+
+### Added
+- Comprehensive test plan (`TESTING.md`) for agent, human, and HITL personas.
+- New troubleshooting steps in `TROUBLESHOOTING.md` for empty search results and pending queue path mismatches.
+
+## [0.1.3] — 2026-04-22
+
+### Added
+- Added `promptSnippet` and `promptGuidelines` to all 8 tools for vastly improved LLM agent discoverability and usage instructions.
+- Added `getArgumentCompletions` to `/qmd-approve` command for ledger name auto-completion.
+
+### Fixed
+- Fixed stale error messages referencing the old `/init_ledger` command (now `/qmd-init`).
+
+## [0.1.2] — 2026-04-22
+
+### Added
+- New tool `qmd_status` to show index collections, indexed docs, and pending embeddings.
+- New command `/qmd-index` to run `qmd update` (BM25) and `qmd embed` (vectors).
+
 ## [0.1.1] — 2026-04-22
 
 ### Changed
