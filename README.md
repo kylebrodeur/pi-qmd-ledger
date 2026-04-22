@@ -165,7 +165,15 @@ pnpm install && pnpm build
   "ledgers": {
     "decisions": {
       "path": "decisions/log.jsonl",
-      "schema": ["id", "date", "context", "decision", "rationale", "status", "owner"],
+      "schema": [
+        "id",
+        "date",
+        "context",
+        "decision",
+        "rationale",
+        "status",
+        "owner"
+      ],
       "dedupField": "decision"
     }
   },
@@ -182,34 +190,34 @@ pnpm install && pnpm build
 
 ## Tools
 
-| Tool | Purpose |
-|---|---|
-| `qmd_search` | Fuzzy semantic search via qmd |
-| `qmd_status` | Show qmd collections, indexed docs, and embedding state |
-| `query_ledger` | Deterministic JSONL search by ledger name |
-| `append_ledger` | Append with strict/gated/autopilot modes |
-| `configure_ledger` | Read or update config at runtime |
-| `describe_ledger` | Introspect schema, count, and sample entries |
-| `ledger_stats` | Dashboard: counts, sizes, qmd version |
-| `ledger_export` | Export to JSON, CSV, or Markdown |
+| Tool               | Purpose                                                 |
+| ------------------ | ------------------------------------------------------- |
+| `qmd_search`       | Fuzzy semantic search via qmd                           |
+| `qmd_status`       | Show qmd collections, indexed docs, and embedding state |
+| `query_ledger`     | Deterministic JSONL search by ledger name               |
+| `append_ledger`    | Append with strict/gated/autopilot modes                |
+| `configure_ledger` | Read or update config at runtime                        |
+| `describe_ledger`  | Introspect schema, count, and sample entries            |
+| `ledger_stats`     | Dashboard: counts, sizes, qmd version                   |
+| `ledger_export`    | Export to JSON, CSV, or Markdown                        |
 
 ## Commands
 
-| Command | Purpose |
-|---|---|
-| `/qmd-init` | Scaffold config + ledgers + artifact templates |
-| `/qmd-validate` | Health check everything |
-| `/qmd-index [--no-embed]` | Re-index all collections (BM25 + embeddings) |
-| `/qmd-approve [target]` | Batch-review pending entries |
+| Command                   | Purpose                                        |
+| ------------------------- | ---------------------------------------------- |
+| `/qmd-init`               | Scaffold config + ledgers + artifact templates |
+| `/qmd-validate`           | Health check everything                        |
+| `/qmd-index [--no-embed]` | Re-index all collections (BM25 + embeddings)   |
+| `/qmd-approve [target]`   | Batch-review pending entries                   |
 
 ## Documentation
 
-| Doc | Description |
-|---|---|
-| [Skill](skills/qmd-ledger/SKILL.md) | What pi auto-loads about this extension |
+| Doc                                                                  | Description                                         |
+| -------------------------------------------------------------------- | --------------------------------------------------- |
+| [Skill](skills/qmd-ledger/SKILL.md)                                  | What pi auto-loads about this extension             |
 | [Config Reference](skills/qmd-ledger/references/config-reference.md) | Full config schema, env overrides, resolution order |
-| [Tool Reference](skills/qmd-ledger/references/tool-reference.md) | All 7 tools: parameters, behavior, return types |
-| [Troubleshooting](TROUBLESHOOTING.md) | Common issues and fixes |
+| [Tool Reference](skills/qmd-ledger/references/tool-reference.md)     | All 7 tools: parameters, behavior, return types     |
+| [Troubleshooting](TROUBLESHOOTING.md)                                | Common issues and fixes                             |
 
 ## Contributing
 

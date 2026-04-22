@@ -6,6 +6,7 @@
 **Description:** Perform a fuzzy semantic search using qmd across raw docs.
 
 **Parameters:**
+
 ```json
 {
   "query": "string",
@@ -16,6 +17,7 @@
 **Returns:** `{ content: [{ type: "text", text: "..." }], details: {} }`
 
 **Behavior:**
+
 - Calls `qmd search <query> --limit <limit>`.
 - If qmd is not found, returns a clear error message asking the user to install it.
 - `limit` defaults to `qmd.defaultLimit` from config.
@@ -32,6 +34,7 @@
 **Returns:** Text output from `qmd status`.
 
 **Behavior:**
+
 - Reports total files indexed per collection, database size, and pending embeddings.
 - If qmd binary is missing, returns install instructions.
 
@@ -45,6 +48,7 @@
 **Description:** Search a named JSONL ledger deterministically.
 
 **Parameters:**
+
 ```json
 {
   "ledger": "string",
@@ -56,6 +60,7 @@
 **Returns:** `{ content: [{ type: "text", text: "JSON array" }], details: {} }`
 
 **Behavior:**
+
 - Unknown ledger → returns error listing available ledgers.
 - Missing file → prompts user to run `/qmd-init`.
 - Text search: concatenates all text fields in the schema and searches for substring.
@@ -70,6 +75,7 @@
 **Description:** Append an entry to a named ledger.
 
 **Parameters:**
+
 ```json
 {
   "ledger": "string",
@@ -95,6 +101,7 @@
 **Description:** Read or update config at runtime.
 
 **Parameters:**
+
 ```json
 {
   "action": "read | update",
@@ -105,6 +112,7 @@
 **Returns:** Current config as JSON text.
 
 **Behavior:**
+
 - `read` → returns merged config (file + env + defaults).
 - `update` → deep-merges `config` into existing file config and writes it back.
 - Creates file if it does not exist.
@@ -117,6 +125,7 @@
 **Description:** Introspect a named ledger to discover its schema, size, and sample entries.
 
 **Parameters:**
+
 ```json
 {
   "ledger": "string"
@@ -124,6 +133,7 @@
 ```
 
 **Returns:** Formatted report with:
+
 - Schema field list
 - Total entry count
 - Malformed line count (if any)
@@ -158,10 +168,11 @@
 **Description:** Export a named ledger to a portable format.
 
 **Parameters:**
+
 ```json
 {
   "ledger": "string",
-  "format": "json | csv | markdown"   // default: "json"
+  "format": "json | csv | markdown" // default: "json"
 }
 ```
 

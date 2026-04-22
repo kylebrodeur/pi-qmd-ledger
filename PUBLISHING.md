@@ -15,11 +15,11 @@ This extension is distributed as an npm package. Users install it via their pack
 
 This project follows [Semantic Versioning](https://semver.org/):
 
-| Change type | Version bump | Example |
-|---|---|---|
-| Bug fix | patch | `0.1.1` |
-| New tool/command (non-breaking) | minor | `0.2.0` |
-| Breaking change | major | `1.0.0` |
+| Change type                     | Version bump | Example |
+| ------------------------------- | ------------ | ------- |
+| Bug fix                         | patch        | `0.1.1` |
+| New tool/command (non-breaking) | minor        | `0.2.0` |
+| Breaking change                 | major        | `1.0.0` |
 
 ```bash
 # patch (bug fix)
@@ -77,9 +77,7 @@ Then register in their project's `package.json`:
 ```json
 {
   "pi": {
-    "extensions": [
-      "./node_modules/pi-qmd-ledger/dist/index.js"
-    ]
+    "extensions": ["./node_modules/pi-qmd-ledger/dist/index.js"]
   }
 }
 ```
@@ -103,12 +101,14 @@ The `files` field in `package.json` controls the npm tarball contents:
 ```
 
 These are auto-built at publish time:
+
 - `dist/` — compiled JavaScript output
 - `skills/` — Agent Skills standard SKILL.md and references
 - `templates/` — scaffold files for `/qmd-init`
 - `examples/` — domain-specific sample configs
 
 **Do NOT publish:**
+
 - `node_modules/`
 - `test/`
 - `.git/`

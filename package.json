@@ -48,16 +48,31 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "node --test dist/test/index.test.js"
+    "test": "node --test dist/test/index.test.js",
+    "lint": "eslint .",
+    "prettier": "prettier --write .",
+    "typecheck": "tsc --noEmit"
   },
-  "dependencies": {},
   "peerDependencies": {
     "@mariozechner/pi-coding-agent": "*",
     "@sinclair/typebox": "*"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/node": "^20.0.0",
+    "@types/prettier": "^3.0.0",
     "@types/readline-sync": "^1.4.8",
-    "typescript": "^5.0.0"
+    "@typescript-eslint/eslint-plugin": "^8.59.0",
+    "@typescript-eslint/parser": "^8.59.0",
+    "eslint": "^10.2.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsdoc": "^62.9.0",
+    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-vitest": "^0.5.4",
+    "globals": "^17.5.0",
+    "prettier": "^3.8.3",
+    "typescript": "^5.0.0",
+    "typescript-eslint": "^8.59.0"
   }
 }

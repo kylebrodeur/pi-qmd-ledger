@@ -5,6 +5,7 @@ Common issues and how to fix them.
 ## qmd binary not found
 
 **Symptom:**
+
 ```
 qmd binary "qmd" not found.
 ```
@@ -12,6 +13,7 @@ qmd binary "qmd" not found.
 Seen in: `/qmd-validate`, `qmd_search`, `/qmd-init`
 
 **Fix:**
+
 1. Download a prebuilt binary for your platform from the [qmd releases page](https://github.com/your-org/qmd/releases).
 2. Extract it to a folder on your PATH:
    ```bash
@@ -27,6 +29,7 @@ Seen in: `/qmd-validate`, `qmd_search`, `/qmd-init`
 4. Re-run `/qmd-validate`.
 
 **Alternative:** Build from source with Rust:
+
 ```bash
 cargo install qmd-cli
 ```
@@ -38,13 +41,17 @@ cargo install qmd-cli
 **Symptom:** `qmd_search`, `query_ledger`, etc. are not in pi's tool list.
 
 **Fix:**
+
 1. Verify the extension is installed:
+
    ```
    /pi list
    ```
+
    Look for `pi-qmd-ledger`.
 
 2. If missing, install:
+
    ```bash
    pi install npm:pi-qmd-ledger
    # or from git
@@ -76,6 +83,7 @@ cargo install qmd-cli
 ## Config file not found
 
 **Symptom:**
+
 ```
 ⚠️ No config file (checked pi-qmd-ledger.config.json, .pi/qmd-ledger.config.json).
 ```
@@ -84,6 +92,7 @@ cargo install qmd-cli
 Run `/qmd-init` in your project root to scaffold the config and ledger files.
 
 If you want a custom config location, set an env var:
+
 ```bash
 export QMD_LEDGER_CONFIG=/custom/path/config.json
 ```
@@ -93,6 +102,7 @@ export QMD_LEDGER_CONFIG=/custom/path/config.json
 ## Ledger files missing
 
 **Symptom:**
+
 ```
 Ledger "master" not found at ledger/master.jsonl. Run /qmd-init.
 ```
@@ -109,12 +119,15 @@ If you moved the config after scaffolding, the paths are relative to the config'
 **Symptom:** Typing `draft chapter-1` does not inject ledger entries.
 
 **Fix:**
+
 1. Check your config's injector `regex`. Example:
+
    ```json
    "injectors": [
      { "name": "draft-context", "regex": "draft\\s+(\\S+)", ... }
    ]
    ```
+
    → This matches `draft chapter-1` and captures `chapter-1`.
 
 2. Verify `filterField` matches a field in your entries. If `filterField: "tag"`, ensure entries have `tag: "chapter-1"`.
@@ -128,6 +141,7 @@ If you moved the config after scaffolding, the paths are relative to the config'
 **Symptom:** `append_ledger` with `mode: "autopilot"` returns "Duplicate detected".
 
 **Fix:**
+
 - The ledger has a `dedupField` (e.g., `fact`). Change the value for that field, or use `mode: "gated"` / `mode: "strict"` instead.
 - To bypass dedup temporarily, use `configure_ledger` to remove `dedupField` from the ledger config.
 
@@ -138,6 +152,7 @@ If you moved the config after scaffolding, the paths are relative to the config'
 **Symptom:** `ledger_export` returns an empty CSV or Markdown table.
 
 **Fix:**
+
 - Ensure the ledger file has entries. Run `query_ledger(filters={})` to confirm.
 - If using `csv` or `markdown` format, the schema fields must exist in the config. `describe_ledger` shows the schema.
 
@@ -148,6 +163,7 @@ If you moved the config after scaffolding, the paths are relative to the config'
 **Symptom:** pi does not show the `qmd-ledger` skill in `/skill:` commands.
 
 **Fix:**
+
 1. Verify the extension's `resources_discover` event fired. Check pi's startup output for extension load messages.
 2. Ensure `skills/qmd-ledger/SKILL.md` exists in the extension directory.
 3. The skill name must match the parent directory: `qmd-ledger`.
@@ -160,6 +176,7 @@ If you moved the config after scaffolding, the paths are relative to the config'
 **Symptom:** `qmd_search(query="...")` returns empty output even though documents exist.
 
 **Fix:**
+
 1. Check if documents are indexed: `qmd_status`
 2. If pending embeddings are high, run `/qmd-index` to rebuild.
 3. If no collections exist, add one:
@@ -176,6 +193,7 @@ If you moved the config after scaffolding, the paths are relative to the config'
 **Symptom:** `/qmd-approve` says "No pending entries" but `query_ledger(ledger="pending")` shows data.
 
 **Fix:**
+
 1. The pending ledger path may have changed after config edits. Check `ledger_stats` for the pending ledger path.
 2. If the file exists but is empty (only newlines), delete it and let gated mode recreate it:
    ```bash
@@ -188,6 +206,7 @@ If you moved the config after scaffolding, the paths are relative to the config'
 ## Still stuck?
 
 Open an issue at https://github.com/kylebrodeur/pi-qmd-ledger/issues with:
+
 - pi version (`pi --version`)
 - Node version (`node -v`)
 - `pi-qmd-ledger` version

@@ -60,11 +60,11 @@ Each test runs in a temp directory to avoid side effects. Tests use a mock Exten
 ### Adding a test
 
 ```typescript
-it("does something new", async () => {
-  const { api } = createMockApi();
-  extensionFactory(api as any);
+it('does something new', async () => {
+  const { api } = createMockApi()
+  extensionFactory(api as any)
   // ... exercise the tool command or event
-});
+})
 ```
 
 ## Code style
@@ -85,13 +85,13 @@ Longer explanation if needed. Wrap at 72 chars.
 Closes #123
 ```
 
-| Type | Use for |
-|---|---|
-| `feat` | New tool, command, config option |
-| `fix` | Bug fix |
-| `docs` | README, skill, reference changes |
-| `test` | Adding or fixing tests |
-| `chore` | Build, dependencies, tooling |
+| Type       | Use for                                  |
+| ---------- | ---------------------------------------- |
+| `feat`     | New tool, command, config option         |
+| `fix`      | Bug fix                                  |
+| `docs`     | README, skill, reference changes         |
+| `test`     | Adding or fixing tests                   |
+| `chore`    | Build, dependencies, tooling             |
 | `refactor` | Code change that is neither feat nor fix |
 
 ## Feature requests and bugs

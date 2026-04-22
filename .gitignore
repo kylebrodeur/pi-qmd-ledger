@@ -9,3 +9,4 @@ coverage/
 *.swo
 *~
 .pi/
+pi-session-*.html
