@@ -4,6 +4,12 @@ All notable changes to this project follow [Semantic Versioning](https://semver.
 
 ## [Unreleased]
 
+## [0.1.1] — 2026-04-22
+
+### Changed
+- qmd setup: prebuilt binary is now the recommended install path; `cargo install qmd-cli` moved to fallback
+- `/qmd-validate`, `/qmd-init`, and `qmd_search` now show platform-aware qmd install instructions when the binary is missing
+
 ## [0.1.0] — 2026-04-22
 
 ### Added

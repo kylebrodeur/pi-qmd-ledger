@@ -53,19 +53,25 @@ Universal append-only JSONL ledger with hybrid semantic search (qmd) and dynamic
 
 ```bash
 pi install npm:pi-qmd-ledger              # latest
-pi install npm:pi-qmd-ledger@0.1.0       # pinned
+pi install npm:pi-qmd-ledger@0.1.1       # pinned
 pi -e npm:pi-qmd-ledger                  # try without installing
 ```
 
-### 2. Install from npm (classic)
+Or from git (SSH):
 
 ```bash
-npm install pi-qmd-ledger
-# or
-pnpm add pi-qmd-ledger
-# or
-yarn add pi-qmd-ledger
+pi install git:git@github.com:kylebrodeur/pi-qmd-ledger
+pi install git:git@github.com:kylebrodeur/pi-qmd-ledger@v0.1.1
 ```
+
+### 2. Verify the install
+
+```
+/pi list
+/qmd-validate
+```
+
+You should see `pi-qmd-ledger` in the package list and a green health check for qmd, config, and ledgers.
 
 ### 3. Scaffold your ledger
 
@@ -82,7 +88,29 @@ This creates `pi-qmd-ledger.config.json` and empty ledger files.
 
 Edit `pi-qmd-ledger.config.json` to match your domain. See [Config Reference](skills/qmd-ledger/references/config-reference.md).
 
-## Installing from source
+### Install from npm (classic)
+
+If you are not using pi's package manager:
+
+```bash
+npm install pi-qmd-ledger
+# or
+pnpm add pi-qmd-ledger
+# or
+yarn add pi-qmd-ledger
+```
+
+Then register in your project's `package.json`:
+
+```json
+{
+  "pi": {
+    "extensions": ["./node_modules/pi-qmd-ledger/dist/index.js"]
+  }
+}
+```
+
+### Installing from source
 
 ```bash
 git clone https://github.com/kylebrodeur/pi-qmd-ledger.git
@@ -164,6 +192,7 @@ pnpm install && pnpm build
 | [Skill](skills/qmd-ledger/SKILL.md) | What pi auto-loads about this extension |
 | [Config Reference](skills/qmd-ledger/references/config-reference.md) | Full config schema, env overrides, resolution order |
 | [Tool Reference](skills/qmd-ledger/references/tool-reference.md) | All 7 tools: parameters, behavior, return types |
+| [Troubleshooting](TROUBLESHOOTING.md) | Common issues and fixes |
 
 ## Contributing
 
