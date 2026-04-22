@@ -66,7 +66,7 @@ function createMockExtensionContext(cwd: string) {
 }
 
 describe("Extension registration", () => {
-  it("registers all 7 tools", () => {
+  it("registers all 8 tools", () => {
     const { api, tools } = createMockApi();
     extensionFactory(api as any);
     const names = tools.map(t => t.name).sort();
@@ -77,15 +77,16 @@ describe("Extension registration", () => {
       "ledger_export",
       "ledger_stats",
       "qmd_search",
+      "qmd_status",
       "query_ledger",
     ]);
   });
 
-  it("registers all 3 commands", () => {
+  it("registers all 4 commands", () => {
     const { api, commands } = createMockApi();
     extensionFactory(api as any);
     const names = commands.map(c => c.name).sort();
-    assert.deepStrictEqual(names, ["qmd-approve", "qmd-init", "qmd-validate"]);
+    assert.deepStrictEqual(names, ["qmd-approve", "qmd-index", "qmd-init", "qmd-validate"]);
   });
 
   it("registers 2 events", () => {

@@ -587,6 +587,67 @@ export default function (pi: ExtensionAPI) {
         }
     });
 
+    /* ── qmd_status ── */
+    pi.registerTool({
+        name: "qmd_status",
+        label: "QMD Status",
+        description: "Show qmd index status: collections, indexed documents, and pending embeddings.",
+        parameters: Type.Object({}),
+        async execute(_id, _params, _signal, _onUpdate, _ctx: ExtensionContext) {
+            return new Promise<any>((resolve) => {
+                child_process.execFile(
+                    "qmd",
+                    ["status"],
+                    { maxBuffer: 10 * 1024 * 1024 },
+                    (error, stdout, stderr) => {
+                        if (error) {
+                            resolve({ content: [{ type: "text", text: qmdInstructions() + "\n\n" + stderr }], details: {} });
+                            return;
+                        }
+                        const msg = stdout + (stderr ? "\n" + stderr : "");
+                        resolve({ content: [{ type: "text", text: msg }], details: {} });
+                    }
+                );
+            });
+        }
+    });
+
+    /* ── /qmd-index ── */
+    pi.registerCommand("qmd-index", {
+        description: "Re-index all qmd collections (full-text) and optionally run embeddings. Run after adding new documents.",
+        handler: async (args, ctx: ExtensionContext) => {
+            const qmdBin = "qmd";
+            const embed = args.trim().toLowerCase() !== "--no-embed";
+
+            const lines: string[] = [];
+
+            // Run qmd update
+            const update = child_process.spawnSync(qmdBin, ["update"], { encoding: "utf-8", cwd: ctx.cwd });
+            if (update.error) {
+                lines.push(`❌ qmd update failed: ${update.error.message}`);
+                lines.push(qmdInstructions());
+                ctx.ui.notify(lines.join("\n"), "error");
+                return;
+            }
+            lines.push(`✅ qmd update:\n${update.stdout}${update.stderr ? "\n" + update.stderr : ""}`);
+
+            if (embed) {
+                const emb = child_process.spawnSync(qmdBin, ["embed"], { encoding: "utf-8", cwd: ctx.cwd });
+                if (emb.error) {
+                    lines.push(`❌ qmd embed failed: ${emb.error.message}`);
+                } else {
+                    lines.push(`✅ qmd embed:\n${emb.stdout}${emb.stderr ? "\n" + emb.stderr : ""}`);
+                }
+            } else {
+                lines.push(`⏭️  Skipped embeddings (pass --no-embed to skip).`);
+            }
+
+            const msg = lines.join("\n\n");
+            if (ctx.hasUI) ctx.ui.notify(msg, "info");
+            return;
+        }
+    });
+
     /* ── /qmd-approve ── */
     pi.registerCommand("qmd-approve", {
         description: "Batch-review pending entries and migrate approved ones to their target ledger.",
