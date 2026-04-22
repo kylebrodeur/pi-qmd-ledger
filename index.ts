@@ -144,6 +144,28 @@ function ledgerNames(cfg: UniversalConfig): string[] {
     return Object.keys(cfg.ledgers);
 }
 
+/* ── qmd install helper ── */
+function qmdInstructions(binary?: string): string {
+    return [
+        `qmd binary "${binary || "qmd"}" not found.`,
+        ``,
+        `Install qmd with Rust/Cargo:`,
+        `  cargo install qmd-cli`,
+        ``,
+        `Or download a prebuilt binary from the qmd releases page,`,
+        `then set the env var and restart pi:`,
+        `  export QMD_BINARY=/path/to/qmd`,
+    ].join("\n");
+}
+
+function checkQmd(binary?: string): { ok: boolean; version?: string; instructions?: string } {
+    const result = child_process.spawnSync(binary || "qmd", ["--version"], { encoding: "utf-8" });
+    if (result.error) {
+        return { ok: false, instructions: qmdInstructions(binary) };
+    }
+    return { ok: true, version: result.stdout.trim() };
+}
+
 /* ═══════════════════════════════════════
    MAIN EXTENSION
    ═══════════════════════════════════════ */
@@ -163,11 +185,13 @@ export default function (pi: ExtensionAPI) {
             const lines: string[] = [];
 
             // qmd
-            const qmd = child_process.spawnSync(cfg.qmd.binary || "qmd", ["--version"], { encoding: "utf-8" });
-            lines.push(qmd.error
-                ? `❌ qmd binary "${cfg.qmd.binary}" not found.`
-                : `✅ qmd: ${cfg.qmd.binary} (${qmd.stdout.trim()})`
-            );
+            const qmd = checkQmd(cfg.qmd.binary || "qmd");
+            if (qmd.ok) {
+                lines.push(`✅ qmd: ${cfg.qmd.binary || "qmd"} (${qmd.version})`);
+            } else {
+                lines.push(`❌ qmd binary "${cfg.qmd.binary || "qmd"}" not found.`);
+                lines.push(`\n${qmd.instructions}`);
+            }
 
             // config
             const cfgPath = findConfig(ctx.cwd);
@@ -268,7 +292,7 @@ export default function (pi: ExtensionAPI) {
                         if (error) {
                             const code = (error as any).code;
                             resolve({ content: [{ type: "text", text: code === "ENOENT"
-                                ? `qmd binary "${cfg.qmd.binary}" not found.`
+                                ? `qmd binary "${cfg.qmd.binary}" not found.\n\n${qmdInstructions(cfg.qmd.binary)}`
                                 : `Error: ${error.message}\n${stderr}` }], details: {} });
                             return;
                         }
@@ -477,8 +501,8 @@ export default function (pi: ExtensionAPI) {
             lines.push(``);
 
             // qmd version
-            const qmd = child_process.spawnSync(cfg.qmd.binary || "qmd", ["--version"], { encoding: "utf-8" });
-            lines.push(`qmd binary: ${cfg.qmd.binary || "qmd"} ${qmd.error ? "(not found)" : qmd.stdout.trim()}`);
+            const qmd = checkQmd(cfg.qmd.binary || "qmd");
+            lines.push(`qmd binary: ${cfg.qmd.binary || "qmd"} ${qmd.ok ? (qmd.version || "") : "(not found — run /qmd-validate for install instructions)"}`);
             lines.push(`Default search limit: ${cfg.qmd.defaultLimit}`);
             lines.push(`Max buffer: ${cfg.qmd.maxBuffer}`);
             lines.push(`Injectors: ${cfg.injectors.length}`);
