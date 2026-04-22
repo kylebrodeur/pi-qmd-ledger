@@ -1,8 +1,11 @@
 # pi-qmd-ledger
 
-Universal append-only JSONL ledger with hybrid semantic search (qmd) and dynamic context injection for [pi](https://github.com/mariozechner/pi).
-
+[![npm version](https://img.shields.io/npm/v/pi-qmd-ledger)](https://www.npmjs.com/package/pi-qmd-ledger)
+[![CI](https://github.com/kylebrodeur/pi-qmd-ledger/actions/workflows/ci.yml/badge.svg)](https://github.com/kylebrodeur/pi-qmd-ledger/actions/workflows/ci.yml)
+[![license](https://img.shields.io/npm/l/pi-qmd-ledger)](LICENSE)
 [![pi-extension](https://img.shields.io/badge/pi-extension-blue)](https://github.com/mariozechner/pi)
+
+Universal append-only JSONL ledger with hybrid semantic search (qmd) and dynamic context injection for [pi](https://github.com/mariozechner/pi).
 
 ## Features
 
@@ -42,38 +45,40 @@ Universal append-only JSONL ledger with hybrid semantic search (qmd) and dynamic
 
 ## Quick Start
 
-### 1. Install qmd
+### Prerequisites
+
+- **qmd** binary installed (`cargo install qmd-cli`)
+- **Node.js** 18+ and **pnpm**
+
+### 1. Install from npm
 
 ```bash
-cargo install qmd-cli
-# or download a release
+pnpm add -D pi-qmd-ledger
+# or
+npm install --save-dev pi-qmd-ledger
+# or
+yarn add -D pi-qmd-ledger
 ```
 
-### 2. Install the extension
-
-```bash
-git clone <this-repo>
-cd pi-qmd-ledger
-pnpm install && pnpm build
-```
-
-### 3. Register as a pi extension
+### 2. Register as a pi extension
 
 In your project's `package.json`:
 
 ```json
 {
   "pi": {
-    "extensions": ["/path/to/pi-qmd-ledger/dist/index.js"]
+    "extensions": [
+      "./node_modules/pi-qmd-ledger/dist/index.js"
+    ]
   }
 }
 ```
 
-Or in pi config. Then restart pi.
+Or in your pi config (e.g. `~/.pi/settings.json`). Restart pi.
 
-### 4. Scaffold your ledger
+### 3. Scaffold your ledger
 
-Inside any project you want to use the ledger:
+Inside any project:
 
 ```
 /qmd-init
@@ -82,9 +87,17 @@ Inside any project you want to use the ledger:
 
 This creates `pi-qmd-ledger.config.json` and empty ledger files.
 
-### 5. Adapt the config
+### 4. Adapt the config
 
-Edit `pi-qmd-ledger.config.json` to match your domain. See [skills/qmd-ledger/references/config-reference.md](skills/qmd-ledger/references/config-reference.md).
+Edit `pi-qmd-ledger.config.json` to match your domain. See [Config Reference](skills/qmd-ledger/references/config-reference.md).
+
+## Installing from source
+
+```bash
+git clone https://github.com/kylebrodeur/pi-qmd-ledger.git
+cd pi-qmd-ledger
+pnpm install && pnpm build
+```
 
 ## Example domains
 
@@ -155,10 +168,16 @@ Edit `pi-qmd-ledger.config.json` to match your domain. See [skills/qmd-ledger/re
 
 ## Documentation
 
-- [Skill documentation](skills/qmd-ledger/SKILL.md) — what pi sees about this extension
-- [Config reference](skills/qmd-ledger/references/config-reference.md) — full config schema
-- [Tool reference](skills/qmd-ledger/references/tool-reference.md) — parameters and behavior
+| Doc | Description |
+|---|---|
+| [Skill](skills/qmd-ledger/SKILL.md) | What pi auto-loads about this extension |
+| [Config Reference](skills/qmd-ledger/references/config-reference.md) | Full config schema, env overrides, resolution order |
+| [Tool Reference](skills/qmd-ledger/references/tool-reference.md) | All 7 tools: parameters, behavior, return types |
 
 ## Contributing
 
-This extension is open-source. PRs welcome for new example configs, additional reference docs, and bug fixes.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for dev setup, testing, and commit conventions.
+
+## License
+
+MIT — see [LICENSE](LICENSE) (or package.json).

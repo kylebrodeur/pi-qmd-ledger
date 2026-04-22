@@ -27,8 +27,16 @@
     "knowledge-base",
     "agent-tools"
   ],
-  "author": "",
+  "author": "Kyle Brodeur <kyle@example.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylebrodeur/pi-qmd-ledger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kylebrodeur/pi-qmd-ledger/issues"
+  },
+  "homepage": "https://github.com/kylebrodeur/pi-qmd-ledger#readme",
   "scripts": {
     "build": "tsc",
     "test": "node --test dist/test/index.test.js"
