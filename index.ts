@@ -281,8 +281,14 @@ export default function (pi: ExtensionAPI) {
     pi.registerTool({
         name: "qmd_search",
         label: "QMD Search",
-        description: "Perform a fuzzy semantic search using qmd across the raw docs.",
-        parameters: Type.Object({ query: Type.String(), limit: Type.Optional(Type.Number()) }),
+        description: "Perform a fuzzy semantic search using qmd across indexed raw documents.",
+        promptSnippet: "qmd_search(query=\"...\", limit=5) — semantic search over your docs.",
+        promptGuidelines: [
+            "Use qmd_search when you need to find relevant context before writing or verifying facts.",
+            "If qmd_search returns nothing, try /qmd-index to rebuild indexes.",
+            "The query parameter should be a natural-language question or topic, not a strict keyword.",
+        ],
+        parameters: Type.Object({ query: Type.String({ description: "Natural-language search query (e.g., 'user auth flow', 'database migration strategy')" }), limit: Type.Optional(Type.Number({ description: "Max results (default from config, typically 5)" })) }),
         async execute(_id, params, _signal, _onUpdate, ctx: ExtensionContext) {
             const cfg = loadConfig(ctx.cwd);
             const limit = params.limit ?? cfg.qmd.defaultLimit ?? 5;
@@ -310,11 +316,17 @@ export default function (pi: ExtensionAPI) {
     pi.registerTool({
         name: "query_ledger",
         label: "Query Ledger",
-        description: "Search a named JSONL ledger. Returns exact matching entries.",
+        description: "Deterministic JSONL search by ledger name. Use for exact lookups and filtered retrieval.",
+        promptSnippet: "query_ledger(ledger=\"master\", query=\"...\", filters={key: \"value\"}) — exact ledger search.",
+        promptGuidelines: [
+            "Use query_ledger when you already know the ledger name and need exact matches (e.g., all entries with tag='login').",
+            "query does substring search across all text fields; filters does exact key-value matching.",
+            "If the ledger is missing, run /qmd-init first.",
+        ],
         parameters: Type.Object({
-            ledger: Type.String({ description: "Ledger name (e.g. master, pending)" }),
-            query: Type.Optional(Type.String({ description: "Free-text search across all text fields" })),
-            filters: Type.Optional(Type.Record(Type.String(), Type.String(), { description: "Exact field matches" })),
+            ledger: Type.String({ description: "Ledger name to search (e.g. master, pending)" }),
+            query: Type.Optional(Type.String({ description: "Free-text substring search across all text fields of entries" })),
+            filters: Type.Optional(Type.Record(Type.String(), Type.String(), { description: "Exact {field: value} matches (ANDed together)" })),
         }),
         async execute(_id, params, _signal, _onUpdate, ctx: ExtensionContext) {
             const cfg = loadConfig(ctx.cwd);
@@ -323,7 +335,7 @@ export default function (pi: ExtensionAPI) {
                 return { content: [{ type: "text", text: `Unknown ledger "${params.ledger}". Available: ${ledgerNames(cfg).join(", ")}` }], details: {} };
             }
             if (!fs.existsSync(def.path)) {
-                return { content: [{ type: "text", text: `Ledger "${params.ledger}" not found at ${def.path}. Run /init_ledger.` }], details: {} };
+                return { content: [{ type: "text", text: `Ledger "${params.ledger}" not found at ${def.path}. Run /qmd-init.` }], details: {} };
             }
 
             const lines = fs.readFileSync(def.path, "utf-8").split("\n").filter(Boolean);
@@ -357,14 +369,16 @@ export default function (pi: ExtensionAPI) {
     pi.registerTool({
         name: "append_ledger",
         label: "Append Ledger",
-        description: "Append an entry to a named ledger. Strict asks human; gated queues for review; autopilot auto-appends.",
+        description: "Append an entry to a named ledger. Use autopilot for draft work; gated for review; strict for critical facts.",
+        promptSnippet: "append_ledger(ledger=\"master\", mode=\"autopilot\", entry={...}) — append a fact.",
         promptGuidelines: [
-            "Call /validate_setup first if unsure which ledgers exist.",
-            "The entry object keys must match the ledger schema.",
-            "Autopilot prevents duplicates using the ledger's dedupField (if configured).",
+            "Use autopilot mode for everyday notes; it deduplicates using dedupField automatically.",
+            "Use gated mode when the fact needs human review (queues in pending ledger).",
+            "Use strict mode only for the most sensitive facts requiring explicit user confirmation.",
+            "Entry keys must match the ledger schema. Call describe_ledger first if unsure.",
         ],
         parameters: Type.Object({
-            ledger: Type.String({ description: "Target ledger name" }),
+            ledger: Type.String({ description: "Target ledger name (call describe_ledger if unsure)" }),
             mode: Type.Union([Type.Literal("strict"), Type.Literal("gated"), Type.Literal("autopilot")]),
             entry: Type.Record(Type.String(), Type.String(), { description: "Field-key → value map matching the ledger schema" }),
         }),
@@ -414,7 +428,12 @@ export default function (pi: ExtensionAPI) {
     pi.registerTool({
         name: "configure_ledger",
         label: "Configure Ledger",
-        description: "Read or update the pi-qmd-ledger config at runtime. Returns current config after any changes.",
+        description: "Read or update the pi-qmd-ledger config at runtime. Returns the merged config after changes.",
+        promptSnippet: "configure_ledger(action=\"read\") — inspect current config.",
+        promptGuidelines: [
+            "Use configure_ledger(action='read') when you need to know the current schema, ledger paths, or injectors.",
+            "Use configure_ledger(action='update', config={...}) when the user wants to change schema, add ledgers, or modify injectors.",
+        ],
         parameters: Type.Object({
             action: Type.Union([Type.Literal("read"), Type.Literal("update")]),
             config: Type.Optional(Type.Record(Type.String(), Type.Any(), { description: "Partial config object to merge (update mode only)" })),
@@ -444,7 +463,12 @@ export default function (pi: ExtensionAPI) {
     pi.registerTool({
         name: "describe_ledger",
         label: "Describe Ledger",
-        description: "Introspect a named ledger: schema, entry count, and sample entries.",
+        description: "Introspect a named ledger: schema, entry count, and sample first/last entries.",
+        promptSnippet: "describe_ledger(ledger=\"master\") — get schema and sample entries.",
+        promptGuidelines: [
+            "Call describe_ledger before append_ledger if you are unsure what fields the ledger expects.",
+            "Use it to quickly check ledger health (total entries, malformed lines, schema).",
+        ],
         parameters: Type.Object({
             ledger: Type.String({ description: "Ledger name to inspect" }),
         }),
@@ -494,7 +518,12 @@ export default function (pi: ExtensionAPI) {
     pi.registerTool({
         name: "ledger_stats",
         label: "Ledger Stats",
-        description: "Dashboard: entry counts, pending queue size, config path, and qmd version for all ledgers.",
+        description: "Dashboard of all ledgers: counts, sizes, pending queue size, and qmd version.",
+        promptSnippet: "ledger_stats() — show all ledger counts and qmd health.",
+        promptGuidelines: [
+            "Call ledger_stats for a quick overview before writing or after a batch of appends.",
+            "If qmd is missing, the output includes a pointer to /qmd-validate for install instructions.",
+        ],
         parameters: Type.Object({}),
         async execute(_id, _params, _signal, _onUpdate, ctx: ExtensionContext) {
             const cfg = loadConfig(ctx.cwd);
@@ -537,7 +566,12 @@ export default function (pi: ExtensionAPI) {
     pi.registerTool({
         name: "ledger_export",
         label: "Ledger Export",
-        description: "Export a named ledger to JSON array, CSV, or Markdown table.",
+        description: "Export a named ledger to JSON array, CSV, or Markdown table for sharing.",
+        promptSnippet: "ledger_export(ledger=\"master\", format=\"json\") — export a ledger.",
+        promptGuidelines: [
+            "Use ledger_export when the user wants to share, archive, or import ledger data elsewhere.",
+            "If exporting to CSV or Markdown, the schema keys become column headers.",
+        ],
         parameters: Type.Object({
             ledger: Type.String({ description: "Ledger name to export" }),
             format: Type.Union([Type.Literal("json"), Type.Literal("csv"), Type.Literal("markdown")], { description: "Export format (default json)" }),
@@ -591,7 +625,12 @@ export default function (pi: ExtensionAPI) {
     pi.registerTool({
         name: "qmd_status",
         label: "QMD Status",
-        description: "Show qmd index status: collections, indexed documents, and pending embeddings.",
+        description: "Show qmd index state: collections, indexed documents, and pending embeddings.",
+        promptSnippet: "qmd_status() — check what docs are indexed and whether embeddings are stale.",
+        promptGuidelines: [
+            "Call qmd_status before qmd_search to confirm documents are indexed.",
+            "If the output shows many pending embeddings, run /qmd-index to rebuild.",
+        ],
         parameters: Type.Object({}),
         async execute(_id, _params, _signal, _onUpdate, _ctx: ExtensionContext) {
             return new Promise<any>((resolve) => {
@@ -651,6 +690,11 @@ export default function (pi: ExtensionAPI) {
     /* ── /qmd-approve ── */
     pi.registerCommand("qmd-approve", {
         description: "Batch-review pending entries and migrate approved ones to their target ledger.",
+        getArgumentCompletions: (prefix) => {
+            const cfg = loadConfig(process.cwd());
+            const names = Object.keys(cfg.ledgers).filter(n => n.startsWith(prefix));
+            return names.map(n => ({ label: n, value: n, description: cfg.ledgers[n].path }));
+        },
         handler: async (args, ctx: ExtensionContext) => {
             const cfg = loadConfig(ctx.cwd);
             const pending = cfg.ledgers["pending"];

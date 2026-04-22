@@ -104,6 +104,11 @@ Fuzzy semantic search across raw docs using the qmd engine.
 - `query` (string) — search text
 - `limit` (number, optional) — max results (default from config)
 
+### qmd_status
+Show qmd index state: collections, indexed document counts, and pending embeddings.
+
+Takes no parameters. Returns the output of `qmd status` as text.
+
 ### query_ledger
 Deterministic JSONL search by ledger name.
 
@@ -149,14 +154,26 @@ Export a ledger to JSON array, CSV, or Markdown table.
 
 - `/qmd-init` — scaffold config + empty ledgers + artifact template
 - `/qmd-validate` — health check: qmd binary, config, all ledger paths, injectors
-- `/qmd-approve [target]` — batch-review pending entries. Default target is "master"
+- `/qmd-index [--no-embed]` — re-index all collections (BM25 full-text + embeddings)
+- `/qmd-approve [target]` — batch-review pending entries. Default target is `master`
 
 ## Workflow
 
-### 1. Scaffold
+### 1. Scaffold and index
 ```
 /qmd-init
 /qmd-validate
+qmd_status
+```
+
+If qmd has no collections, add one:
+```bash
+qmd collection add ./docs --name my-docs
+```
+
+Then build the index:
+```
+/qmd-index
 ```
 
 ### 2. Capture facts

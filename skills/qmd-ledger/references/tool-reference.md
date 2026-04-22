@@ -22,6 +22,23 @@
 
 ---
 
+## qmd_status
+
+**Label:** QMD Status  
+**Description:** Show qmd index state: collections, indexed documents, and pending embeddings.
+
+**Parameters:** None.
+
+**Returns:** Text output from `qmd status`.
+
+**Behavior:**
+- Reports total files indexed per collection, database size, and pending embeddings.
+- If qmd binary is missing, returns install instructions.
+
+**Use before `/qmd-index`** to see if embeddings are stale.
+
+---
+
 ## query_ledger
 
 **Label:** Query Ledger  

@@ -53,7 +53,7 @@ Universal append-only JSONL ledger with hybrid semantic search (qmd) and dynamic
 
 ```bash
 pi install npm:pi-qmd-ledger              # latest
-pi install npm:pi-qmd-ledger@0.1.1       # pinned
+pi install npm:pi-qmd-ledger@0.1.3       # pinned
 pi -e npm:pi-qmd-ledger                  # try without installing
 ```
 
@@ -84,7 +84,22 @@ Inside any project:
 
 This creates `pi-qmd-ledger.config.json` and empty ledger files.
 
-### 4. Adapt the config
+### 4. Index your documents
+
+Before `qmd_search` works, you need to build the search index:
+
+```bash
+# Add a collection (run from the directory containing your .md files)
+qmd collection add ./docs --name my-docs
+
+# Build the full-text (BM25) and vector indexes
+/qmd-index
+
+# Check status
+qmd_status
+```
+
+### 5. Adapt the config
 
 Edit `pi-qmd-ledger.config.json` to match your domain. See [Config Reference](skills/qmd-ledger/references/config-reference.md).
 
@@ -170,6 +185,7 @@ pnpm install && pnpm build
 | Tool | Purpose |
 |---|---|
 | `qmd_search` | Fuzzy semantic search via qmd |
+| `qmd_status` | Show qmd collections, indexed docs, and embedding state |
 | `query_ledger` | Deterministic JSONL search by ledger name |
 | `append_ledger` | Append with strict/gated/autopilot modes |
 | `configure_ledger` | Read or update config at runtime |
@@ -183,6 +199,7 @@ pnpm install && pnpm build
 |---|---|
 | `/qmd-init` | Scaffold config + ledgers + artifact templates |
 | `/qmd-validate` | Health check everything |
+| `/qmd-index [--no-embed]` | Re-index all collections (BM25 + embeddings) |
 | `/qmd-approve [target]` | Batch-review pending entries |
 
 ## Documentation
