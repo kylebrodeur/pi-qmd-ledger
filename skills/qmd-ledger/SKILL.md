@@ -21,12 +21,12 @@ Universal append-only JSONL ledger with hybrid semantic search (qmd) and dynamic
    ```bash
    cargo install qmd-cli   # or equivalent for your platform
    ```
-2. **pi-qmd-ledger extension** must be registered as a pi extension. Install it:
+2. **pi-qmd-ledger extension** must be installed via pi:
    ```bash
-   cd /path/to/pi-qmd-ledger
-   pnpm install && pnpm build
+   pi install npm:pi-qmd-ledger
+   # or try without installing
+   pi -e npm:pi-qmd-ledger
    ```
-   Then add to the project's `package.json` under `pi.extensions` or `piConfig.extensions`.
 
 ## Quick Start
 

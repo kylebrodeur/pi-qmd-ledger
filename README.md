@@ -1,7 +1,6 @@
 # pi-qmd-ledger
 
 [![npm version](https://img.shields.io/npm/v/pi-qmd-ledger)](https://www.npmjs.com/package/pi-qmd-ledger)
-[![CI](https://github.com/kylebrodeur/pi-qmd-ledger/actions/workflows/ci.yml/badge.svg)](https://github.com/kylebrodeur/pi-qmd-ledger/actions/workflows/ci.yml)
 [![license](https://img.shields.io/npm/l/pi-qmd-ledger)](LICENSE)
 [![pi-extension](https://img.shields.io/badge/pi-extension-blue)](https://github.com/mariozechner/pi)
 
@@ -48,33 +47,25 @@ Universal append-only JSONL ledger with hybrid semantic search (qmd) and dynamic
 ### Prerequisites
 
 - **qmd** binary installed (`cargo install qmd-cli`)
-- **Node.js** 18+ and **pnpm**
+- **Node.js** 18+
 
-### 1. Install from npm
+### 1. Install with pi
 
 ```bash
-pnpm add -D pi-qmd-ledger
-# or
-npm install --save-dev pi-qmd-ledger
-# or
-yarn add -D pi-qmd-ledger
+pi install npm:pi-qmd-ledger              # latest
+pi install npm:pi-qmd-ledger@0.1.0       # pinned
+pi -e npm:pi-qmd-ledger                  # try without installing
 ```
 
-### 2. Register as a pi extension
+### 2. Install from npm (classic)
 
-In your project's `package.json`:
-
-```json
-{
-  "pi": {
-    "extensions": [
-      "./node_modules/pi-qmd-ledger/dist/index.js"
-    ]
-  }
-}
+```bash
+npm install pi-qmd-ledger
+# or
+pnpm add pi-qmd-ledger
+# or
+yarn add pi-qmd-ledger
 ```
-
-Or in your pi config (e.g. `~/.pi/settings.json`). Restart pi.
 
 ### 3. Scaffold your ledger
 
