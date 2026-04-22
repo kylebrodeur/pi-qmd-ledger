@@ -10,24 +10,22 @@
     "templates",
     "examples",
     "CHANGELOG.md",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
-  "pi": {
-    "extensions": [
-      "./dist/index.js"
-    ]
-  },
   "keywords": [
-    "pi",
+    "pi-package",
     "pi-extension",
     "ledger",
     "jsonl",
     "qmd",
     "search",
     "knowledge-base",
-    "agent-tools"
+    "agent-tools",
+    "hitl",
+    "semantic-search"
   ],
-  "author": "Kyle Brodeur <kyle@example.com>",
+  "author": "Kyle Brodeur",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -37,13 +35,21 @@
     "url": "https://github.com/kylebrodeur/pi-qmd-ledger/issues"
   },
   "homepage": "https://github.com/kylebrodeur/pi-qmd-ledger#readme",
+  "engines": {
+    "node": ">=20.6.0"
+  },
+  "pi": {
+    "extensions": ["./dist/index.js"],
+    "skills": ["./skills"]
+  },
   "scripts": {
     "build": "tsc",
     "test": "node --test dist/test/index.test.js"
   },
-  "dependencies": {
-    "@mariozechner/pi-coding-agent": "^0.68.0",
-    "@sinclair/typebox": "^0.34.49"
+  "dependencies": {},
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@sinclair/typebox": "*"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
