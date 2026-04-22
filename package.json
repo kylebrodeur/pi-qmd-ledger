@@ -1,15 +1,37 @@
 {
   "name": "pi-qmd-ledger",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Universal configurable JSONL ledger with qmd hybrid search, tiered HITL, and dynamic context injection.",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "skills",
+    "templates",
+    "examples",
+    "CHANGELOG.md",
+    "README.md"
+  ],
   "pi": {
     "extensions": [
       "./dist/index.js"
     ]
   },
+  "keywords": [
+    "pi",
+    "pi-extension",
+    "ledger",
+    "jsonl",
+    "qmd",
+    "search",
+    "knowledge-base",
+    "agent-tools"
+  ],
+  "author": "",
+  "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "node --test dist/test/index.test.js"
   },
   "dependencies": {
     "@mariozechner/pi-coding-agent": "^0.68.0",

@@ -1,0 +1,36 @@
+# Changelog
+
+All notable changes to this project follow [Semantic Versioning](https://semver.org/).
+
+## [Unreleased]
+
+## [0.1.0] — 2026-04-22
+
+### Added
+- Universal configurable JSONL ledger system with user-defined schemas
+- 7 tools:
+  - `qmd_search` — fuzzy semantic search via qmd binary
+  - `query_ledger` — deterministic JSONL search with text + filter queries
+  - `append_ledger` — HITL append (strict / gated / autopilot) with dedup
+  - `configure_ledger` — read / write config at runtime
+  - `describe_ledger` — introspect schema, counts, sample entries
+  - `ledger_stats` — dashboard of all ledgers + qmd health
+  - `ledger_export` — export to JSON, CSV, or Markdown
+- 3 commands:
+  - `/qmd-init` — scaffold config, ledgers, and artifact templates
+  - `/qmd-validate` — health check qmd, config, and all ledger paths
+  - `/qmd-approve [target]` — batch-review pending entries
+- 2 events:
+  - `resources_discover` — auto-expose skills directory to pi
+  - `before_agent_start` — dynamic injector system for context injection
+- Config v2 with `ledgers`, `injectors`, and `qmd` sections
+- Schema inheritance (ledger schema can reference another ledger by name)
+- `dedupField` per ledger for autopilot duplicate prevention
+- Domain-agnostic architecture — works for research, decisions, requirements, etc.
+- 3 example domain configs: research, decisions, requirements
+- Agent Skills standard skill at `skills/qmd-ledger/SKILL.md`
+- Scaffold templates for config, ledgers, and artifacts
+- Full reference docs for config and tools
+- Comprehensive test suite with mock pi ExtensionAPI
+
+[0.1.0]: https://github.com/badlogic/pi-qmd-ledger/releases/tag/v0.1.0
