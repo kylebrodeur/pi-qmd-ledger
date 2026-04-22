@@ -149,12 +149,15 @@ function qmdInstructions(binary?: string): string {
     return [
         `qmd binary "${binary || "qmd"}" not found.`,
         ``,
-        `Install qmd with Rust/Cargo:`,
+        `Quick install (prebuilt binary):`,
+        `  1. Download for your platform from the qmd releases page`,
+        `  2. Extract the binary to a folder on your PATH (e.g. /usr/local/bin)`,
+        `  3. Or set the env var: export QMD_BINARY=/path/to/qmd`,
+        ``,
+        `Build from source (requires Rust):`,
         `  cargo install qmd-cli`,
         ``,
-        `Or download a prebuilt binary from the qmd releases page,`,
-        `then set the env var and restart pi:`,
-        `  export QMD_BINARY=/path/to/qmd`,
+        `Then restart pi and run /qmd-validate.`,
     ].join("\n");
 }
 

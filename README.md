@@ -46,7 +46,7 @@ Universal append-only JSONL ledger with hybrid semantic search (qmd) and dynamic
 
 ### Prerequisites
 
-- **qmd** binary installed (`cargo install qmd-cli`)
+- **qmd** binary on PATH (prebuilt or via `cargo install qmd-cli`)
 - **Node.js** 18+
 
 ### 1. Install with pi
