@@ -178,10 +178,11 @@ Expected output: 17 tests across 5 test suites, all passing.
 - Developer documentation and learnings
 - Architecture visualization for context injection flow (generated at /tmp/pi-visuals/pi-qmd-ledger-architecture.html)
 - **Extension compatibility framework with pi-context integration**
+- **pi-context event indexing and 'context_events' ledger**
 
 ### 🔄 In Progress
 
-- None currently
+- [ ] Fully implement `enhanceInjectors` for pi-context integration
 
 ### 📋 Upcoming
 
@@ -191,7 +192,6 @@ Expected output: 17 tests across 5 test suites, all passing.
 - [ ] Create a `CONTRIBUTING.md` for contributor onboarding
 - [ ] Add advanced qmd configuration (custom embeddings, custom models)
 - [ ] Add ledger migration tools for schema changes
-- [ ] **Fully implement `enhanceInjectors` for pi-context integration**
 
 ---
 
@@ -212,9 +212,9 @@ Expected output: 17 tests across 5 test suites, all passing.
 
 ### Version Management
 
-- **Current Version**: 0.1.5
+- **Current Version**: 0.2.0
 - **Versioning Scheme**: Semantic Versioning (MAJOR.MINOR.PATCH)
-- **Next Version**: [Open - update as needed]
+- **Next Version**: 0.2.1 (for next minor bug fix or small enhancement)
 
 ### npm Publishing Checklist
 
