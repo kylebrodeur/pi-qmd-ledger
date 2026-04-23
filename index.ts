@@ -38,11 +38,21 @@ interface QmdDef {
   maxBuffer?: number
 }
 
+interface PiContextDef {
+  enabled?: boolean
+  tagPatterns?: string[]
+  enhanceInjectors?: boolean
+  autoEnableAcm?: boolean
+}
+
 interface UniversalConfig {
   version: number
   ledgers: Record<string, LedgerDef>
   injectors: InjectorDef[]
   qmd: QmdDef
+  extensionCompatibility?: {
+    'pi-context'?: PiContextDef
+  }
 }
 
 const DEFAULT_CONFIG: UniversalConfig = {
@@ -72,6 +82,14 @@ const DEFAULT_CONFIG: UniversalConfig = {
     defaultLimit: 5,
     maxBuffer: 10 * 1024 * 1024,
   },
+  extensionCompatibility: {
+    'pi-context': {
+      enabled: false,
+      tagPatterns: [],
+      enhanceInjectors: false,
+      autoEnableAcm: true,
+    },
+  },
 }
 
 /* ═══════════════════════════════════════
@@ -94,6 +112,29 @@ function findConfig(cwd: string): string | undefined {
   return undefined
 }
 
+/* ── extension detection ── */
+function hasPiContextTools(ctx: ExtensionContext): boolean {
+  const tools = (ctx as any).toolMap || {}
+  return (
+    !!tools.context_tag &&
+    !!tools.context_log &&
+    !!tools.context_checkout
+  )
+}
+
+function isPiContextEnabled(cfg: UniversalConfig): boolean {
+  return cfg.extensionCompatibility?.['pi-context']?.enabled === true
+}
+
+function getPiContextConfig(cfg: UniversalConfig) {
+  return cfg.extensionCompatibility?.['pi-context'] || {
+    enabled: false,
+    tagPatterns: [],
+    enhanceInjectors: false,
+    autoEnableAcm: true,
+  }
+}
+
 function loadConfig(cwd: string): UniversalConfig {
   let cfg: Partial<UniversalConfig> = {}
   const cfgPath = findConfig(cwd)
@@ -110,6 +151,10 @@ function loadConfig(cwd: string): UniversalConfig {
     ledgers: {},
     injectors: cfg.injectors ?? DEFAULT_CONFIG.injectors,
     qmd: { ...DEFAULT_CONFIG.qmd, ...cfg.qmd },
+    extensionCompatibility: {
+      ...DEFAULT_CONFIG.extensionCompatibility,
+      ...cfg.extensionCompatibility,
+    },
   }
 
   // Merge ledgers
@@ -226,6 +271,15 @@ export default function (pi: ExtensionAPI) {
         lines.push(
           `   • "${ij.name}" → ledger:"${ij.ledger}" regex:${ij.regex}`
         )
+      }
+
+      // extension compatibility
+      const hasContext = hasPiContextTools(ctx)
+      const contextCfg = getPiContextConfig(cfg)
+      lines.push(`\n🧩 Extensions:`)
+      lines.push(`   • pi-context: ${hasContext ? '✅' : '❌'} ${contextCfg.enabled ? 'Enabled' : 'Disabled'}`)
+      if (hasContext && !contextCfg.enabled) {
+        lines.push(`     └─ Run /qmd-enable-pi-context enable to activate`)
       }
 
       const msg = lines.join('\n')
@@ -1002,7 +1056,110 @@ export default function (pi: ExtensionAPI) {
     },
   })
 
-  /* ── /qmd-approve ── */
+  /* ── /qmd-enable-pi-context ── */
+  pi.registerCommand('qmd-enable-pi-context', {
+    description: 'Enable or disable pi-context integration',
+    getArgumentCompletions: () => [
+      { label: 'enable', value: 'enable', description: 'Enable pi-context integration' },
+      { label: 'disable', value: 'disable', description: 'Disable pi-context integration' },
+    ],
+    handler: async (args, ctx: ExtensionContext) => {
+      const enable = args.trim().toLowerCase() === 'enable'
+      const cfgPath = findConfig(ctx.cwd)
+
+      if (!cfgPath) {
+        ctx.ui.notify('No config found. Run /qmd-init first.', 'error')
+        return
+      }
+
+      const existing = JSON.parse(fs.readFileSync(cfgPath, 'utf-8'))
+      existing.extensionCompatibility = existing.extensionCompatibility || {}
+      existing.extensionCompatibility['pi-context'] = {
+        ...existing.extensionCompatibility['pi-context'],
+        enabled: enable,
+      }
+      fs.writeFileSync(cfgPath, JSON.stringify(existing, null, 2) + '\n', 'utf-8')
+
+      if (enable) {
+        const hasTools = hasPiContextTools(ctx)
+        if (hasTools) {
+          ctx.ui.notify('✅ pi-context integration enabled', 'info')
+        } else {
+          ctx.ui.notify('⚠️  pi-context enabled but tools not found', 'warning')
+        }
+      } else {
+        ctx.ui.notify('pi-context integration disabled', 'info')
+      }
+
+      return
+    },
+  })
+
+  /* ── /qmd-list-extensions ── */
+  pi.registerCommand('qmd-list-extensions', {
+    description: 'List available and enabled extension integrations',
+    handler: async (_args, ctx: ExtensionContext) => {
+      const cfg = loadConfig(ctx.cwd)
+      const piContextCfg = getPiContextConfig(cfg)
+      const hasPiContext = hasPiContextTools(ctx)
+
+      const lines = [
+        '**Available Extension Integrations**',
+        '',
+        '**pi-context:**',
+        `  Status: ${hasPiContext ? '✅ Available' : '❌ Not installed'}`,
+        `  Configured: ${piContextCfg.enabled ? 'Enabled' : 'Disabled'}`,
+        `  Tag Patterns: ${piContextCfg.tagPatterns?.length || 0}`,
+        `  Enhance Injectors: ${piContextCfg.enhanceInjectors ? 'Yes' : 'No'}`,
+        '',
+        'Commands:',
+        '  /qmd-enable-pi-context [enable|disable]',
+        '  /qmd-validate',
+        '',
+        `pi-context tools detected: ${hasPiContext ? 'Yes' : 'No'}`,
+      ]
+
+      const msg = lines.join('\n')
+      if (ctx.hasUI) ctx.ui.editor('Extension Compatibility Status', msg)
+      return
+    },
+  })
+
+  /* ── /qmd-extension-status ── */
+  pi.registerCommand('qmd-extension-status', {
+    description: 'Show detailed extension compatibility status',
+    handler: async (_args, ctx: ExtensionContext) => {
+      const cfg = loadConfig(ctx.cwd)
+      const piContextCfg = getPiContextConfig(cfg)
+      const hasPiContext = hasPiContextTools(ctx)
+
+      const lines = [
+        '**pi-qmd-ledger Extension Compatibility Status**',
+        '',
+        `Config path: ${findConfig(ctx.cwd) || 'none'}`,
+        '',
+        '--- pi-context ---',
+        `Enabled: ${piContextCfg.enabled ? 'Yes' : 'No'}`,
+        `Available: ${hasPiContext ? 'Yes' : 'No'}`,
+        `Tag Patterns:`,
+        ...(piContextCfg.tagPatterns?.length
+          ? piContextCfg.tagPatterns.map((p) => `  • ${p}`)
+          : ['  (none configured)']),
+        `Enhance Injectors: ${piContextCfg.enhanceInjectors ? 'Yes' : 'No'}`,
+        '',
+        '**Detection:**',
+        `context_tag found: ${hasPiContextTools(ctx) ? 'Yes' : 'No'}`,
+        `context_log found: ${hasPiContextTools(ctx) ? 'Yes' : 'No'}`,
+        `context_checkout found: ${hasPiContextTools(ctx) ? 'Yes' : 'No'}`,
+        '',
+        'To enable: /qmd-enable-pi-context enable',
+      ]
+
+      const msg = lines.join('\n')
+      if (ctx.hasUI) ctx.ui.editor('Extension Compatibility Status', msg)
+      return
+    },
+  })
   pi.registerCommand('qmd-approve', {
     description:
       'Batch-review pending entries and migrate approved ones to their target ledger.',
@@ -1113,6 +1270,77 @@ export default function (pi: ExtensionAPI) {
         .replace(/\{\{capture\}\}/g, capture ?? '')
         .replace(/\{\{entries\}\}/g, entriesText || '(none)')
         .replace(/\{\{artifact\}\}/g, artifactText || '(none)')
+    }
+
+    if (additions) {
+      return { systemPrompt: event.systemPrompt + additions }
+    }
+
+    // --- pi-context integration: handle auto-ACM and tag-based triggers ---
+    const piContextCfg = getPiContextConfig(cfg)
+    if (piContextCfg.enabled) {
+      // 1. Handle Auto-ACM: Send /acm if not yet enabled for this session
+      if (piContextCfg.autoEnableAcm) {
+        // pi-context uses a global CommandCtx. We can't check it from here, 
+        // so we trigger /acm. If it's already enabled, it just notifies the user.
+        pi.sendMessage({
+          customType: 'pi-context',
+          content: '/acm',
+          display: false,
+        }, {
+          deliverAs: 'followUp'
+        })
+      }
+
+      // 2. Hook into context tags via context_log
+      if (piContextCfg.tagPatterns && piContextCfg.tagPatterns.length > 0) {
+        try {
+          const ctxTools = (ctx as any).toolMap || {}
+          if (ctxTools.context_log) {
+            const logs = await (ctxTools.context_log as any).execute?.(
+              null,
+              { limit: 100, verbose: true },
+              null,
+              null,
+              ctx
+            )
+            
+            if (logs && logs.content && logs.content[0]?.text) {
+              const logText = logs.content[0].text
+              
+              for (const pattern of piContextCfg.tagPatterns) {
+                const tagRegex = new RegExp(pattern, 'i')
+                // Extract labels from context_log (usually formatted as 'tag: name')
+                const tagMatches = logText.match(/tag:\s*([\w-]+)/gi)
+                
+                if (tagMatches) {
+                  for (const match of tagMatches) {
+                    const tagValue = match.replace(/tag:\s*/i, '')
+                    if (tagRegex.test(tagValue)) {
+                      // Found a matching tag. Now query ledgers for entries matching this tag.
+                      // We check all ledgers that might have a 'tag' field in their schema.
+                      for (const [ledgerName, ledgerDef] of Object.entries(cfg.ledgers)) {
+                        if (ledgerDef.schema.includes('tag') && fs.existsSync(ledgerDef.path)) {
+                          const lines = fs.readFileSync(ledgerDef.path, 'utf-8').split('\\n').filter(Boolean)
+                          const hits = lines
+                            .map(l => { try { return JSON.parse(l) } catch { return null } })
+                            .filter(e => e && e.tag === tagValue)
+
+                          if (hits.length > 0) {
+                            additions += `\\n\\n=== pi-context tag [${tagValue}] matched ${ledgerName} ===\\n${JSON.stringify(hits, null, 2)}\\n`
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        } catch (e) {
+          console.warn('[pi-qmd-ledger] pi-context tag integration error:', e)
+        }
+      }
     }
 
     if (additions) {

@@ -15,6 +15,8 @@ Universal append-only JSONL ledger with hybrid semantic search (qmd) and dynamic
 - **Context injection** — regex triggers auto-inject ledger entries into prompts.
 - **Self-adapting** — runtime config changes, schema evolution, multiple named ledgers.
 
+- **Extension Compatibility** — Integrates with other `pi` extensions (e.g., `pi-context`) for enhanced features, dynamically loading capabilities when extensions are present.
+
 ## Architecture
 
 ```
@@ -41,6 +43,7 @@ Universal append-only JSONL ledger with hybrid semantic search (qmd) and dynamic
 │  → LLM now has pre-fetched context       │
 └─────────────────────────────────────────┘
 ```
+For more details on extension integration, see [topics/EXTENSIONS.md](topics/EXTENSIONS.md).
 
 ## Quick Start
 
@@ -209,6 +212,9 @@ pnpm install && pnpm build
 | `/qmd-validate`           | Health check everything                        |
 | `/qmd-index [--no-embed]` | Re-index all collections (BM25 + embeddings)   |
 | `/qmd-approve [target]`   | Batch-review pending entries                   |
+| `/qmd-list-extensions`    | List available and enabled extension integrations |
+| `/qmd-extension-status`   | Show detailed extension compatibility status |
+| `/qmd-enable-pi-context`  | Enable or disable pi-context integration |
 
 ## Documentation
 

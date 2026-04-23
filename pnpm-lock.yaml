@@ -14,9 +14,6 @@ importers:
       '@sinclair/typebox':
         specifier: '*'
         version: 0.34.49
-      pi-qmd-ledger:
-        specifier: github:kylebrodeur/pi-qmd-ledger#main
-        version: https://codeload.github.com/kylebrodeur/pi-qmd-ledger/tar.gz/c2c1292ef2bdb2f71f31bf404fb3f1e62022c60b(@mariozechner/pi-coding-agent@0.66.1(ws@8.20.0)(zod@4.3.6))(@sinclair/typebox@0.34.49)
     devDependencies:
       '@eslint/js':
         specifier: ^10.0.1
@@ -1783,14 +1780,6 @@ packages:
 
   pend@1.2.0:
     resolution: {integrity: sha512-F3asv42UuXchdzt+xXqfW1OGlVBe+mxa2mqI0pg5yAHZPvFmY3Y6drSf/GQ1A86WgWEN9Kzh/WrgKa6iGcHXLg==}
-
-  pi-qmd-ledger@https://codeload.github.com/kylebrodeur/pi-qmd-ledger/tar.gz/c2c1292ef2bdb2f71f31bf404fb3f1e62022c60b:
-    resolution: {tarball: https://codeload.github.com/kylebrodeur/pi-qmd-ledger/tar.gz/c2c1292ef2bdb2f71f31bf404fb3f1e62022c60b}
-    version: 0.1.6
-    engines: {node: '>=20.6.0'}
-    peerDependencies:
-      '@mariozechner/pi-coding-agent': '*'
-      '@sinclair/typebox': '*'
 
   picomatch@2.3.2:
     resolution: {integrity: sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==}
@@ -4491,11 +4480,6 @@ snapshots:
   path-type@4.0.0: {}
 
   pend@1.2.0: {}
-
-  pi-qmd-ledger@https://codeload.github.com/kylebrodeur/pi-qmd-ledger/tar.gz/c2c1292ef2bdb2f71f31bf404fb3f1e62022c60b(@mariozechner/pi-coding-agent@0.66.1(ws@8.20.0)(zod@4.3.6))(@sinclair/typebox@0.34.49):
-    dependencies:
-      '@mariozechner/pi-coding-agent': 0.66.1(ws@8.20.0)(zod@4.3.6)
-      '@sinclair/typebox': 0.34.49
 
   picomatch@2.3.2: {}
 

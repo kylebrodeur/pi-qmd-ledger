@@ -2,6 +2,21 @@
 
 This document captures ideas, potential features, and improvements to explore in future sessions.
 
+## Extension Compatibility & Integration
+
+The `pi-qmd-ledger` now supports a progressive enhancement model for integrating with other `pi` extensions. Here are some ideas for future integrations and enhancements:
+
+### pi-context Enhancements
+1.  **Direct `context_tag` in `append_ledger`**: Allow `append_ledger` to automatically call `context_tag` to bookmark the current state after an entry is added to a ledger.
+2.  **`context_checkout` integration for ledger state**: When `context_checkout` is performed, allow `pi-qmd-ledger` to automatically switch to a relevant ledger state (e.g., filtering by tag associated with the checkout target).
+3.  **`enhanceInjectors` implementation**: Implement the logic for `extensionCompatibility['pi-context'].enhanceInjectors` to allow pi-context's active branch or tags to refine existing regex-based injectors.
+4.  **`context_log` visualization**: Enhance `context_log` output to include summaries or direct links to relevant ledger entries, offering a more holistic view.
+
+### Other Potential Extension Integrations
+*   **pi-web-fetch**: Allow ledger entries to store URLs that can be dynamically fetched and summarized by `pi-web-fetch` when injected.
+*   **pi-github**: Integrate with `pi-github` to automatically link ledger entries to GitHub issues, PRs, or code snippets based on content.
+*   **Custom Linting/Validation**: Integrate with other `pi` extensions that provide code analysis or validation, using ledger entries as a source of truth for certain rules or facts.
+
 ## Tool & Command Enhancements
 
 1. **Pagination for `query_ledger`:**
