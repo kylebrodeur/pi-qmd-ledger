@@ -177,6 +177,7 @@ Expected output: 17 tests across 5 test suites, all passing.
 - Prettier, ESLint, and typecheck configuration
 - Developer documentation and learnings
 - Architecture visualization for context injection flow (generated at /tmp/pi-visuals/pi-qmd-ledger-architecture.html)
+- **Extension compatibility framework with pi-context integration**
 
 ### 🔄 In Progress
 
@@ -190,6 +191,7 @@ Expected output: 17 tests across 5 test suites, all passing.
 - [ ] Create a `CONTRIBUTING.md` for contributor onboarding
 - [ ] Add advanced qmd configuration (custom embeddings, custom models)
 - [ ] Add ledger migration tools for schema changes
+- [ ] **Fully implement `enhanceInjectors` for pi-context integration**
 
 ---
 
