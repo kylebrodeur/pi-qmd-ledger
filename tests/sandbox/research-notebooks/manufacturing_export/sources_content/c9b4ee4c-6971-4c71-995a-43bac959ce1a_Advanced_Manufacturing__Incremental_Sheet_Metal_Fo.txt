@@ -1,0 +1,325 @@
+Advanced Manufacturing: Incremental Sheet Metal Forming with Robotics and AI
+
+Skip to content
+
+https://machinalabs.ai/resources/advanced-manufacturing-incremental-sheet-metal-forming-with-robotics-and-ai#main-content
+
+Close
+
+https://machinalabs.ai/resources/advanced-manufacturing-incremental-sheet-metal-forming-with-robotics-and-ai
+
+/Capabilities
+
+https://machinalabs.ai/capabilities
+
+/Applications
+
+javascript:;
+
+Airframes
+
+https://machinalabs.ai/applications/defense
+
+Automotive
+
+https://machinalabs.ai/applications/automotive
+
+Missiles + Hypersonics
+
+https://machinalabs.ai/applications/hypersonic-missile-structures
+
+/Resources
+
+https://machinalabs.ai/resources
+
+/Engage
+
+https://machinalabs.ai/engage
+
+/Careers
+
+https://machinalabs.ai/careers
+
+Contact Us
+
+https://machinalabs.ai/contact-us
+
+/Capabilities
+
+https://machinalabs.ai/capabilities
+
+/Applications
+
+javascript:;
+
+Airframes
+
+https://machinalabs.ai/applications/defense
+
+Automotive
+
+https://machinalabs.ai/applications/automotive
+
+Missiles + Hypersonics
+
+https://machinalabs.ai/applications/hypersonic-missile-structures
+
+/Resources
+
+https://machinalabs.ai/resources
+
+/Engage
+
+https://machinalabs.ai/engage
+
+/Careers
+
+https://machinalabs.ai/careers
+
+Contact Us
+
+https://machinalabs.ai/contact-us
+
+ 
+
+Sep 2, 2025 9:00:00 AM
+
+Advanced Manufacturing: Incremental Sheet Metal Forming with Robotics and AI
+
+New sensors and AI enable a next-gen elastic factory that unifies multiple metal manufacturing operations within a single robotic cell
+
+By: Dr. Punnathat (Tent) Bordeenithikasem and Dr. Babak Raeisinia
+
+Traditional metal forming techniques such as stamping and hydroforming have been foundational to industrial manufacturing for decades. These processes rely heavily on geometry-specific tooling, including custom dies and molds, designed to shape sheet metal with precision and repeatability. While highly effective in high-volume production, the lead times and costs associated with tooling design and fabrication have become significant hurdles in today's manufacturing landscape. Creating a new die or mold can take months and cost millions of dollars, limiting manufacturers' ability to quickly iterate designs or respond to sudden shifts in demand.
+
+ 
+
+Fig. 1 — First generation (left) and second generation (right) RoboCraftsman configurations. Both employ dual robotic arms mounted on linear rails with a central fixture frame for sheet metal. RoboCraftsman is robot agnostic; selection is based on DFM requirements, such as load capacity, forming speed, and material.
+
+At Machina Labs, the team recognized that advances in robotics, sensors, and artificial intelligence (AI) offered a transformative alternative. 
+
+3,4
+
+ Since 2019, the company has focused on developing software-defined manufacturing solutions that decouple production from dedicated tooling.
+
+The flagship RoboCraftsman system embodies this approach by integrating multiple manufacturing operations within a single, containerized robotic cell, including sheet metal forming, trimming, scanning, and heat treating.
+
+Central to the RoboCraftsman is RoboForming, a robotic incremental sheet metal forming process. Using two industrial robotic arms mounted on linear rails with a rigid frame in between them holding up the feedstock sheet metal (Fig. 1), RoboForming shapes metal sheets, layer-by-layer, by following digitally programmed toolpaths derived from CAD models. This method eliminates the months-long process of designing and fabricating dedicated dies or molds, resulting in over 10× reduction in lead time and tooling cost savings that can exceed $1 million per unique part design.
+
+Each robot arm is equipped with force, torque, and displacement sensors that enable real-time, closed-loop feedback control. This sensor-driven adaptability ensures precise control of forming forces and geometric accuracy, overcoming the limitations of earlier incremental forming implementations.
+
+Following the RoboForming step, the robotic arm replaces the forming endeffector with a laser profiler to capture a high-resolution scan of the part, which is aligned with the nominal CAD model for quality assurance. The system can then perform optional heat treatment and robotic trimming, delivering finished parts in one continuous workflow.
+
+While incremental sheet metal forming itself is not new, the combination of AI-driven robotics, multi-operation integration, and software-defined control within a RoboCraftsman system represents a major leap forward. 
+
+5,6
+
+ Leveraging these technologies offers manufacturing flexibility, traceability, and cost efficiency previously unattainable in conventional forming.
+
+Material Capabilities And Metallurgical Considerations
+
+The RoboCraftsman is engineered to form a wide variety of metallic materials. The majority of current use cases involve aluminum alloys and steels, both of which are highly relevant to the aerospace, defense, automotive, and energy sectors. Currently, RoboForming is performed at room temperature for safety and process simplicity.
+
+However, room-temperature incremental forming introduces its own set of challenges. Chief among them is the residual stress that accumulates during progressive plastic deformation of the sheet and the associated springback of the as-formed part. The team is actively addressing this through a combination of predictive process modeling and targeted post-forming heat treatments. These efforts aim to ensure that the final part meets geometric tolerances and satisfies mechanical performance criteria such as tensile properties, fatigue properties, dimensional stability, and corrosion resistance.
+
+ 
+
+Fig. 2 — Tensile properties, normalized to A-basis design allowables, of a 2000 series aluminum alloy that has been RoboFormed in the O temper and then solutionized, quenched, and naturally aged to a final temper of T42. Initial feedstock material was 0.080-in. thick and RoboFormed to 0.040-in. thick. Different RoboForming parameters were selected to create varied surface roughness. There were 10 samples per forming condition.
+
+Precipitation-hardened aluminum alloys in the 2000, 6000, and 7000 series have proven to be particularly well-suited to RoboForming. These alloys derive their final strength and service properties from the final heat treatment steps rather than from work hardening. That makes them ideal for RoboCraftsman's workflow: forming is carried out in the more ductile and soft tempers of the alloys, and the final mechanical properties are recovered through subsequent solution treatment and aging.
+
+Machina Labs has demonstrated that the mechanical properties of RoboFormed parts after solution treatment and aging surpasses the literature design allowables for the same alloy conventionally processed (Fig. 2).
+
+Across all material types, there is growing interest in connecting process variables to microstructural evolution and final part performance. The company is collaborating with materials scientists and metallurgists to deepen its understanding of these links and to create predictive frameworks for designing better parts and processes.
+
+Manufacturing Assemblies: From CAD To Complete Structures
+
+The RoboCraftsman platform is not limited to individual parts, it is increasingly being used to manufacture full assemblies. This process begins digitally, with the user importing a CAD model and orienting the part appropriately. Because a part cannot exist in free space, this step includes designing necessary “skirting” geometries to secure the sheet metal during forming.
+
+Once the setup is complete, the part is initially RoboFormed using “default” process parameters. These initial results typically yield a part that is close, but not yet within the target tolerances. A laser scan of the part, carried out by the RoboCraftsman, is then compared to the original CAD model, and deviations are analyzed. The system iterates on the toolpath and forming parameters based on this feedback until the resulting part meets the desired specifications.
+
+After RoboForming, the part can optionally undergo heat treatment for stress relief and/or to achieve the final temper. Next, the robot arms replace their forming end-effectors with machining spindles to trim the part, liberating the desired area from the skirt. To fabricate a full assembly, multiple trimmed parts can be joined. Traditional joining methods, such as welding and riveting, are currently employed, and in situ robotic assembly capabilities within the RoboCraftsman are being actively explored.
+
+ 
+
+Fig. 3 — (a) CAD file of one section of the toroidal tank. Blue highlights the actual part and the gray is the skirt. The part is (b) RoboFormed from 0.125-in. thick AA5052-H32, stress relieved, and then (c) trimmed. The panels are then (d) hand welded using a weld fixture and (e) released. (f) Multiple subassemblies (author for scale) are then welded together to form (g) the final toroidal tank.
+
+This includes on-frame joining operations, where subcomponents are welded or fastened directly within the robotic cell, eliminating further material handling and streamlining the overall manufacturing flow.
+
+By integrating all operations from forming and scanning to trimming and joining within a single versatile manufacturing cell, the RoboCraftsman is redefining what end-to-end sheet metal assemblies can look like in modern manufacturing environments. Figure 3 outlines an example process flow used to assemble a toroidal tank for NASA.
+
+Adaptive Production For Modern Supply Chains
+
+The past several years have revealed the fragility of traditional, centralized manufacturing models. Delays due to material shortages, transportation disruptions, and sudden demand spikes have highlighted the need for adaptable, location-agnostic production methods that can flex to meet changing conditions. Whether producing components for aircraft, vehicles, or energy systems, manufacturers now require solutions that can move, scale, and reconfigure in response to real-time needs.
+
+The RoboCraftsman platform was built with this flexibility in mind. Housed within two ISO-standard shipping containers, the system can be rapidly deployed anywhere with power and minimal site preparation. It allows manufacturers to move production closer to where parts are needed, whether for prototyping, producing spares, or full-rate production. This decentralized approach not only shortens lead times but also enhances resilience by reducing dependence on centralized tooling and long logistics chains (Fig. 4).
+
+ 
+
+Fig. 4 — The new RoboCraftsman can form parts at the Machina Labs factory in Los Angeles, transform into two ISO containers, drive, ship, or fly to a new location, and begin forming parts days after arrival.
+
+The software-defined nature of the RoboCraftsman enables switching from one part geometry to another with minimal hardware changes. It usually just involves manipulating a new CAD model to generate toolpath instructions. This enables rapid changeovers between part families, supports high-mix workflows, and allows manufacturers to respond dynamically to shifts in demand.
+
+For example, if a defense contractor needs to pivot from low-rate aerospace production to field-repair components, they can do so with the same equipment and workforce. Similarly, commercial manufacturers can respond to supply chain needs, ramp-ups, or product design changes without needing to fabricate new dies or retool their lines.
+
+Curating And Preserving Manufacturing Knowledge
+
+In conventional manufacturing, much of the process knowledge is stored in the experience of metalworkers, welders, machinists, toolmakers, and engineers, many of whom are nearing retirement. When they leave the workforce, they often take decades of know-how and industry-specific insight with them. This phenomenon poses a serious challenge to knowledge continuity and process control.
+
+The RoboCraftsman addresses this by capturing not just geometry but complete process intelligence. Each formed part is linked to a digital record that includes toolpaths, robot sensor data, scan data, and quality assessments. These records function as “digital tooling,” which preserves the recipe for how each part was made and why.
+
+This data-rich manufacturing history is searchable, transferable, and repeatable. It allows cloning a successful process at a different location or with a different material by drawing from prior runs. With continued use, this digital knowledge base becomes a form of institutional memory that persists and grows, even as personnel change. Combined with machine learning, these digital traces improve forming algorithms and reduce the need for trial-and-error tuning. And for materials science teams, this trove of data opens new possibilities for linking micro-structure evolution to in-process variables, unlocking better models and new alloy-processing strategies.
+
+Looking Ahead: Autonomous, Distributed Manufacturing
+
+The RoboCraftsman system represents a shift in how metal parts can be formed, finished, and validated. It combines the principles of software-defined manufacturing with the practical realities of physical production by bringing together robotics, real-time sensing, AI, and process control in a portable, scalable package. Machina Labs is still early in this journey. With every deployment, the company is pushing the boundaries of what's possible in sheet metal manufacturing (Fig. 5). This includes forming novel geometries such as conformal shapes, engineered surface textures, and lightweight structures with non-uniform wall thicknesses or integrated ribs. These complex designs, once considered impractical or cost-prohibitive with traditional tooling, are now achievable through software-defined toolpaths and adaptive forming strategies.
+
+Fig. 5 — Examples of different types of parts being formed at Machina Labs. (a) Lettering and signage. (b) Truck outfitted with RoboFormed panels. (c) Advanced structures for aerospace applications. (d) Artificial wood texturing. (e) Forms made from scanned faces. (f) RoboForming using sheets that were friction stir-welded together.
+
+The team is also advancing beyond individual parts into full assemblies. As more operations are integrated into the RoboCraftsman, they are actively exploring how to incorporate processes like robotic welding, friction stir welding, and additive manufacturing (AM) directly within the same cell. This convergence of processes will enable more complex, multi-material assemblies to be fabricated in a single, reconfigurable setup. Another critical area of focus is expanding material capabilities. The company is exploring how RoboForming can be applied to difficult or advanced alloys, i.e., those with low ductility, anisotropic behavior, high strain hardening, or hard tempers like T6 aluminum alloys. Forming these materials at room temperature requires precise control over strain paths, force feedback, and heat treatment, all of which are active areas of R&D. The goal is to make high-performance materials as accessible and adaptable as common metals in digital manufacturing workflows.
+
+As industries push for greater agility, resilience, and localization in manufacturing, Machina Labs believes the RoboCraftsman ecosystem offers a pathway toward truly autonomous, data-driven production systems. Whether it's in a research lab, a regional maintenance depot, or a forward-operating industrial site, the company envisions a future where you can manufacture what you need, when and where you need it—without the traditional barriers of tooling, geography, or material limitations.
+
+About the Authors
+
+Dr. Babak Raeisinia
+
+https://www.linkedin.com/in/braeisinia/
+
+ is the co-founder of Machina Labs and head of applications and partnerships, where he leads efforts to advance metal forming technology, emerging applications, and adoption.
+
+Dr. Punnathat (Tent) Bordeenithikasem
+
+https://www.linkedin.com/in/punnathatbordeenithikasem/
+
+ is a technical project lead and advanced manufacturing and metallurgy expert at Machina Labs.
+
+This article first appeared in 
+
+Advanced Materials & Processes, Volume 183, Issue 6 (September 2025)
+
+https://www.asminternational.org/magazine/advanced-materials-processes-volume-183-issue-6-september-2025-asm-international/
+
+, 
+
+ASM International
+
+https://www.asminternational.org/
+
+. Reposted with permission.
+
+References
+
+A. Rosochowski and A. Matuszak, 
+
+Rapid Tooling: the State of the Art, Journal of Materials Processing Technology
+
+https://www.sciencedirect.com/science/article/abs/pii/S0924013600006130
+
+, 106(1-3), p 191-198, 2000.
+
+J. Cao, et al., 
+
+Manufacturing of Advanced Smart Tooling for Metal Forming, CIRP Annals Manufacturing Technology
+
+https://www.sciencedirect.com/science/article/abs/pii/S0007850619301581
+
+, 68(2), p 605-628, 2019.
+
+H. Hagenah, et al., 
+
+4.0 in Metal Forming – Questions and Challenges
+
+https://www.metalformingmagazine.com/article/?/software/die-design-and-simulation/industry-4-0-applications-in-the-sheet-metal-forming-industry
+
+, Procedia CIRP, 79, p 649-654, 2019.
+
+The Minerals, Metals & Materials Society, A Revolution in Digital Manufacturing: Integrating Machines, Robotics, Artificial Intelligence, and Forming Technologies
+
+https://www.tms.org/portal/portal/Publications/Studies/DigitalMfgStudy/DigitalMfgStudy.aspx
+
+, Pittsburgh, PA, 2024.
+
+N.V. Reddy, R. Lingam, and J. Cao, Incremental Metal Forming Processes in Manufacturing, in Handbook of Manufacturing Engineering and Technology, London, Springer-Verlag, p 411- 452, 2015.
+
+Y. Kumar and S. Kumar, Incremental Sheet Forming (ISF), in Advances in Material Forming and Joining, New Delhi, Springer, p 29-46, 2015.
+
+MORE NEWS
+
+SEE ALL RESOURCES
+
+https://machinalabs.ai/resources
+
+[
+
+Machina Labs Among First Advanced Manufacturers to Achieve CMMC Level 2 Certification
+
+Start Reading](https://machinalabs.ai/resources/machina-labs-among-first-advanced-manufacturers-to-achieve-cmmc-level-2-certification)
+
+[
+
+Why Defense Manufacturing Needs Agile Factories Now
+
+Start Reading](https://machinalabs.ai/resources/why-defense-manufacturing-needs-agile-factories-now)
+
+[
+
+Machina Labs Strengthens Partnership with U.S. Department of Defense to Advance Aircraft Sustainment
+
+Start Reading](https://machinalabs.ai/resources/machina-labs-strengthens-partnership-with-u.s.-department-of-defense-to-advance-aircraft-sustainment)
+
+/Home
+
+https://machinalabs.ai/
+
+/Capabilities
+
+javascript:;
+
+/Resources
+
+https://machinalabs.ai/resources
+
+/Engage
+
+https://machinalabs.ai/engage
+
+/Careers
+
+https://machinalabs.ai/careers
+
+/Automotive
+
+https://machinalabs.ai/applications/automotive
+
+ 
+
+https://www.linkedin.com/company/machina-labs
+
+ 
+
+https://x.com/MachinaLabs_
+
+ 
+
+https://www.youtube.com/@machinalabsinc
+
+Sign Up For Our Newsletter*
+
+Submit
+
+Privacy Policy
+
+https://machinalabs.ai/privacy-policy
+
+ | 
+
+Terms and Conditions
+
+https://machinalabs.ai/hubfs/Supplier%20Terms/Machina%20Labs%20-%20Services%20Terms%20and%20Conditions.pdf
+
+ | Copyright © 2026 Machina Labs. All rights reserved.
+
+ ITAR Registered
+
+https://machinalabs.ai/resources/advanced-manufacturing-incremental-sheet-metal-forming-with-robotics-and-ai

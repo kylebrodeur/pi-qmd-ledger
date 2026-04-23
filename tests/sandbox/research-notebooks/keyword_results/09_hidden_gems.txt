@@ -1,0 +1,8 @@
+⭐ 716	psi-oss/get-physics-done	The first open-source agentic AI physicist, by Physical Superintelligence PBC (PSI).
+⭐ 672	hmans/beans	A CLI-based, flat-file issue tracker for humans and robots. 🤖
+⭐ 573	treflehq/trefle-api	🍀 Trefle is a botanical JSON REST API for plants species, allowing you to search and query over all the registered species, and build the next gardening apps and farming robots.
+⭐ 346	PML-UCF/pinn	Physics-informed neural networks package
+⭐ 33	ifiokjr/oh-pi	One-click setup for pi-coding-agent — extensions, themes, prompts, skills, and ant-colony swarm. Like oh-my-zsh for pi.
+⭐ 259	AmeyaJagtap/XPINNs	Extended Physics-Informed Neural Networks (XPINNs): A Generalized Space-Time Domain Decomposition Based Deep Learning Framework for Nonlinear Partial Differential Equations
+⭐ 20	The-Mu-Foundation/Mutorials	A free, adaptive, open-source trainer for physics, chemistry, biology, and earth & space science students.
+⭐ 116	YuxingLu613/KARMA	Leveraging Multi-Agent LLMs for Automated Knowledge Graph Enrichment

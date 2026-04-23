@@ -1,0 +1,609 @@
+[2604.01658] CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery
+
+Skip to main content
+
+https://arxiv.org/abs/2604.01658#content
+
+Learn about arXiv becoming an independent nonprofit.
+
+https://tech.cornell.edu/arxiv/
+
+We gratefully acknowledge support from the Simons Foundation, 
+
+member institutions
+
+https://info.arxiv.org/about/ourmembers.html
+
+, and all contributors. 
+
+Donate
+
+https://info.arxiv.org/about/donate.html
+
+ 
+
+https://arxiv.org/IgnoreMe
+
+Help
+
+https://info.arxiv.org/help
+
+ | 
+
+Advanced Search
+
+https://arxiv.org/search/advanced
+
+All fields
+
+Title
+
+Author
+
+Abstract
+
+Comments
+
+Journal reference
+
+ACM classification
+
+MSC classification
+
+Report number
+
+arXiv identifier
+
+DOI
+
+ORCID
+
+arXiv author ID
+
+Help pages
+
+Full text
+
+Search
+
+GO
+
+quick links
+
+Login
+
+https://arxiv.org/login
+
+Help Pages
+
+https://info.arxiv.org/help
+
+About
+
+https://info.arxiv.org/about
+
+Computer Science > Artificial Intelligence
+
+arXiv:2604.01658
+
+ (cs)
+
+[Submitted on 2 Apr 2026]
+
+Title: CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery
+
+Authors: 
+
+Ao Qu
+
+https://arxiv.org/search/cs?searchtype=author&query=Qu,+A
+
+, 
+
+Han Zheng
+
+https://arxiv.org/search/cs?searchtype=author&query=Zheng,+H
+
+, 
+
+Zijian Zhou
+
+https://arxiv.org/search/cs?searchtype=author&query=Zhou,+Z
+
+, 
+
+Yihao Yan
+
+https://arxiv.org/search/cs?searchtype=author&query=Yan,+Y
+
+, 
+
+Yihong Tang
+
+https://arxiv.org/search/cs?searchtype=author&query=Tang,+Y
+
+, 
+
+Shao Yong Ong
+
+https://arxiv.org/search/cs?searchtype=author&query=Ong,+S+Y
+
+, 
+
+Fenglu Hong
+
+https://arxiv.org/search/cs?searchtype=author&query=Hong,+F
+
+, 
+
+Kaichen Zhou
+
+https://arxiv.org/search/cs?searchtype=author&query=Zhou,+K
+
+, 
+
+Chonghe Jiang
+
+https://arxiv.org/search/cs?searchtype=author&query=Jiang,+C
+
+, 
+
+Minwei Kong
+
+https://arxiv.org/search/cs?searchtype=author&query=Kong,+M
+
+, 
+
+Jiacheng Zhu
+
+https://arxiv.org/search/cs?searchtype=author&query=Zhu,+J
+
+, 
+
+Xuan Jiang
+
+https://arxiv.org/search/cs?searchtype=author&query=Jiang,+X
+
+, 
+
+Sirui Li
+
+https://arxiv.org/search/cs?searchtype=author&query=Li,+S
+
+, 
+
+Cathy Wu
+
+https://arxiv.org/search/cs?searchtype=author&query=Wu,+C
+
+, 
+
+Bryan Kian Hsiang Low
+
+https://arxiv.org/search/cs?searchtype=author&query=Low,+B+K+H
+
+, 
+
+Jinhua Zhao
+
+https://arxiv.org/search/cs?searchtype=author&query=Zhao,+J
+
+, 
+
+Paul Pu Liang
+
+https://arxiv.org/search/cs?searchtype=author&query=Liang,+P+P
+
+View a PDF of the paper titled CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery, by Ao Qu and 16 other authors
+
+View PDF
+
+https://arxiv.org/pdf/2604.01658
+
+ 
+
+HTML (experimental)
+
+https://arxiv.org/html/2604.01658v1
+
+Abstract: Large language model (LLM)-based evolution is a promising approach for open-ended discovery, where progress requires sustained search and knowledge accumulation. Existing methods still rely heavily on fixed heuristics and hard-coded exploration rules, which limit the autonomy of LLM agents. We present CORAL, the first framework for autonomous multi-agent evolution on open-ended problems. CORAL replaces rigid control with long-running agents that explore, reflect, and collaborate through shared persistent memory, asynchronous multi-agent execution, and heartbeat-based interventions. It also provides practical safeguards, including isolated workspaces, evaluator separation, resource management, and agent session and health management. Evaluated on diverse mathematical, algorithmic, and systems optimization tasks, CORAL sets new state-of-the-art results on 10 tasks, achieving 3-10 times higher improvement rates with far fewer evaluations than fixed evolutionary search baselines across tasks. On Anthropic's kernel engineering task, four co-evolving agents improve the best known score from 1363 to 1103 cycles. Mechanistic analyses further show how these gains arise from knowledge reuse and multi-agent exploration and communication. Together, these results suggest that greater agent autonomy and multi-agent evolution can substantially improve open-ended discovery. Code is available at 
+
+this https URL
+
+https://github.com/Human-Agent-Society/CORAL
+
+.
+
+Subjects:
+
+Artificial Intelligence (cs.AI)
+
+Cite as:
+
+arXiv:2604.01658
+
+https://arxiv.org/abs/2604.01658
+
+ [cs.AI]
+
+(or 
+
+arXiv:2604.01658v1
+
+https://arxiv.org/abs/2604.01658v1
+
+ [cs.AI] for this version)
+
+https://doi.org/10.48550/arXiv.2604.01658
+
+https://doi.org/10.48550/arXiv.2604.01658
+
+ Focus to learn more arXiv-issued DOI via DataCite (pending registration)
+
+Submission history
+
+From: Han Zheng [ 
+
+view email
+
+https://arxiv.org/show-email/874ae997/2604.01658
+
+]
+
+[v1]
+
+ Thu, 2 Apr 2026 05:59:06 UTC (2,263 KB)
+
+Full-text links:
+
+Access Paper:
+
+View a PDF of the paper titled CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery, by Ao Qu and 16 other authors
+
+View PDF
+
+https://arxiv.org/pdf/2604.01658
+
+HTML (experimental)
+
+https://arxiv.org/html/2604.01658v1
+
+TeX Source
+
+https://arxiv.org/src/2604.01658
+
+ view license
+
+http://creativecommons.org/licenses/by/4.0/
+
+Current browse context:
+
+cs.AI
+
+< prev
+
+https://arxiv.org/prevnext?id=2604.01658&function=prev&context=cs.AI
+
+ | 
+
+next >
+
+https://arxiv.org/prevnext?id=2604.01658&function=next&context=cs.AI
+
+new
+
+https://arxiv.org/list/cs.AI/new
+
+ | 
+
+recent
+
+https://arxiv.org/list/cs.AI/recent
+
+ | 
+
+2026-04
+
+https://arxiv.org/list/cs.AI/2026-04
+
+Change to browse by:
+
+cs
+
+https://arxiv.org/abs/2604.01658?context=cs
+
+References & Citations
+
+NASA ADS
+
+https://ui.adsabs.harvard.edu/abs/arXiv:2604.01658
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?arxiv_id=2604.01658
+
+Semantic Scholar
+
+https://api.semanticscholar.org/arXiv:2604.01658
+
+export BibTeX citation Loading...
+
+BibTeX formatted citation
+
+×
+
+loading...
+
+Data provided by:
+
+Bookmark
+
+[
+
+](http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2604.01658&description=CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery) [
+
+](https://reddit.com/submit?url=https://arxiv.org/abs/2604.01658&title=CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery)
+
+ 
+
+[x]
+
+Bibliographic Tools
+
+Bibliographic and Citation Tools
+
+[-]
+
+Bibliographic Explorer Toggle
+
+Bibliographic Explorer 
+
+( What is the Explorer?)
+
+ 
+
+[-]
+
+Connected Papers Toggle
+
+Connected Papers 
+
+( What is Connected Papers?)
+
+ 
+
+[-]
+
+Litmaps Toggle
+
+Litmaps 
+
+( What is Litmaps?)
+
+ 
+
+[-]
+
+scite.ai Toggle
+
+scite Smart Citations 
+
+( What are Smart Citations?)
+
+ 
+
+[-]
+
+Code, Data, Media
+
+Code, Data and Media Associated with this Article
+
+[-]
+
+alphaXiv Toggle
+
+alphaXiv 
+
+( What is alphaXiv?)
+
+ 
+
+[-]
+
+Links to Code Toggle
+
+CatalyzeX Code Finder for Papers 
+
+( What is CatalyzeX?)
+
+ 
+
+[-]
+
+DagsHub Toggle
+
+DagsHub 
+
+( What is DagsHub?)
+
+ 
+
+[-]
+
+GotitPub Toggle
+
+Gotit.pub 
+
+( What is GotitPub?)
+
+ 
+
+[-]
+
+Huggingface Toggle
+
+Hugging Face 
+
+( What is Huggingface?)
+
+ 
+
+[-]
+
+ScienceCast Toggle
+
+ScienceCast 
+
+( What is ScienceCast?)
+
+ 
+
+[-]
+
+Demos
+
+Demos
+
+[-]
+
+Replicate Toggle
+
+Replicate 
+
+( What is Replicate?)
+
+ 
+
+[-]
+
+Spaces Toggle
+
+Hugging Face Spaces 
+
+( What is Spaces?)
+
+ 
+
+[-]
+
+Spaces Toggle
+
+TXYZ.AI 
+
+( What is TXYZ.AI?)
+
+ 
+
+[-]
+
+Related Papers
+
+Recommenders and Search Tools
+
+[-]
+
+Link to Influence Flower
+
+Influence Flower 
+
+( What are Influence Flowers?)
+
+ 
+
+[-]
+
+Core recommender toggle
+
+CORE Recommender 
+
+( What is CORE?)
+
+Author
+
+https://arxiv.org/abs/2604.01658
+
+Venue
+
+https://arxiv.org/abs/2604.01658
+
+Institution
+
+https://arxiv.org/abs/2604.01658
+
+Topic
+
+https://arxiv.org/abs/2604.01658
+
+ 
+
+[-]
+
+About arXivLabs
+
+arXivLabs: experimental projects with community collaborators
+
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+
+Have an idea for a project that will add value for arXiv's community? 
+
+Learn more about arXivLabs
+
+https://info.arxiv.org/labs/index.html
+
+.
+
+Which authors of this paper are endorsers?
+
+https://arxiv.org/auth/show-endorsers/2604.01658
+
+ | 
+
+Disable MathJax
+
+javascript:setMathjaxCookie()
+
+ ( 
+
+What is MathJax?
+
+https://info.arxiv.org/help/mathjax.html
+
+)
+
+About
+
+https://info.arxiv.org/about
+
+Help
+
+https://info.arxiv.org/help
+
+Click here to contact arXiv 
+
+Contact
+
+https://info.arxiv.org/help/contact.html
+
+Click here to subscribe 
+
+Subscribe
+
+https://info.arxiv.org/help/subscribe
+
+Copyright
+
+https://info.arxiv.org/help/license/index.html
+
+Privacy Policy
+
+https://info.arxiv.org/help/policies/privacy_policy.html
+
+Web Accessibility Assistance
+
+https://info.arxiv.org/help/web_accessibility.html
+
+arXiv Operational Status
+
+https://status.arxiv.org/

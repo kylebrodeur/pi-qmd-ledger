@@ -1,0 +1,354 @@
+{
+  "analysis_metadata": {
+    "generated": "2026-04-09",
+    "source": "keyword_results/*.txt filtered by stars",
+    "count": 30,
+    "method": "sort -t$'\\t' -k1 -nr | head -50 | sort -u | head -30"
+  },
+  "repos": [
+    {
+      "rank": 1,
+      "repo": "microsoft/playwright",
+      "stars": 85857,
+      "category": "browser-automation",
+      "book_relevance": "MANUFACTURING_UI: Web-based manufacturing control systems, automated testing for production UIs",
+      "chapter": "07",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "Popular automation framework, tangential to manufacturing web UIs"
+    },
+    {
+      "rank": 2,
+      "repo": "microsoft/markitdown",
+      "stars": 94204,
+      "category": "document-handling",
+      "book_relevance": "DOCUMENT_PROCESSING: Convert manufacturing docs (PDFs, etc.) to markdown for agent processing",
+      "chapter": "07",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "Useful for document-heavy manufacturing workflows"
+    },
+    {
+      "rank": 3,
+      "repo": "microsoft/ML-For-Beginners",
+      "stars": 85063,
+      "category": "education",
+      "book_relevance": "CH03_BACKGROUND: Manufacturing team ML training materials",
+      "chapter": "03",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "Reference for background section"
+    },
+    {
+      "rank": 4,
+      "repo": "bytedance/deer-flow",
+      "stars": 59632,
+      "category": "multi-agent-orchestration",
+      "book_relevance": "FLAGSHIP_CH05: Long-horizon SuperAgent with subagents, sandboxes, research capabilities",
+      "chapter": "05",
+      "priority": "HIGH",
+      "deep_dive": true,
+      "notes": "59K+ stars, represents state-of-art multi-agent orchestration. Compare with Autogen, CAMEL."
+    },
+    {
+      "rank": 5,
+      "repo": "livekit/agents",
+      "stars": 9970,
+      "category": "realtime-voice-agents",
+      "book_relevance": "CH04_ROBOTICS: Real-time voice control for manufacturing systems",
+      "chapter": "04",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "Voice AI agents for hands-free shop floor control"
+    },
+    {
+      "rank": 6,
+      "repo": "NVIDIA/warp",
+      "stars": 6488,
+      "category": "differentiable-physics",
+      "book_relevance": "FLAGSHIP_CH04.5: GPU-accelerated differentiable simulation for robotics and manufacturing",
+      "chapter": "04.5",
+      "priority": "HIGH",
+      "deep_dive": true,
+      "notes": "Core to physics-informed manufacturing. Foundation for Newton."
+    },
+    {
+      "rank": 7,
+      "repo": "goat-sdk/goat",
+      "stars": 5200,
+      "category": "blockchain-ai",
+      "book_relevance": "RESEARCH_CH10: Blockchain consensus for federated manufacturing ledger",
+      "chapter": "10",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "Blockchain integration, niche for manufacturing tokenization"
+    },
+    {
+      "rank": 8,
+      "repo": "browser-use/browser-use",
+      "stars": 4600,
+      "category": "browser-automation",
+      "book_relevance": "CH07_SCENARIOS: Browser-based manufacturing control agents",
+      "chapter": "07",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "AI agents using browsers"
+    },
+    {
+      "rank": 9,
+      "repo": "microsoft/magentic-ui",
+      "stars": 9759,
+      "category": "web-agent-ui",
+      "book_relevance": "CH07_SCENARIOS: Human-centered web agent interface",
+      "chapter": "07",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "UI for web-based manufacturing agents"
+    },
+    {
+      "rank": 10,
+      "repo": "microsoft/agent-framework",
+      "stars": 9174,
+      "category": "multi-agent-framework",
+      "book_relevance": "CH05_CH06: Production orchestration patterns, circuit breakers",
+      "chapter": "05, 06",
+      "priority": "HIGH",
+      "deep_dive": true,
+      "notes": "Production-grade multi-agent framework. Compare with Autogen, Deer-Flow."
+    },
+    {
+      "rank": 11,
+      "repo": "psi-oss/get-physics-done",
+      "stars": 716,
+      "category": "agentic-physics",
+      "book_relevance": "FLAGSHIP_CH10: First open-source agentic AI physicist",
+      "chapter": "10",
+      "priority": "HIGH",
+      "deep_dive": true,
+      "notes": "Agentic physics reasoning. Perfect for Ch04.5 case study."
+    },
+    {
+      "rank": 12,
+      "repo": "alvivar/pi-link",
+      "stars": 9,
+      "category": "agent-communication",
+      "book_relevance": "FLAGSHIP_CH06: WebSocket multi-terminal coordination (exactly what we need!)",
+      "chapter": "06",
+      "priority": "HIGH",
+      "deep_dive": true,
+      "notes": "CRITICAL DISCOVERY: WebSocket-based agent coordination. Low stars, HIGH relevance."
+    },
+    {
+      "rank": 13,
+      "repo": "angristan/MacThrottle",
+      "stars": 602,
+      "category": "thermal-management",
+      "book_relevance": "CH04.5: Thermal management for manufacturing edge devices",
+      "chapter": "04.5",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "Mac thermal management, tangential to manufacturing thermal"
+    },
+    {
+      "rank": 14,
+      "repo": "ableplayer/ableplayer",
+      "stars": 812,
+      "category": "accessibility",
+      "book_relevance": "CH07: Accessible manufacturing interfaces",
+      "chapter": "07",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "Accessibility for manufacturing UIs"
+    },
+    {
+      "rank": 15,
+      "repo": "lucidrains/deep-cross-attention",
+      "stars": 99,
+      "category": "attention-mechanisms",
+      "book_relevance": "CH10: Advanced attention for manufacturing sequence modeling",
+      "chapter": "10",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "Attention research, niche for manufacturing"
+    },
+    {
+      "rank": 16,
+      "repo": "hrithikkoduri/WebRover",
+      "stars": 991,
+      "category": "web-agent",
+      "book_relevance": "CH07_SCENARIOS: Autonomous web agent for manufacturing dashboards",
+      "chapter": "07",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "Web automation agent"
+    },
+    {
+      "rank": 17,
+      "repo": "hmans/beans",
+      "stars": 672,
+      "category": "issue-tracker",
+      "book_relevance": "CH06: CLI-based tracker for humans and robots",
+      "chapter": "06",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "Human-robot collaboration tracking"
+    },
+    {
+      "rank": 18,
+      "repo": "lsj5031/PiSwarm",
+      "stars": 5,
+      "category": "swarm-robotics",
+      "book_relevance": "FLAGSHIP_CH07: Swarm robotics for manufacturing (assuming from name)",
+      "chapter": "07",
+      "priority": "HIGH",
+      "deep_dive": true,
+      "notes": "Critical low-star gem: Pi + Swarm = manufacturing swarm robotics"
+    },
+    {
+      "rank": 19,
+      "repo": "MattDevy/pi-extensions",
+      "stars": 6,
+      "category": "pi-ecosystem",
+      "book_relevance": "CH10: Continuous learning for agent experience improvement",
+      "chapter": "10",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "Self-improving agents pattern"
+    },
+    {
+      "rank": 20,
+      "repo": "dustinbyrne/kb",
+      "stars": 5,
+      "category": "knowledge-base",
+      "book_relevance": "CH08: Knowledge management for manufacturing agents",
+      "chapter": "08",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "Kanban-style knowledge base"
+    },
+    {
+      "rank": 21,
+      "repo": "brumik/ollama-obsidian-indexer",
+      "stars": 76,
+      "category": "knowledge-graph",
+      "book_relevance": "CH08_KARMA: Knowledge graph integration with LLMs",
+      "chapter": "08",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "Knowledge graph patterns"
+    },
+    {
+      "rank": 22,
+      "repo": "jlumbroso/passage-of-time-mcp",
+      "stars": 713,
+      "category": "temporal-awareness",
+      "book_relevance": "CH06: Temporal awareness for agent decision-making",
+      "chapter": "06",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "Time-aware AI agents"
+    },
+    {
+      "rank": 23,
+      "repo": "Dimillian/CodexSkillManager",
+      "stars": 986,
+      "category": "skill-management",
+      "book_relevance": "CH07: Skill management for manufacturing agents",
+      "chapter": "07",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "Skill manager, tangential"
+    },
+    {
+      "rank": 24,
+      "repo": "patoles/agent-flow",
+      "stars": 625,
+      "category": "agent-visualization",
+      "book_relevance": "CH08: Real-time visualization of agent orchestration",
+      "chapter": "08",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "Agent coordination visualization"
+    },
+    {
+      "rank": 25,
+      "repo": "VoltAgent/voltagent",
+      "stars": 9174,
+      "category": "agent-framework",
+      "book_relevance": "CH05: AI Agent Engineering Platform (TypeScript)",
+      "chapter": "05",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "Large agent framework, compare with Microsoft offerings"
+    },
+    {
+      "rank": 26,
+      "repo": "datamill-co/target-postgres",
+      "stars": 99,
+      "category": "data-integration",
+      "book_relevance": "CH07: Manufacturing data pipeline to PostgreSQL",
+      "chapter": "07",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "Data pipeline, infrastructure"
+    },
+    {
+      "rank": 27,
+      "repo": "katanemo/plano",
+      "stars": 600,
+      "category": "api-specs",
+      "book_relevance": "CH08: API specifications for manufacturing agents",
+      "chapter": "08",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "API spec enforcement"
+    },
+    {
+      "rank": 28,
+      "repo": "10up/classifai",
+      "stars": 800,
+      "category": "wordpress-ai",
+      "book_relevance": "CH07: WordPress manufacturing content automation",
+      "chapter": "07",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "WordPress AI, niche"
+    },
+    {
+      "rank": 29,
+      "repo": "serialport/node-serialport",
+      "stars": 5990,
+      "category": "hardware-integration",
+      "book_relevance": "CH07: JavaScript serial port access for manufacturing hardware",
+      "chapter": "07",
+      "priority": "HIGH",
+      "deep_dive": true,
+      "notes": "Hardware integration critical for manufacturing"
+    },
+    {
+      "rank": 30,
+      "repo": "aus-der-Technik/FileMonitor",
+      "stars": 91,
+      "category": "file-watching",
+      "book_relevance": "CH07: Production file monitoring for manufacturing pipelines",
+      "chapter": "07",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "File system monitoring"
+    }
+  ],
+  "summary": {
+    "total_analyzed": 30,
+    "high_priority": [
+      "bytedance/deer-flow",
+      "NVIDIA/warp",
+      "psi-oss/get-physics-done",
+      "alvivar/pi-link",
+      "lsj5031/PiSwarm",
+      "microsoft/agent-framework",
+      "serialport/node-serialport"
+    ],
+    "deep_dive_candidates": 7,
+    "chapters_covered": ["04", "04.5", "05", "06", "07", "08", "10"]
+  }
+}

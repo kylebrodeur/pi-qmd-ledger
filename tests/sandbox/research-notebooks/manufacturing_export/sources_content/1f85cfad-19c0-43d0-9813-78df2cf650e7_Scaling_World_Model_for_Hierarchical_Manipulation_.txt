@@ -1,0 +1,2559 @@
+Scaling World Model for Hierarchical Manipulation Policies
+
+ Back to arXiv
+
+https://arxiv.org/
+
+ 
+
+https://arxiv.org/abs/2602.10983v1
+
+ 
+
+javascript:toggleColorScheme()
+
+ Back to arXiv
+
+https://arxiv.org/
+
+This is 
+
+experimental HTML
+
+ to improve accessibility. We invite you to report rendering errors. Use Alt+Y to toggle on accessible reporting links and Alt+Shift+Y to toggle off. Learn more 
+
+about this project
+
+https://info.arxiv.org/about/accessible_HTML.html
+
+ and 
+
+help improve conversions
+
+https://info.arxiv.org/help/submit_latex_best_practices.html
+
+.
+
+Why HTML?
+
+https://info.arxiv.org/about/accessible_HTML.html
+
+ 
+
+Report Issue
+
+#myForm
+
+ 
+
+Back to Abstract
+
+https://arxiv.org/abs/2602.10983v1
+
+ 
+
+Download PDF
+
+https://arxiv.org/pdf/2602.10983v1
+
+ 
+
+javascript:toggleColorScheme()
+
+Table of Contents
+
+Abstract
+
+https://arxiv.org/html/2602.10983v1#abstract
+
+I Introduction
+
+https://arxiv.org/html/2602.10983v1#S1
+
+II Related Works
+
+https://arxiv.org/html/2602.10983v1#S2
+
+II-A Language-conditioned Imitation Learning
+
+https://arxiv.org/html/2602.10983v1#S2.SS1
+
+II-B World Models for Robot Manipulation
+
+https://arxiv.org/html/2602.10983v1#S2.SS2
+
+II-C Manipulation Task Decomposition
+
+https://arxiv.org/html/2602.10983v1#S2.SS3
+
+III Problem Formulation
+
+https://arxiv.org/html/2602.10983v1#S3
+
+IV Method
+
+https://arxiv.org/html/2602.10983v1#S4
+
+IV-A World Model Planner
+
+https://arxiv.org/html/2602.10983v1#S4.SS1
+
+Model Formulation
+
+https://arxiv.org/html/2602.10983v1#S4.SS1.SSS0.Px1
+
+Subtask Planning
+
+https://arxiv.org/html/2602.10983v1#S4.SS1.SSS0.Px2
+
+IV-B Goal Conditioned VLA
+
+https://arxiv.org/html/2602.10983v1#S4.SS2
+
+Model Formulation
+
+https://arxiv.org/html/2602.10983v1#S4.SS2.SSS0.Px1
+
+Subtask-Aware Action Padding
+
+https://arxiv.org/html/2602.10983v1#S4.SS2.SSS0.Px2
+
+Random Goal Image Offset
+
+https://arxiv.org/html/2602.10983v1#S4.SS2.SSS0.Px3
+
+IV-C Dataset Curation
+
+https://arxiv.org/html/2602.10983v1#S4.SS3
+
+Dataset Source
+
+https://arxiv.org/html/2602.10983v1#S4.SS3.SSS0.Px1
+
+Automatic Milestone Labeling
+
+https://arxiv.org/html/2602.10983v1#S4.SS3.SSS0.Px2
+
+Any-to-Image Pretraining Data
+
+https://arxiv.org/html/2602.10983v1#S4.SS3.SSS0.Px3
+
+V Experimental Results
+
+https://arxiv.org/html/2602.10983v1#S5
+
+V-A Real World Tasks and Setups
+
+https://arxiv.org/html/2602.10983v1#S5.SS1
+
+V-B Visual Subgoal–based Task Decomposition
+
+https://arxiv.org/html/2602.10983v1#S5.SS2
+
+V-B 1 Qualitative Results on Real Photos Synthetic Scenes
+
+https://arxiv.org/html/2602.10983v1#S5.SS2.SSS1
+
+V-B 2 Qualitative Results on Real-Robot Scenarios
+
+https://arxiv.org/html/2602.10983v1#S5.SS2.SSS2
+
+V-C Goal Conditioned VLA
+
+https://arxiv.org/html/2602.10983v1#S5.SS3
+
+V-C 1 Quantitative Analysis
+
+https://arxiv.org/html/2602.10983v1#S5.SS3.SSS1
+
+V-C 2 Qualitative Analysis
+
+https://arxiv.org/html/2602.10983v1#S5.SS3.SSS2
+
+VI Conclusion
+
+https://arxiv.org/html/2602.10983v1#S6
+
+VII Limitations
+
+https://arxiv.org/html/2602.10983v1#S7
+
+A Implementation Details
+
+https://arxiv.org/html/2602.10983v1#A1
+
+A-A World Model Planner
+
+https://arxiv.org/html/2602.10983v1#A1.SS1
+
+Model Architecture and Tokenization
+
+https://arxiv.org/html/2602.10983v1#A1.SS1.SSS0.Px1
+
+Sequence Formatting
+
+https://arxiv.org/html/2602.10983v1#A1.SS1.SSS0.Px2
+
+Model Training
+
+https://arxiv.org/html/2602.10983v1#A1.SS1.SSS0.Px3
+
+A-B Goal-conditioned VLA.
+
+https://arxiv.org/html/2602.10983v1#A1.SS2
+
+Model Architecture
+
+https://arxiv.org/html/2602.10983v1#A1.SS2.SSS0.Px1
+
+Two-Stage Training settings
+
+https://arxiv.org/html/2602.10983v1#A1.SS2.SSS0.Px2
+
+Inference Details
+
+https://arxiv.org/html/2602.10983v1#A1.SS2.SSS0.Px3
+
+B Dataset Construction and Visualization
+
+https://arxiv.org/html/2602.10983v1#A2
+
+C Visualization of Generated Results for Unconstrained Scenarios
+
+https://arxiv.org/html/2602.10983v1#A3
+
+D Illustration of Real-World Experiment Setup
+
+https://arxiv.org/html/2602.10983v1#A4
+
+E Visualization of generated goal images for novel scenarios
+
+https://arxiv.org/html/2602.10983v1#A5
+
+F Emerging Capability Analysis
+
+https://arxiv.org/html/2602.10983v1#A6
+
+G Visualization and Analysis of Execution Results
+
+https://arxiv.org/html/2602.10983v1#A7
+
+References
+
+https://arxiv.org/html/2602.10983v1#bib
+
+License: CC BY 4.0
+
+https://info.arxiv.org/help/license/index.html#licenses-available
+
+arXiv:2602.10983v1 [cs.RO] 11 Feb 2026
+
+Scaling World Model for Hierarchical Manipulation Policies
+
+Report issue for preceding element
+
+Long Qian 
+
+∗1,2
+
+, Yueze Wang 
+
+∗2
+
+, Jiaxi Song 
+
+∗2,3
+
+, Junbo Zhang 
+
+2,3
+
+, Peiyan Li 
+
+2,5
+
+, Wenxuan Wang 
+
+2,5
+
+, Yuqi Wang 
+
+2,5
+
+,
+
+Haoyang Li 
+
+2
+
+, Shaoxuan Xie 
+
+2
+
+, Guocai Yao 
+
+2
+
+, Hanbo Zhang 
+
+4
+
+, Xinlong Wang 
+
+2
+
+, Zhongyuan Wang 
+
+2
+
+,
+
+Xuguang Lan 
+
+†1
+
+, Huaping Liu 
+
+†3
+
+, Xinghang Li 
+
+†‡2
+
+ 
+
+1
+
+Xi'an Jiao Tong University, 
+
+2
+
+ Beijing Academy of Artificial Intelligence, 
+
+3
+
+ Tsinghua University, 
+
+4
+
+National University of Singapore, 
+
+5
+
+ Institute of Automation, Chinese Academy of Sciences
+
+Report issue for preceding element
+
+Abstract
+
+Report issue for preceding element
+
+Vision-Language-Action (VLA) models are promising for generalist robot manipulation but remain brittle in out-of-distribution (OOD) settings, especially with limited real-robot data. To resolve the generalization bottleneck, we introduce a hierarchical Vision-Language-Action framework VISTA that leverages the generalization of large-scale pre-trained world model for robust and generalizable VI sual S ubgoal TA sk decomposition ( VISTA). Our hierarchical framework VISTA consists of a world model as the high-level planner and a VLA as the low-level executor. The high-level world model first divides manipulation tasks into subtask sequences with goal images, and the low-level policy follows the textual and visual guidance to generate action sequences. Compared to raw textual goal specification, these synthesized goal images provide visually and physically grounded details for low-level policies, making it feasible to generalize across unseen objects and novel scenarios. We validate both visual goal synthesis and our hierarchical VLA policies in massive out-of-distribution scenarios, and the performance of the same-structured VLA in novel scenarios could boost from 14% to 69% with the guidance generated by the world model. Results demonstrate that our method outperforms previous baselines with a clear margin, particularly in out-of-distribution scenarios. Project page: 
+
+https://vista-wm.github.io
+
+https://vista-wm.github.io/
+
+Report issue for preceding element 
+
+†
+
+ 
+
+†
+
+footnotetext: ∗ \ast Authors contributed equally: qianlongym@stu.xjtu.edu.cn. † \dagger Corresponding authors: hpliu@tsinghua.edu.cn, xglan@mail.xjtu.edu.cn. ‡ {\ddagger} Project Leader: lixingha23@mails.tsinghua.edu.cn
+
+I Introduction
+
+Report issue for preceding element
+
+Vision-Language-Action (VLA) models [ 
+
+31
+
+https://arxiv.org/html/2602.10983v1#bib.bib34
+
+, 
+
+4
+
+https://arxiv.org/html/2602.10983v1#bib.bib35
+
+, 
+
+32
+
+https://arxiv.org/html/2602.10983v1#bib.bib36
+
+] offer a promising paradigm for learning generalist robot manipulation policies by leveraging large-scale pretraining to directly follow natural language instructions and generate low-level actions. However, VLAs remain brittle in out-of-distribution (OOD) scenarios, particularly when real-world robot data is scarce. As analyzed in [ 
+
+25
+
+https://arxiv.org/html/2602.10983v1#bib.bib37
+
+, 
+
+23
+
+https://arxiv.org/html/2602.10983v1#bib.bib38
+
+] , this limitation stems from a fundamental mismatch in data structure between pretrained Vision-Language Models (VLMs) and VLAs. VLMs are trained on paired image–text data to model a discretized language distribution, whereas VLAs are trained on long robot trajectories consisting of hundreds of image–action pairs under a single instruction, with continuous action regression as the learning target. As a result, VLAs lack the zero-shot generalization ability of VLMs and require a large amount of real-world data for robust performance. This challenge is exacerbated in long-horizon manipulation, where the combinatorial growth of state transitions makes direct mapping from a static language command to precise action sequences ill-posed and highly data-intensive.
+
+Report issue for preceding element
+
+Hierarchical task decomposition is therefore essential. However, existing approaches face a representation trade-off: linguistic sub-goals generalize well semantically but lack concrete spatial and physical constraints [ 
+
+27
+
+https://arxiv.org/html/2602.10983v1#bib.bib31
+
+, 
+
+48
+
+https://arxiv.org/html/2602.10983v1#bib.bib30
+
+] , while dense video prediction provides richer detail but suffers from temporal drift and physical inconsistency over long horizons [ 
+
+14
+
+https://arxiv.org/html/2602.10983v1#bib.bib33
+
+, 
+
+47
+
+https://arxiv.org/html/2602.10983v1#bib.bib32
+
+] . This motivates a central question: How can we leverage foundation model generalization to abstract manipulation into an intermediate representation that improves both robustness and data efficiency?
+
+Report issue for preceding element
+
+We answer this question with VISTA, a hierarchical Vision-Language-Action framework in which high-level planning is performed by a world model that decomposition manipulation into a sequence of compact, visually grounded subgoals, and low-level control is carried out by a VLA policy guided by these discretized visual subgoals. The key insight of our approach is that robust generalization can be achieved by reasoning over stable visual subgoals, rather than relying solely on brittle textual subtasks or dense, error-prone trajectory predictions.
+
+Report issue for preceding element
+
+Specifically, VISTA synthesizes a discrete sequence of goal images that serve as visual milestones, which are interleaved with textual subtasks to form goal-conditioned manipulation primitives. Predicting only key frames enables scalable training on large video datasets, mitigates hallucination through state invariance, and provides explicit spatial constraints that language alone cannot convey. Within VISTA, execution is handled by a goal-conditioned VLA policy that fuses the current observation with the synthesized goal image and textual instruction to predict action chunks. Trained at scale, this policy leverages high-fidelity visual goals as strong spatial priors, enabling precise execution and improved generalization to unseen objects and scenes.
+
+Report issue for preceding element
+
+We evaluate VISTA on multi-stage manipulation with an emphasis on out-of-distribution (OOD) generalization. Using only 2 hours of real-world teleoperation data collected on 5 objects, VISTA achieves 69% success in novel scenarios spanning 21 unseen objects, outperforming the baseline π 0 \pi_{0} guided by language instruction, which only achieves 14% success. These results highlight that our hierarchical generative visual decomposition substantially improves both data efficiency and robustness.
+
+Report issue for preceding element
+
+Our main contributions are as follows:
+
+Report issue for preceding element
+
+• A scalable data processing pipeline that relabels millions of robot trajectories into an interleaved format of textual subtasks and visual goal images. Report issue for preceding element
+
+• A generative embodied world model that produces physically and multi-view consistent visual sub-goals for manipulation guidance. Report issue for preceding element
+
+• The VIsual Subgoal-based TAsk decomposition framework VISTA, a hierarchical framework with a generative world model and a goal-image-conditioned policy (GoalVLA) that significantly outperforms standard baselines in OOD settings. Report issue for preceding element
+
+The remainder of the paper is organized as follows. Sec. 
+
+II
+
+https://arxiv.org/html/2602.10983v1#S2
+
+ reviews related work, Sec. 
+
+III
+
+https://arxiv.org/html/2602.10983v1#S3
+
+ presents the problem formulation, and Sec. 
+
+IV
+
+https://arxiv.org/html/2602.10983v1#S4
+
+ details VISTA. The experimental results are reported in Sec. 
+
+V
+
+https://arxiv.org/html/2602.10983v1#S5
+
+, followed by conclusions and limitations in Sec. 
+
+VI
+
+https://arxiv.org/html/2602.10983v1#S6
+
+ and Sec. 
+
+VII
+
+https://arxiv.org/html/2602.10983v1#S7
+
+.
+
+Report issue for preceding element
+
+ 
+
+Figure 1: Overview of the VISTA. The framework comprises two essential modules: Left: VISTA serves as a high-level planner. By treating visual goals and textual subtasks as a unified multi-modal sequence, it autoregressively generates interleaved textual subtasks and visual goals conditioned on the global instruction and initial observation. Right: The GoalVLA acts as the low-level controller. It takes the real-time observation and the generated subgoal as input to predict executable action chunks. The execution process is managed hierarchically, where a subtask switcher transitions to the next stage upon completion of the current stage. Report issue for preceding element
+
+II Related Works
+
+Report issue for preceding element
+
+II-A Language-conditioned Imitation Learning
+
+Report issue for preceding element
+
+Language-conditioned imitation learning typically aims to map visual observations and linguistic instructions directly to action sequences. Early works like BC-Z [ 
+
+28
+
+https://arxiv.org/html/2602.10983v1#bib.bib10
+
+] and CLIPort [ 
+
+40
+
+https://arxiv.org/html/2602.10983v1#bib.bib11
+
+] relied on end-to-end behavior cloning with labeled data or generalizable semantic representations for modular design. Recently, the emergence of Vision-Language-Action (VLA) models [ 
+
+7
+
+https://arxiv.org/html/2602.10983v1#bib.bib12
+
+, 
+
+54
+
+https://arxiv.org/html/2602.10983v1#bib.bib13
+
+, 
+
+6
+
+https://arxiv.org/html/2602.10983v1#bib.bib14
+
+] fundamentally shifted this formulation by casting robot actions as tokens within a unified autoregressive sequence, enabling the direct transfer of semantic reasoning from internet-scale pre-training to robotic control. Yet, despite their promise as generalist policies, these models suffer from brittleness in generalization, particularly for long-horizon tasks with out-of-distribution objects. To address this, hierarchical decompositions such as Helix [ 
+
+20
+
+https://arxiv.org/html/2602.10983v1#bib.bib15
+
+] and G0 [ 
+
+29
+
+https://arxiv.org/html/2602.10983v1#bib.bib16
+
+] explicitly separate high-level planning from low-level execution. However, these methods typically rely on textual sub-goals, which lack the expressiveness required to enforce strict visual and physical constraints. Therefore, effectively grounding high-level semantics into physically consistent manipulation plans remains an open challenge that this work addresses.
+
+Report issue for preceding element
+
+II-B World Models for Robot Manipulation
+
+Report issue for preceding element
+
+World models seek to internalize physical dynamics from large-scale unstructured data, enabling robots to predict action outcomes without costly real-world interaction. A prominent application is video pretraining, which leverages internet-scale human manipulation videos to learn physics and object affordances. Methods such as GR-1 [ 
+
+44
+
+https://arxiv.org/html/2602.10983v1#bib.bib17
+
+] cast this as a GPT-style sequence completion problem, learning strong visual representations by predicting future frames and treating robot actions as latent drivers of video evolution. Extending this paradigm, Inverse Dynamics [ 
+
+18
+
+https://arxiv.org/html/2602.10983v1#bib.bib18
+
+] decouples high-level planning from low-level control by first generating future successful executions with a diffusion model, then decoding actions from the predicted futures. Beyond policy initialization, world models support rewards, planning, and decomposition. In RL, video generative models provide dense, differentiable rewards, as in VIPER [ 
+
+19
+
+https://arxiv.org/html/2602.10983v1#bib.bib19
+
+] and TeViR [ 
+
+13
+
+https://arxiv.org/html/2602.10983v1#bib.bib20
+
+] , which score trajectories by their likelihood under pretrained video models. Model-based methods such as Dreamer [ 
+
+24
+
+https://arxiv.org/html/2602.10983v1#bib.bib21
+
+] plan in learned latent spaces to achieve sample-efficient robot learning. To bridge passive video and control, latent action models like Genie [ 
+
+8
+
+https://arxiv.org/html/2602.10983v1#bib.bib22
+
+] , LAPA [ 
+
+49
+
+https://arxiv.org/html/2602.10983v1#bib.bib23
+
+] , and UniVLA [ 
+
+10
+
+https://arxiv.org/html/2602.10983v1#bib.bib24
+
+] learn discrete action codes via VQ-VAE objectives, effectively transforming videos into interactive simulators. In contrast, our work synthesizes sparse visual sub-goals as a temporal bottleneck, avoiding long-horizon video generation while providing explicit spatial constraints for robust execution.
+
+Report issue for preceding element
+
+II-C Manipulation Task Decomposition
+
+Report issue for preceding element
+
+The decomposition of manipulation tasks aims to distill long-horizon behaviors into compact intermediate representations that are expressive enough for planning and structured enough for reliable execution. In the context of VLA systems, dual-system frameworks such as Helix [ 
+
+20
+
+https://arxiv.org/html/2602.10983v1#bib.bib15
+
+] and G0 [ 
+
+29
+
+https://arxiv.org/html/2602.10983v1#bib.bib16
+
+] implicitly adopt this decomposition principle by separating low-frequency semantic reasoning (e.g., VLM-based planning) from high-frequency motor control. More broadly, prior work has explored a spectrum of decomposition interfaces between language and action. Code-based decompositions (e.g., Code as Policies [ 
+
+33
+
+https://arxiv.org/html/2602.10983v1#bib.bib25
+
+] and ProgPrompt [ 
+
+41
+
+https://arxiv.org/html/2602.10983v1#bib.bib26
+
+] ) use executable programs as a structured interface for compositional reasoning, while neuro-symbolic approaches such as LLM+P [ 
+
+34
+
+https://arxiv.org/html/2602.10983v1#bib.bib27
+
+] and SayPlan [ 
+
+37
+
+https://arxiv.org/html/2602.10983v1#bib.bib28
+
+] map natural language into PDDL-style plans to enforce logical consistency. Beyond purely linguistic decompositions, visual decompositions such as LEAP [ 
+
+35
+
+https://arxiv.org/html/2602.10983v1#bib.bib29
+
+] and VLM-TDP [ 
+
+26
+
+https://arxiv.org/html/2602.10983v1#bib.bib40
+
+] represent tasks using latent embeddings or predicted spatial trajectories. These methods collectively reveal a central trade-off among decompositions expressiveness, interpretability, and verifiability. In contrast, we formulate task decompositions as generative visual subgoal synthesis, providing a lightweight yet grounded intermediate representation that preserves fine-grained spatial constraints while remaining easy to verify.
+
+Report issue for preceding element
+
+III Problem Formulation
+
+Report issue for preceding element
+
+We define the language-conditioned manipulation problem in which a robot interacts with an environment to fulfill a global instruction L ∈ 𝒯 L\in\mathcal{T} , where 𝒯 \mathcal{T} is the free text space. The input of the system comprises the current visual observation I t ∈ ℐ I_{t}\in\mathcal{I} at timestamp t t , where ℐ \mathcal{I} is the space of images, and the execution history. The output is a sequence of actions 𝒂 ∈ 𝒜 k \boldsymbol{a}\in\mathcal{A}^{k} , i.e., an action chunk of length k k , that drives the robot toward task completion.
+
+Report issue for preceding element
+
+To address the challenge of compositional manipulation tasks, we do not map the global instruction directly to actions; instead, we decompose L L into a sequence of intermediate subtasks. The subtask at stage i i consists of a textual subtask l i ∈ 𝒯 l_{i}\in\mathcal{T} , specifying “what to do”, and a visual goal g i ∈ ℐ g_{i}\in\mathcal{I} specifying “how to do it”. The objective is to train a policy π \pi that leverages these sub-goals to generate precise action trajectories. Formally, we utilize a world model W W to predict the next required sub-goal based on the instruction L L and the history 𝒉 = ( l 0 , g 0 , … , l i − 1 , g i − 1 ) \boldsymbol{h}=(l_{0},g_{0},...,l_{i-1},g_{i-1}) . The low-level policy π θ \pi_{\theta} , parameterized by θ \theta , then takes the current observation I t I_{t} and the current milestone of both the subtask and the visual goal ( l i , g i l_{i},g_{i} ) to infer the action sequence 𝒂 \boldsymbol{a} . This process is formulated as follows:
+
+Report issue for preceding element
+
+( s i , g i ) = W  ( L , 𝒉 ) , 𝒂 = π θ  ( I t , l i , g i ) (s_{i},g_{i})=W(L,\boldsymbol{h}),\quad\boldsymbol{a}=\pi_{\theta}(I_{t},l_{i},g_{i})
+
+(1)
+
+The robot executes a a until the current observation I t I_{t} visually aligns with the goal g i g_{i} , at which point the system updates the history 𝒉 \boldsymbol{h} and queries W W for the next stage.
+
+Report issue for preceding element
+
+In contrast to prevalent VLAs that often discard interaction history to accommodate architectural constraints and hinder compositional reasoning, or video generation frameworks that suffer from the stochasticity of pixel prediction, our formulation adopts a structured hierarchical decomposition. We abstract the continuous task into discrete key milestones ( l i , g i ) (l_{i},g_{i}) rather than relying on the generation of dense future frames. This approach leverages the heuristics of sub-goal invariance and hence avoids ambiguity of video prediction. Moreover, it provides the policy π θ \pi_{\theta} with explicit references for “what” to execute and “how” to verify termination to ensure robustness.
+
+Report issue for preceding element
+
+IV Method
+
+Report issue for preceding element
+
+In this section, we describe the two essential modules of VISTA, including the embodied world model and the GoalVLA. For each manipulation task, we divide it into multiple stages, each stage contains an atom skill and a target object or position. Our world model generates the interleaved sequence of text and images as the subtask instruction and goal image for each subtask stage, which we will describe in Sec. 
+
+IV-A
+
+https://arxiv.org/html/2602.10983v1#S4.SS1
+
+. Next, the GoalVLA would judge the current stage and take the current observation and the subtask and goal images of the current stage as input to predict the current action chunk, this process will be detailed in Sec. 
+
+IV-B
+
+https://arxiv.org/html/2602.10983v1#S4.SS2
+
+. Finally, the datasets used for the training of the two modules are illustrated in Sec. 
+
+IV-C
+
+https://arxiv.org/html/2602.10983v1#S4.SS3
+
+.
+
+Report issue for preceding element
+
+IV-A World Model Planner
+
+Report issue for preceding element
+
+To enable high-level planning, we introduce the Embodied World Model which we denoted as 𝒲 \mathcal{W} , that decomposes the global instruction L L into executable milestones ( l i , g i ) (l_{i},g_{i}) . By treating visual goals and textual subtasks as a unified multi-modal sequence, 𝒲 \mathcal{W} autoregressively predicts the next stage of the task conditioned on the generated history.
+
+Report issue for preceding element
+
+Model Formulation
+
+Report issue for preceding element
+
+We adopt a unified discrete representation by mapping both vision and language into a shared vocabulary 𝒱 \mathcal{V} . We utilize the IBQ-Tokenizer [ 
+
+38
+
+https://arxiv.org/html/2602.10983v1#bib.bib47
+
+] for images and the Qwen3 tokenizer [ 
+
+1
+
+https://arxiv.org/html/2602.10983v1#bib.bib48
+
+] for text, denoted jointly as the tokenization function ϕ \phi . The multi-view images, which are flattened in a fixed order, and text are converted into a discrete token sequence S S :
+
+Report issue for preceding element
+
+S \displaystyle S
+
+= ( ϕ  ( I 0 ) , ϕ  ( L ) , ϕ  ( l 0 ) , ϕ  ( g 0 ) , … , ϕ  ( l N ) , ϕ  ( g N ) ) \displaystyle=(\phi(I_{0}),\phi(L),\phi(l_{0}),\phi(g_{0}),\dots,\phi(l_{N}),\phi(g_{N}))
+
+= ( u 1 , u 2 , … , u K ) \displaystyle=(u_{1},u_{2},\dots,u_{K})
+
+where u k ∈ 𝒱 u_{k}\in\mathcal{V} represents the k k -th token in the sequence of length K K . This unifies the global context ( I 0 , L I_{0},L ) and the interleaved milestones ( l i , g i l_{i},g_{i} ) into a single homogeneous input for the transformer. Based on the unified sequence formulation, the model is trained via standard autoregressive modeling to learn the joint distribution of the task sequence. We optimize the cross-entropy loss ℒ \mathcal{L} over the sequence S S , maximizing the likelihood of the next token given the preceding context:
+
+Report issue for preceding element
+
+ℒ = − ∑ k = 1 K log  P  ( u k ∣ u < k ; θ 𝒲 ) \mathcal{L}=-\sum_{k=1}^{K}\log P(u_{k}\mid u_{<k};\theta_{\mathcal{W}})
+
+(2)
+
+where θ 𝒲 \theta_{\mathcal{W}} denotes the model parameters. Training utilizes teacher forcing with a causal attention mask, ensuring that predictions at step k k depend solely on the history u < k u_{<k} .
+
+Report issue for preceding element
+
+Subtask Planning
+
+Report issue for preceding element
+
+During inference, generation proceeds autoregressively via iterative sampling to predict the sequence of milestones. Starting from the initial context ( ϕ  ( I 0 ) , ϕ  ( L ) ) (\phi(I_{0}),\phi(L)) , the model sequentially predicts tokens for subsequent subtasks and goal images using beam search. Specifically, we maintain a set of B B candidate sequences (where B B is the beam width). At each step j j , given the current token history S < j = ( u 1 , … , u j − 1 ) S_{<j}=(u_{1},\ldots,u_{j-1}) , we compute the output logits and expand each candidate with the top- B B most probable next tokens. The joint probability of a candidate sequence S S is computed as the product of the conditional probabilities of its constituent tokens:
+
+Report issue for preceding element
+
+P  ( S ) = ∏ j P  ( u j ∣ u < j ) P(S)=\prod_{j}P(u_{j}\mid u_{<j})
+
+(3)
+
+The sampling process repeats until termination tokens are generated for all candidates. We then select the sequence with the highest overall probability and use the inverse tokenizer ϕ − 1 \phi^{-1} to reconstruct the goal images g i g_{i} at the pixel-level. This approach enables the generation of globally coherent milestone sequences conditioned on the initial input, effectively mitigating the risk of suboptimal token-level decisions that can occur with greedy decoding. We implement a continued training on the open-sourced EMU3.5 [ 
+
+16
+
+https://arxiv.org/html/2602.10983v1#bib.bib39
+
+] checkpoint, which is trained on interleaved text-image data, including navigation and manipulation, with 2000 steps. Please see Appendix 
+
+A
+
+https://arxiv.org/html/2602.10983v1#A1
+
+ for detailed training hyper parameters.
+
+Report issue for preceding element
+
+IV-B Goal Conditioned VLA
+
+Report issue for preceding element
+
+Leveraging the planning capability of the World Model, we train a goal images guided Vision-Language-Action (VLA) policy π θ \pi_{\theta} as a low-level controller for fine-grained manipulation.
+
+Report issue for preceding element
+
+Model Formulation
+
+Report issue for preceding element
+
+At each time step t t in stage i i , the policy takes the current observation I t I_{t} , the subtask instruction l i l_{i} , and the corresponding goal image g i g_{i} as input to predict an action chunk 𝒂 ∈ 𝒜 k \boldsymbol{a}\in\mathcal{A}^{k} that drives the robot toward the milestone. To fuse visual information effectively, we extend the input representation by concatenating the current observation tokens with the goal image tokens before feeding them into the model backbone.
+
+Report issue for preceding element
+
+Following the architecture of π 0 \pi_{0} [ 
+
+6
+
+https://arxiv.org/html/2602.10983v1#bib.bib14
+
+] , we train our policy using flow matching objective to generate continuous action trajectories. We define a linear interpolation between a noise sample 𝒛 ∼ 𝒩  ( 𝟎 , 𝐈 ) \boldsymbol{z}\sim\mathcal{N}(\mathbf{0},\mathbf{I}) and the ground-truth action chunk 𝒂 \boldsymbol{a} as 𝐱 τ = ( 1 − τ )  𝒛 + τ  𝒂 \mathbf{x}
+
+{\tau}=(1-\tau)\boldsymbol{z}+\tau\boldsymbol{a} , where τ ∈ [ 0 , 1 ] \tau\in[0,1] denotes the flow time. The policy predicts the corresponding velocity field 𝒗 τ = 𝒂 − 𝒛 \boldsymbol{v}
+
+{\tau}=\boldsymbol{a}-\boldsymbol{z} conditioned on the ( l i , I t , g i ) (l_{i},I_{t},g_{i}) . The objective is to minimize the expected mean squared error:
+
+Report issue for preceding element
+
+ℒ FM = 𝔼  τ , 𝒛  [ | π θ  ( 𝐱 τ , l i , I t , g i , τ ) − 𝒗 τ | 2 ] . \mathcal{L}
+
+{\mathrm{FM}}=\mathbb{E}{\tau,\boldsymbol{z}}\left[\left|\pi
+
+{\theta}(\mathbf{x}
+
+{\tau},l
+
+{i},I_{t},g_{i},\tau)-\boldsymbol{v}_{\tau}\right|^{2}\right].
+
+(4)
+
+Subtask-Aware Action Padding
+
+Report issue for preceding element
+
+Action chunks may straddle subtask boundaries (i.e., include steps that belong to stage i + 1 i{+}1 ). To prevent the policy from prematurely executing the next stage without an updated goal, we zero-pad the portion of each ground-truth chunk that occurs after the completion of the current milestone, explicitly teaching the policy to stop once the goal g i g_{i} is satisfied.
+
+Report issue for preceding element
+
+Random Goal Image Offset
+
+Report issue for preceding element
+
+Goal images predicted by the world model may be a few frames early/late relative to the true subtask termination, which can destabilize execution near stage boundaries. To make GoalVLA robust to this misalignment, we define a temporal overlap window around the boundary between subtasks i i and i + 1 i{+}1 . For training samples inside this window, we randomly use either g i g_{i} or g i + 1 g_{i+1} as the goal condition; when g i + 1 g_{i+1} is used, we also relabel the sample as stage i + 1 i{+}1 to avoid zero-padding. For samples in the rest of stage i i , we randomly sample g i g_{i} from the terminal overlap window instead of using a fixed goal frame. This simple augmentation exposes the policy to boundary noise and encourages smooth stage transitions.
+
+Report issue for preceding element
+
+ 
+
+Figure 2: Visualization of samples from our constructed embodied dataset. The dataset represents manipulation tasks as interleaved sequences of textual subtask and corresponding visual goals. Report issue for preceding element
+
+IV-C Dataset Curation
+
+Report issue for preceding element
+
+Dataset Source
+
+Report issue for preceding element
+
+We train the world model on large-scale embodied manipulation data from Open-X-Embodiment [ 
+
+36
+
+https://arxiv.org/html/2602.10983v1#bib.bib41
+
+] , AgiBot World Beta [ 
+
+9
+
+https://arxiv.org/html/2602.10983v1#bib.bib42
+
+] , and our Mobile Aloha dataset [ 
+
+21
+
+https://arxiv.org/html/2602.10983v1#bib.bib43
+
+] . Although the corpus exceeds 1M trajectories, annotations include only global instructions and image–action pairs, lacking intermediate milestones ( l i , g i ) (l_{i},g_{i}) . We therefore introduce an automated trajectory decomposition pipeline.
+
+Report issue for preceding element
+
+Automatic Milestone Labeling
+
+Report issue for preceding element
+
+The pipeline proceeds in three steps. First, we build a library of 50 atomic skills (e.g., 
+
+pick
+
+, 
+
+push
+
+) by clustering instruction verbs with Qwen3 [ 
+
+46
+
+https://arxiv.org/html/2602.10983v1#bib.bib49
+
+] . Second, candidate milestone boundaries are detected via physical state changes, using Ramer–Douglas–Peucker (RDP) [ 
+
+17
+
+https://arxiv.org/html/2602.10983v1#bib.bib44
+
+] on motion trajectories and gripper state transitions. Finally, Qwen2.5-VL 72B [ 
+
+2
+
+https://arxiv.org/html/2602.10983v1#bib.bib45
+
+] merges adjacent segments with identical skills and generates natural language subtask descriptions l i l_{i} .
+
+Report issue for preceding element
+
+This process converts 1.2M trajectories into interleaved subtask and goal-image sequences, covering 14 embodiments with multi-view support and totaling 15.2B tokens (Fig. 
+
+2
+
+https://arxiv.org/html/2602.10983v1#S4.F2
+
+). For AgiBot, we further refine abstract task types into fine-grained instructions.
+
+Report issue for preceding element
+
+Any-to-Image Pretraining Data
+
+Report issue for preceding element
+
+We co-train the world model with a 15.0B-token Any-to-Image dataset built from SEED-Data-Edit [ 
+
+22
+
+https://arxiv.org/html/2602.10983v1#bib.bib1
+
+] , WeatherStream [ 
+
+53
+
+https://arxiv.org/html/2602.10983v1#bib.bib5
+
+] , ShareGPT-4o-Image [ 
+
+11
+
+https://arxiv.org/html/2602.10983v1#bib.bib2
+
+] , etc. See Appendix 
+
+B
+
+https://arxiv.org/html/2602.10983v1#A2
+
+ for details.
+
+Report issue for preceding element
+
+V Experimental Results
+
+Report issue for preceding element
+
+V-A Real World Tasks and Setups
+
+Report issue for preceding element
+
+For the training dataset, we collect 2 hours of the pick-place task with five objects: egg, cola can, apple, milk bin, and croissant. We selected the π 0 \pi_{0} model, which features remarkable influence and outstanding performance, as our baseline. To further illustrate the impact of subtask instructions, we modified the training paradigm of π 0 \pi_{0} by replacing the original instructions in the dataset with subtasks, and we denote this variant as π 0  -subtask \pi_{0}\text{-subtask} .
+
+Report issue for preceding element
+
+As shown in Fig. 
+
+3
+
+https://arxiv.org/html/2602.10983v1#S5.F3
+
+, we evaluate the methods over the in-domain and out-of-distribution (ood) scenarios. For in-domain scenarios, despite the basic setup, we further replace the distractors and target objects to unseen objects. With each setting in in-domain scenarios, we have 5 tasks × \times 3 scene setup (combination of layout and unseen objects) = = 15 scenarios. For ood scenarios, we involve 21 novel objects with different semantic types and sample 5 objects for each scenario, of which one is selected as the target and the other four as the distractors. Then, we have 21 targets × \times 3 scene setup (combination of table-cloth and layout) = = 63 scenarios. For each scenario, we evaluate the model 3 times and calculate the mean metrics, and thus conduct 78 scenarios (15 in-domain + 63 ood) × \times 3 rollouts per scenario = = 234 rollouts per policy.
+
+Report issue for preceding element
+
+ 
+
+Figure 3: Visualization of real-world experiment setups, including the in-domain and novel scenarios. Report issue for preceding element
+
+ 
+
+Figure 4: The qualitative results for the subtask and goal image sequences generated by VISTA. See Appendix 
+
+C
+
+https://arxiv.org/html/2602.10983v1#A3
+
+ for more results. Report issue for preceding element
+
+ 
+
+Figure 5: The visualization of the multi-view goal images generated by VISTA in the real robot workspace with novel scenarios (unseen layout, distractor, target object, and background). Report issue for preceding element
+
+V-B Visual Subgoal–based Task Decomposition
+
+Report issue for preceding element
+
+With the continued training over the above-mentioned large-scale robotics and general dataset, VISTA emerges with the following abilities:
+
+Report issue for preceding element
+
+• Generate a physically consistent manipulation process over diverse phone captured and synthetic scenes. Report issue for preceding element
+
+• Maintain multi-view and physical consistency over diverse backgrounds, objects, and scenarios. Report issue for preceding element
+
+• Compose independent skills into entirely unseen long-horizon tasks, while grounding semantic and spatial understanding from language into visual goal images. Report issue for preceding element
+
+• Transfer the real robot photos captured by Aloha to other embodiments. Report issue for preceding element
+
+V-B 1 Qualitative Results on Real Photos Synthetic Scenes
+
+Report issue for preceding element
+
+To evaluate the generalization of VISTA, we generate out-of-distribution initial frames using Nano Banana [ 
+
+15
+
+https://arxiv.org/html/2602.10983v1#bib.bib46
+
+] , based on phone-captured images and real robot trajectories. Nano Banana is prompted to preserve object semantic types while varying object appearance, layout, background, and camera viewpoint. As shown in Fig. 
+
+4
+
+https://arxiv.org/html/2602.10983v1#S5.F4
+
+, the first image in each panel is an OOD initial frame, which we manually verify and annotate with the corresponding robot embodiment and language instruction.
+
+Report issue for preceding element
+
+The subsequent subtask and goal image sequences generated by VISTA demonstrate coherent planning and physically plausible interactions. The model consistently approaches target objects, synthesizes appropriate arm poses, and generates interaction sequences with realistic object motion, shadows, and grasping behavior, rather than artifacts such as object attachment. This indicates that VISTA maintains high-quality generation under significant visual and contextual shifts.
+
+Report issue for preceding element
+
+Moreover, VISTA exhibits cross-embodiment generalization. For example, the spray bottle is unseen in RT-1 and the laptop is unseen in Bridge, yet the model successfully transfers object affordances and skill knowledge across embodiments. This suggests that VISTA encodes skills, objects, and embodiments in a shared representation space, enabling linear rather than combinatorial generalization.
+
+Report issue for preceding element
+
+Finally, Fig. 
+
+4
+
+https://arxiv.org/html/2602.10983v1#S5.F4
+
+ (right) shows that when instructed to erase only the letters “B” and “C,” the model correctly identifies and removes the specified regions, despite being trained only on full-board cleaning tasks. This demonstrates that the world model preserves fine-grained world knowledge (e.g., OCR) and generates realistic future states conditioned on precise instructions.
+
+Report issue for preceding element
+
+ 
+
+Figure 6: Visualization of VISTA generated sequences over compositional, spatial understanding, and semantic understanding tasks. Report issue for preceding element
+
+ 
+
+Figure 7: The visualization for cross-embodiment transfer. VISTA could generate high-quality rollouts for different embodiments based on the robot arm type provided in the prompt. Report issue for preceding element
+
+V-B 2 Qualitative Results on Real-Robot Scenarios
+
+Report issue for preceding element
+
+As shown in Fig. 
+
+5
+
+https://arxiv.org/html/2602.10983v1#S5.F5
+
+, VISTA exhibits strong multi-view generation, producing spatially consistent goal images across head, left-wrist, and right-wrist cameras. Even under unseen scene layouts, objects, backgrounds, and viewpoints, the generated sequences maintain coherent spatial relationships between target objects and surrounding distractors across all views, including top-down perspectives. This indicates robust 3D spatial reasoning and generalization to novel multi-view observations.
+
+Report issue for preceding element
+
+The interleaved goal sequences accurately reflect the temporal structure of manipulation tasks such as pick-and-place. Across views, the generated goals depict consistent arm and gripper configurations, including approach trajectories, grasp poses, and object relocation, ensuring physically plausible and actionable goal states.
+
+Report issue for preceding element
+
+Multi-view visual goals provide complementary guidance beyond textual subtasks. While language specifies semantic intent, goal images convey precise spatial constraints, such as relative positions and orientations, which are difficult to express textually. This combined representation enables GoalVLA to better interpret task requirements and improves robustness in downstream control.
+
+Report issue for preceding element
+
+Despite being trained on single-arm, single-object tasks in Mobile Aloha, VISTA generalizes to multi-object and dual-arm compositions. As shown in Fig. 
+
+6
+
+https://arxiv.org/html/2602.10983v1#S5.F6
+
+, the model generates coherent multi-step plans under different arm usage constraints, with consistent object motion observed across all camera views, even when such cross-arm observations are absent from the training data. This further demonstrates strong multi-view consistency.
+
+Report issue for preceding element
+
+Finally, VISTA transfers across embodiments. When prompted with Mobile Aloha head-camera images and different robot arms, the model successfully generates interleaved goal sequences for Aloha, AgiBot G1, and WidowX in unseen environments (Fig. 
+
+7
+
+https://arxiv.org/html/2602.10983v1#S5.F7
+
+). We additionally evaluate more complex tasks, such as T-shirt folding and object packing, with results provided in Appendix 
+
+C
+
+https://arxiv.org/html/2602.10983v1#A3
+
+.
+
+Report issue for preceding element
+
+TABLE I: Comparison with baseline methods over the basic, unseen distractors and unseen target object setting for the collected 5 training tasks. The App denotes the approach success rate, and Suc denotes the execution success rate.
+
+| Setup | Method | Task 1 (cola can) || Task 2 (egg) || Task 3 (bread) || Task 4 (apple) || Task 5 (milk) || Avg ||
+
+ 
+
+| ^^ | ^^ | App | Suc | App | Suc | App | Suc | App | Suc | App | Suc | App | Suc |
+
+ 
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+ 
+
+| Basic | π 0 \pi_{\scalebox{0.8}{0}} | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 0.89 | 1.0 | 0.89 | 1.0 | 0.96 |
+
+ 
+
+| ^^ | π 0 \pi_{\scalebox{0.8}{0}} -subtask | 1.0 | 0.89 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 0.67 | 1.0 | 1.0 | 1.0 | 0.91 |
+
+ 
+
+| ^^ | Ours | 1.0 | 0.89 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 0.78 | 1.0 | 1.0 | 1.0 | 0.93 |
+
+ 
+
+| Unseen Distractor | π 0 \pi_{\scalebox{0.8}{0}} | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 0.56 | 1.0 | 0.11 | 1.0 | 1.0 | 1.0 | 0.73 |
+
+ 
+
+| ^^ | π 0 \pi_{\scalebox{0.8}{0}} -subtask | 1.0 | 1.0 | 1.0 | 0.78 | 1.0 | 1.0 | 1.0 | 0.33 | 1.0 | 0.78 | 1.0 | 0.78 |
+
+ 
+
+| ^^ | Ours | 1.0 | 1.0 | 1.0 | 0.56 | 1.0 | 1.0 | 1.0 | 0.56 | 1.0 | 1.0 | 1.0 | 0.82 |
+
+ 
+
+| Unseen Target | π 0 \pi_{\scalebox{0.8}{0}} | 0.33 | 0.0 | 0.67 | 0.0 | 0.33 | 0.0 | 0.33 | 0.22 | 0.33 | 0.0 | 0.40 | 0.04 |
+
+ 
+
+| ^^ | π 0 \pi_{\scalebox{0.8}{0}} -subtask | 0.33 | 0.33 | 1.0 | 0.56 | 1.0 | 0.33 | 0.33 | 0.0 | 1.0 | 0.33 | 0.73 | 0.31 |
+
+ 
+
+| ^^ | Ours | 1.0 | 0.67 | 1.0 | 1.0 | 1.0 | 0.67 | 1.0 | 0.67 | 1.0 | 0.33 | 1.0 | 0.67 |
+
+Report issue for preceding element
+
+V-C Goal Conditioned VLA
+
+Report issue for preceding element
+
+V-C 1 Quantitative Analysis
+
+Report issue for preceding element
+
+To evaluate robustness and generalization, we consider two settings: (i) replacing training-case distractors with unseen distractors, and (ii) substituting target objects with unseen targets while keeping the scene layout and instruction structure unchanged. Quantitative results are reported in Table 
+
+I
+
+https://arxiv.org/html/2602.10983v1#S5.T1
+
+. In unseen-distractor settings, all models experience some degradation, particularly for tasks requiring precise grasping (e.g., eggs and apples), but our model consistently achieves the highest overall success rate, demonstrating superior robustness.
+
+Report issue for preceding element
+
+ 
+
+Figure 8: The comparison of execution visualization results in novel scenarios. Report issue for preceding element
+
+In unseen-target settings, the policy π 0 \pi_{0} performs poorly in both approach and execution, highlighting the difficulty of grounding novel object names in vision. π 0 \pi_{0} -subtask improves approach success via subtask guidance but still fails during execution, revealing the limitations of language-only conditioning. In contrast, our model achieves a 100% approach success rate and significantly higher execution success, enabled by goal-image guidance that provides explicit spatial cues for accurate grasping and execution on unseen objects.
+
+Report issue for preceding element
+
+We further investigate the generalization limits by employing highly challenging scenarios with patterned tablecloths and entirely unseen objects across multiple categories, including fruits, breads, boxes, and bottles. The evaluation results are shown in Fig. 
+
+9
+
+https://arxiv.org/html/2602.10983v1#S5.F9
+
+. Despite substantial visual interference, our model maintains a high success rate, whereas baselines fail to execute accurate grasps despite reasonable approach performance. Background-specific analysis shows that semantically rich patterns cause performance drops for all models; however, our model exhibits the smallest degradation, confirming its stronger robustness to complex visual backgrounds.
+
+Report issue for preceding element
+
+ 
+
+Figure 9: Comparison with baseline methods on unseen scenarios over different target object categories and backgrounds. The bar chart corresponds to the bottom x-axis, and the line chart to the top x-axis. Report issue for preceding element
+
+V-C 2 Qualitative Analysis
+
+Report issue for preceding element
+
+As shown in Fig. 
+
+8
+
+https://arxiv.org/html/2602.10983v1#S5.F8
+
+, we qualitatively compare three policies in novel scenarios with unseen objects, table layouts, and backgrounds. In these settings, the SOTA VLA π 0 \pi_{0} and its subtask-guided variant π 0  -subtask \pi_{0}\text{-subtask} fail, while our method succeeds. In the first scenario on the left of Fig. 
+
+8
+
+https://arxiv.org/html/2602.10983v1#S5.F8
+
+, all policies initially approach the soda bottle; however, without visual goal guidance, both π 0 \pi_{0} and π 0  -subtask \pi_{0}\text{-subtask} baseline fail to grasp it. This reflects a common limitation of learning-based VLAs: when the target object is unseen, the policy interpolates action chunks from visually similar training objects. With only two hours of real-robot data, the closest object is a cola can, causing the baselines to adopt a horizontal can-grasping posture rather than a vertical bottle grasp, leading to failure under distribution shift.
+
+Report issue for preceding element
+
+In contrast, our method generates temporally aligned, multi-view goal images that explicitly encode the interaction region and desired end-effector pose. Conditioned on these goal images, GoalVLA accurately adjusts both position and posture, successfully grasping the unseen bottle and completing the task. This highlights the effectiveness of our world-model-driven hierarchy, where the world model supplies precise visual interaction cues and GoalVLA follows combined textual and visual guidance to produce robust action chunks.
+
+Report issue for preceding element
+
+A similar pattern appears in the second scenario on the right of Fig. 
+
+8
+
+https://arxiv.org/html/2602.10983v1#S5.F8
+
+. When instructed to grasp the red milk carton, π 0 \pi_{0} misidentifies the target and grasps a grape. Refining the instruction via subtask decomposition improves target localization but still fails to execute a precise grasp, even with subtask guidance. In contrast, our method uses goal-image spatial cues to guide arm selection, end-effector alignment, and grasp execution, enabling successful manipulation of the unseen object.
+
+Report issue for preceding element
+
+Overall, these results demonstrate that multi-view visual goals deliver substantially richer spatial guidance compared to language alone. By conditioning low-level control on goal images, our framework achieves superior robustness to unseen objects, novel semantic information, and visual interference. Additionally, as shown in Fig. 
+
+6
+
+https://arxiv.org/html/2602.10983v1#S5.F6
+
+, VISTA generates coherent textual and visual guidance for compositional tasks, demonstrating understanding of object attributes and spatial relations. It also correctly interprets instructions that incorporate spatial relationships and semantic meaning. Additional results and real-world executions are provided in Appendix 
+
+F
+
+https://arxiv.org/html/2602.10983v1#A6
+
+ and Appendix 
+
+G
+
+https://arxiv.org/html/2602.10983v1#A7
+
+.
+
+Report issue for preceding element
+
+VI Conclusion
+
+Report issue for preceding element
+
+We propose a generative hierarchical framework that unifies world modeling and visual goal–conditioned policy learning for long-horizon robotic manipulation. By synthesizing textual subtasks and visual subgoals, our method effectively bridges high-level semantic reasoning and low-level control through an explicit, verifiable intermediate representation, providing spatial guidance beyond what language alone can offer.
+
+Report issue for preceding element
+
+Real-world experiments demonstrate significant gains in data efficiency, robustness, and out-of-distribution generalization. The learned world model produces physically plausible multi-view goal images across unseen objects and scenes, while the goal-conditioned VLA reliably follows these visual subgoals to perform precise manipulation. These results highlight visual goal synthesis as a powerful decomposition for scalable and generalizable robot learning, enabling tighter integration between world models and embodied control.
+
+Report issue for preceding element
+
+VII Limitations
+
+Report issue for preceding element
+
+While VISTA shows strong potential for cross-embodiment generalization and complex tasks (e.g., liquid pouring and deformable object folding), our real-world evaluation is currently limited to pick-and-place tasks. Extending validation to more diverse and longer-horizon manipulation scenarios remains an important direction for future work. Additionally, the generated visual subgoals may exhibit minor spatial deviations from the true subtask endpoints; although infrequent, larger deviations can lead to execution failures in GoalVLA. Finally, while visual goals transfer useful interaction priors across embodiments, successful execution still depends on the presence of corresponding interaction patterns in the real-robot training data. Increasing the diversity of skills and tasks during GoalVLA fine-tuning is therefore essential to further improve robustness and generalization.
+
+Report issue for preceding element
+
+References
+
+Report issue for preceding element
+
+[1] ↑ J. Bai, S. Bai, Y. Chu, Z. Cui, K. Dang, X. Deng, Y. Fan, W. Ge, Y. Han, F. Huang, et al. (2023) Qwen technical report. arXiv preprint arXiv:2309.16609. Cited by: 
+
+§ A-A
+
+https://arxiv.org/html/2602.10983v1#A1.SS1.SSS0.Px1.p1.2
+
+, 
+
+§ IV-A
+
+https://arxiv.org/html/2602.10983v1#S4.SS1.SSS0.Px1.p1.3
+
+.
+
+[2] ↑ S. Bai, K. Chen, X. Liu, J. Wang, W. Ge, S. Song, K. Dang, P. Wang, S. Wang, J. Tang, et al. (2025) Qwen2. 5-vl technical report. arXiv preprint arXiv:2502.13923. Cited by: 
+
+Appendix B
+
+https://arxiv.org/html/2602.10983v1#A2.p1.1
+
+, 
+
+§ IV-C
+
+https://arxiv.org/html/2602.10983v1#S4.SS3.SSS0.Px2.p1.1
+
+.
+
+[3] ↑ L. Beyer, A. Steiner, A. S. Pinto, A. Kolesnikov, X. Wang, D. Salz, M. Neumann, I. Alabdulmohsin, M. Tschannen, E. Bugliarello, et al. (2024) Paligemma: a versatile 3b vlm for transfer. arXiv preprint arXiv:2407.07726. Cited by: 
+
+§ A-B
+
+https://arxiv.org/html/2602.10983v1#A1.SS2.SSS0.Px1.p1.1
+
+.
+
+[4] ↑ J. Bjorck, F. Castañeda, N. Cherniadev, X. Da, R. Ding, L. Fan, Y. Fang, D. Fox, F. Hu, S. Huang, et al. (2025) Gr00t n1: an open foundation model for generalist humanoid robots. arXiv preprint arXiv:2503.14734. Cited by: 
+
+§I
+
+https://arxiv.org/html/2602.10983v1#S1.p1.1
+
+.
+
+[5] ↑ K. Black, N. Brown, D. Driess, A. Esmail, M. Equi, C. Finn, N. Fusai, L. Groom, K. Hausman, B. Ichter, et al. (2024) A vision-language-action flow model for general robot control. arXiv preprint arXiv:2410.24164. Cited by: 
+
+§ A-B
+
+https://arxiv.org/html/2602.10983v1#A1.SS2.SSS0.Px1.p1.1
+
+.
+
+[6] ↑ K. Black, N. Brown, D. Driess, A. Esmail, M. R. Equi, C. Finn, N. Fusai, L. Groom, K. Hausman, B. Ichter, S. Jakubczak, T. Jones, L. Ke, S. Levine, A. Li-Bell, M. Mothukuri, S. Nair, K. Pertsch, L. X. Shi, L. Smith, J. Tanner, Q. Vuong, A. Walling, H. Wang, and U. Zhilinsky (2025-06) π 0 \pi_{0} : A Vision-Language-Action Flow Model for General Robot Control. In Proceedings of Robotics: Science and Systems, LosAngeles, CA, USA. External Links: 
+
+Document
+
+https://dx.doi.org/10.15607/RSS.2025.XXI.010
+
+ Cited by: 
+
+§ II-A
+
+https://arxiv.org/html/2602.10983v1#S2.SS1.p1.1
+
+, 
+
+§ IV-B
+
+https://arxiv.org/html/2602.10983v1#S4.SS2.SSS0.Px1.p2.7
+
+.
+
+[7] ↑ A. Brohan, N. Brown, J. Carbajal, Y. Chebotar, J. Dabis, C. Finn, K. Gopalakrishnan, K. Hausman, A. Herzog, J. Hsu, J. Ibarz, B. Ichter, A. Irpan, T. Jackson, S. Jesmonth, N. Joshi, R. Julian, D. Kalashnikov, Y. Kuang, I. Leal, K. Lee, S. Levine, Y. Lu, U. Malla, D. Manjunath, I. Mordatch, O. Nachum, C. Parada, J. Peralta, E. Perez, K. Pertsch, J. Quiambao, K. Rao, M. S. Ryoo, G. Salazar, P. R. Sanketi, K. Sayed, J. Singh, S. Sontakke, A. Stone, C. Tan, H. Tran, V. Vanhoucke, S. Vega, Q. H. Vuong, F. Xia, T. Xiao, P. Xu, S. Xu, T. Yu, and B. Zitkovich (2023-07) RT-1: Robotics Transformer for Real-World Control at Scale. In Proceedings of Robotics: Science and Systems, Daegu, Republic of Korea. External Links: 
+
+Document
+
+https://dx.doi.org/10.15607/RSS.2023.XIX.025
+
+ Cited by: 
+
+§ II-A
+
+https://arxiv.org/html/2602.10983v1#S2.SS1.p1.1
+
+.
+
+[8] ↑ J. Bruce, M. D. Dennis, A. Edwards, J. Parker-Holder, Y. Shi, E. Hughes, M. Lai, A. Mavalankar, R. Steigerwald, C. Apps, Y. Aytar, S. M. E. Bechtle, F. Behbahani, S. C.Y. Chan, N. Heess, L. Gonzalez, S. Osindero, S. Ozair, S. Reed, J. Zhang, K. Zolna, J. Clune, N. D. Freitas, S. Singh, and T. Rocktäschel (2024-21–27 Jul) Genie: generative interactive environments. In Proceedings of the 41st International Conference on Machine Learning, R. Salakhutdinov, Z. Kolter, K. Heller, A. Weller, N. Oliver, J. Scarlett, and F. Berkenkamp (Eds.), Proceedings of Machine Learning Research, Vol. 235, pp. 4603–4623. External Links: 
+
+Link
+
+https://proceedings.mlr.press/v235/bruce24a.html
+
+ Cited by: 
+
+§ II-B
+
+https://arxiv.org/html/2602.10983v1#S2.SS2.p1.1
+
+.
+
+[9] ↑ Q. Bu, J. Cai, L. Chen, X. Cui, Y. Ding, S. Feng, S. Gao, X. He, X. Hu, X. Huang, et al. (2025) Agibot world colosseo: a large-scale manipulation platform for scalable and intelligent embodied systems. arXiv preprint arXiv:2503.06669. Cited by: 
+
+§ A-B
+
+https://arxiv.org/html/2602.10983v1#A1.SS2.SSS0.Px2.p1.2
+
+, 
+
+§ IV-C
+
+https://arxiv.org/html/2602.10983v1#S4.SS3.SSS0.Px1.p1.1
+
+.
+
+[10] ↑ Q. Bu, Y. Yang, J. Cai, S. Gao, G. Ren, M. Yao, P. Luo, and H. Li (2025-06) Learning to Act Anywhere with Task-centric Latent Actions. In Proceedings of Robotics: Science and Systems, LosAngeles, CA, USA. External Links: 
+
+Document
+
+https://dx.doi.org/10.15607/RSS.2025.XXI.014
+
+ Cited by: 
+
+§ II-B
+
+https://arxiv.org/html/2602.10983v1#S2.SS2.p1.1
+
+.
+
+[11] ↑ J. Chen, Z. Cai, P. Chen, S. Chen, K. Ji, X. Wang, Y. Yang, and B. Wang (2025) ShareGPT-4o-image: aligning multimodal models with gpt-4o-level image generation. arXiv preprint arXiv:2506.18095. Cited by: 
+
+Appendix B
+
+https://arxiv.org/html/2602.10983v1#A2.p2.1
+
+, 
+
+§ IV-C
+
+https://arxiv.org/html/2602.10983v1#S4.SS3.SSS0.Px3.p1.1
+
+.
+
+[12] ↑ R. Chen, D. Chen, S. Wu, S. Wang, S. Lang, P. Sushko, G. Jiang, Y. Wan, and R. Krishna (2025) MultiRef: controllable image generation with multiple visual references. ArXiv abs/2508.06905. External Links: 
+
+Link
+
+https://api.semanticscholar.org/CorpusID:280565765
+
+ Cited by: 
+
+Appendix B
+
+https://arxiv.org/html/2602.10983v1#A2.p2.1
+
+.
+
+[13] ↑ Y. Chen, H. Li, Z. Jiang, H. Wen, and D. Zhao (2025) TeViR: text-to-video reward with diffusion models for efficient reinforcement learning. arXiv preprint arXiv:2505.19769. Cited by: 
+
+§ II-B
+
+https://arxiv.org/html/2602.10983v1#S2.SS2.p1.1
+
+.
+
+[14] ↑ X. Chi, P. Jia, C. Fan, X. Ju, W. Mi, K. Zhang, Z. Qin, W. Tian, K. Ge, H. Li, et al. (2025) Wow: towards a world omniscient world model through embodied interaction. arXiv preprint arXiv:2509.22642. Cited by: 
+
+§I
+
+https://arxiv.org/html/2602.10983v1#S1.p2.1
+
+.
+
+[15] ↑ G. Comanici, E. Bieber, M. Schaekermann, I. Pasupat, N. Sachdeva, I. Dhillon, M. Blistein, O. Ram, D. Zhang, E. Rosen, et al. (2025) Gemini 2.5: pushing the frontier with advanced reasoning, multimodality, long context, and next generation agentic capabilities. arXiv preprint arXiv:2507.06261. Cited by: 
+
+Appendix C
+
+https://arxiv.org/html/2602.10983v1#A3.p1.1
+
+, 
+
+§ V-B 1
+
+https://arxiv.org/html/2602.10983v1#S5.SS2.SSS1.p1.1
+
+.
+
+[16] ↑ Y. Cui, H. Chen, H. Deng, X. Huang, X. Li, J. Liu, Y. Liu, Z. Luo, J. Wang, W. Wang, et al. (2025) Emu3. 5: native multimodal models are world learners. arXiv preprint arXiv:2510.26583. Cited by: 
+
+§ A-A
+
+https://arxiv.org/html/2602.10983v1#A1.SS1.SSS0.Px1.p1.2
+
+, 
+
+§ A-A
+
+https://arxiv.org/html/2602.10983v1#A1.SS1.SSS0.Px3.p1.1
+
+, 
+
+§ IV-A
+
+https://arxiv.org/html/2602.10983v1#S4.SS1.SSS0.Px2.p1.9
+
+.
+
+[17] ↑ D. H. Douglas and T. K. Peucker (1973) Algorithms for the reduction of the number of points required to represent a digitized line or its caricature. Cartographica: the international journal for geographic information and geovisualization 10 ( 2), pp. 112–122. Cited by: 
+
+§ IV-C
+
+https://arxiv.org/html/2602.10983v1#S4.SS3.SSS0.Px2.p1.1
+
+.
+
+[18] ↑ Y. Du, S. Yang, B. Dai, H. Dai, O. Nachum, J. Tenenbaum, D. Schuurmans, and P. Abbeel (2023) Learning universal policies via text-guided video generation. Advances in neural information processing systems 36, pp. 9156–9172. Cited by: 
+
+§ II-B
+
+https://arxiv.org/html/2602.10983v1#S2.SS2.p1.1
+
+.
+
+[19] ↑ A. Escontrela, A. Adeniji, W. Yan, A. Jain, X. B. Peng, K. Goldberg, Y. Lee, D. Hafner, and P. Abbeel (2023) Video prediction models as rewards for reinforcement learning. Advances in Neural Information Processing Systems 36, pp. 68760–68783. Cited by: 
+
+§ II-B
+
+https://arxiv.org/html/2602.10983v1#S2.SS2.p1.1
+
+.
+
+[20] ↑ A. Figure (2024) Helix: a vision-language-action model for generalist humanoid control. Figure AI News. Cited by: 
+
+§ II-A
+
+https://arxiv.org/html/2602.10983v1#S2.SS1.p1.1
+
+, 
+
+§ II-C
+
+https://arxiv.org/html/2602.10983v1#S2.SS3.p1.1
+
+.
+
+[21] ↑ Z. Fu, T. Z. Zhao, and C. Finn (2024) Mobile ALOHA: learning bimanual mobile manipulation using low-cost whole-body teleoperation. In Conference on Robot Learning, 6-9 November 2024, Munich, Germany, P. Agrawal, O. Kroemer, and W. Burgard (Eds.), Proceedings of Machine Learning Research, Vol. 270, pp. 4066–4083. External Links: 
+
+Link
+
+https://proceedings.mlr.press/v270/fu25b.html
+
+ Cited by: 
+
+§ IV-C
+
+https://arxiv.org/html/2602.10983v1#S4.SS3.SSS0.Px1.p1.1
+
+.
+
+[22] ↑ Y. Ge, S. Zhao, J. Zhu, Y. Ge, K. Yi, L. Song, C. Li, X. Ding, and Y. Shan (2024) Seed-x: multimodal models with unified multi-granularity comprehension and generation. arXiv preprint arXiv:2404.14396. Cited by: 
+
+Appendix B
+
+https://arxiv.org/html/2602.10983v1#A2.p2.1
+
+, 
+
+§ IV-C
+
+https://arxiv.org/html/2602.10983v1#S4.SS3.SSS0.Px3.p1.1
+
+.
+
+[23] ↑ S. Grover, A. Gopalkrishnan, B. Ai, H. I. Christensen, H. Su, and X. Li (2025) Enhancing generalization in vision-language-action models by preserving pretrained representations. arXiv preprint arXiv:2509.11417. Cited by: 
+
+§I
+
+https://arxiv.org/html/2602.10983v1#S1.p1.1
+
+.
+
+[24] ↑ D. Hafner, J. Pasukonis, J. Ba, and T. Lillicrap (2025) Mastering diverse control tasks through world models. Nature, pp. 1–7. Cited by: 
+
+§ II-B
+
+https://arxiv.org/html/2602.10983v1#S2.SS2.p1.1
+
+.
+
+[25] ↑ A. J. Hancock, X. Wu, L. Zha, O. Russakovsky, and A. Majumdar (2025) Actions as language: fine-tuning vlms into vlas without catastrophic forgetting. arXiv preprint arXiv:2509.22195. Cited by: 
+
+§I
+
+https://arxiv.org/html/2602.10983v1#S1.p1.1
+
+.
+
+[26] ↑ K. Huang, T. Li, Y. Liu, Z. Zhang, J. Wang, and L. Han (2025) VLM-tdp: vlm-guided trajectory-conditioned diffusion policy for robust long-horizon manipulation. arXiv preprint arXiv:2507.04524. Cited by: 
+
+§ II-C
+
+https://arxiv.org/html/2602.10983v1#S2.SS3.p1.1
+
+.
+
+[27] ↑ P. Intelligence, K. Black, N. Brown, J. Darpinian, K. Dhabalia, D. Driess, A. Esmail, M. Equi, C. Finn, N. Fusai, et al. (2025) p  i 0.5 pi_{0.5} : A vision-language-action model with open-world generalization. arXiv preprint arXiv:2504.16054. Cited by: 
+
+§I
+
+https://arxiv.org/html/2602.10983v1#S1.p2.1
+
+.
+
+[28] ↑ E. Jang, A. Irpan, M. Khansari, D. Kappler, F. Ebert, C. Lynch, S. Levine, and C. Finn (2022) Bc-z: zero-shot task generalization with robotic imitation learning. In Conference on Robot Learning, pp. 991–1002. Cited by: 
+
+§ II-A
+
+https://arxiv.org/html/2602.10983v1#S2.SS1.p1.1
+
+.
+
+[29] ↑ T. Jiang, T. Yuan, Y. Liu, C. Lu, J. Cui, X. Liu, S. Cheng, J. Gao, H. Xu, and H. Zhao (2025) Galaxea open-world dataset and g0 dual-system vla model. arXiv preprint arXiv:2509.00576. Cited by: 
+
+§ II-A
+
+https://arxiv.org/html/2602.10983v1#S2.SS1.p1.1
+
+, 
+
+§ II-C
+
+https://arxiv.org/html/2602.10983v1#S2.SS3.p1.1
+
+.
+
+[30] ↑ V. Leroy, Y. Cabon, and J. Revaud (2024) Grounding image matching in 3d with mast3r. Cited by: 
+
+Appendix B
+
+https://arxiv.org/html/2602.10983v1#A2.p2.1
+
+.
+
+[31] ↑ X. Li, P. Li, L. Qian, M. Liu, D. Wang, J. Liu, B. Kang, X. Ma, T. Kong, H. Zhang, and H. Liu (2026) What matters in building vision–language–action models for generalist robots. Nature Machine Intelligence. External Links: 
+
+Document
+
+https://dx.doi.org/10.1038/s42256-025-01168-7
+
+, 
+
+Link
+
+https://doi.org/10.1038/s42256-025-01168-7
+
+ Cited by: 
+
+§I
+
+https://arxiv.org/html/2602.10983v1#S1.p1.1
+
+.
+
+[32] ↑ X. Li, M. Liu, H. Zhang, C. Yu, J. Xu, H. Wu, C. Cheang, Y. Jing, W. Zhang, H. Liu, et al. (2023) Vision-language foundation models as effective robot imitators. arXiv preprint arXiv:2311.01378. Cited by: 
+
+§I
+
+https://arxiv.org/html/2602.10983v1#S1.p1.1
+
+.
+
+[33] ↑ J. Liang, W. Huang, F. Xia, P. Xu, K. Hausman, B. Ichter, P. Florence, and A. Zeng (2023) Code as policies: language model programs for embodied control. In IEEE International Conference on Robotics and Automation, ICRA 2023, London, UK, May 29 - June 2, 2023, pp. 9493–9500. External Links: 
+
+Link
+
+https://doi.org/10.1109/ICRA48891.2023.10160591
+
+, 
+
+Document
+
+https://dx.doi.org/10.1109/ICRA48891.2023.10160591
+
+ Cited by: 
+
+§ II-C
+
+https://arxiv.org/html/2602.10983v1#S2.SS3.p1.1
+
+.
+
+[34] ↑ B. Liu, Y. Jiang, X. Zhang, Q. Liu, S. Zhang, J. Biswas, and P. Stone (2023) Llm+ p: empowering large language models with optimal planning proficiency. arXiv preprint arXiv:2304.11477. Cited by: 
+
+§ II-C
+
+https://arxiv.org/html/2602.10983v1#S2.SS3.p1.1
+
+.
+
+[35] ↑ S. Nasiriany, V. Pong, S. Lin, and S. Levine (2019) Planning with goal-conditioned policies. Advances in neural information processing systems 32. Cited by: 
+
+§ II-C
+
+https://arxiv.org/html/2602.10983v1#S2.SS3.p1.1
+
+.
+
+[36] ↑ A. O'Neill, A. Rehman, A. Maddukuri, A. Gupta, A. Padalkar, A. Lee, A. Pooley, A. Gupta, A. Mandlekar, and et al (2024) Open x-embodiment: robotic learning datasets and RT-X models : open x-embodiment collaboration. In IEEE International Conference on Robotics and Automation, ICRA 2024, Yokohama, Japan, May 13-17, 2024, pp. 6892–6903. External Links: 
+
+Link
+
+https://doi.org/10.1109/ICRA57147.2024.10611477
+
+, 
+
+Document
+
+https://dx.doi.org/10.1109/ICRA57147.2024.10611477
+
+ Cited by: 
+
+§ IV-C
+
+https://arxiv.org/html/2602.10983v1#S4.SS3.SSS0.Px1.p1.1
+
+.
+
+[37] ↑ K. Rana, J. Haviland, S. Garg, J. Abou-Chakra, I. D. Reid, and N. Sünderhauf (2023) SayPlan: grounding large language models using 3d scene graphs for scalable robot task planning. In Conference on Robot Learning, CoRL 2023, 6-9 November 2023, Atlanta, GA, USA, J. Tan, M. Toussaint, and K. Darvish (Eds.), Proceedings of Machine Learning Research, Vol. 229, pp. 23–72. External Links: 
+
+Link
+
+https://proceedings.mlr.press/v229/rana23a.html
+
+ Cited by: 
+
+§ II-C
+
+https://arxiv.org/html/2602.10983v1#S2.SS3.p1.1
+
+.
+
+[38] ↑ F. Shi, Z. Luo, Y. Ge, Y. Yang, Y. Shan, and L. Wang (2025) Scalable image tokenization with index backpropagation quantization. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pp. 16037–16046. Cited by: 
+
+§ IV-A
+
+https://arxiv.org/html/2602.10983v1#S4.SS1.SSS0.Px1.p1.3
+
+.
+
+[39] ↑ M. Shoeybi, M. Patwary, R. Puri, P. LeGresley, J. Casper, and B. Catanzaro (2019) Megatron-lm: training multi-billion parameter language models using model parallelism. arXiv preprint arXiv:1909.08053. Cited by: 
+
+§ A-A
+
+https://arxiv.org/html/2602.10983v1#A1.SS1.SSS0.Px3.p1.1
+
+.
+
+[40] ↑ M. Shridhar, L. Manuelli, and D. Fox (2022) Cliport: what and where pathways for robotic manipulation. In Conference on robot learning, pp. 894–906. Cited by: 
+
+§ II-A
+
+https://arxiv.org/html/2602.10983v1#S2.SS1.p1.1
+
+.
+
+[41] ↑ I. Singh, V. Blukis, A. Mousavian, A. Goyal, D. Xu, J. Tremblay, D. Fox, J. Thomason, and A. Garg (2023) ProgPrompt: generating situated robot task plans using large language models. In IEEE International Conference on Robotics and Automation, ICRA 2023, London, UK, May 29 - June 2, 2023, pp. 11523–11530. External Links: 
+
+Link
+
+https://doi.org/10.1109/ICRA48891.2023.10161317
+
+, 
+
+Document
+
+https://dx.doi.org/10.1109/ICRA48891.2023.10161317
+
+ Cited by: 
+
+§ II-C
+
+https://arxiv.org/html/2602.10983v1#S2.SS3.p1.1
+
+.
+
+[42] ↑ Y. Wang, S. Yang, B. Zhao, L. Zhang, Q. Liu, Y. Zhou, and C. Xie (2025) Gpt-image-edit-1.5 m: a million-scale, gpt-generated image dataset. arXiv preprint arXiv:2507.21033. Cited by: 
+
+Appendix B
+
+https://arxiv.org/html/2602.10983v1#A2.p2.1
+
+.
+
+[43] ↑ C. Wu, P. Zheng, R. Yan, S. Xiao, X. Luo, Y. Wang, W. Li, X. Jiang, Y. Liu, J. Zhou, et al. (2025) OmniGen2: exploration to advanced multimodal generation. arXiv preprint arXiv:2506.18871. Cited by: 
+
+Appendix B
+
+https://arxiv.org/html/2602.10983v1#A2.p2.1
+
+.
+
+[44] ↑ H. Wu, Y. Jing, C. Cheang, G. Chen, J. Xu, X. Li, M. Liu, H. Li, and T. Kong (2024) Unleashing large-scale video generative pre-training for visual robot manipulation. In The Twelfth International Conference on Learning Representations, ICLR 2024, Vienna, Austria, May 7-11, 2024, External Links: 
+
+Link
+
+https://openreview.net/forum?id=NxoFmGgWC9
+
+ Cited by: 
+
+§ II-B
+
+https://arxiv.org/html/2602.10983v1#S2.SS2.p1.1
+
+.
+
+[45] ↑ S. Xiao, Y. Wang, J. Zhou, H. Yuan, X. Xing, R. Yan, C. Li, S. Wang, T. Huang, and Z. Liu (2025) Omnigen: unified image generation. In Proceedings of the Computer Vision and Pattern Recognition Conference, pp. 13294–13304. Cited by: 
+
+Appendix B
+
+https://arxiv.org/html/2602.10983v1#A2.p2.1
+
+.
+
+[46] ↑ A. Yang, A. Li, B. Yang, B. Zhang, B. Hui, B. Zheng, B. Yu, C. Gao, C. Huang, C. Lv, et al. (2025) Qwen3 technical report. arXiv preprint arXiv:2505.09388. Cited by: 
+
+§ IV-C
+
+https://arxiv.org/html/2602.10983v1#S4.SS3.SSS0.Px2.p1.1
+
+.
+
+[47] ↑ L. Yang, Y. Bai, G. Eskandar, and et al. (2025) RoboEnvision: a long-horizon video generation model for multi-task robot manipulation. arXiv preprint arXiv:2506.22007. Cited by: 
+
+§I
+
+https://arxiv.org/html/2602.10983v1#S1.p2.1
+
+.
+
+[48] ↑ A. Ye, Z. Zhang, B. Wang, X. Wang, D. Zhang, and Z. Zhu (2025) Vla-r1: enhancing reasoning in vision-language-action models. arXiv preprint arXiv:2510.01623. Cited by: 
+
+§I
+
+https://arxiv.org/html/2602.10983v1#S1.p2.1
+
+.
+
+[49] ↑ S. Ye, J. Jang, B. Jeon, S. J. Joo, J. Yang, B. Peng, A. Mandlekar, R. Tan, Y. Chao, B. Y. Lin, L. Liden, K. Lee, J. Gao, L. Zettlemoyer, D. Fox, and M. Seo (2025) Latent action pretraining from videos. In The Thirteenth International Conference on Learning Representations, ICLR 2025, Singapore, April 24-28, 2025, External Links: 
+
+Link
+
+https://openreview.net/forum?id=VYOe2eBQeh
+
+ Cited by: 
+
+§ II-B
+
+https://arxiv.org/html/2602.10983v1#S2.SS2.p1.1
+
+.
+
+[50] ↑ Y. Ye, X. He, Z. Li, B. Lin, S. Yuan, Z. Yan, B. Hou, and L. Yuan (2025) Imgedit: a unified image editing dataset and benchmark. arXiv preprint arXiv:2505.20275. Cited by: 
+
+Appendix B
+
+https://arxiv.org/html/2602.10983v1#A2.p2.1
+
+.
+
+[51] ↑ Y. Yu, Z. Zeng, H. Hua, J. Fu, and J. Luo (2024) Promptfix: you prompt and we fix the photo. arXiv preprint arXiv:2405.16785. Cited by: 
+
+Appendix B
+
+https://arxiv.org/html/2602.10983v1#A2.p2.1
+
+.
+
+[52] ↑ X. Zhai, B. Mustafa, A. Kolesnikov, and L. Beyer (2023) Sigmoid loss for language image pre-training. In Proceedings of the IEEE/CVF international conference on computer vision, pp. 11975–11986. Cited by: 
+
+§ A-B
+
+https://arxiv.org/html/2602.10983v1#A1.SS2.SSS0.Px1.p1.1
+
+.
+
+[53] ↑ H. Zhang, Y. Ba, E. Yang, V. Mehra, B. Gella, A. Suzuki, A. Pfahnl, C. C. Chandrappa, A. Wong, and A. Kadambi (2023) Weatherstream: light transport automation of single image deweathering. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pp. 13499–13509. Cited by: 
+
+Appendix B
+
+https://arxiv.org/html/2602.10983v1#A2.p2.1
+
+, 
+
+§ IV-C
+
+https://arxiv.org/html/2602.10983v1#S4.SS3.SSS0.Px3.p1.1
+
+.
+
+[54] ↑ B. Zitkovich, T. Yu, S. Xu, P. Xu, T. Xiao, F. Xia, J. Wu, P. Wohlhart, S. Welker, A. Wahid, et al. (2023) Rt-2: vision-language-action models transfer web knowledge to robotic control. In Conference on Robot Learning, pp. 2165–2183. Cited by: 
+
+§ II-A
+
+https://arxiv.org/html/2602.10983v1#S2.SS1.p1.1
+
+.
+
+Appendix A Implementation Details
+
+Report issue for preceding element
+
+A-A World Model Planner
+
+Report issue for preceding element
+
+Model Architecture and Tokenization
+
+Report issue for preceding element
+
+We construct the World Model with a total of 34.1 billion parameters, comprising 31.2 billion in the transformer layers and 2.9 billion in the embedding layers. For tokenization, we employ a unified vocabulary of 282,926 tokens. We utilize the pre-trained IBQ-Tokenizer from EMU3.5 [ 
+
+16
+
+https://arxiv.org/html/2602.10983v1#bib.bib39
+
+] for vision, which features a vocabulary size of 131,072 and quantizes each 16 × 16 16\times 16 patch into discrete tokens. Particularly, in our setting, inputs are resized to a resolution of 512 × 512 512\times 512 , resulting in 1024 visual tokens per image. For language, we utilize the Qwen3 tokenizer [ 
+
+1
+
+https://arxiv.org/html/2602.10983v1#bib.bib48
+
+] with a vocabulary size of 151,854.
+
+Report issue for preceding element
+
+Sequence Formatting
+
+Report issue for preceding element
+
+We set the max sequence length to 16,384, with each sequence formatted using interleaved text and visual tokens. For supervision, we provide only the instruction and the initial observations, and the model is required to predict the entire interleaved sequence auto-regressively. Since a sequence contains at most 16 images, we sample the timestamp within 1 second around a random goal image's timestamp, and task the model with predicting the subsequent steps. Therefore, the sequence could start at an arbitrary subtask stage, and would continue to generate the subtasks and goal images sequence until the task is finished or the stage number is reached as required in the prompt. This sliding window style operation not only augments the dataset size and diversity, but also enables an endless closed-loop generation.
+
+Report issue for preceding element
+
+Model Training
+
+Report issue for preceding element
+
+For the training setup, we utilize Megatron-LM [ 
+
+39
+
+https://arxiv.org/html/2602.10983v1#bib.bib50
+
+] to train the world model, with the tensor-parallel size set to 8 and context-parallel size set to 1. The global batch size is 512, and the learning rate is 1 × 10 − 5 1\times 10^{-5} . We perform 2,000 steps of continued training on the open-source EMU3.5 [ 
+
+16
+
+https://arxiv.org/html/2602.10983v1#bib.bib39
+
+] checkpoint. We utilize 128 Nvidia H100 GPUs to train VISTA over a period of 2 days for post-training, employing a cosine learning rate scheduler with linear warmup.
+
+Report issue for preceding element
+
+A-B Goal-conditioned VLA.
+
+Report issue for preceding element
+
+Model Architecture
+
+Report issue for preceding element
+
+We adopt a MoE-like architecture similar to π 0 \pi_{0} [ 
+
+5
+
+https://arxiv.org/html/2602.10983v1#bib.bib52
+
+] , with PaliGemma-3B [ 
+
+3
+
+https://arxiv.org/html/2602.10983v1#bib.bib53
+
+] as the backbone, and construct a 0.3B-scale action expert simultaneously. Block-wise causal masking is employed where the VLM block attends to its own features, the proprioception block (with weight sharing with the action block) attends to its own features and those of the VLM block, and the action block attends to all blocks; each individual block is fully bidirectional internally. In each inference step, the model takes six images as input, including three current observation images and three goal images, which are encoded into tokens via SigLIP [ 
+
+52
+
+https://arxiv.org/html/2602.10983v1#bib.bib54
+
+] . It also takes the current subtask prompt and proprioceptive signals representing the 6D pose of the robotic arm end-effector as inputs. Subsequently, a 10-step flow matching decoding process is performed to generate an action chunk with a length of 30 steps.
+
+Report issue for preceding element
+
+Two-Stage Training settings
+
+Report issue for preceding element
+
+We adopt a two-stage training paradigm for GoalVLA. In the first stage, we leverage 200,000 trajectory samples from the AgiBot-Beta dataset [ 
+
+9
+
+https://arxiv.org/html/2602.10983v1#bib.bib42
+
+] , utilizing annotated subtask text and goal images as additional conditioning. This stage consists of 100,000 training steps with a global batch size of 512 andd an initial learning rate of 5 × 10 − 5 5\times 10^{-5} . For the second stage, we fine-tune GoalVLA on 737 self-collected robot trajectories. We set a global batch size of 128 and a learning rate of 2 × 10 − 5 2\times 10^{-5} , training the model for 10 epochs (approximately 20k steps).
+
+Report issue for preceding element
+
+Inference Details
+
+Report issue for preceding element
+
+In the real-robot deployment and testing phase, to mitigate the impact of motion errors and enable the model to adjust the robot with finer granularity, we only execute 10 out of the 30 steps in the action chunk inferred by the model. We adopt closed-loop absolute end-effector (EE) pose control to operate the robot arm. Since the model outputs delta EE poses, we calculate the absolute EE poses based on the currently read proprioceptive signals. For smoother control, we select the absolute EE poses at the 5th and 10th steps as target waypoints for execution.
+
+Report issue for preceding element
+
+Appendix B Dataset Construction and Visualization
+
+Report issue for preceding element TABLE A.1: Post-sampling dataset statistics for the embodied sub-task, goal image, and co-trained X2I datasets. M and B denote millions and billions, respectively.
+
+Data Type
+
+Weight
+
+Seq Num (M)
+
+Token Num (B)
+
+Open-X Embodiment
+
+0.25
+
+1.8
+
+9.1
+
+AgiBot World Beta Single-View
+
+0.075
+
+0.16
+
+2.2
+
+AgiBot World Beta Multi-View
+
+0.075
+
+0.32
+
+3.8
+
+Self-collected Aloha Single-View
+
+0.075
+
+0.015
+
+0.11
+
+Self-collected Aloha Multi-View
+
+0.075
+
+0.003
+
+0.04
+
+Any-to-Image
+
+0.45
+
+3.3
+
+15.2
+
+Report issue for preceding element
+
+With the proposed auto-divide and labeling framework, we totally split 1.2 million trajectories into interleaved subtask and goal image format, supporting 10 embodiments and multi-view generation. For Agibot World Beta dataset, we further utilize Qwen2.5-VL 72B [ 
+
+2
+
+https://arxiv.org/html/2602.10983v1#bib.bib45
+
+] to refine the abstract task type to detailed instruction, and split the original skill description into fine-grained subtasks. The prompt we used in this framework is fully shown in the following code block.
+
+Report issue for preceding element
+
+ 
+
+Figure A.1: Visualization of samples from our constructed dataset. Our dataset consists of two main components: the Embodied Sub-task and Goal Image Dataset, and the Any-to-Image (X2I) dataset. In the bottom panel, we demonstrate the Camera-View Edit samples and other general Edit samples from the X2I dataset. Report issue for preceding element
+
+As a fundamental single-step generation task, X2I generation typically involves arbitrary multimodal interleaved inputs composed of text and any number of images, requiring the model to output a single image as the response. This imposes significant demands on the model's key capabilities, particularly in multimodal instruction following, maintaining subject/background consistency, adhering to world knowledge and rules, and controlling image style and texture. Mastering these challenging X2I capabilities will facilitate the model's robust evolution toward a more general Any-to-Any (X2X) generation paradigm, thereby advancing it into a more complex and powerful world model. To this end, we construct a large-scale X2I dataset (containing 15.2 billion tokens) for training to overcome the limitations in diversity, quality, and scale of existing open-source data. The in-house X2I dataset also integrates parts of multiple open-source datasets, including SEED-Data-Edit [ 
+
+22
+
+https://arxiv.org/html/2602.10983v1#bib.bib1
+
+] , WeatherStream [ 
+
+53
+
+https://arxiv.org/html/2602.10983v1#bib.bib5
+
+] , PromptFix [ 
+
+51
+
+https://arxiv.org/html/2602.10983v1#bib.bib4
+
+] , OmniGen-X2I [ 
+
+45
+
+https://arxiv.org/html/2602.10983v1#bib.bib3
+
+] , ShareGPT-4o-Image [ 
+
+11
+
+https://arxiv.org/html/2602.10983v1#bib.bib2
+
+] , ImgEdit [ 
+
+50
+
+https://arxiv.org/html/2602.10983v1#bib.bib6
+
+] , OmniGen2-X2I2 [ 
+
+43
+
+https://arxiv.org/html/2602.10983v1#bib.bib8
+
+] , MultiRef [ 
+
+12
+
+https://arxiv.org/html/2602.10983v1#bib.bib9
+
+] , and GPT-IMAGE-EDIT-1.5M [ 
+
+42
+
+https://arxiv.org/html/2602.10983v1#bib.bib7
+
+] . To increase the spatial understanding and multi-view consistency, we further label the relative positions of multiple images shot from the same scene with mast3r [ 
+
+30
+
+https://arxiv.org/html/2602.10983v1#bib.bib51
+
+] , and construct a camera-view edit dataset.
+
+Report issue for preceding element
+
+The prompt for subtask text segmentation and annotation:
+
+Report issue for preceding element
+
+⬇
+
+data:text/plain;base64,CllvdXIgYXJlIGFuIGV4cGVydCBpbiByb2JvdCBpbmRvb3IgbWFuaXB1bGF0aW9uIHRhc2sgYW5hbHlzaXMuIFRoZSByb2JvdCBpcyBleGVjdHVpbmcgdGhlIGZvbGxvd2luZyBpbnN0cnVjdGlvbjoge2luc3RydWN0aW9ufS4gR2l2ZW4ge251bV92aWV3c30gaW1hZ2Ugc2VxdWVuY2Ugb2YgdGhlIHJvYm90IGNhbWVyYSwgeW91IHNob3VsZCBhbmFseXplIHRoZSBzdWJ0YXNrIGludm9sdmVkIGluIHRoZSB3aG9sZSBwcm9jZXNzLgoKVGhlIGltYWdlIHNlcXVlbmNlcyBhcmUgb3JnYW5pemVkIGFzIGZvbGxvd3M6CkltYWdlMV9vZl90aW1lc3RhbXAxLCBJbWFnZTFfb2ZfdGltZXN0YW1wMiwgLi4uLCBJbWFnZTFfb2ZfdGltZXN0YW1we3RpbWVzdGFtcH07Ci4uLgpJbWFnZXtudW1fdmlld3N9X29mX3RpbWVzdGFtcDEsIC4uLiwgSW1hZ2V7bnVtX3ZpZXdzfV9vZl90aW1lc3RhbXB7dGltZXN0YW1wfQoKIyMjIE5PVEU6CjEuIFRoZSBpbWFnZXMgYXJlIHNhbXBsZWQgdW5pZm9ybWx5LCB0aGVyZSBjb3VsZCBiZSBtdWx0aXBsZSBpbWFnZXMgYmVsb25nIHRvIHRoZSBzYW1lIHN1YnRhc2suCgoyLiBUaGUgc3VidGFzayBzaG91bGQgaW52b2x2ZWQgdGhlIG1hbmlwdWxhdGlvbiBza2lsbCBhbmQgdGhlIG1hbmlwdWxhdGVkIG9iamVjdCBvciB0YXJnZXQuCgozLiBUaGUgc3VidGFzayBzaG91bGQgYmUgYSBzZW50ZW5jZSB0aGF0IGlzIGNvbnNpc3RlbnQgd2l0aCB0aGUgaW5zdHJ1Y3Rpb24sIGFuZCBkZWNyaWJlIHRoZSBkeWFubWljcyBiZXR3ZWVuIGVhY2ggYWRqYWNlbnQgaW1hZ2VzIHBhaXIuCgo0LiBUaGUgc3VidGFzayBzaG91bGQgYmUgYSBzaW5nbGUgc2VudGVuY2UsIGFuZCB0aGUgbGVuZ3RoIHNob3VsZCBiZSBsZXNzIHRoYW4gMTAgd29yZHMgYW5kIGNvbnRhaW5zIGEgc2luZ2xlIHNraWxsIGFuZCB0aGUgc2VtYW50aWMgZGVzY3JpcHRpb24gb2YgdGhlIG9iamVjdCBvciB0YXJnZXQuCgo1LiBBbGwgdGhlIHNraWxscyBzaG91bGQgYmUgaW52b2x2ZWQgaW4gdGhlIHNraWxsIGxpYnJhcnk6Cntza2lsbF9saWJyYXJ5fQoKNi4gVXNlIHByZWRpY3RpdmUsIGdyb3VuZGVkLCBhbmQgZGVzY3JpcHRpdmUgbGFuZ3VhZ2UgdGhhdCBzb3VuZHMgbGlrZToKLSAiQXBwcm9hY2ggdGhlIC4uLiIKLSAiQ2xvc2UgdGhlIGdyaXBwZXIgYW5kIHBpY2sgdXAgdGhlIC4uLiIKLSAiUHV0IGRvd24gdGhlIC4uLiIKLSAiUGxhY2UgdGhlIHh4eCBvbnRvIHRoZSAuLi4iCi0gIkNsb3NlIHRoZSAuLi4iCgo3LiBUaGUgb3V0cHV0IHNob3VsZCBiZSBhIGxpc3Qgb2Ygc3VidGFza3MsIGVhY2ggc3VidGFzayBpcyBhIHNpbmdsZSBzZW50ZW5jZS4KCjguIFRoZSBzdWJ0YXNrIG51bWJlciBzaG91bGQgcmFuZ2VkIGZyb20gMiB0byA1LgoKOS4gVGhlIHN1YnRhc2sgc2hvdWxkIGJlIGNvbnRpbnVvdXMsIGFuZCB0aGUgZnJvbV90aW1lc3RhbXAgYW5kIHRvX3RpbWVzdGFtcCBzaG91bGQgYmUgY29udGludW91cy4KCjEwLiBUaGUgImZyb21fdGltZXN0YW1wIiBmb3IgdGhlIGZpcnN0IHN1YnRhc2sgc2hvdWxkIGJlIDEuCgoxMS4gVGhlICJ0b190aW1lc3RhbXAiIGZvciB0aGUgbGFzdCBzdWJ0YXNrIHNob3VsZCBiZSB7dGltZXN0YW1wfS4KCjEyLiBUaGUgImZyb21fdGltZXN0YW1wIiBzaG91bGQgYmUgbGVzcyB0aGFuIHRoZSAidG9fdGltZXN0YW1wIi4KCjEzLiBJZiB0aGUgcm9ib3QgaGFzIHR3byBhcm1zLCBhZGQgdGhlIHV0aWxpemVkIGFybShzKSBpbmZvcm1hdGlvbiB0byB0aGUgc3VidGFzayAobGVmdC9yaWdodC9ib3RoKS4KCiMjIyBPVVRQVVQgRk9STUFUOgpgYGBqc29uClsKICAgIHt7InN1YnRhc2siOiAic3VidGFzayAxIiwgImZyb21fdGltZXN0YW1wIjogMSwgInRvX3RpbWVzdGFtcCI6IDJ9fSwKICAgIHt7InN1YnRhc2siOiAic3VidGFzayAyIiwgImZyb21fdGltZXN0YW1wIjogMiwgInRvX3RpbWVzdGFtcCI6IDV9fSwKICAgIC4uLgpdCmBgYAoKIyMjIEltYWdlIFNlcXVlbmNlIHt2aWV3X2luZGV4fSBmcm9tIHt2aWV3X25hbWV9IGNhbWVyYTo=
+
+Your are an expert in robot indoor manipulation task analysis. The robot is exectuing the following instruction: { instruction}. Given { num_views} image sequence of the robot camera, you should analyze the subtask involved in the whole process.
+
+The image sequences are organized as follows:
+
+Image1_of_timestamp1, Image1_of_timestamp2, ..., Image1_of_timestamp{ timestamp};
+
+...
+
+Image{ num_views} _of_timestamp1, ..., Image{ num_views} _of_timestamp{ timestamp}
+
+NOTE:
+
+The images are sampled uniformly, there could be multiple images belong to the same subtask.
+
+The subtask should involved the manipulation skill and the manipulated object or target.
+
+The subtask should be a sentence that is consistent with the instruction, and decribe the dyanmics between each adjacent images pair.
+
+The subtask should be a single sentence, and the length should be less than 10 words and contains a single skill and the semantic description of the object or target.
+
+All the skills should be involved in the skill library:
+
+{ skill_library}
+
+Use predictive, grounded, and descriptive language that sounds like:
+
+" Approach the ..."
+
+" Close the gripper and pick up the ..."
+
+" Put down the ..."
+
+" Place the xxx onto the ..."
+
+" Close the ..."
+
+The output should be a list of subtasks, each subtask is a single sentence.
+
+The subtask number should ranged from 2 to 5.
+
+The subtask should be continuous, and the from_timestamp and to_timestamp should be continuous.
+
+The " from_timestamp" for the first subtask should be 1.
+
+The " to_timestamp" for the last subtask should be { timestamp}.
+
+The " from_timestamp" should be less than the " to_timestamp".
+
+If the robot has two arms, add the utilized arm( s) information to the subtask ( left/ right/ both).
+
+OUTPUT FORMAT:
+
+''' json
+
+[
+
+{{" subtask": " subtask 1", " from_timestamp": 1, " to_timestamp": 2}},
+
+{{" subtask": " subtask 2", " from_timestamp": 2, " to_timestamp": 5}},
+
+...
+
+]
+
+'''
+
+Image Sequence { view_index} from { view_name} camera:
+
+The prompt for instruction generation based on the task type and subtask description in AgiBot World Beta dataset:
+
+Report issue for preceding element
+
+⬇
+
+data:text/plain;base64,WW91ciBhcmUgYW4gZXhwZXJ0IGluIHJvYm90IGluZG9vciBtYW5pcHVsYXRpb24gdGFzayBhbmFseXNpcy4gVGhlIER1YWwtQXJtIEFnaWJvdCBpcyBleGVjdHVpbmcgdGhlIGZvbGxvd2luZyB0eXBlIG9mIHRhc2s6IHt0YXNrX3R5cGV9LiBHaXZlbiB7bnVtX3ZpZXdzfSBpbWFnZSBzZXF1ZW5jZSBvZiB0aGUgcm9ib3QgY2FtZXJhIGFuZCB0aGUgc3VidGFzayBkZXNjcmlwdGlvbnMgYnkgdGVtZXJhbCBvcmRlciwgeW91IHNob3VsZCBjb25jbHVkZSB0aGUgZmluYWwgaW5zdHJ1Y3Rpb24gd2l0aCBhIHNpbmdsZSBicmllZiBzZW50ZW5jZS4KClRoZSBpbWFnZSBzZXF1ZW5jZXMgYXJlIG9yZ2FuaXplZCBhcyBmb2xsb3dzOgpJbWFnZTFfb2ZfdGltZXN0YW1wMSwgSW1hZ2UxX29mX3RpbWVzdGFtcDIsIC4uLiwgSW1hZ2UxX29mX3RpbWVzdGFtcHt0aW1lc3RhbXB9OwouLi4KSW1hZ2V7bnVtX3ZpZXdzfV9vZl90aW1lc3RhbXAxLCAuLi4sIEltYWdle251bV92aWV3c31fb2ZfdGltZXN0YW1we3RpbWVzdGFtcH0KCiMjIyBTdWJ0YXNrIERlc2NyaXB0aW9uczoKe3N1YnRhc2tfZGVzY3JpcHRpb25zfQoKIyMjIEltYWdlIFNlcXVlbmNlIHt2aWV3X2luZGV4fSBmcm9tIHt2aWV3X25hbWV9IGNhbWVyYTo=
+
+Your are an expert in robot indoor manipulation task analysis. The Dual- Arm Agibot is exectuing the following type of task: { task_type}. Given { num_views} image sequence of the robot camera and the subtask descriptions by temeral order, you should conclude the final instruction with a single brief sentence.
+
+The image sequences are organized as follows:
+
+Image1_of_timestamp1, Image1_of_timestamp2, ..., Image1_of_timestamp{ timestamp};
+
+...
+
+Image{ num_views} _of_timestamp1, ..., Image{ num_views} _of_timestamp{ timestamp}
+
+Subtask Descriptions:
+
+{ subtask_descriptions}
+
+Image Sequence { view_index} from { view_name} camera:
+
+Appendix C Visualization of Generated Results for Unconstrained Scenarios
+
+Report issue for preceding element
+
+We evaluate the generative performance of our world model across diverse, unconstrained scenarios, including images synthesized by text-to-image models (e.g., Nano Banana [ 
+
+15
+
+https://arxiv.org/html/2602.10983v1#bib.bib46
+
+] ) and real-world photographs captured via mobile devices. The results are shown in Fig. 
+
+A.2
+
+https://arxiv.org/html/2602.10983v1#A3.F2
+
+ and Fig. 
+
+A.3
+
+https://arxiv.org/html/2602.10983v1#A3.F3
+
+. On these novel scenarios, VISTA can alternately generate reasonable subtasks and physically plausible, instruction-following goal images according to the specified robot arm type and task. For long-horizon tasks such as folding clothes and tidying desktops, VISTA is also capable of decomposing tasks into key steps and generating informative keyframes that provide effective guidance.
+
+Report issue for preceding element
+
+ 
+
+Figure A.2: Generated samples of VISTA on diverse unconstrained scenarios. These scenarios are dramatically different from the training sample in terms of layout, object appearance, background, and camera view. Report issue for preceding element
+
+ 
+
+Figure A.3: More visualization results for the generated interleaved sequences on unconstrained scenarios. Report issue for preceding element
+
+Appendix D Illustration of Real-World Experiment Setup
+
+Report issue for preceding element
+
+We present the setup for in-domain scenarios in Fig. 
+
+A.4
+
+https://arxiv.org/html/2602.10983v1#A4.F4
+
+. The distribution of our training data is shown on the left side of Fig. 
+
+A.4
+
+https://arxiv.org/html/2602.10983v1#A4.F4
+
+. The training scenes contain five fixed objects, and the training set consists of five tasks (i.e., put one of the objects on the plate). Each task includes approximately 150 trajectories, amounting to a total of 737 trajectories. It can be seen that our training data is highly homogeneous in both object placement and scene composition. On the right side of Fig. 
+
+A.4
+
+https://arxiv.org/html/2602.10983v1#A4.F4
+
+, we show the settings for unseen distractors and unseen targets used in our testing. For the unseen distractor setting, we first align with the object placement layouts present in the training set, then replace 1  –  3 1–3 of the distractors with unseen objects. The position of the target object remains unchanged in this setting, which thus primarily evaluates the model's robustness to distractor objects. For the unseen target setting, we also align with the object placement layouts from the training set, then replace the target object with an unseen one. The position of the target object is also fixed in this setting, which mainly assesses the model's generalization capability for the grounding and grasping of unseen objects.
+
+Report issue for preceding element
+
+Fig. 
+
+A.5
+
+https://arxiv.org/html/2602.10983v1#A4.F5
+
+ presents the setup for novel scenarios, which includes 21 unseen objects, tablecloths with three distinct patterns, and plates in unseen colors, forming a total of 63 novel scenarios for evaluation. Given the lack of diversity in the placement positions of objects within the training data, we consistently place the target object within the reachable and graspable range of the robotic arm in the setup of novel scenarios, while introducing randomness in its specific position to ensure a distinction from the training set.
+
+Report issue for preceding element
+
+ 
+
+Figure A.4: Visualization of training dataset and in-domain scenarios setup. Report issue for preceding element
+
+ 
+
+Figure A.5: Visualization of novel scenarios setup. Report issue for preceding element
+
+Appendix E Visualization of generated goal images for novel scenarios
+
+Report issue for preceding element
+
+We present more goal images generated by VISTA on novel scenarios in Fig. 
+
+A.6
+
+https://arxiv.org/html/2602.10983v1#A5.F6
+
+. It can be observed that the generated goal images are almost all timing-accurate, effectively capturing the critical moments of picking and placing, and thus providing precise spatial positional guidance for object grasping and placement. Benefiting from the powerful image generation capability of Emu3.5, VISTA is able to maintain high consistency in both background and object appearance even when confronted with previously unseen scenarios. Furthermore, after fine-tuning on a large-scale cross-embodiment robotic dataset, VISTA demonstrates remarkable multi-view consistent generation. As illustrated in the fourth row of Fig. 
+
+A.6
+
+https://arxiv.org/html/2602.10983v1#A5.F6
+
+, in the generated images of cucumber placement, the cucumber in the plate and the gripper of the right arm are clearly visible from the wrist camera of the left arm, with their relative spatial positions being almost perfectly consistent. This strong multi-view spatial consistency enables VISTA to provide clear and reliable spatial relationship cues for the goal-conditioned VLA, thereby enhancing its ability to perceive the spatial positions of objects.
+
+Report issue for preceding element
+
+In addition, we find that our model is capable of generating corresponding reasonable grasping modes for different object placement configurations. As shown in the last row of Fig. 
+
+A.6
+
+https://arxiv.org/html/2602.10983v1#A5.F6
+
+, when generating goal images for grasping a soda water bottle, the gripper adopts a horizontal, forward grasp rather than the vertical downward grasp commonly observed for other objects. This ability to synthesize diverse and object-specific grasping strategies is crucial for handling a wide range of unseen objects. With more robotic manipulation datasets, our model is promising to generate reasonable and critical goal images for a wide range of complex manipulation tasks.
+
+Report issue for preceding element
+
+ 
+
+Figure A.6: Visualization of generated goal images for novel scenarios. Report issue for preceding element
+
+Appendix F Emerging Capability Analysis
+
+Report issue for preceding element
+
+We further investigate the generalization boundaries of VISTA in generating goal images. Fig. 
+
+A.7
+
+https://arxiv.org/html/2602.10983v1#A6.F7
+
+, 
+
+A.8
+
+https://arxiv.org/html/2602.10983v1#A6.F8
+
+ and 
+
+A.9
+
+https://arxiv.org/html/2602.10983v1#A6.F9
+
+ presents qualitative visualizations of compositional tasks, spatial understanding tasks, and semantic understanding tasks generated by VISTA.
+
+Report issue for preceding element
+
+For compositional tasks, VISTA is able to accurately interpret the given instructions and sequentially generate goal images for manipulating multiple objects, while maintaining spatiotemporal consistency in object positions, as shown in Fig. 
+
+A.7
+
+https://arxiv.org/html/2602.10983v1#A6.F7
+
+. These results suggest that our approach has the potential to scale to more complex long-horizon manipulation tasks and to support flexible composition of subtasks. Moreover, such compositional visual guidance enables goal-conditioned VLAs to achieve controllable composition of manipulation skills.
+
+Report issue for preceding element
+
+For spatial understanding tasks, VISTA demonstrates the ability to comprehend instructions involving simple spatial relationships. As shown in Fig. 
+
+A.8
+
+https://arxiv.org/html/2602.10983v1#A6.F8
+
+, VISTA correctly interprets spatial descriptions of both placement targets and grasping targets. In addition, we observe that VISTA can generalize to novel task types, such as “put the Sprite near the mango”, in which the generated goal image shows the robot placing the object outside the plate in accordance with the instruction.
+
+Report issue for preceding element
+
+For semantic understanding tasks, VISTA similarly identifies the manipulated objects and placement targets based on semantic cues and generates the corresponding goal images. The Fig. 
+
+A.9
+
+https://arxiv.org/html/2602.10983v1#A6.F9
+
+ illustrates several representative examples, including instructions describing the shape and color of the plate, as well as more challenging cases that require semantic understanding of pictures displayed on the tabletop.
+
+Report issue for preceding element
+
+We attribute these instruction-following capabilities to the strong text-to-image generation and editing abilities of Emu3.5. After fine-tuning on robotic datasets, we find that a portion of this instruction-following ability is retained, although it remains limited and typically exhibits hallucinations. We believe that with more diverse robotic data, VISTA has significant potential to further improve its generation quality on these tasks.
+
+Report issue for preceding element
+
+By leveraging the instruction understanding capability of the world model, the GoalVLA can focus more on action generation and goal image following, thereby alleviating its limitations in instruction comprehension. We present several real-world execution examples in Fig. 
+
+A.10
+
+https://arxiv.org/html/2602.10983v1#A6.F10
+
+, 
+
+A.11
+
+https://arxiv.org/html/2602.10983v1#A6.F11
+
+ and 
+
+A.12
+
+https://arxiv.org/html/2602.10983v1#A6.F12
+
+. As shown, by integrating the world model with stronger instruction understanding, the manipulation capacity of the VLA can be further raised, enabling not only flexible composition of manipulation skills but also execution of tasks that require instruction-level reasoning.
+
+Report issue for preceding element
+
+ 
+
+Figure A.7: Visualization of VISTA generated sequences on compositional tasks. Report issue for preceding element
+
+ 
+
+Figure A.8: Visualization of VISTA generated sequences on spatial understanding tasks. Report issue for preceding element
+
+ 
+
+Figure A.9: Visualization of VISTA generated sequences on semantic understanding tasks. Report issue for preceding element
+
+ 
+
+Figure A.10: Visualization of goal-conditioned execution trajectory for compositional task. For the reset stage, our GoalVLA is trained via language instructions without requiring goal images. Report issue for preceding element
+
+ 
+
+Figure A.11: Visualization of goal-conditioned execution trajectories for spatial understanding tasks. Report issue for preceding element
+
+ 
+
+Figure A.12: Visualization of goal-conditioned execution trajectories for semantic understanding tasks. Report issue for preceding element
+
+Appendix G Visualization and Analysis of Execution Results
+
+Report issue for preceding element
+
+We visualize additional execution results, as shown in Fig. 
+
+A.13
+
+https://arxiv.org/html/2602.10983v1#A7.F13
+
+. By comparing the final frame of each subtask stage with its corresponding goal image, we observe that the robot arm posture largely aligns with that shown in the goal image. This indicates that GoalVLA can accurately capture the visual features related to the robot's spatial configuration provided by the goal images and then robustly generate the corresponding action chunks to reach the specified positions and execute the desired manipulations, even in novel scenarios with significant visual distractions.
+
+Report issue for preceding element
+
+ 
+
+Figure A.13: Visualization of goal-conditioned execution trajectories. Report issue for preceding element
+
+We also analyze several failure cases observed during execution. We identify two categories of failures caused by suboptimal goal image generation quality. The first category arises from inaccurate timing of the generated goal images, where the images do not precisely correspond to the critical moments of picking or placing. As illustrated in the bottom-left example of Fig. 
+
+A.14
+
+https://arxiv.org/html/2602.10983v1#A7.F14
+
+, the goal image is generated at a moment prior to object grasping, when the robot arm has not yet descended sufficiently and the gripper has not fully enclosed the object. During execution, GoalVLA overly focuses on matching the robot pose depicted in the goal image, resulting in insufficient downward motion and eventual grasp failure. This suggests that GoalVLA relies heavily on accurate grasping position cues provided by the goal images, while exhibiting limited capability to adapt to the actual execution state observed online. The top-left example in Fig. 
+
+A.14
+
+https://arxiv.org/html/2602.10983v1#A7.F14
+
+ shows another failure case where the goal image corresponds to a moment after the object has already been grasped and slightly lifted. In this case, the goal image fails to provide precise spatial guidance for the grasping phase, leading to positional deviations and grasp failure. To mitigate failures caused by imprecise goal image timing, we employ a random goal image offset during the training of GoalVLA, which can partially alleviate this issue. However, in certain cases, GoalVLA still exhibits suboptimal performance. We leave further improvements on this aspect to future work.
+
+Report issue for preceding element
+
+The second category of failures stems from spatial misalignment in the generated goal images. As shown in the top-right example of Fig. 
+
+A.14
+
+https://arxiv.org/html/2602.10983v1#A7.F14
+
+, the goal image from the left wrist camera is not fully aligned with the target object and is slightly shifted to the left, causing the left gripper to collide with the object during execution and resulting in grasp failure. Similarly, in the bottom-right example of Fig. 
+
+A.14
+
+https://arxiv.org/html/2602.10983v1#A7.F14
+
+, the goal images from the left wrist camera exhibit a comparable leftward offset, again leading to execution failure. In such cases, GoalVLA is required to balance guidance from the goal images with the current visual observations, rather than relying exclusively on the goal images to generate actions. Achieving this balance calls for a more refined network design, which we plan to explore in future work.
+
+Report issue for preceding element
+
+Finally, limited by the diversity of the training data, GoalVLA struggles to accurately follow goal images that specify target positions significantly outside the training distribution, even when the goal images themselves are accurately generated. We believe that increasing the spatial diversity of training data is crucial for improving GoalVLA's generalization, and we will explore training with more diverse datasets in future work.
+
+Report issue for preceding element
+
+ 
+
+Figure A.14: Visualization of failed execution trajectories. The left side shows failures caused by inaccurate timing of the generated goal images, and the right side shows failures caused by spatial misalignment of the generated goal images. Report issue for preceding element
+
+Report Issue
+
+Report GitHub Issue
+
+Title: Content selection saved. Describe the issue below: Description:
+
+Submit without GitHub Submit in GitHub
+
+Report Issue for Selection
+
+Generated by 
+
+L A T E xml
+
+https://math.nist.gov/~BMiller/LaTeXML/
+
+Instructions for reporting errors
+
+We are continuing to improve HTML versions of papers, and your feedback helps enhance accessibility and mobile support. To report errors in the HTML that will help us improve conversion and rendering, choose any of the methods listed below:
+
+Click the "Report Issue" button.
+
+Open a report feedback form via keyboard, use " 
+
+Ctrl + ?
+
+".
+
+Make a text selection and click the "Report Issue for Selection" button near your cursor.
+
+You can use Alt+Y to toggle on and Alt+Shift+Y to toggle off accessible reporting links at each section.
+
+Our team has already identified 
+
+the following issues
+
+https://github.com/arXiv/html_feedback/issues
+
+. We appreciate your time reviewing and reporting rendering errors we may not have found yet. Your efforts will help us improve the HTML versions for all readers, because disability should not be a barrier to accessing research. Thank you for your continued support in championing open access for all.
+
+Have a free development cycle? Help support accessibility at arXiv! Our collaborators at LaTeXML maintain a 
+
+list of packages that need conversion
+
+https://github.com/brucemiller/LaTeXML/wiki/Porting-LaTeX-packages-for-LaTeXML
+
+, and welcome 
+
+developer contributions
+
+https://github.com/brucemiller/LaTeXML/issues
+
+.

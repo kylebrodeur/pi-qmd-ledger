@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1931a84d-8b6b-4449-9bce-3947f70f7c32",
+    "type": "report",
+    "status": "completed",
+    "custom_instructions": null
+  },
+  {
+    "id": "f2d56e29-e163-439f-9cbc-09c66545fa47",
+    "type": "report",
+    "status": "completed",
+    "custom_instructions": null
+  },
+  {
+    "id": "5e38c9ec-5ecb-4cf3-a4aa-b1af1c3aef4a",
+    "type": "report",
+    "status": "completed",
+    "custom_instructions": null
+  },
+  {
+    "id": "b413a069-ac97-4909-8b4f-99b7adfe43cc",
+    "type": "report",
+    "status": "completed",
+    "custom_instructions": null
+  },
+  {
+    "id": "14eb7dee-cd88-45cc-bf24-763fbacb37cf",
+    "type": "report",
+    "status": "completed",
+    "custom_instructions": null
+  },
+  {
+    "id": "55b69b57-9d6c-49dd-bd0b-10a1beebd57b",
+    "type": "report",
+    "status": "completed",
+    "custom_instructions": null
+  },
+  {
+    "id": "73a2e4a6-d596-46a2-98c5-629f4e5627a1",
+    "type": "report",
+    "status": "completed",
+    "custom_instructions": null
+  },
+  {
+    "id": "c61edd94-cfa0-45a5-b891-ca17bfcacb15",
+    "type": "slide_deck",
+    "status": "completed",
+    "custom_instructions": null
+  },
+  {
+    "id": "7f384a53-e8ad-4236-9186-53cd82270dfb",
+    "type": "slide_deck",
+    "status": "completed",
+    "custom_instructions": null
+  },
+  {
+    "id": "cd902b2f-0a1e-4db7-ba60-b08d5cad81c0",
+    "type": "report",
+    "status": "completed",
+    "custom_instructions": null
+  },
+  {
+    "id": "29b9dd82-c1c4-4f73-9f91-8bcc9a6d3992",
+    "type": "report",
+    "status": "completed",
+    "custom_instructions": null
+  },
+  {
+    "id": "9480aa8c-04fc-41f0-8060-86e0449b0ff0",
+    "type": "report",
+    "status": "completed",
+    "custom_instructions": null
+  },
+  {
+    "id": "ed0ff179-b5e9-4824-b07a-098d7bf5c773",
+    "type": "audio",
+    "status": "completed",
+    "custom_instructions": "understanding the vision and what it will take to realize it "
+  },
+  {
+    "id": "eebf8576-82bb-4994-a564-ebcef3f563ac",
+    "type": "audio",
+    "status": "completed",
+    "custom_instructions": "A dynamic technical discussion between two experts analyzing the latest research in multi-agent AI systems. The conversation should center on the 'central tension' identified in the text: the massive performance gains from systems like CORAL and Omni-SimpleMem versus the hidden costs of coordination, such as private data leakage (AgentSocialBench) and high code churn rates in open-source contributions. The speakers should debate the shift from 'making agents smarter' to 'making them safer,' specifically discussing the 'Compliance-Resilience paradox' and new RL-based structural fixes like SKILL0 and ProCeedRL. The tone should be insightful and analytical, moving beyond the hype to examine the practical bottlenecks of real-world agent deployment and autonomous research pipelines."
+  },
+  {
+    "id": "80cf64ab-90cf-4f8c-bb05-5649a2c1ed6d",
+    "type": "report",
+    "status": "completed",
+    "custom_instructions": null
+  }
+]

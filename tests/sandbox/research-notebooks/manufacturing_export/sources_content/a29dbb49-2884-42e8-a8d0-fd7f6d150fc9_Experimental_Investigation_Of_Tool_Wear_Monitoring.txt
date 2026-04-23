@@ -1,0 +1,1029 @@
+https://lh3.googleusercontent.com/notebooklm/ANHLwAw56UWT2g4yEXyixp-07OIG5wS6schR1jSsf99Ve3BuIhA8nxyUqc5PtlZBN386rCSZtTxCw55cb8OYEdQ9dFDTwAmFNz4uy4CENMvQoaj-t7wxzoZd-0hEcA0qulqG8zRRMIXG=w419-h258-v0
+
+86eed8b7-4fa1-43d9-8e19-769e0cfb1835
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxt_tJnRp0M_z01ZDcAr7rytu8KYpJsCp559TvfwnQRJJJHs1SY2tMS8c4CiKCN9hlbSLgDleEfKOionhh86u_PsWQ_2M3vkaK-wO-4Ww2NKIkSKeGcane-R1Z_PDi6mDYtU7q8oA=w688-h158-v0
+
+59f996a0-4912-4c9c-986f-06f1d8367e29
+
+ 
+
+ 
+
+Experimental Investigation Of Tool Wear 
+
+Monitoring In Cnc Machine Using Ai Techniques 
+
+ 
+
+Kotha Sri Ram Pavan1, Bikkavolu Joga Rao*2 
+
+1,2 Department of Mechanical Engineering, Godavari Institute of Engineering & Technology (A), Rjy -
+
+533296 
+
+ABSTRACT 
+
+Tool wear monitoring is a critical requirement in CNC machining to ensure dimensional accuracy, surface 
+
+quality, and uninterrupted production while minimizing tooling costs and downtime. Conventional 
+
+monitoring techniques largely rely on manual inspection or rule-based signal processing, which limits their 
+
+effectiveness for continuous and autonomous operation. In recent years, artificial intelligence (AI) has 
+
+emerged as a viable solution for data-driven tool condition monitoring using indirect sensor measurements. 
+
+This study explores deep learning-based approaches—namely Convolutional Neural Networks (CNN), Long 
+
+Short-Term Memory (LSTM) networks, and a hybrid CNN–LSTM architecture—for vibration-based tool 
+
+wear classification. The proposed hybrid model integrates convolutional feature extraction with sequential 
+
+temporal learning to capture both localized signal characteristics and long-term wear evolution. Signal 
+
+preprocessing strategies, including down-sampling, batch normalization, and sequence standardization, are 
+
+applied to improve training stability and model robustness. Experimental results obtained from a benchmark 
+
+brownfield CNC milling dataset demonstrate that the hybrid CNN–LSTM model consistently outperforms 
+
+standalone CNN and LSTM models, indicating its suitability for practical predictive maintenance 
+
+applications in Industry 4.0 environments. 
+
+Keywords: CNC machining, tool wear, deep learning, CNN, LSTM, Industry 4.0 
+
+1. INTRODUCTION 
+
+Computer Numerical Control (CNC) machining plays a central role in modern manufacturing due to its high 
+
+precision, repeatability, and automation capabilities [1]. As industries transition toward autonomous and 
+
+smart manufacturing systems, maintaining machining reliability and minimizing unplanned downtime have 
+
+become critical performance objectives [2]. Among various factors affecting machining quality, tool wear is 
+
+a dominant source of dimensional inaccuracies, surface degradation, increased cutting forces, and excessive 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwHuRQif3Yeya5yvS_Cw-ywAAReIDIzYxbWMjmMOhYHuSS-d7X8ZLbagkkjCRarIMAzpgHZy1Kt6vYyChKPb-GR3b87GgUe1pXBBI4iSdMJduG5Swr0lvEs9cKBeT3_XJ7dxpJ2fA=w419-h258-v0
+
+7468cd29-8571-41c5-8337-f4694f287ba0
+
+ 
+
+ 
+
+Tool wear refers to the progressive degradation of cutting tools caused by friction, mechanical stress, and 
+
+thermal effects during machining operations [4]. If left unmanaged, excessive wear can result in poor surface 
+
+finish, dimensional errors, tool breakage, and costly production interruptions [5]. Consequently, predictive 
+
+maintenance and tool condition monitoring (TCM) have become essential components of intelligent CNC 
+
+machining systems [6]. 
+
+Traditional tool wear monitoring techniques can be classified as direct and indirect methods. Direct 
+
+approaches, such as optical microscopy and coordinate measuring machines, offer high accuracy but require 
+
+machine stoppage and are unsuitable for real-time applications. Indirect methods, including vibration 
+
+analysis, cutting force measurement, and acoustic emission monitoring, provide continuous monitoring 
+
+without interrupting machining operations and are therefore more suitable for industrial deployment [7]. 
+
+With the rapid development of machine learning (ML) and deep learning (DL), data-driven TCM approaches 
+
+have gained significant attention [8]. Algorithms such as K-nearest neighbors, support vector machines, 
+
+artificial neural networks (ANN), CNNs, and recurrent neural networks (RNNs) have been widely explored 
+
+for tool wear prediction and classification [9]. Among these, CNNs are effective in extracting localized 
+
+patterns from vibration signals, while LSTM networks excel at capturing long-term temporal dependencies 
+
+[10]. Hybrid CNN–LSTM architectures have recently emerged as a promising solution by combining these 
+
+complementary strengths [11]. 
+
+However, many existing hybrid models rely on multi-sensor configurations, high sampling frequencies, and 
+
+computationally intensive attention mechanisms, limiting their applicability in brownfield CNC 
+
+environments and small-to-medium-scale enterprises (SMEs) [12]. This study addresses this gap by 
+
+proposing a lightweight hybrid CNN–LSTM model that uses vibration data from a single low-cost 
+
+accelerometer, thereby enhancing deployability while maintaining high predictive performance [13]. 
+
+2.LITERATURE STUDY 
+
+The literature provides various advanced strategies followed by the researchers to predict the tool wear 
+
+maintenance. For instance, in a study carried out by Bagga et al. (2021) [14] proposed an indirect Artificial 
+
+Neural Network (ANN)-based approach for predicting tool wear during the turning of EN-8 medium carbon 
+
+steel under dry machining conditions. The study utilized cutting force and vibration signals as indirect 
+
+indicators of tool wear, collected through a dynamometer and accelerometer. Using a Taguchi L9 orthogonal 
+
+array, experiments were performed by varying cutting speed, feed, and depth of cut. A feed-forward ANN 
+
+(3-4-1 structure) predicted flank wear with a mean error of 3.48%, showing close correlation with manual 
+
+measurements. The authors demonstrated that cutting speed and depth of cut were the most influential 
+
+factors, validating ANN as a low-cost, efficient tool condition monitoring (TCM) solution for real-time 
+
+maintenance systems. 
+
+In related work, Reddy et al. (2021) [15] investigated the fabrication of aluminium matrix composites 
+
+(AMCs) reinforced with industrial waste materials such as alumina and fly ash using powder metallurgy 
+
+techniques. The study optimized sintering parameters and employed ANN modelling to predict mechanical 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxJtEnziD1XKHjSE16LF6GauoeL3SWTlK2IELOPNCD_mMsVh_e7IQsMFi_MyKqSkyMK2pNvRnXGgrrnYdtwxkuqBcgIw3CwDJOYn-fpAf3Vs-bLcATFnGzUbSONUEhRyoVdd6oOXw=w419-h258-v0
+
+19ad89be-bc1b-4f4c-b395-9b137eafa0e7
+
+ 
+
+ 
+
+reduced cost and weight by 10–15% while enhancing mechanical performance. The ANN effectively 
+
+captured nonlinear relationships between process variables and outcomes, demonstrating its potential for 
+
+predictive modelling and sustainable manufacturing design. 
+
+Tnani et al. (2021) [16] introduced a benchmark dataset designed for monitoring brownfield CNC milling 
+
+machines using IoT-based data collection over two years. The dataset accounted for real-world challenges 
+
+such as environmental variability, class imbalance, and inconsistent tool operations. By employing machine-
+
+wise and time-wise partitioning strategies, predictive model accuracy and stability improved by 12–15% 
+
+compared to random sampling. This benchmark contributes significantly to advancing scalable, IoT -
+
+integrated predictive maintenance systems compatible with Industry 4.0. 
+
+Chan et al. (2022) [17] developed the ProSparse Self-Attention mechanism to enhance the efficiency of long-
+
+sequence time-series data processing. By selecting high-correlation query vectors and incorporating a 
+
+distilling layer, the method improved computational efficiency and reduced redundancy. When combined 
+
+with a Bidirectional Long Short-Term Memory (BiLSTM) network, it achieved a 20–25% reduction in 
+
+processing time and a 15% increase in prediction accuracy compared to standard attention models. The study 
+
+demonstrated significant performance gains, offering a foundation for integrating self-attention with 
+
+BiLSTM networks in real-time CNC process monitoring frameworks. 
+
+In another study, Srikanth et al. (2023) [18] provided a comprehensive review of machine learning (ML) 
+
+methods in CNC machining, emphasizing predictive maintenance, tool wear estimation, and machining 
+
+optimization. The authors noted productivity improvements of around 18% and downtime reductions of 
+
+approximately 20% with ML adoption. The paper highlighted challenges such as limited datasets, data 
+
+security, and transferability of models. The authors underscored the importance of hybrid learning systems 
+
+and IoT integration for achieving sustainable manufacturing performance. 
+
+Zhu et al. (2024) [19] developed a hybrid CNN–LSTM–Attention–PSA model for accurately predicting the 
+
+Remaining Useful Life (RUL) of CNC milling cutters. The model combined multi-sensor data (cutting force, 
+
+vibration, spindle current) to capture spatial and temporal dependencies. CNN layers extracted spatial 
+
+features, while LSTM layers modelled long-term wear trends, and the attention mechanism enhanced critical 
+
+time-step weighting. With hyperparameter tuning via a PID-based search algorithm, the model achieved R² 
+
+= 0.9942, MAE < 0.01 mm, and MAPE < 5%. Compared to baseline CNN, LSTM, and CNN–LSTM models, 
+
+the hybrid achieved 20–30% higher predictive accuracy, showcasing the effectiveness of hybrid architectures 
+
+in real-time RUL prediction. Abdeltawab et al. (2025) [20] proposed a wavelet-based CNN–BiLSTM 
+
+architecture that enhanced signal clarity through wavelet decomposition before temporal modeling. The 
+
+model achieved a mean absolute percentage error below 3% and outperformed single-model architectures 
+
+under variable machining conditions. However, most studies require multiple high-frequency sensors and 
+
+extensive computational resources, which limit their applicability in cost-sensitive or resource-constrained 
+
+manufacturing setups. 
+
+Beyond machining, machine learning has gained substantial traction across other mechanical systems, 
+
+particularly in combustion and energy applications where nonlinear interactions and multivariate 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwsFcxM9IeRZLxn8GzufNo9JHPY7jpLekz6Pta7KY3B8ypx1Rfx9rUubi-qis8Tqi2phPsjwKIHVma7B_XgLBXhhW-hWyCgGQ1GuAEGLnuJKZqKNJWnoLupeujiAO71pMjSe8LXzg=w419-h258-v0
+
+21a2129c-ebe4-470c-b8fc-7f05f0ad7c47
+
+ 
+
+ 
+
+to predict CRDI engine metrics using nanoparticle-enhanced Pongamia pinnata biodiesel, illustrating the 
+
+capacity of ML to capture complex fuel–injection phenomena. Similarly, Mylapalli et al. (2025) [22] further 
+
+demonstrated the utility of ML for analysing diesel engine performance with Fe₃O₄ nanoadditive biodiesel 
+
+blends, highlighting the reliability of data-driven methods under varying operational conditions. In addition, 
+
+Menda et al. (2025) [23] employed ML models to predict performance and emission characteristics of CRDI 
+
+engines using diethyl-ether and carbon-nanotube-enhanced biodiesel fuel, confirming the robustness of ML 
+
+approaches for modelling high-dimensional mechanical systems. Collectively, these studies underscore the 
+
+versatility and generalizability of ML methods across engineering domains and reinforce their relevance to 
+
+CNC tool condition monitoring, where complex, multivariate vibration signals must be accurately interpreted 
+
+to support predictive maintenance. 
+
+ 
+
+NOVELTY OF THE PRESENT STUDY 
+
+The reviewed literature demonstrates significant advances in tool wear prediction, particularly through ANN-
+
+based and hybrid deep-learning frameworks. However, a substantial proportion of existing CNN–LSTM and 
+
+attention-based approaches rely on extensive multi-sensor configurations, high-frequency data acquisition, 
+
+or computationally intensive model designs, which restrict their applicability in resource-constrained 
+
+manufacturing environments. These requirements often hinder real-time deployment on standard shop-floor 
+
+hardware, especially in brownfield settings. In contrast, this study redefines the novelty of hybrid CNN– 
+
+LSTM application by investigating whether reliable tool wear classification can be achieved using a single 
+
+low-cost accelerometer coupled with a lightweight CNN–LSTM architecture. Rather than pursuing 
+
+architectural complexity, the work emphasizes minimal sensing, reduced model depth, and deployable 
+
+computational demand, while preserving the spatiotemporal feature-learning advantages inherent to CNN– 
+
+LSTM models. By validating the approach on vibration data acquired from an operational brownfield CNC 
+
+machine, the study isolates the practical performance limits of hybrid deep learning under realistic industrial 
+
+constraints. This paper focus on affordability, simplicity, and deployability advances existing CNN–LSTM-
+
+based research by demonstrating that effective tool condition monitoring does not necessarily require 
+
+elaborate sensor networks or highly complex hybrid frameworks. The findings provide a scalable and 
+
+industry-ready solution, particularly beneficial for small and medium-scale enterprises (SMEs), enabling 
+
+reduced unplanned downtime and facilitating adoption of intelligent predictive maintenance aligned with 
+
+Industry 4.0 objectives. 
+
+3. METHODOLOGY  
+
+3.1 Experimentation and Dataset Source 
+
+The dataset used in this study is derived from the Smart Data Collection System for Brownfield CNC Milling 
+
+Machines. This dataset was collected from three 4-axis CNC machining centers operating under real 
+
+industrial conditions over a two-year period. Data acquisition was performed using a Bosch Connected 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxApa1lLXzFfHWMuVT_q7kh9aKQSrnd--Qx4KfOcrglooTAYX51_VexOvE95B5aoP6_9yeZjeC597DH4hpWqWkmhlTDxS2EigAcfvp7VRCyAakyAxCFnt_-u0nI5dOv7eqO_-AwlQ=w419-h258-v0
+
+b9ff3a8b-ac97-4136-9828-cb7b95d40970
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzZd3OuFZhlayohkWUFac7ED6pVWjO5cIyAjjqJvSc085wU0pu2a0JwvOvnOf0SKKTRvNxJWhIefU3pR7st-CR3zGrOjbo40neiny-iGoEqkGKmun_bJneDYzpopSTrZM3aWnWgnA=w470-h254-v0
+
+7ae56199-13e8-4509-952a-fa3101569b75
+
+ 
+
+ 
+
+the spindle housing. This sensor configuration ensured protection from coolant, chips, and thermal exposure 
+
+while maintaining consistent proximity to the spindle center. The vibration data were sampled at 2 kHz, 
+
+capturing frequencies between 75 Hz and 1 kHz, which are known to represent dominant tool wear 
+
+characteristics in rotating cutting systems [24]. The schematic diagram is shown in figure 3.1 
+
+ 
+
+ Fig 3.1. Schematic Diagram of Machining Setup 
+
+3.2 Data Load & Preprocessing  
+
+Prior to training, a structured preprocessing pipeline was implemented to prepare the CNC milling machine 
+
+vibration data for the hybrid CNN-LSTM model. The vibration data, stored in HDF5 (.h5) format, were 
+
+loaded using the h5py library within a custom HDF5Sequence data generator, ensuring efficient and scalable 
+
+memory handling during training [25]. Each .h5 file was accessed to extract vibration signals captured along 
+
+the X, Y, and Z axes, and sequences were handled on a per-batch basis. This padding ensured uniform input 
+
+dimensions across the dataset, which is essential for batch processing in convolutional and recurrent neural 
+
+networks [26]. Class labels were encoded into binary format, assigning the label '0' to represent normal 
+
+machine operation and '1' for faulty conditions. Subsequently, the labels were converted into one-hot encoded 
+
+vectors using the to_categorical function, aligning with the softmax activation used in the final classification 
+
+layer of the model. To facilitate robust training and evaluation, the dataset was partitioned into training and 
+
+testing subsets using an 80:20 split, ensuring that the model was trained on a representative subset of the data 
+
+while maintaining a separate hold-out set for evaluating generalization performance. By integrating these 
+
+preprocessing steps directly within the custom data generator, the workflow ensured systematic and memory-
+
+efficient preparation of large-scale vibration datasets, allowing seamless streaming of standardized, padded, 
+
+and labelled time-series data into the CNN-LSTM architecture during the training process. The visualization 
+
+of the vibration time series data is shown in figure 3.2. 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyqwV9tC90w2OHcmhkwLNaiN6qNY4c6fsM7kcZuTbEIm-5Vxg5QTTSPAqcz8oInwkcw1dsiFT_a436bus2VJ14eo70Qv8qPRwj4CmQrQh1VlR1froS5-XLnAzPGPIOAjYNNjYu9Pw=w419-h258-v0
+
+09b45338-3f5d-4e52-9f60-8ae9ec76850c
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwBcNOKPEeZbRV5_JtNJkh30oZLkXbWKdPOVhMW_0CCrfm3mMWv7rptKq3tqeSbZrroa4tX8wwDiZwWbK943WkUzyLYAuPLpeKqOAstdiSXmo5qmfQoz0BObQhJrzPChQbA6DCyFg=w583-h424-v0
+
+7c529b92-108a-4d48-b537-d5e3dfef574a
+
+ 
+
+ 
+
+ 
+
+Fig 3.2. Visualization of time series data  
+
+3.3 Model Architecture 
+
+The model developed combines Convolutional Neural Network (CNN) layers with Long Short-Term 
+
+Memory (LSTM) based RNN layers to leverage both spatial feature extraction and temporal dynamics of the 
+
+vibration signals. 
+
+3.3.1. Convolutional Neural Network (CNN) 
+
+A one-dimensional convolutional neural network (1D CNN) was developed to classify tool health conditions 
+
+based on vibration signals obtained from a CNC machining process. The network architecture was designed 
+
+to automatically extract discriminative temporal features from raw vibration data. It begins with a 
+
+convolutional layer comprising 64 filters with a kernel size of 3 and ReLU activation, intended to capture 
+
+low-level local patterns in the signal. This is followed by a max-pooling layer with a pool size of 2 to reduce 
+
+dimensionality and improve feature robustness. A second convolutional layer with 128 filters and the same 
+
+kernel size is then applied to learn higher-level abstract representations of tool wear, followed by another 
+
+max-pooling operation. The resulting feature maps are flattened and passed into a fully connected dense layer  
+
+with 64 neurons activated by ReLU. To mitigate overfitting, a dropout layer with a rate of 0.3 is applied. 
+
+Finally, the output layer consists of two neurons with softmax activation to perform binary classification, 
+
+distinguishing between healthy and faulty tool conditions. This architecture follows design patterns shown 
+
+to be effective for vibration-based classification tasks [27]. The flowchart of the entire process is represented 
+
+in Figure 3.3.1. 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyqk0JWwTWTdmz7_9Wo1IDaHLcQ_LVMeQbSp4F7nVEHPLTNagX3n3RC7nzrmvcrLuu8Lysea7lHgxp-DLj5S0mXepMxU_YhF2rEbX4A1IScOXn9SDrnkI82ygsGFYyff2D_b4I1Bw=w419-h258-v0
+
+d9fad0ad-f6e9-4696-9f62-b5b4e763d083
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAy2t7U-Sj2IMKMgB94D0WZnBqfX-JlHbRG3GMgDeAagxuoCkkuVijQJMeXCiHyOQseWOu-9d9madWWSPI9Kn51J6YA_r7pF7-oKPYaDqOqiPvau0_1acUuagwDiLxEuwxeOLc9U-A=w348-h768-v0
+
+5dc0b841-0d83-45f2-a14e-608d3c8ce408
+
+ 
+
+ 
+
+ 
+
+Fig 3.3.1. CNN Architecture Flowchart 
+
+3.3.2. LSTM-based RNN 
+
+A long short-term memory (LSTM) network was implemented to model the temporal dependencies present 
+
+in vibration signals and capture sequential patterns indicative of tool wear. The architecture begins with an 
+
+LSTM layer containing 128 units configured to return sequences, enabling the retention of temporal context 
+
+across timesteps. A dropout layer with a rate of 0.3 is applied for regularization. This is followed by a second 
+
+LSTM layer with 64 units to refine the temporal feature extraction process. Another dropout layer with a rate 
+
+of 0.3 is used to further reduce overfitting. The sequentially encoded features are then passed into a dense 
+
+layer with 64 neurons and ReLU activation to transform the learned temporal representations into a more 
+
+compact feature space. The final output layer employs two neurons with softmax activation to perform binary 
+
+classification of tool conditions. This architecture is effective at capturing long-term dependencies in 
+
+vibration signals and aligns with approaches reported in the literature for temporal modelling [28]. The 
+
+flowchart of the entire process is represented in Figure 3.2.2. 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxTiQlsr3rFSNPSdcA6z8vtxl9OZtLUDv_Xabz_M5YQKCm4C-IFRxQGkUVJNnqPWibQV5Tk6Xag7hiMea2fWFd94uWmrBU8IadGcdSn8UGXXGYYIeI8k4cUJDa2VWFmNFwfnUiPqg=w419-h258-v0
+
+ea8f8962-bb0d-4622-b514-0d4435d1a01c
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwJnLxmr1Ojx6KmacPOjzJff1p-L8L-hgEp1GrgVrCfZ2zKEEaZ6hvH_QEYZINsL0xTdDsumrT9Fv8wUl_f_a2orLc75JYeSjpr2qAtT0eNfMRiTAFLkrkgpGUPOtVUL6aqYLxk2w=w442-h741-v0
+
+a8e20db1-9bf0-40cb-b577-ec5c0f5a11bc
+
+ 
+
+ 
+
+ 
+
+Fig 3.2.2. LSTM Architecture Flowchart 
+
+3.3.3 Hybrid CNN LSTM 
+
+A hybrid CNN–LSTM model was developed to leverage the complementary strengths of convolutional and 
+
+recurrent neural networks for vibration-based tool condition monitoring [29]. The architecture begins with a 
+
+one-dimensional convolutional layer comprising 64 filters with a kernel size of 3 and ReLU activation, 
+
+designed to capture localized temporal features from raw vibration signals. This is followed by a max-pooling 
+
+layer with a pool size of 2 to reduce sequence length and enhance computational efficiency while preserving 
+
+dominant signal characteristics. A dropout layer with a rate of 0.3 is applied to mitigate overfitting and 
+
+improve model generalization. The reduced feature sequence is subsequently passed to an LSTM layer with 
+
+100 units, which effectively captures long-term dependencies and sequential dynamics inherent in tool wear 
+
+progression [30]. Another dropout layer with a rate of 0.3 is incorporated for additional regularization. 
+
+Finally, the output layer consists of two neurons with softmax activation to perform binary classification of 
+
+tool health status. By integrating convolutional feature extraction with recurrent temporal modelling, the 
+
+proposed hybrid CNN–LSTM architecture achieves a balanced and robust representation of vibration signals, 
+
+consistent with recent hybrid deep learning approaches for intelligent tool wear monitoring. The architecture 
+
+is shown in figure 3.3.3. 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzCate_rv2HL3CjHLNdocpCRnFELSaKOQaI7sj1wZglAnEk7X3Ri_e1hXQlDJHCYNYisIddoThQkZFZK6r5xCjPs81iuWH8ADwQhnFaGl8IGJY0qRuV48WMvT7b9nZR9rqvEHuQbA=w419-h258-v0
+
+caec1f75-3ba3-4c86-83b5-6d369287c652
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxToF3oLQOjVcv26XQ9UYPw_aVWu3qcITUlIfz8ZjpYFSXKvWIu6JoPyYXHzetlyUW2-KZiOjTJzV-LPMkamxvmm-kj2Gv9sK6ge8VNAHl6L88HQXL8QdhH6urmYcAzr3_uEj-fdQ=w442-h741-v0
+
+c862670e-06c5-44ad-bdbd-cb821ded204b
+
+ 
+
+ 
+
+ 
+
+Fig 3.3.3 Hybrid CNN-LSTM Architecture Flowchart 
+
+3.4 Compile the Model 
+
+The CNN, LSTM and hybrid CNN-LSTM models were compiled using the Adam optimizer with a learning 
+
+rate of 0.001[18]. The categorical cross-entropy loss function was employed as binary classification is 
+
+involved and accuracy was used as the primary performance metric to monitor learning progress during 
+
+training and evaluation. This configuration enabled stable gradient updates and ensured effective monitoring 
+
+of the models’ predictive performance throughout the training process [31]. 
+
+3.5 Train and Evaluate the Model 
+
+Each model was trained for 10 epochs using the custom HDF5 data generator, which provided mini-batches 
+
+of 32 vibration signal samples for efficient streaming of the dataset from disk. Model training was conducted 
+
+on the training subset, while validation performance was simultaneously assessed using a dedicated test 
+
+generator to observe generalization behavior during optimization. Upon completion of training, each model 
+
+was evaluated on the independent test set, and performance metrics—including test accuracy and test loss— 
+
+were recorded. Additionally, training history curves for accuracy and loss across both training and validation 
+
+phases were generated to analyse convergence patterns and identify any indications of overfitting or 
+
+underfitting. 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxF3GVRoe69Tgw0LGl1lOP2dDVTbIC7_7ikVCOe2k71UU9yfjtqkhqFi_mpmOqGbXRG7hecjW22ObRuWwW6Cpnz3fDONO_EwgL41bzVnMltuNIgsT-oVfMexR76wLj3Sn2QWGeklw=w419-h258-v0
+
+e550ea55-5078-439c-8680-a72c9947bbb6
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwc1tfnW2JJeVWr-J9eteWnk6IxSbstfGDulIURlh0YIkQK70B0ryPRTJ9XcbB2B2zL2_0FJgMDUS3VfUdx1pmtl3giPADDQTeDK1mxqK8Gq9d_2zyOhGSpJ6zcgHw31mHVlrzm=w750-h273-v0
+
+1078b07d-3c53-43dc-814c-310f6e1063b4
+
+ 
+
+ 
+
+4. RESULT AND DISCUSSIONS  
+
+The comparative evaluation of the standalone LSTM, standalone CNN, and hybrid CNN-LSTM models 
+
+highlights the effectiveness of each architecture in vibration-based tool condition monitoring on the Bosch 
+
+CNC machining dataset. In this section the results of the models are presented using charts. The results are 
+
+demonstrated by the four metrics - test accuracy, test loss, number of parameters, and training time by 
+
+comparing three models: CNN, LSTM, Hybrid CNN-LSTM. 
+
+4.1 Test Accuracy  
+
+Test Accuracy is defined as the ratio of correct predictions to total predictions on the test dataset. It is a key 
+
+performance metric for classification tasks. A higher value indicates the model is better at correctly predicting 
+
+the class labels.  
+
+𝑨𝒄𝒄𝒖𝒓𝒂𝒄𝒚 =  𝑵𝒖𝒎𝒃𝒆𝒓 𝒐𝒇 𝒄𝒐𝒓𝒓𝒆𝒄𝒕 𝒑𝒓𝒆𝒅𝒊𝒄𝒕𝒊𝒐𝒏𝒔 
+
+𝑻𝒐𝒕𝒂𝒍 𝒏𝒖𝒎𝒃𝒆𝒓 𝒐𝒇 𝒑𝒓𝒆𝒅𝒊𝒄𝒕𝒊𝒐𝒏𝒔 
+
+ 
+
+ 
+
+Fig 4.1. Comparison of Test Accuracy between models  
+
+4.2 Test Loss 
+
+Test Loss is defined as the numerical value that quantifies how well or poorly the model predictions match 
+
+the actual labels during testing. Loss gives more detailed information than accuracy. A lower loss generally 
+
+indicates the model’s predictions are close to the ground truth probabilities or values. 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAy97_tAzrxjhZxOWyf04A7laR0HMER4c3YtKhlGFkez40pbe_RFYomSPrBM_tvKFJiiauG1b9tEguc07HzZOdWVV5pRVzvUxCXEBa-JZvwZrGtm2pE22_31EEIHmWMdeu48dD-X6A=w419-h258-v0
+
+b7b80c41-ba07-4c3a-ab39-4dcc78135d2f
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzj4n2NaXGGYZLxBZYFq2kcmQQW1p0_pWOjdVmf5JxFpgZJ9b4Yv8IQ7ZW9e1-6hCIsPJMjdsti0yWNzS0-B82HzHlPCtojUH0KNXWdM6n74UNEE4fNwPvVriCydE7gmhpUqT609A=w750-h261-v0
+
+2ad8bedb-fd81-4797-a951-19a596e88600
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAz0ANG5neYobtbMCf43_UnifvQTYn-cUxb4eo_mIEtIqPNF3NHdtsq74WzZ5GdrPdjQ2CTx3khcty-r1VaP1Ih7lHxmjakeovuhTRurx2nrVzW7m-XO0yRVhwbpj_GGsWnSNqaE=w750-h449-v0
+
+ce3b3312-4af0-4988-9416-3e29d49a7ede
+
+ 
+
+ 
+
+ 
+
+Fig 4.2. Comparison of test loss between models  
+
+4.3 Number of Parameters 
+
+The total number of trainable weights used in the model is called as number of parameters. If there is a greater 
+
+number of parameters it means it is a complex model with greater capacity to learn. However, it increases 
+
+the memory usage, computational cost, and the risk of overfitting. 
+
+ 
+
+Fig 4.3. Comparison of model parameters between models  
+
+4.4 Training Time 
+
+Training Time is defined as the total time the model has taken to train on the training dataset, measured in 
+
+minutes. It is important for resource management and deployment planning (implementation of the model).  
+
+Models which have longer training times are very costly to build and deploy, especially for large datasets or 
+
+real-time applications. 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyTVNpOvO9lrmLY9LOs_qc1Wa4Xxb_uMMVPsqfGTfh2-RaXaEs_whalYrEfqOfBhg85Ls3soCWITglyfp-NkSsbi_5fR2oYqbCjRSWy8Erhi1BbdiLWXdR_M8z7Wz91Z0OV96Ub=w419-h258-v0
+
+be850385-074e-46a8-aa1b-a77e24eaeb12
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzXJ-GR8GwZ9FHEr4jyuqLlWykMwrnsdds4jmyXKuRlUy4TPg2T8js-5b3KO9xwFotLRAq5slBejJpUWG4og8JvgcucWNa1lUeGUsns_NC-XfT37yI7NwVxjhr5-rARnyqQ0m_bNw=w750-h449-v0
+
+eab47b0b-44b0-4349-a987-c16d4d80d253
+
+ 
+
+ 
+
+ 
+
+Fig 4.4.  Comparison of training time between models  
+
+ 
+
+After analyzing all the graphs, we can evaluate the model individually as below: 
+
+The CNN model achieved a test accuracy of 92.5% with a test loss of 0.28, requiring approximately 165,000 
+
+trainable parameters and 34 minutes of training time. The CNN excelled at extracting localized features from 
+
+vibration data but lacked the sequential modeling capability of the LSTM, leading to occasional 
+
+misclassifications in tool wear stages requiring temporal context. 
+
+ 
+
+The LSTM model achieved a test accuracy of 90.3% with a test loss of 0.31, utilizing approximately 178,000 
+
+trainable parameters and requiring 41 minutes for training. The LSTM effectively captured long-term 
+
+temporal dependencies in the vibration signals but was limited in extracting local spatial patterns, resulting 
+
+in moderate misclassifications. 
+
+ 
+
+The hybrid CNN-LSTM model demonstrated the highest performance, achieving a test accuracy of 94.7% 
+
+with a test loss of 0.22, utilizing approximately 256,000 trainable parameters, and completing training in 49 
+
+minutes. By combining convolutional layers for local feature extraction with LSTM layers for temporal 
+
+sequence modeling, the hybrid model provided superior accuracy and robustness across different tool wear 
+
+conditions. 
+
+ 
+
+Across all evaluation metrics, the hybrid CNN–LSTM model achieved the highest overall performance, 
+
+followed by the standalone CNN and LSTM architectures. The hybrid model benefited from the 
+
+complementary strengths of convolutional feature extraction and sequential temporal modeling, resulting in 
+
+superior classification accuracy, reduced loss, and improved robustness across varying tool wear conditions. 
+
+The standalone CNN demonstrated strong advantages in accuracy, loss reduction, computational efficiency, 
+
+and training speed, underscoring its suitability for real-time fault identification in vibration-based tool wear 
+
+monitoring on edge and low-cost platforms. CNNs are particularly effective at capturing localized signal 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxEi0bovRJH5MvprbnhUO8JlF-b48qEmDIpuOKumNMIRoRBSDn6jrO83wFoN1HqBNgsv7Ub30tlc1YrxGor4YQE9YQrWqg271lHecJyfT_xo4cEravLjEp_LBh-NEn_sfXinxjOsA=w419-h258-v0
+
+9a6c1c33-82d3-40a5-a3ed-35e0b79d88fa
+
+ 
+
+ 
+
+characteristics such as transient spikes, harmonic variations, and amplitude fluctuations that are commonly 
+
+associated with progressive tool wear. Although the standalone LSTM exhibited comparatively lower 
+
+aggregate performance, it remains valuable for applications requiring long-term temporal dependency 
+
+modeling, such as wear trend analysis and remaining useful life estimation. Collectively, these findings 
+
+indicate that while the hybrid CNN–LSTM model provides the most comprehensive performance, the CNN 
+
+offers a lightweight and deployable alternative, and the LSTM supports deeper temporal insight depending 
+
+on industrial monitoring requirements. 
+
+ 
+
+Benefits of Hybrid Model (CNN-LSTM Model) over Standalone CNN and LSTM Models: 
+
+The hybrid CNN–LSTM model demonstrates several advantages over standalone CNN and LSTM 
+
+architectures, including improved prediction accuracy, enhanced feature representation, early fault detection 
+
+capability, and robust generalization across operating conditions. By jointly learning localized spatial 
+
+features through convolutional layers and long-term temporal dependencies through LSTM layers, the hybrid 
+
+architecture achieves a more comprehensive understanding of vibration signal characteristics, resulting in 
+
+higher classification accuracy and reduced misclassification rates. 
+
+The model enables full automation of the tool condition monitoring process by directly learning 
+
+discriminative features from raw vibration data, thereby eliminating the need for handcrafted feature 
+
+extraction, and reducing dependence on domain-specific expertise. Owing to its structured feature learning 
+
+and efficient preprocessing via CNN layers, the hybrid model supports near real-time inference when 
+
+appropriately optimized, making it suitable for online monitoring applications in industrial environments.  
+
+Furthermore, the LSTM component facilitates early fault detection by capturing subtle long-term wear trends 
+
+and gradual degradation patterns that may not be detectable using purely convolutional or static models, 
+
+allowing timely maintenance interventions before catastrophic tool failure occurs. While the hybrid CNN– 
+
+LSTM architecture involves a modest increase in model complexity, the convolutional preprocessing stage 
+
+improves training stability and learning efficiency, leading to faster convergence and improved training 
+
+effectiveness compared to standalone recurrent models. By fusing spatial and sequential information, the 
+
+hybrid framework also exhibits superior generalization performance across varying tool wear states, 
+
+machining conditions, and operational settings, reinforcing its suitability for scalable and reliable tool 
+
+condition monitoring systems. 
+
+5. CONCLUSION:  
+
+This study presented a lightweight hybrid CNN–LSTM framework for vibration-based tool wear monitoring 
+
+in CNC machining, with particular emphasis on deployability in brownfield manufacturing environments. 
+
+By utilizing vibration data acquired from a single low-cost accelerometer, the proposed approach eliminates 
+
+the need for complex multi-sensor setups while preserving robust predictive performance. The hybrid 
+
+architecture effectively integrates CNN-based localized feature extraction with LSTM-based temporal 
+
+dependency modeling, enabling accurate characterization of tool wear progression under real industrial 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAykxW3NNgd7c8Ndt4o4bmA2FqmSzxVmw39qirnLJ5rOlp7VasV1B4qrMYwU4xv3FaQSLZgNjbTal4QefLWXPJa7yzNmXz553g7EM08dkirDSQ-Xu_aemLfSru0wXRtlVziE_g5BbQ=w419-h258-v0
+
+20944850-3163-4e03-8300-f57989a6756f
+
+ 
+
+ 
+
+Experimental evaluation demonstrated that the hybrid CNN–LSTM model outperformed standalone CNN 
+
+and LSTM architectures in terms of classification accuracy and loss, achieving a test accuracy of 94.7% with 
+
+improved robustness across varying tool wear states. While the hybrid model required a modest increase in 
+
+computational complexity, the performance gains justify its application in scenarios where reliability and 
+
+early fault detection are critical. The findings confirm that advanced deep learning-based tool condition 
+
+monitoring can be realized using minimal sensing infrastructure and computationally efficient model designs, 
+
+making the proposed framework particularly suitable for small- and medium-scale manufacturing enterprises 
+
+and Industry 4.0-oriented predictive maintenance systems. 
+
+6.APPLICATIONS: 
+
+The CNN and LSTM models have broad applicability across tool condition monitoring and related industrial 
+
+domains. In CNC machining, they enable real-time detection of worn or faulty tools, reduction of scrap and 
+
+rework, improved surface finish, and prevention of unexpected tool failures. Their ability to operate with a 
+
+single low-cost vibration sensor makes them particularly attractive for SMEs, where budget constraints often 
+
+limit access to advanced monitoring technologies. Beyond tool wear classification, these models can be 
+
+integrated into smart manufacturing and Industry 4.0 ecosystems for predictive maintenance, machine health 
+
+monitoring, and automated fault detection across multiple machines or production lines. They are also 
+
+applicable to diagnosing spindle imbalance, bearing wear, gearbox faults, and other mechanical anomalies 
+
+in rotating equipment commonly found in automotive, aerospace, energy, and robotics sectors. The 
+
+lightweight nature of the models supports deployment on edge devices, enabling decentralized monitoring 
+
+and rapid decision-making in industrial environments. 
+
+7.FUTURE SCOPE: 
+
+Future work will focus on extending the proposed framework toward real-time, closed-loop deployment by 
+
+integrating the hybrid CNN–LSTM model into live CNC monitoring systems for continuous tool health 
+
+assessment and automated maintenance decision support. Further performance improvements may be 
+
+achieved by incorporating additional indirect sensing modalities, such as temperature and acoustic emission 
+
+signals, to enable multi-modal data fusion while maintaining system affordability and scalability. 
+
+The integration of the proposed model with Industrial Internet of Things (IIoT) platforms represents another 
+
+promising direction, enabling centralized monitoring of multiple machines and facilitating data-driven 
+
+optimization at the factory level. In addition, the adoption of explainable artificial intelligence (XAI) 
+
+techniques will be explored to enhance model transparency by identifying critical signal features and 
+
+temporal patterns responsible for fault predictions, thereby improving trust and usability for shop-floor 
+
+personnel. Finally, future studies may investigate transfer learning and domain adaptation strategies to 
+
+improve model generalization across different machine tools, cutting conditions, and materials, further 
+
+strengthening the industrial applicability of lightweight hybrid deep learning approaches for tool condition 
+
+monitoring. 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwSGv9-B8IEGrHWGQq19N5G2TZ8QsLgilZ2f3omxBvTdJE0-i8zZrqUJ5gVPQX1oHqkaV_zK5Gth6BOtS6_C1qELMv3mscQNfSca_ixM_yEgyao_GgmOvH9QxZVG2AqUsCE3z05=w419-h258-v0
+
+2d14fdf9-23f0-4a38-8ecd-6f124474a9bb
+
+ 
+
+ 
+
+REFERENCES 
+
+[1] Soori, M., Arezoo, B., & Dastres, R. (2023). Machine learning and artificial intelligence in CNC 
+
+machine tools: A review. Sustainable Manufacturing and Service Economics, 2, 100009. 
+
+[2] Zhou, J., Wang, F., & Chen, G. (2023). Industrial IoT-enabled tool condition monitoring using 
+
+deep neural networks. Robotics and Computer-Integrated Manufacturing, 84, 102533. 
+
+[3] Carvalho, T. P., Soares, F. A., Vita, R., Molina, I. A., & Francisco, R. P. (2022). Machine learning 
+
+in cutting tool condition monitoring: A review. Journal of Intelligent Manufacturing, 33, 1125– 
+
+1146. 
+
+[4] Park, S., Kim, H., & Jeon, S. (2021). Vibration-based classification of tool wear using machine 
+
+vision and deep learning. Measurement, 178, 109417. 
+
+[5] Tercan, H., & Meisen, T. (2022). Machine learning-based predictive quality in manufacturing. 
+
+Journal of Intelligent Manufacturing, 33(7), 1879–1905. 
+
+[6] Al-Shdifat, T., & Djemai, M. (2024). Vibration-based predictive maintenance using deep learning 
+
+and edge AI. IEEE Access, 12, 45612–45628. 
+
+[7] Colantonio, L., Equeter, L., Dehombreux, P., & Ducobu, F. (2021). A systematic review of cutting 
+
+tool wear monitoring using AI. Machines, 9(12), 351. 
+
+[8] Xie, X., Huang, M., Sun, W., Li, Y., & Liu, Y. (2023). Intelligent tool wear monitoring using a 
+
+convolutional neural network and an informer. Lubricants, 11(9), 389. 
+
+[9] Sharma, S., Gupta, V., & Singh, A. (2022). Review of Industry 4.0-driven predictive analytics in 
+
+machining. Procedia CIRP, 109, 345–350. 
+
+[10] Kumar, K., & Patel, R. (2024). Deep learning models for edge-based predictive maintenance. 
+
+Journal of Manufacturing Processes, 92, 104–118. 
+
+[11] Almeida, R., Duarte, M., & Henriques, R. (2024). Lightweight CNN architectures for fast 
+
+embedded fault detection. Neural Computing and Applications, 36, 11489–11506. 
+
+[12] Wang, P., Xiao, Y., & Wu, S. (2022). Adaptive segmentation of vibration signals for deep tool 
+
+wear prediction. Mechanical Systems and Signal Processing, 163, 108147 
+
+[13] Liu, D., Liu, Z., Wang, B., Song, Q., Wang, H., & Zhang, L. (2024). Leveraging AI for real-time 
+
+indirect tool condition monitoring. International Journal of Machine Tools and Manufacture, 202, 
+
+104209. 
+
+[14] Bagga, P. J., Makhesana, M. A., Patel, H. D., & Patel, K. M. (2021). Indirect method of tool wear 
+
+measurement and prediction using ANN network in machining process. Materials Today: 
+
+Proceedings, 44, 1549-1554. 
+
+[15] Reddy, S. P., Danda, J. M. R., Kolli, M., & Yaramala, A. (2025). Artificial neural network 
+
+modelling of aluminium/Al2O3/fly ash hybrid composites prepared by powder metallurgy. 
+
+International Journal on Interactive Design and Manufacturing (IJIDeM), 19(1), 143-151. 
+
+[16] Tnani, M. A., Feil, M., & Diepold, K. (2022). Smart data collection system for brownfield CNC 
+
+milling machines: A new benchmark dataset for data-driven machine monitoring. Procedia CIRP, 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzdl3FL0FV9BVZzcaqsQCpYiwNPZxHFdVXiSFfEWkt447Eon2crNFQGzKcPQI4gY-9cx1qZ4nH7GXKlAQtdwnylXRYsdLLDm6XVIyFueV0Kodg5pH0Jg7x51kjiuayHg_yw2weh=w419-h258-v0
+
+fd0b5f86-c4bc-410e-bdf3-63e09636850b
+
+ 
+
+ 
+
+[17] Chan, T. F., Zhao, X., & Lau, H. Y. (2022). Self-attention BiLSTM for intelligent condition 
+
+monitoring. Expert Systems with Applications, 204, 117597 
+
+[18] Srikanth, C., Rao, P., & Reddy, N. (2023). Applications of AI in machining and predictive 
+
+maintenance: A comprehensive review. Sustainable Manufacturing and Service Economics, 3, 
+
+100020. 
+
+[19] Zhu, M., Zhang, J., Bu, L., Nie, S., Bai, Y., Zhao, Y., & Mei, N. (2024). Methodology and 
+
+experimental verification for predicting the remaining useful life of milling cutters based on 
+
+hybrid CNN-LSTM-attention-PSA. Machines, 12(11), 752. 
+
+[20] Abdeltawab, A. (2025). Wavelet-based CNN–BiLSTM architecture for vibration-based tool wear 
+
+prediction. International Journal of Advanced Manufacturing Technology. 
+
+[21] Bikkavolu, J. R., Tota, R. K., Chebattina, K. R., Bhagavatula, L. R., Pullagura, G., & Seepana, P. 
+
+(2025). Predicting common rail direct injection (CRDI) engine metrics using nanoparticle-
+
+enhanced Pongamia pinnata biodiesel with machine learning. Emergent Materials, 1–18. 
+
+[22] Mylapalli, S., Reddy Maddi, Y. K., Bikkavolu, J. R., Murthy, B. S., Pullagura, G., Ravi, H., ... & 
+
+Barik, D. (2025). Machine learning based analysis of diesel engine performance using Fe₃O₄ 
+
+nanoadditive in sterculia foetida biodiesel blend. Scientific Reports, 15(1), 39028. 
+
+[23] Menda, V. R., Tota, R. K., Bikkavolu, J. R., Ravi, H., Pullagura, G., Dasharath, S. M., ... & 
+
+Rajendran, S. (2025). Machine learning based prediction of the performance and emission 
+
+characteristics of CRDI diesel engine using diethyl ether and carbon nanotube additives with 
+
+Spirulina platensis as a third-generation biofuel. Scientific Reports, 15(1), 39958. 
+
+[24] Zhang, D., Li, R., & Wu, X. (2022). Multi-sensor vibration fusion for tool wear evaluation. 
+
+Measurement Science and Technology, 33(10), 105013. 
+
+[25] Ren, X., Li, J., Zhang, Y., & Sun, H. (2022). Tool wear prediction using hybrid CNN–LSTM 
+
+networks from vibration signals. Measurement, 195, 111182 
+
+[26] Liang, S. Y., Lin, W., & Wang, L. (2023). Data-driven tool wear modeling using deep recurrent 
+
+neural networks. Wear, 518, 204592. 
+
+[27] Nguyen, T. T., Pham, Q. T., & Kim, B. S. (2023). CNN-based real-time tool wear classification 
+
+using spindle vibration signals. Mechanical Systems and Signal Processing, 194, 110308 
+
+[28] Islam, M. M., Kim, J., & Park, Y. (2023). LSTM-based temporal signal modeling for machine 
+
+health prediction. Sensors, 23(4), 2103. 
+
+[29] Zhang, P., Gao, D., Hong, D., Lu, Y., Wang, Z., & Liao, Z. (2023). Intelligent tool wear 
+
+monitoring based on multi-channel hybrid information and deep transfer learning. Journal of 
+
+Manufacturing Systems, 69, 31–47. 
+
+[30] Yu, Y., Zhao, F., & Wang, J. (2023). Time-series fault detection using multi-head LSTM 
+
+encoders. Engineering Applications of AI, 123, 106330. 
+
+ 
+
+ 

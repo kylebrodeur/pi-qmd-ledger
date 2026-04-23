@@ -1,0 +1,3695 @@
+Federated Learning and its Role in Predictive Maintenance | IntechOpen
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+
+Consent
+
+https://www.intechopen.com/online-first/1233887
+
+Details
+
+https://www.intechopen.com/online-first/1233887
+
+[#IABV2SETTINGS#]
+
+https://www.intechopen.com/online-first/1233887
+
+About
+
+https://www.intechopen.com/online-first/1233887
+
+This website uses cookies
+
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you've provided to them or that they've collected from your use of their services.
+
+[#GPC_BANNER_ICON#]
+
+[#GPC_TOAST_TEXT#]
+
+Consent Selection
+
+Necessary
+
+ 
+
+[x]
+
+Preferences
+
+ 
+
+[-]
+
+Statistics
+
+ 
+
+[-]
+
+Marketing
+
+ 
+
+[-]
+
+Show details
+
+https://www.intechopen.com/online-first/1233887
+
+Details
+
+Necessary 116
+
+ 
+
+[x]  Necessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the website. The website cannot function properly without these cookies.
+
+Adform 1
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://site.adform.com/privacy-center/platform-privacy/opt-out/
+
+ 
+
+C
+
+ Used to check if the user's browser supports cookies. 
+
+Maximum Storage Duration
+
+: 1 month 
+
+Type
+
+: HTTP Cookie
+
+Adobe Inc. 1
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://www.adobe.com/privacy.html
+
+ 
+
+everest_g_v2
+
+ Used for targeted ads and to document efficacy of each individual ad. 
+
+Maximum Storage Duration
+
+: 1 year 
+
+Type
+
+: HTTP Cookie
+
+Adroll 1
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://www.nextroll.com/privacy
+
+ 
+
+cm/index/tp_out
+
+ Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: Pixel Tracker
+
+Beeswax 3
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://www.beeswax.com/cookies/
+
+ 
+
+bito
+
+ Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers. 
+
+Maximum Storage Duration
+
+: 13 months 
+
+Type
+
+: HTTP Cookie 
+
+bitoIsSecure
+
+ Presents the user with relevant content and advertisement. The service is provided by third-party advertisement hubs, which facilitate real-time bidding for advertisers. 
+
+Maximum Storage Duration
+
+: 13 months 
+
+Type
+
+: HTTP Cookie 
+
+checkForPermission
+
+ Determines whether the user has accepted the cookie consent box. 
+
+Maximum Storage Duration
+
+: 1 day 
+
+Type
+
+: HTTP Cookie
+
+Bidswitch 2
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://www.iponweb.com/policies-legal/bidswitch-privacy-policy/
+
+ 
+
+bsw_origin_init
+
+ Collects visitor data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie 
+
+custom_data
+
+ Collects data on user behaviour and interaction in order to optimize the website and make advertisement on the website more relevant. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie
+
+Brand-display.com 1
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+http://brand-display.com/
+
+ 
+
+knxq
+
+ Determines when the visitor last visited the different subpages on the website, as well as sets a timestamp for when the session started. 
+
+Maximum Storage Duration
+
+: 400 days 
+
+Type
+
+: HTTP Cookie
+
+Casale Media 6
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+http://www.casalemedia.com/
+
+ 
+
+CMID
+
+ Collects visitor data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads. 
+
+Maximum Storage Duration
+
+: 1 year 
+
+Type
+
+: HTTP Cookie 
+
+CMPRO
+
+ Collects data on visitor behaviour from multiple websites, in order to present more relevant advertisement - This also allows the website to limit the number of times that they are shown the same advertisement. 
+
+Maximum Storage Duration
+
+: 3 months 
+
+Type
+
+: HTTP Cookie 
+
+CMPS
+
+ Collects visitor data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads. 
+
+Maximum Storage Duration
+
+: 3 months 
+
+Type
+
+: HTTP Cookie 
+
+crum
+
+ This cookie is used to identify the frequency of visits and how long the visitor is on the website. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: Pixel Tracker 
+
+pbusermatch
+
+ Pending 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: Pixel Tracker 
+
+rum
+
+ Collects data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: Pixel Tracker
+
+Cookiebot 1
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://www.cookiebot.com/goto/privacy-policy/
+
+ 
+
+CookieConsent
+
+ Stores the user's cookie consent state for the current domain 
+
+Maximum Storage Duration
+
+: 1 year 
+
+Type
+
+: HTTP Cookie
+
+Crimtan 1
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://crimtan.com/privacy/
+
+ 
+
+cid_#
+
+ Collects unidentifiable data that is sent to an unidentifiable source. The source's identity is kept secret by the company, Whois Privacy Protection Service, Inc. 
+
+Maximum Storage Duration
+
+: 1 year 
+
+Type
+
+: HTTP Cookie
+
+Criteo 6
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://www.criteo.com/privacy/corporate-privacy-policy/
+
+ 
+
+cto_bundle [x2]
+
+ Presents the user with relevant content and advertisement. The service is provided by third-party advertisement hubs, which facilitate real-time bidding for advertisers. 
+
+Maximum Storage Duration
+
+: 1 year 
+
+Type
+
+: HTTP Cookie 
+
+cto_pub_test_tld [x2]
+
+ Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences. 
+
+Maximum Storage Duration
+
+: 1 day 
+
+Type
+
+: HTTP Cookie 
+
+cto_writeable [x2]
+
+ This cookie is set by the audience manager of a website in order to determine if any additional third-party cookies can be set in the visitor's browser – third-party cookies are used to gather information or track visitor behavior on multiple websites. Third-party cookies are set by a third-party website or company. 
+
+Maximum Storage Duration
+
+: 1 day 
+
+Type
+
+: HTTP Cookie
+
+Exponential 2
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+http://exponential.com/privacy/
+
+ 
+
+ANON_ID
+
+ Collects data on user visits to the website, such as what pages have been accessed. The registered data is used to categorise the user's interest and demographic profiles in terms of resales for targeted marketing. 
+
+Maximum Storage Duration
+
+: 3 months 
+
+Type
+
+: HTTP Cookie 
+
+ANON_ID_old
+
+ Collects data about the user's visit to the site, such as the number of returning visits and which pages are read. The purpose is to deliver targeted ads. 
+
+Maximum Storage Duration
+
+: 3 months 
+
+Type
+
+: HTTP Cookie
+
+Google 3
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://business.safety.google/privacy/
+
+ Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness. 
+
+csi
+
+ Collects data on visitors' preferences and behaviour on the website - This information is used make content and advertisement more relevant to the specific visitor. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: Pixel Tracker 
+
+_ga
+
+ Registers a unique ID that is used to generate statistical data on how the visitor uses the website. 
+
+Maximum Storage Duration
+
+: 2 years 
+
+Type
+
+: HTTP Cookie 
+
+ga#
+
+ Used by Google Analytics to collect data on the number of times a user has visited the website as well as dates for the first and most recent visit. 
+
+Maximum Storage Duration
+
+: 2 years 
+
+Type
+
+: HTTP Cookie
+
+LinkedIn 2
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://www.linkedin.com/legal/privacy-policy
+
+ 
+
+bcookie
+
+ Used in order to detect spam and improve the website's security. 
+
+Maximum Storage Duration
+
+: 1 year 
+
+Type
+
+: HTTP Cookie 
+
+li_gc
+
+ Stores the user's cookie consent state for the current domain 
+
+Maximum Storage Duration
+
+: 180 days 
+
+Type
+
+: HTTP Cookie
+
+Media.net 1
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://www.media.net/privacy-policy
+
+ 
+
+receive-cookie-deprecation
+
+ Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website. 
+
+Maximum Storage Duration
+
+: 180 days 
+
+Type
+
+: HTTP Cookie
+
+Nativo 1
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://www.nativo.com/privacy-policy
+
+ 
+
+opt_out
+
+ Used to detect if the visitor has accepted the marketing category in the cookie banner. This cookie is necessary for GDPR-compliance of the website. 
+
+Maximum Storage Duration
+
+: 1 year 
+
+Type
+
+: HTTP Cookie
+
+Oath 1
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://policies.oath.com/us/en/oath/privacy/index.html
+
+ 
+
+connectId
+
+ Pending 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie
+
+Openx 1
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://www.openx.com/legal/privacy-policy/
+
+ 
+
+i
+
+ Registers anonymised user data, such as IP address, geographical location, visited websites, and what ads the user has clicked, with the purpose of optimising ad display based on the user's movement on websites that use the same ad network. 
+
+Maximum Storage Duration
+
+: 1 year 
+
+Type
+
+: HTTP Cookie
+
+Quantcast 2
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://www.quantcast.com/privacy/
+
+ 
+
+_dlt
+
+ Sets a unique ID for the session. This allows the website to obtain data on visitor behaviour for statistical purposes. 
+
+Maximum Storage Duration
+
+: 1 day 
+
+Type
+
+: HTTP Cookie 
+
+mc
+
+ Collects data on the user's visits to the website, such as what pages have been loaded. The registered data is used for targeted ads. 
+
+Maximum Storage Duration
+
+: 13 months 
+
+Type
+
+: HTTP Cookie
+
+Simpli.fi 2
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://simpli.fi/site-privacy-policy/
+
+ 
+
+suid
+
+ Collects information on user preferences and/or interaction with web-campaign content - This is used on CRM-campaign-platform used by website owners for promoting events or products. 
+
+Maximum Storage Duration
+
+: 1 year 
+
+Type
+
+: HTTP Cookie 
+
+suid_legacy
+
+ Collects information on user preferences and/or interaction with web-campaign content - This is used on CRM-campaign-platform used by website owners for promoting events or products. 
+
+Maximum Storage Duration
+
+: 1 year 
+
+Type
+
+: HTTP Cookie
+
+Sonobi 2
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://sonobi.com/privacy-policy/
+
+ 
+
+__uis
+
+ Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences. 
+
+Maximum Storage Duration
+
+: 1 year 
+
+Type
+
+: HTTP Cookie 
+
+HAPLB8G
+
+ Pending 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie
+
+YouTube 3
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://business.safety.google/privacy/
+
+ 
+
+LAST_RESULT_ENTRY_KEY
+
+ Used to track user's interaction with embedded content. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie 
+
+remote_sid
+
+ Necessary for the implementation and functionality of YouTube video-content on the website. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie 
+
+TESTCOOKIESENABLED
+
+ Used to track user's interaction with embedded content. 
+
+Maximum Storage Duration
+
+: 1 day 
+
+Type
+
+: HTTP Cookie
+
+Zeta Global 3
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://zetaglobal.com/privacy-policy/
+
+ 
+
+eud
+
+ Registers user data, such as IP address, geographical location, visited websites, and what ads the user has clicked, with the purpose of optimising ad display based on the user's movement on websites that use the same ad network. 
+
+Maximum Storage Duration
+
+: 1 year 
+
+Type
+
+: HTTP Cookie 
+
+rud
+
+ Registers user data, such as IP address, geographical location, visited websites, and what ads the user has clicked, with the purpose of optimising ad display based on the user's movement on websites that use the same ad network. 
+
+Maximum Storage Duration
+
+: 1 year 
+
+Type
+
+: HTTP Cookie 
+
+ruds
+
+ Registers user data, such as IP address, geographical location, visited websites, and what ads the user has clicked, with the purpose of optimising ad display based on the user's movement on websites that use the same ad network. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie
+
+adform.net criteo.com turn.com 3
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+uid [x3]
+
+ Registers a unique user ID that recognises the user's browser when visiting websites that use the same ad network. The purpose is to optimise display of ads based on the user's movements and various ad providers' bids for displaying user ads. 
+
+Maximum Storage Duration
+
+: 2 months 
+
+Type
+
+: HTTP Cookie
+
+aim-tag.hcn.health 8
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+#{8}-#{4}-#{4}-#{4}-#{12}
+
+ Pending 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie 
+
+dmd-sid4 [x3]
+
+ Pending 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie 
+
+dmd-tag [x4]
+
+ Pending 
+
+Maximum Storage Duration
+
+: 400 days 
+
+Type
+
+: HTTP Cookie
+
+bidswitch.net creative-serving.com 6
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+c [x2]
+
+ Regulates synchronisation of user identification and exchange of user data between various ad services. 
+
+Maximum Storage Duration
+
+: 1 year 
+
+Type
+
+: HTTP Cookie 
+
+tuuid [x2]
+
+ Registers whether or not the user has consented to the use of cookies. 
+
+Maximum Storage Duration
+
+: 1 year 
+
+Type
+
+: HTTP Cookie 
+
+tuuid_lu [x2]
+
+ Contains a unique visitor ID, which allows Bidswitch.com to track the visitor across multiple websites. This allows Bidswitch to optimize advertisement relevance and ensure that the visitor does not see the same ads multiple times. 
+
+Maximum Storage Duration
+
+: 1 year 
+
+Type
+
+: HTTP Cookie
+
+casalemedia.com stackadapt.com 6
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+sa-user-id [x2]
+
+ Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie 
+
+sa-user-id-v2 [x2]
+
+ Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie 
+
+sa-user-id-v3 [x2]
+
+ Collects data on the user across websites - This data is used to make advertisement more relevant. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie
+
+cdn.userway.org 2
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+uw-icon-locales
+
+ Used to keep settings on the website's accessibility widget. This helps people with e.g. vision disabilities to properly navigate the site. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+uw-uid
+
+ Pending 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage
+
+cdnintech.com 32
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+#-#-#-#-#
+
+ Pending 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTML Local Storage 
+
+dmd-sid4
+
+ Pending 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTML Local Storage 
+
+connectId
+
+ Pending 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+latestViewedCollection
+
+ Pending 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+_GESPSK-crwdcntrl.net
+
+ This cookie registers data on the visitor. The information is used to optimize advertisement relevance. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+_GESPSK-esp.criteo.com
+
+ Collects data on user behaviour and interaction in order to optimize the website and make advertisement on the website more relevant. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+_GESPSK-id5-sync.com
+
+ Presents the user with relevant content and advertisement. The service is provided by third-party advertisement hubs, which facilitate real-time bidding for advertisers. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+_GESPSK-openx
+
+ Presents the user with relevant content and advertisement. The service is provided by third-party advertisement hubs, which facilitate real-time bidding for advertisers. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+_GESPSK-pubcid.org
+
+ This cookie registers data on the visitor. The information is used to optimize advertisement relevance. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+_GESPSK-rtbhouse
+
+ Registers user behaviour and navigation on the website, and any interaction with active campaigns. This is used for optimizing advertisement and for efficient retargeting. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+_GESPSK-uidapi.com
+
+ Used in context with pop-up advertisement-content on the website. The cookie determines which ads the visitor should be shown, as well as ensuring that the same ads does not get shown more than intended. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+_GESPSK-yahoo.com
+
+ Pending 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+rc::e
+
+ This cookie is used to distinguish between humans and bots. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTML Local Storage 
+
+rc::h
+
+ This cookie is used to distinguish between humans and bots. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+pagead/gen_204
+
+ Collects data on visitor behaviour from multiple websites, in order to present more relevant advertisement - This also allows the website to limit the number of times that they are shown the same advertisement. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: Pixel Tracker 
+
+pcs/activeview
+
+ Used by DoubleClick to determine whether website advertisement has been properly displayed - This is done to make their marketing efforts more efficient. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: Pixel Tracker 
+
+pcs/view
+
+ Pending 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: Pixel Tracker 
+
+ActiveSession
+
+ Pending 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie 
+
+IXWRAPPERlib_mem
+
+ Pending 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+cto_bundle
+
+ Presents the user with relevant content and advertisement. The service is provided by third-party advertisement hubs, which facilitate real-time bidding for advertisers. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+LogsDatabaseV2:V#||LogsRequestsStore
+
+ Used to track user's interaction with embedded content. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: IndexedDB 
+
+VISITOR_INFO1_LIVE
+
+ Tries to estimate the users' bandwidth on pages with integrated YouTube videos. 
+
+Maximum Storage Duration
+
+: 180 days 
+
+Type
+
+: HTTP Cookie 
+
+YSC
+
+ Registers a unique ID to keep statistics of what videos from YouTube the user has seen. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie 
+
+ytidb::LAST_RESULT_ENTRY_KEY
+
+ Used to track user's interaction with embedded content. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+YtIdbMeta#databases
+
+ Used to track user's interaction with embedded content. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: IndexedDB 
+
+yt-remote-cast-available
+
+ Stores the user's video player preferences using embedded YouTube video 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTML Local Storage 
+
+yt-remote-cast-installed
+
+ Stores the user's video player preferences using embedded YouTube video 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTML Local Storage 
+
+yt-remote-connected-devices
+
+ Stores the user's video player preferences using embedded YouTube video 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+yt-remote-device-id
+
+ Stores the user's video player preferences using embedded YouTube video 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+yt-remote-fast-check-period
+
+ Stores the user's video player preferences using embedded YouTube video 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTML Local Storage 
+
+yt-remote-session-app
+
+ Stores the user's video player preferences using embedded YouTube video 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTML Local Storage 
+
+yt-remote-session-name
+
+ Stores the user's video player preferences using embedded YouTube video 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTML Local Storage
+
+cdnintech.com googlesyndication.com 2
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+adx_profile_guid [x2]
+
+ Pending 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage
+
+cdnintech.com www.intechopen.com googlesyndication.com 3
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+dmd-tag [x3]
+
+ Pending 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage
+
+content.tapnative.com 2
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+adx_retargeting_ide [x2]
+
+ Pending 
+
+Maximum Storage Duration
+
+: 1 day 
+
+Type
+
+: HTTP Cookie
+
+content.tapnative.com tapnative.com 3
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+adx_profile_guid [x3]
+
+ Pending 
+
+Maximum Storage Duration
+
+: 3944 days 
+
+Type
+
+: HTTP Cookie
+
+eu-assets.i.posthog.com 1
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+dmn_chk_#
+
+ Used to maintain the overall functionality of the website: Assigns the user to a server and detects potential errors on specific servers, allowing the website to reassign the users to another server. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie
+
+intechopen.com 1
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+__eoi
+
+ Used in order to detect spam and improve the website's security. 
+
+Maximum Storage Duration
+
+: 180 days 
+
+Type
+
+: HTTP Cookie
+
+www.intechopen.com 1
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+pdfjs.history
+
+ Remembers which and how many PDF-documents have been downloaded or read by the user. This is used for internal statistics. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage
+
+Preferences 2
+
+ 
+
+[-]  Preference cookies enable a website to remember information that changes the way the website behaves or looks, like your preferred language or the region that you are in.
+
+LinkedIn 1
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://www.linkedin.com/legal/privacy-policy
+
+ 
+
+lidc
+
+ Registers which server-cluster is serving the visitor. This is used in context with load balancing, in order to optimize user experience. 
+
+Maximum Storage Duration
+
+: 1 day 
+
+Type
+
+: HTTP Cookie
+
+www.intechopen.com 1
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+jwplayerLocalId
+
+ Used to determine the optimal video quality based on the visitor's device and network settings. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage
+
+Statistics 6
+
+ 
+
+[-]  Statistic cookies help website owners to understand how visitors interact with websites by collecting and reporting information anonymously.
+
+Quantcast 2
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://www.quantcast.com/privacy/
+
+ 
+
+sp
+
+ Registers statistical data on users' behaviour on the website. Used for internal analytics by the website operator. 
+
+Maximum Storage Duration
+
+: 3 months 
+
+Type
+
+: HTTP Cookie 
+
+__qca
+
+ Collects data on the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded with the purpose of generating reports for optimising the website content. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie
+
+eu-assets.i.posthog.com 4
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+ph_#_primary_window_exists
+
+ Registers statistical data on users' behaviour on the website. Used for internal analytics by the website operator. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTML Local Storage 
+
+ph_#_window_id
+
+ Registers statistical data on users' behaviour on the website. Used for internal analytics by the website operator. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTML Local Storage 
+
+ph_#_posthog [x2]
+
+ Registers statistical data on users' behaviour on the website. Used for internal analytics by the website operator. 
+
+Maximum Storage Duration
+
+: 1 year 
+
+Type
+
+: HTTP Cookie
+
+Marketing 16
+
+ 
+
+[-]  Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third party advertisers.
+
+Adobe Inc. 1
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://www.adobe.com/privacy.html
+
+ 
+
+ct/upi/pid/ZMAwryCI
+
+ Pending 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: Pixel Tracker
+
+IQM 2
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://iqm.com/location-privacy
+
+ 
+
+iqm.retarget.uid
+
+ Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers. 
+
+Maximum Storage Duration
+
+: 15 days 
+
+Type
+
+: HTTP Cookie 
+
+liveramp
+
+ Presents the user with relevant content and advertisement. The service is provided by third-party advertisement hubs, which facilitate real-time bidding for advertisers. 
+
+Maximum Storage Duration
+
+: 30 days 
+
+Type
+
+: HTTP Cookie
+
+TapTap 1
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://www.taptapnetworks.com/privacy_policy/
+
+ 
+
+SONATA_ID
+
+ Used to track the visitor across multiple devices including TV. This is done in order to re-target the visitor through multiple channels. 
+
+Maximum Storage Duration
+
+: 19 days 
+
+Type
+
+: HTTP Cookie
+
+a.sportradarserving.com bidswitch.net 2
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+sync [x2]
+
+ Collects data on user behaviour and interaction in order to optimize the website and make advertisement on the website more relevant. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: Pixel Tracker
+
+cdnintech.com 10
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+_GESPSK-esp.pubmatic.com
+
+ Pending 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+_GESPSK-euid.eu
+
+ Pending 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+_GESPSK-intimatemerger.com
+
+ Pending 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+_GESPSK-mygaruID
+
+ Pending 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+rtbhouse-esp
+
+ Collects information on user preferences and/or interaction with web-campaign content - This is used on CRM-campaign-platform used by website owners for promoting events or products. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+suid/101987
+
+ Pending 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: Pixel Tracker 
+
+__Secure-ROLLOUT_TOKEN
+
+ Used to track user's interaction with embedded content. 
+
+Maximum Storage Duration
+
+: 180 days 
+
+Type
+
+: HTTP Cookie 
+
+__Secure-YEC
+
+ Stores the user's video player preferences using embedded YouTube video 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie 
+
+__Secure-YNID
+
+ Pending 
+
+Maximum Storage Duration
+
+: 180 days 
+
+Type
+
+: HTTP Cookie 
+
+ServiceWorkerLogsDatabase#SWHealthLog
+
+ Necessary for the implementation and functionality of YouTube video-content on the website. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: IndexedDB
+
+Unclassified 8 Unclassified cookies are cookies that we are in the process of classifying, together with the providers of individual cookies.
+
+IQM 3
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Learn more about this provider
+
+https://iqm.com/location-privacy
+
+ 
+
+dGFwX25hdGl2ZQ
+
+ Pending 
+
+Maximum Storage Duration
+
+: 30 days 
+
+Type
+
+: HTTP Cookie 
+
+roqad
+
+ Pending 
+
+Maximum Storage Duration
+
+: 30 days 
+
+Type
+
+: HTTP Cookie 
+
+semcasting
+
+ Pending 
+
+Maximum Storage Duration
+
+: 30 days 
+
+Type
+
+: HTTP Cookie
+
+bedrockplatform.bid 1
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+bedrockplatform-usersync
+
+ Pending 
+
+Maximum Storage Duration
+
+: 30 days 
+
+Type
+
+: HTTP Cookie
+
+cdn.ehealthcaresolutions.com 1
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+_rdc#
+
+ Pending 
+
+Maximum Storage Duration
+
+: 1 day 
+
+Type
+
+: HTTP Cookie
+
+cdn.userway.org 2
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+uw-tunings
+
+ Pending 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+uw-tunings-checksum
+
+ Pending 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage
+
+mygaru.com 1
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+iuid
+
+ Pending 
+
+Maximum Storage Duration
+
+: 3 months 
+
+Type
+
+: HTTP Cookie
+
+Cross-domain consent[#BULK_CONSENT_DOMAINS_COUNT#]
+
+https://www.intechopen.com/online-first/1233887
+
+ [#BULK_CONSENT_TITLE#]
+
+List of domains your consent applies to: [#BULK_CONSENT_DOMAINS#]
+
+Cookie declaration last updated on 3/8/26 by 
+
+Cookiebot
+
+https://www.cookiebot.com/
+
+[#IABV2_TITLE#]
+
+[#IABV2_BODY_INTRO#]
+
+[#IABV2_BODY_LEGITIMATE_INTEREST_INTRO#]
+
+[#IABV2_BODY_PREFERENCE_INTRO#]
+
+[#IABV2_LABEL_PURPOSES#]
+
+[#IABV2_BODY_PURPOSES_INTRO#]
+
+[#IABV2_BODY_PURPOSES#]
+
+[#IABV2_LABEL_FEATURES#]
+
+[#IABV2_BODY_FEATURES_INTRO#]
+
+[#IABV2_BODY_FEATURES#]
+
+[#IABV2_LABEL_PARTNERS#]
+
+[#IABV2_BODY_PARTNERS_INTRO#]
+
+[#IABV2_BODY_PARTNERS#]
+
+About
+
+Cookies are small text files that can be used by websites to make a user's experience more efficient.
+
+The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies we need your permission.
+
+This site uses different types of cookies. Some cookies are placed by third party services that appear on our pages.
+
+You can at any time change or withdraw your consent from the Cookie Declaration on our website.
+
+Learn more about who we are, how you can contact us and how we process personal data in our Privacy Policy.
+
+Please state your consent ID and date when you contact us regarding your consent.
+
+ 
+
+[-]
+
+Do not sell or share my personal information
+
+Allow all Customize
+
+Allow selection Deny
+
+Menu
+
+https://www.intechopen.com/online-first/1233887
+
+User
+
+https://auth.intechopen.com/?referer=www&returl=https%3A%2F%2Fwww.intechopen.com%2Fonline-first%2F1233887
+
+Author Panel
+
+https://auth.intechopen.com/?referer=sf&env=https%3A%2F%2Fpublish.intechopen.com
+
+Logout
+
+https://auth.intechopen.com/logout?referer=www&returl=https%3A%2F%2Fwww.intechopen.com%2Fonline-first%2F1233887
+
+Search
+
+https://www.intechopen.com/online-first/1233887
+
+Submit
+
+Close
+
+https://www.intechopen.com/online-first/1233887
+
+Books
+
+https://www.intechopen.com/books
+
+Book Series
+
+https://www.intechopen.com/series
+
+Journals
+
+https://www.intechopen.com/journals
+
+Publish
+
+https://www.intechopen.com/publish
+
+About
+
+https://www.intechopen.com/about-intechopen
+
+News
+
+https://www.intechopen.com/news
+
+Login
+
+https://auth.intechopen.com/?referer=www&returl=https%3A%2F%2Fwww.intechopen.com%2Fonline-first%2F1233887
+
+What is Open Access?
+
+https://www.intechopen.com/how-open-access-publishing-with-intechopen-works
+
+Open Access is an initiative that aims to make scientific research freely available to all. To date our community has made over 100 million downloads. It's based on principles of collaboration, unobstructed discovery, and, most importantly, scientific progression. As PhD students, we found it difficult to access the research we needed, so we decided to create a new Open Access publisher that levels the playing field for scientists across the world. How? By making research easy to access, and puts the academic needs of the researchers before the business interests of publishers.
+
+Authors, Editors and Institutions
+
+https://www.intechopen.com/institutions
+
+We are a community of more than 103,000 authors and editors from 3,291 institutions spanning 160 countries, including Nobel Prize winners and some of the world's most-cited researchers. Publishing on IntechOpen allows authors to earn citations and find new collaborators, meaning more people see your work not only from your own field of study, but from other related fields too.
+
+Content Alerts
+
+https://www.intechopen.com/page/content-alerts
+
+Brief introduction to this section that descibes Open Access especially from an IntechOpen perspective
+
+How it Works
+
+https://www.intechopen.com/how-open-access-publishing-with-intechopen-works
+
+ 
+
+Manage preferences
+
+https://www.intechopen.com/online-first/1233887
+
+Contact
+
+https://www.intechopen.com/page/contact-us
+
+Want to get in touch? Contact our London head office or 
+
+media team here
+
+https://www.intechopen.com/online-first/1233887
+
+Careers
+
+https://www.intechopen.com/page/careers-at-intechopen
+
+Our team is growing all the time, so we're always on the lookout for smart people who want to help us reshape the world of scientific publishing.
+
+Home
+
+https://www.intechopen.com/
+
+ > 
+
+Books
+
+https://www.intechopen.com/books
+
+ > Industry 4.0 - Transforming the Future Beyond Manufacturing - Volume 1, Digital Technologies and Smart Industrial Systems [Working Title]
+
+ 
+
+Open access peer-reviewed chapter - ONLINE FIRST
+
+Federated Learning and its Role in Predictive Maintenance
+
+Written By
+
+Luís M. Barata, Pedro Tiago Salgueiro da Silva and Eurico Lopes
+
+Submitted: 30 August 2025 Reviewed: 15 September 2025 Published: 30 January 2026
+
+DOI: 10.5772/intechopen.1013022
+
+REGISTER TO DOWNLOAD FOR FREE
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Share
+
+ 
+
+Cite
+
+Cite this chapter
+
+There are two ways to cite this chapter:
+
+Choose citation style
+
+Select style
+
+Vancouver
+
+APA
+
+Harvard
+
+IEEE
+
+MLA
+
+Chicago
+
+Copy to clipboard Get citation
+
+Choose citation style
+
+Select format
+
+Bibtex
+
+RIS
+
+Download citation
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+ 
+
+IntechOpen
+
+Industry 4.0 - Transforming the Future Beyond Manufacturing - Vol... Edited by Miguel Delgado-Prieto
+
+From the Edited Volume
+
+Industry 4.0 - Transforming the Future Beyond Manufacturing - Volume 1, Digital Technologies and Smart Industrial Systems [Working Title]
+
+Dr. Miguel Delgado-Prieto and Dr. Luis Romeral Martinez
+
+ 
+
+Chapter metrics overview
+
+31 Chapter Downloads
+
+View Full Metrics
+
+https://www.intechopen.com/online-first/1233887
+
+REGISTER TO DOWNLOAD FOR FREE
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Share
+
+ 
+
+Cite
+
+Cite this chapter
+
+There are two ways to cite this chapter:
+
+Choose citation style
+
+Select style
+
+Vancouver
+
+APA
+
+Harvard
+
+IEEE
+
+MLA
+
+Chicago
+
+Copy to clipboard Get citation
+
+Choose citation style
+
+Select format
+
+Bibtex
+
+RIS
+
+Download citation
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+ 
+
+Impact of this chapter
+
+ 
+
+IntechOpen Downloads
+
+31
+
+Total Chapter Downloads on intechopen.com
+
+Advertisement
+
+https://ehealthcaresolutions.com/contact-us/
+
+Abstract
+
+Predictive maintenance (PdM) has emerged as a cornerstone of Industry 4.0, enabling organizations to anticipate equipment failures, optimize maintenance schedules, and reduce operational costs. The convergence of artificial intelligence (AI), the Industrial Internet of Things (IIoT), and advanced analytics has facilitated the transition from reactive and preventive maintenance to predictive and even prescriptive strategies. Within this context, federated learning (FL) offers a transformative approach to PdM by enabling collaborative model training across distributed and privacy-sensitive data sources without the need to centralize raw data. This chapter explores the integration of FL into PdM systems, highlighting its potential to improve sustainability and resilience in industrial maintenance. The discussion extends beyond technical mechanisms to include enabling technologies such as edge and fog computing, IIoT platforms, and blockchain. Furthermore, it addresses the sociotechnical implications of privacy-preserving AI in industrial environments, focusing on its role in supporting worker expertise and ensuring sustainable practices. Case studies, key challenges, and future research directions are presented to provide a comprehensive view of the field.
+
+Keywords
+
+federated learning
+
+predictive maintenance
+
+Industry 4.0
+
+sustainability
+
+privacy-preserving AI
+
+Author Information
+
+Show +
+
+https://www.intechopen.com/online-first/1233887
+
+Luís M. Barata *
+
+Polytechnic University of Castelo Branco, Castelo Branco, Portugal
+
+Instituto de Telecomunicações, Covilhã, Portugal
+
+Pedro Tiago Salgueiro da Silva
+
+Polytechnic University of Castelo Branco, Castelo Branco, Portugal
+
+Eurico Lopes
+
+Polytechnic University of Castelo Branco, Castelo Branco, Portugal
+
+*Address all correspondence to: luis.barata@ipcb.pt
+
+Chapter sections
+
+1. Introduction
+
+The Fourth Industrial Revolution, or Industry 4.0, marks a fundamental transformation in the way industrial systems are designed, operated, and maintained. Driven by the convergence of Industrial Internet of Things (IIoT), cyber-physical systems, and artificial intelligence (AI), Industry 4.0 promotes the creation of interconnected and intelligent manufacturing environments that can adapt dynamically to changing conditions. In this paradigm, data are generated continuously by machines, sensors, and control systems, enabling advanced analytics to inform operational decisions in near real-time.
+
+Among the many applications of AI in Industry 4.0, predictive maintenance (PdM) stands out as a strategic capability for ensuring asset reliability, reducing downtime, and optimizing resource usage [ 
+
+1
+
+https://www.intechopen.com/online-first/1233887#B1
+
+]. PdM systems analyze patterns in operational data to forecast potential equipment failures before they occur, allowing maintenance to be scheduled proactively rather than reactively. This shift can lead to substantial cost savings, improved safety, and extended equipment lifespans [ 
+
+2
+
+https://www.intechopen.com/online-first/1233887#B2
+
+].
+
+Traditional PdM approaches typically rely on centralized data collection, where information from multiple assets and sites is aggregated in a central repository for model training. While effective in theory, this approach faces practical limitations in industrial contexts. Sensitive operational data may be subject to confidentiality agreements, regulatory constraints, or competitive concerns, making organizations reluctant to share it. Furthermore, the heterogeneity of equipment, operating environments, and data formats can complicate the integration process. Bandwidth and latency constraints in remote or resource-limited environments also pose significant challenges for transmitting large volumes of high-frequency sensor data [ 
+
+3
+
+https://www.intechopen.com/online-first/1233887#B3
+
+].
+
+Federated learning (FL) offers a paradigm shift in how predictive models can be trained in such contexts. Instead of moving raw data to a central location, FL allows multiple entities – factories, industrial sites, or even individual machines – to train models locally and share only the learned parameters or gradients. This preserves data privacy, reduces the need for high-bandwidth connections, and enables the exploitation of diverse datasets without compromising ownership or confidentiality [ 
+
+4
+
+https://www.intechopen.com/online-first/1233887#B4
+
+].
+
+Beyond these technical benefits, FL aligns well with broader goals of sustainability and human-centered digitalization. By optimizing maintenance interventions, FL-based PdM can minimize unnecessary component replacements, reduce material waste, and lower energy consumption. Additionally, by ensuring that AI-driven recommendations remain transparent and interpretable, FL can support maintenance personnel in combining operational expertise with algorithmic outputs.
+
+Advertisement
+
+https://ehealthcaresolutions.com/contact-us/
+
+Do The Meds You Take To Curb Cholesterol Lower Your Heart Disease Risk?
+
+A surprising answer from a new study.
+
+More Videos
+
+0 seconds of 58 seconds Volume 0%
+
+Press shift question mark to access a list of keyboard shortcuts
+
+Keyboard Shortcuts Enabled Disabled
+
+Shortcuts Open/Close/ or ?
+
+Play/Pause SPACE
+
+Increase Volume ↑
+
+Decrease Volume ↓
+
+Seek Forward →
+
+Seek Backward ←
+
+Captions On/Off c
+
+Fullscreen/Exit Fullscreen f
+
+Mute/Unmute m
+
+Decrease Caption Size-
+
+Increase Caption Size+ or =
+
+Seek % 0-9
+
+Next Up
+
+Are Your Sitting Habits Increasing Your Risk Of Diabetes and Heart Disease?
+
+01:22
+
+Live
+
+00:00
+
+00:58
+
+00:58
+
+More Videos
+
+Close
+
+2. Predictive maintenance in Industry 4.0
+
+Predictive maintenance represents a data-driven evolution of traditional maintenance practices, shifting the focus from responding to failures after they occur or following fixed preventive schedules to anticipating potential issues before they manifest. This predictive capability is enabled by continuous monitoring of equipment through sensors and control systems, coupled with advanced analytics techniques that detect patterns indicative of wear, degradation, or abnormal behavior [ 
+
+5
+
+https://www.intechopen.com/online-first/1233887#B5
+
+].
+
+In industrial environments, PdM offers significant operational advantages. By identifying early signs of failure, it reduces unplanned downtime, which can be extremely costly in high-throughput manufacturing or critical infrastructure [ 
+
+6
+
+https://www.intechopen.com/online-first/1233887#B6
+
+]. Optimized maintenance schedules also reduce labor costs and spare parts usage, leading to a more efficient allocation of resources. Furthermore, improved equipment reliability enhances worker safety, as failures are prevented before they can cause hazardous situations. The sustainability dimension is equally important: Fewer unnecessary replacements translate into reduced waste, lower raw material consumption, and decreased environmental impact [ 
+
+7
+
+https://www.intechopen.com/online-first/1233887#B7
+
+].
+
+PdM systems draw on a variety of data sources. Vibration analysis, acoustic monitoring, thermal imaging, and oil analysis are among the most common condition-monitoring techniques. IIoT-enabled devices provide real-time telemetry from distributed assets, while enterprise resource planning (ERP) systems and maintenance management software supply historical data on repairs and operational performance. Integrating these diverse datasets, however, is not without challenges. Variations in data formats, sampling rates, and sensor accuracy can complicate analysis. Moreover, the availability of labeled failure data is often limited, as failures may be rare events in well-maintained systems. Finally, concerns about the security and privacy of operational data – especially in multiorganization collaborations – can restrict the scope of data sharing, potentially limiting model accuracy [ 
+
+6
+
+https://www.intechopen.com/online-first/1233887#B6
+
+, 
+
+7
+
+https://www.intechopen.com/online-first/1233887#B7
+
+].
+
+Advertisement
+
+https://ehealthcaresolutions.com/contact-us/
+
+3. Federated learning fundamentals
+
+Federated learning is a decentralized machine learning paradigm designed to enable collaborative model training without the need to share raw data [ 
+
+4
+
+https://www.intechopen.com/online-first/1233887#B4
+
+]. In its most common form, FL involves a set of participating clients – such as industrial sites, edge devices, or even individual machines – that each hold their own local datasets. Instead of transmitting this data to a central server, each client trains a local model and sends only the resulting updates (parameters or gradients) to a coordinating server, often referred to as the aggregator.
+
+The aggregator then combines these updates, typically using algorithms such as federated averaging (FedAvg), to produce a new global model that incorporates knowledge from all participating clients. This updated global model is then redistributed to the clients, and the process repeats until the model converges or a specified performance threshold is achieved.
+
+The architecture of FL can take different forms depending on the application and infrastructure. In a centralized FL setting, a single aggregator coordinates all communication between clients. In a decentralized or peer-to-peer approach, clients share updates directly with each other, which can enhance robustness but requires more complex coordination. Hierarchical FL architectures, in which local aggregators collect updates from nearby clients before forwarding them to a central server, can further reduce communication costs and improve scalability.
+
+For industrial applications, FL offers several practical advantages. Privacy is preserved because raw data never leave the local site, addressing both regulatory compliance and competitive concerns. Communication efficiency is improved because only model updates, which are typically much smaller than raw datasets, are transmitted. Moreover, FL can leverage the diversity of data from multiple sites to improve the generalization capability of predictive models, making them more robust to varying operating conditions.
+
+Nevertheless, FL also presents challenges that must be addressed for effective deployment. Statistical heterogeneity – where the data distributions across clients differ significantly – can slow convergence and reduce model accuracy. Communication overhead, while lower than raw data transfer, can still be significant in environments with limited bandwidth. Finally, FL is not immune to security risks; malicious clients can attempt to poison models, and adversaries may infer information about local datasets from shared updates. Ongoing research in secure aggregation, differential privacy, and blockchain-based model provenance aims to address these issues [ 
+
+8
+
+https://www.intechopen.com/online-first/1233887#B8
+
+– 
+
+10
+
+https://www.intechopen.com/online-first/1233887#B10
+
+].
+
+Centralized vs. federated learning in PdM
+
+Table 1
+
+https://www.intechopen.com/online-first/1233887#Chapter-0431318_001
+
+ summarizes the key differences between conventional centralized learning and FL in the context of PdM. This comparison highlights FL's advantages in privacy preservation, scalability, and leveraging diverse datasets, while acknowledging the specific security risks and implementation challenges it introduces.
+
+Aspect
+
+Centralized learning
+
+Federated learning
+
+Data management
+
+Requires raw data transfer to a central server.
+
+Data remain local; only model parameters are shared.
+
+Privacy
+
+Higher risk of data leakage.
+
+Enhanced privacy preservation; supports General Data Protection Regulation (GDPR) compliance.
+
+Bandwidth usage
+
+High with large sensor datasets.
+
+Lower, as only model updates are sent.
+
+Model generalization
+
+Limited if central data lack diversity.
+
+Leverages diverse datasets from multiple sites.
+
+Scalability
+
+Restricted by central server capacity.
+
+Naturally scalable through distributed computation.
+
+Security risks
+
+Vulnerable to central data breaches.
+
+Susceptible to poisoning and inference attacks.
+
+Table 1.
+
+Comparison of centralized and FL in PdM.
+
+Advertisement
+
+https://ehealthcaresolutions.com/contact-us/
+
+4. Integrating FL into PdM workflows
+
+The convergence of FL with PdM workflows is reshaping how industries manage the health and performance of their assets. Traditionally, PdM systems begin by collecting sensor data from machines, such as vibration, temperature, or pressure, through IIoT devices. These data are often processed locally, either on embedded controllers or edge computing nodes, where basic steps such as filtering and feature extraction are performed [ 
+
+11
+
+https://www.intechopen.com/online-first/1233887#B11
+
+].
+
+In centralized architectures, these features are typically sent to the cloud for model training. However, FL offers a decentralized alternative. Each device or facility trains its own local model using private data, such as usage logs, maintenance history, and sensor signals, without exposing sensitive information. After several rounds of local training, only the model parameters – not the raw data – are shared with a central server. The server aggregates them to update a global model, which is then redistributed for further local refinement. This enables iterative model updates while ensuring data remain private at each site [ 
+
+12
+
+https://www.intechopen.com/online-first/1233887#B12
+
+].
+
+This setup is especially effective in cases where different companies or factories want to collaborate without sharing proprietary data. For example, several manufacturing plants using similar equipment can jointly develop predictive models while keeping internal data secure. FL enables this by sharing only model updates, which, under appropriate safeguards, cannot be reverse-engineered to reveal private information [ 
+
+13
+
+https://www.intechopen.com/online-first/1233887#B13
+
+]. 
+
+Figure 1
+
+https://www.intechopen.com/online-first/1233887#F1
+
+ illustrates the federated learning cycle in the context of decentralized model training, contrasting it with the traditional centralized data training approach.
+
+ 
+
+Figure 1.
+
+Decentralized model training using FL. In this approach, local models are trained on private data and only the model parameters are shared. A central server aggregates these updates and redistributes the global model for refinement, enabling collaborative learning while preserving data privacy.
+
+Beyond the generic FL cycle as shown in 
+
+Figure 1
+
+https://www.intechopen.com/online-first/1233887#F1
+
+, 
+
+Figure 2
+
+https://www.intechopen.com/online-first/1233887#F2
+
+ illustrates how this paradigm can be embedded into PdM workflows, from sensor data acquisition to global model aggregation and maintenance decision support.
+
+ 
+
+Figure 2.
+
+Illustrative workflow of FL-enabled PdM. Sensor data (vibration, temperature, logs) are processed locally to train PdM models. Model parameters are aggregated centrally to form a global model, which is redistributed to all sites. This global model supports proactive maintenance scheduling while preserving data privacy.
+
+Even so, adopting FL in PdM is not simply a matter of swapping centralized training for decentralized learning. Industrial data can vary significantly across sites due to differences in machine models, operating environments, and maintenance practices. This heterogeneity must be addressed through thoughtful model design, specialized aggregation algorithms, and personalization techniques. In many scenarios, it is useful to personalize part of the global model for each client, allowing shared knowledge while accounting for local variation in equipment behavior [ 
+
+14
+
+https://www.intechopen.com/online-first/1233887#B14
+
+, 
+
+15
+
+https://www.intechopen.com/online-first/1233887#B15
+
+].
+
+Table 2
+
+https://www.intechopen.com/online-first/1233887#Chapter-0431318_002
+
+ summarizes the main differences between traditional centralized PdM approaches and FL-based PdM, highlighting how FL addresses key challenges related to privacy, scalability, and sustainability.
+
+Aspect
+
+Traditional PdM (centralized ML)
+
+FL-based PdM
+
+Data privacy
+
+Requires data centralization; risk of leakage or misuse.
+
+Data remain local; only model parameters are shared.
+
+Scalability
+
+Limited by central infrastructure capacity.
+
+Naturally scalable across distributed sites.
+
+Sustainability
+
+High communication and energy costs for data transfer.
+
+Lower communication overhead; reduced energy use.
+
+Accuracy
+
+May suffer if central data lack diversity.
+
+Leverages heterogeneous datasets for better generalization.
+
+Adoption barriers
+
+IP and data-sharing concerns.
+
+Improved collaboration without exposing sensitive data.
+
+Table 2.
+
+Comparison of traditional centralized PdM and FL-based approaches.
+
+Advertisement
+
+https://ehealthcaresolutions.com/contact-us/
+
+5. Enabling technologies
+
+The successful deployment of FL-based PdM systems relies on a robust ecosystem of enabling technologies that support local computation, secure communication, and scalable collaboration across distributed industrial settings. These technologies work in concert to ensure that FL can be practically and securely applied in real-world industrial environments.
+
+5.1 Edge and fog computing
+
+Edge computing plays a central role by bringing processing capabilities closer to the data source. In the context of PdM, this allows for real-time analysis of sensor signals – such as vibration, thermal, or current measurements – directly on or near the machine. This proximity reduces both communication latency and bandwidth consumption while enabling timely fault detection and response [ 
+
+16
+
+https://www.intechopen.com/online-first/1233887#B16
+
+]. Fog computing extends this approach by creating an intermediate processing layer between edge devices and the cloud. Fog nodes can locally aggregate model updates in an FL setting, filter noisy inputs, or pretrain partial models before uploading to a central server, thereby improving scalability and reducing communication bottlenecks.
+
+5.2 Industrial IoT platforms
+
+Industrial IoT platforms provide the infrastructure required for device integration, data acquisition, and secure communication in distributed industrial ecosystems. Protocols such as MQTT and standards such as OPC UA ensure interoperability across heterogeneous assets. In an FL-enabled PdM workflow, IIoT platforms manage not only the real-time flow of operational data but also the orchestration of local training and the secure transmission of model parameters to aggregation points. These platforms are critical to ensuring that devices with diverse manufacturers and capabilities can participate uniformly in federated training cycles.
+
+5.3 Blockchain and secure aggregation
+
+As FL involves multiple parties contributing to a shared model, establishing trust becomes essential. Blockchain offers a decentralized ledger for tracking model updates, ensuring that training contributions are recorded immutably and transparently. This is particularly beneficial in collaborative PdM scenarios across supply chains or consortia, where auditability and traceability of model evolution are critical. When combined with secure aggregation techniques, such as homomorphic encryption or differential privacy, blockchain also protects model integrity while safeguarding sensitive operational data from exposure or manipulation [ 
+
+16
+
+https://www.intechopen.com/online-first/1233887#B16
+
+].
+
+5.4 Digital twins
+
+Digital twins are digital replicas of physical assets or systems that can mirror real-time behavior through sensor data streams. When integrated with FL-trained PdM models, digital twins provide a powerful tool for scenario simulation, proactive diagnostics, and maintenance optimization. For instance, FL models can be validated virtually on a digital twin before deployment, reducing risk and accelerating rollout. Digital twins can also generate synthetic scenarios that improve FL model personalization, while model updates enhance the fidelity of the twin.
+
+5.5 Hybrid FL and label synchronization
+
+An emerging line of research also highlights the importance of hybrid FL approaches and techniques such as label synchronization. While classical FL assumes independent and identically distributed (IID) data across clients, industrial environments often present highly heterogeneous (non-IID) datasets due to differences in equipment, operating conditions, and data labeling practices. Hybrid FL schemes combine global model aggregation with localized personalization, while label synchronization ensures consistency in data representation across sites. These advances are particularly relevant in smart manufacturing contexts, where federated models must generalize across diverse production lines while preserving privacy [ 
+
+17
+
+https://www.intechopen.com/online-first/1233887#B17
+
+].
+
+Table 3
+
+https://www.intechopen.com/online-first/1233887#Chapter-0431318_003
+
+ provides an overview of these enabling technologies, summarizing their roles and benefits in FL-based PdM applications.
+
+Technology
+
+Role in FL-based PdM
+
+Key benefits
+
+Edge computing
+
+Local training and feature extraction.
+
+Reduced latency and bandwidth use.
+
+Fog computing
+
+Intermediate aggregation layer.
+
+Improved scalability; load balancing.
+
+Blockchain
+
+Immutable tracking of model updates.
+
+Trust and auditability in multiparty settings.
+
+Digital twins
+
+Virtual asset simulation.
+
+Safer model validation and testing.
+
+IIoT platforms
+
+Device integration and secure communication.
+
+Standardized interoperability across assets.
+
+Hybrid FL and label synchronization
+
+Personalization of global models; alignment of heterogeneous datasets.
+
+Better handling of non-IID data; improved model generalization in manufacturing.
+
+Table 3.
+
+Enabling technologies supporting FL in PdM.
+
+To guide practical adoption, 
+
+Table 4
+
+https://www.intechopen.com/online-first/1233887#Chapter-0431318_004
+
+ presents a concise deployment checklist, mapping key enablers of FL-based PdM to their implementation steps, common pitfalls, and indicative performance metrics.
+
+Enabler
+
+Implementation steps
+
+Common pitfalls
+
+Indicative KPIs
+
+Edge/fog nodes
+
+Local preprocessing; on-device training; latency-aware batching.
+
+Limited compute; thermal throttling.
+
+Inference latency (ms); response time.
+
+IIoT platform
+
+Device onboarding; secure MQTT or OPC UA; topic/schema management.
+
+Interoperability issues; flaky connectivity.
+
+Uptime (%); data throughput.
+
+Secure aggregation
+
+Configure differential privacy or encryption; key rotation; audit update traces.
+
+Compute/comm overhead; key management.
+
+Model accuracy; false-positive rate (%).
+
+Digital twins
+
+Bind real-time streams; validate the model on the twin before rollout; what-if simulations.
+
+Drift between twin and asset.
+
+Downtime reduction; energy saved (kWh).
+
+Table 4.
+
+Deployment checklist for FL-based PdM.
+
+Advertisement
+
+https://ehealthcaresolutions.com/contact-us/
+
+6. Sustainability and human-centered perspectives
+
+While the technical merits of FL in PdM are evident, its broader contributions to sustainability and human-centered design are equally significant. By enabling more accurate maintenance scheduling, FL allows organizations to replace components only when necessary. This leads to reduced material waste, lower energy consumption, and a smaller carbon footprint. In sectors such as aerospace, even marginal improvements in predicting component life can result in substantial resource savings and emission reductions [ 
+
+18
+
+https://www.intechopen.com/online-first/1233887#B18
+
+].
+
+The decentralized nature of FL also supports environmental goals by distributing computational workloads across existing local infrastructure. This reduces reliance on energy-intensive centralized data centers. When paired with energy-aware model training techniques, FL becomes a component of more sustainable AI practices [ 
+
+19
+
+https://www.intechopen.com/online-first/1233887#B19
+
+].
+
+From a human-centered perspective, FL-based PdM systems are designed to support and enhance the expertise of maintenance personnel – not replace them. By delivering interpretable and context-aware predictions, FL-based systems empower technicians to combine algorithmic insights with experiential knowledge [ 
+
+7
+
+https://www.intechopen.com/online-first/1233887#B7
+
+].
+
+Interpretability vignette:
+
+ Consider a technician receiving an FL-based alert: “High probability of gearbox anomaly (87%). Contributing features: vibration amplitude (+0.32), temperature rise (+0.28). Recommended action: inspect lubrication system.” Such explanations support maintenance personnel by bridging AI outputs with human expertise, increasing trust and effective decision-making.
+
+Moreover, FL's privacy-preserving architecture ensures that sensitive operational data remain within the organization, addressing concerns over surveillance, data misuse, or loss of control in collaborative environments. Sociotechnical challenges also emerge as workers interact with increasingly intelligent systems. These include the need for new skillsets, retraining, and mechanisms to interpret predictive outputs. As a result, successful deployment of FL in PdM requires structured training programs and transparent communication about how models are developed, updated, and validated. Transparency about model development and validation reduces concerns about automation and emphasizes AI as a support tool [ 
+
+20
+
+https://www.intechopen.com/online-first/1233887#B20
+
+].
+
+Advertisement
+
+https://ehealthcaresolutions.com/contact-us/
+
+7. Case studies and applications
+
+The application of FL in PdM is still emerging, but a growing number of initiatives across industries highlight its practicality and advantages. These real-world deployments illustrate both the technical feasibility and strategic value of FL in PdM. They span sectors with diverse operational and regulatory constraints, showing that collaborative learning can be achieved without compromising data privacy or performance. A summary of these representative case studies is presented in 
+
+Table 5
+
+https://www.intechopen.com/online-first/1233887#Chapter-0431318_005
+
+, which outlines the specific applications, sectors involved, and key outcomes achieved in each deployment.
+
+Sector
+
+Application
+
+Key outcomes
+
+Wind energy
+
+Decentralized FL over Supervisory Control and Data Acquisition (SCADA) data for turbine monitoring [ 
+
+21
+
+https://www.intechopen.com/online-first/1233887#B21
+
+].
+
+Improved gearbox/rotor fault detection; preserved SCADA data privacy; reduced communication overhead.
+
+Wind energy
+
+FedWindT: transformer-based FL for wind forecasting and PdM [ 
+
+22
+
+https://www.intechopen.com/online-first/1233887#B22
+
+].
+
+Higher predictive accuracy across diverse sites and conditions; robust collaborative training.
+
+Railway infrastructure
+
+FL for railway point-machine fault diagnosis [ 
+
+23
+
+https://www.intechopen.com/online-first/1233887#B23
+
+].
+
+Better failure prediction; resilient to class imbalance and imperfect data transmission; privacy-preserving across regions.
+
+Smart manufacturing
+
+Hybrid FL with label synchronization for PdM [ 
+
+17
+
+https://www.intechopen.com/online-first/1233887#B17
+
+].
+
+Improved handling of non-IID data; validated on Bosch factory inspection and aircraft Remaining Useful Life (RUL) prediction; comparable accuracy to centralized training.
+
+Power grids
+
+Distributed/FL models for MV cable condition monitoring [ 
+
+24
+
+https://www.intechopen.com/online-first/1233887#B24
+
+].
+
+Improved reliability of partial-discharge/insulation-fault prediction; compliance with regional data laws; supports sustainable maintenance.
+
+Offshore wind (energy)
+
+FL-enabled condition monitoring and PdM for turbines [ 
+
+25
+
+https://www.intechopen.com/online-first/1233887#B25
+
+].
+
+Earlier failure detection across dispersed assets; auditability (with blockchain integration); protected operational data.
+
+Maritime shipping
+
+FL-enabled PdM across shipping fleets [ 
+
+26
+
+https://www.intechopen.com/online-first/1233887#B26
+
+].
+
+Cross-organization collaboration; compliance with multijurisdiction data rules; protected vessel operational data.
+
+Table 5.
+
+Representative case studies of FL in PdM.
+
+7.1 Wind energy sector
+
+Wind turbines are often spread across large areas, generating data in heterogeneous environmental conditions. A real-world deployment by Li et al. [ 
+
+21
+
+https://www.intechopen.com/online-first/1233887#B21
+
+] introduced a FL-based SCADA data model to monitor wind turbines without sharing raw data. Their decentralized framework enabled operators across geographically dispersed farms to collaboratively improve fault detection accuracy for gearbox and rotor anomalies. The model preserved SCADA data privacy and reduced communication overhead. Similarly, Arooj et al. [ 
+
+22
+
+https://www.intechopen.com/online-first/1233887#B22
+
+] proposed FedWindT, a transformer-based FL model that significantly enhanced predictive accuracy across diverse wind conditions and topographies, illustrating the robustness of collaborative FL in wind power forecasting and maintenance planning.
+
+7.2 Railway infrastructure
+
+Railway infrastructure requires continuous monitoring to preempt failures in signaling systems, track integrity, and rolling stock. A study by Zhang et al. [ 
+
+23
+
+https://www.intechopen.com/online-first/1233887#B23
+
+] developed a FL system for railway point machines, enabling fault diagnosis without requiring central data consolidation. This asynchronous FL system addressed class imbalance and imperfect data transmission across railway nodes. It allowed regional operators to build models using vibration and event-log data locally, improving system uptime and reducing unplanned repairs. The result was a more secure, privacy-preserving diagnostic system suitable for cross-border railway operators.
+
+7.3 Smart manufacturing
+
+In manufacturing, PdM plays a central role in reducing downtime and ensuring high production quality. Rosero et al. (2024) [ 
+
+17
+
+https://www.intechopen.com/online-first/1233887#B17
+
+] proposed a hybrid federated learning framework with label synchronization to address the challenge of non-IID data across distributed manufacturing sites. The approach was validated in real-world scenarios, including automated product inspection in Bosch factories and RUL prediction for aircraft components. Results showed that the proposed hybrid FL method achieved performance comparable to centralized models while preserving data privacy and reducing the need for raw data sharing. By improving model generalization in heterogeneous environments, this work demonstrates how FL can enhance PdM in smart manufacturing ecosystems.
+
+7.4 Energy sector and power grids
+
+FL has proven valuable in monitoring high-voltage transformers, circuit breakers, and substations. In one initiative detailed by Sundsgaard (2025) [ 
+
+24
+
+https://www.intechopen.com/online-first/1233887#B24
+
+], medium-voltage cable networks were analyzed using distributed machine learning frameworks, including FL, to detect partial discharges and insulation faults. By combining data from multiple utilities operating under different grid conditions, the federated models achieved higher reliability in fault prediction while meeting regional data protection requirements.
+
+Hassan (2025) [ 
+
+25
+
+https://www.intechopen.com/online-first/1233887#B25
+
+] applied FL to the monitoring of offshore wind farms, focusing on condition monitoring and PdM of turbines. The approach improved the detection of failures in critical components such as gearboxes and blades while ensuring data remained locally stored at each wind farm. To strengthen trust between operators, blockchain was used to guarantee the integrity of model updates, providing traceability and auditability in collaborative learning.
+
+7.5 Maritime industry
+
+Although outside traditional land-based industries, the maritime sector also showcases FL adoption. Kalafatelis et al. [ 
+
+26
+
+https://www.intechopen.com/online-first/1233887#B26
+
+] surveyed FL-enabled predictive models in shipping fleets to anticipate failures in propulsion and auxiliary systems. The distributed learning scheme protected sensitive operational data from vessels registered under different jurisdictions, demonstrating the feasibility of FL across maritime fleets under different jurisdictions.
+
+These cases illustrate that FL can be applied across sectors such as wind energy, railways, manufacturing, and shipping, while addressing privacy and data-sharing constraints.
+
+Table 6
+
+https://www.intechopen.com/online-first/1233887#Chapter-0431318_006
+
+ synthesizes the practical insights from the reviewed case studies, highlighting both the benefits and constraints of applying FL in PdM. Across sectors, the evidence confirms that FL consistently improves prediction accuracy, reduces downtime, and enables collaboration without compromising sensitive data. At the same time, the table makes clear that sector-specific challenges remain: Wind energy deployments must contend with heterogeneous SCADA data, railway and manufacturing systems require strategies to handle class imbalance and non-IID datasets, while grid and maritime contexts face strict regulatory and multijurisdictional constraints. These observations reinforce that, while FL is a powerful enabler of privacy-preserving PdM, its adoption must be tailored to the operational realities of each industry. These findings also motivate the discussion in 
+
+Section 8
+
+https://www.intechopen.com/online-first/1233887#s018
+
+, where the operational limits and open issues of FL-based PdM are addressed in greater detail.
+
+Sector
+
+Benefit
+
+Constraint
+
+Wind energy
+
++ 15% accuracy; − 20% communication load.
+
+Heterogeneous SCADA data.
+
+Railway infrastructure
+
+Reduced unplanned repairs; privacy-preserving.
+
+Class imbalance; imperfect transmission.
+
+Smart manufacturing
+
+Accuracy comparable to centralized.
+
+Requires handling of non-IID data.
+
+Power grids
+
+Improved insulation fault prediction.
+
+Regional compliance limits data exchange.
+
+Maritime
+
+Cross-fleet PdM with data protection.
+
+Multijurisdictional data rules.
+
+Table 6.
+
+Key takeaways from FL-based PdM case studies.
+
+Advertisement
+
+https://ehealthcaresolutions.com/contact-us/
+
+8. Benefits, challenges, and open issues
+
+FL provides multiple benefits for PdM applications. By enabling collaborative model training without sharing raw data, it preserves privacy, fosters interorganizational cooperation, and reduces communication overhead compared to traditional centralized approaches. The ability to leverage diverse datasets enhances model robustness and prediction reliability across heterogeneous environments. Additionally, FL inherently supports sustainability by optimizing maintenance interventions, which reduce unnecessary component replacements and minimize environmental impact.
+
+Figure 3
+
+https://www.intechopen.com/online-first/1233887#F3
+
+ summarizes the main benefits and challenges of applying FL to PdM, providing a visual complement to the discussion in this section.
+
+ 
+
+Figure 3.
+
+Benefits and challenges of FL in PdM. The left column highlights privacy, scalability, robustness, reduced communication, and sustainability. The right column lists key challenges: data heterogeneity, communication cost, security risks, governance/trust, and regulatory compliance.
+
+Nevertheless, significant challenges remain. Statistical heterogeneity in client data can hinder convergence and degrade model accuracy, requiring the development of adaptive aggregation algorithms and personalization strategies. Communication overhead, although lower than raw data transfer, can still be substantial in bandwidth-constrained environments, especially for large models. Security threats, including model poisoning and inference attacks, remain active areas of concern, necessitating the integration of secure aggregation protocols, differential privacy techniques, and robust anomaly detection for updates. Operational deployment must also address model drift and client drop-out. Standard mitigation strategies include periodic retraining of the global model and the use of robust aggregation methods to ensure model stability despite fluctuating client participation.
+
+From an organizational perspective, the successful adoption of FL in PdM requires trust among participants, clear governance frameworks for model ownership, and well-defined procedures for handling disputes or inconsistencies in contributions. Additionally, regulatory compliance – particularly with respect to data protection laws such as the GDPR – must be carefully managed, even if raw data are never exchanged.
+
+In multiparty FL consortia, the global model is typically coowned under agreed service-level terms, while client contributions may be weighted according to data volume or quality. Audit logs ensure accountability, and disputes are usually managed contractually, aligning with GDPR and sector-specific governance practices.
+
+Open research issues include the standardization of FL protocols for industrial applications, the development of lightweight models suitable for deployment on resource-constrained edge devices, and the integration of explainability mechanisms that can provide maintenance personnel with transparent and actionable insights.
+
+Advertisement
+
+https://ehealthcaresolutions.com/contact-us/
+
+9. Future directions
+
+The integration of FL into PdM will advance with progress in AI, edge computing, and industrial networking. One promising direction is the combination of FL with TinyML, enabling the deployment of ultra-lightweight predictive models directly on microcontrollers embedded in machinery. This approach could bring predictive capabilities to even the most resource-constrained assets, further decentralizing intelligence in industrial systems.
+
+Another important direction is the development of hybrid FL schemes that combine global model aggregation with site-specific personalization. Such approaches allow predictive models to adapt to local operating conditions while still benefiting from collaborative knowledge sharing. Recent work has also highlighted the use of label synchronization to address the challenge of non-IID data in industrial environments, ensuring that heterogeneous datasets remain compatible during training and improving model generalization without requiring centralized data consolidation [ 
+
+17
+
+https://www.intechopen.com/online-first/1233887#B17
+
+]. These techniques are particularly relevant in manufacturing ecosystems, where variations in equipment and production lines often lead to significant data heterogeneity.
+
+Security will remain a priority, with increasing emphasis on quantum-safe cryptographic techniques to protect FL communications against future quantum computing threats. Moreover, the integration of FL with self-healing networks and autonomous maintenance systems may enable more automated and adaptive PdM solutions.
+
+The role of FL in supporting sustainability will also expand. By incorporating environmental impact metrics into predictive models, maintenance decisions can be optimized not only for cost and reliability but also for ecological footprint, enabling strategies that balance operational efficiency with environmental goals.
+
+Advertisement
+
+https://ehealthcaresolutions.com/contact-us/
+
+10. Conclusion
+
+Federated learning represents a paradigm shift in how PdM models are developed and deployed in Industry 4.0. By enabling collaborative training across distributed datasets while preserving privacy, FL addresses key limitations of traditional centralized approaches. Its use in PdM improves prediction accuracy, supports optimized maintenance scheduling, and contributes to sustainability by reducing waste and energy consumption.
+
+The success of FL, however, depends on more than technical advances. Organizational trust, regulatory compliance, workforce training, and human-centered design will be essential for widespread adoption and long-term effectiveness. As industrial systems evolve toward greater autonomy and interconnectivity, FL is poised to become a cornerstone of PdM, helping industries shift from reactive repairs to proactive, data-driven maintenance strategies.
+
+Conflict of interest
+
+The authors declare no conflict of interest.
+
+Abbreviations
+
+AI
+
+Artificial Intelligence
+
+DT
+
+Digital Twin
+
+ERP
+
+Enterprise Resource Planning
+
+FedAvg
+
+Federated Averaging
+
+FL
+
+Federated Learning
+
+GDPR
+
+General Data Protection Regulation
+
+IIoT
+
+Industrial Internet of Things
+
+IoT
+
+Internet of Things
+
+ML
+
+Machine Learning
+
+PdM
+
+Predictive Maintenance
+
+RUL
+
+Remaining Useful Life
+
+SCADA
+
+Supervisory Control and Data Acquisition
+
+References
+
+Jardine A , Lin D , Banjevic D . A review on machinery diagnostics and prognostics implementing condition-based maintenance . Mechanical Systems and Signal Processing. 2006 ; 20 ( 7 ): 1483 – 1510
+
+Barata L , Sequeira S , Lopes E . Predictive maintenance based on log analysis: A systematic review . Revista de Informática Teórica E Aplicada. 2024 ; 31 ( 1 ): 60 – 67 . https://seer.ufrgs.br/index.php/rita/article/view/130465
+
+Bemani A , Björsell N . Aggregation strategy on federated machine learning algorithm for collaborative predictive maintenance . Sensors. 2022 ; 22 ( 16 ): 6252
+
+McMahan HB , Moore E , Ramage D , Hampson S , Arcas. B.A . Communication-efficient learning of deep networks from decentralized data . Artificial Intelligence and Statistics. 2017 ; 54 : 1273 – 1282
+
+Kothamasu R , Huang S , VerDuin W . System health monitoring and prognostics – A review of current paradigms and practices . The International Journal of Advanced Manufacturing Technology. 2006 ; 28 ( 9–10 ): 1012 – 1024
+
+Lee J , Bagheri B , Jin H-A . Cyber physical systems for predictive maintenance . CIRP Annals - Manufacturing Technology. 2016 ; 65 ( 1 ): 713 – 736
+
+Carvalho TP , Soares FA , Vita R , D. P. Basto R , Francisco SG , Souza JPB , Machado NG . A systematic literature review of machine learning methods applied to predictive maintenance . Computers & Industrial Engineering. 2019 ; 137 : 106024
+
+Li T , Sahu AK , Talwalkar A , Smith V . Federated learning: Challenges, methods, and future directions . IEEE Signal Processing Magazine. 2020 ; 37 ( 3 ): 50 – 60
+
+Bonawitz K , Ivanov V , Kreuter B , and et al. , “ Practical secure aggregation for privacy-preserving machine learning ,” in Proceedings of the ACM SIGSAC Conference on Computer and Communications Security (CCS) , 2017 , pp. 1175 – 1191 .
+
+Kang J , Xiong Z , Niyato D , Ye D , Zhang J . Incentive mechanism for reliable federated learning: A joint optimization approach to combining reputation and contract theory . IEEE Internet of Things Journal. 2019 ; 6 ( 6 ): 10700 – 10714
+
+Peter H , “ Predictive maintenance in industrial IOT using ml and edge-cloud architecture ,” ResearchGate, 2024 . [Online]. Available: https://www.researchgate.net/publication/392100113
+
+Kaissis G , Makowski MR , Rückert D , Braren RF . End-to-end privacy preserving deep learning on multi-institutional medical imaging . Nature Machine Intelligence. 2021 ; 3 ( 6 ): 473 – 484
+
+Farahani B , Monsefi AK . Smart and collaborative industrial IOT: A federated learning and data space approach . Digital Communications and Networks. 2023 ; 9 ( 1 ): 23 – 41
+
+Angelopoulos A , Giannopoulos A , and Nomikos N , “ Federated learning-aided prognostics in the shipping 4.0: Principles, workflow, and use cases .” In: IEEE International Conference on Industrial Informatics (INDIN) . 2024 . [Online]. Available: https://ieeexplore.ieee.org/document/10382497 [ Accessed: 2025 - August - 30 ]
+
+Rieke N , Hancox J , Li W , Milletarì F , Roth HR , Albarqouni S , Bakas S , Galtier MN , Landman BA , Maier-Hein K , Ourselin S , Sheller MJ , Summers RM , Trask A , Xu D , Baust M , Cardoso MJ . The future of digital health with federated learning . NPJ Digital Medicine. 2020 ; 3 ( 1 ): 119
+
+Kamdjou HM , Ouchani S . “ A secure architecture for digital twins in resource-constrained industrial systems .” Computing in Science & Engineering, 2025 . [Online]. Available: https://ieeexplore.ieee.org/abstract/document/10937969/ [ Accessed: 2025 - August - 30 ]
+
+Rosero RL , Silva C , Ribeiro B , Santos BF . Label synchronization for hybrid federated learning in manufacturing and predictive maintenance . Journal of Intelligent Manufacturing. 2024 ; 35 : 4015 – 4034
+
+Zhang W , Yang D , Wang H , Wang Q . Deep learning-based prognostics and health management: A survey . IEEE Transactions on Industrial Informatics. 2019 ; 15 ( 5 ): 2724 – 2735
+
+Lee J , Wu F , Zhao W , Ghaffari M , Liao L , Siegel D . Prognostics and health management design for rotary machinery systems––reviews, methodology and applications . Mechanical Systems and Signal Processing. 2014 ; 42 ( 1-2 ): 314 – 334
+
+Hagemann S , Rass S , Schauer S . A systematic review of game theory applications in computer networks . Computers & Electrical Engineering. 2020 ; 86 : 106741
+
+Li G , Wu Y , Yesha Y , “ Decentralized condition monitoring for distributed wind systems: A federated learning-based approach to enhance SCADA data privacy ,” vol. ASME 2024 18th International Conference on Energy Sustainability , 2024 . p. V001T01A010 . DOI: 10.1115/ES2024-131342
+
+Arooj Q . FedWindT: Federated learning assisted transformer architecture for collaborative and secure wind power forecasting in diverse conditions . Energy. 2024 ; 309 : 133072 . [Online]. Available: https://www.sciencedirect.com/science/article/pii/S0360544224028470 [ Accessed: 2025 - August - 30 ]
+
+Wen T , Chen X , Zhang D , Roberts C , Cai B . A sequential and asynchronous federated learning framework for railway point machine fault diagnosis with imperfect data transmission . IEEE Transactions on Industrial Informatics. 2024 ; 20 ( 6 ): 8828 – 8837
+
+Sundsgaard K . Predictive Maintenance of Medium Voltage Cable Networks Using Machine Learning. Ph.D. dissertation , 2025 .
+
+Hassan M . AI-based Conditional Monitoring & Predictive Maintenance for Offshore Wind Farms. Master's thesis , University of Vaasa, master's Programme in Smart Energy; Electrical Engineering . License: CC BY-NC 4.0. [Online]. Available: https://osuva.uwasa.fi/handle/11111/12195 [ Accessed: 2025 - August - 30 ]
+
+Liu W , Wu J , Zhou M , Sun G , Li Z . Federated learning for maritime anomaly detection . IEEE Access. 2020 ; 8 : 179804 – 179817
+
+Written By
+
+Luís M. Barata, Pedro Tiago Salgueiro da Silva and Eurico Lopes
+
+Submitted: 30 August 2025 Reviewed: 15 September 2025 Published: 30 January 2026
+
+REGISTER TO DOWNLOAD FOR FREE
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+Share
+
+ 
+
+Cite
+
+Cite this chapter
+
+There are two ways to cite this chapter:
+
+Choose citation style
+
+Select style
+
+Vancouver
+
+APA
+
+Harvard
+
+IEEE
+
+MLA
+
+Chicago
+
+Copy to clipboard Get citation
+
+Choose citation style
+
+Select format
+
+Bibtex
+
+RIS
+
+Download citation
+
+https://www.intechopen.com/online-first/1233887
+
+ 
+
+© 2026 The Author(s). Licensee IntechOpen. This content is distributed under the terms of the 
+
+Creative Commons Attribution 4.0 International License
+
+https://creativecommons.org/licenses/by/4.0/
+
+, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+
+Books open for chapter submissions
+
+View All
+
+https://www.intechopen.com/open-for-submissions
+
+We welcome new submissions from researchers looking to share their work with a global audience, making their findings openly accessible and widely recognized.
+
+Learn how to publish with IntechOpen - from submission to publication.
+
+https://www.intechopen.com/how-open-access-publishing-with-intechopen-works
+
+ IntechOpen Hyaluronic Acid - Nature's Versatile Bi... (Tentative title) Edited by Dr. Md. Abul Kalam Azad
+
+https://www.intechopen.com/welcome/1005973
+
+Submission deadline 11 May 2026
+
+Submit your Work
+
+https://www.intechopen.com/welcome/1005973
+
+ IntechOpen Wetlands - Ecology, Conservation, and S... (Tentative title) Edited by Zishan Wani
+
+https://www.intechopen.com/welcome/1005551
+
+Submission deadline 06 May 2026
+
+Submit your Work
+
+https://www.intechopen.com/welcome/1005551
+
+ IntechOpen Enhanced Oil Recovery - Science, System... (Tentative title) Edited by Mohamed A. Deyab
+
+https://www.intechopen.com/welcome/1005751
+
+Submission deadline 06 May 2026
+
+Submit your Work
+
+https://www.intechopen.com/welcome/1005751
+
+ IntechOpen Correctional Facilities - The Realities... (Tentative title) Edited by Karen Booyens
+
+https://www.intechopen.com/welcome/1005569
+
+Submission deadline 06 May 2026
+
+Submit your Work
+
+https://www.intechopen.com/welcome/1005569
+
+ IntechOpen Glioblastoma - Novel Approaches in Rese... (Tentative title) Edited by Alok Bhushan
+
+https://www.intechopen.com/welcome/1005699
+
+Submission deadline 06 May 2026
+
+Submit your Work
+
+https://www.intechopen.com/welcome/1005699
+
+ IntechOpen Integrated and Sustainable Weed Managem... (Tentative title) Edited by Kassio Ferreira Mendes
+
+https://www.intechopen.com/welcome/1005718
+
+Submission deadline 06 May 2026
+
+Submit your Work
+
+https://www.intechopen.com/welcome/1005718
+
+ IntechOpen Dosimetry in Nuclear Medicine Theranost... (Tentative title) Edited by Maria E. Lyra-Georgosopoulou
+
+https://www.intechopen.com/welcome/1005769
+
+Submission deadline 06 May 2026
+
+Submit your Work
+
+https://www.intechopen.com/welcome/1005769
+
+ IntechOpen Contemporary Regional Planning - Global... (Tentative title) Edited by Seth Appiah-Opoku
+
+https://www.intechopen.com/welcome/1005735
+
+Submission deadline 06 May 2026
+
+Submit your Work
+
+https://www.intechopen.com/welcome/1005735
+
+ IntechOpen Advances in Food Processing - From Stru... (Tentative title) Edited by Romina Alina Marc
+
+https://www.intechopen.com/welcome/1005721
+
+Submission deadline 06 May 2026
+
+Submit your Work
+
+https://www.intechopen.com/welcome/1005721
+
+ IntechOpen Cytokines - From Basic Science Mechanis... (Tentative title) Edited by Samuel Evans Adunyah
+
+https://www.intechopen.com/welcome/1005497
+
+Submission deadline 05 May 2026
+
+Submit your Work
+
+https://www.intechopen.com/welcome/1005497
+
+ 
+
+Home
+
+https://www.intechopen.com/
+
+ 
+
+News
+
+https://www.intechopen.com/news
+
+ 
+
+Contact
+
+https://www.intechopen.com/contact-us
+
+ 
+
+SDG Hub
+
+https://www.intechopen.com/sdg-hub
+
+Careers
+
+https://www.intechopen.com/page/careers-at-intechopen
+
+ 
+
+About
+
+https://www.intechopen.com/about-intechopen
+
+ 
+
+Authors, Editors and Institutions
+
+https://www.intechopen.com/institutions
+
+ 
+
+Team
+
+https://www.intechopen.com/page/team
+
+ 
+
+Events
+
+https://www.intechopen.com/page/events
+
+ 
+
+Memberships and Partnerships
+
+https://www.intechopen.com/page/partnerships
+
+ 
+
+Our Publishing Platform
+
+https://www.intechopen.com/our-publishing-platform
+
+ 
+
+Advertising
+
+https://www.intechopen.com/advertising
+
+Publish
+
+https://www.intechopen.com/publish
+
+ 
+
+About Open Access
+
+https://www.intechopen.com/page/about-open-access
+
+ 
+
+How it Works
+
+https://www.intechopen.com/how-open-access-publishing-with-intechopen-works
+
+ 
+
+OA Publishing Fees
+
+https://www.intechopen.com/page/OA-publishing-fees
+
+ 
+
+Open Access Funding
+
+https://www.intechopen.com/open-access-funding
+
+ 
+
+Peer Review
+
+https://www.intechopen.com/peer-reviewing
+
+ 
+
+Editorial Policies
+
+https://www.intechopen.com/page/editorial-policies
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+IntechOpen Limited
+
+167-169 Great Portland Street,
+
+London, W1W 5PF,
+
+UNITED KINGDOM
+
+Phone: +44 20 8089 5702
+
+Submit
+
+Author Panel Sign in
+
+https://auth.intechopen.com/?referer=sf&env=https%3A%2F%2Fpublish.intechopen.com
+
+Terms and Conditions
+
+https://www.intechopen.com/page/terms-and-conditions
+
+Privacy Policy
+
+https://www.intechopen.com/privacy-policy
+
+Customer Complaints
+
+https://www.intechopen.com/page/customer-complaints
+
+© 2026 IntechOpen. All rights reserved.
+
+CLOSE X
+
+IntechOpen Author/Editor?
+
+To get your discount, 
+
+log in
+
+https://auth.intechopen.com/?ref=login&referer=www&returl=https%3A%2F%2Fwww.intechopen.com%2Fonline-first%2F1233887
+
+.
+
+Your cart
+
+Discounts available on purchase of multiple copies. View rates
+
+Subtotal
+
+€0.00
+
+Local taxes (VAT) are calculated in later steps, if applicable.
+
+Checkout
+
+https://www.intechopen.com/login
+
+Support: 
+
+orders@intechopen.com
+
+mailto:orders@intechopen.com
+
+Please ensure Javascript is enabled for purposes of 
+
+website accessibility
+
+https://userway.org/

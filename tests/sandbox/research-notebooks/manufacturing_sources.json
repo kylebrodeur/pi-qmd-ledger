@@ -1,0 +1,944 @@
+[
+  {
+    "id": "1d060338-8d3c-496b-ba63-252fc0d58701",
+    "title": "(PDF) Integrating human knowledge for explainable AI - ResearchGate",
+    "type": "web_page",
+    "url": "https://www.researchgate.net/publication/396515788_Integrating_human_knowledge_for_explainable_AI"
+  },
+  {
+    "id": "620aaa38-add5-40f7-b576-f8eeb977a26e",
+    "title": "(PDF) Machine Learning and Artificial Intelligence Supported Machining: A Review and Insights for Future Research",
+    "type": "web_page",
+    "url": "https://www.researchgate.net/publication/385156533_Machine_Learning_and_Artificial_Intelligence_Supported_Machining_A_Review_and_Insights_for_Future_Research"
+  },
+  {
+    "id": "29339ccc-95d3-4ff1-a101-243f56b24895",
+    "title": "(PDF) Stable Port-Hamiltonian Neural Networks - ResearchGate",
+    "type": "web_page",
+    "url": "https://www.researchgate.net/publication/388686659_Stable_Port-Hamiltonian_Neural_Networks"
+  },
+  {
+    "id": "39da6fcf-157f-454a-8e44-bdeef3c90cfa",
+    "title": "(PDF) World Models in AI: A Comprehensive Overview * - ResearchGate",
+    "type": "web_page",
+    "url": "https://www.researchgate.net/publication/397570106_World_Models_in_AI_A_Comprehensive_Overview"
+  },
+  {
+    "id": "bd2ecba9-d5a9-47b7-923f-1153e4a48a0f",
+    "title": "A Comparative Study on Machine Learning Algorithms for Smart Manufacturing: Tool Wear Prediction Using Random Forests | J. Manuf. Sci. Eng. | ASME Digital Collection",
+    "type": "web_page",
+    "url": "https://asmedigitalcollection.asme.org/manufacturingscience/article/139/7/071018/454654/A-Comparative-Study-on-Machine-Learning-Algorithms"
+  },
+  {
+    "id": "a30883b5-0e83-4046-b1bb-591bd208f47a",
+    "title": "A Review of Artificial Intelligence Algorithms Used for Smart Machine Tools",
+    "type": "web_page",
+    "url": "https://www.mdpi.com/2411-5134/3/3/41"
+  },
+  {
+    "id": "8816a77d-7516-4a88-b110-3c074fbb1173",
+    "title": "A Review of Artificial Intelligence-Driven Active Vibration and Noise Control - MDPI",
+    "type": "web_page",
+    "url": "https://www.mdpi.com/2075-1702/13/10/946"
+  },
+  {
+    "id": "1d3b8ed4-3164-4fef-a9d1-a33193864efd",
+    "title": "A Review on AI for Smart Manufacturing: Deep Learning Challenges and Solutions - MDPI",
+    "type": "web_page",
+    "url": "https://www.mdpi.com/2076-3417/12/16/8239"
+  },
+  {
+    "id": "03623f6a-d58e-4a4c-a388-10aa2a5fd74d",
+    "title": "A Robust 3D Active Learning Framework Based on Multi-Metric Voting for Fast Electromagnetic Field Reconstruction with Sparse Sampling - MDPI",
+    "type": "web_page",
+    "url": "https://www.mdpi.com/2079-9292/15/7/1434"
+  },
+  {
+    "id": "ac88c826-3617-436e-8b6a-ae58ced9033a",
+    "title": "A physics-informed neural network framework for multi-physics coupling microfluidic problems | Request PDF - ResearchGate",
+    "type": "web_page",
+    "url": "https://www.researchgate.net/publication/383762904_A_physics-informed_neural_network_framework_for_multi-physics_coupling_microfluidic_problems"
+  },
+  {
+    "id": "d5160980-62b4-4879-9679-591c2eead467",
+    "title": "A review of artificial intelligence application for machining surface quality prediction: from key factors to model development | Journal of Intelligent Manufacturing | Springer Nature Link",
+    "type": "web_page",
+    "url": "https://link.springer.com/article/10.1007/s10845-025-02571-y"
+  },
+  {
+    "id": "272b8deb-931e-4e88-b6ab-a186adc7b82a",
+    "title": "AI IN THE MACHINE TOOL INDUSTRY | Modern Manufacturing India",
+    "type": "web_page",
+    "url": "https://www.mmindia.co.in/article/2260/ai-in-the-machine-tool-industry"
+  },
+  {
+    "id": "29a33fd3-39fb-4f6a-883a-69abe5857ca7",
+    "title": "AI for CNC Machining: How Futuristic Technologies Enhance Programming and Production",
+    "type": "web_page",
+    "url": "https://www.3erp.com/blog/ai-for-cnc-machining/"
+  },
+  {
+    "id": "8aca7147-8eaa-4a5a-8bd0-df6e8edc5cd9",
+    "title": "AI in Context: Harnessing Domain Knowledge for Smarter Machine Learning - MDPI",
+    "type": "web_page",
+    "url": "https://www.mdpi.com/2076-3417/14/24/11612"
+  },
+  {
+    "id": "368c0c9b-4aec-4c39-ae5a-b19ab95c1523",
+    "title": "AI in Industrial Automation: Tools, Use Cases & Insights",
+    "type": "web_page",
+    "url": "https://www.hallam-ics.com/blog/ai-in-industrial-automation-tools-use-cases-insights?hs_amp=true"
+  },
+  {
+    "id": "2e192e8a-04e7-4139-8893-25ababddea2a",
+    "title": "AI in Machine Tool Systems: The Digital Thread Advantage",
+    "type": "web_page",
+    "url": "https://www.iiot-world.com/smart-manufacturing/discrete-manufacturing/ai-in-machine-tool-systems/"
+  },
+  {
+    "id": "3367866b-0cc2-4aeb-a61c-92529eff5aea",
+    "title": "AI-Driven Precision: The Future of Tool Life Management",
+    "type": "generated_text",
+    "url": null
+  },
+  {
+    "id": "3dca8165-15b5-4b10-887c-38197fe070bd",
+    "title": "AI-Driven Process Optimization in Smart Manufacturing",
+    "type": "generated_text",
+    "url": null
+  },
+  {
+    "id": "ed920a7b-8f1c-4dd4-9920-bf69ff179845",
+    "title": "Accelerate Token Production in AI Factories Using Unified Services and Real-Time AI",
+    "type": "web_page",
+    "url": "https://developer.nvidia.com/blog/accelerate-token-production-in-ai-factories-using-unified-services-and-real-time-ai/"
+  },
+  {
+    "id": "eaeacc41-c483-4878-bc84-ac8960cc6249",
+    "title": "Active Learning and Human Feedback for Large Language Models | IntuitionLabs",
+    "type": "web_page",
+    "url": "https://intuitionlabs.ai/articles/active-learning-hitl-llms"
+  },
+  {
+    "id": "ea430145-9f89-4467-ae08-0e6bf380ef4a",
+    "title": "Adaptive Machining: The Evolution of Autonomous Manufacturing",
+    "type": "generated_text",
+    "url": null
+  },
+  {
+    "id": "c9b4ee4c-6971-4c71-995a-43bac959ce1a",
+    "title": "Advanced Manufacturing: Incremental Sheet Metal Forming with ...",
+    "type": "web_page",
+    "url": "https://machinalabs.ai/resources/advanced-manufacturing-incremental-sheet-metal-forming-with-robotics-and-ai"
+  },
+  {
+    "id": "e0627bc1-55c8-452e-820f-d389f4adb9a3",
+    "title": "Agentic AI for Cybersecurity & Autonomous Security Operations - eSentire",
+    "type": "web_page",
+    "url": "https://www.esentire.com/resources/agentic-ai-in-cybersecurity"
+  },
+  {
+    "id": "73b250cc-ceab-443d-b1d4-837df86156ee",
+    "title": "Agentic AI: A Comprehensive Survey of Architectures, Applications, and Future Directions",
+    "type": "web_page",
+    "url": "https://arxiv.org/html/2510.25445v1"
+  },
+  {
+    "id": "b7840874-44a5-499b-9492-a736b9c7f385",
+    "title": "All notes 4/5/2026",
+    "type": "generated_text",
+    "url": null
+  },
+  {
+    "id": "d7e1136f-e13f-4699-aa61-a92b91fbb292",
+    "title": "All notes 4/5/2026",
+    "type": "generated_text",
+    "url": null
+  },
+  {
+    "id": "48c228a1-0e58-45bf-903e-7fb8a257a17d",
+    "title": "Application of physics-informed neural networks (PINNs) solution to coupled thermal and hydraulic processes in silty sands (Journal Article) - OSTI",
+    "type": "web_page",
+    "url": "https://www.osti.gov/pages/biblio/2500990"
+  },
+  {
+    "id": "b03c8fbe-2cf0-4744-9ca5-9ad20baa2b07",
+    "title": "Artificial Intelligence for Machine Tools - CECIMO",
+    "type": "web_page",
+    "url": "https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/"
+  },
+  {
+    "id": "6b029956-1416-4657-b0f7-bfa8cad14a18",
+    "title": "Artificial intelligence solutions | Siemens",
+    "type": "web_page",
+    "url": "https://www.siemens.com/en-us/company/artificial-intelligence/"
+  },
+  {
+    "id": "5e56b477-e63c-4290-b57a-1d406ba2c9d2",
+    "title": "Awesome World Models for Autonomous Driving - GitHub",
+    "type": "web_page",
+    "url": "https://github.com/LMD0311/Awesome-World-Model"
+  },
+  {
+    "id": "598e8703-0e65-4abf-8835-b8bf64e90b19",
+    "title": "Best AI Tools & Agents for Mechanical Engineers (2026)",
+    "type": "web_page",
+    "url": "https://www.colabsoftware.com/ai-tools-for-mechanical-engineers-guide"
+  },
+  {
+    "id": "298ddb1f-c7b8-41c2-923d-9e7e8518466b",
+    "title": "Beyond Additive: Bringing Generative Design to the Machine Shop | Autodesk University",
+    "type": "web_page",
+    "url": "https://www.autodesk.com/autodesk-university/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025"
+  },
+  {
+    "id": "4e6a7902-2274-487f-90ae-1d068467990f",
+    "title": "Beyond Human Limits: AI-Powered CNC Machining",
+    "type": "web_page",
+    "url": "https://www.ascm.org/ascm-insights/beyond-human-limits-ai-powered-cnc-machining/"
+  },
+  {
+    "id": "e9391824-9279-4569-9a1d-ac2c12a32a91",
+    "title": "CNC Milling Optimization via Intelligent Algorithms: An AI-Based Methodology - MDPI",
+    "type": "web_page",
+    "url": "https://www.mdpi.com/2075-1702/14/1/89"
+  },
+  {
+    "id": "b2a44180-0a02-48f3-bfeb-c399d0795097",
+    "title": "Case Analysis in AI Practice Courses: A Comparative Study of Tool Wear Prediction Methods - Clausius Scientific Press",
+    "type": "pdf",
+    "url": "https://www.clausiuspress.com/assets/default/article/2025/10/14/article_1760450980.pdf"
+  },
+  {
+    "id": "60d27d1f-56a1-46a2-ae04-7f4595c232ec",
+    "title": "Chatter Detection in Simulated Machining Data: A Vibration-Driven Machine Learning Approach - Preprints.org",
+    "type": "pdf",
+    "url": "https://www.preprints.org/frontend/manuscript/003be9234a9f51a52029ddceb844d370/download_pub"
+  },
+  {
+    "id": "9c3f49af-c049-4ee4-99e4-93bf0b06f495",
+    "title": "CloudNC featured in connected technology solutions - artificial intelligence ushers in a brave new world for CNC machining",
+    "type": "web_page",
+    "url": "https://www.cloudnc.com/blog/cloudnc-ai-technology-for-cnc-machining"
+  },
+  {
+    "id": "dd9fc073-f067-4f5c-bc4f-ee62ab663e04",
+    "title": "Common AI Models Used in Manufacturing: Which One is Right For You? | Stoneridge Software",
+    "type": "web_page",
+    "url": "https://stoneridgesoftware.com/common-ai-models-used-in-manufacturing-which-one-is-right-for-you/"
+  },
+  {
+    "id": "1a7ae54b-e716-4e9c-9950-b17692ea5d72",
+    "title": "Continuous-time air pollutant forecasting using multi-timescale attention neural ordinary differential equations (MA-NODE) - PMC",
+    "type": "web_page",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12717271/"
+  },
+  {
+    "id": "d48e485d-2869-4597-b05f-baabc93c312e",
+    "title": "Current State and Benchmarking of Generative Artificial Intelligence for Additive Manufacturing - ASME Digital Collection",
+    "type": "web_page",
+    "url": "https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-pdf/IDETC-CIE2024/88346/V02AT02A032/7402805/v02at02a032-detc2024-144076.pdf"
+  },
+  {
+    "id": "a446f571-0df7-4e7d-bce6-aa362fee5c1b",
+    "title": "Deep Batch Active Learning for Drug Discovery - eLife",
+    "type": "web_page",
+    "url": "https://elifesciences.org/reviewed-preprints/89679v1"
+  },
+  {
+    "id": "bb6abaef-b822-4440-8c14-522fabe1b8a3",
+    "title": "Deep Learning as an Industrial Enabler",
+    "type": "generated_text",
+    "url": null
+  },
+  {
+    "id": "9165a68e-18a4-40d0-93b7-52751ebd616c",
+    "title": "Deep learning for smart manufacturing: Methods and applications - UCF Department of Mechanical and Aerospace Engineering - University of Central Florida",
+    "type": "pdf",
+    "url": "https://mae.ucf.edu/dazhongwu/wp-content/uploads/2019/06/Deep-Learning-for-Smart-Manufacturing-Methods-and-Applications.pdf"
+  },
+  {
+    "id": "04266813-c7c2-4f75-9394-a75fe1412486",
+    "title": "Digital Twin AI: Opportunities and Challenges from Large Language Models to World Models - arXiv",
+    "type": "web_page",
+    "url": "https://arxiv.org/html/2601.01321v1"
+  },
+  {
+    "id": "f4191f58-f165-4f81-8aad-6f886085dea4",
+    "title": "Digital Twin AI: Opportunities and Challenges from Large Language Models to World Models - arXiv",
+    "type": "web_page",
+    "url": "https://arxiv.org/html/2601.01321v1"
+  },
+  {
+    "id": "3ddf3eb8-4fb7-4ba9-93c5-7edb553eeaa6",
+    "title": "Digital Twin Technology for Machine Tools and Manufacturing Systems - ManTech Publications",
+    "type": "pdf",
+    "url": "https://admin.mantechpublications.com/index.php/JoMMSM/article/viewFile/3060/1659"
+  },
+  {
+    "id": "80f9984c-e810-47f8-8087-0350515fc0c9",
+    "title": "Digital Twin x Physical AI: Opportunities at the Intersection of Two Massive Markets",
+    "type": "web_page",
+    "url": "https://blog.pebblous.ai/project/PhysicalAI/digital-twin-physical-ai-market/en/"
+  },
+  {
+    "id": "48309d3a-8cd4-485f-a076-61566abb2b6f",
+    "title": "Dreamer-CDP: Improving Reconstruction-free World Models Via ...",
+    "type": "web_page",
+    "url": "https://arxiv.org/abs/2603.07083"
+  },
+  {
+    "id": "862b7b43-42e1-450c-992f-6954f69b5345",
+    "title": "Efficiency at Scale: NVIDIA, Energy Leaders Accelerating Power‑Flexible AI Factories to Fortify the Grid",
+    "type": "web_page",
+    "url": "https://blogs.nvidia.com/blog/energy-efficiency-ai-factories-grid/"
+  },
+  {
+    "id": "47db2ddb-e7db-4874-8203-5387db8d734f",
+    "title": "Enhancing Chatter Detection in Machining Processes Using Machine Learning: From Simulated Models to Real-World Validation",
+    "type": "web_page",
+    "url": "https://trace.tennessee.edu/entities/publication/05f39b60-5bc0-4314-9614-c628bce10e90"
+  },
+  {
+    "id": "1d93caeb-4c8a-43d4-a8bf-7cf21bcb5c43",
+    "title": "Enhancing Hierarchical Classification in Tree-Based Models Using Level-Wise Entropy Adjustment - MDPI",
+    "type": "web_page",
+    "url": "https://www.mdpi.com/2504-2289/9/3/65"
+  },
+  {
+    "id": "3780a338-5e1d-41f4-8a8a-39c141bfb1f4",
+    "title": "Establishing Governance Frameworks for Agentic AI in Industrial ...",
+    "type": "web_page",
+    "url": "https://www.hivemq.com/blog/establishing-governance-frameworks-agentic-ai-industrial-operations/"
+  },
+  {
+    "id": "7f643b8e-4d22-446a-8e9b-19eabc7401b8",
+    "title": "Evaluating Machine Learning Algorithms for Predictive Maintenance in Equipment - Science Excel",
+    "type": "pdf",
+    "url": "https://www.sciencexcel.com/articles/tA2EXaU930ap7WTSMfqZLet9YmNHyfDXoDIfywIZ.pdf"
+  },
+  {
+    "id": "a29dbb49-2884-42e8-a8d0-fd7f6d150fc9",
+    "title": "Experimental Investigation Of Tool Wear Monitoring In Cnc Machine Using Ai Techniques - IJCRT.org",
+    "type": "pdf",
+    "url": "https://www.ijcrt.org/papers/IJCRT2512522.pdf"
+  },
+  {
+    "id": "b255c002-cc13-4513-b0e4-7d0d4e890070",
+    "title": "Explainable AI-Driven Quality and Condition Monitoring in Smart Manufacturing - PMC",
+    "type": "web_page",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12899597/"
+  },
+  {
+    "id": "c53fbf07-9fee-44c6-a0f0-cd4c6af184c3",
+    "title": "Explainable AI: Learning from the Learners - arXiv",
+    "type": "web_page",
+    "url": "https://arxiv.org/html/2601.05525v2"
+  },
+  {
+    "id": "7aa92759-9912-479f-a6e3-6000b229a16b",
+    "title": "Federated Learning and its Role in Predictive Maintenance - IntechOpen",
+    "type": "web_page",
+    "url": "https://www.intechopen.com/online-first/1233887"
+  },
+  {
+    "id": "637e7b88-5478-4357-bd59-8828232f8838",
+    "title": "For AI in manufacturing, start with data | MIT Sloan",
+    "type": "web_page",
+    "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-manufacturing-start-data"
+  },
+  {
+    "id": "b8757f56-2221-4baf-9675-d0084d2fa6ae",
+    "title": "Framework for Government Policy on Agentic and Generative AI - TechRxiv",
+    "type": "web_page",
+    "url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175825815.57896005"
+  },
+  {
+    "id": "55b545d7-2ad4-4448-97ca-47d5c800123b",
+    "title": "Generative AI and Foundation Models in Advanced Manufacturing (20 hours)",
+    "type": "web_page",
+    "url": "https://www.a-star.edu.sg/simtech/kto/masterclasses/generative-ai-and-foundation-models-in-advanced-manufacturing"
+  },
+  {
+    "id": "69ac27df-4cf7-4477-8837-8fdb63fe58ef",
+    "title": "Generative Design Keeps Manufacturability in Mind - IMTS 2026",
+    "type": "web_page",
+    "url": "https://www.imts.com/read/article-details/Generative-Design-Keeps-Manufacturability-in-Mind/1176/type/Read/1"
+  },
+  {
+    "id": "e285105a-438f-40cd-bc8b-8842bc1b818b",
+    "title": "Generative Design, Prototyping, and CNC Milling - DATRON",
+    "type": "web_page",
+    "url": "https://www.datron.com/resources/blog/generative-design-prototyping-and-cnc-milling/"
+  },
+  {
+    "id": "4edf7d3f-aa97-45dc-9e08-e0998202fc37",
+    "title": "Governance of Agentic Artificial Intelligence Systems | Insights - Mayer Brown",
+    "type": "web_page",
+    "url": "https://www.mayerbrown.com/en/insights/publications/2026/02/governance-of-agentic-artificial-intelligence-systems"
+  },
+  {
+    "id": "de5ab239-3fc3-4e6a-b131-2bf9996440c5",
+    "title": "Hamiltonian Neural Networks - NIPS",
+    "type": "pdf",
+    "url": "http://papers.neurips.cc/paper/9672-hamiltonian-neural-networks.pdf"
+  },
+  {
+    "id": "4f583eed-cb8a-4857-9515-59274a9c6c6c",
+    "title": "How AI Can Be Applied to Manufacturing | Manufacturing Engineering & Technology | advancedmanufacturing.org",
+    "type": "web_page",
+    "url": "https://www.advancedmanufacturing.org/manufacturing-engineering/machine-learning-for-machine-tools/article_2dc57660-6a0d-11ef-abc3-7f78f2ad3f89.html"
+  },
+  {
+    "id": "baaa4da7-bd12-4a47-b3d2-395d0f01a945",
+    "title": "How Is AI Used in Mechanical Engineering? | Neural Concept",
+    "type": "web_page",
+    "url": "https://www.neuralconcept.com/post/how-is-ai-used-in-mechanical-engineering"
+  },
+  {
+    "id": "462e1ade-2cf4-4750-801e-978a96702ddd",
+    "title": "How to use AI in machining — a practical guide for CNC machine shops",
+    "type": "web_page",
+    "url": "https://www.cloudnc.com/blog/ai-in-machining"
+  },
+  {
+    "id": "0be43657-718c-4334-9110-4c35f02ec4a6",
+    "title": "Human-Machine Synergy: The Evolution of Industry 5.0",
+    "type": "generated_text",
+    "url": null
+  },
+  {
+    "id": "ea7ca6ed-d7b5-4649-abad-f61a61f3b1aa",
+    "title": "Industrial Connectivity: The Foundation of AI-Driven Manufacturing",
+    "type": "generated_text",
+    "url": null
+  },
+  {
+    "id": "7e5095ce-95a8-42ee-90b6-b87ea52121dc",
+    "title": "Introduction to CNC machining - subtractive processes - Make - 3DExperience Marketplace",
+    "type": "web_page",
+    "url": "https://make.3dexperience.3ds.com/processes/subtractive"
+  },
+  {
+    "id": "75e64117-ab77-439c-806e-71e7a9496cc1",
+    "title": "Isaac Sim - Robotics Simulation and Synthetic Data Generation ...",
+    "type": "web_page",
+    "url": "https://developer.nvidia.com/isaac/sim"
+  },
+  {
+    "id": "cbec34e7-fc99-42e7-9491-46850216f5b9",
+    "title": "Large language models for G-code generation in CNC machining - APEM journal",
+    "type": "pdf",
+    "url": "https://apem-journal.org/Archives/2025/Abstract-APEM20-2_224-238.pdf"
+  },
+  {
+    "id": "4ca6ff47-84ce-43ff-bed2-a836c1b82d47",
+    "title": "Learning Actionable World Models for Industrial Process Control This work is supported by Innosuisse grant 62174.1 IP-ENG “DISTRAL”. - arXiv",
+    "type": "web_page",
+    "url": "https://arxiv.org/html/2503.01411v2"
+  },
+  {
+    "id": "3e132b43-911c-4c1c-bfb4-724a979f2bc0",
+    "title": "LogLM and JEPA: Parallel paths to intelligent world models - DeepTempo",
+    "type": "web_page",
+    "url": "https://www.deeptempo.ai/blogs/loglm-and-jepa-parallel-paths-to-intelligent-world-models"
+  },
+  {
+    "id": "3e9388b7-c064-4d5d-8922-4a69ec2c9e2f",
+    "title": "Lost in Definition: How Confusion over Agentic AI Risks Undermining U.S. Governance Frameworks - CSIS",
+    "type": "web_page",
+    "url": "https://www.csis.org/analysis/lost-definition-how-confusion-over-agentic-ai-risks-governance"
+  },
+  {
+    "id": "78bba05c-e60b-4046-8c42-5a05ff97cecc",
+    "title": "Machina Labs Advances Custom Automotive Manufacturing with AI and Robotics",
+    "type": "web_page",
+    "url": "https://machinalabs.ai/resources/machina-labs-advances-custom-automotive-manufacturing-with-ai-and-robotics"
+  },
+  {
+    "id": "ae5e634a-181d-4e02-83c3-2029d9dc607c",
+    "title": "Machina Labs uses robotics, AI to customize automotive body manufacturing",
+    "type": "web_page",
+    "url": "https://www.therobotreport.com/machina-labs-uses-robotics-ai-customize-automotive-body-manufacturing/"
+  },
+  {
+    "id": "35d9bef5-45f4-4e85-86a8-6efdcf291068",
+    "title": "Machina Labs: Home",
+    "type": "web_page",
+    "url": "https://machinalabs.ai/"
+  },
+  {
+    "id": "f5de93a6-9289-41ed-b38f-9b9671d0df6e",
+    "title": "Manufacturing And Automotive Giants Continue Their Shift From Grease To Code At CES 2026 - Forrester",
+    "type": "web_page",
+    "url": "https://www.forrester.com/blogs/manufacturing-and-automotive-giants-continue-their-shift-from-grease-to-code-at-ces-2026/"
+  },
+  {
+    "id": "ebad6e2d-4fc9-43e1-a1e3-6083ef790503",
+    "title": "Manufacturing and Robotics Startups funded by Y Combinator (YC) 2026",
+    "type": "web_page",
+    "url": "https://www.ycombinator.com/companies/industry/manufacturing-and-robotics"
+  },
+  {
+    "id": "24ab8fa7-7713-487e-921a-ece6ba2de904",
+    "title": "Mathematical Modeling Techniques in Virtual Reality Technologies: An Integrated Review of Physical Simulation, Spatial Analysis, and Interface Implementation - MDPI",
+    "type": "web_page",
+    "url": "https://www.mdpi.com/2073-8994/18/2/255"
+  },
+  {
+    "id": "f69e50c1-5da5-4b0e-83ce-43296b3c78a3",
+    "title": "Metamodel-Based Digital Twin Architecture with ROS Integration for Heterogeneous Model Unification in Robot Shaping Processes - MDPI",
+    "type": "web_page",
+    "url": "https://www.mdpi.com/2075-1702/13/10/898"
+  },
+  {
+    "id": "b80fee41-778a-4b60-b97a-6d7a031eec02",
+    "title": "Milling Surface Roughness Prediction Based on Physics-Informed Machine Learning - PMC",
+    "type": "web_page",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10222628/"
+  },
+  {
+    "id": "06f6be0b-76c4-4729-bb83-7392ff67f590",
+    "title": "Milling dataset - figshare",
+    "type": "web_page",
+    "url": "https://figshare.com/articles/dataset/Milling_dataset/27323346"
+  },
+  {
+    "id": "5d114899-67a0-4344-bea4-2ad3a0339970",
+    "title": "Modern Anomaly Detection Methods in Industry: A Comparative Analysis of Machine Learning Algorithms and Their Application to Imp - Premier Science",
+    "type": "pdf",
+    "url": "https://premierscience.com/wp-content/uploads/2025/10/5-pjs-25-1320.pdf"
+  },
+  {
+    "id": "d2d9e512-483a-4482-b958-c3aa19e57565",
+    "title": "Multiple Challenges Emerge With Physical AI System Design - Semiconductor Engineering",
+    "type": "web_page",
+    "url": "https://semiengineering.com/multiple-challenges-emerge-with-physical-ai-system-design/"
+  },
+  {
+    "id": "09cdf12b-7549-4d9b-a3df-959c659bf8eb",
+    "title": "NVIDIA and Global Robotics Leaders Take Physical AI to the Real ...",
+    "type": "web_page",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-and-global-robotics-leaders-take-physical-ai-to-the-real-world"
+  },
+  {
+    "id": "d52f3dca-a0dd-419d-a8cb-7f77bb9657fc",
+    "title": "Neurosymbolic AI Aims to Make AI Safe for the C-Suite | PYMNTS.com",
+    "type": "web_page",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/neurosymbolic-ai-aims-to-make-ai-safe-for-the-c-suite/"
+  },
+  {
+    "id": "1eb92754-3359-49c8-9d1f-5bea57bada23",
+    "title": "Neurosymbolic code generation. Innovation in Verification - SemiWiki",
+    "type": "web_page",
+    "url": "https://semiwiki.com/eda/cadence/361711-neurosymbolic-code-generation-innovation-in-verification/"
+  },
+  {
+    "id": "27743633-8ea1-4b2c-be81-14afee751684",
+    "title": "New AI model could revolutionize U.S manufacturing | NSF - U.S. National Science Foundation",
+    "type": "web_page",
+    "url": "https://www.nsf.gov/news/new-ai-model-could-revolutionize-us-manufacturing"
+  },
+  {
+    "id": "2a8f14eb-9aab-4cb6-8f29-a38c2736c1c1",
+    "title": "News – Cyber-Physical Simulation - Fachbereich Maschinenbau TU Darmstadt",
+    "type": "web_page",
+    "url": "https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/index.en.jsp"
+  },
+  {
+    "id": "8103cab6-5d54-4007-ba4e-218b9be893bd",
+    "title": "Nvidia and Dassault Systèmes combine digital twins and AI in industry world models - CIO",
+    "type": "web_page",
+    "url": "https://www.cio.com/article/4127939/nvidia-and-dassault-systemes-combine-digital-twins-and-ai-in-industry-world-models.html"
+  },
+  {
+    "id": "b38b5ccc-b8b8-4f21-9853-b517da018ecf",
+    "title": "Overview of Active Learning for Deep Learning - Jacob Gildenblat",
+    "type": "web_page",
+    "url": "https://jacobgil.github.io/deeplearning/activelearning"
+  },
+  {
+    "id": "1af3b09b-24a7-4e32-ba06-1b1399ae944e",
+    "title": "PHYSICS-GUIDED NEURAL NETWORKS FOR LYAPUNOV-STABLE DYNAMIC SYSTEM IDENTIFICATION - CIMNE Congress Bureau",
+    "type": "pdf",
+    "url": "https://congressarchive.cimne.com/dte_aicomas_2025/abstracts/a52c932486ee11efb344000c29ddfc0c.pdf"
+  },
+  {
+    "id": "14d08605-3648-4915-b738-87bcfff8a6da",
+    "title": "PINN-Based Tool Wear Modeling and Prediction",
+    "type": "web_page",
+    "url": "https://ijettjournal.org/archive/ijett-v73i11p105"
+  },
+  {
+    "id": "385bad4b-34a7-46e3-934d-a5aed372c731",
+    "title": "PINN-Based Tool Wear Modeling and Prediction - International ...",
+    "type": "pdf",
+    "url": "https://ijettjournal.org/Volume-73/Issue-11/IJETT-V73I11P105.pdf"
+  },
+  {
+    "id": "d7f134b0-dc83-457d-be8f-471b8577d48c",
+    "title": "PINN-Based Tool Wear Modeling and Prediction - International Journal of Engineering Trends and Technology",
+    "type": "pdf",
+    "url": "https://ijettjournal.org/Volume-73/Issue-11/IJETT-V73I11P105.pdf"
+  },
+  {
+    "id": "6821c74c-ec9e-4425-8cb6-bf12ca8c4d15",
+    "title": "Physics Informed Neural Networks (PINNs) [Physics Informed Machine Learning]",
+    "type": "youtube",
+    "url": null
+  },
+  {
+    "id": "a1e65530-54e7-4024-af85-3a4ebbe4c3f9",
+    "title": "Physics-Informed Machine Learning in Design and Manufacturing: Status and Challenges",
+    "type": "web_page",
+    "url": "https://asmedigitalcollection.asme.org/computingengineering/article/25/12/120804/1225302/Physics-Informed-Machine-Learning-in-Design-and"
+  },
+  {
+    "id": "c15af6e1-c330-4dc9-8ac2-d9c0930605b0",
+    "title": "Physics-informed Gaussian process for tool wear prediction - PubMed",
+    "type": "web_page",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37770369/"
+  },
+  {
+    "id": "d7b6a7a2-a1a9-4781-90c4-a852eb541aa2",
+    "title": "Physics-informed machine learning surrogate for scalable simulation of thermal histories during wire-arc directed energy deposition - arXiv",
+    "type": "web_page",
+    "url": "https://arxiv.org/html/2507.09591v1"
+  },
+  {
+    "id": "9712582a-e5d2-498b-8859-0e622e514cc5",
+    "title": "Prediction of Machine Failures Using Machine Learning Methods - ResearchGate",
+    "type": "web_page",
+    "url": "https://www.researchgate.net/publication/398059084_Prediction_of_Machine_Failures_Using_Machine_Learning_Methods"
+  },
+  {
+    "id": "8a615936-75c9-4a66-ad67-ce6580167029",
+    "title": "Prediction of tool wear based cutting forces during end milling of Inconel 718 using artificial neural networks",
+    "type": "pdf",
+    "url": "https://www.astrj.com/pdf-204203-125454?filename=Prediction-of-tool-wear-b.pdf"
+  },
+  {
+    "id": "a3a95b71-decd-4ee3-9ca9-cfcd06ce7ff6",
+    "title": "Privacy-Preserving Federated Learning for Predictive Maintenance in Smart Manufacturing Networks - Journal of Graphic Engineering and Design",
+    "type": "pdf",
+    "url": "https://jged.uns.ac.rs/index.php/ijiem/article/view/1721/1519"
+  },
+  {
+    "id": "3a6a2fac-1807-46e8-8887-023aa7725531",
+    "title": "Proof-of-stake (PoS) | ethereum.org",
+    "type": "web_page",
+    "url": "https://ethereum.org/developers/docs/consensus-mechanisms/pos/"
+  },
+  {
+    "id": "e6010c5e-21b3-4c9a-b41c-878e1b720320",
+    "title": "Real-time Thermal Error Compensation of Machine Tools Based on Machine Learning Model and Actual Cutting Measurement via Temperature Sensors",
+    "type": "pdf",
+    "url": "https://sensors.myu-group.co.jp/sm_pdf/SM3796.pdf"
+  },
+  {
+    "id": "664ceffd-eb9c-407b-8131-a7879245e0d4",
+    "title": "Realizing Decentralized Economies of Scale | MIT CISR",
+    "type": "web_page",
+    "url": "https://cisr.mit.edu/publication/2023_0101_DecentralizedDecisionMaking_VanderMeulen"
+  },
+  {
+    "id": "5f686186-1e5b-467e-96b3-7458f3527152",
+    "title": "Review of Intelligence for Additive and Subtractive Manufacturing: Current Status and Future Prospects - PMC",
+    "type": "web_page",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10056501/"
+  },
+  {
+    "id": "e21838a8-a1d9-409a-8f2c-25321a52cf44",
+    "title": "Revolutionizing Machining Operations with Artificial Intelligence - Dassault Systèmes blog",
+    "type": "web_page",
+    "url": "https://blog.3ds.com/brands/delmia/revolutionizing-machining-operations-with-artificial-intelligence/"
+  },
+  {
+    "id": "31955995-aace-4600-b0b8-29808c03830f",
+    "title": "Revolutionizing Manufacturing: AI-Driven Quality Control and Intelligent Monitoring",
+    "type": "generated_text",
+    "url": null
+  },
+  {
+    "id": "1f85cfad-19c0-43d0-9813-78df2cf650e7",
+    "title": "Scaling World Model for Hierarchical Manipulation Policies - arXiv",
+    "type": "web_page",
+    "url": "https://arxiv.org/html/2602.10983v1"
+  },
+  {
+    "id": "c6067745-6afd-4960-b336-8f2e885e4a17",
+    "title": "Smart Machining and Machine Tools Enabled by Artificial Intellige",
+    "type": "web_page",
+    "url": "https://www.primescholars.com/articles/smart-machining-and-machine-tools-enabled-by-artificial-intelligence-118190.html"
+  },
+  {
+    "id": "c8df43ac-04d3-448a-b6ea-5d2c874ba93a",
+    "title": "Sparse Symplectically Integrated Neural Networks",
+    "type": "pdf",
+    "url": "https://proceedings.neurips.cc/paper/2020/file/439fca360bc99c315c5882c4432ae7a4-Paper.pdf"
+  },
+  {
+    "id": "bd0618f3-3424-4df5-a49f-2dfb95ab0e2c",
+    "title": "Stable Port-Hamiltonian Neural Networks - OpenReview",
+    "type": "web_page",
+    "url": "https://openreview.net/pdf/eb87c416e08d82f38d8c1acac82e5a4219f384a7.pdf"
+  },
+  {
+    "id": "ba0f27cf-a568-4937-a2c5-6e2e3d596cf5",
+    "title": "Symplectic Learning for Hamiltonian Neural Networks | Request PDF - ResearchGate",
+    "type": "web_page",
+    "url": "https://www.researchgate.net/publication/374074521_Symplectic_Learning_for_Hamiltonian_Neural_Networks"
+  },
+  {
+    "id": "92c4a9d2-3402-4778-a156-f693785bfb68",
+    "title": "Symplectic learning for Hamiltonian neural networks - Florian Méhats",
+    "type": "pdf",
+    "url": "https://mehats.pages.math.cnrs.fr/pdf/shnn.pdf"
+  },
+  {
+    "id": "267f88bc-08f6-40ae-bdac-a5750b26eeb9",
+    "title": "Synthetic Intelligence and the Machining Frontier: A Comprehensive Analysis of Industrial World Models",
+    "type": "generated_text",
+    "url": null
+  },
+  {
+    "id": "bbedc207-f536-4d95-b936-9dad386abaf2",
+    "title": "System Design for Sensing in Manufacturing to Apply AI through Hierarchical Abstraction Levels - MDPI",
+    "type": "web_page",
+    "url": "https://www.mdpi.com/1424-8220/24/14/4508"
+  },
+  {
+    "id": "60175b92-1f4f-4db6-a96e-8f6d8c52e0da",
+    "title": "The Cognitive Revolution in Machine Tool Manufacturing",
+    "type": "generated_text",
+    "url": null
+  },
+  {
+    "id": "5bf9c3e5-f035-4865-9357-b11dca19b4c1",
+    "title": "The Collaborative Frontier of Industry 5.0",
+    "type": "generated_text",
+    "url": null
+  },
+  {
+    "id": "efbca3f9-2505-4717-bd58-8a8d08bf2d02",
+    "title": "The Digital Thread: Engineering the Autonomous Industrial Future",
+    "type": "generated_text",
+    "url": null
+  },
+  {
+    "id": "c973a622-7a2c-4558-900d-46d40bcfac83",
+    "title": "The Frontier of Cyber-Physical Intelligence: Integrating Physics-Informed Learning, Neuro-Symbolic Reasoning, and Agentic Governance in Smart Manufacturing",
+    "type": "generated_text",
+    "url": null
+  },
+  {
+    "id": "ab2a9693-4d34-471f-8624-52761d367560",
+    "title": "The Future of Autonomous and Intelligent Machine Tools",
+    "type": "generated_text",
+    "url": null
+  },
+  {
+    "id": "c32ef64d-1b46-4830-aa06-7133a8b61ff0",
+    "title": "The Human-Centric Machine: Synergy in Industry 5.0",
+    "type": "generated_text",
+    "url": null
+  },
+  {
+    "id": "d69b76ca-be23-4617-849a-47a0d7f1dfae",
+    "title": "The Intelligence of Industry: Predictive Maintenance Systems",
+    "type": "generated_text",
+    "url": null
+  },
+  {
+    "id": "d8d0bf93-01a8-476f-aabc-e86351690cc0",
+    "title": "The Intelligent Machine: AI Evolution in CNC Manufacturing",
+    "type": "generated_text",
+    "url": null
+  },
+  {
+    "id": "886d6685-196a-4c97-8368-be6d25ef99ee",
+    "title": "The role of generative AI tools in shaping mechanical engineering education from an undergraduate perspective | Scientific Reports",
+    "type": "web_page",
+    "url": "https://www.nature.com/articles/s41598-025-93871-z"
+  },
+  {
+    "id": "d8bba35e-8f92-415d-86fd-ed1900c14af2",
+    "title": "Tool wear prediction in milling process using physics-informed machine learning and thermo-mechanical force model with monitoring applications - Sabanci University Research Database",
+    "type": "web_page",
+    "url": "https://research.sabanciuniv.edu/id/eprint/52257/"
+  },
+  {
+    "id": "8778aa4f-94c3-4fb5-8cbf-9307acbaaf40",
+    "title": "Top 6 Artificial Intelligence and Machine Learning Tools - ASME",
+    "type": "web_page",
+    "url": "https://www.asme.org/topics-resources/content/6-ai-and-machine-learning-tools-for-engineers"
+  },
+  {
+    "id": "bee7d03f-9018-44f0-ba3a-6971f9e6c52a",
+    "title": "Transitioning from Simulation to Reality: Applying Chatter Detection ...",
+    "type": "web_page",
+    "url": "https://www.mdpi.com/2075-1702/12/12/923"
+  },
+  {
+    "id": "81847777-2ec4-4759-a99c-7cace0b2ce94",
+    "title": "Transitioning from Simulation to Reality: Applying Chatter Detection Models to Real-World Machining Data",
+    "type": "web_page",
+    "url": "https://trace.tennessee.edu/cgi/viewcontent.cgi?filename=2&article=12139&context=utk_graddiss&type=additional"
+  },
+  {
+    "id": "89a733a0-b40a-4293-b6c2-af9a044b58d3",
+    "title": "Transitioning from Simulation to Reality: Applying Chatter Detection Models to Real-World Machining Data (Journal Article) - OSTI",
+    "type": "web_page",
+    "url": "https://www.osti.gov/pages/biblio/2538145"
+  },
+  {
+    "id": "4cf9afef-b6e5-4f6a-80c8-bdea1c3e1fe7",
+    "title": "Transitioning from Simulation to Reality: Applying Chatter Detection Models to Real-World Machining Data - Preprints.org",
+    "type": "pdf",
+    "url": "https://www.preprints.org/manuscript/202411.0016/v1/download"
+  },
+  {
+    "id": "00853b81-e2aa-4fb7-8ccd-ea9a63dbd8e1",
+    "title": "Tutorial on Joint Embedding Predictive Architectures (JEPA): Foundations, Applications, and Future Directions - TechRxiv",
+    "type": "web_page",
+    "url": "https://www.techrxiv.org/users/866579/articles/1365143/master/file/data/JEPA_Tutorial%20(3)/JEPA_Tutorial%20(3).pdf"
+  },
+  {
+    "id": "c6b6c910-c2fc-49b0-9365-82ac9c427e6e",
+    "title": "Unlocking the Potential of Generative AI through Neuro-Symbolic Architectures – Benefits and Limitations - arXiv",
+    "type": "web_page",
+    "url": "https://arxiv.org/html/2502.11269v1"
+  },
+  {
+    "id": "a511635e-986d-40fe-9e41-a72ee96de30b",
+    "title": "Using Neural Networks for Tool Wear Prediction in Computer Numerical Control End Milling - Sensors and Materials",
+    "type": "pdf",
+    "url": "https://sensors.myu-group.co.jp/sm_pdf/SM2854.pdf"
+  },
+  {
+    "id": "171c5233-80da-4eff-9bf1-38e47093f845",
+    "title": "Why data, not AI, is the real constraint in automotive production",
+    "type": "web_page",
+    "url": "https://www.automotivemanufacturingsolutions.com/smart-factory/why-data-not-ai-is-the-real-constraint-in-automotive-production/2640596"
+  },
+  {
+    "id": "092a630e-3efa-4143-96f8-64b5492e2297",
+    "title": "[2602.10983] Scaling World Model for Hierarchical Manipulation Policies - arXiv",
+    "type": "web_page",
+    "url": "https://arxiv.org/abs/2602.10983"
+  },
+  {
+    "id": "6897d021-af97-4d39-8e7e-1dd73018e35d",
+    "title": "[PDF] Symplectic Learning for Hamiltonian Neural Networks - Semantic Scholar",
+    "type": "web_page",
+    "url": "https://www.semanticscholar.org/paper/cba636535d97fed5ec13a578cd194a4f97caed78"
+  },
+  {
+    "id": "55778bb1-f283-44a8-9031-46f0eab828e4",
+    "title": "arXiv:2503.01411v1 [cs.LG] 3 Mar 2025",
+    "type": "web_page",
+    "url": "https://arxiv.org/abs/2503.01411"
+  },
+  {
+    "id": "4d7f9669-a10d-407f-9d7c-d29e02455c73",
+    "title": "boschresearch/CNC_Machining: data set for process monitoring on CNC machines - GitHub",
+    "type": "web_page",
+    "url": "https://github.com/boschresearch/CNC_Machining"
+  },
+  {
+    "id": "f6af252e-32c1-4d98-a3e0-30ecaa047b9b",
+    "title": "https://acr-journal.com/article/download/pdf/1231/",
+    "type": "pdf",
+    "url": "https://acr-journal.com/article/download/pdf/1231/"
+  },
+  {
+    "id": "de372d4a-2072-40bb-a127-77fa848002dd",
+    "title": "https://admin.mantechpublications.com/index.php/JoMMSM/article/viewFile/3060/1659",
+    "type": "pdf",
+    "url": "https://admin.mantechpublications.com/index.php/JoMMSM/article/viewFile/3060/1659"
+  },
+  {
+    "id": "e2d2bb42-444e-4808-908d-228be23a5591",
+    "title": "https://apem-journal.org/Archives/2025/Abstract-APEM20-2_224-238.pdf",
+    "type": "pdf",
+    "url": "https://apem-journal.org/Archives/2025/Abstract-APEM20-2_224-238.pdf"
+  },
+  {
+    "id": "bf836856-52b5-43a5-aff9-5abe4fec0ddd",
+    "title": "https://duurzaamheiloo.nl/wp-content/uploads/2024/10/From-economics-of-scale-to-economics-of-numbers-with-residents.pdf",
+    "type": "pdf",
+    "url": "https://duurzaamheiloo.nl/wp-content/uploads/2024/10/From-economics-of-scale-to-economics-of-numbers-with-residents.pdf"
+  },
+  {
+    "id": "5a95d34d-bca8-44ed-853c-62da7b835191",
+    "title": "https://ijsra.net/sites/default/files/fulltext_pdf/IJSRA-2023-0491.pdf",
+    "type": "pdf",
+    "url": "https://ijsra.net/sites/default/files/fulltext_pdf/IJSRA-2023-0491.pdf"
+  },
+  {
+    "id": "e4cb6ce0-6383-4454-9369-387ac446090b",
+    "title": "https://premierscience.com/wp-content/uploads/2025/10/5-pjs-25-1320.pdf",
+    "type": "pdf",
+    "url": "https://premierscience.com/wp-content/uploads/2025/10/5-pjs-25-1320.pdf"
+  },
+  {
+    "id": "2fb0e35c-47a6-4470-b19d-19d031c63cd9",
+    "title": "https://rmi.org/wp-content/uploads/2017/06/Small_Is_Profitable_Book_2002.pdf",
+    "type": "pdf",
+    "url": "https://rmi.org/wp-content/uploads/2017/06/Small_Is_Profitable_Book_2002.pdf"
+  },
+  {
+    "id": "91bf5ab0-d8ea-4834-b3e2-d1888af4f89d",
+    "title": "https://scholarworks.umt.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=3531&context=etd",
+    "type": "pdf",
+    "url": "https://scholarworks.umt.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=3531&context=etd"
+  },
+  {
+    "id": "ad6a3fe1-e07a-4a77-8f1d-45ca52f5187f",
+    "title": "https://sensors.myu-group.co.jp/sm_pdf/SM3796.pdf",
+    "type": "pdf",
+    "url": "https://sensors.myu-group.co.jp/sm_pdf/SM3796.pdf"
+  },
+  {
+    "id": "9fc6bf94-5cb3-4b54-a820-ba9717ba0e2d",
+    "title": "https://www.cecimo.eu/wp-content/uploads/2023/06/Artificial-Intelligence-for-Machine-Tools.pdf",
+    "type": "pdf",
+    "url": "https://www.cecimo.eu/wp-content/uploads/2023/06/Artificial-Intelligence-for-Machine-Tools.pdf"
+  },
+  {
+    "id": "98e91aa0-bcdf-4825-b2a1-b50d75ec1566",
+    "title": "https://www.clausiuspress.com/assets/default/article/2025/10/14/article_1760450980.pdf",
+    "type": "pdf",
+    "url": "https://www.clausiuspress.com/assets/default/article/2025/10/14/article_1760450980.pdf"
+  },
+  {
+    "id": "949df684-5125-454e-97c9-8e7595f2ea41",
+    "title": "https://www.frontiersin.org/journals/blockchain/articles/10.3389/fbloc.2019.00029/pdf",
+    "type": "pdf",
+    "url": "https://www.frontiersin.org/journals/blockchain/articles/10.3389/fbloc.2019.00029/pdf"
+  },
+  {
+    "id": "5bb69fa6-ef11-4e43-a0fb-e243b83e016d",
+    "title": "https://www.ijcrt.org/papers/IJCRT2512522.pdf",
+    "type": "pdf",
+    "url": "https://www.ijcrt.org/papers/IJCRT2512522.pdf"
+  },
+  {
+    "id": "cd56e75d-6be5-4bf1-aa36-351c8eecb8ca",
+    "title": "https://www.ijfmr.com/papers/2025/5/56942.pdf",
+    "type": "pdf",
+    "url": "https://www.ijfmr.com/papers/2025/5/56942.pdf"
+  },
+  {
+    "id": "1b7bea95-2194-48dd-be93-354271dad557",
+    "title": "https://www.nitindermohan.com/documents/2021/pubs/deChallenge-iwci-2021.pdf",
+    "type": "pdf",
+    "url": "https://www.nitindermohan.com/documents/2021/pubs/deChallenge-iwci-2021.pdf"
+  },
+  {
+    "id": "0f764c66-797e-42ac-8585-a84192fa2e0a",
+    "title": "https://www.sciencexcel.com/articles/tA2EXaU930ap7WTSMfqZLet9YmNHyfDXoDIfywIZ.pdf",
+    "type": "pdf",
+    "url": "https://www.sciencexcel.com/articles/tA2EXaU930ap7WTSMfqZLet9YmNHyfDXoDIfywIZ.pdf"
+  }
+]

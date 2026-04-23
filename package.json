@@ -1,6 +1,6 @@
 {
   "name": "pi-qmd-ledger",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "description": "Universal configurable JSONL ledger with qmd hybrid search, tiered HITL, and dynamic context injection.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -47,6 +47,7 @@
     ]
   },
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsc",
     "test": "node --test dist/test/index.test.js",
     "lint": "eslint .",

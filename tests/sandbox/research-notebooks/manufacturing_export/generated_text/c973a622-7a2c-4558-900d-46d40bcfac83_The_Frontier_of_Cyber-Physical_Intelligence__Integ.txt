@@ -1,0 +1,557 @@
+The Frontier of Cyber-Physical Intelligence: Integrating Physics-Informed Learning, Neuro-Symbolic Reasoning, and Agentic Governance in Smart Manufacturing
+
+The evolution of industrial production from rigid automation toward flexible, intelligent, and autonomous systems represents the current vanguard of smart manufacturing. This paradigm shift, often categorized under the umbrellas of Industry 4.0 and 5.0, is defined by the seamless integration of physical processes with advanced computational models. As manufacturing environments become increasingly complex, characterized by high-speed machining, multi-physics interactions, and distributed supply chains, traditional data-driven artificial intelligence has encountered significant limitations. These limitations—ranging from a lack of physical consistency and poor interpretability to extreme data dependency—have necessitated a new generation of hybrid methodologies. The following report provides an exhaustive analysis of the critical challenges and future frontiers in this domain, focusing on Physics-Informed Machine Learning (PIML), the bridging of the simulation-to-real-world "reality gap," the development of explainable and trustworthy AI, the rise of neuro-symbolic architectures, and the optimization of distributed manufacturing networks under data scarcity.
+
+Physics-Informed Machine Learning and the Evolution of Digital Twins
+
+The concept of a Digital Twin (DT) has progressed from a static CAD model to a dynamic, real-time representation of physical assets. However, the fidelity of a DT is fundamentally constrained by its ability to model complex, time-varying phenomena such as tool wear, thermal expansion, and mechanical chatter.[1, 2] Traditional deep learning models, while capable of high-dimensional pattern recognition, often behave as "black boxes" that ignore the governing laws of physics, leading to predictions that are physically implausible or unstable over long horizons.[3, 4] Physics-Informed Machine Learning (PIML) addresses this by embedding differential equations and physical constraints directly into the neural architecture, ensuring that the model learns the underlying mechanisms of the process rather than just statistical correlations.[3, 5]
+
+Multi-Physics Field Coupling and Tool Wear Modeling
+
+In the context of tool condition monitoring (TCM), wear is rarely the result of a single isolated mechanism. Instead, it involves a nonlinear coupling of mechanical stress, thermal gradients, and chemical degradation.[1] Integrating these dynamic, multi-physical fields into Physics-Informed Neural Networks (PINNs) is a primary challenge for enhancing tool life prediction under time-varying cutting conditions. The Empirical Formula-PINN (EF-PINN) framework represents a significant advancement in this area. Unlike standard neural networks that require massive labeled datasets, EF-PINN embeds empirical wear laws—such as Taylor’s tool life equations or the Usui wear model—as soft physical constraints within the loss function.[1]
+
+The mathematical formulation of the PINN loss function typically includes a supervised component for data fitting and a regularization component for the physical residuals. In EF-PINN, the loss is defined as 
+
+L = L_{data} + \lambda L_{phys}
+
+, where 
+
+L_{phys}
+
+ represents the residual of the empirical wear equation.[1, 5] This approach allows the model to capture macroscopic wear trends (the overall degradation path) while simultaneously utilizing data-driven features to model microscopic fluctuations and nonlinearities that empirical formulas often overlook.[1] Experimental results indicate that EF-PINN achieves superior performance in wear trend fitting and generalization across varying cutting depths and feed rates, significantly outperforming traditional Long Short-Term Memory (LSTM) networks.[1, 5]
+
+Furthermore, the integration of multi-physics coupling has been extended to rotating machinery through architectures like the Reynolds-and-energy-coupled PINN (RAE-PINN). This framework solves the energy-Reynolds equations for hydrodynamic journal bearings, incorporating the viscosity-temperature effect.[3] The RAE-PINN demonstrates the potential for real-time industrial deployment by achieving a computational speedup of over 300 times compared to traditional numerical solvers, reducing analysis time from minutes to milliseconds without sacrificing accuracy.[3]
+
+PINN Architecture Variant
+
+Primary Physical Constraint
+
+Industrial Application
+
+Key Performance Improvement
+
+EF-PINN
+
+Empirical Tool Wear Laws
+
+Subtractive Manufacturing
+
+Enhanced accuracy in small-sample scenarios.[1]
+
+RAE-PINN
+
+Reynolds/Energy Equations
+
+Rotating Machinery
+
+300x speedup in bearing analysis.[3]
+
+FlexPINN
+
+3D Navier-Stokes/Mass Balance
+
+Complex Microfluidics
+
+Handling of internal baffles and complex geometry.[3]
+
+PI-NODE-SR
+
+Scale-Aware Residuals
+
+Multi-Scale Dynamics
+
+Improved convergence for oscillatory systems.[3]
+
+TPINN
+
+Attention-based Multi-Degradation
+
+Civil Infrastructure
+
+Modeling of sulfate and thermal degradation.[3]
+
+Reconciling Data and Physics: Hamiltonian and Symplectic Architectures
+
+One of the most persistent tensions in AI-driven manufacturing is the conflict between the stochastic nature of machine learning and the exact conservation laws required for stable simulations.[4, 6] Standard neural networks do not inherently respect the conservation of energy, momentum, or mass, which can lead to "energy drift" in long-horizon predictions—a catastrophic failure for digital twins used in structural health monitoring or process optimization.[4, 7] Hamiltonian Neural Networks (HNNs) provide a novel architectural solution by drawing inspiration from Hamiltonian mechanics.[4]
+
+Instead of learning a direct mapping between input states and output trajectories, an HNN learns a parametric representation of the system’s total energy, the Hamiltonian 
+
+H(q, p)
+
+, where 
+
+q
+
+ and 
+
+p
+
+ are position and momentum.[4, 8] The dynamics are then obtained by integrating the symplectic gradient of the Hamiltonian:
+
+\dot{q} = \frac{\partial H}{\partial p}, \quad \dot{p} = -\frac{\partial H}{\partial q}
+
+This approach ensures that the model learns to respect exact conservation laws in an unsupervised or semi-supervised manner.[4, 9] To address the limitations of HNNs in dissipative environments—which are common in manufacturing due to friction and thermal loss—Stable Port-Hamiltonian Neural Networks (sPHNNs) have been developed.[10, 11] The sPHNN architecture incorporates both energy-conserving and energy-dissipating terms, guaranteeing global Lyapunov stability of the learned dynamics.[10, 12] By constraining the learned Hamiltonian function to be a convex, positive definite Lyapunov function, sPHNNs ensure that the system’s energy remains bounded, providing a physically grounded inductive bias that significantly improves robustness against noise and data sparsity.[11]
+
+The use of symplectic integrators (e.g., the leapfrog or fourth-order Runge-Kutta schemes) within the training loop further enhances long-term prediction accuracy.[6, 8] These integrators preserve the symplectic structure of the phase space, meaning they maintain the volume and topology of the system's states over time.[6, 8] For digital twins in complex industrial environments, these mathematically rigorous architectures transition the AI from a mere curve-fitter to a reliable, physics-consistent simulator capable of stable, multi-step-ahead forecasting.[6, 13]
+
+Overcoming Computational Bottlenecks and Convergence Issues
+
+Despite their theoretical advantages, PINNs and HNNs face significant computational challenges, particularly regarding training convergence and the handling of multi-scale phenomena.[3] The "stiffness" of the loss function, where physical residuals may be orders of magnitude larger than data-fitting errors, often leads to vanishing gradients or convergence to suboptimal local minima.[3] Recent research has introduced scale-aware residuals (PI-NODE-SR) and adaptive loss weighting to balance the contributions of different state variables evolving on disparate timescales.[3]
+
+Efficiency is also being addressed through hybrid offline-online frameworks. In these systems, an expensive offline stage is used to learn the core physics of a system across a range of parameters, building a compact library of pre-trained models.[3] During the rapid online stage, the system can generate near-instantaneous predictions by solving a simplified linear combination of these models—an approach up to 10,000 times faster than standard numerical methods while maintaining relative errors as low as 0.1%.[3] This duality is essential for closing the loop in autonomous manufacturing, where control signals must be generated within the cycle time of the machining process.[14, 15]
+
+Bridging the Reality Gap: From Simulation to the Shop Floor
+
+A critical hurdle in the deployment of AI for manufacturing is the performance degradation observed when models trained in controlled, simulated environments are applied to real-world machining conditions.[16, 17] This "reality gap" is driven by factors such as unmodeled machine dynamics, sensor noise, variable workpiece material properties, and environmental fluctuations.[16, 18]
+
+Transfer Learning and Domain Adaptation in Chatter Detection
+
+Chatter, a self-excited vibration phenomenon, is particularly sensitive to the reality gap. While analytical stability lobe diagrams (SLDs) provide a theoretical basis for chatter prediction, they often fail to account for the specific damping and stiffness characteristics of individual machine tools.[16, 19] To bridge this gap, researchers have developed frameworks that combine massive simulated datasets with targeted transfer learning.[16, 18]
+
+In a representative study, a Random Forest (RF) classifier was trained on over 140,000 simulated machining datasets.[16, 17] To adapt this general model to specific real-world machines, advanced techniques like Operational Modal Analysis (OMA) and Receptance Coupling Substructure Analysis (RCSA) were employed.[16, 17] These physical analysis methods provide the model with the structural signatures of the actual machine-tool system, allowing the transfer learning process to "fine-tune" the decision boundaries established in simulation.[16, 17] The resulting adapted models have demonstrated high performance metrics on real-world operational data, achieving an accuracy of 86.1%, a precision of 91.3%, and an F1-score of 85.9%.[18, 19] This demonstrates that the integration of physics-based structural identification with machine learning is more effective than either approach used in isolation.
+
+Handling Non-Stationary and Incomplete Data
+
+Manufacturing environments are inherently non-stationary; the statistical distribution of vibration, temperature, and force signals shifts as tools wear, components heat up, and batch materials change.[20, 21] Conventional deep learning models, which assume independent and identically distributed (i.i.d.) data, frequently fail in these scenarios.[21] Effective AI frameworks must utilize non-stationary, incomplete, and noisy data by incorporating domain-specific signal processing and semi-supervised learning.[21, 22]
+
+Data augmentation plays a crucial role here. Traditional heuristic methods like noise injection or signal cropping are being superseded by machine-learning-based augmentation, such as Generative Adversarial Networks (GANs) and variational autoencoders.[21] These models can learn the underlying noise profile of a specific factory floor and generate synthetic training samples that reflect real-world imperfections.[21] When combined with domain adaptation (DA) techniques, which minimize the statistical divergence between source (simulation) and target (real-world) domains, these frameworks ensure that predictive performance remains robust even as the manufacturing environment evolves.[21]
+
+Data Gap Challenge
+
+Mechanism for Mitigation
+
+Industrial Utility
+
+Unmodeled Dynamics
+
+Receptance Coupling Substructure Analysis (RCSA)
+
+Aligning simulated tool-point dynamics with physical machine behavior.[16, 17]
+
+Sensor Noise/Interference
+
+GAN-based Data Augmentation
+
+Improving robustness of fault diagnosis by up to 5%.[21]
+
+Non-Stationary Regimes
+
+Domain Adaptation (DA)
+
+Maintaining model accuracy across different shifts or batches.[21]
+
+Missing High-Fidelity Labels
+
+Semi-Supervised Learning (SSL)
+
+Leveraging vast unlabeled stream data to refine diagnostic boundaries.[21]
+
+Explainable AI (XAI) and Human-Machine Trust
+
+In high-stakes manufacturing, the inability of human operators to understand the reasoning behind an AI's prediction is a major barrier to adoption.[23, 24] If an AI system recommends a tool change or an emergency stop without a transparent justification, shop-floor personnel may override the decision, leading to safety risks or unnecessary downtime.[25]
+
+Encapsulating Expert Domain Knowledge
+
+The transition from "black-box" models to explainable tools involves systematically embedding human domain knowledge into the AI pipeline.[26, 27] This knowledge includes physical derivations, degradation theories, and years of practical experience in troubleshooting machining defects.[26, 27] Research indicates that expert knowledge should be integrated at two primary stages: model development and explanation generation.[26, 27]
+
+During model development, experts guide "expert-guided data structuring" and "synoptic feature construction".[27] Instead of the traditional workflow where raw data is fed directly into automated feature extraction, experts help define the most physically meaningful representations, such as frequency-domain signatures corresponding to specific bearing fault frequencies.[27, 28] In the explanation phase, domain-aware synthetic neighborhoods are used to provide contextually relevant justifications.[26, 27] While standard XAI methods like LIME or SHAP create random local perturbations to explain a prediction, domain-aware methods ensure that these perturbations respect physical constraints, preventing the generation of "impossible" explanations that would erode operator trust.[24, 27]
+
+Governance, Accountability, and Safety in Agentic AI
+
+The emergence of "Agentic AI"—systems capable of autonomous planning, multi-step decision-making, and direct interaction with cyber-physical infrastructure—introduces new risks related to judgment and accountability.[29, 30] Unlike simple predictive models, agentic systems exercise delegated authority over physical hardware.[31, 32] The primary danger is not a lack of intelligence, but a lack of judgment; an agent might execute a task perfectly while failing to recognize that a change in the environment makes that task a catastrophic mistake.[31]
+
+To mitigate these risks, a multi-layered governance framework is required, integrating technical safeguards with organizational accountability.[30, 33] Key pillars of this framework include:
+
+Design for Controlled Autonomy:
+
+ Every AI agent must have a designated human owner (e.g., a site maintenance manager) responsible for its decisions.[29, 33] Accountability is maintained through "authority documentation," which specifies which decisions are independent and which require human approval.[33]
+
+Engineering Technical Controls:
+
+ Industrial systems must incorporate "automated circuit breakers" and physical emergency stops.[33] These controls ensure that any anomalous or unsafe pattern of agent decisions is instantly suspended.[33]
+
+Continuous Oversight and Forensic Readiness:
+
+ Regulations like the EU AI Act classify cybersecurity and industrial safety AI as high-risk, necessitating rigorous audit trails.[30, 32] Governance frameworks must ensure that every agent decision includes a transparent record of evidence, reasoning, and actions taken to support root-cause analysis after an incident.[32, 34]
+
+Autonomy Level
+
+Definition
+
+Governance Requirement
+
+Level 1: Monitoring
+
+AI observes and flags anomalies.
+
+Human oversight of alerts; periodic log reviews.[33, 35]
+
+Level 2: Prescriptive
+
+AI recommends specific adjustments.
+
+Human approval required for all actions; high explainability.[32, 33]
+
+Level 3: Bounded Autonomy
+
+AI executes within strict parameter limits.
+
+Automated range verification; site manager accountability.[33]
+
+Level 4: Full Autonomy
+
+AI manages complex, multi-system workflows.
+
+Red teaming; CISO/Plant Manager sign-off; full audit trails.[32, 33]
+
+Currently, a significant gap exists between AI deployment and governance readiness. While 63% of manufacturers report maintaining human oversight, only 7% conduct adversarial testing or "red teaming," leaving production lines vulnerable to both accidental failures and intentional cyberattacks targeting the model’s logic.[34]
+
+Neuro-Symbolic Integration and Closed-Loop Autonomy
+
+The fundamental limitation of large language models (LLMs) and other neural architectures in manufacturing is their inability to perform rigorous logical reasoning or adhere to strict, zero-tolerance safety constraints.[25] Neuro-symbolic (NeSy) AI addresses this by combining the adaptable pattern-recognition of neural networks with the verifiable constraint-checking of symbolic reasoners.[25, 36]
+
+Hybrid Architectures for G-code and Control Synthesis
+
+In autonomous control, generating G-code for CNC machines requires absolute syntactic and semantic correctness; a single misplaced coordinate or an impossible feed rate can result in a tool crash.[37] LLMs, acting as "next-token predictors," often struggle with these requirements, leading to hallucinations or logic violations.[25, 37] Neurosymbolic Attribute Grammars (NSGs) solve this by layering a symbolic layer—such as a deterministic finite automaton (DFA) or a constraint solver—on top of the LLM’s output.[37, 38]
+
+During the generation process, the LLM proposes potential code tokens, but the symbolic reasoner filters these against a "symbol table" and a library of domain constraints (e.g., "feed rate must not exceed spindle power limit").[37, 38] This cooperative architecture ensures that the LLM retains its flexibility in solving complex problems while the symbolic component provides a safety-critical "guardrail".[38] Evaluations of NSG-based code generators have shown that they achieve 86% syntactic correctness compared to roughly 65-68% for standard transformers, nearly doubling the performance in fidelity metrics that measure adherence to intended behavior.[37]
+
+Achieving Closed-Loop Autonomy through Reinforcement and Online Learning
+
+The ultimate goal of smart manufacturing is a closed-loop system where AI not only monitors but also dynamically adjusts machining parameters on the fly.[2, 14] This requires a combination of reinforcement-based retraining policies and continuous feedback loops.[32, 39] In these systems, agentic AI evaluates real-time sensor data—correlating vibrations, forces, and acoustic emissions—and executes adjustments to maintain optimal quality and throughput.[32, 40]
+
+High-impact actions, such as shutting down a production system or radically modifying a security policy, still require human-in-the-loop (HITL) authorization.[32, 39] However, low-risk optimization tasks are increasingly delegated to autonomous agents that utilize policy gradient methods to optimize multiple objectives simultaneously (e.g., maximizing material removal rate while minimizing tool wear).[39, 40] The integration of these techniques allows manufacturing facilities to transition from reactive maintenance to proactive, autonomous management where machines "learn" and "self-correct" in real-time.[2, 41]
+
+Data Scarcity and Distributed Optimization: Federated and Active Learning
+
+Manufacturing data is often "siloed" due to proprietary concerns, trade secrets, and regulatory requirements.[41, 42] This creates a paradox: while AI needs massive datasets to reach industrial-grade accuracy, manufacturers are reluctant to share the data necessary to train these models.[41, 42]
+
+Federated Learning for Privacy-Preserving Maintenance
+
+Federated Learning (FL) offers a transformative approach to this challenge by enabling collaborative model training across decentralized facilities without the need to centralize raw data.[41, 42] In a horizontal FL architecture, multiple factories or individual machines train a model locally on their proprietary data and then share only the learned gradients or weights with a central aggregator.[41, 42]
+
+Research conducted across aerospace manufacturing facilities has demonstrated that FL can achieve 93.7% of the accuracy of a centralized model while eliminating the need for cross-facility data sharing.[42] Furthermore, network data transfer requirements were decreased by 94%, as only model updates were transmitted rather than raw, high-frequency sensor streams.[42] This framework protects intellectual property by ensuring that proprietary process parameters cannot be reconstructed from the shared updates, thereby enabling industry-wide collaboration on maintenance and quality models while maintaining strict competitive confidentiality.[41, 42]
+
+Active Learning and High-Gradient Sampling
+
+To address data scarcity within a single facility, Active Learning (AL) strategies are implemented to intelligently prioritize which data points should be labeled.[39, 43] In manufacturing, labeling—such as destructive testing or manual tool wear measurement—is often the most expensive and time-consuming part of the AI workflow.[39, 43]
+
+The "expected model change" strategy identifies samples that would maximally change the model's parameters or outputs if their true label were known.[39] This is often quantified through the gradient norm; a high gradient suggests that the model is highly uncertain about the sample and that labeling it would yield significant progress.[39, 40] In industrial electromagnetic compatibility (EMC) testing, a "Four-Vote" active learning method—combining metrics for entropy, variance, spatial density, and representativeness—reduced total data acquisition time by 75% while maintaining high-fidelity field reconstruction.[44] This ability to "sample intelligently" allows for the development of accurate deep learning models with significantly less data, making AI updates more cost-effective and scalable across different product lines.[39, 44]
+
+Learning Paradigm
+
+Privacy/Data Strategy
+
+Industrial Benefit
+
+Federated Learning
+
+Decentralized weight updates; raw data remains local.
+
+Multi-factory collaboration without trade secret exposure.[41, 42]
+
+Active Learning
+
+Querying high-gradient/uncertain data points.
+
+75% reduction in data collection and labeling time.[39, 44]
+
+Semi-Supervised Learning
+
+Joint learning from labeled and unlabeled streams.
+
+Utilizing 99% of unlabeled shop-floor data to improve accuracy.[21]
+
+Multi-Fidelity Modeling
+
+Combining simulation with sparse experimental labels.
+
+Overcoming data sparsity in extreme environments (e.g., drug discovery).[45, 46]
+
+Conclusions and Future Outlook
+
+The convergence of physics-informed machine learning, neuro-symbolic reasoning, and agentic autonomy defines the future of smart manufacturing. By reconciling the fundamental tension between data-driven AI and physical laws, PIML and Hamiltonian architectures have provided the stability required for long-horizon digital twin predictions. The "reality gap" is increasingly bridged through structural physical analysis and domain adaptation, ensuring that models transition successfully from simulation to the shop floor.
+
+However, the path toward Level 5 autonomy—fully self-governing production lines—requires more than just technical precision; it demands a robust framework for explainability and governance. As AI systems take on the role of "agents," the integration of expert domain knowledge and logic-based safety constraints becomes a non-negotiable requirement for industrial trust and regulatory compliance. Federated and active learning will continue to be the primary mechanisms for scaling these models across distributed manufacturing networks while protecting proprietary data.
+
+The broader implication of this research is a fundamental shift in the role of the human expert. Rather than performing routine troubleshooting, the manufacturing engineer of the future will serve as an "agent owner" and a "knowledge architect," designing the physical and symbolic constraints that guide autonomous systems. The ultimate success of AI-driven smart manufacturing will be measured not just by accuracy or throughput, but by the seamless and trustworthy collaboration between machine intelligence and human engineering wisdom.
+
+
+--------------------------------------------------------------------------------
+
+
+PINN-Based Tool Wear Modeling and Prediction - International ..., 
+
+https://ijettjournal.org/Volume-73/Issue-11/IJETT-V73I11P105.pdf
+
+https://ijettjournal.org/Volume-73/Issue-11/IJETT-V73I11P105.pdf
+
+Digital Twin AI: Opportunities and Challenges from Large Language Models to World Models - arXiv, 
+
+https://arxiv.org/html/2601.01321v1
+
+https://arxiv.org/html/2601.01321v1
+
+A physics-informed neural network framework for multi-physics coupling microfluidic problems | Request PDF - ResearchGate, 
+
+https://www.researchgate.net/publication/383762904_A_physics-informed_neural_network_framework_for_multi-physics_coupling_microfluidic_problems
+
+https://www.researchgate.net/publication/383762904_A_physics-informed_neural_network_framework_for_multi-physics_coupling_microfluidic_problems
+
+Hamiltonian Neural Networks - NIPS, 
+
+http://papers.neurips.cc/paper/9672-hamiltonian-neural-networks.pdf
+
+http://papers.neurips.cc/paper/9672-hamiltonian-neural-networks.pdf
+
+PINN-Based Tool Wear Modeling and Prediction, 
+
+https://ijettjournal.org/archive/ijett-v73i11p105
+
+https://ijettjournal.org/archive/ijett-v73i11p105
+
+Symplectic Learning for Hamiltonian Neural Networks | Request PDF - ResearchGate, 
+
+https://www.researchgate.net/publication/374074521_Symplectic_Learning_for_Hamiltonian_Neural_Networks
+
+https://www.researchgate.net/publication/374074521_Symplectic_Learning_for_Hamiltonian_Neural_Networks
+
+Symplectic learning for Hamiltonian neural networks - Florian Méhats, 
+
+https://mehats.pages.math.cnrs.fr/pdf/shnn.pdf
+
+https://mehats.pages.math.cnrs.fr/pdf/shnn.pdf
+
+Sparse Symplectically Integrated Neural Networks, 
+
+https://proceedings.neurips.cc/paper/2020/file/439fca360bc99c315c5882c4432ae7a4-Paper.pdf
+
+https://proceedings.neurips.cc/paper/2020/file/439fca360bc99c315c5882c4432ae7a4-Paper.pdf
+
+[PDF] Symplectic Learning for Hamiltonian Neural Networks - Semantic Scholar, 
+
+https://www.semanticscholar.org/paper/cba636535d97fed5ec13a578cd194a4f97caed78
+
+https://www.semanticscholar.org/paper/cba636535d97fed5ec13a578cd194a4f97caed78
+
+Stable Port-Hamiltonian Neural Networks - OpenReview, 
+
+https://openreview.net/pdf/eb87c416e08d82f38d8c1acac82e5a4219f384a7.pdf
+
+https://openreview.net/pdf/eb87c416e08d82f38d8c1acac82e5a4219f384a7.pdf
+
+PHYSICS-GUIDED NEURAL NETWORKS FOR LYAPUNOV-STABLE DYNAMIC SYSTEM IDENTIFICATION - CIMNE Congress Bureau, 
+
+https://congressarchive.cimne.com/dte_aicomas_2025/abstracts/a52c932486ee11efb344000c29ddfc0c.pdf
+
+https://congressarchive.cimne.com/dte_aicomas_2025/abstracts/a52c932486ee11efb344000c29ddfc0c.pdf
+
+(PDF) Stable Port-Hamiltonian Neural Networks - ResearchGate, 
+
+https://www.researchgate.net/publication/388686659_Stable_Port-Hamiltonian_Neural_Networks
+
+https://www.researchgate.net/publication/388686659_Stable_Port-Hamiltonian_Neural_Networks
+
+Continuous-time air pollutant forecasting using multi-timescale attention neural ordinary differential equations (MA-NODE) - PMC, 
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12717271/
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12717271/
+
+News – Cyber-Physical Simulation - Fachbereich Maschinenbau TU Darmstadt, 
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/index.en.jsp
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/index.en.jsp
+
+Mathematical Modeling Techniques in Virtual Reality Technologies: An Integrated Review of Physical Simulation, Spatial Analysis, and Interface Implementation - MDPI, 
+
+https://www.mdpi.com/2073-8994/18/2/255
+
+https://www.mdpi.com/2073-8994/18/2/255
+
+Transitioning from Simulation to Reality: Applying Chatter Detection Models to Real-World Machining Data, 
+
+https://trace.tennessee.edu/cgi/viewcontent.cgi?filename=2&article=12139&context=utk_graddiss&type=additional
+
+https://trace.tennessee.edu/cgi/viewcontent.cgi?filename=2&article=12139&context=utk_graddiss&type=additional
+
+Transitioning from Simulation to Reality: Applying Chatter Detection ..., 
+
+https://www.mdpi.com/2075-1702/12/12/923
+
+https://www.mdpi.com/2075-1702/12/12/923
+
+Transitioning from Simulation to Reality: Applying Chatter Detection Models to Real-World Machining Data (Journal Article) - OSTI, 
+
+https://www.osti.gov/pages/biblio/2538145
+
+https://www.osti.gov/pages/biblio/2538145
+
+Enhancing Chatter Detection in Machining Processes Using Machine Learning: From Simulated Models to Real-World Validation, 
+
+https://trace.tennessee.edu/entities/publication/05f39b60-5bc0-4314-9614-c628bce10e90
+
+https://trace.tennessee.edu/entities/publication/05f39b60-5bc0-4314-9614-c628bce10e90
+
+Physics-informed Gaussian process for tool wear prediction - PubMed, 
+
+https://pubmed.ncbi.nlm.nih.gov/37770369/
+
+https://pubmed.ncbi.nlm.nih.gov/37770369/
+
+A Review on AI for Smart Manufacturing: Deep Learning Challenges and Solutions - MDPI, 
+
+https://www.mdpi.com/2076-3417/12/16/8239
+
+https://www.mdpi.com/2076-3417/12/16/8239
+
+Deep learning for smart manufacturing: Methods and applications - UCF Department of Mechanical and Aerospace Engineering - University of Central Florida, 
+
+https://mae.ucf.edu/dazhongwu/wp-content/uploads/2019/06/Deep-Learning-for-Smart-Manufacturing-Methods-and-Applications.pdf
+
+https://mae.ucf.edu/dazhongwu/wp-content/uploads/2019/06/Deep-Learning-for-Smart-Manufacturing-Methods-and-Applications.pdf
+
+Explainable AI: Learning from the Learners - arXiv, 
+
+https://arxiv.org/html/2601.05525v2
+
+https://arxiv.org/html/2601.05525v2
+
+Explainable AI-Driven Quality and Condition Monitoring in Smart Manufacturing - PMC, 
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12899597/
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12899597/
+
+Neurosymbolic AI Aims to Make AI Safe for the C-Suite | PYMNTS.com, 
+
+https://www.pymnts.com/artificial-intelligence-2/2026/neurosymbolic-ai-aims-to-make-ai-safe-for-the-c-suite/
+
+https://www.pymnts.com/artificial-intelligence-2/2026/neurosymbolic-ai-aims-to-make-ai-safe-for-the-c-suite/
+
+(PDF) Integrating human knowledge for explainable AI - ResearchGate, 
+
+https://www.researchgate.net/publication/396515788_Integrating_human_knowledge_for_explainable_AI
+
+https://www.researchgate.net/publication/396515788_Integrating_human_knowledge_for_explainable_AI
+
+Integrating human knowledge for explainable AI - CNR-IRIS, 
+
+https://iris.cnr.it/retrieve/fcc976e5-dd1a-48f4-9638-2bcb19905cc1/s10994-025-06879-x.pdf
+
+https://iris.cnr.it/retrieve/fcc976e5-dd1a-48f4-9638-2bcb19905cc1/s10994-025-06879-x.pdf
+
+AI in Context: Harnessing Domain Knowledge for Smarter Machine Learning - MDPI, 
+
+https://www.mdpi.com/2076-3417/14/24/11612
+
+https://www.mdpi.com/2076-3417/14/24/11612
+
+Governance of Agentic Artificial Intelligence Systems | Insights - Mayer Brown, 
+
+https://www.mayerbrown.com/en/insights/publications/2026/02/governance-of-agentic-artificial-intelligence-systems
+
+https://www.mayerbrown.com/en/insights/publications/2026/02/governance-of-agentic-artificial-intelligence-systems
+
+Framework for Government Policy on Agentic and Generative AI - TechRxiv, 
+
+https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175825815.57896005
+
+https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175825815.57896005
+
+Lost in Definition: How Confusion over Agentic AI Risks Undermining U.S. Governance Frameworks - CSIS, 
+
+https://www.csis.org/analysis/lost-definition-how-confusion-over-agentic-ai-risks-governance
+
+https://www.csis.org/analysis/lost-definition-how-confusion-over-agentic-ai-risks-governance
+
+Agentic AI for Cybersecurity & Autonomous Security Operations - eSentire, 
+
+https://www.esentire.com/resources/agentic-ai-in-cybersecurity
+
+https://www.esentire.com/resources/agentic-ai-in-cybersecurity
+
+Establishing Governance Frameworks for Agentic AI in Industrial ..., 
+
+https://www.hivemq.com/blog/establishing-governance-frameworks-agentic-ai-industrial-operations/
+
+https://www.hivemq.com/blog/establishing-governance-frameworks-agentic-ai-industrial-operations/
+
+Manufacturers' AI adoption is outpacing cyber, compliance, and risk ..., 
+
+https://www.scmr.com/article/manufacturers-ai-adoption-is-outpacing-cyber-compliance-and-risk-governance
+
+https://www.scmr.com/article/manufacturers-ai-adoption-is-outpacing-cyber-compliance-and-risk-governance
+
+AI Agent Evaluation: Frameworks, Strategies, and Best Practices | by Dave Davies - Medium, 
+
+https://medium.com/online-inference/ai-agent-evaluation-frameworks-strategies-and-best-practices-9dc3cfdf9890
+
+https://medium.com/online-inference/ai-agent-evaluation-frameworks-strategies-and-best-practices-9dc3cfdf9890
+
+Unlocking the Potential of Generative AI through Neuro-Symbolic Architectures – Benefits and Limitations - arXiv, 
+
+https://arxiv.org/html/2502.11269v1
+
+https://arxiv.org/html/2502.11269v1
+
+Neurosymbolic code generation. Innovation in Verification - SemiWiki, 
+
+https://semiwiki.com/eda/cadence/361711-neurosymbolic-code-generation-innovation-in-verification/
+
+https://semiwiki.com/eda/cadence/361711-neurosymbolic-code-generation-innovation-in-verification/
+
+Towards neuro-symbolic constrained decoding for reliable code ..., 
+
+https://dl.gi.de/bitstreams/706c975e-f0f4-4bfc-b735-00facba90d61/download
+
+https://dl.gi.de/bitstreams/706c975e-f0f4-4bfc-b735-00facba90d61/download
+
+Active Learning and Human Feedback for Large Language Models | IntuitionLabs, 
+
+https://intuitionlabs.ai/articles/active-learning-hitl-llms
+
+https://intuitionlabs.ai/articles/active-learning-hitl-llms
+
+Prediction of Machine Failures Using Machine Learning Methods - ResearchGate, 
+
+https://www.researchgate.net/publication/398059084_Prediction_of_Machine_Failures_Using_Machine_Learning_Methods
+
+https://www.researchgate.net/publication/398059084_Prediction_of_Machine_Failures_Using_Machine_Learning_Methods
+
+Federated Learning and its Role in Predictive Maintenance - IntechOpen, 
+
+https://www.intechopen.com/online-first/1233887
+
+https://www.intechopen.com/online-first/1233887
+
+Privacy-Preserving Federated Learning for Predictive Maintenance in Smart Manufacturing Networks - Journal of Graphic Engineering and Design, 
+
+https://jged.uns.ac.rs/index.php/ijiem/article/view/1721/1519
+
+https://jged.uns.ac.rs/index.php/ijiem/article/view/1721/1519
+
+Overview of Active Learning for Deep Learning - Jacob Gildenblat, 
+
+https://jacobgil.github.io/deeplearning/activelearning
+
+https://jacobgil.github.io/deeplearning/activelearning
+
+A Robust 3D Active Learning Framework Based on Multi-Metric Voting for Fast Electromagnetic Field Reconstruction with Sparse Sampling - MDPI, 
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Deep Batch Active Learning for Drug Discovery - eLife, 
+
+https://elifesciences.org/reviewed-preprints/89679v1
+
+https://elifesciences.org/reviewed-preprints/89679v1
+
+Machine Learning-Enhanced Feature Engineering for High-Fidelity Quasi-Isentropic Waveform Prediction under Data Sparsity Constraints - ACS Publications, 
+
+https://pubs.acs.org/doi/10.1021/acsami.5c23458
+
+https://pubs.acs.org/doi/10.1021/acsami.5c23458

@@ -176,6 +176,7 @@ Expected output: 17 tests across 5 test suites, all passing.
 - Comprehensive test suite
 - Prettier, ESLint, and typecheck configuration
 - Developer documentation and learnings
+- Architecture visualization for context injection flow (generated at /tmp/pi-visuals/pi-qmd-ledger-architecture.html)
 
 ### 🔄 In Progress
 
@@ -184,13 +185,11 @@ Expected output: 17 tests across 5 test suites, all passing.
 ### 📋 Upcoming
 
 - [ ] Add TypeScript parser to ESLint for `.ts` linting
-- [ ] Add CI configuration (`/.github/workflows/ci.yml`)
 - [ ] Add `.prettierignore` for all non-code files
 - [ ] Add `.eslintrc.json` for legacy projects
 - [ ] Create a `CONTRIBUTING.md` for contributor onboarding
 - [ ] Add advanced qmd configuration (custom embeddings, custom models)
 - [ ] Add ledger migration tools for schema changes
-- [ ] Create a visual diagram for architecture (tff-generate_visual)
 
 ---
 

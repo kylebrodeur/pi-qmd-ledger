@@ -1,0 +1,27 @@
+⭐ 9	alvivar/pi-link	A WebSocket-based inter-terminal communication system that creates a local network between multiple Pi coding agent terminals. Enables terminals to discover each other, exchange messages, and orchestrate work across agents, all automatically on localhost.
+⭐ 6	MattDevy/pi-extensions	A set of pi-extensions, including pi-continuous-learning that continually improves you pi coding agent experience
+⭐ 5	lsj5031/PiSwarm	
+⭐ 5	dustinbyrne/kb	pi extension for agentic development - kanban style
+⭐ 51	fuwasegu/aegis	DAG-based Deterministic Context Compiler for AI Coding Agents
+⭐ 4	skidvis/pi-coordinator	A pi extension that transforms the primary agent into a pure dispatcher/orchestrator. The coordinator is locked to one tools (dispatch_agent) and delegates all real work to a built-in team of three specialist subagents.
+⭐ 4	bazilicum/GraphLTM	Turn any LLM into a self-extending knowledge agent powered by a graph-structured memory - complete with PDF-to-graph ingestion, budget-aware optimisation, and dual-engine orchestration.
+⭐ 49	elevenlabs/cli	Command Line Interface to interact with ElevenLabs voice agents
+⭐ 44	mikekelly/gap	Give AI agents secure access to your accounts - without sharing your credentials
+⭐ 42	ogulcancelik/pi-extensions	Extensions for pi, the terminal-based coding agent
+⭐ 40	trendmicro/adk-agui-middleware	Python middleware bridging Google ADK agents with AGUI protocol via Server-Sent Events for real-time agent interactions
+⭐ 3	jongirard/pi-grove	Plan-aware agent orchestration for Pi. Grove reads a structured markdown plan, parses it into work streams with dependencies, and orchestrates parallel AI agents to execute them — all monitored through a real-time web dashboard.
+⭐ 3	arpagon/pi-context-zone	Visual context health bar for the Pi coding agent — see your smart/warm/dumb zone at a glance
+⭐ 38	monk1337/clicodelog	Browse & Inspect CLI agents : Claude Code, Codex, Gemini CLI code & conversation history
+⭐ 33	ifiokjr/oh-pi	One-click setup for pi-coding-agent — extensions, themes, prompts, skills, and ant-colony swarm. Like oh-my-zsh for pi.
+⭐ 30	brain-tree-dev/brain-tree-os	Open source brain viewer and project management for AI agents. Give your AI a brain.
+⭐ 2	kylebrodeur/universal-agent-context	Universal context system for AI agents: discover, translate, and manage agent skills across formats. Includes MCP server, CLI, and Python library.
+⭐ 2	blaxel-templates/template-blank-py	Start developing your agent on Blaxel from scratch
+⭐ 21	neo4j-contrib/neo4j-skills	Neo4j Skills for Coding and other Agents including Cypher
+⭐ 20	The-Mu-Foundation/Mutorials	A free, adaptive, open-source trainer for physics, chemistry, biology, and earth & space science students.
+⭐ 20	default-anton/pi-librarian	GitHub research subagent package for pi coding agent
+⭐ 1	kylebrodeur/wordpress-agent-kit	WordPress-focused AGENTS.md + Agent Skills starter kit for AI coding agents.
+⭐ 1	kylebrodeur/ux-collab	Visual-first UI/UX collaboration for AI agents — browser automation, screenshot comparison, wireframes, design tokens, and the 8-step design loop.
+⭐ 1	kylebrodeur/codebase-analysis	A collection of Claude Code agent skills for codebase analysis - find duplicate code, dead code, and architecture violations using jscpd, knip, and dependency-cruiser. Works with Node.js, Next.js, React, and shadcn/ui projects.
+⭐ 19	agentify-sh/speak	After Codex finishes its turn it will intelilgently read out what it did
+⭐ 16	sjnims/cc-plugin-eval	4-stage evaluation framework for testing Claude Code plugin component triggering. Validates skills, agents, and commands activate correctly via programmatic detection and LLM judgment.
+⭐ 13	neo4j-labs/neo4j-agent-integrations	Neo4j Agent Framework and Platform Integrations

@@ -1,6 +1,23 @@
 ---
 name: qmd-ledger
 description: Universal append-only JSONL ledger with qmd semantic search and tiered HITL (strict, gated, autopilot). Use when tracking structured facts, decisions, requirements, research, or any append-only record across projects. Supports dynamic context injection into prompts. Install the pi-qmd-ledger extension first.
+
+## Common Pitfalls
+
+### Self-Referential Dependencies
+During publishing, accidentally including the package itself as a dependency (e.g., via `github:` reference) causes circular installation loops.
+
+**Symptoms**:
+- `npm` failing with ENOENT during tarball extraction
+- Recursive path errors like `node_modules/pi-qmd-ledger/node_modules/pi-qmd-ledger`
+
+**Resolution**:
+1. Remove self-dependency from `package.json`
+2. Bump version to avoid registry conflicts
+3. Validate with `npm pack` before publishing
+
+**Prevention**:
+Always audit `package.json` dependencies before publishing; use `npm view` to verify registry contents.
 ---
 
 # QMD Ledger

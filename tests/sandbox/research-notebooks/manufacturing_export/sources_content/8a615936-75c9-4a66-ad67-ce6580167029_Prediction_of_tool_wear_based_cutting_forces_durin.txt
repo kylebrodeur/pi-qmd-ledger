@@ -1,0 +1,849 @@
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyewC7GXwp-cQJ2l_WMTKT-3Alh7sD7gxG-JKENSZrMakm2yelOsZ5dMluKZQfeJM_TtzuKXz_8zPRJhnmaEmWRncRc3EiXEHUiHOY8tGLVX0nV0JynxIpLr7oBrR_blVAvj1Lo=w39-h39-v0
+
+4f6c18b0-0cc4-483c-a997-26ca8a3514a4
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxPPZsvIvGFY4h-giBJPsKVbrQVgbWJe17VZmEbGrXlnIhZslByxuyjVzgj3QqkXxB-9FTXiRh45Ua4Ik0R2IqymquV5MEPzhagfh6JhlERwZM6SMQF5ShlVIMOspqonOPTsJ3UgA=w39-h39-v0
+
+ad0af742-46f8-4124-b291-3d6592435880
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxrUZfh3UqFCLSIloKSBaRaL--1abBmDD0tI5pGrZfmN47frf__KD0Mi--gQ7IUVyc6s6mo9sF99teug6uJKB2GJco-CpBPek-R0TgVtXJB-PzxYpBSBBx7hGi-p_sYGI6uyP695w=w169-h145-v0
+
+b808f85b-abef-4166-9628-b54ed8e7af59
+
+394 
+
+INTRODUCTION 
+
+Large industries such as aviation and automo-tive require frequent use of materials with spe-cial properties, usually require high resistance to corrosion, high strength and good machinability. Assumptions about the strength of corrosion re-sistance and the preservation of properties at high temperatures are met by nickel-based alloys. 
+
+Machining of these alloys is difficult due to the high temperature occurrence in the cut-ting zone, outer-metal chip notch formed on the edge, the elastic recovery of the machined layer and hardening of the material during machining. For this reason, it is difficult to predict the value of tool wear [1]. Inconel machining causes sig-nificant changes in the microstructure of the pro-cessed material [2–5]. In the paper [2] the authors compared the microstructure and stress in the surface layer of turned Inconel 718 with PCBN and ceramic inserts. In all tested cases, plastic de-formation and heat generation in the cutting pro-cess caused clear microstructural changes. The Grain fragmentation under the influence of strong 
+
+plastic deformation was observed. Depth profiles of the tested specimens showed residual stresses with surface tension and subsurface compression due to local plastic deformation and heating. 
+
+Xavior et al. [4] investigated the effect of ma-chining under different cutting conditions with different tool materials on microstructure, residu-al stress and work hardening of Inconel 718. The authors noticed that during dry machining tensile stresses raised significant on the treated surface and greater grain degradation occurred than dur-ing machining with cooling. On the other hand, when flood cooling was used, the greater micro-hardness occurred. When machining nickel-based alloys, there is a strong adhesion between the tool and the workpiece, which affects tool wear, roughness and forces. By increasing the speed, the temperature in the cutting zone rises, which leads to the hardness increase of the workpiece and results in an escalation cutting forces [5]. The forces also increase with increasing other cutting parameters (depth, feed). However, these mech-anisms are typical for machining resulting for machining when the cutting layer cross-section 
+
+Prediction of tool wear based cutting forces during end milling of Inconel 718 using artificial neural networks 
+
+Agata Felusiak-Czyryca1* , Paweł Twardowski1 
+
+1 Faculty of Mechanical Engineering, Poznan University of Technology, ul. Piotrowo 3, 60-965 Poznan, Poland * Corresponding author’s e-mail: agata.felusiak-czyryca@put.poznan.pl 
+
+ABSTRACT During the research, correlation between the input parameters (cutting parameters and cutting forces measure like peak to peak, root mean square and root mean square of ripple) and the variables were searched for, and the sensitivity of the network to input parameters was determined. In this paper artificial neural networks (ANNs) to prediction of tool wear based on cutting forces were used. Multilayer perceptron (MLP) networks with backward error propagation were used. The research shows that for the tested material and in the tested range, the cutting parameters are not diagnostically significant for the prediction of VBC (band width of the corner wear). The au-thors of this article focus on simplifying the model and analyzing the influence of variables on the prediction error. Neural networks show a correlation of about 95% for test sets. 
+
+Keywords: Inconel 718, machining, cutting forces, tool wear prediction, artificial neural network. 
+
+Received: 2025.03.20 Accepted: 2025.05.15 Published: 2025.05.25 
+
+Advances in Science and Technology Research Journal, 2025, 19(7), 394–405 
+
+https://doi.org/10.12913/22998624/204203 ISSN 2299-8624, License CC-BY 4.0 
+
+Advances in Science and Technology Research Journal
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAycGlBaQmQ4AkQRAxQOfl2wBye6m_x4VHbWXpPx185GpHUH-Rfn6YEgE4zmjDI-zlQ0SSsVZ-wlkvNholLAfz5k0wxWKwTrYhdtv3yCKWkLwSfI0AzKgYRRKpVDS9vP6c_qVC8y=w57-h48-v0
+
+4e39af77-57c5-4869-ad8f-1d41c97a1065
+
+395 
+
+Advances in Science and Technology Research Journal 2025, 19(7), 394–405 
+
+growth and consequently of cutting force increas-es. In the article [6], cryogenic cooling with liquid nitrogen was used which significantly reduced the temperature in the cutting zone and improve lubrication, what resulted reduction of the oc-currence of adhesion phenomena and grain deg-radation. The roughness value Ra was lowered by 88%. The condition of the cutting edge has a significant influence on the roughness of the ma-chined surface. In the article [7] authors studied surface integrity and fatigue in the end milling of Inconel 718. They used tools with three tool flank wear levels: 0, 0.1, 0.2. Under these conditions they found that higher tool wear produced less surface roughness. However, in the article [8] the authors analyzed a wider range of cutting insert wear. They proved that during the break-in of the tool, the roughness was high. Depending on the tool geometry it decreased or remained constant. The roughness subsequently increased when tool wear overcome VB = 0.3–0.4 mm. 
+
+Taking into account the properties of Inconel indicated in the literature and the significance of the impact of tool wear on the quality of the manu-factured elements and the difficulties in predicting wear during machining, the authors decided to use artificial neural networks in research. ANNs are most often used to predict or monitor the condi-tion of the edge [9–12] or the roughness of the machined surface in machining [13,14]. In paper [15], the authors used artificial neural networks to predict tool wear during Iconel 718 turning on the basis of variable cutting speed and cutting time. In their research, the prediction error was different depending on the cutting speed. NN training and testing was carried out by the ‘‘leave-k-out’’ meth-od, which is particularly useful when dealing with small training sets. Received RSME error 0.005– 0.038. In the article [16], the prediction errors of the tool wear value for regression analysis and ar-tificial neural networks for Inconel turning were compared, showing more than twice as high error in the case of regression. Similar conclusions were reached by the authors [17], who milled Inconel 
+
+718 in their research, and used cutting parameters and corner radius as input parameters. Research-ers in [18] show a higher usefulness of the genetic algorithm than ANN for predicting the maximum wear on the flank surface. A strategy based on ANN for estimating tool flank wear is presented in [19]. The ANN-based system was trained using real-time RMS signals of cutting force and torque (Mz) from the three axes (Fx, Fy, Fz), cutting and time parameters. Showing a total error of 5.42%. In paper [20], the authors use neural networks to predict tool wear during steel turning. As input pa-rameters, using data from many sensors, e.g. forc-es, temperatures and vibrations and demonstrate the validity of the measurements used. The authors [21] used the values of force amplitudes in the fre-quency and time domains to predict tool wear us-ing neural networks. 
+
+The authors of this article use force meas-ures in the time domain and cutting parameters to predict tool wear. In addition, they determine the measures and parameters most suited to the prediction of the tool condition. In many publi-cations, the authors do not focus on the validity of the input parameters used in the construction of models, and often use only one measure (e.g. RMS) for the recorded variable, which may omit significant predictor variables. 
+
+MATERIALS AND METHODS 
+
+Tests were carried out on an Inconel 718 workpiece. Mass fractions of elements in Inconel 718 are shown in Table 1. A four-edge carbide milling cutter (P8700450 by Fraisa) dedicated to machining nickel-based alloys was used. The tool diameter was 10 mm and the cutting length was 50 mm. The five identical tools were used. The research was carried out on vertical machining center DMC 70V hi-dyn (DMG Mori). 
+
+The end milling operation was carried out ac-
+
+cording to cutting parameters and cutting plan (ap – cutting depth, vc – cutting velocity, ae – cutting 
+
+Table 1. Mass fractions of elements in Inconel 718 alloy Percentages Ni Cr Nb Mo Ti Al Co Si 
+
+Min. % 50 17 4.75 2.8 0.65 0.2 - -
+
+Max.% 55 21 5.50 3.30 1.15 0.80 1.00 0.35 
+
+Percentages Mn Cu C P S B Fe 
+
+Min. % - - - - - - -
+
+Max.% 0.35 0.30 0.08 0.015 0.015 0.006 Balance
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyFqyI6UaCdJeP3YO6mEeCdFrzqjC_I5G7WnlFs43-4fp1Ifx0XO5pEDV3In7kdtEOWnM8ffpgP6ZDOlF9inUsBAK3jIftycmRO__7JOL3Zqyu-Qed_OALDYdb_FXEDaUKZxU12=w1181-h528-v0
+
+3eec7dce-3e5d-4663-a837-2685da75fb5c
+
+396 
+
+Advances in Science and Technology Research Journal 2025, 19(7), 394–405 
+
+width, fz – feed per tooth) presented in Table 2. 
+
+Five-level central composite experimental design was used. Full data on the cutting parameters in each pass and the value of tool wear and cutting time are contained in Table 3. Table 3 does not take into account repeated passes. 
+
+Figure 1 shows a simplified scheme of meas-urement path used during the tests. The follow-ing are the technical parameters of the measure-ment and measuring instruments. Forces were measured in three directions by three-directions piezoelectric dynamometer (own design). The sensitivity of the dynamometer are for x-axis 8.6 pC/N, y-axis 8.7 pC/N, z-axis 3.4 pC/N and natu-ral frequency fn = 8 kHz. The signal from the dy-namometer was transmitted to the Kistler charge amplifier type 5015 A. The measuring range was ± 2000 N and the built-in low pass filter was set to 30 kHz. Then the signal was sent to the an-alog-to-digital A/D converter with the sampling frequency fs = 6000 Hz for each channel. From the A/D converter, the signals were transferred to a computer and digitally processed using special software. Based on time signals, time-domain measures were determined: root mean square (RMS), peak to peak (P-P), ripple RMS (ripple). In the following, these measures were used as in-puts to the neural network. 
+
+In this paper RMS values of cutting forces were analyzed. This allows among others to avoid 
+
+differences in signs resulting from the sense of a force vector. The RMS value was given by the formula (1), peak to peak formula (2) and ripple RMS formula (3). 
+
+ 
+
+ 
+
+𝑅𝑅𝑅𝑅𝑅𝑅 = √ 1 𝑇𝑇2−𝑇𝑇1 
+
+∫ [𝑥𝑥(𝑡𝑡)]2𝑑𝑑𝑡𝑡𝑇𝑇2 𝑇𝑇1 
+
+         (1) 
+
+ 
+
+𝑃𝑃 − 𝑃𝑃 = 𝑃𝑃max ℎ𝑖𝑖𝑖𝑖ℎ + 𝑃𝑃max 𝑙𝑙𝑙𝑙𝑙𝑙         (2) 
+
+ 
+
+𝑅𝑅𝑅𝑅𝑃𝑃𝑃𝑃𝑅𝑅𝑅𝑅_𝑅𝑅𝑅𝑅𝑅𝑅 = √ 1 𝑇𝑇2−𝑇𝑇1 
+
+∫ [𝑥𝑥(𝑡𝑡) − 𝐾𝐾]2𝑑𝑑𝑡𝑡𝑇𝑇2 𝑇𝑇1 
+
+        (3) 
+
+  
+
+𝑉𝑉𝑉𝑉𝐶𝐶 = 0.17𝑣𝑣𝑐𝑐 − 0.68𝑎𝑎𝑝𝑝 − 0.66𝑎𝑎𝑒𝑒 –  0.28𝑣𝑣𝑓𝑓 + + 1.37𝐹𝐹𝐹𝐹𝑅𝑅𝑅𝑅𝑅𝑅 − 0.58𝐹𝐹𝐹𝐹𝑃𝑃−𝑃𝑃 – 0.51𝐹𝐹𝐹𝐹𝐹𝐹𝑅𝑅𝑅𝑅𝑅𝑅 − 
+
+– 0.29𝐹𝐹𝐹𝐹𝐹𝐹𝑟𝑟𝑖𝑖𝑝𝑝𝑝𝑝𝑙𝑙𝑒𝑒 + 0.25𝐹𝐹𝐹𝐹𝐹𝐹𝑃𝑃−𝑃𝑃 –  0.2𝐹𝐹𝐹𝐹𝑅𝑅𝑅𝑅𝑅𝑅 + + 0.91𝐹𝐹𝐹𝐹𝑟𝑟𝑖𝑖𝑝𝑝𝑝𝑝𝑙𝑙𝑒𝑒 –  0.04𝐹𝐹𝐹𝐹𝑃𝑃−𝑃𝑃 + 0.42𝑡𝑡𝑐𝑐 + 0.1 
+
+ (4) 
+
+ 
+
+𝑡𝑡𝑎𝑎𝑡𝑡ℎ = 𝑒𝑒𝑥𝑥−𝑒𝑒−𝑥𝑥 
+
+𝑒𝑒𝑥𝑥+𝑒𝑒−𝑥𝑥        (5)  
+
+ 
+
+𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑡𝑡𝑙𝑙𝑙𝑙 =  1 
+
+1−𝑒𝑒−1         (6) 
+
+ 
+
+ (1) 
+
+ 
+
+ 
+
+𝑅𝑅𝑅𝑅𝑅𝑅 = √ 1 𝑇𝑇2−𝑇𝑇1 
+
+∫ [𝑥𝑥(𝑡𝑡)]2𝑑𝑑𝑡𝑡𝑇𝑇2 𝑇𝑇1 
+
+         (1) 
+
+ 
+
+𝑃𝑃 − 𝑃𝑃 = 𝑃𝑃max ℎ𝑖𝑖𝑖𝑖ℎ + 𝑃𝑃max 𝑙𝑙𝑙𝑙𝑙𝑙         (2) 
+
+ 
+
+𝑅𝑅𝑅𝑅𝑃𝑃𝑃𝑃𝑅𝑅𝑅𝑅_𝑅𝑅𝑅𝑅𝑅𝑅 = √ 1 𝑇𝑇2−𝑇𝑇1 
+
+∫ [𝑥𝑥(𝑡𝑡) − 𝐾𝐾]2𝑑𝑑𝑡𝑡𝑇𝑇2 𝑇𝑇1 
+
+        (3) 
+
+  
+
+𝑉𝑉𝑉𝑉𝐶𝐶 = 0.17𝑣𝑣𝑐𝑐 − 0.68𝑎𝑎𝑝𝑝 − 0.66𝑎𝑎𝑒𝑒 –  0.28𝑣𝑣𝑓𝑓 + + 1.37𝐹𝐹𝐹𝐹𝑅𝑅𝑅𝑅𝑅𝑅 − 0.58𝐹𝐹𝐹𝐹𝑃𝑃−𝑃𝑃 – 0.51𝐹𝐹𝐹𝐹𝐹𝐹𝑅𝑅𝑅𝑅𝑅𝑅 − 
+
+– 0.29𝐹𝐹𝐹𝐹𝐹𝐹𝑟𝑟𝑖𝑖𝑝𝑝𝑝𝑝𝑙𝑙𝑒𝑒 + 0.25𝐹𝐹𝐹𝐹𝐹𝐹𝑃𝑃−𝑃𝑃 –  0.2𝐹𝐹𝐹𝐹𝑅𝑅𝑅𝑅𝑅𝑅 + + 0.91𝐹𝐹𝐹𝐹𝑟𝑟𝑖𝑖𝑝𝑝𝑝𝑝𝑙𝑙𝑒𝑒 –  0.04𝐹𝐹𝐹𝐹𝑃𝑃−𝑃𝑃 + 0.42𝑡𝑡𝑐𝑐 + 0.1 
+
+ (4) 
+
+ 
+
+𝑡𝑡𝑎𝑎𝑡𝑡ℎ = 𝑒𝑒𝑥𝑥−𝑒𝑒−𝑥𝑥 
+
+𝑒𝑒𝑥𝑥+𝑒𝑒−𝑥𝑥        (5)  
+
+ 
+
+𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑡𝑡𝑙𝑙𝑙𝑙 =  1 
+
+1−𝑒𝑒−1         (6) 
+
+ 
+
+ (2) 
+
+ 
+
+ 
+
+𝑅𝑅𝑅𝑅𝑅𝑅 = √ 1 𝑇𝑇2−𝑇𝑇1 
+
+∫ [𝑥𝑥(𝑡𝑡)]2𝑑𝑑𝑡𝑡𝑇𝑇2 𝑇𝑇1 
+
+         (1) 
+
+ 
+
+𝑃𝑃 − 𝑃𝑃 = 𝑃𝑃max ℎ𝑖𝑖𝑖𝑖ℎ + 𝑃𝑃max 𝑙𝑙𝑙𝑙𝑙𝑙         (2) 
+
+ 
+
+𝑅𝑅𝑅𝑅𝑃𝑃𝑃𝑃𝑅𝑅𝑅𝑅_𝑅𝑅𝑅𝑅𝑅𝑅 = √ 1 𝑇𝑇2−𝑇𝑇1 
+
+∫ [𝑥𝑥(𝑡𝑡) − 𝐾𝐾]2𝑑𝑑𝑡𝑡𝑇𝑇2 𝑇𝑇1 
+
+        (3) 
+
+  
+
+𝑉𝑉𝑉𝑉𝐶𝐶 = 0.17𝑣𝑣𝑐𝑐 − 0.68𝑎𝑎𝑝𝑝 − 0.66𝑎𝑎𝑒𝑒 –  0.28𝑣𝑣𝑓𝑓 + + 1.37𝐹𝐹𝐹𝐹𝑅𝑅𝑅𝑅𝑅𝑅 − 0.58𝐹𝐹𝐹𝐹𝑃𝑃−𝑃𝑃 – 0.51𝐹𝐹𝐹𝐹𝐹𝐹𝑅𝑅𝑅𝑅𝑅𝑅 − 
+
+– 0.29𝐹𝐹𝐹𝐹𝐹𝐹𝑟𝑟𝑖𝑖𝑝𝑝𝑝𝑝𝑙𝑙𝑒𝑒 + 0.25𝐹𝐹𝐹𝐹𝐹𝐹𝑃𝑃−𝑃𝑃 –  0.2𝐹𝐹𝐹𝐹𝑅𝑅𝑅𝑅𝑅𝑅 + + 0.91𝐹𝐹𝐹𝐹𝑟𝑟𝑖𝑖𝑝𝑝𝑝𝑝𝑙𝑙𝑒𝑒 –  0.04𝐹𝐹𝐹𝐹𝑃𝑃−𝑃𝑃 + 0.42𝑡𝑡𝑐𝑐 + 0.1 
+
+ (4) 
+
+ 
+
+𝑡𝑡𝑎𝑎𝑡𝑡ℎ = 𝑒𝑒𝑥𝑥−𝑒𝑒−𝑥𝑥 
+
+𝑒𝑒𝑥𝑥+𝑒𝑒−𝑥𝑥        (5)  
+
+ 
+
+𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑡𝑡𝑙𝑙𝑙𝑙 =  1 
+
+1−𝑒𝑒−1         (6) 
+
+ 
+
+ (3) 
+
+where: RMS – root mean square, K – the constant 
+
+component of the shift. 
+
+The time period T used in the calculations was 
+
+2 s. Tool wear parameters were measured after each pass in the same spot on the corner. Wear pa-
+
+rameter and VBC (band width of the corner wear) 
+
+for each edge were measured. After each mea-surement, the arithmetic mean for the four corners was calculated. Tool wear was measured using a workshop microscope with a measurement accu-racy of 0.01 mm. The measured value is shown in Figure 2. The wear was photographed using the Zeiss Stereo Discovery V.20 microscope. In the further part of the article, the average value of tool wear for four corners was assumed. 
+
+Artificial neural networks of the MLP (multi-layer perceptron) type with backward error prop-agation, with one hidden layer and one output 
+
+Table 2. Cutting parameters 
+
+Parameters Program levels 
+
+-2 -1 0 1 2 
+
+vc [m/min] 
+
+15 25 30 35 40 
+
+ap [mm] 
+
+1 3.5 6 9 12 
+
+ae [mm] 
+
+0.1 0.3 0.5 0.75 1 
+
+fz [mm/tooth] 
+
+0.02 0.025 0.030 0.035 0.040 
+
+Figure 1. Scheme of measurement path used during the tests
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAw3l5Sl33B0ohF4QIF2j0C3uvusXVobRwuEc1gmvgZEcKGuHTixjGZmO_axHRYxij0gWcTsC0fGZMYRs-XrAGMtHUlUK9wLLPEYZNihGTkwqb9m_-yrmBGRhSUoZKuE0FZ_RQ4zYQ=w188-h45-v0
+
+dad15ac2-6415-40e3-a133-45402bbfd93f
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyegKHfN-X0QDUHtRyf9hBkHxys26oe9t-emF2-pnozlBTRxsgpqv9xrDpiINtNiaQ4Bz-K1BKRIiuVdozqVcPtfFiBK7SrGzdUeaVitFrqh4t4aPsdLSK0PAg_HwyN48Lcqumx=w274-h40-v0
+
+d2c31407-aa50-42fb-9aad-90d7ef2ea337
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyrE-ZmGf22G9t-tjK_yplNiAMl50tpPfY9kTUlMZjLY0rEO82uh8fKSiImCeF6UNwKICAaebmmsl1GVqJiy6I1U8wJbnX-GbyM5-ARA52De4GzJYQsExgaonRoYr9KnZJOE6nOwQ=w886-h798-v0
+
+5af802af-5186-49b4-b70c-277ebd0f2fdd
+
+397 
+
+Advances in Science and Technology Research Journal 2025, 19(7), 394–405 
+
+Figure 2. Tool wear: VBC = 0.08 mm, vc = 25 m/min, vf = 107 mm/min, ap = 9 mm, ae = 0.75 mm. 
+
+magnification x48 
+
+neuron were used in the research. During the tests, various sets of input variables were used, 
+
+which included cutting parameters (vc, vf, ae, ap), cutting time tc, RMS values of cutting forces (FiRMS), RMS values of ripple (Firipple) and values peak to peak (FiP-P). All measures were measured in three directions, f – in the direction of the feed, z – in the direction of the z axis and fN - normal to 
+
+the feed direction. 
+
+RESULTS AND DISCUSSION 
+
+Full data on the cutting parameters in each pass and the value of tool wear and cutting time are contained in Table 3. Table 3 does not take into account repeated passes. Based on the results presented in Table 3, the tool wear results in all passes with repetitions shown on Figure 3. Statis-tica software was used in further analyses. 
+
+Subsequent points on the graph do not have constant cutting parameters, so it is not a wear curve. Due to the use of different cutting param-eters, it is not possible to establish a direct rela-tionship between wear and cutting time. 
+
+None of the determined measures show a di-rect correlation with the analyzed variable, which can be seen in the example graph (Figure 4 for Ff_RMS and Figure 5. for FfN_RMS), These graphs show a test of force correlation in feed direc-tion, normal feed direction and tool wear. It was decided to use multiple regression (4) to check whether the combination of all variables into one 
+
+equation, i.e. taking into account the impact of a given variable while taking into account the im-pact of other variables, would improve the quality of prediction. Analysis of the impact of individual parameters is important due to the elimination of the possibility of simple dependencies. 
+
+ 
+
+1  
+
+𝑅𝑅𝑅𝑅𝑅𝑅 = √ 1 𝑇𝑇2−𝑇𝑇1 
+
+∫ [𝑥𝑥(𝑡𝑡)]2𝑑𝑑𝑡𝑡𝑇𝑇2 𝑇𝑇1 
+
+         (1) 
+
+ 
+
+𝑃𝑃 − 𝑃𝑃 = 𝑃𝑃max ℎ𝑖𝑖𝑖𝑖ℎ + 𝑃𝑃max 𝑙𝑙𝑙𝑙𝑙𝑙         (2) 
+
+ 
+
+𝑅𝑅𝑅𝑅𝑃𝑃𝑃𝑃𝑅𝑅𝑅𝑅_𝑅𝑅𝑅𝑅𝑅𝑅 = √ 1 𝑇𝑇2−𝑇𝑇1 
+
+∫ [𝑥𝑥(𝑡𝑡) − 𝐾𝐾]2𝑑𝑑𝑡𝑡𝑇𝑇2 𝑇𝑇1 
+
+        (3) 
+
+  
+
+𝑉𝑉𝑉𝑉𝐶𝐶 = 0.17𝑣𝑣𝑐𝑐 − 0.68𝑎𝑎𝑝𝑝 − 0.66𝑎𝑎𝑒𝑒 –  0.28𝑣𝑣𝑓𝑓 + + 1.37𝐹𝐹𝐹𝐹𝑅𝑅𝑅𝑅𝑅𝑅 − 0.58𝐹𝐹𝐹𝐹𝑃𝑃−𝑃𝑃 – 0.51𝐹𝐹𝐹𝐹𝐹𝐹𝑅𝑅𝑅𝑅𝑅𝑅 − 
+
+– 0.29𝐹𝐹𝐹𝐹𝐹𝐹𝑟𝑟𝑖𝑖𝑝𝑝𝑝𝑝𝑙𝑙𝑒𝑒 + 0.25𝐹𝐹𝐹𝐹𝐹𝐹𝑃𝑃−𝑃𝑃 –  0.2𝐹𝐹𝐹𝐹𝑅𝑅𝑅𝑅𝑅𝑅 + + 0.91𝐹𝐹𝐹𝐹𝑟𝑟𝑖𝑖𝑝𝑝𝑝𝑝𝑙𝑙𝑒𝑒 –  0.04𝐹𝐹𝐹𝐹𝑃𝑃−𝑃𝑃 + 0.42𝑡𝑡𝑐𝑐 + 0.1 
+
+ (4) 
+
+ 
+
+𝑡𝑡𝑎𝑎𝑡𝑡ℎ = 𝑒𝑒𝑥𝑥−𝑒𝑒−𝑥𝑥 
+
+𝑒𝑒𝑥𝑥+𝑒𝑒−𝑥𝑥        (5)  
+
+ 
+
+𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑡𝑡𝑙𝑙𝑙𝑙 =  1 
+
+1−𝑒𝑒−1         (6) 
+
+ 
+
+ (4) 
+
+As assumed, the correlation coefficient R2 
+
+increased, but its value was still very low and amounted to 0.4. Figure 6 shows the correlation of predictions for multiple regression. 
+
+The dispersion of the results is so large that the effectiveness of tool monitoring based on re-gression models is unsatisfactory. The prediction system must therefore be based on more advanced algorithms, such as ANN. 
+
+The research resulted in 230 cases for which the previously described measures were deter-mined. Longer measurement sections were di-vided into several parts. In the first part of the research, the most effective activation functions were determined. The best effects of the network showed the use of the tanh function (5) as the activation in the hidden layer and the logistic function (6) as the activation of the output layer. All subsequent networks are based on the same functions and the BFGS (Broyden-Fletcher-Goldfarb-Shanno) learning algorithm. The ad-vantages of this algorithm are low sensitivity to input data errors and low sensitivity to line search errors. The learning set was 70% of input data, the validation set was 15% and the testing set was 15% of all input data. The variables were randomly assigned to the sets. ANNs were se-lected choosing the highest coefficient R2 and the lowest possible root mean square error (RSME) for testing data set. Maximum number of epochs (iterations) needed to complete the learning of ANN equal 200, that is the moment when the variability of weights for given network is less than or equal to 0.0001. 
+
+ 
+
+ 
+
+𝑅𝑅𝑅𝑅𝑅𝑅 = √ 1 𝑇𝑇2−𝑇𝑇1 
+
+∫ [𝑥𝑥(𝑡𝑡)]2𝑑𝑑𝑡𝑡𝑇𝑇2 𝑇𝑇1 
+
+         (1) 
+
+ 
+
+𝑃𝑃 − 𝑃𝑃 = 𝑃𝑃max ℎ𝑖𝑖𝑖𝑖ℎ + 𝑃𝑃max 𝑙𝑙𝑙𝑙𝑙𝑙         (2) 
+
+ 
+
+𝑅𝑅𝑅𝑅𝑃𝑃𝑃𝑃𝑅𝑅𝑅𝑅_𝑅𝑅𝑅𝑅𝑅𝑅 = √ 1 𝑇𝑇2−𝑇𝑇1 
+
+∫ [𝑥𝑥(𝑡𝑡) − 𝐾𝐾]2𝑑𝑑𝑡𝑡𝑇𝑇2 𝑇𝑇1 
+
+        (3) 
+
+  
+
+𝑉𝑉𝑉𝑉𝐶𝐶 = 0.17𝑣𝑣𝑐𝑐 − 0.68𝑎𝑎𝑝𝑝 − 0.66𝑎𝑎𝑒𝑒 –  0.28𝑣𝑣𝑓𝑓 + + 1.37𝐹𝐹𝐹𝐹𝑅𝑅𝑅𝑅𝑅𝑅 − 0.58𝐹𝐹𝐹𝐹𝑃𝑃−𝑃𝑃 – 0.51𝐹𝐹𝐹𝐹𝐹𝐹𝑅𝑅𝑅𝑅𝑅𝑅 − 
+
+– 0.29𝐹𝐹𝐹𝐹𝐹𝐹𝑟𝑟𝑖𝑖𝑝𝑝𝑝𝑝𝑙𝑙𝑒𝑒 + 0.25𝐹𝐹𝐹𝐹𝐹𝐹𝑃𝑃−𝑃𝑃 –  0.2𝐹𝐹𝐹𝐹𝑅𝑅𝑅𝑅𝑅𝑅 + + 0.91𝐹𝐹𝐹𝐹𝑟𝑟𝑖𝑖𝑝𝑝𝑝𝑝𝑙𝑙𝑒𝑒 –  0.04𝐹𝐹𝐹𝐹𝑃𝑃−𝑃𝑃 + 0.42𝑡𝑡𝑐𝑐 + 0.1 
+
+ (4) 
+
+ 
+
+𝑡𝑡𝑎𝑎𝑡𝑡ℎ = 𝑒𝑒𝑥𝑥−𝑒𝑒−𝑥𝑥 
+
+𝑒𝑒𝑥𝑥+𝑒𝑒−𝑥𝑥        (5)  
+
+ 
+
+𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑙𝑡𝑡𝑙𝑙𝑙𝑙 =  1 
+
+1−𝑒𝑒−1         (6) 
+
+ 
+
+ (5) 
+
+ 
+
+ 
+
+𝑅𝑅 𝑅𝑅 = √ 1 𝑇𝑇2−𝑇𝑇1 
+
+∫ [𝑥𝑥(𝑡𝑡)]2𝑑𝑑𝑡𝑡𝑇𝑇2 𝑇𝑇1 
+
+         (1) 
+
+ 
+
+𝑃𝑃 − 𝑃𝑃 = 𝑃𝑃max ℎ𝑖𝑖𝑖𝑖ℎ + 𝑃𝑃max 𝑙𝑙𝑙𝑙𝑙𝑙        (2) 
+
+ 
+
+𝑅𝑅𝑅𝑅𝑃𝑃 𝑅𝑅𝑅𝑅_𝑅𝑅 𝑅𝑅 = √ 1 𝑇𝑇2−𝑇𝑇1 
+
+∫ [𝑥𝑥(𝑡𝑡) − 𝐾𝐾]2𝑑𝑑𝑡𝑡𝑇𝑇2 𝑇𝑇1 
+
+        (3) 
+
+  
+
+𝑉𝑉 𝐶𝐶 = 0.17𝑣𝑣𝑐𝑐 − 0.68𝑎𝑎𝑝𝑝 − 0.6 𝑎𝑎𝑒𝑒 –  0.28𝑣𝑣𝑓𝑓 + + 1.37𝐹𝐹 𝑅𝑅𝑅𝑅𝑅𝑅 − 0.58𝐹𝐹 𝑃𝑃−𝑃𝑃 – 0.51𝐹𝐹 𝑅𝑅𝑅𝑅𝑅𝑅 − 
+
+– 0.29𝐹𝐹 𝑟𝑟𝑖𝑖𝑝𝑝𝑝𝑝𝑙𝑙𝑒𝑒 + 0.25𝐹𝐹 𝑃𝑃−𝑃𝑃 –  0.2𝐹𝐹 𝑅𝑅𝑅𝑅𝑅𝑅 + + 0.91𝐹𝐹 𝑟𝑟𝑖𝑖𝑝𝑝𝑝𝑝𝑙𝑙𝑒𝑒 –  0. 4𝐹𝐹 𝑃𝑃−𝑃𝑃 + 0.42𝑡𝑡𝑐𝑐 + 0.1 
+
+ (4) 
+
+ 
+
+𝑡𝑡𝑎𝑎𝑡𝑡ℎ = 𝑒𝑒𝑥𝑥−𝑒𝑒−𝑥𝑥 
+
+𝑒𝑒𝑥𝑥+𝑒𝑒−𝑥𝑥        (5)  
+
+ 
+
+𝑙𝑙𝑙𝑙𝑙𝑙 𝑙𝑙𝑡𝑡𝑙𝑙𝑙𝑙 =  1 
+
+1−𝑒𝑒−1         (6) 
+
+ 
+
+ (6) 
+
+The first set of networks was built using all cutting parameters and measures. Figure 7 shows a diagram of such a neural network.
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzdJZma-S3MHdAfYa6V1NK63SKhmfg793CV-lNSQjHAwZhJPKOSjTgj4MyIgHIVnEg21YP3DyVgqc5uBarAg_6ckOzWRKNmipyZ3pACvWcJ08X7JpsAd5elSIQv2-6Eq4m3k8IC=w275-h71-v0
+
+10f64623-6daf-4a55-8440-dddbb43bda29
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxX4FMR8mMkLl2KkSrBgmquT7f3HFvlYI4p1_o-N83aO-queR2UwH-MQbH9d_PYsImX_2rPimNSAaH866HENtyCCWIimrDqIRHq8yrbjswAizoPRsIJ3EslD2RVCuHg98HT2Mq9=w104-h35-v0
+
+de4965f5-89c8-4abb-aca4-2140ed261033
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxaQwjVvCES1Yv962bai88pNA0YcaGt4-3Ms1_6-1rr5h40x3cdJwZoMYfj1Lekmxbafy6zLLdUsBPAnLhr4hzs_wZvEMRlpTh9siR1RG00ZFPrfG0M0CCMV3fxX8N6Bhvj9zagrA=w122-h33-v0
+
+1913fc60-59be-48be-bcf3-4f1095ec33a7
+
+398 
+
+Advances in Science and Technology Research Journal 2025, 19(7), 394–405 
+
+Table 3. Full data of passes nr tool nr tc [min] VBC [mm] vc [m/min] vf [mm/min] ae [mm] ap [mm] 
+
+1 1 0.27 0.015 30 111 0.1 6 
+
+2 1 0.47 0.032 30 152 0.5 1 
+
+3 1 0.75 0.034 25 108 0.3 3.5 
+
+4 1 1.14 0.037 25 76 0.3 3.5 
+
+5 1 1.42 0.037 25 107 0.75 3.5 
+
+6 1 1.70 0.043 35 108 0.75 3.5 
+
+7 1 1.90 0.043 35 152 0.3 3.5 
+
+8 1 2.17 0.045 35 111 0.3 3.5 
+
+9 1 2.44 0.047 30 111 0.5 6 
+
+10 1 2.71 0.048 30 111 1 6 
+
+11 1 3.10 0.059 35 76 0.75 9 
+
+12 1 3.30 0.060 25 152 0.3 9 
+
+13 1 3.57 0.060 35 111 0.3 3.5 
+
+14 1 3.77 0.062 30 152 0.5 12 
+
+15 1 3.96 0.064 35 152 0.75 3.5 
+
+16 1 4.16 0.068 35 152 0.75 3.5 
+
+17 1 4.36 0.075 30 152 0.5 6 
+
+18 1 4.64 0.078 40 107 0.5 6 
+
+19 1 4.92 0.080 25 107 0.75 9 
+
+20 1 5.19 0.083 35 111 0.75 3.5 
+
+21 1 5.73 0.083 35 55 0.75 3.5 
+
+22 1 5.94 0.085 35 148 0.3 3.5 
+
+23 1 6.13 0.088 35 152 0.75 3.5 
+
+24 1 6.41 0.088 30 108 0.5 1 
+
+25 1 6.69 0.090 40 107 0.5 6 
+
+26 1 7.09 0.090 30 76 0.5 1 
+
+27 1 7.36 0.093 30 111 0.5 6 
+
+28 1 7.63 0.093 25 111 0.3 9 
+
+29 1 7.83 0.095 35 152 0.3 3.5 
+
+30 1 8.02 0.095 35 152 0.3 9 
+
+31 1 8.30 0.098 25 107 0.3 9 
+
+32 1 8.57 0.100 35 111 0.75 9 
+
+33 1 8.78 0.103 35 148 0.3 9 
+
+34 1 9.05 0.105 30 111 0.5 12 
+
+35 1 9.32 0.105 15 108 0.5 6 
+
+36 1 9.60 0.110 35 107 0.3 3.5 
+
+37 1 9.80 0.113 35 152 0.75 9 
+
+38 2 0.41 0.061 30 73 0.5 6 
+
+39 2 0.61 0.061 35 152 0.3 9 
+
+40 2 0.89 0.067 25 108 0.75 9 
+
+41 2 1.08 0.067 35 152 0.75 3.5 
+
+42 2 1.35 0.071 30 111 0.5 6 
+
+43 2 1.63 0.085 35 107 0.75 3.5 
+
+44 2 1.84 0.085 30 149 0.5 6 
+
+45 2 2.23 0.093 25 76 0.3 3.5 
+
+46 2 2.64 0.093 30 73 0.5 6 
+
+47 2 2.92 0.095 25 108 0.75 3.5
+
+399 
+
+Advances in Science and Technology Research Journal 2025, 19(7), 394–405 
+
+48 2 3.19 0.098 30 111 0.5 6 
+
+49 2 3.39 0.100 30 149 0.5 6 
+
+50 2 3.80 0.100 30 73 0.5 6 
+
+51 2 4.00 0.100 35 152 0.3 9 
+
+52 2 4.39 0.105 25 76 0.3 3.5 
+
+53 2 4.67 0.105 25 108 0.75 3.5 
+
+54 2 4.95 0.110 35 107 0.75 9 
+
+55 2 5.35 0.110 25 76 0.3 9 
+
+56 2 5.62 0.110 25 108 0.3 3.5 
+
+57 2 5.62 0.118 25 76 0.75 9 
+
+58 2 5.89 0.120 30 111 0.5 1 
+
+59 2 6.17 0.120 25 108 0.3 3.5 
+
+60 2 6.44 0.123 30 111 0.5 1 
+
+61 2 6.72 0.130 35 107 0.3 3.5 
+
+62 3 0.39 0.015 25 76 3.5 0.75 
+
+63 3 0.94 0.035 40 55 6 0.5 
+
+64 3 1.14 0.040 15 148 6 0.5 
+
+65 3 1.54 0.053 25 76 9 0.3 
+
+66 3 1.82 0.059 35 108 9 0.3 
+
+67 3 2.09 0.060 25 108 9 0.75 
+
+68 3 2.37 0.060 25 107 3.5 0.3 
+
+69 3 2.65 0.062 25 107 3.5 0.3 
+
+70 3 3.05 0.073 35 76 3.5 0.3 
+
+71 3 3.33 0.075 35 107 3.5 0.3 
+
+72 3 3.53 0.080 25 152 3.5 0.75 
+
+73 3 3.80 0.085 25 111 3.5 0.75 
+
+74 3 4.19 0.088 30 76 6 0.1 
+
+75 3 4.46 0.088 30 111 6 0.5 
+
+76 3 5.01 0.088 30 55 6 1 
+
+77 3 5.21 0.090 35 149 9 0.3 
+
+78 3 5.49 0.093 25 108 9 0.75 
+
+79 3 5.88 0.095 35 76 9 0.75 
+
+80 3 6.16 0.098 30 108 12 0.5 
+
+81 3 6.55 0.098 25 76 3.5 0.3 
+
+82 3 6.82 0.098 25 111 3.5 0.3 
+
+83 3 7.10 0.098 25 108 3.5 0.75 
+
+84 3 7.50 0.100 25 76 3.5 0.75 
+
+85 3 7.78 0.100 30 107 6 0.5 
+
+86 3 8.05 0.100 15 111 6 0.5 
+
+87 3 8.44 0.103 30 76 6 1 
+
+88 3 8.72 0.108 25 107 9 0.3 
+
+89 3 9.12 0.118 35 76 9 0.75 
+
+90 3 9.39 0.120 25 111 9 0.75 
+
+Then, the average global sensitivity of the net-work to variables was analyzed (Figure 8). Sen-sitivity analysis gives insight into the usefulness of individual input variables. It indicates vari-ables that can be omitted without losing network 
+
+quality and key variables that must never be omit-ted. The measurement of network sensitivity is the quotient of the error obtained at the start of the network for the data set without one variable and the error obtained with the set of variables. 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAymQucZ3_VpZw4apICsNAUmY6iMxEkBYSEhyZdp2yhRd7Vp_DbVXy83NUV7el3Qq3uZBo8Rg_SpUoHXzSknxWoXTcebrWLGQ5zz786z05_rh-8JYq18OOjAA7lug3NlTzNHXUUC=w1181-h697-v0
+
+3258cb63-0e32-4328-b46d-a6df6dbce3e3
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzgIYdi6-qBxFW0jsjNyKa0Cm6w7CDqPURhHnFxRay-_CwvQmwnYgybCHxcMFfZblC-kEA2vNdYg82G6dpGciU_We2fyXhx7XKv3hfoP9sKd5QkitaAXoC9RXTfV3CAondaC9PF1w=w1181-h774-v0
+
+ab43fa12-6a0d-4776-b5d0-97b962f14832
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwDF92MEL2OKGJAIZeSwjCs5gy2QV9O02YDrb0GBmWCQ6Lt-M35o7_nABW6M7B-b9Iv3u06Xx-_rB-7yrHgSsZ76i2rEnHP0m4sFCmlk01Gnp8rWM2B2I6Zu_u-sLTKKMtmz6zNsQ=w1181-h775-v0
+
+30efa913-296b-4994-86e5-135f1d93e4c2
+
+400 
+
+Advances in Science and Technology Research Journal 2025, 19(7), 394–405 
+
+Figure 3. All tool wear results 
+
+Figure 4. Relationship between force in feed direction Ff_RMS and tool wear VBC 
+
+Figure 5. Relationship between force in feed direction FfN_RMS and tool wear VBC
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxlqUHPFvVW3y0T8SWN-wRD2s58UB9xwF-X5baB2ZAaAFFLrOb37ULxnaLD4Hi7azt0ucB8xM9g0z-7WYKDZwb0TO3BSYYAAQ7JhTgEIp0860sZbQkYrofyRBDPoLPmUKEyrrUZDA=w440-h259-v0
+
+28f8542d-264f-495d-a9d0-0f18cc37bcad
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxsqPDKeU8Pp4x56F7z3xiUIZcrBKjW5FZXY32aKJTo-XrGF0jZRLfmwCgmFp00_cnJ0DUCNeAPDUgIbyF4FRJLWNMcSgc3vkTAaE_bo7ezKaBlG7NgjHB3UQkdgRmTlGUkDt3J9Q=w440-h288-v0
+
+4af883c6-0817-444e-bf3f-ed683c1ab5a9
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwf3SDd_ohnHFlmDWm8vRwTmvyJGP28_v-AMGHvOMESRnY52iOJOGnf6OOamO_ZUVh22eDZSoTmMi9gsKzHCn4dkFZSWgi2t1OOegRpPKPmdkhL6kA4FAgksTbDoBM_5Nr1jOhV=w1181-h882-v0
+
+7a5f346f-888e-4c43-8269-429c0ccec84f
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzL48_eIPfwXXoQ0b81RLch_MTwMMAKMiAZFSgGKMC50oZAZ8NzzIU19OfZ15OX9D_vtuEpRQbXP1lbKTZr31wkx4KK0YcBBJVy72X5pBhksRGxdDxPVZT5Xb95-2HQX5uJOdXSrg=w1181-h1076-v0
+
+3d43f954-4a9b-4b08-bb1a-bca9e5e82c52
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwWrlrjlpZtfdtsXNfCqhEWOCLpv7b4XJ00NWmnlrL7_qwK1v868ago7uyDWlPWIsUtgPy2ePxBC2VTjDLTvZo6PgQVv0LbRkqeWWlrT6m4hYYr7JyVtIR7j6FoY5YzWCIFQnriHg=w1181-h755-v0
+
+0fb8684b-de16-44b3-8d41-225100c612fe
+
+401 
+
+Advances in Science and Technology Research Journal 2025, 19(7), 394–405 
+
+Figure 6. Correlation of predicted and measured variables for multiple regression 
+
+Figure 7. Scheme of a neural network 
+
+Figure 8. Normalized sensitivity of the network to input variables 
+
+The greater the error after rejecting the variable is, in relation to the original error, the more sensi-tive the network is to the absence of this variable. For easier interpretation of the data, the sensitiv-ity was normalized and presented in the graphs in this form. 
+
+On this basis, it was possible to eliminate two independent variables with the least impact on the prediction error from the training set. A com-parison of the quality of the best networks can be found in Table 4. 
+
+As the built models do not show a satisfac-tory prediction quality, in the next step it was de-cided to supplement the learning set with the cut-ting time, and to re-analyze the sensitivity of the network (Figure 9). Previously rejected variables 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzf265XwoLJM6aCStR9f9V9MMJl1j9octZaLYxGDePNrw5XhFXxlhrxb8DJhXuDKf-em5t3SiyFK-U4-xQawxFrNLZeRi_j69S07bgEETHkyJa767ckQ1h4Ese5h05MUoPl5aGq2g=w1181-h755-v0
+
+561b5f6b-a0ba-4d7a-8eaf-1d43a170cf32
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwhkuU8QliZbefODiKF1Y7hv_858A_K7DyYJEqySwviawDyFhXRK3tiWdktYXB2CnGi0WBj4JK0qhNEnn7H5SurNuHBLG2NIqc-iy0aaXJvl-7CJco0N9kimPLkUsg1ju5XMQh9=w1181-h882-v0
+
+e98b49f0-f9de-4069-9eb7-f91a6cbbf064
+
+402 
+
+Advances in Science and Technology Research Journal 2025, 19(7), 394–405 
+
+Table 4. Network quality with all variables (MLP 13-15-1) and without vf and vc (MLP 11-10-1) ANN structure Learning quality Validation quality Testing quality 
+
+MLP 13-15-1 0.97 0.82 0.89 
+
+MLP 11-10-1 0.92 0.81 0.85 
+
+Figure 9. Normalized sensitivity of the network to variables taking into account the cutting time tc 
+
+Table 5. Quality of neural networks including cutting time with all variables (MLP 12-10-1) and with a limited set of input variables (MLP 8-7-1) 
+
+ANN structure Learning quality Validation quality Testing quality 
+
+MLP 12-10-1 0.99 0.95 0.95 
+
+MLP 8-7-1 0.95 0.94 0.94 
+
+Figure 10. Correlation of predicted and measured variables for the MLP 12-10-1 network 
+
+were not taken into account in the built models. Based on the sensitivity results (Figure 9), the data was reselected, rejecting those whose sensi-tivity did not exceed 0.2. In this way, all cutting 
+
+parameters and peak-to-peak values in the z-direction and in the normal feed direction were removed from the input data set. A comparison of the quality of the webs taking into account the 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAycXo1JbozYHt_Ty3CKuSgr70ZjUaIlRGyc45TThHmvseaYy4KY5zFFXfaiOxCbhAc12FS6F2rM3Ip1KDvussdrB9Qy7_XL0m5Pn89sIRxJUyIWCTtlstntLo8kEgu9IlJ7UmeD=w1181-h770-v0
+
+af62fe9e-2107-4624-92d0-808ee02b32ca
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwmuO9RH7IF5Ib2K-7WgOxrd4KOcjeUTKYwudxoEpJGCugPdB6OszoY_z5MN9ysPkbVo5xT28RCPMwGIdH_zhdZBQUhboyq4zLbKS3SUSt4opFjABvy1cECSlD7YEKQun-3oDum3g=w1280-h882-v0
+
+b08cc952-21ba-4b36-b0a5-841c1a21780c
+
+403 
+
+Advances in Science and Technology Research Journal 2025, 19(7), 394–405 
+
+Figure 11. Correlation of predicted and measured variables for the MLP 8-7-1 network 
+
+Figure 12. Comparison of the RMSE error for the best networks for a given set of training variables 
+
+cutting time is presented in Table 5.  As can be seen, the removal of subsequent variables did not significantly worsen the quality of the network, but resulted in its clear simplification. The input data in the final prediction model comes only from the measurement of forces and easily measurable cutting time, but does not require entering data on cutting parameters. The graphs below show graphical correlations between predicted and actual variables measured for the MLP 12-10-1 network (Figure 10) and the MLP 8-7-1 network (Figure 11) for the data from the validation and testing sets.  In the final step, the _RMSE errors for all networks presented above are summarized in the graph (Figure 12). 
+
+The obtained RMSE errors for networks with cutting time are lower than the measurement ac-curacy of the workshop microscope used, which 
+
+was 0.01 mm. It can be noticed that the addition of the cutting time to the set of learning vari-ables resulted in a decrease in the RMSE pre-diction error almost twice compared to networks not containing this variable, while further reduc-tion of the learning set causes a slight increase in the error with a significant simplification of the system construction. 
+
+CONCLUSIONS 
+
+Based on the research and carried out analy-sis, the following conclusions can be formulated: 1. In the examined range of cutting parameters, 
+
+the use of single-variable regression and mul-tiple regression equations is not an effective method of predicting the value of tool wear. It 
+
+404 
+
+Advances in Science and Technology Research Journal 2025, 19(7), 394–405 
+
+shows little correlation for multiple regression (R2 = 0.4) and no correlation for one variable. 
+
+2. In the case of artificial neural networks, a much better prediction quality was obtained, espe-cially for models with a cutting time of MLP 12-10-1 and MLP 8-7-1 (R2 > 0.9). It is impor-tant that to predict the value of the tool wear parameter, it is not necessary to enter the value of any of the cutting parameters. The absence of these variables in the set of input variables did not result in a significant increase in the prediction error. The error for the network con-taining the MLP 12-10-1 width and depth of cut was RMSE = 0.0076 mm, while the error for the network without cutting parameters was RMSE = 0.0096 mm. 
+
+3. Changing the cutting parameters causes a change in the level of cutting forces, usually greater than in the case of wear, so the cutting parameters do not have to be entered into the model. This change results from the change in 
+
+the cross-section of the cutting layer. 
+
+4. The most important diagnostic measures turned out to be the RMS values of forces in all directions, especially in the feed direction (Ff_RMS). The RMS values, by averaging the values, reflect the variability of the forces than the peak to peak values, the increase of which would reveal tool damage if it occurred during machining. 
+
+5. The applied model allows for the derivation of the tool wear control track based on the force sensor, what is important, the cutting param-eters can be variable during tool operation, which is common when using the tool in in-dustry, and this will not cause significant errors in the wear indication. 
+
+REFERENCES 
+
+1. Wojciechowski, S.; Przestacki, D.; Chwalczuk, T. The evaluation of surface integrity during machin-ing of Inconel 718 with various laser assistance strategies. MATEC Web of Conferece 2017; 136, 01006-1–01006-6. 
+
+2. Zhou, J.; Bushlya, V., Peng, R.L.; Johansson, S.; Stahl, J.E. Analysis of subsurface microstructure and residu-al stresses in machined Inconel 718 with PCBN and Al2O3-SiCw tools. Procedia CIRP 2014; 13, 150–155. 
+
+3. Xavior, M.A.; Manohar, M.; Madhukar, P.M.; Jeya-pandiarajan, P. Experimental investigation of work hardening, residual stress and microstructure during 
+
+machining Inconel 718. J. of Mechanical Science and Technology 2017; 31(10), 4789–4794. 
+
+4. Ren, X.-P.; Liu, Z.-Q. Microstructure refinement and work hardening in a machined surface layer induced by turning Inconel 718 super alloy. Int. J. of Miner-als, Metallurgy and Materials 2018; 25(8), 937–949. 
+
+5. Liao, Y.S.; Lin, H.M.; Wang, J.H. Behaviors of end milling Inconel 718 superalloy by cemented carbide tools. J. of Materials Processing Technology 2008; 201(3–1), 460–465. 
+
+6. Musfirah, A.H.; Ghani, J.A.; Haron, C.H.C. Tool wear and surface integrity of inconel 718 in dry and cryogenic coolant at high cutting speed. Wear 2017; 376–377, 125–133. 
+
+7. Li, W.; Guo, Y.B.; Barkey, M.E.; Jordon, J.B. Effect tool wear during end milling on the surface integrity and fatigue life of inconel 718. Procedia CIRP 2014; 14, 546–551. 
+
+8. Mrkvica, I.; Špalek, F.; Szotkowski, T. Influence of cutting tool wear when milling Inconel 718 on resulting roughness. Manufacturing Technology 2018; 18(3), 457–461. 
+
+9. Drouillet, C.; Karandikar, J., Nath, C.; El Mansori, M.; Kurfess, T. Tool life predictions in milling using spindle power with the neural network technique. J. of Manufacturing Processes 2016; 22, 161–168. 
+
+10. Twardowski P.; M. Wiciak-Pikula M. Prediction of tool wear using artificial neural networks during turning of hardened steel. Materials 2019; 12(19), 3091-1–3091-15. 
+
+11. Liu, M.; Yao, X.; Zhang, J.; Jing, X.; Wang, K. Multi-sensor data fusion for remaining useful life predic-tion of machining tools by iabc-bpnn in dry milling operations. Sensors 2020; 20(17), 4657, 1–24. 
+
+12. Lu, X.; Jia, Z., Wang, H.; Wang, X.; Jia. Surface roughness prediction model of micro-milling Inco-nel 718 with consideration of tool wear. Int. J. of Nanomanufacturing 2016; 12(1), 93–108. 
+
+13. Khorasani, A.M.; Yazdi, M.R.S. Development of a dynamic surface roughness monitoring system based on artificial neural networks (ANN) in mill-ing operation. Int. J. of Advanced Manufacturing Technology 2017; 93(1–4), 141–151. 
+
+14. Prasad, M.V.R.D.; Sravya, Y.; Tejaswi, K.S. Study of the influence of process parameters on surface roughness when Inconel 718 is dry turned using CBNCutting tool by artificial neural network ap-proach. Int. J. of Mat., Mech. and Manuf. 2014; 2(4), 335–338. 
+
+15. D’Addona, D.; Segreto, T.; Simeone, A.; Teti, R. ANN tool wear modelling in the machining of nickel superal-loy industrial products. CIRP Journal of Manufacturing Science and Technology 2011; 4(1), 33–37. 
+
+16. Leone, C.; D’Addona, D.; Teti, R. Tool wear mod-elling through regression analysis and intelligent 
+
+405 
+
+Advances in Science and Technology Research Journal 2025, 19(7), 394–405 
+
+methods for nickel base alloy machining. CIRP Journal of Manufacturing Science and Technology 2011; 4(3), 327–331. 
+
+17. Kalra, G.; Gupta, A.K. Mathematical modeling to estimate machining time during milling of Inconel 718 workpiece using ANN. Materials Today: Pro-ceedings 2023; 78, 546–554. 
+
+18. Sen, B.; Mia, M.; Mandal, U.K.; Mondal, S.P. GEP- and ANN-based tool wear monitoring: a virtually sens-ing predictive platform for MQL-assisted milling of Inconel 690. International Journal of Advanced Manu-facturing Technology 2019; 105(1–4), 395–410. 
+
+19. Kaya, B.; Oysu, C.; Ertunc, H.M. Force-torque based on-line tool wear estimation system for CNC milling of Inconel 718 using neural networks. Ad-vances in Engineering Software 2011; 42(3), 76–84. 
+
+20. Bagga, P.J.; Chavda, B.; Modi, V.; Makhesana, M.A.; Patel, K.M. Indirect tool wear measurement and prediction using multi-sensor data fusion and neural network during machining. Materials Today: Proceedings 2022; 51–55. 
+
+21. Han, C.; Kim, K.B.; Lee, S.W.; Jun, M.B.-G.; Jeong, Y.H. International Journal of Precision Engineering and Manufacturing 2021; 22(9), 1527–1536.

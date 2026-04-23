@@ -1,0 +1,6769 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-13T18:09:48.833520",
+    "version": "2.0.0",
+    "total_items": 254,
+    "by_type": {
+      "repos": 204,
+      "models": 27,
+      "datasets": 23
+    },
+    "sources": {
+      "microfactory-curated": 181,
+      "top-30-analysis": 30,
+      "librarian-discovered": 7,
+      "huggingface-models": 27,
+      "dataset-registry": 26
+    }
+  },
+  "items": [
+    {
+      "full_name": "lsj5031/PiSwarm",
+      "owner": "lsj5031",
+      "repo": "PiSwarm",
+      "sources": [
+        "microfactory-curated",
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832420"
+        },
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832895"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832419",
+      "description": "",
+      "stars": 5,
+      "language": "Shell",
+      "type": "repo",
+      "rank": 18,
+      "category": "swarm-robotics",
+      "book_relevance": "FLAGSHIP_CH07: Swarm robotics for manufacturing (assuming from name)",
+      "chapter": "07",
+      "priority": "HIGH",
+      "deep_dive": true,
+      "notes": "Critical low-star gem: Pi + Swarm = manufacturing swarm robotics",
+      "derived": {
+        "source_count": 2,
+        "priority_score": 55,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "alvivar/pi-link",
+      "owner": "alvivar",
+      "repo": "pi-link",
+      "sources": [
+        "microfactory-curated",
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832443"
+        },
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832882"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832443",
+      "description": "A WebSocket-based inter-terminal communication system that creates a local network between multiple Pi coding agent terminals. Enables terminals to discover each other, exchange messages, and orche\u2026",
+      "stars": 9,
+      "language": "TypeScript",
+      "type": "repo",
+      "rank": 12,
+      "category": "agent-communication",
+      "book_relevance": "FLAGSHIP_CH06: WebSocket multi-terminal coordination (exactly what we need!)",
+      "chapter": "06",
+      "priority": "HIGH",
+      "deep_dive": true,
+      "notes": "CRITICAL DISCOVERY: WebSocket-based agent coordination. Low stars, HIGH relevance.",
+      "derived": {
+        "source_count": 2,
+        "priority_score": 55,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "dustinbyrne/kb",
+      "owner": "dustinbyrne",
+      "repo": "kb",
+      "sources": [
+        "microfactory-curated",
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832463"
+        },
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832899"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832462",
+      "description": "pi extension for agentic development - kanban style",
+      "stars": 5,
+      "language": "TypeScript",
+      "type": "repo",
+      "rank": 20,
+      "category": "knowledge-base",
+      "book_relevance": "CH08: Knowledge management for manufacturing agents",
+      "chapter": "08",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "Kanban-style knowledge base",
+      "derived": {
+        "source_count": 2,
+        "priority_score": 55,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "patoles/agent-flow",
+      "owner": "patoles",
+      "repo": "agent-flow",
+      "sources": [
+        "microfactory-curated",
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832488"
+        },
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832910"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832488",
+      "description": "Real-time visualization of Claude Code agent orchestration \u2014 see your agents think, branch, and coordinate as they work.",
+      "stars": 625,
+      "language": "TypeScript",
+      "type": "repo",
+      "rank": 24,
+      "category": "agent-visualization",
+      "book_relevance": "CH08: Real-time visualization of agent orchestration",
+      "chapter": "08",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "Agent coordination visualization",
+      "derived": {
+        "source_count": 2,
+        "priority_score": 55,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "bytedance/deer-flow",
+      "owner": "bytedance",
+      "repo": "deer-flow",
+      "sources": [
+        "microfactory-curated",
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832500"
+        },
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832867"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832500",
+      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of\u2026",
+      "stars": 59632,
+      "language": "Python",
+      "type": "repo",
+      "rank": 4,
+      "category": "multi-agent-orchestration",
+      "book_relevance": "FLAGSHIP_CH05: Long-horizon SuperAgent with subagents, sandboxes, research capabilities",
+      "chapter": "05",
+      "priority": "HIGH",
+      "deep_dive": true,
+      "notes": "59K+ stars, represents state-of-art multi-agent orchestration. Compare with Autogen, CAMEL.",
+      "derived": {
+        "source_count": 2,
+        "priority_score": 55,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "goat-sdk/goat",
+      "owner": "goat-sdk",
+      "repo": "goat",
+      "sources": [
+        "microfactory-curated",
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832506"
+        },
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832873"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832504",
+      "description": "The leading agentic finance toolkit for AI agents",
+      "stars": 5200,
+      "language": "TypeScript",
+      "type": "repo",
+      "rank": 7,
+      "category": "blockchain-ai",
+      "book_relevance": "RESEARCH_CH10: Blockchain consensus for federated manufacturing ledger",
+      "chapter": "10",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "Blockchain integration, niche for manufacturing tokenization",
+      "derived": {
+        "source_count": 2,
+        "priority_score": 55,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "VoltAgent/voltagent",
+      "owner": "VoltAgent",
+      "repo": "voltagent",
+      "sources": [
+        "microfactory-curated",
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832508"
+        },
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832911"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832507",
+      "description": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework",
+      "stars": 9174,
+      "language": "TypeScript",
+      "type": "repo",
+      "rank": 25,
+      "category": "agent-framework",
+      "book_relevance": "CH05: AI Agent Engineering Platform (TypeScript)",
+      "chapter": "05",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "Large agent framework, compare with Microsoft offerings",
+      "derived": {
+        "source_count": 2,
+        "priority_score": 55,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "microsoft/agent-framework",
+      "owner": "microsoft",
+      "repo": "agent-framework",
+      "sources": [
+        "microfactory-curated",
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832516"
+        },
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832879"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832515",
+      "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",
+      "stars": 9174,
+      "language": "Python",
+      "type": "repo",
+      "rank": 10,
+      "category": "multi-agent-framework",
+      "book_relevance": "CH05_CH06: Production orchestration patterns, circuit breakers",
+      "chapter": "05, 06",
+      "priority": "HIGH",
+      "deep_dive": true,
+      "notes": "Production-grade multi-agent framework. Compare with Autogen, Deer-Flow.",
+      "derived": {
+        "source_count": 2,
+        "priority_score": 55,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "NVIDIA/warp",
+      "owner": "NVIDIA",
+      "repo": "warp",
+      "sources": [
+        "microfactory-curated",
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832519"
+        },
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832872"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832518",
+      "description": "A Python framework for GPU-accelerated simulation, robotics, and machine learning.",
+      "stars": 6488,
+      "language": "Python",
+      "type": "repo",
+      "rank": 6,
+      "category": "differentiable-physics",
+      "book_relevance": "FLAGSHIP_CH04.5: GPU-accelerated differentiable simulation for robotics and manufacturing",
+      "chapter": "04.5",
+      "priority": "HIGH",
+      "deep_dive": true,
+      "notes": "Core to physics-informed manufacturing. Foundation for Newton.",
+      "derived": {
+        "source_count": 2,
+        "priority_score": 55,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "psi-oss/get-physics-done",
+      "owner": "psi-oss",
+      "repo": "get-physics-done",
+      "sources": [
+        "microfactory-curated",
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832534"
+        },
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832880"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832533",
+      "description": "The first open-source agentic AI physicist, by Physical Superintelligence PBC (PSI).",
+      "stars": 716,
+      "language": "Python",
+      "type": "repo",
+      "rank": 11,
+      "category": "agentic-physics",
+      "book_relevance": "FLAGSHIP_CH10: First open-source agentic AI physicist",
+      "chapter": "10",
+      "priority": "HIGH",
+      "deep_dive": true,
+      "notes": "Agentic physics reasoning. Perfect for Ch04.5 case study.",
+      "derived": {
+        "source_count": 2,
+        "priority_score": 55,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "hmans/beans",
+      "owner": "hmans",
+      "repo": "beans",
+      "sources": [
+        "microfactory-curated",
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832633"
+        },
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832893"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832632",
+      "description": "A CLI-based, flat-file issue tracker for humans and robots. \ud83e\udd16",
+      "stars": 672,
+      "language": "Go",
+      "type": "repo",
+      "rank": 17,
+      "category": "issue-tracker",
+      "book_relevance": "CH06: CLI-based tracker for humans and robots",
+      "chapter": "06",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "Human-robot collaboration tracking",
+      "derived": {
+        "source_count": 2,
+        "priority_score": 55,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "microsoft/magentic-ui",
+      "owner": "microsoft",
+      "repo": "magentic-ui",
+      "sources": [
+        "microfactory-curated",
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832643"
+        },
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832877"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832641",
+      "description": "A research prototype of a human-centered web agent",
+      "stars": 9759,
+      "language": "Python",
+      "type": "repo",
+      "rank": 9,
+      "category": "web-agent-ui",
+      "book_relevance": "CH07_SCENARIOS: Human-centered web agent interface",
+      "chapter": "07",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "UI for web-based manufacturing agents",
+      "derived": {
+        "source_count": 2,
+        "priority_score": 55,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "lucidrains/deep-cross-attention",
+      "owner": "lucidrains",
+      "repo": "deep-cross-attention",
+      "sources": [
+        "microfactory-curated",
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832743"
+        },
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832890"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832742",
+      "description": "Implementation of the proposed DeepCrossAttention by Heddes et al at Google research, in Pytorch",
+      "stars": 99,
+      "language": "Python",
+      "type": "repo",
+      "rank": 15,
+      "category": "attention-mechanisms",
+      "book_relevance": "CH10: Advanced attention for manufacturing sequence modeling",
+      "chapter": "10",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "Attention research, niche for manufacturing",
+      "derived": {
+        "source_count": 2,
+        "priority_score": 55,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "hrithikkoduri/WebRover",
+      "owner": "hrithikkoduri",
+      "repo": "WebRover",
+      "sources": [
+        "microfactory-curated",
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832762"
+        },
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832891"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832761",
+      "description": "WebRover is an autonomous AI agent designed to interpret user input and execute actions by interacting with web elements to accomplish tasks or answer questions. It leverages advanced language mode\u2026",
+      "stars": 991,
+      "language": "Python",
+      "type": "repo",
+      "rank": 16,
+      "category": "web-agent",
+      "book_relevance": "CH07_SCENARIOS: Autonomous web agent for manufacturing dashboards",
+      "chapter": "07",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "Web automation agent",
+      "derived": {
+        "source_count": 2,
+        "priority_score": 55,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "huggingface/hf-agents",
+      "owner": "huggingface",
+      "repo": "hf-agents",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832386"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832379",
+      "description": "HF CLI extension to run local coding agent powered by llmfit and llama.cpp",
+      "stars": 0,
+      "language": "Shell",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "NVIDIA/personaplex",
+      "owner": "NVIDIA",
+      "repo": "personaplex",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832392"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832391",
+      "description": "PersonaPlex code.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "google-ai-edge/LiteRT-LM",
+      "owner": "google-ai-edge",
+      "repo": "LiteRT-LM",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832397"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832396",
+      "description": "",
+      "stars": 0,
+      "language": "C++",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "newton-physics/newton",
+      "owner": "newton-physics",
+      "repo": "newton",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832402"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832400",
+      "description": "An open-source, GPU-accelerated physics simulation engine built upon NVIDIA Warp, specifically targeting roboticists and simulation researchers.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "lightpanda-io/browser",
+      "owner": "lightpanda-io",
+      "repo": "browser",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832405"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832404",
+      "description": "Lightpanda: the headless browser designed for AI and automation",
+      "stars": 0,
+      "language": "Zig",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "TauricResearch/TradingAgents",
+      "owner": "TauricResearch",
+      "repo": "TradingAgents",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832407"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832407",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "onyx-dot-app/onyx",
+      "owner": "onyx-dot-app",
+      "repo": "onyx",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832410"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832409",
+      "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "ntnu-arl/lidar_degeneracy_datasets",
+      "owner": "ntnu-arl",
+      "repo": "lidar_degeneracy_datasets",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832412"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832411",
+      "description": "LiDAR degeneracy dataset for LiDAR-radar-inertial fusion methods.",
+      "stars": 0,
+      "language": "Unknown",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "microsoft/playwright-cli",
+      "owner": "microsoft",
+      "repo": "playwright-cli",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832414"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832413",
+      "description": "CLI for common Playwright actions. Record and generate Playwright code, inspect selectors and take screenshots.",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "badlogic/pi-share-hf",
+      "owner": "badlogic",
+      "repo": "pi-share-hf",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832416"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832415",
+      "description": "Collect, review, and upload redacted pi session files to a Hugging Face dataset",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "fikrikarim/parlor",
+      "owner": "fikrikarim",
+      "repo": "parlor",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832418"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832417",
+      "description": "On-device, real-time multimodal AI. Have natural voice and vision conversations with an AI that runs entirely on your machine. Powered by Gemma 4 E2B and Kokoro.",
+      "stars": 0,
+      "language": "HTML",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "cgbarlow/machine-dream_AG",
+      "owner": "cgbarlow",
+      "repo": "machine-dream_AG",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832423"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832423",
+      "description": "Machine Dream - Continuous machine cognition research platform with GRASP loop, dreaming consolidation, and persistent memory. Pure LLM Sudoku solver that learns from experience and consolidates kn\u2026",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "wesm/agentsview",
+      "owner": "wesm",
+      "repo": "agentsview",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832425"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832425",
+      "description": "A local-first desktop and web application for browsing, searching, and analyzing AI agent coding sessions. Supports Claude Code, Codex, Gemini, OpenCode, Copilot and many other agents.",
+      "stars": 0,
+      "language": "Go",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "davidorex/pi-project-workflows",
+      "owner": "davidorex",
+      "repo": "pi-project-workflows",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832428"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832428",
+      "description": "A set of pi extensions that allow users and llm's to craft customized project and workflow management setups that conform to their particular needs and desires. Goal: users don't need to submit iss\u2026",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "jal-co/pi-skills-sh",
+      "owner": "jal-co",
+      "repo": "pi-skills-sh",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832431"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832430",
+      "description": "Browse, install &amp; manage skills.sh skills from inside pi",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "sting8k/pi-vcc",
+      "owner": "sting8k",
+      "repo": "pi-vcc",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832433"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832433",
+      "description": "Smart, Fast &amp; Lossless session compaction for Pi. No LLM calls - produces structured, transcript-preserving summaries using pure extraction and formatting.",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "denismrvoljak/pi-tutor",
+      "owner": "denismrvoljak",
+      "repo": "pi-tutor",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832435"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832435",
+      "description": "A personal tutor extension for pi that adapts to your learning style, remembers what you're learning, and guides you with hints, projects, and next steps.",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "dvrosalesm/pi-notetaker",
+      "owner": "dvrosalesm",
+      "repo": "pi-notetaker",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832437"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832437",
+      "description": "Plan-aware agent orchestration for Pi. Grove reads a structured markdown plan, parses it into work streams with dependencies, and orchestrates parallel AI agents to execute them \u2014 all monitored thr\u2026",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "jongirard/pi-grove",
+      "owner": "jongirard",
+      "repo": "pi-grove",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832439"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832439",
+      "description": "Plan-aware agent orchestration for Pi. Grove reads a structured markdown plan, parses it into work streams with dependencies, and orchestrates parallel AI agents to execute them \u2014 all monitored thr\u2026",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "skidvis/pi-coordinator",
+      "owner": "skidvis",
+      "repo": "pi-coordinator",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832441"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832441",
+      "description": "A pi extension that transforms the primary agent into a pure dispatcher/orchestrator. The coordinator is locked to one tools (dispatch_agent) and delegates all real work to a built-in team of three\u2026",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "camel-ai/camel",
+      "owner": "camel-ai",
+      "repo": "camel",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832447"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832446",
+      "description": "\ud83d\udc2b CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "different-ai/openwork",
+      "owner": "different-ai",
+      "repo": "openwork",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832450"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832449",
+      "description": "An open-source alternative to Claude Cowork built for teams, powered by opencode",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "eigent-ai/eigent",
+      "owner": "eigent-ai",
+      "repo": "eigent",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832452"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832452",
+      "description": "Eigent: The Open Source Cowork Desktop to Unlock Your Exceptional Productivity. Local and Free Alternative to Claude Cowork.",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "default-anton/pi-librarian",
+      "owner": "default-anton",
+      "repo": "pi-librarian",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832454"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832454",
+      "description": "GitHub research subagent package for pi coding agent",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "aliou/pi-guardrails",
+      "owner": "aliou",
+      "repo": "pi-guardrails",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832457"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832456",
+      "description": "Security hooks for Pi. Prevents dangerous operations, protects env files, gates destructive commands.",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "tintinweb/pi-subagents",
+      "owner": "tintinweb",
+      "repo": "pi-subagents",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832459"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832458",
+      "description": "Sub-agents for pi with Claude Code look and feel \u2014 parallel execution, live widget, custom agent types, mid-run steering and more ...",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "nicobailon/pi-subagents",
+      "owner": "nicobailon",
+      "repo": "pi-subagents",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832461"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832460",
+      "description": "Pi extension for async subagent delegation with truncation, artifacts, and session sharing",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "getcompanion-ai/feynman",
+      "owner": "getcompanion-ai",
+      "repo": "feynman",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832465"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832464",
+      "description": "",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "badlogic/pi-mono",
+      "owner": "badlogic",
+      "repo": "pi-mono",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832468"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832466",
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI &amp; web UI libraries, Slack bot, vLLM pods",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "jsantell/THREE.IK",
+      "owner": "jsantell",
+      "repo": "THREE.IK",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832470"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832469",
+      "description": "inverse kinematics for three.js",
+      "stars": 0,
+      "language": "JavaScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "funwithtriangles/blender-to-threejs-export-guide",
+      "owner": "funwithtriangles",
+      "repo": "blender-to-threejs-export-guide",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832474"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832473",
+      "description": "How to export animated models from Blender into three.js",
+      "stars": 0,
+      "language": "Unknown",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "supermemoryai/supermemory",
+      "owner": "supermemoryai",
+      "repo": "supermemory",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832476"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832476",
+      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "brain-tree-dev/brain-tree-os",
+      "owner": "brain-tree-dev",
+      "repo": "brain-tree-os",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832478"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832478",
+      "description": "Open source brain viewer and project management for AI agents. Give your AI a brain.",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "fuwasegu/aegis",
+      "owner": "fuwasegu",
+      "repo": "aegis",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832480"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832480",
+      "description": "DAG-based Deterministic Context Compiler for AI Coding Agents",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "wasp-lang/wasp",
+      "owner": "wasp-lang",
+      "repo": "wasp",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832482"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832482",
+      "description": "The batteries-included full-stack framework for the AI era. Develop JS/TS web apps (React, Node.js, and Prisma) using declarative code that abstracts away complex full-stack features like auth, bac\u2026",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "SethGammon/Citadel",
+      "owner": "SethGammon",
+      "repo": "Citadel",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832485"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832484",
+      "description": "Agent orchestration harness for Claude Code. Four-tier routing (/do), campaign persistence across sessions, parallel agents in isolated worktrees, discovery relay between waves, lifecycle hooks, ci\u2026",
+      "stars": 0,
+      "language": "JavaScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "lfnovo/open-cognition",
+      "owner": "lfnovo",
+      "repo": "open-cognition",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832486"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832486",
+      "description": "An experiment for doing spaced repetition and active recall using LLMs",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "Michaelliv/markit",
+      "owner": "Michaelliv",
+      "repo": "markit",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832490"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832490",
+      "description": "\ud83d\udd8d\ufe0f Convert anything to markdown. Mark it.",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "vectorize-io/hindsight",
+      "owner": "vectorize-io",
+      "repo": "hindsight",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832493"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832492",
+      "description": "Hindsight: Agent Memory That Learns",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "plastic-labs/honcho",
+      "owner": "plastic-labs",
+      "repo": "honcho",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832495"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832495",
+      "description": "Memory library for building stateful agents",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "NousResearch/hermes-agent",
+      "owner": "NousResearch",
+      "repo": "hermes-agent",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832498"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832497",
+      "description": "The agent that grows with you",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "neuraloperator/neuraloperator",
+      "owner": "neuraloperator",
+      "repo": "neuraloperator",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832502"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832502",
+      "description": "Learning in infinite dimension with neural operators.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "videosdk-live/agents",
+      "owner": "videosdk-live",
+      "repo": "agents",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832510"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832509",
+      "description": "Open-source framework for developing real-time multimodal conversational AI agents.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "cloudflare/agents-starter",
+      "owner": "cloudflare",
+      "repo": "agents-starter",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832512"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832511",
+      "description": "A starter kit for building ai agents on Cloudflare",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "docker/docker-agent",
+      "owner": "docker",
+      "repo": "docker-agent",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832514"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832513",
+      "description": "AI Agent Builder and Runtime by Docker Engineering",
+      "stars": 0,
+      "language": "Go",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "voxel51/fiftyone",
+      "owner": "voxel51",
+      "repo": "fiftyone",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832522"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832521",
+      "description": "Refine high-quality datasets and visual AI models",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "Giskard-AI/giskard-oss",
+      "owner": "Giskard-AI",
+      "repo": "giskard-oss",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832524"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832523",
+      "description": "\ud83d\udc22 Open-Source Evaluation &amp; Testing library for LLM Agents",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "Fasani/three-js-resources",
+      "owner": "Fasani",
+      "repo": "three-js-resources",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832526"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832525",
+      "description": "A collection of resources for building 3D projects with three.js",
+      "stars": 0,
+      "language": "Unknown",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "bradygaster/squad",
+      "owner": "bradygaster",
+      "repo": "squad",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832528"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832527",
+      "description": "Squad: AI agent teams for any project",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "delibae/claude-prism",
+      "owner": "delibae",
+      "repo": "claude-prism",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832530"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832529",
+      "description": "An offline-first scientific writing workspace powered by Claude. LaTeX + Python + 100+ scientific skills all running locally.",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "NVIDIA/OpenShell",
+      "owner": "NVIDIA",
+      "repo": "OpenShell",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832532"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832531",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "stars": 0,
+      "language": "Rust",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "karpathy/autoresearch",
+      "owner": "karpathy",
+      "repo": "autoresearch",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832536"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832536",
+      "description": "AI agents running research on single-GPU nanochat training automatically",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "NVIDIA/NemoClaw",
+      "owner": "NVIDIA",
+      "repo": "NemoClaw",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832538"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832538",
+      "description": "Run OpenClaw more securely inside NVIDIA OpenShell with managed inference",
+      "stars": 0,
+      "language": "JavaScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "jalonsogo/tui-studio",
+      "owner": "jalonsogo",
+      "repo": "tui-studio",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832543"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832541",
+      "description": "Visual design tool for building Terminal User Interfaces",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "githubnext/agentics",
+      "owner": "githubnext",
+      "repo": "agentics",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832546"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832545",
+      "description": "A sample pack of GitHub Agentic Workflows!",
+      "stars": 0,
+      "language": "Makefile",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "AlexsJones/llmfit",
+      "owner": "AlexsJones",
+      "repo": "llmfit",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832548"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832547",
+      "description": "Hundreds of models &amp; providers. One command to find what runs on your hardware.",
+      "stars": 0,
+      "language": "Rust",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "onecli/onecli",
+      "owner": "onecli",
+      "repo": "onecli",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832550"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832549",
+      "description": "Open-source credential vault, give your AI agents access to services without exposing keys.",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "ascorbic/macrodata",
+      "owner": "ascorbic",
+      "repo": "macrodata",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832552"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832551",
+      "description": "Give Claude Code and OpenCode persistent, self-refining memory and autonomous scheduling.",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "mikekelly/gap",
+      "owner": "mikekelly",
+      "repo": "gap",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832554"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832553",
+      "description": "Give AI agents secure access to your accounts - without sharing your credentials",
+      "stars": 0,
+      "language": "Rust",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "wey-gu/py-pglite",
+      "owner": "wey-gu",
+      "repo": "py-pglite",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832556"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832555",
+      "description": "PGlite wrapper in Python for testing. Test your app with Postgres just as lite as SQLite.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "OthmanAdi/planning-with-files",
+      "owner": "OthmanAdi",
+      "repo": "planning-with-files",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832558"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832557",
+      "description": "Claude Code skill implementing Manus-style persistent markdown planning \u2014 the workflow pattern behind the $2B acquisition.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "Anush008/fastembed-rs",
+      "owner": "Anush008",
+      "repo": "fastembed-rs",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832560"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832559",
+      "description": "Rust library for vector embeddings and reranking.",
+      "stars": 0,
+      "language": "Rust",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "websockets/ws",
+      "owner": "websockets",
+      "repo": "ws",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832562"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832561",
+      "description": "Simple to use, blazing fast and thoroughly tested WebSocket client and server for Node.js",
+      "stars": 0,
+      "language": "JavaScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "verygoodplugins/automem",
+      "owner": "verygoodplugins",
+      "repo": "automem",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832567"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832565",
+      "description": "AutoMem is a graph-vector memory service that gives AI assistants durable, relational memory:",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "gastownhall/gastown",
+      "owner": "gastownhall",
+      "repo": "gastown",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832570"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832568",
+      "description": "Gas Town - multi-agent workspace manager",
+      "stars": 0,
+      "language": "Go",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "Fission-AI/OpenSpec",
+      "owner": "Fission-AI",
+      "repo": "OpenSpec",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832572"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832571",
+      "description": "Spec-driven development (SDD) for AI coding assistants.",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "puffinsoft/syntux",
+      "owner": "puffinsoft",
+      "repo": "syntux",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832574"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832573",
+      "description": "Build generative UIs for the web.",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "chopratejas/headroom",
+      "owner": "chopratejas",
+      "repo": "headroom",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832576"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832575",
+      "description": "The Context Optimization Layer for LLM Applications",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "ThibautMelen/agentic-ai-systems",
+      "owner": "ThibautMelen",
+      "repo": "agentic-ai-systems",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832578"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832577",
+      "description": "\ud83d\udc14 Agentic systems explained with chickens. Workflows, agents &amp; orchestration made simple. Mermaid diagrams included",
+      "stars": 0,
+      "language": "Unknown",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "K-Dense-AI/claude-scientific-skills",
+      "owner": "K-Dense-AI",
+      "repo": "claude-scientific-skills",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832581"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832580",
+      "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "agentify-sh/speak",
+      "owner": "agentify-sh",
+      "repo": "speak",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832583"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832582",
+      "description": "After Codex finishes its turn it will intelilgently read out what it did",
+      "stars": 0,
+      "language": "Shell",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "kyutai-labs/pocket-tts",
+      "owner": "kyutai-labs",
+      "repo": "pocket-tts",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832586"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832585",
+      "description": "A TTS that fits in your CPU (and pocket)",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "accomplish-ai/accomplish",
+      "owner": "accomplish-ai",
+      "repo": "accomplish",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832588"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832587",
+      "description": "Accomplish\u2122 is the open source Al coworker that lives on your desktop",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "tobi/qmd",
+      "owner": "tobi",
+      "repo": "qmd",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832591"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832591",
+      "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "parcadei/llm-tldr",
+      "owner": "parcadei",
+      "repo": "llm-tldr",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832595"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832593",
+      "description": "95% token savings. 155x faster queries. 16 languages. LLMs can't read your entire codebase. TLDR extracts structure, traces dependencies, and gives them exactly what they need.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "Coldaine/the-watchman",
+      "owner": "Coldaine",
+      "repo": "the-watchman",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832597"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832596",
+      "description": "Computer-centric knowledge graph: tracks system state, changes, and visual timeline with Neo4j + OCR + embeddings",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "neo4j-labs/agent-memory",
+      "owner": "neo4j-labs",
+      "repo": "agent-memory",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832600"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832599",
+      "description": "A graph-native memory system for AI agents and context graphs. Store conversations, build knowledge graphs, and let your agents learn from their own reasoning\u2009\u2014\u2009all backed by Neo4j.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "max-sixty/worktrunk",
+      "owner": "max-sixty",
+      "repo": "worktrunk",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832602"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832601",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "stars": 0,
+      "language": "Rust",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "hummat/paperpipe",
+      "owner": "hummat",
+      "repo": "paperpipe",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832604"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832603",
+      "description": "Extract equations and context from research papers for LLM coding assistants (arXiv, LaTeX, RAG)",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "swiftlysingh/excalidraw-cli",
+      "owner": "swiftlysingh",
+      "repo": "excalidraw-cli",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832606"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832605",
+      "description": "CLI for creating Excalidraw flowcharts programmatically",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "github/spec-kit",
+      "owner": "github",
+      "repo": "spec-kit",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832608"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832607",
+      "description": "\ud83d\udcab Toolkit to help you get started with Spec-Driven Development",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "simonw/claude-code-transcripts",
+      "owner": "simonw",
+      "repo": "claude-code-transcripts",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832610"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832609",
+      "description": "Tools for publishing transcripts for Claude Code sessions",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "agentscope-ai/OpenJudge",
+      "owner": "agentscope-ai",
+      "repo": "OpenJudge",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832612"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832611",
+      "description": "OpenJudge: A Unified Framework for Holistic Evaluation and Quality Rewards",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "RunMaestro/Maestro",
+      "owner": "RunMaestro",
+      "repo": "Maestro",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832615"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832615",
+      "description": "Agent Orchestration Command Center",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "makeplane/plane",
+      "owner": "makeplane",
+      "repo": "plane",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832618"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832618",
+      "description": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "xlang-ai/OpenCUA",
+      "owner": "xlang-ai",
+      "repo": "OpenCUA",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832622"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832621",
+      "description": "OpenCUA: Open Foundations for Computer-Use Agents",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "simular-ai/Agent-S",
+      "owner": "simular-ai",
+      "repo": "Agent-S",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832624"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832623",
+      "description": "Agent S: an open agentic framework that uses computers like a human",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "AmberSahdev/Open-Interface",
+      "owner": "AmberSahdev",
+      "repo": "Open-Interface",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832626"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832625",
+      "description": "Control Any Computer Using LLMs.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "cased/kit",
+      "owner": "cased",
+      "repo": "kit",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832629"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832628",
+      "description": "The toolkit for AI devtools context engineering. Build with codebase mapping, symbol extraction, and many kinds of code search.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "msmps/create-tui",
+      "owner": "msmps",
+      "repo": "create-tui",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832631"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832630",
+      "description": "The easiest way to get started with OpenTUI is by using create-tui. This CLI tool enables you to quickly start building a new OpenTUI application, with everything set up for you.",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "notactuallytreyanastasio/deciduous",
+      "owner": "notactuallytreyanastasio",
+      "repo": "deciduous",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832635"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832634",
+      "description": "Decision graph tooling for AI-assisted development - track every choice, query your reasoning",
+      "stars": 0,
+      "language": "HTML",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "bazilicum/GraphLTM",
+      "owner": "bazilicum",
+      "repo": "GraphLTM",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832637"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832636",
+      "description": "Turn any LLM into a self-extending knowledge agent powered by a graph-structured memory - complete with PDF-to-graph ingestion, budget-aware optimisation, and dual-engine orchestration.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "YuxingLu613/KARMA",
+      "owner": "YuxingLu613",
+      "repo": "KARMA",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832640"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832639",
+      "description": "Leveraging Multi-Agent LLMs for Automated Knowledge Graph Enrichment",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "agentsmd/agents.md",
+      "owner": "agentsmd",
+      "repo": "agents.md",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832645"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832644",
+      "description": "AGENTS.md \u2014 a simple, open format for guiding coding agents",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "MemoriLabs/Memori",
+      "owner": "MemoriLabs",
+      "repo": "Memori",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832647"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832646",
+      "description": "Memori is agent-native memory infrastructure. A SQL-native, LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "microsoft/VibeVoice",
+      "owner": "microsoft",
+      "repo": "VibeVoice",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832649"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832648",
+      "description": "Open-Source Frontier Voice AI",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "agentclientprotocol/agent-client-protocol",
+      "owner": "agentclientprotocol",
+      "repo": "agent-client-protocol",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832651"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832650",
+      "description": "A protocol for connecting any editor to any agent",
+      "stars": 0,
+      "language": "Rust",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "huggingface/skills",
+      "owner": "huggingface",
+      "repo": "skills",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832653"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832652",
+      "description": "Give your agents the power of the Hugging Face ecosystem",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "thedaviddias/llms-txt-hub",
+      "owner": "thedaviddias",
+      "repo": "llms-txt-hub",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832655"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832654",
+      "description": "\ud83e\udd16 The largest directory for AI-ready documentation and tools implementing the proposed llms.txt standard",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "microsoft/agent-lightning",
+      "owner": "microsoft",
+      "repo": "agent-lightning",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832658"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832657",
+      "description": "The absolute trainer to light up AI agents.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "PML-UCF/pinn",
+      "owner": "PML-UCF",
+      "repo": "pinn",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832660"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832659",
+      "description": "Physics-informed neural networks package",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "google-research/timesfm",
+      "owner": "google-research",
+      "repo": "timesfm",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832663"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832662",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "ChristopherLyon/graphrag-workbench",
+      "owner": "ChristopherLyon",
+      "repo": "graphrag-workbench",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832666"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832665",
+      "description": "Interactive 3D visualization of knowledge graphs generated by Microsoft GraphRAG. Explore entities, relationships, and communities with immersive visual analytics.",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "huggingface/screenenv",
+      "owner": "huggingface",
+      "repo": "screenenv",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832668"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832667",
+      "description": "A powerful Python library for creating and managing isolated desktop environments using Docker containers.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "stanford-oval/storm",
+      "owner": "stanford-oval",
+      "repo": "storm",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832670"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832669",
+      "description": "An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "lucidrains/denoising-diffusion-pytorch",
+      "owner": "lucidrains",
+      "repo": "denoising-diffusion-pytorch",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832672"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832671",
+      "description": "Implementation of Denoising Diffusion Probabilistic Model in Pytorch",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "The-Mu-Foundation/Mutorials",
+      "owner": "The-Mu-Foundation",
+      "repo": "Mutorials",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832674"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832673",
+      "description": "A free, adaptive, open-source trainer for physics, chemistry, biology, and earth &amp; space science students.",
+      "stars": 0,
+      "language": "EJS",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "emstoudenmire/parallelDMRG",
+      "owner": "emstoudenmire",
+      "repo": "parallelDMRG",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832676"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832675",
+      "description": "Real-space parallel density matrix renormalization group (DMRG) based on ITensor",
+      "stars": 0,
+      "language": "C++",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "neural-maze/philoagents-course",
+      "owner": "neural-maze",
+      "repo": "philoagents-course",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832678"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832677",
+      "description": "When Philosophy meets AI",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "zach-blumenfeld/graph-nd",
+      "owner": "zach-blumenfeld",
+      "repo": "graph-nd",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832680"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832679",
+      "description": "GraphRAG: Knowledge in Graphs not Documents",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "getzep/graphiti",
+      "owner": "getzep",
+      "repo": "graphiti",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832683"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832682",
+      "description": "Build Real-Time Knowledge Graphs for AI Agents",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "bytedance/flowgram.ai",
+      "owner": "bytedance",
+      "repo": "flowgram.ai",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832686"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832686",
+      "description": "FlowGram is an extensible workflow development framework with built-in canvas, form, variable, and materials that helps developers build AI workflow platforms faster and simpler.",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "iamgio/quarkdown",
+      "owner": "iamgio",
+      "repo": "quarkdown",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832690"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832688",
+      "description": "\ud83e\ude90 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases.",
+      "stars": 0,
+      "language": "Kotlin",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "NVIDIA/physicsnemo",
+      "owner": "NVIDIA",
+      "repo": "physicsnemo",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832692"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832691",
+      "description": "Open-source deep-learning framework for building, training, and fine-tuning deep learning models using state-of-the-art Physics-ML methods",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "AmeyaJagtap/XPINNs",
+      "owner": "AmeyaJagtap",
+      "repo": "XPINNs",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832694"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832693",
+      "description": "Extended Physics-Informed Neural Networks (XPINNs): A Generalized Space-Time Domain Decomposition Based Deep Learning Framework for Nonlinear Partial Differential Equations",
+      "stars": 0,
+      "language": "Unknown",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "ZongqianLi/ReasonGraph",
+      "owner": "ZongqianLi",
+      "repo": "ReasonGraph",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832697"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832695",
+      "description": "[ACL 2025 Demo] Repository for the demo and paper: ReasonGraph: Visualisation of Reasoning Paths",
+      "stars": 0,
+      "language": "HTML",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "gd3kr/BlenderGPT",
+      "owner": "gd3kr",
+      "repo": "BlenderGPT",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832699"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832698",
+      "description": "Use commands in English to control Blender with OpenAI's GPT-4",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "langchain-ai/local-deep-researcher",
+      "owner": "langchain-ai",
+      "repo": "local-deep-researcher",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832701"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832700",
+      "description": "Fully local web research and report writing assistant",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "cemaytekin/EKG-Dataset",
+      "owner": "cemaytekin",
+      "repo": "EKG-Dataset",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832703"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832702",
+      "description": "All the datasets used in ACE: AI-Assisted Construction of Educational Knowledge Graphs with Prerequisite Relations",
+      "stars": 0,
+      "language": "Unknown",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "flwrlabs/flower",
+      "owner": "flwrlabs",
+      "repo": "flower",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832705"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832704",
+      "description": "Flower: A Friendly Federated AI Framework",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "huggingface/transformers",
+      "owner": "huggingface",
+      "repo": "transformers",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832707"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832706",
+      "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "mindsdb/mindsdb",
+      "owner": "mindsdb",
+      "repo": "mindsdb",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832711"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832710",
+      "description": "Query Engine for AI Analytics: Build self-reasoning agents across all your live data",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "roboflow/supervision",
+      "owner": "roboflow",
+      "repo": "supervision",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832714"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832713",
+      "description": "We write your reusable computer vision tools. \ud83d\udc9c",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "rohitgandikota/sliderspace",
+      "owner": "rohitgandikota",
+      "repo": "sliderspace",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832716"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832715",
+      "description": "SliderSpace: Decomposing the Visual Capabilities of Diffusion Models",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "janapavlasek/torch-bp",
+      "owner": "janapavlasek",
+      "repo": "torch-bp",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832718"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832717",
+      "description": "Belief Propagation in Pytorch.",
+      "stars": 0,
+      "language": "Unknown",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "amelioro/ameliorate",
+      "owner": "amelioro",
+      "repo": "ameliorate",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832720"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832719",
+      "description": "A tool for collaboratively refining your understanding in order to improve a situation.",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "qubvel/rt-pose",
+      "owner": "qubvel",
+      "repo": "rt-pose",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832722"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832721",
+      "description": "Real-time pose estimation pipeline with \ud83e\udd17 Transformers",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "rush-db/rushdb",
+      "owner": "rush-db",
+      "repo": "rushdb",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832724"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832723",
+      "description": "RushDB is an Instant Database for Modern Apps &amp; AI. Built on top of Neo4j.",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "BradyAJohnston/MolecularNodes",
+      "owner": "BradyAJohnston",
+      "repo": "MolecularNodes",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832726"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832725",
+      "description": "Toolbox for molecular animations in Blender, powered by Geometry Nodes.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "mxsm/rocketmq-rust",
+      "owner": "mxsm",
+      "repo": "rocketmq-rust",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832728"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832727",
+      "description": "\ud83d\ude80Apache RocketMQ build in Rust\ud83e\udd80. Faster, safer, and with lower memory usage. \u2b50 Star to support our work\u2764\ufe0f!",
+      "stars": 0,
+      "language": "Rust",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "lucidrains/native-sparse-attention-pytorch",
+      "owner": "lucidrains",
+      "repo": "native-sparse-attention-pytorch",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832731"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832729",
+      "description": "Implementation of the sparse attention pattern proposed by the Deepseek team in their \"Native Sparse Attention\" paper",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "neuml/txtai",
+      "owner": "neuml",
+      "repo": "txtai",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832735"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832735",
+      "description": "\ud83d\udca1 All-in-one AI framework for semantic search, LLM orchestration and language model workflows",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "ggerganov/ggwave",
+      "owner": "ggerganov",
+      "repo": "ggwave",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832739"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832738",
+      "description": "Tiny data-over-sound library",
+      "stars": 0,
+      "language": "C++",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "PennyroyalTea/gibberlink",
+      "owner": "PennyroyalTea",
+      "repo": "gibberlink",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832741"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832740",
+      "description": "Two conversational AI agents switching from English to sound-level protocol after confirming they are both AI agents",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "lucidrains/transformer-lm-gan",
+      "owner": "lucidrains",
+      "repo": "transformer-lm-gan",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832746"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832745",
+      "description": "Explorations into adversarial losses on top of autoregressive loss for language modeling",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "vllm-project/production-stack",
+      "owner": "vllm-project",
+      "repo": "production-stack",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832748"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832747",
+      "description": "vLLM\u2019s reference system for K8S-native cluster-wide deployment with community-driven performance optimization",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "huggingface/smolagents",
+      "owner": "huggingface",
+      "repo": "smolagents",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832750"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832749",
+      "description": "\ud83e\udd17 smolagents: a barebones library for agents that think in code.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "nickscamara/open-deep-research",
+      "owner": "nickscamara",
+      "repo": "open-deep-research",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832752"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832751",
+      "description": "An open source deep research clone. AI Agent that reasons large amounts of web data extracted with Firecrawl",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "jj-vcs/jj",
+      "owner": "jj-vcs",
+      "repo": "jj",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832754"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832753",
+      "description": "A Git-compatible VCS that is both simple and powerful",
+      "stars": 0,
+      "language": "Rust",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "e2b-dev/E2B",
+      "owner": "e2b-dev",
+      "repo": "E2B",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832756"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832755",
+      "description": "Open-source, secure environment with real-world tools for enterprise-grade agents.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "activeloopai/deeplake",
+      "owner": "activeloopai",
+      "repo": "deeplake",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832759"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832758",
+      "description": "Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable retrieval and training.",
+      "stars": 0,
+      "language": "C++",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "oumi-ai/oumi",
+      "owner": "oumi-ai",
+      "repo": "oumi",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832764"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832763",
+      "description": "Easily fine-tune, evaluate and deploy gpt-oss, Qwen3, DeepSeek-R1, or any open source LLM / VLM!",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "callmesora/llmops-python-package",
+      "owner": "callmesora",
+      "repo": "llmops-python-package",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832766"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832765",
+      "description": "Kickstart your LLMOps initiative with a flexible, robust, and productive Python package.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "vinay-gatech/stocks-insights-ai-agent",
+      "owner": "vinay-gatech",
+      "repo": "stocks-insights-ai-agent",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832768"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832767",
+      "description": "Full Stack application for retrieving Stock Data and News using LLM, LangChain and LangGraph",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "lm-sys/RouteLLM",
+      "owner": "lm-sys",
+      "repo": "RouteLLM",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832771"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832769",
+      "description": "A framework for serving and evaluating LLM routers - save LLM costs without compromising quality",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "Upsonic/Upsonic",
+      "owner": "Upsonic",
+      "repo": "Upsonic",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832773"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832773",
+      "description": "Agent Framework For Fintech and Banks",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "google-ai-edge/mediapipe",
+      "owner": "google-ai-edge",
+      "repo": "mediapipe",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832796"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832795",
+      "description": "Cross-platform, customizable ML solutions for live and streaming media.",
+      "stars": 0,
+      "language": "C++",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "predibase/lorax",
+      "owner": "predibase",
+      "repo": "lorax",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832800"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832799",
+      "description": "Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "zsxkib/segment-anything-2",
+      "owner": "zsxkib",
+      "repo": "segment-anything-2",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832803"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832802",
+      "description": "The repository provides code for running inference with the Meta Segment Anything Model 2 (SAM 2), links for downloading the trained model checkpoints, and example notebooks that show how to use th\u2026",
+      "stars": 0,
+      "language": "Unknown",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "SylphAI-Inc/AdalFlow",
+      "owner": "SylphAI-Inc",
+      "repo": "AdalFlow",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832807"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832806",
+      "description": "AdalFlow: The library to build &amp; auto-optimize LLM applications.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "HuangOwen/Awesome-LLM-Compression",
+      "owner": "HuangOwen",
+      "repo": "Awesome-LLM-Compression",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832811"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832809",
+      "description": "Awesome LLM compression research papers and tools.",
+      "stars": 0,
+      "language": "Unknown",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "exo-explore/exo",
+      "owner": "exo-explore",
+      "repo": "exo",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832813"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832813",
+      "description": "Run frontier AI locally.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "neo4j-labs/llm-graph-builder",
+      "owner": "neo4j-labs",
+      "repo": "llm-graph-builder",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832816"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832815",
+      "description": "Neo4j graph construction from unstructured data using LLMs",
+      "stars": 0,
+      "language": "Unknown",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "iusztinpaul/hands-on-llms",
+      "owner": "iusztinpaul",
+      "repo": "hands-on-llms",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832818"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832817",
+      "description": "\ud83e\udd96 \ud835\udddf\ud835\uddf2\ud835\uddee\ud835\uddff\ud835\uddfb about \ud835\udddf\ud835\udddf\ud835\udde0\ud835\ude00, \ud835\udddf\ud835\udddf\ud835\udde0\ud835\udde2\ud835\uddfd\ud835\ude00, and \ud835\ude03\ud835\uddf2\ud835\uddf0\ud835\ude01\ud835\uddfc\ud835\uddff \ud835\uddd7\ud835\uddd5\ud835\ude00 for free by designing, training, and deploying a real-time financial advisor LLM system ~ \ud835\ude34\ud835\ude30\ud835\ude36\ud835\ude33\ud835\ude24\ud835\ude26 \ud835\ude24\ud835\ude30\ud835\ude25\ud835\ude26 + \ud835\ude37\ud835\ude2a\ud835\ude25\ud835\ude26\ud835\ude30 &amp; \ud835\ude33\ud835\ude26\ud835\ude22\ud835\ude25\ud835\ude2a\ud835\ude2f\ud835\ude28 \ud835\ude2e\ud835\ude22\ud835\ude35\ud835\ude26\ud835\ude33\ud835\ude2a\ud835\ude22\ud835\ude2d\ud835\ude34",
+      "stars": 0,
+      "language": "Unknown",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "InternLM/lagent",
+      "owner": "InternLM",
+      "repo": "lagent",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832820"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832819",
+      "description": "A lightweight framework for building LLM-based agents",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "docker/genai-stack",
+      "owner": "docker",
+      "repo": "genai-stack",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832822"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832821",
+      "description": "Langchain + Docker + Neo4j + Ollama",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "HKUDS/Awesome-LLM4Graph-Papers",
+      "owner": "HKUDS",
+      "repo": "Awesome-LLM4Graph-Papers",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832826"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832823",
+      "description": "[KDD'2024] \"LLM4Graph: A Survey of Large Language Models for Graphs\"",
+      "stars": 0,
+      "language": "Unknown",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "guardrails-ai/guardrails",
+      "owner": "guardrails-ai",
+      "repo": "guardrails",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832828"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832828",
+      "description": "Adding guardrails to large language models.",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "microsoft/graphrag",
+      "owner": "microsoft",
+      "repo": "graphrag",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832832"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832830",
+      "description": "A modular graph-based Retrieval-Augmented Generation (RAG) system",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "avitorio/outstatic",
+      "owner": "avitorio",
+      "repo": "outstatic",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832835"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832834",
+      "description": "Outstatic - A Powerful CMS for Markdown. A dashboard to write, edit, and publish Markdown and MDX stored in your GitHub repository.",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "EthicalML/awesome-production-machine-learning",
+      "owner": "EthicalML",
+      "repo": "awesome-production-machine-learning",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832840"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832838",
+      "description": "A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning",
+      "stars": 0,
+      "language": "Unknown",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "influxdata/telegraf",
+      "owner": "influxdata",
+      "repo": "telegraf",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832842"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832842",
+      "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+      "stars": 0,
+      "language": "Go",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "mcknly/breadboard-os",
+      "owner": "mcknly",
+      "repo": "breadboard-os",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832845"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832844",
+      "description": "A firmware platform aimed at quick prototyping, built around FreeRTOS and a feature-packed CLI",
+      "stars": 0,
+      "language": "C",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "Mintplex-Labs/anything-llm",
+      "owner": "Mintplex-Labs",
+      "repo": "anything-llm",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832847"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832846",
+      "description": "The all-in-one AI productivity accelerator. On device and privacy first with no annoying setup or configuration.",
+      "stars": 0,
+      "language": "JavaScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "HumanSignal/label-studio",
+      "owner": "HumanSignal",
+      "repo": "label-studio",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832849"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832848",
+      "description": "Label Studio is a multi-type data labeling and annotation tool with standardized output format",
+      "stars": 0,
+      "language": "TypeScript",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "assafelovic/gpt-researcher",
+      "owner": "assafelovic",
+      "repo": "gpt-researcher",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832850"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832850",
+      "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "AntonOsika/gpt-engineer",
+      "owner": "AntonOsika",
+      "repo": "gpt-engineer",
+      "sources": [
+        "microfactory-curated"
+      ],
+      "provenance": {
+        "microfactory-curated": {
+          "imported_at": "2026-04-13T18:09:48.832852"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832852",
+      "description": "CLI platform to experiment with codegen. Precursor to: https://lovable.dev",
+      "stars": 0,
+      "language": "Python",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "datasets/mill_tool_wear_phm2010",
+      "owner": "datasets",
+      "repo": "mill_tool_wear_phm2010",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833051"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833050",
+      "name": "MILL Tool Wear PHM2010",
+      "source": "PHM Society Conference 2010",
+      "url": "https://www.kaggle.com/datasets/vinayak123tyagi/mill-tool-wear",
+      "size": {
+        "samples": "~100 machining runs",
+        "features": "Force, vibration, acoustic emission",
+        "size_gb": 0.5
+      },
+      "task_type": "time_series_prediction",
+      "manufacturing_domain": "CNC_machining",
+      "license": "Public",
+      "benchmark_results": {
+        "wear_prediction_rmse": "~12 \u00b5m",
+        "remaining_useful_life": "\u00b15 runs"
+      },
+      "manufacturing_relevance": 10,
+      "ai_applications": [
+        "Tool wear prediction",
+        "Predictive maintenance",
+        "Cutting parameter optimization",
+        "Remaining useful life estimation"
+      ],
+      "book_chapter": "04.5",
+      "priority": "high",
+      "notes": "Classic benchmark for tool wear prediction. Includes multi-sensor time series data.",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "datasets/cnc_milling_dataset_kaggle",
+      "owner": "datasets",
+      "repo": "cnc_milling_dataset_kaggle",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833056"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833055",
+      "name": "CNC Milling Dataset",
+      "source": "Kaggle",
+      "url": "https://www.kaggle.com/datasets",
+      "size": {
+        "samples": "10000+ toolpaths",
+        "features": "G-code sequences, tool parameters, surface finish",
+        "size_gb": 1.2
+      },
+      "task_type": "sequence_generation",
+      "manufacturing_domain": "CNC_programming",
+      "license": "CC0",
+      "benchmark_results": {
+        "gcode_bleu": "N/A",
+        "optimization_success": "85%"
+      },
+      "manufacturing_relevance": 9,
+      "ai_applications": [
+        "G-code generation",
+        "Toolpath optimization",
+        "Machining time prediction",
+        "Surface quality prediction"
+      ],
+      "book_chapter": "07",
+      "priority": "high",
+      "notes": "Dataset for training LLMs on G-code generation. Includes toolpath patterns.",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "datasets/casting_product_uci",
+      "owner": "datasets",
+      "repo": "casting_product_uci",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833059"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833058",
+      "name": "Casting Product Defect Detection",
+      "source": "UCI ML Repository",
+      "url": "https://archive.ics.uci.edu/ml/datasets/Casting+Product+Image+Data+for+Quality+Inspection",
+      "size": {
+        "samples": "~2000 images",
+        "features": "RGB images, defect labels",
+        "size_gb": 0.8
+      },
+      "task_type": "image_classification",
+      "manufacturing_domain": "quality_control",
+      "license": "UCI",
+      "benchmark_results": {
+        "accuracy": "98.2%",
+        "f1_score": "0.97"
+      },
+      "manufacturing_relevance": 8,
+      "ai_applications": [
+        "Surface defect detection",
+        "Quality inspection automation",
+        "Manufacturing vision systems"
+      ],
+      "book_chapter": "06",
+      "priority": "medium",
+      "notes": "Image dataset for defect classification in casting products.",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "datasets/ai4i_2020_uci",
+      "owner": "datasets",
+      "repo": "ai4i_2020_uci",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833061"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833061",
+      "name": "AI4I 2020 Predictive Maintenance",
+      "source": "UCI ML Repository",
+      "url": "https://archive.ics.uci.edu/ml/datasets/AI4I+2020+Predictive+Maintenance+Dataset",
+      "size": {
+        "samples": "10000 rows",
+        "features": "Operational settings, sensor readings",
+        "size_gb": 0.1
+      },
+      "task_type": "tabular_classification",
+      "manufacturing_domain": "predictive_maintenance",
+      "license": "CC BY 4.0",
+      "benchmark_results": {
+        "f1_macro": "0.94",
+        "precision": "0.93"
+      },
+      "manufacturing_relevance": 9,
+      "ai_applications": [
+        "Machine failure prediction",
+        "Maintenance scheduling",
+        "Operational optimization"
+      ],
+      "book_chapter": "09",
+      "priority": "medium",
+      "notes": "Simulated industrial machine data with failure labels.",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "datasets/nasa_prognostics_tc",
+      "owner": "datasets",
+      "repo": "nasa_prognostics_tc",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833064"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833063",
+      "name": "NASA Prognostics Tool Condition",
+      "source": "NASA PCoE",
+      "url": "https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/",
+      "size": {
+        "samples": "3 datasets (milling, bearing, battery)",
+        "features": "Run-to-failure time series",
+        "size_gb": 2.5
+      },
+      "task_type": "time_series_prediction",
+      "manufacturing_domain": "tool_condition_monitoring",
+      "license": "Public Domain",
+      "benchmark_results": {
+        "rul_prediction": "\u00b110% error"
+      },
+      "manufacturing_relevance": 9,
+      "ai_applications": [
+        "Remaining useful life prediction",
+        "Tool condition monitoring",
+        "Run-to-failure modeling"
+      ],
+      "book_chapter": "04.5",
+      "priority": "medium",
+      "notes": "Standard benchmark for prognostics algorithms. Multiple domains.",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "datasets/open_x_embodiment",
+      "owner": "datasets",
+      "repo": "open_x_embodiment",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833068"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833066",
+      "name": "Open X-Embodiment",
+      "source": "DeepMind / Google",
+      "url": "https://sites.research.google/open-x-embodiment/",
+      "size": {
+        "samples": "1M+ robot trajectories",
+        "features": "Visual observations, actions, language instructions",
+        "size_gb": 50
+      },
+      "task_type": "imitation_learning",
+      "manufacturing_domain": "robotics_manipulation",
+      "license": "Apache-2.0",
+      "benchmark_results": {
+        "success_rate": "78% unseen tasks"
+      },
+      "manufacturing_relevance": 8,
+      "ai_applications": [
+        "Robot learning from demonstration",
+        "Cross-robot policy transfer",
+        "Generalizable manipulation"
+      ],
+      "book_chapter": "08",
+      "priority": "medium",
+      "notes": "Large-scale robot learning dataset. Multi-platform.",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "datasets/industrial_iot_sensor",
+      "owner": "datasets",
+      "repo": "industrial_iot_sensor",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833081"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833080",
+      "name": "Industrial IoT Sensor Data",
+      "source": "Various / Simulated",
+      "url": "Kaggle/industry datasets",
+      "size": {
+        "samples": "Variable",
+        "features": "Temperature, vibration, current",
+        "size_gb": 5
+      },
+      "task_type": "anomaly_detection",
+      "manufacturing_domain": "condition_monitoring",
+      "license": "Variable",
+      "benchmark_results": {
+        "anomaly_detection_f1": "0.85"
+      },
+      "manufacturing_relevance": 8,
+      "ai_applications": [
+        "Anomaly detection",
+        "Condition monitoring",
+        "Predictive maintenance"
+      ],
+      "book_chapter": "09",
+      "priority": "medium",
+      "notes": "Generic IoT sensor data. Many variants available.",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "datasets/glados_agent_trajectories",
+      "owner": "datasets",
+      "repo": "glados_agent_trajectories",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833086"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833085",
+      "name": "GlaDOS Agent Trajectories",
+      "source": "Custom / Project",
+      "url": "Internal",
+      "size": {
+        "samples": "N/A",
+        "features": "Agent decision traces",
+        "size_gb": 0.1
+      },
+      "task_type": "behavioral_cloning",
+      "manufacturing_domain": "agent_training",
+      "license": "Proprietary",
+      "benchmark_results": {
+        "trajectory_quality": "N/A"
+      },
+      "manufacturing_relevance": 9,
+      "ai_applications": [
+        "Agent training data",
+        "Decision pattern learning",
+        "Manufacturing agent RL"
+      ],
+      "book_chapter": "08",
+      "priority": "high",
+      "notes": "Planned custom dataset for manufacturing agent training. To be created.",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "datasets/sim_to_real_transfer",
+      "owner": "datasets",
+      "repo": "sim_to_real_transfer",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833089"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833088",
+      "name": "Sim-to-Real Transfer Benchmark",
+      "source": "Academic",
+      "url": "Various",
+      "size": {
+        "samples": "N/A",
+        "features": "Simulation + real robot pairs",
+        "size_gb": 3
+      },
+      "task_type": "domain_adaptation",
+      "manufacturing_domain": "robotics_deployment",
+      "license": "Academic",
+      "benchmark_results": {
+        "transfer_success": "60-80%"
+      },
+      "manufacturing_relevance": 8,
+      "ai_applications": [
+        "Physics-informed transfer",
+        "Simulation validation",
+        "Policy deployment"
+      ],
+      "book_chapter": "04",
+      "priority": "medium",
+      "notes": "Benchmark datasets for validating sim-to-real approaches.",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 30,
+        "needs_review": true
+      }
+    },
+    {
+      "full_name": "microsoft/playwright",
+      "owner": "microsoft",
+      "repo": "playwright",
+      "sources": [
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832856"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832855",
+      "rank": 1,
+      "stars": 85857,
+      "category": "browser-automation",
+      "book_relevance": "MANUFACTURING_UI: Web-based manufacturing control systems, automated testing for production UIs",
+      "chapter": "07",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "Popular automation framework, tangential to manufacturing web UIs",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "microsoft/markitdown",
+      "owner": "microsoft",
+      "repo": "markitdown",
+      "sources": [
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832860"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832859",
+      "rank": 2,
+      "stars": 94204,
+      "category": "document-handling",
+      "book_relevance": "DOCUMENT_PROCESSING: Convert manufacturing docs (PDFs, etc.) to markdown for agent processing",
+      "chapter": "07",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "Useful for document-heavy manufacturing workflows",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "microsoft/ML-For-Beginners",
+      "owner": "microsoft",
+      "repo": "ML-For-Beginners",
+      "sources": [
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832865"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832863",
+      "rank": 3,
+      "stars": 85063,
+      "category": "education",
+      "book_relevance": "CH03_BACKGROUND: Manufacturing team ML training materials",
+      "chapter": "03",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "Reference for background section",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "livekit/agents",
+      "owner": "livekit",
+      "repo": "agents",
+      "sources": [
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832870"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832869",
+      "rank": 5,
+      "stars": 9970,
+      "category": "realtime-voice-agents",
+      "book_relevance": "CH04_ROBOTICS: Real-time voice control for manufacturing systems",
+      "chapter": "04",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "Voice AI agents for hands-free shop floor control",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "browser-use/browser-use",
+      "owner": "browser-use",
+      "repo": "browser-use",
+      "sources": [
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832876"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832875",
+      "rank": 8,
+      "stars": 4600,
+      "category": "browser-automation",
+      "book_relevance": "CH07_SCENARIOS: Browser-based manufacturing control agents",
+      "chapter": "07",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "AI agents using browsers",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "angristan/MacThrottle",
+      "owner": "angristan",
+      "repo": "MacThrottle",
+      "sources": [
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832884"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832884",
+      "rank": 13,
+      "stars": 602,
+      "category": "thermal-management",
+      "book_relevance": "CH04.5: Thermal management for manufacturing edge devices",
+      "chapter": "04.5",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "Mac thermal management, tangential to manufacturing thermal",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "ableplayer/ableplayer",
+      "owner": "ableplayer",
+      "repo": "ableplayer",
+      "sources": [
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832888"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832886",
+      "rank": 14,
+      "stars": 812,
+      "category": "accessibility",
+      "book_relevance": "CH07: Accessible manufacturing interfaces",
+      "chapter": "07",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "Accessibility for manufacturing UIs",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "MattDevy/pi-extensions",
+      "owner": "MattDevy",
+      "repo": "pi-extensions",
+      "sources": [
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832897"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832896",
+      "rank": 19,
+      "stars": 6,
+      "category": "pi-ecosystem",
+      "book_relevance": "CH10: Continuous learning for agent experience improvement",
+      "chapter": "10",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "Self-improving agents pattern",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "brumik/ollama-obsidian-indexer",
+      "owner": "brumik",
+      "repo": "ollama-obsidian-indexer",
+      "sources": [
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832901"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832900",
+      "rank": 21,
+      "stars": 76,
+      "category": "knowledge-graph",
+      "book_relevance": "CH08_KARMA: Knowledge graph integration with LLMs",
+      "chapter": "08",
+      "priority": "MEDIUM",
+      "deep_dive": false,
+      "notes": "Knowledge graph patterns",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "jlumbroso/passage-of-time-mcp",
+      "owner": "jlumbroso",
+      "repo": "passage-of-time-mcp",
+      "sources": [
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832903"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832902",
+      "rank": 22,
+      "stars": 713,
+      "category": "temporal-awareness",
+      "book_relevance": "CH06: Temporal awareness for agent decision-making",
+      "chapter": "06",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "Time-aware AI agents",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "Dimillian/CodexSkillManager",
+      "owner": "Dimillian",
+      "repo": "CodexSkillManager",
+      "sources": [
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832908"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832907",
+      "rank": 23,
+      "stars": 986,
+      "category": "skill-management",
+      "book_relevance": "CH07: Skill management for manufacturing agents",
+      "chapter": "07",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "Skill manager, tangential",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "datamill-co/target-postgres",
+      "owner": "datamill-co",
+      "repo": "target-postgres",
+      "sources": [
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832914"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832913",
+      "rank": 26,
+      "stars": 99,
+      "category": "data-integration",
+      "book_relevance": "CH07: Manufacturing data pipeline to PostgreSQL",
+      "chapter": "07",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "Data pipeline, infrastructure",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "katanemo/plano",
+      "owner": "katanemo",
+      "repo": "plano",
+      "sources": [
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832917"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832916",
+      "rank": 27,
+      "stars": 600,
+      "category": "api-specs",
+      "book_relevance": "CH08: API specifications for manufacturing agents",
+      "chapter": "08",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "API spec enforcement",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "10up/classifai",
+      "owner": "10up",
+      "repo": "classifai",
+      "sources": [
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832919"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832919",
+      "rank": 28,
+      "stars": 800,
+      "category": "wordpress-ai",
+      "book_relevance": "CH07: WordPress manufacturing content automation",
+      "chapter": "07",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "WordPress AI, niche",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "serialport/node-serialport",
+      "owner": "serialport",
+      "repo": "node-serialport",
+      "sources": [
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832922"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832921",
+      "rank": 29,
+      "stars": 5990,
+      "category": "hardware-integration",
+      "book_relevance": "CH07: JavaScript serial port access for manufacturing hardware",
+      "chapter": "07",
+      "priority": "HIGH",
+      "deep_dive": true,
+      "notes": "Hardware integration critical for manufacturing",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "aus-der-Technik/FileMonitor",
+      "owner": "aus-der-Technik",
+      "repo": "FileMonitor",
+      "sources": [
+        "top-30-analysis"
+      ],
+      "provenance": {
+        "top-30-analysis": {
+          "imported_at": "2026-04-13T18:09:48.832924"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832923",
+      "rank": 30,
+      "stars": 91,
+      "category": "file-watching",
+      "book_relevance": "CH07: Production file monitoring for manufacturing pipelines",
+      "chapter": "07",
+      "priority": "LOW",
+      "deep_dive": false,
+      "notes": "File system monitoring",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "binhle2001/multi-agent-erp",
+      "owner": "binhle2001",
+      "repo": "multi-agent-erp",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832944"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832943",
+      "priority": "low",
+      "manufacturing_relevance": 3,
+      "notes": "N/A",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "CIFGS/physics-informed-sirenMRI-T1",
+      "owner": "CIFGS",
+      "repo": "physics-informed-sirenMRI-T1",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832946"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832946",
+      "priority": "low",
+      "manufacturing_relevance": 1,
+      "notes": "MRI T1-weighted image reconstruction.",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "SstealzZ-epi/gemma3_tune_predictive_maintenance",
+      "owner": "SstealzZ-epi",
+      "repo": "gemma3_tune_predictive_maintenance",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832948"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832948",
+      "priority": "high",
+      "manufacturing_relevance": 8,
+      "notes": "Maintenance log analysis, Predictive failure reasoning",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "UBTECH-Robotics/Thinker-4B",
+      "owner": "UBTECH-Robotics",
+      "repo": "Thinker-4B",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832950"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832950",
+      "priority": "high",
+      "manufacturing_relevance": 9,
+      "notes": "Robotic task planning, spatial understanding, and visual grounding.",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "ligaments-dev/liga-manufacturing-v2",
+      "owner": "ligaments-dev",
+      "repo": "liga-manufacturing-v2",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832952"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832952",
+      "priority": "low",
+      "manufacturing_relevance": 3,
+      "notes": "Edge reasoning (if domain-tuned).",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "Ankur87/Llama2_Time_series_forecasting",
+      "owner": "Ankur87",
+      "repo": "Llama2_Time_series_forecasting",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832954"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832954",
+      "priority": "low",
+      "manufacturing_relevance": 2,
+      "notes": "Experimental time-series to text generation",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "marlex7/multiagent_to_small_trial_1",
+      "owner": "marlex7",
+      "repo": "multiagent_to_small_trial_1",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832957"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832957",
+      "priority": "low",
+      "manufacturing_relevance": 1,
+      "notes": "Text classification",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "hyunwoo0000/Qwen3-32B-Manufacturing",
+      "owner": "hyunwoo0000",
+      "repo": "Qwen3-32B-Manufacturing",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832961"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832960",
+      "priority": "low",
+      "manufacturing_relevance": 1,
+      "notes": "Unknown",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "menasi11/physics_informed_transformer",
+      "owner": "menasi11",
+      "repo": "physics_informed_transformer",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832966"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832962",
+      "priority": "low",
+      "manufacturing_relevance": 2,
+      "notes": "Physics simulation.",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "beccabai/1.3B-multi-agent-collab",
+      "owner": "beccabai",
+      "repo": "1.3B-multi-agent-collab",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832968"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832968",
+      "priority": "medium",
+      "manufacturing_relevance": 4,
+      "notes": "Collaborative data selection / Pretraining optimization",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "wangju123/Intelligent_Manufacturing_Large_Model",
+      "owner": "wangju123",
+      "repo": "Intelligent_Manufacturing_Large_Model",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832970"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832970",
+      "priority": "medium",
+      "manufacturing_relevance": 4,
+      "notes": "Lightweight reasoning on the edge.",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "starpan/manufacturing-mistral-7b",
+      "owner": "starpan",
+      "repo": "manufacturing-mistral-7b",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832974"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832973",
+      "priority": "medium",
+      "manufacturing_relevance": 2,
+      "notes": "General 7B reasoning with possible domain bias.",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "keras-io/timeseries_forecasting_for_weather",
+      "owner": "keras-io",
+      "repo": "timeseries_forecasting_for_weather",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832976"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832975",
+      "priority": "medium",
+      "manufacturing_relevance": 7,
+      "notes": "Multi-variate sensor forecasting (Temperature, Pressure)",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "hyunwoo0000/Llama-3.1-70B-Instruct-Manufacturing",
+      "owner": "hyunwoo0000",
+      "repo": "Llama-3.1-70B-Instruct-Manufacturing",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832978"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832977",
+      "priority": "low",
+      "manufacturing_relevance": 1,
+      "notes": "General reasoning (assuming Llama 3.1 base)",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "nextoar/manufacturing-llm",
+      "owner": "nextoar",
+      "repo": "manufacturing-llm",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832980"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832979",
+      "priority": "low",
+      "manufacturing_relevance": 2,
+      "notes": "Unknown",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "Yaxin1992/zephyr-7b-beta-multi-7000-es-agent",
+      "owner": "Yaxin1992",
+      "repo": "zephyr-7b-beta-multi-7000-es-agent",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832982"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832981",
+      "priority": "low",
+      "manufacturing_relevance": 2,
+      "notes": "Experimental fine-tuned generation",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "JaneSmel/predictive-maintenance",
+      "owner": "JaneSmel",
+      "repo": "predictive-maintenance",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832985"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832984",
+      "priority": "high",
+      "manufacturing_relevance": 9,
+      "notes": "Sensor-based failure prediction (RUL)",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "Spirit-AI-robotics/Spirit-v1.5",
+      "owner": "Spirit-AI-robotics",
+      "repo": "Spirit-v1.5",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832989"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832988",
+      "priority": "high",
+      "manufacturing_relevance": 10,
+      "notes": "High-precision robotic manipulation and end-to-end action generation.",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "ncsu-digital-manufacturing/Navigation_Transformer",
+      "owner": "ncsu-digital-manufacturing",
+      "repo": "Navigation_Transformer",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832991"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832990",
+      "priority": "low",
+      "manufacturing_relevance": 2,
+      "notes": "CNC pathfinding (hypothetically).",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "microsoft/phi-4",
+      "owner": "microsoft",
+      "repo": "phi-4",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832994"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832993",
+      "name": "Phi-4",
+      "size_params": "14B",
+      "size_bytes": 14000000000,
+      "license": "MIT",
+      "use_cases": [
+        "reasoning",
+        "code_generation",
+        "technical_analysis"
+      ],
+      "manufacturing_applications": [
+        "Toolpath planning explanation",
+        "CNC parameter optimization analysis",
+        "Process documentation generation"
+      ],
+      "ollama_compatible": true,
+      "quantization": [
+        "Q4_K_M",
+        "Q5_K_M",
+        "Q8_0"
+      ],
+      "manufacturing_relevance": 8,
+      "priority": "high",
+      "benchmarks": {
+        "HumanEval": 72.6,
+        "MMLU": 85.2
+      },
+      "notes": "Small but powerful model, good for edge deployment with 8GB VRAM",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "Qwen/Qwen2.5-Coder-7B",
+      "owner": "Qwen",
+      "repo": "Qwen2.5-Coder-7B",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.832998"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832997",
+      "name": "Qwen2.5-Coder",
+      "size_params": "7B",
+      "size_bytes": 7000000000,
+      "license": "Apache-2.0",
+      "use_cases": [
+        "code_generation",
+        "code_completion",
+        "technical_documentation"
+      ],
+      "manufacturing_applications": [
+        "G-code generation for CNC",
+        "Toolpath post-processing scripts",
+        "CAM software automation"
+      ],
+      "ollama_compatible": true,
+      "quantization": [
+        "Q4_K_M",
+        "Q5_K_M",
+        "Q8_0",
+        "FP16"
+      ],
+      "manufacturing_relevance": 9,
+      "priority": "high",
+      "benchmarks": {
+        "HumanEval": 83.5,
+        "MBPP": 82.8
+      },
+      "notes": "Excellent for code tasks, strong G-code generation potential",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+      "owner": "deepseek-ai",
+      "repo": "DeepSeek-R1-Distill-Qwen-7B",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.833000"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833000",
+      "name": "DeepSeek-R1 (Distilled)",
+      "size_params": "7B",
+      "size_bytes": 7000000000,
+      "license": "MIT",
+      "use_cases": [
+        "reasoning",
+        "planning",
+        "optimization_analysis"
+      ],
+      "manufacturing_applications": [
+        "Production scheduling optimization",
+        "Resource allocation reasoning",
+        "Quality control strategy planning"
+      ],
+      "ollama_compatible": true,
+      "quantization": [
+        "Q4_K_M",
+        "Q5_K_M"
+      ],
+      "manufacturing_relevance": 9,
+      "priority": "high",
+      "benchmarks": {
+        "MATH-500": 92.1,
+        "AIME-2024": 55.5
+      },
+      "notes": "Strong reasoning capabilities, good for planning tasks",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "google/gemma-4b-it",
+      "owner": "google",
+      "repo": "gemma-4b-it",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.833003"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833002",
+      "name": "Gemma-4B",
+      "size_params": "4B",
+      "size_bytes": 4000000000,
+      "license": "Gemma",
+      "use_cases": [
+        "general_assistance",
+        "edge_deployment",
+        "natural_language"
+      ],
+      "manufacturing_applications": [
+        "Operator assistance chatbot",
+        "Documentation Q&A",
+        "Safety procedure guidance"
+      ],
+      "ollama_compatible": true,
+      "quantization": [
+        "Q4_0",
+        "Q4_K_M",
+        "Q8_0"
+      ],
+      "manufacturing_relevance": 7,
+      "priority": "high",
+      "benchmarks": {
+        "MMLU": 63.2,
+        "HumanEval": 35.4
+      },
+      "notes": "Kaggle competition deployment target, proven edge-ready",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "OpenGVLab/MiniCPM-V-2_6",
+      "owner": "OpenGVLab",
+      "repo": "MiniCPM-V-2_6",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.833006"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833005",
+      "name": "MiniCPM-V",
+      "size_params": "2.8B vision",
+      "size_bytes": 2800000000,
+      "license": "Apache-2.0",
+      "use_cases": [
+        "vision_language",
+        "image_understanding",
+        "defect_detection"
+      ],
+      "manufacturing_applications": [
+        "Surface defect classification",
+        "Technical drawing interpretation",
+        "Quality inspection image analysis"
+      ],
+      "ollama_compatible": false,
+      "quantization": [],
+      "manufacturing_relevance": 9,
+      "priority": "medium",
+      "benchmarks": {
+        "MMMU": 47.2,
+        "MMBench": 80.1
+      },
+      "notes": "Vision model for quality inspection, requires separate deployment",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "owner": "HuggingFaceTB",
+      "repo": "SmolLM2-1.7B-Instruct",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.833009"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833009",
+      "name": "SmolLM2",
+      "size_params": "1.7B",
+      "size_bytes": 1700000000,
+      "license": "Apache-2.0",
+      "use_cases": [
+        "edge_deployment",
+        "local_inference",
+        "assistant"
+      ],
+      "manufacturing_applications": [
+        "Raspberry Pi shopfloor assistant",
+        "Offline documentation lookup",
+        "Simple task automation"
+      ],
+      "ollama_compatible": true,
+      "quantization": [
+        "Q4_0",
+        "Q8_0"
+      ],
+      "manufacturing_relevance": 8,
+      "priority": "medium",
+      "benchmarks": {
+        "MMLU": 40.1
+      },
+      "notes": "Ultra-small for commodity hardware, 2GB RAM sufficient",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "meta-llama/Llama-3.2-1B-Instruct",
+      "owner": "meta-llama",
+      "repo": "Llama-3.2-1B-Instruct",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.833012"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833011",
+      "name": "Llama-3.2-1B",
+      "size_params": "1B",
+      "size_bytes": 1000000000,
+      "license": "LLAMA",
+      "use_cases": [
+        "edge_deployment",
+        "classification",
+        "simple_qa"
+      ],
+      "manufacturing_applications": [
+        "Job classification",
+        "Simple routing decisions",
+        "Sensor data interpretation"
+      ],
+      "ollama_compatible": true,
+      "quantization": [
+        "Q4_0",
+        "Q8_0"
+      ],
+      "manufacturing_relevance": 6,
+      "priority": "medium",
+      "benchmarks": {
+        "MMLU": 52.9
+      },
+      "notes": "Fastest inference on edge, limited reasoning but responsive",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "Qwen/Qwen2.5-VL-7B-Instruct",
+      "owner": "Qwen",
+      "repo": "Qwen2.5-VL-7B-Instruct",
+      "sources": [
+        "huggingface-models"
+      ],
+      "provenance": {
+        "huggingface-models": {
+          "imported_at": "2026-04-13T18:09:48.833015"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833014",
+      "name": "Qwen2.5-VL",
+      "size_params": "7B vision",
+      "size_bytes": 7000000000,
+      "license": "Apache-2.0",
+      "use_cases": [
+        "vision_language",
+        "document_understanding",
+        "multimodal"
+      ],
+      "manufacturing_applications": [
+        "Technical manual understanding with diagrams",
+        "CAD drawing analysis",
+        "Mixed visual/text documentation processing"
+      ],
+      "ollama_compatible": false,
+      "quantization": [],
+      "manufacturing_relevance": 8,
+      "priority": "low",
+      "benchmarks": {
+        "MMMU": 62.0
+      },
+      "notes": "Multi-modal approach for technical documentation",
+      "type": "model",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 25,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "lzy0928/Engineering_Manufacturing",
+      "owner": "lzy0928",
+      "repo": "Engineering_Manufacturing",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833018"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833016",
+      "priority": "medium",
+      "manufacturing_relevance": 5,
+      "notes": "",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 20,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "nvidia/PhysicalAI-GR00T-Tuned-Tasks",
+      "owner": "nvidia",
+      "repo": "PhysicalAI-GR00T-Tuned-Tasks",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833022"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833021",
+      "priority": "high",
+      "manufacturing_relevance": 5,
+      "notes": "",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 20,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "lainmn/AgentDS-Manufacturing",
+      "owner": "lainmn",
+      "repo": "AgentDS-Manufacturing",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833036"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833024",
+      "priority": "high",
+      "manufacturing_relevance": 5,
+      "notes": "",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 20,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "BAAI/IndustryCorpus2_other_manufacturing",
+      "owner": "BAAI",
+      "repo": "IndustryCorpus2_other_manufacturing",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833034"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833026",
+      "priority": "medium",
+      "manufacturing_relevance": 5,
+      "notes": "",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 20,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "akumar33/manufacturing",
+      "owner": "akumar33",
+      "repo": "manufacturing",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833029"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833028",
+      "priority": "low",
+      "manufacturing_relevance": 5,
+      "notes": "",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 20,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "hdtech/mvtech_anomaly_detection (MVTec AD)",
+      "owner": "hdtech",
+      "repo": "mvtech_anomaly_detection (MVTec AD)",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833031"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833031",
+      "priority": "high",
+      "manufacturing_relevance": 5,
+      "notes": "",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 20,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "hdtech/mvtech_anomaly_detection",
+      "owner": "hdtech",
+      "repo": "mvtech_anomaly_detection",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833033"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833032",
+      "priority": "medium",
+      "manufacturing_relevance": 5,
+      "notes": "",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 20,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "nvidia/PhysicalAI-Robotics-Open-Dataset",
+      "owner": "nvidia",
+      "repo": "PhysicalAI-Robotics-Open-Dataset",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833039"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833038",
+      "priority": "low",
+      "manufacturing_relevance": 5,
+      "notes": "",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 20,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "DAVIAN-Robotics/PHUMA",
+      "owner": "DAVIAN-Robotics",
+      "repo": "PHUMA",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833043"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833040",
+      "priority": "high",
+      "manufacturing_relevance": 5,
+      "notes": "",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 20,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "g4ndh1/Additive-Manufacturing-Digital-Twin",
+      "owner": "g4ndh1",
+      "repo": "Additive-Manufacturing-Digital-Twin",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833045"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833045",
+      "priority": "medium",
+      "manufacturing_relevance": 5,
+      "notes": "",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 20,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "DasKunststoffZentrumSKZ/Errors_Additive_Manufacturing",
+      "owner": "DasKunststoffZentrumSKZ",
+      "repo": "Errors_Additive_Manufacturing",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833048"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833047",
+      "priority": "low",
+      "manufacturing_relevance": 5,
+      "notes": "",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 20,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "datasets/safety_gym",
+      "owner": "datasets",
+      "repo": "safety_gym",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833073"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833072",
+      "name": "Safety Gym",
+      "source": "OpenAI",
+      "url": "https://github.com/openai/safety-gym",
+      "size": {
+        "samples": "N/A (simulation)",
+        "features": "Goal + constraint environments",
+        "size_gb": 1
+      },
+      "task_type": "rl_benchmark",
+      "manufacturing_domain": "safety_validation",
+      "license": "MIT",
+      "benchmark_results": {
+        "constraint_satisfaction": "Variable"
+      },
+      "manufacturing_relevance": 7,
+      "ai_applications": [
+        "Constrained RL for manufacturing",
+        "Safety-aware control",
+        "Guardrail testing"
+      ],
+      "book_chapter": "06.5",
+      "priority": "medium",
+      "notes": "Benchmark for safe RL algorithms. Applicable to safety validation.",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 20,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "datasets/codesearchnet",
+      "owner": "datasets",
+      "repo": "codesearchnet",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833076"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833075",
+      "name": "CodeSearchNet",
+      "source": "GitHub",
+      "url": "https://github.com/github/codesearchnet",
+      "size": {
+        "samples": "2M code-doc pairs",
+        "features": "Code, docstrings, metadata",
+        "size_gb": 10
+      },
+      "task_type": "code_understanding",
+      "manufacturing_domain": "code_generation",
+      "license": "MIT",
+      "benchmark_results": {
+        "code_retrieval_mrr": "0.45"
+      },
+      "manufacturing_relevance": 6,
+      "ai_applications": [
+        "G-code understanding",
+        "Manufacturing software documentation",
+        "Technical code search"
+      ],
+      "book_chapter": "06",
+      "priority": "low",
+      "notes": "General code dataset. Useful for training manufacturing code LLMs.",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 20,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "datasets/pettingzoo_magent",
+      "owner": "datasets",
+      "repo": "pettingzoo_magent",
+      "sources": [
+        "dataset-registry"
+      ],
+      "provenance": {
+        "dataset-registry": {
+          "imported_at": "2026-04-13T18:09:48.833078"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.833078",
+      "name": "PettingZoo MAgent",
+      "source": "Farama Foundation",
+      "url": "https://github.com/Farama-Foundation/PettingZoo",
+      "size": {
+        "samples": "N/A (simulation)",
+        "features": "Multi-agent environments",
+        "size_gb": 0.5
+      },
+      "task_type": "multi_agent_rl",
+      "manufacturing_domain": "swarm_coordination",
+      "license": "MIT",
+      "benchmark_results": {
+        "convergence": "Variable"
+      },
+      "manufacturing_relevance": 7,
+      "ai_applications": [
+        "Multi-agent coordination",
+        "Swarm robotics simulation",
+        "Consensus protocol testing"
+      ],
+      "book_chapter": "05",
+      "priority": "medium",
+      "notes": "Multi-agent RL environments. Test coordination algorithms.",
+      "type": "dataset",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 20,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "**NVIDIA/warp**",
+      "owner": "**NVIDIA",
+      "repo": "warp**",
+      "sources": [
+        "librarian-discovered"
+      ],
+      "provenance": {
+        "librarian-discovered": {
+          "imported_at": "2026-04-13T18:09:48.832927"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832926",
+      "discovery_context": "librarian_search",
+      "note": "Found via pi librarian beyond starred repos",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 10,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "**newton-physics/newton**",
+      "owner": "**newton-physics",
+      "repo": "newton**",
+      "sources": [
+        "librarian-discovered"
+      ],
+      "provenance": {
+        "librarian-discovered": {
+          "imported_at": "2026-04-13T18:09:48.832929"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832928",
+      "discovery_context": "librarian_search",
+      "note": "Found via pi librarian beyond starred repos",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 10,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "**google/brax**",
+      "owner": "**google",
+      "repo": "brax**",
+      "sources": [
+        "librarian-discovered"
+      ],
+      "provenance": {
+        "librarian-discovered": {
+          "imported_at": "2026-04-13T18:09:48.832932"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832931",
+      "discovery_context": "librarian_search",
+      "note": "Found via pi librarian beyond starred repos",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 10,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "**google-deepmind/mujoco_warp**",
+      "owner": "**google-deepmind",
+      "repo": "mujoco_warp**",
+      "sources": [
+        "librarian-discovered"
+      ],
+      "provenance": {
+        "librarian-discovered": {
+          "imported_at": "2026-04-13T18:09:48.832934"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832933",
+      "discovery_context": "librarian_search",
+      "note": "Found via pi librarian beyond starred repos",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 10,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "Research/scaling",
+      "owner": "Research",
+      "repo": "scaling",
+      "sources": [
+        "librarian-discovered"
+      ],
+      "provenance": {
+        "librarian-discovered": {
+          "imported_at": "2026-04-13T18:09:48.832937"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832937",
+      "discovery_context": "librarian_search",
+      "note": "Found via pi librarian beyond starred repos",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 10,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "**surfrag/LightRAG**",
+      "owner": "**surfrag",
+      "repo": "LightRAG**",
+      "sources": [
+        "librarian-discovered"
+      ],
+      "provenance": {
+        "librarian-discovered": {
+          "imported_at": "2026-04-13T18:09:48.832939"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832939",
+      "discovery_context": "librarian_search",
+      "note": "Found via pi librarian beyond starred repos",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 10,
+        "needs_review": false
+      }
+    },
+    {
+      "full_name": "**mapr-demos/predictive-maintenance**",
+      "owner": "**mapr-demos",
+      "repo": "predictive-maintenance**",
+      "sources": [
+        "librarian-discovered"
+      ],
+      "provenance": {
+        "librarian-discovered": {
+          "imported_at": "2026-04-13T18:09:48.832941"
+        }
+      },
+      "analysis": {},
+      "merged_at": "2026-04-13T18:09:48.832941",
+      "discovery_context": "librarian_search",
+      "note": "Found via pi librarian beyond starred repos",
+      "type": "repo",
+      "derived": {
+        "source_count": 1,
+        "priority_score": 10,
+        "needs_review": false
+      }
+    }
+  ]
+}

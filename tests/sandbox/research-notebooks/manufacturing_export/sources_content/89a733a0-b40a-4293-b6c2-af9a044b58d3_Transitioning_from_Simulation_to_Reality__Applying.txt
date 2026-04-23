@@ -1,0 +1,1013 @@
+Transitioning from Simulation to Reality: Applying Chatter Detection Models to Real-World Machining Data (Journal Article) | OSTI.GOV
+
+Sign In
+
+https://www.osti.gov/pages/login
+
+Create Account
+
+https://www.osti.gov/pages/createaccount
+
+Search
+
+https://www.osti.gov/pages/biblio/2538145
+
+ 
+
+Menu
+
+https://www.osti.gov/pages/biblio/2538145
+
+U.S. Department of Energy
+
+Office of Scientific and Technical Information
+
+Search Scholarly Publications
+
+Search terms: Advanced search options
+
+Advanced Search OptionsAdvanced Search queries use a traditional Term Search. For more info, see our 
+
+FAQ
+
+https://www.osti.gov/pages/faqs#how-do-i-use-the-advanced-search
+
+.
+
+Title:
+
+Creator / Author:
+
+Digital Object Identifier (DOI):
+
+Identifier Numbers:
+
+Journal Name:
+
+Publication Date:
+
+to
+
+More Options ...
+
+https://www.osti.gov/pages/biblio/2538145
+
+Full Text:
+
+Article Type:
+
+Accepted Manuscript
+
+ 
+
+[-] AM
+
+Published Article
+
+ 
+
+[-] PA
+
+Publisher's Accepted Manuscript
+
+ 
+
+[-] PM
+
+Subject:
+
+Site:
+
+All
+
+Research Org:
+
+Sponsoring Org:
+
+Update Date:
+
+to
+
+Search
+
+About
+
+https://www.osti.gov/pages/about
+
+FAQs
+
+https://www.osti.gov/pages/faqs
+
+News
+
+https://www.osti.gov/pages/news
+
+Dev Tools
+
+https://www.osti.gov/pages/dev-tools
+
+Sign In
+
+https://www.osti.gov/pages/login
+
+Create Account
+
+https://www.osti.gov/pages/createaccount
+
+DOE PAGES ®
+
+https://www.osti.gov/pages
+
+ Journal Article: 
+
+Transitioning from Simulation to Reality: Applying Chatter Detection Models to Real-World Machining Data
+
+Title: Transitioning from Simulation to Reality: Applying Chatter Detection Models to Real-World Machining Data
+
+Journal Article
+
+· 16 December 2024
+
+· Machines
+
+DOI: 
+
+https://doi.org/10.3390/machines12120923
+
+https://doi.org/10.3390/machines12120923
+
+· OSTI ID: 2538145
+
+Alberts, Matthew
+
+https://www.osti.gov/pages/search/author:%22Alberts,%20Matthew%22
+
+ 
+
+[1]
+
+;
+
+Search DOE PAGES for author "Alberts, Matthew"
+
+https://www.osti.gov/pages/search/author:%22Alberts,%20Matthew%22
+
+Search DOE PAGES for ORCID "0000-0003-0896-0025"
+
+https://www.osti.gov/pages/search/orcid:0000000308960025
+
+View ORCID profile
+
+https://orcid.org/0000-0003-0896-0025
+
+St. John, Sam [1]
+
+https://www.osti.gov/pages/search/author:%22St.%20John,%20Sam%22
+
+ ; 
+
+Odie, Simon [2]
+
+https://www.osti.gov/pages/search/author:%22Odie,%20Simon%22
+
+ ; 
+
+Khojandi, Anahita
+
+https://www.osti.gov/pages/search/author:%22Khojandi,%20Anahita%22
+
+ 
+
+[1]
+
+;
+
+Search DOE PAGES for author "Khojandi, Anahita"
+
+https://www.osti.gov/pages/search/author:%22Khojandi,%20Anahita%22
+
+Search DOE PAGES for ORCID "0000-0001-6818-2048"
+
+https://www.osti.gov/pages/search/orcid:0000000168182048
+
+View ORCID profile
+
+https://orcid.org/0000-0001-6818-2048
+
+Jared, Bradley
+
+https://www.osti.gov/pages/search/author:%22Jared,%20Bradley%22
+
+ 
+
+[1]
+
+;
+
+Search DOE PAGES for author "Jared, Bradley"
+
+https://www.osti.gov/pages/search/author:%22Jared,%20Bradley%22
+
+Search DOE PAGES for ORCID "0000-0002-1243-4426"
+
+https://www.osti.gov/pages/search/orcid:0000000212434426
+
+View ORCID profile
+
+https://orcid.org/0000-0002-1243-4426
+
+Schmitz, Tony
+
+https://www.osti.gov/pages/search/author:%22Schmitz,%20Tony%22
+
+ 
+
+[3]
+
+;
+
+Search DOE PAGES for author "Schmitz, Tony"
+
+https://www.osti.gov/pages/search/author:%22Schmitz,%20Tony%22
+
+Search DOE PAGES for ORCID "0000-0001-9955-5775"
+
+https://www.osti.gov/pages/search/orcid:0000000199555775
+
+View ORCID profile
+
+https://orcid.org/0000-0001-9955-5775
+
+Karandikar, Jaydeep
+
+https://www.osti.gov/pages/search/author:%22Karandikar,%20Jaydeep%22
+
+ 
+
+[4]
+
+;
+
+Search DOE PAGES for author "Karandikar, Jaydeep"
+
+https://www.osti.gov/pages/search/author:%22Karandikar,%20Jaydeep%22
+
+Search DOE PAGES for ORCID "0000-0002-3155-1214"
+
+https://www.osti.gov/pages/search/orcid:0000000231551214
+
+View ORCID profile
+
+https://orcid.org/0000-0002-3155-1214
+
+Coble, Jamie B.
+
+https://www.osti.gov/pages/search/author:%22Coble,%20Jamie%20B.%22
+
+ 
+
+[1]
+
+Search DOE PAGES for author "Coble, Jamie B."
+
+https://www.osti.gov/pages/search/author:%22Coble,%20Jamie%20B.%22
+
+Search DOE PAGES for ORCID "0000-0002-0736-673X"
+
+https://www.osti.gov/pages/search/orcid:000000020736673X
+
+View ORCID profile
+
+https://orcid.org/0000-0002-0736-673X
+
+Univ. of Tennessee, Knoxville, TN (United States)
+
+Univ. of Tennessee, Knoxville, TN (United States); Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)
+
+Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States); Univ. of Tennessee, Knoxville, TN (United States)
+
+Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)
+
++ Show Author Affiliations
+
+https://www.osti.gov/pages/biblio/2538145
+
+Chatter, a self-excited vibration phenomenon, is a critical challenge in high-speed machining operations, affecting tool life, product surface quality, and overall process efficiency. While machine learning models trained on simulated data have shown promise in detecting chatter, their real-world applicability remains uncertain due to discrepancies between simulated and actual machining environments. The primary goal of this study is to bridge the gap between simulation-based machine learning models and real-world applications by developing and validating a Random Forest-based chatter detection system. This research focuses on improving manufacturing efficiency through reliable chatter detection by integrating Operational Modal Analysis (OMA), Receptance Coupling Substructure Analysis (RCSA), and Transfer Learning (TL). The study applies a Random Forest classification model trained on over 140,000 simulated machining datasets, incorporating techniques like Operational Modal Analysis (OMA), Receptance Coupling Substructure Analysis (RCSA), and Transfer Learning (TL) to adapt the model for real-world operational data. The model is validated against 1600 real-world machining datasets, achieving an accuracy of 86.1%, with strong precision and recall scores. The results demonstrate the model's robustness and potential for practical implementation in industrial settings, highlighting challenges such as sensor noise and variability in machining conditions. This work advances the use of predictive analytics in machining processes, offering a data-driven solution to improve manufacturing efficiency through more reliable chatter detection.
+
+Expand...
+
+https://www.osti.gov/pages/biblio/2538145
+
+View Accepted Manuscript (DOE)
+
+https://www.osti.gov/pages/servlets/purl/2538145
+
+Cite
+
+https://www.osti.gov/pages/biblio/2538145
+
+Citation Formats
+
+MLA
+
+https://www.osti.gov/pages/biblio/2538145#biblio-cite-mla
+
+APA
+
+https://www.osti.gov/pages/biblio/2538145#biblio-cite-apa
+
+Chicago
+
+https://www.osti.gov/pages/biblio/2538145#biblio-cite-chi
+
+BibTeX
+
+https://www.osti.gov/pages/biblio/2538145#biblio-cite-bib
+
+ 
+
+Alberts, Matthew, St. John, Sam, Odie, Simon, Khojandi, Anahita, Jared, Bradley, Schmitz, Tony, Karandikar, Jaydeep, and Coble, Jamie B. Transitioning from Simulation to Reality: Applying Chatter Detection Models to Real-World Machining Data. United States: N. p., 2024. Web. doi:10.3390/machines12120923.
+
+Copy to clipboard
+
+https://www.osti.gov/pages/biblio/2538145
+
+ 
+
+Alberts, Matthew, St. John, Sam, Odie, Simon, Khojandi, Anahita, Jared, Bradley, Schmitz, Tony, Karandikar, Jaydeep, & Coble, Jamie B. Transitioning from Simulation to Reality: Applying Chatter Detection Models to Real-World Machining Data. United States. https://doi.org/10.3390/machines12120923
+
+Copy to clipboard
+
+https://www.osti.gov/pages/biblio/2538145
+
+ 
+
+Alberts, Matthew, St. John, Sam, Odie, Simon, Khojandi, Anahita, Jared, Bradley, Schmitz, Tony, Karandikar, Jaydeep, and Coble, Jamie B. Mon . "Transitioning from Simulation to Reality: Applying Chatter Detection Models to Real-World Machining Data". United States. https://doi.org/10.3390/machines12120923. https://www.osti.gov/servlets/purl/2538145.
+
+Copy to clipboard
+
+https://www.osti.gov/pages/biblio/2538145
+
+ 
+
+@article{osti_2538145, title = {Transitioning from Simulation to Reality: Applying Chatter Detection Models to Real-World Machining Data}, author = {Alberts, Matthew and St. John, Sam and Odie, Simon and Khojandi, Anahita and Jared, Bradley and Schmitz, Tony and Karandikar, Jaydeep and Coble, Jamie B.}, abstractNote = {Chatter, a self-excited vibration phenomenon, is a critical challenge in high-speed machining operations, affecting tool life, product surface quality, and overall process efficiency. While machine learning models trained on simulated data have shown promise in detecting chatter, their real-world applicability remains uncertain due to discrepancies between simulated and actual machining environments. The primary goal of this study is to bridge the gap between simulation-based machine learning models and real-world applications by developing and validating a Random Forest-based chatter detection system. This research focuses on improving manufacturing efficiency through reliable chatter detection by integrating Operational Modal Analysis (OMA), Receptance Coupling Substructure Analysis (RCSA), and Transfer Learning (TL). The study applies a Random Forest classification model trained on over 140,000 simulated machining datasets, incorporating techniques like Operational Modal Analysis (OMA), Receptance Coupling Substructure Analysis (RCSA), and Transfer Learning (TL) to adapt the model for real-world operational data. The model is validated against 1600 real-world machining datasets, achieving an accuracy of 86.1%, with strong precision and recall scores. The results demonstrate the model's robustness and potential for practical implementation in industrial settings, highlighting challenges such as sensor noise and variability in machining conditions. This work advances the use of predictive analytics in machining processes, offering a data-driven solution to improve manufacturing efficiency through more reliable chatter detection.}, doi = {10.3390/machines12120923}, journal = {Machines}, number = 12, volume = 12, place = {United States}, year = {2024}, month = {12} }
+
+Copy to clipboard
+
+https://www.osti.gov/pages/biblio/2538145
+
+Export
+
+https://www.osti.gov/pages/biblio/2538145
+
+Endnote
+
+https://www.osti.gov/pages/biblio/2538145
+
+RIS
+
+https://www.osti.gov/pages/biblio/2538145
+
+CSV/Excel
+
+https://www.osti.gov/pages/biblio/2538145
+
+XML
+
+https://www.osti.gov/pages/biblio/2538145
+
+JSON
+
+https://www.osti.gov/pages/biblio/2538145
+
+Share
+
+https://www.osti.gov/pages/biblio/2538145
+
+Facebook
+
+https://www.facebook.com/sharer/sharer.php?u=https%3A//www.osti.gov/biblio/2538145
+
+Twitter/X
+
+https://X.com/home?status=post?text=DOE%20Research%20from%20OSTI.GOV%3A%20https%3A//www.osti.gov/biblio/2538145
+
+LinkedIn
+
+https://www.linkedin.com/shareArticle?mini=true&url=https%3A//www.osti.gov/biblio/2538145&title=DOE%20Research%20from%20OSTI.GOV&summary=&source=
+
+Email
+
+mailto:?subject=DOE%20Research%20from%20OSTI.GOV&body=https%3A//www.osti.gov/biblio/2538145
+
+Save
+
+https://www.osti.gov/pages/biblio/2538145
+
+You must 
+
+Sign In
+
+https://www.osti.gov/pages/login?callback=biblio
+
+ or 
+
+Create an Account
+
+https://www.osti.gov/pages/createaccount
+
+ in order to save documents to your library.
+
+Print
+
+javascript:window.print();
+
+Details
+
+https://www.osti.gov/pages/biblio/2538145#section-details
+
+References (24)
+
+https://www.osti.gov/pages/biblio/2538145#section-references
+
+Similar Records / Subjects
+
+https://www.osti.gov/pages/biblio/2538145#section-similar
+
+Research Organization:
+
+Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)
+
+Sponsoring Organization:
+
+National Science Foundation (NSF); USDOE
+
+Grant/Contract Number:
+
+AC05-00OR22725
+
+OSTI ID:
+
+2538145
+
+Journal Information:
+
+Machines, Journal Name: Machines Journal Issue: 12 Vol. 12; ISSN 2075-1702
+
+Publisher:
+
+MDPI 
+
+Copyright Statement
+
+https://www.osti.gov/disclaim#copyright
+
+Country of Publication:
+
+United States
+
+Language:
+
+English
+
+References (24)
+
+Search references:
+
+Resource Types
+
+Book
+
+Journal
+
+Sort by Date
+
+Sort by Title
+
+↺
+
+A data-driven framework for predicting machining stability: employing simulated data, operational modal analysis, and enhanced transfer learning
+
+https://doi.org/10.1007/s00170-024-14841-9
+
+Coble, Jamie; Alberts, Matthew; St. John, Sam
+
+The International Journal of Advanced Manufacturing Technology, Vol. 135, Issue 11-12 
+
+https://doi.org/10.1007/s00170-024-14841-9
+
+https://doi.org/10.1007/s00170-024-14841-9
+
+journal
+
+December 2024
+
+Chatter detection in simulated machining data: a simple refined approach to vibration data
+
+https://doi.org/10.1007/s00170-024-13590-z
+
+Alberts, Matthew; St. John, Sam; Jared, Bradley
+
+The International Journal of Advanced Manufacturing Technology, Vol. 132, Issue 9-10 
+
+https://doi.org/10.1007/s00170-024-13590-z
+
+https://doi.org/10.1007/s00170-024-13590-z
+
+journal
+
+April 2024
+
+seaborn: statistical data visualization
+
+https://doi.org/10.21105/joss.03021
+
+Waskom, Michael
+
+Journal of Open Source Software, Vol. 6, Issue 60 
+
+https://doi.org/10.21105/joss.03021
+
+https://doi.org/10.21105/joss.03021
+
+journal
+
+April 2021
+
+Array programming with NumPy
+
+https://doi.org/10.1038/s41586-020-2649-2
+
+Harris, Charles R.; Millman, K. Jarrod; van der Walt, Stéfan J.
+
+Nature, Vol. 585, Issue 7825 
+
+https://doi.org/10.1038/s41586-020-2649-2
+
+https://doi.org/10.1038/s41586-020-2649-2
+
+journal
+
+September 2020
+
+SciPy 1.0: fundamental algorithms for scientific computing in Python
+
+https://doi.org/10.1038/s41592-019-0686-2
+
+Virtanen, Pauli; Gommers, Ralf; Oliphant, Travis E.
+
+Nature Methods 
+
+https://doi.org/10.1038/s41592-019-0686-2
+
+https://doi.org/10.1038/s41592-019-0686-2
+
+journal
+
+February 2020
+
+Improved Deep Transfer Auto-Encoder for Fault Diagnosis of Gearbox Under Variable Working Conditions With Small Training Samples
+
+https://doi.org/10.1109/ACCESS.2019.2936243
+
+He, Zhiyi; Shao, Haidong; Zhang, Xiaoyang
+
+IEEE Access, Vol. 7 
+
+https://doi.org/10.1109/ACCESS.2019.2936243
+
+https://doi.org/10.1109/ACCESS.2019.2936243
+
+journal
+
+January 2019
+
+Time Series FeatuRe Extraction on basis of Scalable Hypothesis tests (tsfresh – A Python package)
+
+https://doi.org/10.1016/j.neucom.2018.03.067
+
+Christ, Maximilian; Braun, Nils; Neuffer, Julius
+
+Neurocomputing, Vol. 307 
+
+https://doi.org/10.1016/j.neucom.2018.03.067
+
+https://doi.org/10.1016/j.neucom.2018.03.067
+
+journal
+
+September 2018
+
+Artificial intelligence for fault diagnosis of rotating machinery: A review
+
+https://doi.org/10.1016/j.ymssp.2018.02.016
+
+Liu, Ruonan; Yang, Boyuan; Zio, Enrico
+
+Mechanical Systems and Signal Processing, Vol. 108 
+
+https://doi.org/10.1016/j.ymssp.2018.02.016
+
+https://doi.org/10.1016/j.ymssp.2018.02.016
+
+journal
+
+August 2018
+
+Remaining useful life estimation in prognostics using deep convolution neural networks
+
+https://doi.org/10.1016/j.ress.2017.11.021
+
+Li, Xiang; Ding, Qian; Sun, Jian-Qiao
+
+Reliability Engineering & System Safety, Vol. 172 
+
+https://doi.org/10.1016/j.ress.2017.11.021
+
+https://doi.org/10.1016/j.ress.2017.11.021
+
+journal
+
+April 2018
+
+Smart manufacturing must embrace big data
+
+https://doi.org/10.1038/544023a
+
+Kusiak, Andrew
+
+Nature, Vol. 544, Issue 7648 
+
+https://doi.org/10.1038/544023a
+
+https://doi.org/10.1038/544023a
+
+journal
+
+April 2017
+
+LSTM network: a deep learning approach for short-term traffic forecast
+
+https://doi.org/10.1049/iet-its.2016.0208
+
+Zhao, Zheng; Chen, Weihai; Wu, Xingming
+
+IET Intelligent Transport Systems, Vol. 11, Issue 2 
+
+https://doi.org/10.1049/iet-its.2016.0208
+
+https://doi.org/10.1049/iet-its.2016.0208
+
+journal
+
+March 2017
+
+Deep learning
+
+https://doi.org/10.1038/nature14539
+
+LeCun, Yann; Bengio, Yoshua; Hinton, Geoffrey
+
+Nature, Vol. 521, Issue 7553 
+
+https://doi.org/10.1038/nature14539
+
+https://doi.org/10.1038/nature14539
+
+journal
+
+May 2015
+
+Chatter in machining processes: A review
+
+https://doi.org/10.1016/j.ijmachtools.2011.01.001
+
+Quintana, Guillem; Ciurana, Joaquim
+
+International Journal of Machine Tools and Manufacture, Vol. 51, Issue 5 
+
+https://doi.org/10.1016/j.ijmachtools.2011.01.001
+
+https://doi.org/10.1016/j.ijmachtools.2011.01.001
+
+journal
+
+May 2011
+
+A Survey on Transfer Learning
+
+https://doi.org/10.1109/TKDE.2009.191
+
+Pan, Sinno Jialin; Yang, Qiang
+
+IEEE Transactions on Knowledge and Data Engineering, Vol. 22, Issue 10 
+
+https://doi.org/10.1109/TKDE.2009.191
+
+https://doi.org/10.1109/TKDE.2009.191
+
+journal
+
+October 2010
+
+Advanced monitoring of machining operations
+
+https://doi.org/10.1016/j.cirp.2010.05.010
+
+Teti, R.; Jemielniak, K.; O'Donnell, G.
+
+CIRP Annals, Vol. 59, Issue 2 
+
+https://doi.org/10.1016/j.cirp.2010.05.010
+
+https://doi.org/10.1016/j.cirp.2010.05.010
+
+journal
+
+January 2010
+
+Learning from Imbalanced Data
+
+https://doi.org/10.1109/TKDE.2008.239
+
+IEEE Transactions on Knowledge and Data Engineering, Vol. 21, Issue 9 
+
+https://doi.org/10.1109/TKDE.2008.239
+
+https://doi.org/10.1109/TKDE.2008.239
+
+journal
+
+September 2009
+
+Dataset Shift in Machine Learning
+
+https://doi.org/10.7551/mitpress/9780262170055.001.0001
+
+Quiñonero-Candela, Joaquin; Sugiyama, Masashi; Schwaighofer, Anton
+
+The MIT Press 
+
+https://doi.org/10.7551/mitpress/9780262170055.001.0001
+
+https://doi.org/10.7551/mitpress/9780262170055.001.0001
+
+book
+
+January 2008
+
+Support vector machine in machine condition monitoring and fault diagnosis
+
+https://doi.org/10.1016/j.ymssp.2006.12.007
+
+Widodo, Achmad; Yang, Bo-Suk
+
+Mechanical Systems and Signal Processing, Vol. 21, Issue 6 
+
+https://doi.org/10.1016/j.ymssp.2006.12.007
+
+https://doi.org/10.1016/j.ymssp.2006.12.007
+
+journal
+
+August 2007
+
+Matplotlib: A 2D Graphics Environment
+
+https://doi.org/10.1109/MCSE.2007.55
+
+Hunter, John D.
+
+Computing in Science & Engineering, Vol. 9, Issue 3 
+
+https://doi.org/10.1109/MCSE.2007.55
+
+https://doi.org/10.1109/MCSE.2007.55
+
+journal
+
+January 2007
+
+Three-Component Receptance Coupling Substructure Analysis for Tool Point Dynamics Prediction
+
+https://doi.org/10.1115/1.2039102
+
+Schmitz, Tony L.; Duncan, G. Scott
+
+Journal of Manufacturing Science and Engineering, Vol. 127, Issue 4 
+
+https://doi.org/10.1115/1.2039102
+
+https://doi.org/10.1115/1.2039102
+
+journal
+
+February 2005
+
+Chatter Stability of Metal Cutting and Grinding
+
+https://doi.org/10.1016/S0007-8506(07)60032-8
+
+Altintas, Y.; Weck, M.
+
+CIRP Annals, Vol. 53, Issue 2 
+
+https://doi.org/10.1016/S0007-8506(07)60032-8
+
+https://doi.org/10.1016/S0007-8506(07)60032-8
+
+journal
+
+January 2004
+
+Random Forests
+
+https://doi.org/10.1023/A:1010933404324
+
+Breiman, Leo
+
+Machine Learning, Vol. 45, Issue 1, p. 5-32 
+
+https://doi.org/10.1023/A:1010933404324
+
+https://doi.org/10.1023/A:1010933404324
+
+journal
+
+January 2001
+
+Sensor signals for tool-wear monitoring in metal cutting operations—a review of methods
+
+https://doi.org/10.1016/S0890-6955(99)00122-4
+
+Dimla, Dimla E.
+
+International Journal of Machine Tools and Manufacture, Vol. 40, Issue 8 
+
+https://doi.org/10.1016/S0890-6955(99)00122-4
+
+https://doi.org/10.1016/S0890-6955(99)00122-4
+
+journal
+
+June 2000
+
+Approximate Statistical Tests for Comparing Supervised Classification Learning Algorithms
+
+https://doi.org/10.1162/089976698300017197
+
+Dietterich, Thomas G.
+
+Neural Computation, Vol. 10, Issue 7 
+
+https://doi.org/10.1162/089976698300017197
+
+https://doi.org/10.1162/089976698300017197
+
+journal
+
+October 1998
+
+Similar Records
+
+A data-driven framework for predicting machining stability: employing simulated data, operational modal analysis, and enhanced transfer learning
+
+https://www.osti.gov/pages/biblio/2573386
+
+Journal Article
+
+· 2024
+
+· International Journal of Advanced Manufacturing Technology
+
+· OSTI ID: 2573386
+
+Coble, Jamie;
+
+https://www.osti.gov/pages/search/author:%22Coble,%20Jamie%22
+
+ 
+
+Alberts, Matthew;
+
+https://www.osti.gov/pages/search/author:%22Alberts,%20Matthew%22
+
+ 
+
+St. John, Sam;
+
+https://www.osti.gov/pages/search/author:%22St.%20John,%20Sam%22
+
+ +5 more
+
+Chatter detection in simulated machining data: a simple refined approach to vibration data
+
+https://www.osti.gov/pages/biblio/2345282
+
+Journal Article
+
+· 2024
+
+· International Journal of Advanced Manufacturing Technology
+
+· OSTI ID: 2345282
+
+Alberts, Matthew;
+
+https://www.osti.gov/pages/search/author:%22Alberts,%20Matthew%22
+
+ 
+
+St. John, Sam;
+
+https://www.osti.gov/pages/search/author:%22St.%20John,%20Sam%22
+
+ 
+
+Jared, Bradley;
+
+https://www.osti.gov/pages/search/author:%22Jared,%20Bradley%22
+
+ +4 more
+
+Review and status of tool tip frequency response function prediction using receptance coupling
+
+https://www.osti.gov/pages/biblio/1892405
+
+Journal Article
+
+· 2022
+
+· Precision Engineering
+
+· OSTI ID: 1892405
+
+Schmitz, Tony;
+
+https://www.osti.gov/pages/search/author:%22Schmitz,%20Tony%22
+
+ 
+
+Betters, Emma;
+
+https://www.osti.gov/pages/search/author:%22Betters,%20Emma%22
+
+ 
+
+Budak, Erhan;
+
+https://www.osti.gov/pages/search/author:%22Budak,%20Erhan%22
+
+ +3 more
+
+Related Subjects
+
+42 ENGINEERING
+
+https://www.osti.gov/pages/search/subject:42%20ENGINEERING
+
+chatter
+
+https://www.osti.gov/pages/search/subject:chatter
+
+predictive analytics
+
+https://www.osti.gov/pages/search/subject:predictive%20analytics
+
+real world
+
+https://www.osti.gov/pages/search/subject:real%20world
+
+stability
+
+https://www.osti.gov/pages/search/subject:stability
+
+vibration analysis
+
+https://www.osti.gov/pages/search/subject:vibration%20analysis
+
+ 
+
+Website Policies / Important Links
+
+https://www.osti.gov/disclaim
+
+Contact Us
+
+https://www.osti.gov/pages/contact
+
+Vulnerability Disclosure Program
+
+https://www.energy.gov/vulnerability-disclosure-policy
+
+Facebook
+
+https://www.facebook.com/ostigov
+
+X
+
+https://x.com/OSTIgov
+
+Youtube
+
+https://www.youtube.com/user/ostigov

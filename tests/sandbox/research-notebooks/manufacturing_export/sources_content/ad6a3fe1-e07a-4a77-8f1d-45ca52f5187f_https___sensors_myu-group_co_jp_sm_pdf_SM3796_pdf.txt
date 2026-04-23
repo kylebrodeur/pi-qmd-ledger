@@ -1,0 +1,833 @@
+4221Sensors and Materials, Vol. 36, No. 10 (2024) 4221–4238 
+
+MYU Tokyo 
+
+S & M 3796 
+
+*Corresponding author: e-mail: m18316252102@126.com https://doi.org/10.18494/SAM5110 
+
+ISSN 0914-4935 © MYU K.K. https://myukk.org/ 
+
+Real-time Thermal Error Compensation of Machine Tools Based on Machine Learning Model and Actual Cutting 
+
+Measurement via Temperature Sensors 
+
+Gang Chen and Kun-Chieh Wang* 
+
+ School of Mechanical and Electric Engineering, Sanming University, Sanming, Fujian 365004, China 
+
+(Received April 30, 2024; accepted September 17, 2024) 
+
+Keywords: thermal error, thermal error compensation, CNC machine tools, real-time measurement 
+
+ In computer-numerical-controlled (CNC) machine tools, factors affecting machining precision mainly stem from the machine’s own geometric errors and errors occurring during cutting due to thermal effects on its structure. Typically, thermal errors contribute to more than 70% of the total error. Hence, minimizing thermal errors in CNC machine tools is highly regarded. One significant and commonly used approach is the thermal error compensation (TEC) method. Although the TEC method has been extensively applied in both laboratory and industrial CNC machines, several challenges remain. For instance, the determination of optimal temperature characteristic points for various CNC machine tools requires improved methods, the mathematical models for predicting and compensating thermal errors are not sufficiently accurate, and there is poor compensation performance under varying cutting conditions. In this research, we focus on thermal error prediction and compensation technology for a CNC high-speed four-rail vertical machining center. Through actual cutting experiments, we measure temperatures at feature points on the machine and spindle deformation using various high-tech sensors. Subsequently, precise prediction and rapid compensation models for thermal errors are established using support vector regression and transfer function matrix methods, respectively. Finally, a TEC system based on a single-chip microprocessor is developed. In this system, we perform real-time TEC during actual machining by adjusting the machine’s original point drift. Results from actual cutting experiments demonstrate that the developed TEC system can effectively reduce the target machine’s thermal deformation from 110 µm to within 10 µm in real time. 
+
+1. Introduction 
+
+ In computer-numerical-controlled (CNC) machine tools, geometric deviations of individual components, assembly bias between components, control system errors, as well as factors such as weight and thermal deformations during operation can significantly affect the accuracy of the relative position between the tool tip and the workpiece during machining. These error sources 
+
+4222 Sensors and Materials, Vol. 36, No. 10 (2024) 
+
+can be classified into mechanical structure installation and operation, component parts, cutting process, external environment, and heat sources. The thermal expansion and deformation errors caused by heat sources during cutting can account for as much as 70% of the overall error. To mitigate this thermal error, so far, the most effective method is thermal error compensation (TEC), which has been extensively studied by many scholars. The following provides an overview of recent research on thermal error prediction (TEP) or TEC mathematical models for CNC machine tools, as well as the development of TEC control boards. 
+
+ Martin et al. investigated the TEC model of a five-axis machine tool.(1) The influential 
+
+factors of the thermal error under investigation include the spindle rotation, the motion of three linear axes, the rotation of the C-axis, and the ambient temperature. They implemented a mathematical model using transfer functions, which was directly applied to the machine tool’s control system to compensate thermal errors in real time using the Python programming 
+
+language.(1) Liu et al. investigated the compensation of thermally induced errors in spindle systems based on a long-term memory neural network (NN).(2) Nguyen et al. constructed a 
+
+thermal deformation prediction model with an artificial NN and compensated the thermal error of a three-axis vertical CNC milling machine in real time during the cutting process to improve 
+
+the thermal error of the workpiece.(3) Rong et al. suggested a real-time TEC method for machine 
+
+tool ball screws.(4) The maximum machining error of the test piece using the proposed real-time 
+
+TEC method was 13 µm, compared to 71 µm for the uncompensated workpiece.(4) Huang et al. 
+
+proposed a thermal error classification model that can compensate for the thermal deformation of the ball screw feed axes, and the accuracy of the feed system can be improved by 53.11%.(5) Mohsen and Behrooz developed a specific compensation method imbedded in a virtual machining system for compensating geometric, thermal, and tooling errors in five-axis milling 
+
+operations of free-form surfaces.(6) Chang et al. integrated the regression and fuzzy inference methods to establish a TEP model for the spindle thermal error.(7) Lang et al. proposed an 
+
+adaptive compensation model that employs 20 input parameters.(8) The volumetric error was largely reduced by 72% using this model. They concluded that the autoregressive and exogenous 
+
+input model is more suitable as the TEC method for a CNC machine tool.(8) Naumann et al. 
+
+proposed a hybrid TEC method combining an integrated deformation sensor and regression 
+
+analysis models for machine tools with complex geometry.(9) Zixin et al. proposed a method for 
+
+compensating geometric errors of CNC machine tools based on volume error measurement.(10) 
+
+The final volume positioning error after compensation is around 20 μm.(10) Reddy et al. 
+
+developed a real-time TEC module for machine tools.(11) They used feed-forward back-propagation NNs as the TEC model, developed real-time compensation algorithms, and 
+
+implemented the compensation module on an open-architecture CNC controller.(11) Wei et al. 
+
+proposed a Gaussian process regression-based TEC model, which can predict thermal errors in 
+
+intervals and achieve high prediction accuracy and robustness.(12) Zhu et al. proposed a thermal 
+
+error modeling method based on the random forest scheme. The model has a prediction accuracy of more than 90% under different operating conditions.(13) A review of thermal error modeling 
+
+methods for machine tools was presented by Li et al.(14) The modeling methods studied include 
+
+the least-square scheme, multiple regression analysis, gray system theory, NNs, support vector 
+
+Sensors and Materials, Vol. 36, No. 10 (2024) 4223 
+
+machines (SVMs), and the hybrid model. They concluded that NNs and SVMs are more suitable 
+
+for complex machine tools and working conditions.(14) Li et al. proposed a TEC model of the 
+
+generalized regression NN scheme integrated with the particle swarm optimization scheme.(15) 
+
+Shi et al. proposed a TEC method based on dimensional errors of machined parts.(16) Kaulagi 
+
+and Sonawane proposed a thermal-network-based TEC model for CNC vertical machine tools, 
+
+where the main heat source considered is the ambient temperature fluctuation.(17) Stoop et al. 
+
+presented a TEC method based on a joint learning approach running in the cloud.(18) This cloud-based TEC method reduces the machine’s feature point thermal error by more than 80%.(18) Sun 
+
+et al. modeled the thermal error of motorized spindles on the basis of an integrated machine 
+
+learning scheme that includes the adaptive bounded Harris Hawk algorithm and the least-squares SVM scheme, which can considerably improve the prediction accuracy.(19) For the 
+
+thermal error deformation of a CNC machine tool spindle, Cheng et al. proposed a TEP model, 
+
+which is a machine learning scheme that combines a long short-term memory scheme and a convolutional NN scheme.(20) The proposed model performs better than the traditional model in the TEP of machine tool spindles.  Summarizing the above findings, it is evident that most research studies focus on developing advanced and precise mathematical models for TEP. However, these models are predominantly based on idle experiments, with very few involving actual cutting scenarios. As a result, the established TEC models face challenges in practical application owing to the complexity and the inability to perform timely calculations for immediate use in compensating thermal errors in CNC machine tools. Building upon this, in this study, we propose to establish accurate TEP models and real-time TEC models based on actual cutting experiments. Subsequently, we integrate the TEC model into a control board connected to the CNC machine tool controller to compensate for tool tip position errors. 
+
+2. Thermal Error Compensation Methodology 
+
+2.1 Methodology 
+
+ The research methodology is outlined in Fig. 1. Step 1: A widely used CNC vertical four-rail machining center is selected as the target machine tool. Step 2: Suitable experimental conditions, including idle and actual cutting conditions, are established. Step 3: Temperature feature points are selected, and an integrated measurement system (IMS) is set up. The IMS is used to measure temperatures at feature points and tool tip displacements under the experimental conditions. Step 4: Mathematical models for TEP and TEC are developed on the basis of measurement data. Step 5: A TEC board is then developed, and the TEC model is programmed into this board. Step 6: A real-time actual cutting experiment is conducted to validate the proposed TEC method. The developed TEC board is connected to the CNC machine’s controller to compensate for the tool tip position.
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwk1QLHR3nQqiZAt0p2D-A4zfKfzhx4lRqncviSS8xX2W7JmeKagaCorhtZznkD1Ld-cexR2bovHq9tQXbW9RTGj7du_ZyWO43I-OrLb_6vKRPQOd6jLlbjU4x76TQxrrnA53xUTg=w699-h553-v0
+
+e7fbb0bb-4f22-4936-9a55-444f373036b1
+
+4224 Sensors and Materials, Vol. 36, No. 10 (2024) 
+
+2.2 Theoretical basis 
+
+ The mathematical theories of TEP and TEC used in this study consist of five schemes: multiple linear regression (MLR), Lasso regression, support vector regression (SVR), grey system theorem (GST), and transfer function matrix (TFM). We use GST to filter the temperature feature points and MLR as well as SVR to establish TEP models. The Lasso regression scheme is adopted to understand the effect (weight) of characteristic temperatures on the spindle thermal deformation. Finally, TFM is used to establish a rapid TEC model to real-time compensate for the tool tip error via a TEC board. These theories are introduced as follows. 
+
+2.2.1 GST 
+
+ The GM(1, N) model of GST is a mathematical method used for forecasting systems with 
+
+limited and uncertain information. It can be applied to predict thermal errors on the basis of historical data for machine tools. The model is grounded in the concept of grey incidence, which 
+
+quantifies the similarity between two sequences. Essentially, the GM(1, N) model posits that a 
+
+system’s evolution can be captured by a first-order differential equation. The following is a brief overview of this model. 
+
+Fig. 1. (Color online) Flow chart of proposed methodology.
+
+Sensors and Materials, Vol. 36, No. 10 (2024) 4225 
+
+Given a sequence 
+
+ (0) (0) (0) (0){ (1), (2), ..., ( 
+
+)}X x x x N= 
+
+, (1) 
+
+representing the historical data of the thermal errors, the model aims to generate the new sequence 
+
+ (1) (1) (1) (1){ (1), (2), ..., ( 
+
+)}X x x x N= 
+
+, (2) 
+
+which can predict future values of the thermal errors. (1) Generate the accumulated generating operation (AGO) sequence: 
+
+ (0) (0) 
+
+1 ( ) ( ), 1, 2, ..., 
+
+k 
+
+i Z k x i k N 
+
+= = 
+
+=∑ 
+
+. (3) 
+
+(2) Calculate the average of the adjacent elements of the AGO sequence to obtain the GM(1, 1) sequence: 
+
+ (0) (0) (0)1ˆ ( ) ( ( ) ( 1)) 2 
+
+X k Z k Z k= 
+
++ − . (4) 
+
+(3) Estimate the parameters of the first-order differential equation: 
+
+ (1) 
+
+(1) ( 
+
+)dx ax t u dt 
+
++ = , (5) 
+
+where a is the development coefficient and u is the background value of the sequence. These 
+
+parameters can be estimated using the least-squares scheme. 
+
+(4) Solve the differential equation to obtain the predicted values of the thermal errors: 
+
+ (1) (0)( ) (1) , 2,3,..., 
+
+.aku ux k x e k N a a 
+
+− = − + =    
+
+ (6) 
+
+In Eq. (5), the absolute value of coefficient a is a good measure of the effect of the independent 
+
+variable on the dependent variable. 
+
+2.2.2 MLR 
+
+ MLR is a statistical method used to model the relationship between multiple input variables and an output variable. The basic idea behind MLR is to find the linear relationship between the 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzf6jrOIph42zV0HtOqtG3adCMReegFwNywCQK9KCZXIk1J5rg6PZhrh-KkSPeOXnwTx7E0hwPmqvGv4btrc83mLZ_24UmSfJHc7UEERyDSBz3f1cmCc7sAYw_0uRwh5JBhSBo8=w241-h49-v0
+
+faa29583-853b-4d50-b09e-6d383ca86cb2
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyNVk0ahtH5BO9UbaExeobJkk20RViTK1__1HWiAInahdTRGZIgoY_1tDcHij_oOQidg1pEwqAdAm2kpPN_giTG0g1yEI2vqqSVO1YsXdmk2KxGkcINYiHpu0NpTZV6BhRTWVKUxg=w213-h41-v0
+
+a10718c0-8423-41c5-b8f9-25f1000d3f68
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxjAO-hD1iRbNWJHJTw2YMBtBzF6BeKXsxOswbPfxC7cL2eF7AO15bAw82E5w4yYnjf2lptFGTiFESa---Je9Pkvav9ZeCwgJTXCrLXSVBEr-IN8PluI1ZqttHhB_sSlhrKPKz9SQ=w114-h45-v0
+
+bb994146-4097-4ad2-9890-14b194102b13
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyVIdhtGIFLBkoKgBxcSkxWqYu0iWZnD4V1ikbVEg3qjIDoGWWsCkBVOToov4chxrYJE3Uo_X-prwd_bNl-Ycrgbke4CEgUYOIgF1rLpgMPuIiySS4_oZwkfG5fcifzdmY3cps0=w305-h45-v0
+
+e27cacdc-4206-4481-a3f3-23cd640f4910
+
+4226 Sensors and Materials, Vol. 36, No. 10 (2024) 
+
+input variables X1, X2, …, Xn and the output variable Y. Mathematically, the MLR model can be 
+
+represented as 
+
+ 0 1 1 2 2 ... 
+
+n nY X X 
+
+Xβ 
+
+β β β ε= 
+
++ + + + + , (7) 
+
+where Y is the thermal deformation, X1, X2, …, Xn are the temperatures at feature 
+
+points, β1, β2, …, βn are the coefficients of the model that represent the effect of each input variable on the output variable, and ε is the error term, which accounts for the variability in the 
+
+dependent variable that is not explained by the model. 
+
+ The goal of MLR is to estimate the coefficients β1, β2, …, βn that minimize the sum of 
+
+squared differences between the observed values of the dependent variable and the values predicted by the model. This is typically carried out using a method called least-squares estimation. Once the coefficients are estimated, the MLR model can be used to predict the thermal errors for new sets of input variables. The model can also be used to identify which input variables have a significant impact on the thermal errors of the machine tool.  Overall, MLR is a useful tool for modeling the relationship between multiple input temperatures and the thermal error of machine tools, and it can be used for both prediction and compensation purposes. 
+
+2.2.3 SVR 
+
+ SVR is a machine learning technique used for regression analysis. It is based on the SVM algorithm and is particularly effective for datasets with nonlinear relationships. In SVR, the goal 
+
+is to find a function g(x) that predicts the output y for a given input x. The function g(x) is 
+
+defined as 
+
+ ( ) , 
+
+,g x w x b= 
+
++  (8) 
+
+where w is the weight vector, b is the bias term, and ,⋅ 
+
+⋅ 
+
+ denotes the dot product. The SVR 
+
+algorithm aims to minimize the error between the predicted output g(xi) and the actual output yi 
+
+for all training data points (xi, yi). Assuming ε is the margin of tolerance where errors are not 
+
+penalized, we may formulate the optimization problem using SVR as 
+
+ 2 * 
+
+1 (minimi 1 
+
+2 e )z 
+
+n 
+
+i i i 
+
+w C 
+
+ξ ξ 
+
+= 
+
+  + +   
+
+  
+
+∑ 
+
+, (9) 
+
+subject to the following constraints: 
+
+ , 
+
+,i i iy w x b 
+
+ε ξ− 
+
+− 
+
+≤ 
+
++   (10)
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAz8o06jDchNbJ3kG7YF-iI-ZzCQ0bR4GxPGNKE60Y2ilXRv_i2or-wTjDn0L_2isg7V7_hsUdCtDohXoAn8XscuIAPH9yFlc3J2c0y2zXxYJyhkQVeh9Rx3Og-LgWt5oeh477Ni-A=w212-h52-v0
+
+fe94fe86-7edf-4a9a-ba88-7b1fa458445d
+
+Sensors and Materials, Vol. 36, No. 10 (2024) 4227 
+
+ *, 
+
+,i i iw x b y 
+
+ε ξ+ 
+
+− 
+
+≤ 
+
++   (11) 
+
+ *, 
+
+0i 
+
+iξ 
+
+ξ ≥ 
+
+, (12) 
+
+where C is a regularization parameter that controls the trade-off between the complexity of the 
+
+model and the amount of error allowed, and ξi and ξi 
+
+* are slack variables that allow for errors 
+
+beyond the margin ε. SVR finds the optimal values of w and b by solving the above Eqs. (9)–(12), 
+
+using the quadratic programming scheme. 
+
+2.2.4 Lasso regression 
+
+ Lasso regression is essentially a linear regression technique that incorporates a penalty 
+
+function into the standard least-squares objective. The penalty term is the L1 norm of the 
+
+coefficient vector multiplied by a tuning parameter, λ. The objective function of the Lasso 
+
+regression is 
+
+ 2 
+
+1 1 
+
+1min ( ) , 2 
+
+N M T 
+
+i i j i j 
+
+y x 
+
+Nα 
+
+α λ α 
+
+= = 
+
+   − +     
+
+∑ ∑ 
+
+ (13) 
+
+where N is the number of samples and yi is the measured value of the dependent variable for the ith measurement, 
+
+ xi is the vector of predicted variables for the ith measurement, α is the vector of coefficients to be estimated, M is the number of predicted variables, and λ is the tuning parameter that controls 
+
+the strength of the penalty. 
+
+3. Experimental Conditions and Apparatus 
+
+3.1 Experimental conditions 
+
+ The experimental cutting conditions for modeling thermal errors in CNC machine tools can be categorized into two types: static and dynamic. Static cutting conditions involve moving the spindle and axes without any load to increase temperature. On the other hand, dynamic cutting conditions involve setting the tool path for the actual cutting of the workpiece. Most published literature focused on TEP with static cutting conditions. This is because, under static cutting conditions, it is easier to increase the machine temperature with fewer adjustments to the machine’s other physical parameters. Additionally, error measurement is simpler under static cutting conditions. In contrast, dynamic cutting conditions pose challenges. Measurement must account for the impact of chips and cutting fluid, and setting up measurement instrumentation is more difficult. Factors such as time lag and measurement accuracy add to the complexity of measuring thermal errors under dynamic cutting conditions.
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyvw03dUrP4Kmnc83tmVvvvdugVJPSHVDn1bdlJdl7losgeFqWga1SgmbNHBaINrS4ww21Ulw_Z6rhzsowfbx4OpgrsY_g2YseuLxAJHqJzN5pqmGc9IuEDhoLkqcQeH0BETNbD7A=w237-h56-v0
+
+3afa35e9-db21-4210-af97-68dc587fde01
+
+4228 Sensors and Materials, Vol. 36, No. 10 (2024) 
+
+3.1.1 Static cutting condition (or idle cutting condition) 
+
+ The reason we consider the static cutting condition in the experiment is that the machine’s 
+
+primary thermal deformation occurs in the Z-axis direction and originates from heat sources such as the Z-axis spindle motor, Z-axis slide friction, and Z-axis servo-motor. Therefore, to 
+
+achieve a rapid temperature increase in the machine body, we directly set the spindle to run at 
+
+4000 rpm with counterclockwise rotation. The Z-axis movement travel is set in the range of 50 to 
+
+500 mm with a feed rate of 4000 mm/min for the reciprocating motion, which is repeated 20 times. Once completed, we use an automatic tool changer to replace the standard test bar and measure the thermal error of the test bar. 
+
+3.1.2. Dynamic cutting condition (or actual cutting condition) 
+
+ To achieve a rapid temperature increase under dynamic cutting conditions, we use a face milling cutter as the processing tool. The cutting rate is set between 160 and 250 m/min, the feed rate ranges from 0.1 to 0.3 mm per edge, and the material of the work piece is medium carbon steel S45C. The mill-cutting path is set as the type of reciprocating zig-zag cutting, with a 4 mm depth of cut for a single layer. The spindle speed is set to 700 rpm. The major cutting parameters are summarized in Table 1. 
+
+3.2 Temperature feature points 
+
+ Previous studies have indicated that the temperature increase at feature points on the machine should exhibit a strong relationship with tool deformation. These temperature feature points are typically selected from areas where heat sources occur (e.g., motors and bearings) and locations with frequent friction (e.g., linear guide ways, slider bearings, screws, power nuts, and external environments).(21,22) On the basis of this, we have identified eight temperature feature points on the machine, which are listed in Table 2 and depicted in Fig. 2. 
+
+3.3 Measurements via sensors 
+
+3.3.1 Temperature measurement 
+
+ To mitigate the noise effects during measurement, we utilize a semiconductor temperature sensor, which comprises a semiconductor sensing element, an amplifier, and an analog-to-digital converter within its internal structure. This temperature sensor is capable of measuring temperatures ranging from −45 to +130 ℃ with a nonlinear error of approximately 1.2 ℃. This semiconductor temperature sensor boasts a sampling frequency of 20 Hz and a resolution of 0.01 ℃. 
+
+Table 1 Experimental parameters for dynamic cutting condition. 
+
+Spindle speed (rpm) 
+
+Z-axis feeding speed 
+
+(mm/min) 
+
+Cutting depth (mm) Mill-cutting type Coolant 
+
+700 1200 4 Zig-Zag No
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwEPKrh2KdNm3mJkXdgVc0NGQx7ZS-WNRTcvntG3wQI5UQH9D_3sGHMBr03nGBEr_uZ_Bxe9m6_d85teqzySQhdbGrmkXXbfZ9xu4q46KFkb5swNVzux0RLOI4XoAWAQZlj3Sk3PQ=w546-h503-v0
+
+fad7606b-8abd-4c5c-b149-55290a08440f
+
+Sensors and Materials, Vol. 36, No. 10 (2024) 4229 
+
+3.3.2 Deformation measurement 
+
+ The measurements of spindle thermal deformation were conducted using a tool length setting probe system from Renishaw. This system comprises a Renishaw MP4 trigger probe, a Renishaw MI5 interface module, a standard test bar, and a power supply. To measure thermal deformation, a standard test bar was rapidly positioned directly above the Renishaw MP4 probe and triggered 
+
+in the Z-axis direction. Upon triggering, the standard test bar initially advances at a feed rate of 
+
+100 mm/min until it triggers the probe, allowing for the approximate location of the trigger point to be determined. Subsequently, the standard test bar retracts by 1 mm and triggers the probe again at a feed rate of 10 mm/min to ascertain the displacement of the standard test bar caused by the heat. The thermal displacement mesurement procedure is schematically shown in Fig. 3. 
+
+3.4 IMS 
+
+ To accurately and synchronously collect temperature and deformation data, we have developed an IMS, primarily composed of the semiconductor temperature sensors, Renishaw MP4 tool setting probes, and data conversion and processing modules. In operation, the temperature sensor is initially attached to each feature point on the machine. Subsequently, the machine is operated under the designated cutting conditions, enabling the temperature sensor to 
+
+Fig. 2. (Color online) Temperatures at feature points. 
+
+Table 2 Locations of temperatures at feature points. Position (temperature) Location Position (temperature) Location 
+
+P1(T1) 
+
+Front part of saddle 
+
+P5(T5) 
+
+Front part of spindle 
+
+P2(T2) 
+
+Environment 
+
+P6(T6) 
+
+Rear part of vertical column 
+
+P3(T3) 
+
+Front part of vertical column 
+
+P7(T7) 
+
+Surface of working table 
+
+P4(T4) 
+
+Rear part of spindle ram 
+
+P8(T8) 
+
+Machine bed
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAx-6Tf08oK4CQ6Q2c0wryjJf9Yd0IyCm9AavV-GxJwjH1j4uGdo202rDeA02CkBvxU51WwCi686OsudIx3f80r-rFuJArOXy3ocDlnolNI90ar8TXXT74Cpqf3bm3GAzOvH5U_1fQ=w337-h309-v0
+
+6c7fd645-07fc-4160-99e2-5049844797c7
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwJqU1tiyzMR1WzooD-sOkjdOdTB3YSrkb_CcTxMPUGOJ78gs-7bj7Yz4QLStjykxEzo3ob2NdRL4xL9rdaZWRWHa8ejZLNrj4JXZzo8ZHuJPLDomwUmCw-IXtQg62SsUiHma9Q=w883-h545-v0
+
+7705f5c1-35ac-46d4-bd7c-0b33ec8c30c1
+
+4230 Sensors and Materials, Vol. 36, No. 10 (2024) 
+
+real-time measure the temperature of each feature point on the machine. Simultaneously, the Renishaw MP4 tool setting probe is employed to measure the thermal deformation of the machine spindle. Subsequently, the gathered data are converted and recorded to facilitate the subsequent mathematical modeling of the required information. 
+
+4. Results and Discussion 
+
+4.1 Measurement results 
+
+4.1.1 Results measured under static cutting condition 
+
+ We utilized the designed IMS to measure temperature and thermal deformation under static cutting conditions. For machine temperature variation, we monitored the temperature changes 
+
+over time at feature points P1–P8. The temperature data from these eight points, along with spindle deformation, were incorporated into Eqs. (1)–(6) of gray system theory GM (1, N). By 
+
+computation, we obtained the influence weights of the characteristic temperatures as follows: 
+
+a = (2.57, 3.24, 2.69, 6.11, 11.87, 0.23, 0.39, 0.55). This analysis result reveals that T6, T7, and T8, being relatively less influential, can be disregarded. The temporal measurement results of T1–T5 
+
+are illustrated in Fig. 4, whereas the spindle thermal deformation measurements over time are depicted in Fig. 5. From Fig. 4, it is evident that the machine tool’s characteristic temperatures rose by approximately 15 ℃ over the 50 min experimental period, with the most significant 
+
+temperature changes occurring at the P5 (front part of spindle) and P4 (rear part of spindle ram) 
+
+positions. Conversely, as shown in Fig. 5, the spindle deformation increased over the 50 min experimental period, reaching a maximum deformation of approximately 60 µm at the 50th minute. 
+
+Fig. 3. Spindle deformation measurement.(23)
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwwK1eeg9eTi2PTVgAcisBiMfC82lZQDoaG-n9QIBdrSaX40YoLfofLOGWri9IkWwuFVQ24UBFxNX4HVrJze1FOfXhKKpPdY3w1bhghTw63H3cCjW60uVNeHRSwwfOleXFseS5Y=w500-h309-v0
+
+7909348f-cd2b-4ca4-90b6-575aefd6dff5
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyqsoEQdGTNUHavcSy2B_THHgTyqfWv1Ajdv00ufGeqzwk9UKu1moamJ5UR-t-ZrgIhyes_i14Sp5wFh18dSn7AOx3P9v_oJdbn46dpKsMXpcTLA3n3d5EPnTKyO4y0QD8PS9-A=w1280-h663-v0
+
+abd6d37a-719b-4dc3-9c7e-189bd977ee42
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwN9KU0ayysemdnuv75IP-Edk2T23FBEeAxeJSSWdjqy-zne55tsySp2IfeHqiZZWDVZYqS_Xey7I4ecVR8gsqv2OchQxZc3pjjHRsb6r7qnjo4ErTzBfVxVY-XECrIvLATgnqZnw=w693-h334-v0
+
+23ee6dcf-4828-4b34-b60e-ebd87c559785
+
+Sensors and Materials, Vol. 36, No. 10 (2024) 4231 
+
+4.1.2 Results measured under dynamic cutting condition 
+
+ We used the designed IMS to measure the temperature and thermal deformation of the 
+
+spindle based on the actual cutting conditions. The results of T1–T5 measurements are shown in 
+
+Fig. 6, whereas those of spindle thermal deformation measurements are shown in Fig. 7. From Fig. 6, it can be seen that the temperature of the machine tool increased by about 18 ℃ during the 110 min actual cutting experiment, and the first two major temperature increases occurred at 
+
+the P5 (front part of spindle) and P4 (rear part of spindle ram) positions. On the other hand, as 
+
+shown in Fig. 7, during the 110 min actual cutting experiment, the spindle deformation increases 
+
+with time, and after about 100 min of cutting, T4 and T5 have gradually converged to a stable 
+
+state, so the thermal deformation of the spindle in the Z-direction, δ, tends to be close to a certain 
+
+saturated value, which is also the value of the maximum thermal deformation of about 110 μm. 
+
+Fig. 4. (Color online) Temperature increases under static cutting condition. 
+
+Fig. 5. (Color online) Spindle thermal deformation under static cutting condition.
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwzs5avWF3YSvUXXgIg5HR-cX1YR3OtXZr3Hx8JJ2_E2hRGZKk7_-0xCncF8A83-qsCUxXnL21LwRSDolsD_FD9ANi5gfNjTtyKJVSVeR7eHFFQT7luAOVknqE6lSCQHaVYsBOmsA=w400-h207-v0
+
+15610773-3441-4691-943f-b5d05b1daef1
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxnH-wJgBShG6cYMHxgFlznoMUq-5z8aQshNSEY78YS2qevkTyqTHRO7IEXME-TXcEVTICEHQbiwafbT9oWE2I1q2xmhk99aTGB7Ai1RnnTT5nP7Jr2Wl-x7i4fxdAoQoFd2E0rvQ=w417-h201-v0
+
+df5a2381-b399-4b54-8e10-698653e4307a
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyEH4USpf-YGk0oi4awwjLh6xXnM4c9oiY4wN7wCgO_QXwUynF1-IfZrfEw-fiXLLRrGoA7J60ODOri57EYzs661uG-Anx-e_yFRquEygtBxbvL1MdbjsrCwHbcZZ5Ap7w34ksm=w696-h340-v0
+
+b5de58ed-1b83-4d86-8004-00b15be37288
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyJNCJH1a8fPpbG71uQVAL6QdMqs8I0WAhFmJSUJVw7Hsvz0r6fsyxt_D282VyDi3g07tk8PYb4NHujKSbA3om9sU3kZiazN1defQHk7Tt-aB-U6Xk_iB3T2rz9mF1mw4pD9bLmFg=w728-h337-v0
+
+768a36a8-93fb-4625-8f52-ed4151ac0a7e
+
+4232 Sensors and Materials, Vol. 36, No. 10 (2024) 
+
+4.2 TEP model 
+
+4.2.1 Modeling with experimental data under static cutting condition 
+
+4.2.1.1 MLR prediction model 
+
+ The temperature increases at feature points on spindle thermal deformation, measured under static cutting conditions, were integrated into Eq. (7) of MLR. Through calculations, we derived the following MLR TEP model: 
+
+ 1 2 3 4 51.22 10.62 1.24 3.96 1.70 
+
+4.10T T T T 
+
+Tδ 
+
+= − − 
+
+∆ 
+
+− 
+
+∆ 
+
+− 
+
+∆ 
+
++ 
+
+∆ 
+
++ 
+
+∆ 
+
+. (14) 
+
+ The MLR TEP model has an overall root mean square error of 0.976 μm and a maximum error of 11.17 μm. The five coefficients {−10.62, −1.24, −3.96, 1.7, 4.1} in Eq. (14) also represent 
+
+the linear impact factor of the characteristic temperatures on the spindle thermal deformation. However, owing to the covariance among temperatures at different feature points, the above coefficients are no longer suitable to be viewed as the influential impact factor. Therefore, we employed another popular Lasso regression method to determine the influential weights of the 
+
+Fig. 6. (Color online) Increase in temperature under dynamic cutting condition. 
+
+Fig. 7. (Color online) Spindle thermal deformation under dynamic cutting condition.
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyLcggIIYcLwjPsxjE0vak4ArdwnumOCnnfKL2w82-2ud1FBv2BDjoyn2qXlgNgaCqlQOFBreECari28hx-aH-plXRUu3dVuoMAndjlksm7F8U7zoqG3rpjxU03JZu74SaOgewv=w400-h195-v0
+
+b6eb9ac9-3f4d-4e05-a2c8-86a1f1bf715f
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyAaq7nr3g_dCPgCXBZSH5XQepZILim2jIDLhhig5VAEN61QA3D4z8HyIHV4zDpaUwN0j5nWtejfTCEuzT-9nVXO4qsfkjQAzXU1qcZOcOCMMgnU5u3-PipgZNcPSln3eJsCGTn=w403-h186-v0
+
+77a68109-681c-4ea2-8c6d-054944594491
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzqZNQPN9UGwU7egtzQKzIPeNRMbIH8991Q7W3gqG3zv6VnuPiriZD2uO34kEKSL3vaU9wjHNXzUqoVPbA4QPQMbMI93wdkDvXFDsJgFkwtYyN_AX1kjNAnhBFswDkHNKAvKFMDbg=w565-h387-v0
+
+63780372-3a29-44c2-8503-cebfb1eccd2d
+
+Sensors and Materials, Vol. 36, No. 10 (2024) 4233 
+
+temperature increases at feature points on spindle thermal deformation. By calculation using Eq. 
+
+(13), the independent influential weights of the temperature increases at feature points {T1, T2, T3, T4, T5} were obtained as {−1.76, −1.29, −4.44, 0.98, 4.35}, respectively, as depicted in Fig. 8. It is evident that T1, T3, and T5 have significant effects on the spindle thermal deformation. 
+
+4.2.1.2 SVR prediction model 
+
+ Compared with the previously established MLR model, which had a large prediction error under the static cutting condition, we now employ the SVR scheme described by Eqs. (10)–(12) to build a more accurate TEP model. Through calculations using the data of temperature increases at feature points on the machine and spindle thermal deformations, we obtain a resultant SVR TEP model with the same form as Eq. (8). In our calculations, the average coefficient of determination using fivefold cross-validation is 0.984, the correlation parameter is 
+
+set to C = 550, and the kernel function is a radial basis function. A comparison of the 
+
+experimental data and predicted results via the SVR scheme is shown in Fig. 9, and the 
+
+maximum residual error of thermal deformation is found to be 4.587 μm, which is 73.5% smaller 
+
+than that obtained by the MLR scheme. 
+
+4.2.2 Modeling with experimental data under dynamic cutting condition 
+
+4.2.2.1 MLR prediction model 
+
+ By using Eq. (7) with the temperature increases at feature points on spindle thermal deformation as the input and output data, respectively, we derive the following MLR TEP model: 
+
+ 1 2 3 4 52.75 2.64 18.34 11.43 9.65 
+
+3.60T T T T 
+
+Tδ 
+
+= − − 
+
+∆ 
+
+− 
+
+∆ 
+
++ 
+
+∆ 
+
++ 
+
+∆ 
+
+− 
+
+∆ 
+
+. (15) 
+
+Fig. 8. (Color online) Weights of temperatures at feature points on spindle thermal deformation obtained by Lasso regression (static cutting condition).
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxlEeDko94COZj_3RMKlHdWI0s352w3nb_v1wuiPkgt2jIgVAdiYvjjvlAUgFei6WYknLekzzT3AiW6OMmPqh4wF72kxdcol0Wph8kLlEHJH4cM03_vK9JmAqfTW988m-mo4WRBIg=w604-h405-v0
+
+04324ec4-6988-43f7-9f64-8c3443d62e4b
+
+4234 Sensors and Materials, Vol. 36, No. 10 (2024) 
+
+ The MLR TEP model has an overall root mean square error of 0.966 μm and a maximum error of 10.67 μm. The five coefficients of {−2.64, −18.34, −11.43, 9.65, −3.6} in Eq. (15) represent 
+
+the factors that affect the temperature increases at feature points on spindle thermal deformation. However, owing to the high covariance among temperatures at different feature points revealed by the MLR modeling, these coefficients are no longer suitable for explaining the influential factors. Therefore, another effective method, such as the Lasso regression method, is required to determine the independent weights of the temperature increases at feature points on the spindle deformations. Calculated using the Lasso regression of Eq. (13), the weights of the temperatures 
+
+at the feature points {T1, T2, T3, T4, T5} shown in Fig. 10 are {−3.07, −17.91, 10.97, 9.04, −3.57}, 
+
+respectively. It can be observed that the effect of the temperatures at feature points on the spindle 
+
+thermal deformations is, in descending order, as follows: T2, T3, T4, T1, and T5. 
+
+4.2.2.2 SVR prediction model 
+
+ To accurately predict the spindle thermal error under the actual dynamic cutting conditions, we now employ the SVR scheme of (10)–(12). Through calculations using the temperatures at the feature points on the machine and spindle thermal deformations, we obtain the resultant SVR TEP model with the same form as Eq. (8). In our calculations, the obtained average coefficient of determination using fivefold cross-validation is 0.994, the correlation parameter is 
+
+C = 550, and the kernel function is a radial basis function. The results predicted using the SVR 
+
+thermal error model are shown in Fig. 11, and the maximum residual error of thermal 
+
+deformation is 9.774 μm. 
+
+4.3 TEC model 
+
+ Through mathematical modeling, we have already developed TEP models using both MLR and SVR schemes under dynamic cutting conditions. We used temperatures from highly correlated feature points selected through the Lasso regression scheme as input data and the corresponding tool tip displacements as output data. We now tend to compile the input and 
+
+Fig. 9. (Color online) Predicted spindle thermal deformation via SVR scheme.
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxT-G6aLQ9hiSECgJYF1d4kVLBbtxdTgQx1e2rGJZsoK9-mg5pPr5eRGvUnI0Ig8inplwAkrVPwFesSvbEYrdLnUInJRUHNTbOxG07d0gUR77z3pcO1vWJqDte_m6IkiZSvKWUAQQ=w350-h237-v0
+
+04fe67bd-d13f-4924-876a-ecd6833c1b34
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyWpiEpS0g1BAcg33GNZR8JT9foCTGkrC4Rp2FJhIevYCrEAo1vZfGkTXiDhnBUCfjjTSaTor44B4Eoc2m1PCq5c4bagQ_XJ7-d-uZroTex3GY-EBGJOKB8qvVEvSJQ5PDAgv6prA=w542-h369-v0
+
+19b25acb-8304-4182-a041-2d2823bf6380
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwK58GT1lhbzHWHrOlDZz5uYjyB0eULRFwLzwknxJOePYIF_KPg0_m0voI0AtJWCbzwhO6n38vyMSd0JLKPZbFvkl5SD8wEh_pTuvOfhl8jY6srTHMDgoULb8tGYiOkDpDs3jeetw=w609-h410-v0
+
+976f6644-5170-4023-932c-9bd8e3536355
+
+Sensors and Materials, Vol. 36, No. 10 (2024) 4235 
+
+output data into a TFM table, named TFM, for rapid programming and writing into the TEC board. 
+
+5.	 Compensation	Board	and	Verification 
+
+5.1 Compensation board 
+
+ Our developed TEC board includes software and hardware parts. Below is the description of their design details. 
+
+5.1.1 Software design 
+
+ On the basis of the SVR-TFM compensation model, we have developed software for compensating the spindle thermal error. As the CNC machine controller features an external X 
+
+Fig. 10. (Color online) Weights of temperatures at feature points on spindle thermal deformation obtained by Lasso regression (dynamic cutting condition). 
+
+Fig. 11. (Color online) Predicted spindle thermal deformation via SVR scheme.
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyvEGS0TtQXDV2QCekSZoB4SGjTpzAYG-0HxXHOxrOvzHm9L8Zp_B169lYPTo6VLcAcEk1qF_-YywBJA8VupMVsrl8Ir0yM7E0GgD60h-A46n3on9ZHVAT3820ZDnPqGWBrG6Ek4w=w354-h237-v0
+
+2b48585f-e784-4411-8763-e4268e2fb95f
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxnQAQkMKW0rDI9ia-4QLDtiFzznFNWyEW4aEPJhSWpcmEPh5ST9d5GAY0E7zE7gy7jB-q7_xcQEjuMdcu2ppqoLOx7vNMAyeb1OvyH7oG-vkCrihNXd_zXkBfCy0OiZI9utOOpOw=w736-h387-v0
+
+53bba529-0c84-46d2-99e8-33a862d5fe67
+
+4236 Sensors and Materials, Vol. 36, No. 10 (2024) 
+
+connecting point, we utilize this connection to convert the digital compensation drift into a serial pulse signal. This signal is subsequently sent to the programmable machine controller (PMC) card through the external input point. The Ladder program is employed to tally the pulse signal, with the count value denoting the compensation drift. Ultimately, this count value is inscribed into the external mechanical home position register, thereby finalizing the compensation process. 
+
+5.1.2 Hardware design 
+
+ We have chosen the 8051 microcontroller developed by INTEL Co. as the operational core of the TEC hardware. Its basic architecture comprises a central processing unit (CPU), program memory (ROM), data memory (RAM), input/output ports (I/O ports), and a timer counter.  The developed TEC system first reads the digital square wave signal from the temperature sensor, converts it to a temperature value, and then substitutes the temperature value into the previously constructed SVR-TFM model to determine the corresponding spindle thermal drift value. This drift value is then outputted to the X connecting point on the PMC card. Next, the 
+
+Ladder program calculates the amount by which the Z-axis should be shifted and sends this 
+
+value to the controller to perform the shifting action. This process includes sending the value to the controller to perform the offset. Our built TEC system includes a temperature reading module, an error compensation module, a data transmission module, and a fault detection module. 
+
+5.2	 Verification 
+
+ To verify the established SVR-TFM TEC model, we arranged another experimental condition involving dynamic cutting machining. Under this new setup, we conducted experiments to measure characteristic temperatures as well as spindle thermal deformations. Using our developed SVR-TMF-based TEC system, which has been connected to the CNC controller, the measured temperature increases are automatically converted to spindle thermal drift values. The final spindle deformations with and without compensation are shown in Fig. 12. From this 
+
+Fig. 12. (Color online) Spindle thermal deformation with and without compensation under actual cutting conditions.
+
+Sensors and Materials, Vol. 36, No. 10 (2024) 4237 
+
+figure, we can observe that our developed SVR-TFM can limit the spindle thermal deformation 
+
+error of the target CNC machine tool to within ±10 μm (maximum spindle thermal error: 9.876 μm) during cutting. 
+
+6. Conclusion 
+
+ For CNC machine tools, most previous studies have focused on establishing TEP models using experimental conditions under static cutting. However, the compensation results often perform worse under actual cutting conditions. This study is unique in that we conducted measurements and mathematical modeling for both static cutting and dynamic cutting conditions. In this study, we built TEP models using GST, MLR, Lasso regression, and SVR schemes, as well as TEC models using the SVR-TFM method. Furthermore, we developed a TEC system based on the SVR-TFM algorithm, with an 8051 microprocessor as the operation core. This system compensates for the spindle thermal deformation generated by the CNC machine tool during actual machining in real time. To validate the developed TEC model as well as its system, we conducted additional real cutting experiments. The measurement results 
+
+confirmed that the TEC system can reduce the spindle thermal error to within 10 μm (maximum spindle thermal error: 9.876 μm). The findings of this research can be broadly applied to CNC 
+
+lathes, CNC gantry machining centers, and even CNC grinding machines. These applications can significantly improve machining accuracy and enhance the competitiveness of the products produced. 
+
+Acknowledgments 
+
+ This work was supported by the Special Project of the Central Government to Guide Local Scientific and Technological Development under Grant no. 2021L3046, the Project of the Department of Science and Technology of Fujian Province, China (Grant nos. 2021G02013, 2020H0049, and 2021H0060), and in part by the Sanming University of Fujian Province, China (Grant nos. 19YG05 and 19YG04). 
+
+References 
+
+ 1 M. Martin, H. Otakar, and H. Lukáš: 66 (2020) 21. https://doi.org/10.1016/j.precisioneng.2020.06.010  2 J. Liu, C. Ma, H. Gui, and S. Wang: Appl. Soft Comput. 102 (2021) 107094. https://doi.org/10.1016/j. 
+
+asoc.2021.107094  3 D. K. Nguyen, H. C. Huang, and T. C. Feng: Machines 11 (2023) 248. https://doi.org/10.3390/machines11020248  4 R. Rong, H. Zhou, Y. Huang, J. Yang, and H. Xiang: Appl. Sci. 13 (2023) 2833. https://doi.org/10.3390/ 
+
+app13052833  5 B. Huang, J. Xie, X. Liu, J. Yan, K. Liu, and M. Yang: Appl. Sci. 13 (2023) 2990. https://doi.org/10.3390/ 
+
+app13052990  6 S. Mohsen and A. Behrooz: Aust. J. Mech. Eng. (2023) 1. https://doi.org/10.1080/14484846.2023.2195149  7 P. Y. Chang, P. Y. Yang, F. I. Chou, and S. H. Chen: Sci. Prog. 106 (2023). ht tps://doi. 
+
+org/10.1177/00368504231171268  8 S. Lang, N. Zimmermann, J. Mayr, K. Wegener, and M. Bambach: In: S. Ihlenfeldt, Ed., 3rd Int. Conf. Ther. 
+
+Issues Mach. Tools (ICTIMT2023). Lect. Notes Prod. Eng. Springer, Cham. https://doi.org/10.1007/978-3-031-34486-2_4
+
+4238 Sensors and Materials, Vol. 36, No. 10 (2024) 
+
+ 9 C. Naumann, A. Naumann, N. Bertaggia, A. Geist, J. Glänzel, R. Herzog, D. Zontar, C. Brecher, and M. Dix: In: S. Ihlenfeldt, Eds. 3rd Int. Conf. Ther. Issues Mach. Tools (ICTIMT2023). Lect. Notes Prod. Eng. Springer, Cham. https://doi.org/10.1007/978-3-031-34486-2_3 
+
+ 10 L. Zixin, T. Wenjie, Z. Dawei, G. Weiguo, and W. Lina: Int. J. Adv. Manuf. Technol. 124 (2023) 51. https://doi. org/10.1007/s00170-022-10484-w 
+
+ 11 T. N. Reddy, V. Shanmugaraj, P. Vinod, and S. G. Krishna: Materials Today: Proc. 22 (2020) 2386. https://doi. org/10.1016/j.matpr.2020.03.363 
+
+ 12 X. Wei, H. Ye, E. Miao, and Q. Pan: Precis. Eng. 77 (2022) 65. https://doi.org/10.1016/j.precisioneng.2022.05.008  13 M. Zhu, Y. Yang, X. Feng, Z. Du, and J. Yang: J. Intell. Manuf. 34 (2023) 2013. https://doi.org/10.1007/s10845-
+
+021-01894-w  14 Y. Li, M. Yu, Y. Bai, Z. Hou, and W. Wu: Appl. Sci. 11 (2021) 5216. https://doi.org/10.3390/app11115216  15 G. Li, H. Ke, C. Li, and B. Li: J. Comput. Inf. Sci. Eng. 20 (2020) 021003. https://doi.org/10.1115/1.4045292  16 H. Shi, Y. Xiao, X. Mei, T. Tao, and H. Wang: ISA Trans. 135 (2023) 575. https://doi.org/10.1016/j. 
+
+isatra.2022.09.043  17 M. N. Kaulagi and H. A. Sonawane: Int. J. Adv. Manuf. Technol. 124 (2023) 3973. https://doi.org/10.1007/ 
+
+s00170-021-08241-6  18 F. Stoop, J. Mayr, C. Sulz, P. Kaftan, F. Bleicher, K. Yamazaki, and K. Wegener: Prec. Eng. 79 (2023) 135. 
+
+https://doi.org/10.1016/j.precisioneng.2022.09.013  19 S. Sun, Y. Qiao, Z. Gao, J. Wang, and Y. Bian: Int. J. Adv. Manuf. Technol. 127 (2023) 2257. https://doi. 
+
+org/10.1007/s00170-023-11429-7  20 Y. Cheng, X. Zhang, G. Zhang, W. Jiang, and B. Li: Int. J. Adv. Manuf. Technol. 121 (2022) 3243. https://doi. 
+
+org/10.1007/s00170-022-09563-9  21 D. Zhang, X. Liu, H. Shi, and R. Y. Chen: Proc. Int. Conf. Intell. Manuf. Int. Soc. Opt. Photonics 2620 (1995) 
+
+468.  22 K. C. Wang, H, C., C. H. Yang, and H. Y.Chen: Sens. Mater. 31 (2019) 1007. https://doi.org/10.18494/ 
+
+SAM.2019.2225  23 K. C. Fan: J. Chin. Soc. Mech. Eng. 28 (2012) 81.

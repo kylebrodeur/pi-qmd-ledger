@@ -1,0 +1,1063 @@
+REVIEW published: 23 January 2020 
+
+doi: 10.3389/fbloc.2019.00029 
+
+ 
+
+Edited by: 
+
+Glenn Parry, 
+
+University of Surrey, United Kingdom 
+
+Reviewed by: 
+
+Chris Speed, 
+
+University of Edinburgh, 
+
+United Kingdom 
+
+Ella Tallyn, 
+
+University of Edinburgh, 
+
+United Kingdom 
+
+*Correspondence: 
+
+Sarah Manski 
+
+smanski@ucsb.edu 
+
+Michel Bauwens 
+
+michelsub2004@gmail.com 
+
+Specialty section: 
+
+This article was submitted to 
+
+Blockchain for Good, 
+
+a section of the journal 
+
+Frontiers in Blockchain 
+
+Received: 
+
+10 April 2019 
+
+Accepted: 
+
+23 December 2019 
+
+Published: 
+
+23 January 2020 
+
+Citation: 
+
+Manski S and Bauwens M (2020) 
+
+Reimagining New Socio-Technical 
+
+Economics Through the Application of 
+
+Distributed Ledger Technologies. 
+
+Front. Blockchain 2:29. 
+
+doi: 10.3389/fbloc.2019.00029 
+
+Reimagining New Socio-Technical Economics Through the Application of Distributed Ledger Technologies 
+
+Sarah Manski 1* and Michel Bauwens 2* 
+
+1Department of Global Studies, University of California, Santa Barbara, Santa Barbara, CA, United States, 2 P2P Foundation, 
+
+Amsterdam, Netherlands 
+
+Distributed ledger technology (DLT) is increasingly proposed as a powerful tool to 
+
+address the social and ecological challenges in the Global South. DLTs are opening 
+
+up possible futures, one of which is a wave of infrastructure decentralization with 
+
+common-centric and cosmo-local production. Shared logistics and supply chains for 
+
+a circular economy, with collaborative and networked “flow” accounting allow the 
+
+integration of contributive logics as well as the integration of social and ecological 
+
+externalities, including practical knowledge on resource use limitations linked to planetary 
+
+boundaries, as an integral part of ecosystems of productive collaboration. Indeed, DLTs 
+
+remove the need for central intermediaries to validate transaction between parties, who 
+
+instead place their trust in the encrypted, disintermediated system software. DLTs can 
+
+be designed as a new unencloseable (non-commodifiable) medium of communication, 
+
+which could lead to radically new forms of cooperation, organization, and governance. 
+
+Yet these revolutionary possibilities will not be realized unless technologists consciously 
+
+and strategically design systems redistributing sovereignty from elites to the people 
+
+in financial, service, and national infrastructures. This paper concludes with a critical 
+
+examination of the application of DLT in Puerto Rico and how DLTs could alter the 
+
+production and exchange of “value” in service of a global popular sovereignty. 
+
+Keywords: blockchain, distributed ledger technology, cosmo-local production, cooperatives, sovereignty, 
+
+distributed value accounting 
+
+“We do not live in an era of change, but in a change of eras.” 
+
+(Rotmans, 2014). 
+
+INTRODUCTION 
+
+Technology is always a combination of the technical, political, social and economic. Distributed ledger technology (DLT) is a relatively recent technological innovation which enables secure, distributed exchange and registry of assets without the need for a trusted third party. Most DLT-based applications (outside of cryptocurrencies) are still in their “alpha” phase, that is, the first phase to begin testing in real-world contexts. DLTs are a digital ledger of transactions of assets where the ledger is widely distributed among stakeholders and maintainers. The first, and perhaps most widely-known application of DLT, created by Satoshi Nakamoto, was the Bitcoin blockchain with several cryptocurrency blockchains soon following Bitcoin’s creation. The creator(s) of blockchain technology emerged from the self-identified cypherpunk movement of cryptologists and coders of
+
+ 
+
+which Nakamoto was a member. As Nakamoto wrote in an email to early collaborator Hal Finney, “It’s very attractive to the libertarian viewpoint if we can explain it properly” (Nakamoto, 2008). 
+
+Back when Satoshi had first launched the software, his writings 
+
+were drily focused on the technical specifications of the 
+
+programming. But after the first few weeks, Satoshi began 
+
+emphasizing the broader ideological motivations for the software 
+
+to help win over a broader audience (Popper, 2015, p. 30). 
+
+However, currencies like Bitcoin are only one small set of possible DLT applications. Others include payment processing, online voting, humanitarian aid, copyright protection, cooperative exchange, digital identity management and supply chain verification. The democratic promise of DLTs that Nakamoto foresaw reside in their tendencies toward decentralization and horizontalism. Some DLT applications may allow for the democratization of finance, services, agriculture, and governance without traditional geographic limitations (Manski, 2017). It is important to distinguish the general concept of distributed and collaborative ledgers, from the specific historical expression of using them through a blockchain-based infrastructure. Today, several post-blockchain DLT’s are already in development. A distributed ledger is a database that is stored and maintained on multiple computing devices, and each of these “nodes” replicates and saves an identical copy of the ledger. Blockchains are a form of distributed ledger technology created to provide a secure and valid distributed consensus across one universal chain of blocks. Post-blockchains do not rely on a single chain of blocks and may have multiple chains. They often incorporate different means of security and consensus protocols. 
+
+The proper application of DLT is controversial and contested terrain. Although Messner (1988) originally used the concept of contested terrain to study sports culture, it is a useful theoretical framework for examining technology as cultural practices that reinforce both existing power dynamics and social inequalities. Specifically, DLTs enable several new types of value accounting which are being used to change the direction of global capitalism by aiding its transition to a more equitable communitarian future. 
+
+Over the last decade, commons-centric economic models, including both open source communities and urban commons have steadily increased in number. In one study, the P2P Value research project examined 300 peer production projects that are using, prototyping, or experimenting with contributive accounting (Utratel, 2016). Contributive accounting replaces the accounting of hourly labor as a measure of value with open production communities that attempt to recognize all manner of contributory behavior in their value accounting. To achieve this alternative accounting system, DLTs, game theory and cryptography are being combined to create scalable ecosystems that encourage contributions by community members. Tiberius (2018) of Sensorica’s Open Value Network explains: 
+
+Our thesis is that in order to reward all the participants in 
+
+p2p [peer to peer] economic activity, and thus to incentivize 
+
+contributions and make participation sustainable for everyone, 
+
+we need to do contribution accounting: record everyone’s 
+
+contribution, evaluate these contributions, and calculate every 
+
+participant’s fair share. This method for redistribution of benefits 
+
+must be established at the beginning of the economic process, in 
+
+a transparent way. It constitutes a contract among participants, 
+
+and it allows them to estimate their rewards in relation with their 
+
+efforts. We call this the contribution accounting system. 
+
+Brastaviceanu is part of a global movement sharing a vision of a post-capitalist society created through cooperatively controlled socio-technological architecture. Central to this transformation is a shift in the concept of “value” as it exists in contemporary global capitalism toward a new role for value in a decentralized system of economic relations. Capitalism can be described simply as a system in which those who hold capital rule (Manski, 2016). McCarthy (2018) describes four foundations of capitalist society, which is summarized below: 
+
+1. Production is for exchange (not consumption) and profit (not barter). 
+
+2. Productive assets are privately owned by a small minority (capitalists). 
+
+3. Most people need to work for someone else to survive (wage labor). 
+
+4. There is a monetary system that produces bank-credit money (centralized monetary system). 
+
+What does this tell us about the character of value in capitalism? Capitalist markets recognize profit—that is, exchange value—as value and prioritizes social, political and technological processes which that enable the production of commodities for exchange value. However, in capitalism, everything else required for the reproduction of life—such as a clean healthy environment, care work, and altruism—is considered an economic externality, having no exchange value (Moore, 2015). 
+
+We can see the capitalist economy’s crisis of value all around us: the rampant destruction of ecosystems, oppressively meaningless employment, extreme poverty, rising xenophobia, and more. The pathological value accounting of global capitalism is diametrically opposed to the cooperative values of humanity (Rousseau, 2012). Bellamy Foster (1992) and O’Connor (1991) expanded Marx’s original thinking on labor and resources to consider capitalism’s impact on the environment. They assert there is a general law of environmental degradation under capitalism. Marx in Capital 1 (1977) discusses the exploitation of common resources and argues that capitalism creates value through the appropriation of common-pool resource and the exploitation of labor, abstracting the exchange value of nature from “real places and real live people” (O’Connor, 1998, p. 128). The first contradiction under capitalism is therefore “the absolute general law of capitalist accumulation” (Marx, 1977, p. 644), which means that capitalist processes accumulate capital through generating value from common resources. Foster then argues a second contradiction follows from the first, when the same contradictory drive to profit depletes capitalism’s ecological foundations. Capitalism thereby produces the ecological conditions of its own decline through the exploitation of its ecological resource base, causing progressive 
+
+ 
+
+ 
+
+ecological crises. Foster refers to this as “the absolute general law of environmental degradation under capitalism [which] increasingly constitutes the most obvious threat not only to capitalism’s existence but to the life of the planet as a whole.” (p. 78; see also Kovel, 2007; Smith, 2007; Foster et al., 2011; Moore, 2015). 
+
+While this special issue is focused on the Global South, we recognize the overarching role of capitalism and technologies increasing interconnectedness of the world economy as giving rise to novel articulations of social and political power. Past North and South, core and periphery divisions traditionally invoked by World System theorists (Amin, 1977; Gunder Frank and Gills, 1993; Chase-Dunn and Grimes, 1995; Wallerstein, 1998; Arrighi, 1999) may now be less characteristic of global capitalism as highly complex supply chains circle the globe with design, manufacturing, assembly, and shipping occurring in many different countries. The transnational capitalism class (Sklair, 1997; Sassen, 2013; Robinson, 2014) always takes advantage of new technologies to ease transnational flows of value and DLTs are being incorporated into this system. For example, DLTs are being used to free monetary value from nation-state restrictions as the currency exchange and remittance network Ripple (Martindale, 2018), is accelerating transnational capital flows and globalized circuits of production (Groenfeldt, 2017). 
+
+We use the work of the non-profit P2P Foundation and Sarah Manski’s research as our theoretical foundation for this paper. The P2P Foundation is a global network dedicated to advocacy and research of commons-oriented peer to peer (P2P) dynamics in society. P2P and commons-oriented communities, values and practices are now increasingly present in the world of physical production through open design, the sharing economy and co-working in community-operated, collaborative workspaces like hackerspaces, makerspaces, and Fab-labs. These movements represent a cultural shift toward new kinds of technology enabled democratic and economic participation that we believe are sowing the seeds for a more sustainable, egalitarian future. 
+
+This paper presents research from the P2P Foundation and Sarah Manski’s ethnographic interviews and provides a clearer understanding the role of emerging value accounting in the creation of techno-social infrastructure. We have developed a four-quadrant model (Figure 1) to explain four competing socio-technological infrastructures, that co-exist, strive toward hegemony, and represent a different set of social-economic interests and value systems. The paper is structured as follows: subsequent to this introduction, Part 1 introduces cooperative values, new value logic emerging in cooperative productive communities, the practice of commoning as a response to structural crises, and explains in depth the models of techno-social infrastructure. Part 2 discusses cosmo-localism as a new mode of production in comparison to traditional manufacturing and distributed global manufacturing. Part 3 is a survey of blockchain and post-blockchain technologies and a brief explanation of how these technologies integrate into three different accounting innovations with the city of Ghent as a case. Part 4 discusses the example of Holochain as a social movement that has created a new technology that enables “holoptical knowledge” accounting. Part 5 explains new forms 
+
+of value accounting for post-capitalist production. Part 6 introduces Puerto Rico as a case of a space in which blockchain technology is touching down with repercussions for governance and sovereignty. This paper concludes the possibilities of DLTs cannot be achieved unless developers, designers, investors and technologists consciously and strategically design systems according to the principles of the commons with further analysis and discussion of the class nature of technology and accounting, including an exploration of the implications for social movements’ praxis and accounting technology agency as part of the struggle to create emancipatory and regenerative future techno-social infrastructure. 
+
+PART 1: THE NEW COMMONS-CENTRIC VALUE LOGIC 
+
+Before discussing new value accounting socio-technical infrastructures in detail, it is essential to stress the role of culture and ideology in the package of successful movement strategy (Polletta, 2008). The ideology these groups share to construct their future making strategies include cooperativism or moving beyond capitalism to a commons-based economic system that regenerates both people and planet. While capitalism is ubiquitous and its destructive presence is felt everywhere, the number of people involved in creating a cooperative economy beyond capitalism is not marginal. More than 1.2 billion people are members of a cooperative, equaling one in every six people on the planet. As of 2018, there are more than 3 million cooperatives worldwide and the 300 largest cooperatives hold a combined market capital totaling more than $2.1 trillion (World Co-operative Monitor, 2017, Website Homepage). 
+
+Cooperatives place ethics, values, and principles above profits and cooperative enterprises reinvest in individual worker-owners, communities and the growth of the cooperative movement. Rather than only being paid a wage for their labor, cooperative members both own and run their businesses. This model is superior to distant corporate boards of directors running the business because the worker-owners do not choose environmentally destructive production processes or choose to close the business to move it to a lower wage location. More than 10% of the world’s employed population, or 280 million people, enjoy these working conditions (World Co-operative Monitor, 2017). 
+
+Those millions of people who are involved in the cooperative movement are actively shaping culture, and they understand that technology can play an important role. For example, the International Cooperative Alliance (ICA) is looking at how to use technology, including blockchains, to move “the co-operative model into our digital and virtual age” (ICA, 2017, Blueprint for a Co-operative Decade webpage). The use of blockchain technology by cooperative enterprises reveals how, “new technologies in combination with the conscious and determined exercise of political agency can create another, better world for all of the world’s people” (Block, 2008, p. 32). Cooperatives are but one of the “governance” forms appropriate for co-managing shared resources, and there is a lot of experimentation with various 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAx6l5X2XwffelWvGVTvd69PlpMBWQlWHLDAx8l07LVDobPeD1wqv7XcLDshewVU2X-LMyT0VAprh3WxehA8_UvHqvIWa5lXOIWA1OErTHOABqzAtxoFY2x6kXva76Deb06-3gikTQ=w1280-h708-v0
+
+c63c8d5c-b5dc-4c72-9994-0d5a05ad3c9d
+
+ 
+
+FIGURE 1 | Generative vs. extractive economies: four competing socio-technological value systems (used with permission. Graphic by Michel Bauwens, published in 
+
+“P2P Accounting for Planetary Survival,” P2P Foundation, upcoming 2019). This framework was first introduced in Kostakis and Bauwens (2014) and was re-worked 
+
+and published in the form used in this article in Bauwens and Pazaitis (2019, p. 35). 
+
+forms of “generative enterprise,” following the five conditions of generative ownership forms (Kelly, 2012).1 
+
+The “commons” is a concept that is deeply rooted in human history, and commons-based technology include: the free/open source software movement; the free culture movement; open hardware; open access to education and science; physical production through open design; hacker/maker spaces and Fab-labs; and the sharing/solidarity economy. The purpose of our essay is to describe an emerging value accounting socio-technical infrastructure that is centered around “shared resources” (i.e., “commons”) that aims to solve to inter-linked structural crises facing our current political economy. We define the commons as being: 
+
+1) a shared resource (hence a common “social object”); 2) the activity of collectively creating or maintaining that 
+
+resource, i.e., a human choice and activity; 3) a management of that resource according to the own rules 
+
+and norms of that community (auto-normativity). 
+
+Commoning is essentially the mutualization and pooling of resources by communities and groups of stakeholders, whereby the “cooperative” format can be seen as a governance mechanism for specific commons. The long-term HANDY (Human AND Nature DYnamics) study of the collapse of all previous civilizational models, has established a linkage between crisis and the re-mutualization of societies, and has identified equality as a key factor to either avoid crises, mitigate their effects (shorting the crisis periods), and create the necessary resilience for the restructuring of civilizational models (Motesharrei et al., 2014). Whitaker’s book (Whitaker, 2010) on Ecological Revolutions and 
+
+1See the table, The Design of Economic Power—The Architecture of 
+
+Ownership, http://www.marjoriekelly.com/wp-content/uploads/2012/05/Kelly-
+
+OOF-PR-Final.pdf; also at http://wiki.p2pfoundation.net/Generative_vs._ 
+
+Extractive_Ownership 
+
+the Axial Religions, provides for several in-depth case studies on this point in Asia (twelfth Japan f.e.) and Europe (fifth century, End of the western Roman empire). 
+
+The first structural crisis we identify is the ecological state of our planet, destructive climatic change, and issues of resource scarcity, which, in the context of competing peer polities (nation-states), could potentially lead to war. The second structural crisis concerns the social state of our planet, in which unprecedented inequality, and the stagnation and decline of the “middle classes” in “advanced countries,” is leading to social upheaval, and in the ascension of power of right-wing populist parties challenging democratic norms. Very much related to the first two factors of crisis is the third one: the need for the sharing of knowledge which can solve these issues. The emergence and intensification of these crises has led, in a large degree as a response, to converging, but still largely fragmented, constellations of forces and initiatives that aim to solve these crises. 
+
+The first set of movements are mobilized around issues like sustainability, the circular economy, the “blue” economy, etc. They are working on making systems of production more ecologically sustainable; diminishing the human footprint on nature. The second set of movements goes farther and is looking to create a more cooperative, socially just, “solidarity economy,” and to create ethical livelihoods. This is often referred to as the “social solidarity economy” sector and it includes the cooperative model introduced above. The third set of movements concerns the sharing of knowledge, code and design in global open source and design systems by creating globally scaled networks of collaboration. This is referred to as a “global technological commonwealth” (Manski, 2017). 
+
+These three movements are engaged in experimental, prototypal, and pre-figurative practices and are using and strategically developing new types of technological tools with affordances (Manski and Manski, 2018) fitting their needs. In 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAy1vcMx3eCXfRklci8THHKDEZmc3gnE4MzGXxKl5EUIcQ6ssNeq-oXXYMb-NAF7ZVbDHoV5sDDP1rHZ_7LWg4vgjTQpj0U8q3FvijGJgoXT9kjCeF9tMjU_uDa2VU5OOW1T8mFQ9Q=w992-h774-v0
+
+f2d7ccb6-88a4-44fb-9dab-624efd9496e1
+
+ 
+
+this process they seek to escape dominant technologies which exacerbate inequalities and limit human potential. 
+
+This paper is dedicated to the description of this emerging value accounting techno-social infrastructure, in which various social groups and interests are vying for, if not hegemony, then at least the creation of tools that allow for relative autonomy of their pursuits. We have developed a four-quadrant model (Figure 1) to explain four competing socio-technological infrastructures, that co-exist, strive toward hegemony, and represent a different set of social-economic interests and value systems. The two axes represent: (1) the polarity of local/distributed vs. global/centralized forms of organization; and (2) the contrast between for-profit and for-benefit purposes. 
+
+A first model involves enabling p2p (peer to peer) behaviors (both commoning and p2p-forms of market exchange) through centrally-owned and controlled corporate platforms, think of Facebook/Google, Uber/AirBNB as examples. This model, which also includes state actors that aim to control internet communication and platforms, we call Leviathan, since it is about surveillance, the control and nudging of human behavior, and the capture of value from commoners. 
+
+The second model, which is the one that will be discussed in the greatest detail, is the model of distributed capitalism. These are formally decentralized systems that aim to create permissionless usage by avoiding centralized gatekeepers (we will amend this over-simplification later). We call this model Mammon2, as the aim is, despite the use of open source technologies and commons of code, to extract profit. 
+
+The third model involves creating commons for local provisioning, this is the dominant model among urban commoners not working toward profit-maximization. Manzini (2011) characterized this model as “SLOC,” for Small, Local, Open, and Connected. This model shares global knowledge over a common platform, but still aims to operate locally (i.e., the global serves the local). 
+
+Finally, there is a fourth model, based on global open design communities that aim to create global common goods and are organized beyond the local. In thismodel, the global is recognized as a priority. These projects are often managed by non-profit and democratically run foundations, and rarely surrounded by not-for-profit3 entrepreneurial coalitions. 
+
+For the third and fourth model, we use the name Gaia, the Greek Goddess of the Earth, since these projects are most often geared toward sustainability. The third model is specifically “generative” in its orientation toward local communities and ecological and social goals. In the fourth model, the ecosystems are generative toward the creation of global common goods that are universally available. 
+
+This means that we are not merely discussing competing models and platforms in the name of efficiency or profitability, but also worldviews and ideologies, with different social and political priorities. We are interested in moving from “extractive” 
+
+2The name is inspired by the Hebrew word for “money” and is described as a god 
+
+of material things in the Bible, see https://en.wikipedia.org/wiki/Mammon 3In not-for-profits any profit is used to re-invest in the purpose and mission of the 
+
+organization. 
+
+models, in which private technological platform owners extract value from people and natural resources, without necessarily adequately rewarding them; toward generative models, which allow for the creation of ethical livelihoods for commoners (i.e., those that contribute to the creation of the shared resources), while also staying within planetary boundaries and even actively trying to regenerate the state of natural resources. This gives us a potential set of four generative socio-technological forms for our productive value accounting infrastructure. 
+
+Before going further, we need to explain the new value logic that is emerging in these productive communities. Consider the following (Figure 2), where we expand the logic at the micro-level of what we call the commons economy, to a model for society as a whole. 
+
+Now we will discuss what we have learned after 10 years of observation of the commons-centric economic systems, which includes both open source communities and urban commons. The P2P Value research project (Utratel, 2016) has shown that a majority of the 300 peer production projects studied were engaged in using, prototyping or experimenting with contributive accounting (i.e., forms of accounting not based on hourly labor but recognizing all other manners of contributions in these open and permissionless production communities). 
+
+Value in the Commons Economy (Bauwens and Niaros, 2017a), based on different case studies of advanced peer production communities, such as Enspiral and Sensorica, discovered the following common concepts and practices found in successful organizations: 
+
+The new peer production communities are directly oriented to the production of use value, not exchange value, and make claims to “value sovereignty”; the right to determine context-based value regimes that differ from the sole recognition of commercial value under capitalism. This allows for an 
+
+FIGURE 2 | The post-capitalist scenario of a stable commons allied to a social 
+
+economy (used with permission. Graphic by Michel Bauwens. Published in the 
+
+Flok Society, http://floksociety.org, transition plan, https://book.floksociety.org/ 
+
+ec/ draft pdf, 2014). 
+
+ 
+
+ 
+
+autonomous flow of value within the communities and for the recognition of all kinds of contributions, not just paid “commodified labor.” 
+
+These new communities create a membrane between the commons and the market, which allow them to regulate the flows of value between income from the market and state-based value models, and the internal flow within the commons, which can be differentiated from each other. This practice makes it is possible to accept revenue from outside the commons, but to distribute it according to the norms of a particular commons. 
+
+These communities’ practice and experiment with reverse cooptation of market income and investments, i.e., “transvestment”4 While traditional investment concerns using capital to obtain more capital, transvestment translates market and state investments into the growth of commons assets and infrastructures. For example, capital is attracted and even remunerated, but increases the common stock of free software, or commonly-owned land in a land trust, etc. One of the techniques is to create a wall between investments and the purpose-driven generative entities creating livelihoods for the commoners. 
+
+A few are experimenting with new forms of licensing, halfway between the “free-for-all” copyleft licenses and the privatizing copyright licensing models. In copyfair models, the sharing of knowledge remains entirely free, but commercialization is conditioned by some forms of required reciprocity with the commons. 
+
+We recognized three models: one in which the commons and the market are clearly demarcated, allowing free unpaid contributions and free usage within the commons, which is thereby protected against contamination by market exchange logics; a second model in which contributions are rewarded by a different value equation; which are then funded post-hoc by income from the market and the state; and finally a third one that more intimately and directly links commons contributions to market income. 
+
+The report, Thermodynamics of Peer Production (Piques et al., 2017) shows the vital impact of mutualization of infrastructures of production and consumption, to the lowering of the footprint of humanity, which is already visible in the local commons-centric food economy. Sharing resources, for example, in car-sharing that follows non-profit or cooperative modalities (but NOT usingmodels like Uber, which augment resource use), every shared car can replace from 5 to 15 private cars5, dramatically reducing the needs for matter and energy expenditure. 
+
+These advantages were confirmed in a study of the urban commons in Ghent (Bauwens and Niaros, 2017b) which found that for every single provisioning system in the city, there 
+
+4For a detailed treatment of transvestment, see here at https://wiki.p2pfoundation. 
+
+net/Transvestment 5For the sources for these figures, see https://www.transportenvironment.org/sites/ 
+
+te/files/publications/Does-sharing-cars-really-reduce-car-use-June%202017.pdf 
+
+are now no longer just choices between private and public models (say private housing vs. state-sponsored social housing), but also commons-based alternatives (such as commons-based cooperative housing modalities). Various studies have confirmed, at least for car-sharing, that this type of mutualization effectively overcomes the Jevons Paradox, which states that lowering cost and efficiency often leads to higher consumption. The challenge is to place the advantages of mutualization in lowering the human footprint in a sufficiently systemic change effort, so that gains in one sector are not undone by higher consumption in other sectors. It should be noted that these type of already functioning urban commons, were created before the emergence of blockchain technology, and generally do not use these types of technologies. 
+
+We cannot stress this enough: putting commons center stage (i.e., shared resources self-managed by their stakeholder communities), is an ancient practice and a vital necessity in any current social and ecological transition. From the above, we can see that the model of peer production, which allows for open contributions to shared ecosystems of collaboration, is already functioning in two areas. First, it works to produce immaterial knowledge, code, and design. Second, it works for models of redistribution, i.e., in the case of shared mobility, shared housing and other provisioning systems, where the “capitalist system” is still responsible for “marking” but where commons-based modalities can change the mode of exchange or distribution. 
+
+We need to stretch this one step further and ask ourselves the question, Can we extend the model to the actual production of physical products and services? As this process has already started in the case of cooperative systems to produce both organic food and energy, we can confirm this question positively. 
+
+To illustrate these theoretical points, let us give us some examples fromGhent. The context is a substantial 10-fold growth of commons-oriented urban projects (Figure 3) in 10 years, from about 50 in 2006 to 500 in 2016. Every mode of provisioning in Ghent is available in private form and often in public form, but what is remarkable is that every provisioning system has several commons-based alternatives. What do these projects look like? 
+
+ Partago is a cooperative for electric carsharing, with a relatively 
+
+low number of cars, but which is expanding in Europe by 
+
+way of a protocol cooperative; shared protocol and software base that is available globally for local partners who accept 
+
+the common rules. Degage is an association for carsharing, which in 2016 possessed 130 cars for 1,300 members. A similar project in San Franciso revealed that each shared car replaced 9–13 private cars. 
+
+ Energent is a successful renewable energy cooperative, which is 
+
+moving from installing solar panels to the houses of individual 
+
+members, to a neighborhood model, to use the spare roofs of public and empty private buildings in order to solve the 
+
+instability of renewable energy production which depends on wind and sunlight. Through this type of scaling, it becomes 
+
+economical to put solar panels on roofs that are facing north, 
+
+since they generate energy at times where south-based panels are less performing. 
+
+ The LEF project, which was experiment in three public schools, shows how organic, fair and local food can be sourced 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAz11FkU8ed0X9arQwTTSpV8BFlOp3Jyg2sePExcl-B9Nrpyl64QCauNXBBRIuVUIjN_hUwnAVUb3D4l27Gabsxny1Px7VQlIqrN59vPWFUzlQOr41ZniRuTFjKksrtvzX7wB_NplQ=w1280-h900-v0
+
+7cb97b71-7deb-4f92-8ef6-b0fc971e4cff
+
+ 
+
+FIGURE 3 | City-supported cosmo-local production infrastructure (used with permission. Graphic by Michel Bauwens. City-supported cosmo-local production 
+
+infrastructure Previously published in: P2P Accounting for Planetary Survival. By Michel Bauwens and Alex Pazaitis. P2P Foundation, 2019). 
+
+from local organic farmers in the bioregion of Ghent, using a zero-carbon transportation system of cargo bikes, and create employment for local schools. Copenhagen has achieved 94% of organic food for its students of public schools. 
+
+All these projects are local, but we believe they can be scaled 
+
+through cooperation amongst cities at a continental or even global level. This would require that a league of cities decide to 
+
+cooperate to establish open global design depositories, for each of the provisioning systems that citizens of cities require for 
+
+the good life. We also call this protocol cooperatives (Figure 4), 
+
+in which a multi-stakeholder organization holds, protects and 
+
+manages the shared knowledge that is necessary. Let’s not forget that the fast-growing network organizations, such as Occupy 
+
+(ephemeral as it turned out to be), Fablabs, and many others, are 
+
+not centralized organizations but marked by their adherence to a common protocol, infrastructure and sets of rules. The following 
+
+graph shows how this cooperation can occur. At this scale, it 
+
+would become more useful to actively engage in the construction of distributed ledgers that can be powered, strengthened and scaled through Open AI. 
+
+One issue we would like to address is to give an indication of how even the older cooperative forms, can be enhanced and changed through the use of the commons paradigms. 
+
+Our point of view is the following: cooperatives are a way to govern “limited commons”; not commons that belong 
+
+to the whole of humanity, but commons that belong to a particular community, say of worker owners. The two main critiques of traditional cooperatives are that they often lead toward either worker capitalism, or managerialism. In the first model, the workers’ collective competes in the capitalist market, and in order to do so, adapt their practices to those of capitalist enterprise, losing their distinctiveness in all but one dimension: that of sharing the profits to all workers instead of to all shareholders; in the second model, a managerial layer takes over the management and empties the democratic promise of participation in commons governance. 
+
+In the network model we propose, cooperative forms become part of ecosystems of collaboration, using shared ledgers (DLTs) and logistical chains. Open cooperatives are coops that are structurally aligned to the commons, either through the production of immaterial and universally available commons, such as free software, which they co-produce for the benefit of all present and future users without discrimination, or they are committed to directly produce for the common good, creating value streams beyond the interests of its own employees and partners. Open networks allow cooperatives to scale globally without each one having to develop its own infrastructure. If such coops share the basic knowledge about their productive infrastructure, so that others can also join its work models, then we talk about protocol 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzUFQ5qS1Te5cSG-QI4X7hzbHREz05tvXwNpVUKh-gYgv4wGy-Nqkc1WKAMC1_YmpzC0SEWwReX3QGPap-mh4W6oK4QGXzfT74bobI4fx1dTHjdT-FRaiDjjbu9tb6dVRUYganB=w992-h665-v0
+
+25748d7e-221a-4b1c-ba22-79579f7fc027
+
+ 
+
+FIGURE 4 | Summary of the cooperative forms in commons-centric 
+
+economies (used with permission. Graphic by Michel Bauwens, to be 
+
+published in “P2P Accounting for Planetary Survival,” P2P Foundation, 
+
+upcoming 2019). 
+
+cooperativism, which occurs when multiple participants using a generic toolset. 
+
+PART 2: COSMO-LOCAL PRODUCTION FOR DEVELOPMENT, AND THE ROLE OF SHARED SUPPLY CHAINS AND DISTRIBUTED LEDGERS 
+
+While capitalism’s reach can be felt almost everywhere on the planet, there are competing economic models vying for hegemony as the dominant mode of production in the world. The prevailing model is the neoliberal model, which seeks to locate production wherever in the world where the greatest amount of production cost can be externalized. This is a model heavily dependent on globalized world trade and weakened national and local sovereignty. Capitalist neoliberalism is simultaneously responsible for high levels of economic growth and accompanying advances in poverty reduction, but it has also greatly increased inequality in and between nations and is responsible for incredible ecological catastrophes, of which global climate change is a part (Dyer-Witheford, 2004; McCarthy and Prudham, 2004; Heynen and Robbins, 2005; Heynen et al., 2007; Bakker, 2009). 
+
+A different economic model are the challenges being mounted by both right wing and left wing “populist” forces, which is dependent on the rhetoric of re-strengthening the nation-state and keeping world trade in check according to national interests. This is often understood to be a protectionist model. Progressive versions of this model focus more on the interests of the broader population but are similarly wedded to a revival of the nation-state (Clausing, 2019). 
+
+However, what we are presenting here is a third economic model, a global technological commonwealth (Manski, 2017), whereby global cooperation in science and technology is not 
+
+just maintained, but drastically increased, using open and shared intellectual property; while production is conductedmore locally, by making use of the latest advances in distributed technology and manufacturing (Figure 5). So, imagine for example a global network of distributed car factories, consisting of local production units, but cooperating around a global knowledge commons. In this system, the “economies of scale” of global capitalism, are replaced by the “economies of scope,” as every factory has access to the latest advances to produce the most sustainable cars possible. One of the associated ideas is the drastically diminish the need for material transport of raw materials and finished products, and to obtain drastic reductions in the human footprint. 
+
+Referring to our previously mentioned study and mapping of 500 urban commons in the city of Ghent, Belgium, we can conclude that most of the projects studied were merely redistributive (i.e., they take a resource that is produced in the market economy but use it differently). For example, the non-profit car sharing association Degage, mutualizes car use, but does not produce the cars, it buys them on the market. By contrast, many of the commons-centric ecosystems in food and energy, produced their shared resource outside of the competitive capitalist market systems. Examples of this are energy cooperatives producing renewables, or Community-Supported Agriculture (CSA) projects in which both users and producers are engaged in cooperation through a joint ecosystem that is poly-governed by its stakeholder communities. In both cases, the production system itself is affected; moving beyond redistribution. We are talking therefore about strategically using technology to transform modes of production and exchange that start to be deeply affected by the logic of commoning. Figure 5 summarizes the differences between the old global neoliberal model and what we propose as cosmo-localization. 
+
+Cosmo-location (Figure 5) is sometimes summarized by the statement everything that is light is global and shared, everything that is heavy is local. At the P2P Foundation, we use this definition and include three specifications: 
+
+1) a cosmo-local project is based on globally shared processes, protocols, software, designs which must be available beyond a single corporate entity. 
+
+2) a cosmo-local project is based on the “subsidiarity of material production,” i.e., the production must be as close as sensible to the place of human need; this is therefore not the localization of everything, but a sensible reorganization of supply chains toward more local (in diverse senses, such as bioregional); the model is most commonly associated with the idea of a network of micro-manufacturing entities or distributed manufacturing. 
+
+3) Cosmo-local production implies generative market or non-market entities, which can come in a variety of acceptable formats, such as cooperatives, purpose-driven companies (B-Corporations), solidarity and social economy. 
+
+The following table details of how the cosmo-local production and exchange paradigm can be compared to existing models. 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxfK5_cIBs6NhpuzNRDcHI54d4XkBV1U3PxSjfvdi61_7xY5udpIl80_f2uq4kmwhyZU0THWajQBleeD11aTgF4_GQ1NgJhGdJxNVG898rhbf4MJhf2QNloBRtGg1NKXB84UQgGEQ=w1280-h772-v0
+
+4c2ba3ea-be97-4787-801f-f71873e540cd
+
+ 
+
+FIGURE 5 | Cosmo-local production [used with permission. Graphic by Ramos (2017)]. 
+
+PART 3: A SURVEY OF POST-BLOCKCHAIN LEDGERS FOR SHARED SUPPLY CHAINS 
+
+What kind of socio-technical infrastructure would we need to implement the global possibility for a socially just, and ecologically stable cosmo-local production infrastructure? The first step is to move from merely competitive private firms which are operating with little awareness of planetary boundaries, to shared circular supply chains. 
+
+Supply-chain cooperation, a move toward collaborative eco-systems of production in which production information and information on the flows of matter and energy must be visible in the specific contexts of the participants, will require the second step: a transition toward collaborative and distributive ledgers. We already know from collaboration on immaterial commons, such as knowledge (Wikipedia), software (Linux), or design (Arduino), that participants in ecosystems can coordination their work and production, because they work on “holoptical” knowledge systems, in which knowledge is shared, allowing for mutual coordination according to “stigmergic” principles, i.e., collaboration through signals, as seen in nature already with social insects. But ledgers, which account for transactions, are signals for material production; hence, through collaborative ledgers, we can also coordinate physical production and transactions. 
+
+For example, from the supply chain management firm Provenance, “Opaque supply chains are devastating environments and compromising the well-being of people, animals, and communities. Every product and business are different, but rarely 
+
+do we have the information we need to make positive choices about what to buy.” (Provenance, 2016, About webpage). 
+
+Provenance is using distributed ledger technology to “disrupt how we track the attributes and journey of every material thing” and document the authenticity and origin of materials and ingredients in consumer products (2016). Another company, Skuchain, is creating a system of material identifiers in the structure of both barcodes and RFID tags to digitally enable the transfer of goods across the entire global economy (Skuchain, 2016). Foodtrax is a blockchain-powered dApp that plans to track food from its origin to the store shelf with the goal of eliminating food waste that occurs from improper handling and storage (BCDC, 2018). 
+
+It is important to distinguish the concept and idea of shared distributed ledgers, from the specific current implementations of the blockchain, which but one flavor of shared distributed ledger that may have structural and environmental issues that may not be overcome. Hence the global commons movement is paying close attention to post-blockchain ledgers, which have different underlying philosophies. For example, the Holochain distributed ledger, rather than aiming for a single worldwide chain of transactions, in which every transaction needs to be verified with the total accumulating database of all global transactions, has a biomimetic philosophy, which allows for local and contextual open ledgers to connect with each other and become interoperable. 
+
+There are several important shifts that need to take place in the forms of value accounting that will be shared over these open and distributed ledgers. First, these digital value accounting systems must be fully open, transparent, and shareable when the 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxwwj0kzRjh8kh3fuVfeG6L8vkbFcODC30kZuKH_XyV0xJxfz8GMDiVYrB2ZAHgEc8_yq1F1tubM4b1D-mjadsym3nI0nPjoH3wm-kbZ7W7NrSf8RfQUmeWZiC82GKV4tPlKHkc8w=w1280-h947-v0
+
+80cf558d-07eb-42ab-ba27-746e02b2be98
+
+ 
+
+actors need it. Accounting is what allows for mutual coordination mechanisms, now already the de facto standard for the open source production of code, design, and knowledge, to become the practice for physical production. In short, every transaction in the physical world, will have its digital representation, and if these representations are shared, then actors in the physical production process can adjust their actions and processes to each other. 
+
+We believe that most blockchain-based ledgers represent anarcho-capitalist market values, i.e., neoliberalism on steroids, and that post-blockchain ledgers reinforce commons-centricity and linkages to contributive and ecological value. Figure 6 
+
+outlines some of the alternative principles for such commons-oriented ledgers. So just as we can change platform capitalist platforms into poly-governed platform cooperatives (Figure 4); we can also adapt DLT projects to make them more commons-centric or at least commons-friendly. These possible changes in the design of DLT systems, are what Figure 6 is intended to illustrate. 
+
+These new value accounting systems must be eco-systemic and inform actors how their actions are embedded in social and ecological systems, of which they are but one player. The new value accounting must be able to integrate social externalities, both positive and negative, which means moving from pure representations of market value, to the full 
+
+representation of contributive value; and they must integrate the positive and negative ecological externalities, i.e., thermo-dynamic accounting (see Figure 7). While capitalist double entry accounting only informs productive entities of how well they are doing with their capital, without any information about the “state of the world,” the new eco-systemic accounting (i.e., distributed value accounting), gives participating entities a full insight into networks of production, with all the “context-based sustainability data” they need to integrate awareness of planetary boundaries in all their choices. 
+
+So, this gives us three different accounting innovations that need to be integrated in a more holistic accounting system: 
+
+1) contributory accounting, which is the capacity to account for non-market contributions to the shared resource. 
+
+2) flow accounting, or accounting that gives the eco-systemic context for each transaction. 
+
+3) thermodynamic accounting, involving direct access to the flows of resources and energy use, so that production can be managed for human needs without exceeding planetary and resource boundaries. 
+
+The Nest project in Ghent uses contributory accounting. After a call for a common (i.e., a form of cooperative procurement which assigns the project to the coalitions that most demonstrate 
+
+FIGURE 6 | A comparison of right-libertarian vs. commons-centric distributed ledgers (used with permission. Graphic by Michel Bauwens. Sourced from the report 
+
+from P2P Foundation: P2P Accounting for Planetary Survival, 2019, https://wiki.p2pfoundation.net/P2P_Accounting_for_Planetary_Survival). 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyWzGguQTI-niB1waYwDZ6D5vwcW1OBougn-WGOQTBhL1bTlwJDPloURRGaijf3VLFytRpG6bFKL_prUa2670KwtF4UBfseip9Qo3BlXJuqzBUsrq2QGpJff7BLvA2z1tG9ypCC=w1280-h880-v0
+
+c233a962-96f4-4714-8fb0-ce76f6d64742
+
+ 
+
+FIGURE 7 | Four kinds of externalities (used with permission. Graphic by Michel Bauwens. To be published in upcoming report by P2P Foundation: P2P Accounting 
+
+for Planetary Survival, 2019, https://wiki.p2pfoundation.net/P2P_Accounting_for_Planetary_Survival). 
+
+their ability to federate), more than 70 organizations organized themselves to manage a temporary space in Ghent, which was an old administrative building with eight floors. Each floor had a thematic focus and was managed by the contributory community. The rent dependent on the common good level of each activity. For example, for-profit projects with no common good aim played a much larger part of the rent than the projects working for free for the common good. Contributive accounting allows the creation of membrane which redistributes income from external sources, but to recognize non-market contributions as being valuable for the development of the shared resource. 
+
+Similarly, flow accounting, takes the form of Resource-Events-Agents accounting6. These forms of value accounting do not use double entry ledgers but seek to describe how every transaction takes place in a multi-dimensional ecosystem. It shows, “where in the flow,” the transaction occurs. Additionally, thermo-dynamic accounting is the ability to place oneself, and have direct access, to the vision of the real flows of matter and energy that one is using, without financializing these flows. The Reporting 3.0 framework is, along withMUSIASEM one of the prime examples of this approach. Such knowledge can also be embedded in programmable currencies, such as the Fishcoin, a form of money that represents the amount of fish that can be taken without endangering the reproduction cycles of such fish. 
+
+6Details about REA accounting and a discussion on how it fits with commons-
+
+centric economics, can be found here at https://wiki.p2pfoundation.net/Resource-
+
+Event-Agent_Model. 
+
+The juxtaposition of these three accounting innovations in one single integrated system, distributed value accounting (DVA), has the combined advantage of moving: 
+
+1) from a mode of production that externalizes negative social externalities and does not provide income from positive social externalities, to one that recognizes non-market contributions but also the negative impacts. 
+
+2) from a mode of production based on separate competitive entities that do not share resource and infrastructural knowledge, to one that cooperates in open ecosystems. 
+
+3) from a mode of production that only looks at financial criteria to one that has a direct knowledge of the planetary boundaries in which it can operate. 
+
+In other words, distributed value accounting (DVA), using a combination of the three models discussed above, is a value accounting system facilitated by digital technologies which allow for the collective creation of value and the cooperative circulation of wealth through an open community. In this economic system, humans are not simply consumers. The basis for cooperation is mutual aid; the voluntary reciprocal exchange of resources and services for mutual benefit, in which each commoner shares what they can contribute and what they need. The community holds collectively shared beliefs regarding value and engages in the development of a new basis for its calculation and new accounting standards. 
+
+Distributed value accounting will be the key to valorizing what Benkler and Nissenbaum (2006) call, Commons-Based Peer Production (CBPP), a new mode of production in which individuals form communities based on creating shared 
+
+ 
+
+ 
+
+value through open contributory systems. Participants in a CBPP system govern their common work through open input participatory practices and create shared resources for the common good (Benkler, 2016). 
+
+There are people working on DVA-type systems throughout the world, but sensorica (SENSORICA, 2019), started in 2011, is the current gold standard for resource accounting and value flows, as they developed Network Resource Planning (NRP) as the first example of an open value network. There are several forks of the sensorica software in use by other groups, including freedomcoop.eu (FreedomCoop, 2019). Additionally, the many of the founders of the MetaCurrency Project, including Arthur Brock and Matthew Schutte are engaging in what they term “deep wealth design,” which means being able to measure, appreciate and make tangible currently unrecognized value while maintaining the integrity of the system. They oppose capitalism because it measures everything by how much monetary value can be extracted, and the team is helping design alternative cryptocurrencies to make deep ecological and social value visible. 
+
+PART 4: A POST-BLOCKCHAIN LEDGER FOR THE COMMONS 
+
+The guiding principles of the MetaCurrency Project and its offshoot the Holochain project, apply the principles of biomimicry to value flow processes using crypto-technology. The original MetaCurrency Project re-imagined value in order to be able to design “current-sees” (i.e., non-monetary, non-market currencies that can make visible the flows of goods, services and value in shared supply-chains). The Holochain project is a culmination of that work as a concrete technical project, which aims to create a sustainable post-blockchain distributed ledger. In contrast with the “libertarian” inspired blockchain, which aims to be trustless through the verification of every new transaction by the whole network, holochain uses a web of trust principle as seen in nature, where every cell must know its neighbors, but not the whole network. Its aim is not to create a world computer like Ethereum, but peer to peer interoperable ledgers under the control of each ledger project. 
+
+“Humanity is poised on the edge of a quantum leap in evolution— 
+
+not at an individual level—but at the level of our collective social 
+
+organisms, such as corporations, institutions, and governments. In 
+
+order to make this leap, we will need the same kind of architectures 
+
+of intelligence that make it possible for trillions of cells to work 
+
+together in an organism. Large-scale, collective intelligence requires 
+
+communication to be virtually instantaneous (electronic), peered, 
+
+decentralized, semantic, and designed to evolve in response to 
+
+rapidly changing needs. Effective collaboration on such a scale 
+
+would obviate most of the power structures that underpin the social 
+
+barriers to change and could make formerly intractable problems— 
+
+such as climate change, species extinction, resource depletion, and 
+
+poverty—readily solvable.” 
+
+—Holochain Founder, Arthur Brock (2019). 
+
+They are also seeking to build technologies that are agent-centric and not data-centric so that the users are in control. The user is placed in charge of their data and is solely responsible for offering permission for others to access it. Thus, for these activists, the 
+
+role of technology is to connect each user to a more extensive communication and coordination system and to balance control of each user’s identity with their reputation even as they interact with other users. 
+
+A foundation of capitalism is a centralized monetary system of bank credit currency (McCarthy, 2018). As a post-capitalist project, one of the goals of theMetacurrency Project is to build an ecosystem capable of interoperable currencies instead of nation-based or blockchain-based currencies. Members want to give communities of all sizes the technological tools that will enable them to manage their resources more effectively. One of the ways it aims to do this is by creating the possibility of scaling up, at a virtual global scale, the mutual credit systems that are popular at the local level, such as LETS (Local Exchange Trading Systems). In this type of mutual credit system, all accounts start with a zero balance. A participant extends credit to another user in a standard spending transaction and only with the extension of credit are units of currency issued. For example, with the first transaction takes place between Hannah and Joseph, where Hannah pays Joseph 20 credits for a loaf of bread, Joseph’s account will be +20 credit, while Hannah’s account is −20 credits. This form of accounting practice does not place any limit on the number of assets available in a system; all assets are balanced by an equal amount of liabilities or equity. For each negative balance in the mutual credit system, there is an equal positive balance so that at any time, there is always zero balance in the system. 
+
+In a mutual credit system, the management of the currency in supply is the management of credit limits (the limit on the amount of negative balance allowed to each), which would be determined by the community. The transaction history of each account would usually be used to calculate the credit limit, and it is typically the equivalent of what could be paid back within 6 months (or any other arbitrary period). Thus, the actual usage patterns of the community would be used to determine the expansion and contraction of the currency supply. 
+
+Also included in their post-capitalist strategy, is the disintermediation of the entire Internet-based economy. The Holochain project also aims to decentralize the internet using distributed applications widely known as dApps.Holochain members are aiming for widespread disintermediation of corporate platforms, such as Airbnb, Lyft, and Uber, replaced with community-controlled applications. For commons-based service platforms to be effective, each of the new services requires a decentralized currency. Each service will develop a reputation system for non-monetary currencies, such as timeliness, reliability, feedback, etc. with the goal of widespread adoption. Ultimately, these dApps will be able to be launched on the Holochain system with little capital and coding expertise. This may be the basis for the next networked economy. 
+
+PART 5: NEW FORMS OF VALUE ACCOUNTING FOR POST-CAPITALIST PRODUCTION 
+
+As illustrated in the above graphic, the movement for a global technological commonwealth is aiming to integrate all externalities in more holistic forms of value accounting. The 
+
+ 
+
+ 
+
+following is a summary of five ongoing distributed value accounting projects; Resources—Events—Agents, Reporting 3.0, MusiASEM, The Regen Network, and The Common Good Accounting System that are evolving in the right direction of “integrating externalities”: 
+
+Resources—Events—Agents (REA) is an accounting system for networked cooperation and shared supply chains. Resources-Events-Agents (REA) is a radical innovation for accounting which hitherto has been based on double entry bookkeeping, which takes an individualistic or corporate point of view, aimed at increasing the capital base of a commercial entity. REA on the contrary offers an “independent” eco-systemic view of the flows between participants in an ecosystem and evolved in the context of integrated supply chains. Metaphorically, this abandonment of double entry is symptomatic in our opinion from a shift from a capitalist point of view, based on competing corporations or nations, to a cooperative point of view, based on networks of cooperation in joint ecosystems. REA is a model for an accounting system re-engineered for the information age. It was originally presented by McCarthy (1982) as a generalized framework designed to cover certain needs for information management that traditional accounting could not adequately address. The main motivation behind the development of REA have been the limitations of double-entry bookkeeping in providing the necessary information to facilitate decision making in business entities (Bauwens and Pazaitis, 2019; Pazaitis, 2020). 
+
+Reporting 3.0 affords direct access to a representation ofmatter and energy flows in interconnected supply chains. Reporting 3.0 proposes a multi-capital framework, in which resource flows are directly accessible without translation into price signals. The proposal of this ambitious but vital project is to create a Global Thresholds and Allocations Council, which is a depository of resource availability, including the biocircularity quotients (how much of a resource can be iteratively re-used after each cycle of use). Considered as global commons, agreements can be made about the justified use and distribution of a resource within planetary boundaries, which can be used for planning context-based sustainability, i.e., how much of a resource can be used at the local-territorial level (bioregional), or at the enterprise or ecosystem of production level (https://reporting3.org/). 
+
+MusiASEM allows for the accounting of material/energy flows and their limits. MuSIASEM (Multi-Scale Integrated Analysis of Societal and Ecosystem Metabolism)7, is an important set of tools for biophysical accountability. It integrates biophysical and socioeconomic variables to establish a link between the metabolism of socio-economic systems, i.e., the processes of energy and material transformation that are necessary for the continued existence, sustainability and reproduction of those systems, and the potential constraints imposed by the natural environment, in which they are embedded. As current price signals do not reflect the need to conserve resources for long-term sustainability, regions, corporate entities or networks of cooperation need direct access to the flows of matter and energy that they need for operating, and the possible limits of that use 
+
+7See also the treatment here at https://wiki.p2pfoundation.net/Multi-
+
+Scale_Integrated_Analysis_of_Societal_and_Ecosystem_Metabolism 
+
+in view of sustainability. To answer this challenge, the project has developed systemic tools that can be used for maintaining sustainable production. MuSIASEM is an accounting method aiming to analyze socio-ecosystems and simulate certain possible or required patterns of development. 
+
+The Regen Network is a global community and platform focused on ecological monitoring and regeneration. The Regen Network is a system of “ecological state protocols” to verify advances in sustainability and regenerativity. The RegenNetwork has developed the crucial concept of “ecological state protocols,” which can be used to verify the attainment of ecological (and social) impacts, put on a ledger for tokenization and possible financing. Regeneration is defined as a process of renewal, restoration, and growth that makes cells, organisms, and ecosystems resilient to natural fluctuations or events that cause disturbance or damage. In this framework, the primary goal of Regen Network is to regenerate the earth’s ecosystems. Its approach leverages distributed ledger technology to create a systemic multi-stakeholder, market-driven solution to facilitate verifiable ecological outcomes. It is built around the Regen Ledger, a domain-specific public permissioned blockchain. Its core feature is to provide secure functionality for end users into the blockchain itself, instead of a multi-purpose smart contracting language. For this it is based on Tendermint, a general purpose blockchain consensus engine that can host arbitrary application states8. Tendermint is said to offer several advantages in terms of resilience, interoperability and overall energy consumption, while ensuring high data integrity and federated governance. 
+
+The Common Good Accounting System exists in a version for productive entities (firms) and for territorial entities (cities and regions) and describes the positive and negative impact of economic entities, by calculating the effects of economic activity in 17 clusters related to the Common Good. Through this mechanism, firms and productive entities start competing for achieving these aims and are rewarded for it by lower taxes and higher support, while those that fail to achieve these aims are subjected to higher taxes and less subsidies. The Common Good Economy approach has been proposed by the Austrian economic Christian Felber9 and a pan-European movement of about ten thousand members. In 2018, about 2,000 entities experimented with the accounting tools developed by the project. Starting with a legal analysis of European democratic constitutions, Felber noticed that they all contain articles stating the economy must serve the common good, and that there is no constitutional basis of the fiduciary obligation to maximize shareholder profits. Hence, firms should be judged on their capacity to achieve CommonGood aims. Contrary to accepted opinion, the common good is not a fuzzy concept, but can be exemplified and measured by a cluster of 17 goals that have accrued wide social support, such as improving the environment and biodiversity, or improving social equity, gender balance etc. Financial and 
+
+8For details about Tendermint see: https://tendermint.com/docs/introduction/ 
+
+introduction.html 9For more see Christian Felber on the Common Welfare Economy, see the video 
+
+via http://www.youtube.com/watch?v=D3Z2cXK5mhc 
+
+ 
+
+ 
+
+economic sustainability are necessary but are only a subset of why firms should be “in businesses.” By accepting such a Common Good accounting scheme, which is voluntary for the moment, firms start competing in an entirely different way, by improving their positive social and ecological impacts. They should be judged in this way by society and public authorities, with incentive schemes, such as taxation and subsidies that are geared toward rewarding those that achieve such positive impacts. 
+
+In summary, the actors that want to move toward a post-capitalist economy now have access to a set of tools that allow them to work in eco-systems of production that combine shared logistical systems (not discussed in this paper), with new forms of value accounting that allow these economic actors to integrate positive and negative, social and environmental externalities. These new contributory accounting systems allow participants to change the value equations that determine the distribution of wealth; and networked based accounting like REA, allows a move from double-entry accounting, which ignores the environment and externalities, to accounting that makes visible every interaction within the ecosystem; finally, thermo-dynamic accounting, allows for decisions based on context-based sustainability. The Common Good impact accounting system, gives entirely different incentives for production in sustainable and socially just ways, and allows public authorities to reward those that improve their impact. A solution like Regen Network offers a systematic way to recognize, value, and finance regenerative activities. In other words, new socio-technical systems offer society the ability concretize cosmo-local production. However, we want to make clear that such fundamental changes to the economy are not only technological, but a societal and political as well. Therefore, the experience in Puerto Rico, outlined below, is illustrative and significant in our context. 
+
+PART 6: PUERTO RICO: RECOVERING THE IDEAS OF GOVERNANCE AND SOVEREIGNTY 
+
+In 2018 the United States Agency for International Development (USAID) created a primer on blockchain with the goal of assessing the impact blockchain technology will have on international development (Nelson, 2018). USAID is an independent agency of the United States federal government responsible for administering civilian foreign aid and development assistance. They concluded that while blockchains could facilitate the transfer of an asset or help transparently document the exchange of an asset most blockchain applications will rely on adjacent legal and sovereign governmental systems to achieve stated goals. To no one’s surprise, governmental sovereignty varies across the Global South. 
+
+The unincorporated territory of the United States, Puerto Rico, is an example of a commonwealth that lacks sovereignty. In 2012, in a controversial move, the government of Puerto Rico sought to attract investment from high net worth capitalists by passing a tax exemption to its Internal Revenue Code, Act 22, which allows non-residents of Puerto Rico to pay no 
+
+taxes on their long-term capital gains if they are physically present in Puerto Rico 168–183 days per year. This occurred in the aftermath of the environmental disaster hurricane Maria that killed thousands, devastated local agriculture, and severely weakened already underfunded institutional infrastructure. After the hurricane, Puerto Rico was embraced by cryptocurrency capitalists who were seeking to avoid paying U.S. taxes on their cryptocurrency millions (Bowles, 2018). 
+
+The public vision presented by these cryptocurrency capitalists was a blockchain utopia for Puerto Rico. However, for many local islanders’ this sudden concern for the plight of Puerto Ricans felt like greedy opportunism. In March 2018 author and political economist Sarah Manski spoke at the Blockchain Unbound conference organized by cryptocurreny billionaire Brock Pierce. As suspected by locals, many of the cryptocurrency attendees were only seeking to avoid U.S. taxes, however it was not the case that attendees were all neoliberal ideologues seeking to multiply their riches at the expense of the battered US colony. Many participants felt the affordances of distributed ledger technology could genuinely have a positive impact in Puerto Rico. 
+
+So, how could blockchain distributed ledger technology help the people of Puerto Rico? The university student of Puerto Rico agreed and formed EduBlock, a grassroots student network non-profit composed of professors, students and industry leading advisors. It began as a reaction to the influx of fin-tech companies and investors moving to the island but evolved into an organization with the intention of gathering as much knowledge on distributed ledger technologies as possible. Students throughout Puerto Rico have together to create a bridge between these new fin-tech companies and the local community. There are five chapters in development and three already established at top Puerto Rican universities (Mayaguez, Rio Piedras University of Puerto Rico system-wide campuses and the Metropolitan Interamerican University) developing technology curriculum and training programs for the benefit of the people of Puerto Rico. 
+
+As the case of Puerto Rico demonstrates, we need to break out of capitalist and colonial development mindsets and listen to what the people on the ground express they need. As academics, investors and technologists, we need to be a part of creating regenerative systems of living. And resilient communities that have sovereignty through local cooperative control over all the necessities of life. This is a vision of local communities that are sovereign because they are growing their own food, producing their own renewable energy, housing, education and medical care that is available to all. The socio-technical solutions and systems that we discussed above, can only be effective if they are the expression of such sovereign communities, adapting technology to their own contextual cooperative needs. 
+
+CONCLUSION 
+
+With Holochain I found this missing piece, the bridge between 
+
+the old paradigm and the new. We need a way to set collective 
+
+goals and guide the actions of individuals towards those goals 
+
+ 
+
+ 
+
+with clear feedback—this could take the form of incentive and 
+
+discouragement. What we need is a global nervous system of 
+
+humanity as a whole—a system that guides and combines 
+
+individual actions towards a greater outcome and one that separate 
+
+individuals could not achieve on their own. 
+
+—See (2019, Community Matters webpage), A Holochain 
+
+Community Builder Located in the Crypto Valley, Switzerland. 
+
+For those involved with DLT projects, the technological affordances (Manski and Manski, 2018) allowing for a fundamental shift in value accounting, is inspiring a wave of activism designed to change the way our social, political, and economic societies work away from global capitalism to the commons. As actors engage with DLTs in this process of social and material co-construction the technology demonstrates its own agency as well, because a technology’s form “calls forth” or enables or constrains different human actions, called material agency (Pickering, 1995; Kaptelinin and Nardi, 2006; Leonardi, 2012; Robey et al., 2012). 
+
+We are in a critical moment in which DLTs material agency can be turned toward the mutual benefit of all the world’s people or it can be systematically foreclosed by elite powerful global actors. When the agents involved in the design process have different levels of power, they will maintain different interests and therefore prioritize solutions to different problems (Callon, 1991; Pinch, 1996). Value choices are communicated through the design of technology. Without great care, technologies’ material agency reinforces existing power structures because those who currently maintain unequal power and resources are able to adapt the technology to their own purposes (Winner, 1980; Orlikowski, 2007; Feenberg, 2012). In this sense DLTs poses both utopian and dystopian possible futures. Whether, individuals, nation-states, corporations, technologists or communities are empowered will depend heavily on the design choices that are made in the next few years and on the path dependencies, and political dimensions of the policies, practices, applications, and institutions created surrounding this technology. 
+
+Negri and Hardt (2009) argue in the new technology-based economy, directly socialized, immaterial (digital, knowledge) production sets in motion the political and social relations necessary for the creation of a commonwealth, “A democracy of the multitude is imaginable and possible only because we all share and participate in the common.” (p. viii). In this paper we explore the gap and opportunity between the promise of distributed ledger technology to redistribute wealth and the actual engagement of parties and projects to this end. Our thesis establishes the principles of the commons before embarking on exploring case studies in which a commons approach to redistributing sovereignty and the flow of value (in different forms) is examined. Our principle argument is that the much-stated possibilities of DLTs cannot be achieved unless developers, designers, investors, and technologists consciously and 
+
+strategically design systems according to the principles of the commons. 
+
+In this paper we explain the principles of a peer-to-peer system and illustrative models explaining competing socio-technological infrastructures. We explore the primary and competing models of production and identify a third direction in which the economies of scale are replaced by economies of scope to better balance the opportunity for technology to organize resources within local communities and environments. Central to this thesis is the term cosmo-local whereby global cooperation in science and technology is not just maintained, but drastically increased, using open and shared intellectual property; while production is conducted more locally, by making use of the latest advances in distributed technology and manufacturing. 
+
+We seek to support and emphasize the positive characteristics of DLTs to help support a cosmo-local supply chain infrastructure highly dependent on trust as being central to cosmo-local value logics. We describe in detail the Metacurrency Project and Holochain, whose members are guided by natural systems and deep ecology in their efforts to replace the intrinsically extractive nature of capitalism. We also focus on new systems of value accounting which capture more complex forms of value to transition beyond global capitalist accounting. 
+
+Finally, we offer warning to “greedy” blockchain capitalists who have descended upon Puerto Rico to build their own version of a utopian society. The Puerto Rico Blockchain Student Network is recovering the ideas of governance and sovereignty and how this new technology can be used by the people to support communication uses on the island. 
+
+Worldwide commoners, democracy activists, and technologists are now building a coalition of technologies and broader publics to redesign the accounting of value. They share a strong desire for a transition to a cooperative, fulfilling, and regenerative social and economic system beyond capitalism. Technology can deliver or than one possible future and the excess capacity for social cooperation enabled by distributed ledger technologies is necessary to be able to move to a post-capitalist planet. 
+
+To accomplish this transition, we will need to develop new ways to recognize intrinsic human and ecological value. We have already taken the first steps along this path and believe it is possible to combine emerging distributed technologies with the ongoing cooperative movement to create a world of open cooperatives and digital commons for all of humanity to share. 
+
+AUTHOR CONTRIBUTIONS 
+
+All authors listed have made a substantial, direct and intellectual contribution to the work, and approved it for publication. 
+
+ 
+
+ 
+
+REFERENCES 
+
+Amin, S. (1977). The Law of Value and Historical Materialism. London: Harvester. 
+
+Arrighi, G. (1999). Chaos and Governance in the Modern World System. 
+
+Minneapolis, MN: University of Minnesota Press. 
+
+Bakker, K. (2009). Neoliberal nature, ecological fixes, and the pitfalls of 
+
+comparative research. Environ. Plan. A 41, 1781–1787. doi: 10.1068/a4277 
+
+Bauwens, M., and Niaros, V. (2017a). Value in the Commons Economy: 
+
+Developments in Open and Contributory Value Accounting. Heinrich Boll 
+
+Foundation. Available online at: https://www.boell.de/sites/default/files/value_ 
+
+in_the_commons_economy.pdf?dimension1=division_ip (accessed February 
+
+25, 2019). 
+
+Bauwens, M., and Niaros, V. (2017b). Changing Societies through Urban 
+
+Commons Transitions. Heinrich Boll Foundation. Available online at: http:// 
+
+commonstransition.org/wp-content/uploads/2017/12/Bauwens-Niaros-
+
+Changing_societies.pdf (accessed February 25, 2019). 
+
+Bauwens, M., and Pazaitis, A. (2019). P2P Accounting for Planetary Survival. 
+
+Supported by the Guerilla Foundation and Shoepflin Foundation. Available 
+
+online at: https://commonstransition.org/p2p-accounting-for-planetary-
+
+survival/ 
+
+BCDC (2018). FoodTrax. Available online at: https://www.bcdc.online/foodtrax 
+
+(accessed June 11, 2018). 
+
+Bellamy Foster, J. (1992). The absolute general law of environmental degradation 
+
+under capitalism. Symposium: the second contradiction of capitalism. Capital. 
+
+Nat. Social. 3, 77–81. 
+
+Benkler, Y. (2016). Peer production, the commons, and the future of the firm. Strat. 
+
+Organ. 15, 1–11. doi: 10.1177/1476127016652606 
+
+Benkler, Y., and Nissenbaum, H. (2006). Commons-based peer production and 
+
+virtue. J. Polit. Philos. 14, 394–419. doi: 10.1111/j.1467-9760.2006.00235.x 
+
+Block, F. (2008). Swimming against the current: the rise of a hidden 
+
+developmental state in the United States. Polit. Soc. 36, 169–206. 
+
+doi: 10.1177/0032329208318731 
+
+Bowles, N. (2018). Making a Crypto Utopia in Puerto Rico. New York 
+
+Times. Available online at: https://www.nytimes.com/2018/02/02/technology/ 
+
+cryptocurrency-puerto-rico.html (accessed December 5, 2019). 
+
+Brock, A. (2019). CEPTR Core. Available online at: http://ceptr.org/projects/core 
+
+(accessed December 31, 2019). 
+
+Callon, M. (1991). “Techno-economic networks and irreversibility,” in A Sociology 
+
+of Monsters: Essays on Power, Technology and Domination, ed J. Law (London: 
+
+Routledge), 132–161. 
+
+Chase-Dunn, C., and Grimes, P. (1995).World-systems analysis.Annu. Rev. Sociol. 
+
+21, 387–417. 
+
+Clausing, K. (2019). The progressive case against Protectionism. Foreign 
+
+Affairs 98:109. Retrieved from: https://www.foreignaffairs.com/articles/united-
+
+states/2019-10-15/progressive-case-against-protectionism 
+
+Dyer-Witheford, N. (2004). “1844/2004/2044: the return of species-being,” in 
+
+Historical Materialism, Vol. 12, 3–25. doi: 10.1163/1569206043505130 
+
+Feenberg, A. (2012). Questioning Technology. Abingdon: Routledge. 
+
+Foster, J. B., Clark, B., and York, R. (2011). The Ecological Rift: Capitalism’s War on 
+
+the Earth. New York, NY: NYU Press. 
+
+FreedomCoop (2019). Homepage. Available online at: http://www.http:// 
+
+freedomcoop.eu/ (accessed February 1, 2019). 
+
+Groenfeldt, T. (2017). Ripple Uses Blockchain To Move Money Faster Than A 
+
+Flying Courier. Forbes. Available online at: https://www.forbes.com/sites/ 
+
+tomgroenfeldt/2017/08/16/ripple-uses-blockchain-to-move-money-faster-
+
+than-a-flying-courier/#505d76523f3a (accessed June 12, 2018). 
+
+Gunder Frank, A., and Gills, B. (1993). The World System: Five Hundred Years Or 
+
+Five Thousand? Abingdon: Routledge. 
+
+Heynen, N., McCarthy, J., Prudham, S., and Robbins, P. (eds.). (2007). Neoliberal 
+
+Environments: False Promises and Unnatural Consequences. Abingdon: 
+
+Routledge. 
+
+Heynen, N., and Robbins, P. (2005). The neoliberalization of nature: Governance, 
+
+privatization, enclosure and valuation. Capital. Nat. Social. 16, 5–8. 
+
+doi: 10.1080/1045575052000335339 
+
+ICA (2017). Rochdale Principles. Available online at: http://ica.coop/en/whats-co-
+
+op/co-operative-identity-values-principles (accessed June 12, 2018). 
+
+Kaptelinin, V., and Nardi, B. (2006). Acting With Technology: Activity Theory and 
+
+Interaction Design. Cambridge, MA: MIT Press. 
+
+Kelly, M. (2012). Owning Our Future: The Emerging Ownership Revolution. 
+
+Journeys to a Generative Economy. Berrett-Koehler Publishers. Available online 
+
+at: http://www.OwningOurFuture.com (accessed February 1, 2019). 
+
+Kovel, J. (2007). The Enemy of Nature: The End of Capitalism or the End of the 
+
+World? London: Zed Books. 
+
+Leonardi, P. (2012). “Materiality, sociomateriality, and socio-technical systems: 
+
+what do these terms mean? How are they different? Do we need them?” in 
+
+Materiality and Organizing: Social Interaction in a Technological World, eds 
+
+P. Leonardi, A. Nardi, and J. Kallinikos (New York, NY: Oxford University 
+
+Press), 25–48. 
+
+Manski, B. (2016). Universalize Democracy: Address to Next System Teach-In. Next 
+
+System Project Teach-in at UCSB. Available online at: https://www.youtube. 
+
+com/watch?v=euejQl4XPxs (accessed January 12, 2019). 
+
+Manski, S. G. (2017). Building the blockchain world: Technological 
+
+commonwealth or just more of the same? Strat. Change 26, 511–522. 
+
+doi: 10.1002/jsc.2151 
+
+Manski, S. G., and Manski, B. R. (2018). No gods, no masters, no coders? 
+
+The future of sovereignty in a blockchain world. Law Crit. 29, 151–162. 
+
+doi: 10.1007/s10978-018-9225-z 
+
+Manzini, E. (2011). The NewWay of the Future: Small, Local, Open and Connected. 
+
+New York, NY: Social Space, 100–105. 
+
+Martindale, J. (2018). What is Ripple? Digital Trends. Available online at: https:// 
+
+www.digitaltrends.com/computing/what-is-ripple/ (accessed June 14, 2018). 
+
+Marx, K. (1977). Capital Volume One. Vintage Books Edition. London: New 
+
+Left Review. 
+
+McCarthy, J., and Prudham, S. (2004). Neoliberal nature and the nature of 
+
+neoliberalism. Geoforum 35, 275–283. doi: 10.1016/j.geoforum.2003.07.003 
+
+McCarthy, M. (2018). Is Sociology Stuck in the Middle? The Uses of Marxist General 
+
+Theory. Marxist Sociology Blog. Available online at: https://marxistsociology. 
+
+org/2018/10/is-sociology-stuck-in-the-middle-the-uses-of-marxist-general-
+
+theory/ (accessed January 12, 2019). 
+
+McCarthy, W. E. (1982). The REA accounting model: a generalized framework for 
+
+accounting systems in a shared data environment. Account. Rev. 554–578. 
+
+Messner, M. (1988). Sports and male domination: the female athlete as contested 
+
+ideological terrain. Sociol. Sport. 5:198. 
+
+Moore, J. (2015). Capitalism in the Web of Life: Ecology and the Accumulation of 
+
+Capital. Brooklyn, NY: Verso. 
+
+Motesharrei, S., Rivas, J., and Kalnay, E. (2014). Human and nature 
+
+dynamics (HANDY): Modeling inequality and use of resources in 
+
+the collapse or sustainability of societies. Ecol. Econ. 101, 90–102. 
+
+doi: 10.1016/j.ecolecon.2014.02.014 
+
+Nakamoto, S. (2008).Re: Bitcoin P2P e-Cash Paper. Available online at: http://www. 
+
+mail-archive.com/cryptography@metzdowd.com/msg10001.html (accessed 
+
+April 4, 2018). 
+
+Negri, A., and Hardt, M. (2009). Commonwealth. Cambridge, MA: Harvard 
+
+University Press. 
+
+Nelson, P. (2018). Primer on Blockchain: How to Assess the Relevance of 
+
+Distributed Ledger Technology to International Development. USAID. Available 
+
+online at: https://www.usaid.gov/sites/default/files/documents/15396/USAID-
+
+Primer-Blockchain.pdf (accessed June 11, 2018). 
+
+O’Connor, J. (1991). On the two contradictions of capitalism. Capital. Nat. Social. 
+
+2, 107–109. 
+
+O’Connor, J. (ed.). (1998). Natural Causes: Essays in Ecological Marxism. 
+
+New York, NY: Guilford Press. 
+
+Orlikowski, W. J. (2007). Sociomaterial practices: exploring technology at work. 
+
+Organ. Stud. 28, 1435–1448. doi: 10.1177/0170840607081138 
+
+Pazaitis, A. (2020). Breaking the chains of open innovation: post-Blockchain and 
+
+the case of Sensorica. Information 11:104. doi: 10.3390/info11020104 
+
+Pickering, A. (1995). The Mangle of Practice: Time, Agency, And Science. Chicago, 
+
+IL: University of Chicago Press. 
+
+Pinch, T. (1996). “The social construction of technology: a review,” inTechnological 
+
+Change: Methods and Themes in the History of Technology, ed R. Fox 
+
+(Amsterdam: Harwood), 17–35. 
+
+Piques, C., Rizos, X., and Bauwens, M. (2017). Peer to Peer and the Commons: 
+
+A Path Towards Transition A Matter, Energy and Thermodynamic Perspective. 
+
+Amsterdam: P2P Foundation. 
+
+Polletta, F. (2008). Culture and movements. Ann. Am. Acad. Polit. Soc. Sci. 
+
+619, 78–96. Retrieved from: https://www.jstor.org/stable/40375796?seq=1 
+
+ 
+
+ 
+
+Popper, N. (2015). Digital Gold: The Untold Story of Bitcoin. London: Allen Lane. 
+
+Provenance (2016). About Webpage. Available online at: https://www.provenance. 
+
+org (accessed December 20, 2017). 
+
+Ramos, J. (2017). Cosmo-localization and leadership for the future. J. Fut. Stud. 
+
+21, 65–84. doi: 10.6531/JFS.2017.21(4).A65 
+
+Robey, D., Raymond, B., and Anderson, C. (2012). “Theorizing information 
+
+technology as amaterial artifact in information systems research,” inMateriality 
+
+and Organizing: Social Interaction in a Technological World, eds P. Leonardi, A. 
+
+Nardi, and J. Kallinikos (New York, NY: Oxford University Press), 217–236. 
+
+Robinson, W. (2014). Global Capitalism and the Crisis of Humanity. Cambridge, 
+
+MA: Cambridge University Press. 
+
+Rotmans, J. (2014). The Energy Transition: How Can We Accelerate It? Zaanstad. 
+
+Rousseau, J. J. (2012). Rousseau: The Basic Political Writings: Discourse on the 
+
+Sciences and the Arts, Discourse on the Origin of Inequality, Discourse on 
+
+Political Economy, On the Social Contract, The State of War. Cambridge, MA: 
+
+Hackett Publishing. 
+
+Sassen, S. (2013). Expelled: humans in capitalism’s deepening crisis. Am. Sociol. 
+
+Assoc. 19, 198–201. doi: 10.5195/jwsr.2013.495 
+
+See, R. (2019). Raphi, A systems Thinker and Holochain Community Builder 
+
+Located in the Crypto Valley, Switzerland. Community Matters 04. Available 
+
+online at: https://medium.com/holochain/raphi-a-systems-thinker-and-
+
+holochain-community-builder-located-in-the-crypto-valley-switzerland-
+
+ba0cfbcbc118 (accessed July 15, 2019). 
+
+SENSORICA (2019). Homepage. Available online at: http://www.sensorica.co/ 
+
+(accessed February 1, 2019). 
+
+Sklair, L. (1997). Social movements for global capitalism: the transnational 
+
+capitalist class in action. Rev. Int. Polit. Econ. 4, 514–538. 
+
+Skuchain (2016). About Webpage. Available online at: https://www.skuchain.com 
+
+(accessed December 5, 2017). 
+
+Smith, T. (2007). “Chapter 2, Technological dynamism and the normative 
+
+justification of global capitalism,” in Political Economy and Global Capitalism: 
+
+The 21st Century, Present and Future, 25. eds R. Albritton, B. Jessop, and R. 
+
+Westra (London: Anthem Press). 
+
+Tiberius (2018). Why Do We Need a Contribution Accounting System? P2P 
+
+Foundation Blog. Available online at: https://blog.p2pfoundation.net/need-
+
+contribution-accounting-system/2018/01/19 (accessed December 20, 2019). 
+
+Utratel, A. (2016). Commons Based Peer Production in the Information Economy. 
+
+P2P Value. Available online at: https://p2pvalue.eu/762-2/ (Accessed February 
+
+26, 2019). 
+
+Wallerstein, I. (1998). Utopistics. New York, NY: Free Press. 
+
+Whitaker, M. (2010). Ecological Revolution: The Political Origins of Environmental 
+
+Degradation and the Environmental Origins of Axial Religions; China, Japan, 
+
+Europe. Balti: LAP LAMBERT Academic Publishing. 
+
+Winner, L. (1980).Do Artifacts Have Politics? Cambridgeshire: Daedalus, 121–136. 
+
+World Co-operative Monitor (2017). Available online at: https://monitor.coop/ 
+
+(accessed June 13, 2018). 
+
+Conflict of Interest: The authors declare that the research was conducted in the 
+
+absence of any commercial or financial relationships that could be construed as a 
+
+potential conflict of interest. 
+
+Copyright © 2020 Manski and Bauwens. This is an open-access article distributed 
+
+under the terms of the Creative Commons Attribution License (CC BY). The 
+
+use, distribution or reproduction in other forums is permitted, provided the 
+
+original author(s) and the copyright owner(s) are credited and that the original 
+
+publication in this journal is cited, in accordance with accepted academic practice. 
+
+No use, distribution or reproduction is permitted which does not comply with these 
+
+terms. 
+
+ 

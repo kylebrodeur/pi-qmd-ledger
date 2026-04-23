@@ -1,0 +1,263 @@
+Enhancing Chatter Detection in Machining Processes Using Machine Learning: From Simulated Models to Real-World Validation
+
+Skip to main content
+
+Log In(current)
+
+/login
+
+About
+
+javascript:void(0);
+
+Communities & Collections
+
+/community-list
+
+All of TRACE
+
+javascript:void(0);
+
+Statistics
+
+javascript:void(0);
+
+Home
+
+/
+
+Colleges & Schools
+
+/communities/976e7200-bc6c-4624-867a-69e7a0370bf8
+
+Graduate School
+
+/communities/462c2f5b-cd38-42aa-b6fa-335d77e6d78f
+
+Doctoral Dissertations
+
+/collections/50e51a42-c82a-4f51-8c7a-ef5b08658e33
+
+Enhancing Chatter Detection in Machining Processes Using Machine Learning: From Simulated Models to Real-World Validation
+
+Details
+
+/entities/publication/05f39b60-5bc0-4314-9614-c628bce10e90/details
+
+Export Statistics
+
+Options
+
+Show all metadata (technical view)
+
+Enhancing Chatter Detection in Machining Processes Using Machine Learning: From Simulated Models to Real-World Validation
+
+Date Issued
+
+December 1, 2024
+
+Author(s)
+
+Alberts, Matthew James
+
+Advisor(s)
+
+Anahita Khojandi
+
+Additional Advisor(s)
+
+Anahita Khojandi, Jamie Coble, Andrew Yu, Jim Ostrowski
+
+Permanent URI
+
+https://trace.tennessee.edu/handle/20.500.14382/19536
+
+https://trace.tennessee.edu/handle/20.500.14382/19536
+
+Abstract
+
+Chatter, a self-excited vibration phenomenon in machining processes, poses significant challenges to manufacturing efficiency, product quality, and tool longevity. Traditional methods for chatter detection often rely on analytical models and signal processing techniques, which may not generalize well across different machining setups due to inherent assumptions and simplifications. This dissertation investigates the development and validation of machine learning models for chatter detection, leveraging simulated data and progressively transitioning to real-world applications.
+
+In the first phase of the research, a Random Forest classifier was developed using extensive simulated datasets that captured a wide range of machining conditions. The model demonstrated high accuracy in predicting chatter occurrences within the simulated environment, highlighting the potential of machine learning techniques in this domain.
+
+Building upon these results, the second phase introduced advanced techniques such as Operational Modal Analysis (OMA), Transfer Learning (TL), and Receptance Coupling Substructure Analysis (RCSA) to enhance the model's predictive capabilities. Incorporating these methods allowed for a deeper understanding of the machining dynamics and improved the model's robustness and accuracy in simulations.
+
+The final phase of the dissertation focused on validating the simulation-trained models using real-world machining data collected from a custom-built three-axis CNC milling machine equipped with a MEMS vibration sensor. Transfer Learning and domain adaptation techniques were employed to adapt the models to the real-world data domain. The adapted models achieved high performance metrics, including an accuracy of 86.1%, precision of 91.3%, recall of 87.5%, and an F1-score of 85.9% on the real-world dataset.
+
+These findings demonstrate the feasibility and effectiveness of transitioning machine learning models from simulation to practical applications in machining operations. The research contributes to bridging the gap between theoretical models and industrial practice, offering valuable insights for the development of reliable chatter detection systems. By enhancing predictive maintenance strategies and supporting the integration of smart technologies in manufacturing, this work advances the field toward the goals of Industry 4.0 and smart manufacturing.
+
+Show more
+
+Subjects
+
+predictive analytics
+
+/browse/subject?value=predictive%20analytics
+
+vibration analysis
+
+/browse/subject?value=vibration%20analysis
+
+chatter
+
+/browse/subject?value=chatter
+
+stability
+
+/browse/subject?value=stability
+
+additive manufacturin...
+
+/browse/subject?value=additive%20manufacturing
+
+Disciplines
+
+Industrial Engineering
+
+/browse/disciplines?value=Industrial%20Engineering&authority=disciplines:D_0445
+
+Degree
+
+Doctor of Philosophy
+
+Major
+
+Industrial Engineering
+
+Embargo Date
+
+December 15, 2025
+
+File(s)
+
+No Thumbnail Available
+
+Download
+
+Name
+
+0-Paper1.pdf
+
+Size
+
+3.9 MB
+
+Format
+
+Adobe PDF
+
+Checksum
+
+ (MD5)
+
+050e5b02cffc0e5d1e7e6c308a5edb7c
+
+No Thumbnail Available
+
+Download
+
+Name
+
+1-Paper2.pdf
+
+Size
+
+562.25 KB
+
+Format
+
+Adobe PDF
+
+Checksum
+
+ (MD5)
+
+603156d7a0548ebbfb6ed764ffdc2d6b
+
+View More
+
+Views
+
+23
+
+Acquisition Date
+
+Mar 2, 2026
+
+View Details
+
+/statistics/items/05f39b60-5bc0-4314-9614-c628bce10e90
+
+Downloads
+
+1
+
+Acquisition Date
+
+Mar 2, 2026
+
+View Details
+
+/statistics/items/05f39b60-5bc0-4314-9614-c628bce10e90?reportType=TotalDownloads
+
+ Google Scholar View Details
+
+https://scholar.google.com/scholar?q=Enhancing+Chatter+Detection+in+Machining+Processes+Using+Machine+Learning%3A+From+Simulated+Models+to+Real-World+Validation
+
+Built with 
+
+DSpace-CRIS software
+
+https://wiki.lyrasis.org/display/DSPACECRIS/
+
+ - Extension maintained and optimized by
+
+Cookie settings
+
+Privacy policy
+
+https://www.utk.edu/about/privacy
+
+End User Agreement
+
+/info/end-user-agreement
+
+Send Feedback
+
+/info/feedback
+
+Contact
+
+mailto:trace@utk.edu
+
+Libraries at University of Tennessee, Knoxville
+
+https://www.lib.utk.edu/
+
+ COAR Notify
+
+/info/coar-notify-support
+
+ 
+
+https://www.addtoany.com/share
+
+We collect and process your personal information for the following purposes: 
+
+Authentication, Preferences, Acknowledgement and Statistics
+
+.
+
+To learn more, please read our 
+
+privacy policy
+
+./info/privacy
+
+.
+
+Customize
+
+#
+
+Decline That's ok

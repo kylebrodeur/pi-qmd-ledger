@@ -1,0 +1,909 @@
+GitHub - boschresearch/CNC_Machining: data set for process monitoring on CNC machines · GitHub
+
+Skip to content
+
+https://github.com/boschresearch/CNC_Machining#start-of-content
+
+Navigation Menu
+
+Toggle navigation 
+
+https://github.com/
+
+Sign in
+
+https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fboschresearch%2FCNC_Machining
+
+Appearance settings
+
+Platform
+
+AI CODE CREATION
+
+GitHub Copilot Write better code with AI
+
+https://github.com/features/copilot
+
+GitHub Spark Build and deploy intelligent apps
+
+https://github.com/features/spark
+
+GitHub Models Manage and compare prompts
+
+https://github.com/features/models
+
+MCP Registry New Integrate external tools
+
+https://github.com/mcp
+
+DEVELOPER WORKFLOWS
+
+Actions Automate any workflow
+
+https://github.com/features/actions
+
+Codespaces Instant dev environments
+
+https://github.com/features/codespaces
+
+Issues Plan and track work
+
+https://github.com/features/issues
+
+Code Review Manage code changes
+
+https://github.com/features/code-review
+
+APPLICATION SECURITY
+
+GitHub Advanced Security Find and fix vulnerabilities
+
+https://github.com/security/advanced-security
+
+Code security Secure your code as you build
+
+https://github.com/security/advanced-security/code-security
+
+Secret protection Stop leaks before they start
+
+https://github.com/security/advanced-security/secret-protection
+
+EXPLORE
+
+Why GitHub
+
+https://github.com/why-github
+
+Documentation
+
+https://docs.github.com/
+
+Blog
+
+https://github.blog/
+
+Changelog
+
+https://github.blog/changelog
+
+Marketplace
+
+https://github.com/marketplace
+
+ 
+
+View all features
+
+https://github.com/features
+
+Solutions
+
+BY COMPANY SIZE
+
+Enterprises
+
+https://github.com/enterprise
+
+Small and medium teams
+
+https://github.com/team
+
+Startups
+
+https://github.com/enterprise/startups
+
+Nonprofits
+
+https://github.com/solutions/industry/nonprofits
+
+BY USE CASE
+
+App Modernization
+
+https://github.com/solutions/use-case/app-modernization
+
+DevSecOps
+
+https://github.com/solutions/use-case/devsecops
+
+DevOps
+
+https://github.com/solutions/use-case/devops
+
+CI/CD
+
+https://github.com/solutions/use-case/ci-cd
+
+View all use cases
+
+https://github.com/solutions/use-case
+
+BY INDUSTRY
+
+Healthcare
+
+https://github.com/solutions/industry/healthcare
+
+Financial services
+
+https://github.com/solutions/industry/financial-services
+
+Manufacturing
+
+https://github.com/solutions/industry/manufacturing
+
+Government
+
+https://github.com/solutions/industry/government
+
+View all industries
+
+https://github.com/solutions/industry
+
+ 
+
+View all solutions
+
+https://github.com/solutions
+
+Resources
+
+EXPLORE BY TOPIC
+
+AI
+
+https://github.com/resources/articles?topic=ai
+
+Software Development
+
+https://github.com/resources/articles?topic=software-development
+
+DevOps
+
+https://github.com/resources/articles?topic=devops
+
+Security
+
+https://github.com/resources/articles?topic=security
+
+View all topics
+
+https://github.com/resources/articles
+
+EXPLORE BY TYPE
+
+Customer stories
+
+https://github.com/customer-stories
+
+Events & webinars
+
+https://github.com/resources/events
+
+Ebooks & reports
+
+https://github.com/resources/whitepapers
+
+Business insights
+
+https://github.com/solutions/executive-insights
+
+GitHub Skills
+
+https://skills.github.com/
+
+SUPPORT & SERVICES
+
+Documentation
+
+https://docs.github.com/
+
+Customer support
+
+https://support.github.com/
+
+Community forum
+
+https://github.com/orgs/community/discussions
+
+Trust center
+
+https://github.com/trust-center
+
+Partners
+
+https://github.com/partners
+
+ 
+
+View all resources
+
+https://github.com/resources
+
+Open Source
+
+COMMUNITY
+
+GitHub Sponsors Fund open source developers
+
+https://github.com/sponsors
+
+PROGRAMS
+
+Security Lab
+
+https://securitylab.github.com/
+
+Maintainer Community
+
+https://maintainers.github.com/
+
+Accelerator
+
+https://github.com/accelerator
+
+GitHub Stars
+
+https://stars.github.com/
+
+Archive Program
+
+https://archiveprogram.github.com/
+
+REPOSITORIES
+
+Topics
+
+https://github.com/topics
+
+Trending
+
+https://github.com/trending
+
+Collections
+
+https://github.com/collections
+
+Enterprise
+
+ENTERPRISE SOLUTIONS
+
+Enterprise platform AI-powered developer platform
+
+https://github.com/enterprise
+
+AVAILABLE ADD-ONS
+
+GitHub Advanced Security Enterprise-grade security features
+
+https://github.com/security/advanced-security
+
+Copilot for Business Enterprise-grade AI features
+
+https://github.com/features/copilot/copilot-business
+
+Premium Support Enterprise-grade 24/7 support
+
+https://github.com/premium-support
+
+Pricing
+
+https://github.com/pricing
+
+Search or jump to...
+
+Search code, repositories, users, issues, pull requests...
+
+Search
+
+Clear
+
+Search syntax tips
+
+https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax
+
+Provide feedback
+
+We read every piece of feedback, and take your input very seriously.
+
+ 
+
+[-]
+
+Include my email address so I can be contacted
+
+Cancel Submit feedback
+
+Saved searches
+
+Use saved searches to filter your results more quickly
+
+Name
+
+Query
+
+To see all available qualifiers, see our 
+
+documentation
+
+https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax
+
+.
+
+Cancel Create saved search
+
+Sign in
+
+https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fboschresearch%2FCNC_Machining
+
+Sign up
+
+https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=boschresearch%2FCNC_Machining
+
+Appearance settings
+
+Resetting focus
+
+You signed in with another tab or window. 
+
+Reload
+
+https://github.com/boschresearch/CNC_Machining
+
+ to refresh your session. You signed out in another tab or window. 
+
+Reload
+
+https://github.com/boschresearch/CNC_Machining
+
+ to refresh your session. You switched accounts on another tab or window. 
+
+Reload
+
+https://github.com/boschresearch/CNC_Machining
+
+ to refresh your session. Dismiss alert
+
+This repository was archived by the owner on Feb 19, 2026. It is now read-only.
+
+boschresearch
+
+https://github.com/boschresearch
+
+ / 
+
+CNC_Machining
+
+ Public archive
+
+Notifications
+
+https://github.com/login?return_to=%2Fboschresearch%2FCNC_Machining
+
+ You must be signed in to change notification settings
+
+Fork 47
+
+https://github.com/login?return_to=%2Fboschresearch%2FCNC_Machining
+
+Star 133
+
+https://github.com/login?return_to=%2Fboschresearch%2FCNC_Machining
+
+Code
+
+https://github.com/boschresearch/CNC_Machining
+
+Issues 0
+
+https://github.com/boschresearch/CNC_Machining/issues
+
+Pull requests 0
+
+https://github.com/boschresearch/CNC_Machining/pulls
+
+Actions
+
+https://github.com/boschresearch/CNC_Machining/actions
+
+Projects
+
+https://github.com/boschresearch/CNC_Machining/projects
+
+Security and quality 0
+
+https://github.com/boschresearch/CNC_Machining/security
+
+Insights
+
+https://github.com/boschresearch/CNC_Machining/pulse
+
+Additional navigation options
+
+Code
+
+https://github.com/boschresearch/CNC_Machining
+
+Issues
+
+https://github.com/boschresearch/CNC_Machining/issues
+
+Pull requests
+
+https://github.com/boschresearch/CNC_Machining/pulls
+
+Actions
+
+https://github.com/boschresearch/CNC_Machining/actions
+
+Projects
+
+https://github.com/boschresearch/CNC_Machining/projects
+
+Security and quality
+
+https://github.com/boschresearch/CNC_Machining/security
+
+Insights
+
+https://github.com/boschresearch/CNC_Machining/pulse
+
+ 
+
+https://github.com/boschresearch/CNC_Machining
+
+boschresearch/CNC_Machining
+
+main
+
+1 Branch
+
+https://github.com/boschresearch/CNC_Machining/branches
+
+ 
+
+0 Tags
+
+https://github.com/boschresearch/CNC_Machining/tags
+
+ 
+
+https://github.com/boschresearch/CNC_Machining/branches
+
+ 
+
+https://github.com/boschresearch/CNC_Machining/tags
+
+Go to file
+
+Code
+
+Open more actions menu
+
+Folders and files
+
+Name
+
+Name
+
+Last commit message
+
+Last commit date
+
+## Latest commit 
+
+ 
+
+MATnani
+
+https://github.com/boschresearch/CNC_Machining/commits?author=MATnani
+
+ 
+
+Merge pull request
+
+https://github.com/boschresearch/CNC_Machining/commit/d60581d6a3ab6015dcc5488c3d76112bb8e1bcb1
+
+ 
+
+#4
+
+https://github.com/boschresearch/CNC_Machining/pull/4
+
+ 
+
+from michaelfeil/main
+
+https://github.com/boschresearch/CNC_Machining/commit/d60581d6a3ab6015dcc5488c3d76112bb8e1bcb1
+
+ Open commit details 2 years ago 
+
+d60581d
+
+https://github.com/boschresearch/CNC_Machining/commit/d60581d6a3ab6015dcc5488c3d76112bb8e1bcb1
+
+ · 2 years ago ## History 
+
+41 Commits
+
+https://github.com/boschresearch/CNC_Machining/commits/main/
+
+ Open commit details 
+
+https://github.com/boschresearch/CNC_Machining/commits/main/
+
+ 41 Commits
+
+data
+
+https://github.com/boschresearch/CNC_Machining/tree/main/data
+
+data
+
+https://github.com/boschresearch/CNC_Machining/tree/main/data
+
+Upload data
+
+https://github.com/boschresearch/CNC_Machining/commit/05b1833334fdba16a419c6942bd368b09d59ba0e
+
+4 years ago
+
+utils
+
+https://github.com/boschresearch/CNC_Machining/tree/main/utils
+
+utils
+
+https://github.com/boschresearch/CNC_Machining/tree/main/utils
+
+Updated example code and make github auto-dicover license
+
+https://github.com/boschresearch/CNC_Machining/commit/7a5c0fba586dba9908f397935188a85d85498698
+
+2 years ago
+
+.gitignore
+
+https://github.com/boschresearch/CNC_Machining/blob/main/.gitignore
+
+.gitignore
+
+https://github.com/boschresearch/CNC_Machining/blob/main/.gitignore
+
+Updated example code and make github auto-dicover license
+
+https://github.com/boschresearch/CNC_Machining/commit/7a5c0fba586dba9908f397935188a85d85498698
+
+2 years ago
+
+Data_explorer.ipynb
+
+https://github.com/boschresearch/CNC_Machining/blob/main/Data_explorer.ipynb
+
+Data_explorer.ipynb
+
+https://github.com/boschresearch/CNC_Machining/blob/main/Data_explorer.ipynb
+
+Updated example code and make github auto-dicover license
+
+https://github.com/boschresearch/CNC_Machining/commit/7a5c0fba586dba9908f397935188a85d85498698
+
+2 years ago
+
+LICENSE
+
+https://github.com/boschresearch/CNC_Machining/blob/main/LICENSE
+
+LICENSE
+
+https://github.com/boschresearch/CNC_Machining/blob/main/LICENSE
+
+Updated example code and make github auto-dicover license
+
+https://github.com/boschresearch/CNC_Machining/commit/7a5c0fba586dba9908f397935188a85d85498698
+
+2 years ago
+
+README.md
+
+https://github.com/boschresearch/CNC_Machining/blob/main/README.md
+
+README.md
+
+https://github.com/boschresearch/CNC_Machining/blob/main/README.md
+
+Updated example code and make github auto-dicover license
+
+https://github.com/boschresearch/CNC_Machining/commit/7a5c0fba586dba9908f397935188a85d85498698
+
+2 years ago
+
+requirements.txt
+
+https://github.com/boschresearch/CNC_Machining/blob/main/requirements.txt
+
+requirements.txt
+
+https://github.com/boschresearch/CNC_Machining/blob/main/requirements.txt
+
+added requirements file for easier dependency installation
+
+https://github.com/boschresearch/CNC_Machining/commit/8e1ed2a9445bfab4ac25e7e297ebd01b93297c48
+
+4 years ago
+
+View all files
+
+Repository files navigation
+
+README
+
+https://github.com/boschresearch/CNC_Machining
+
+BSD-3-Clause license
+
+https://github.com/boschresearch/CNC_Machining
+
+This repository contains the companion material for the following publication:
+
+Tnani, Mohamed-Ali; Feil, Michael; Diepold, Klaus. Smart Data Collection System for Brownfield CNC Milling Machines: A New Benchmark Dataset for Data-Driven Machine Monitoring. Procedia CIRP2022,107, 131–136.
+
+CNC Machining Data
+
+Please cite this paper if using the dataset and direct any questions regarding the dataset to 
+
+Tnani Mohamed-Ali
+
+mailto:mohamed-ali.tnani@boschrexroth.de
+
+. The paper can be found at the 
+
+CIRP CMS
+
+https://doi.org/10.1016/j.procir.2022.04.022
+
+.
+
+General information and Context
+
+The dataset provided is a collection of real-world industrial vibration data collected from a brownfield CNC milling machine. The acceleration has been measured using a tri-axial accelerometer (Bosch CISS Sensor) mounted inside the machine. The X- Y- and Z-axes of the accelerometer have been recorded using a sampling rate equal to 2 kHz. Thereby normal as well as anomoulous data have been collected for 6 different timeframes, each lasting 6 months from October 2018 until August 2021 and labelled accordingly. It can be used to investigate the scalability of models and research process variations as the anomaly impact differs. In total there is data from three different CNC milling machines each executing 15 processes. For a detailed description of the data and experimental set-up, please refer to the paper.
+
+Dataset:
+
+The data are located in the 
+
+data
+
+ folder.
+
+Folder structure:
+
+The 
+
+data
+
+ directory containing the manually annotated machine processes is structured as follows:
+
+data/
+    machine number/             Corresponding machine number. We have data from 3 machines (M01, M02, M03)
+        process number/         Coresponding process number. We have 15 different processes (OP00, .., OP14)
+            label/              Coresponding process health. "good": Normal vibrational data, "bad": Anomalous vibrational data
+                filename:       .h5 file containing the vibration data. The files are annotated as follows: Machine no. + timeframe + Process no + example no. e.g. M02_Aug_2019_OP03_000.h5
+    
+
+
+Data structure:
+
+The .h5 file contains the label of the process and is structured as follows:
+
+   vibration data         the dataset contains a ndarray of dimension (acc_values, n_channels). (n_channels: acceleration axis: 0: X-axis, 1:Y-axis, 2:Z-axis)
+    
+
+
+Code
+
+Installation Requirements
+
+The code provided for loading the data has been written in Python 3.11. You need the following conda packages: 
+
+h5py
+
+ , 
+
+numpy
+
+ and 
+
+matplotlib
+
+ . The script 
+
+utils/data_loader_utils.py
+
+ proposes functions to load and vizualize the data. The notebook 
+
+Data_explorer.ipynb
+
+ shows how those functions can be used.
+
+License
+
+The code in this repository is open-sourced under the BSD-3-Clause license. See the 
+
+License
+
+https://github.com/boschresearch/CNC_Machining/blob/main/utils/License
+
+ file for details.
+
+The dataset created for the research located in the directory 
+
+data
+
+https://github.com/boschresearch/CNC_Machining/blob/main/data
+
+ are licensed under a 
+
+Creative Commons Attribution 4.0 International License
+
+http://creativecommons.org/licenses/by/4.0/
+
+ (CC-BY-4.0).
+
+About
+
+data set for process monitoring on CNC machines
+
+Topics
+
+paper-resource
+
+https://github.com/topics/paper-resource
+
+Resources
+
+Readme
+
+https://github.com/boschresearch/CNC_Machining#readme-ov-file
+
+License
+
+BSD-3-Clause license
+
+https://github.com/boschresearch/CNC_Machining#BSD-3-Clause-1-ov-file
+
+Uh oh!
+
+There was an error while loading. 
+
+Please reload this page
+
+https://github.com/boschresearch/CNC_Machining
+
+.
+
+Activity
+
+https://github.com/boschresearch/CNC_Machining/activity
+
+Custom properties
+
+https://github.com/boschresearch/CNC_Machining/custom-properties
+
+Stars
+
+133 stars
+
+https://github.com/boschresearch/CNC_Machining/stargazers
+
+Watchers
+
+8 watching
+
+https://github.com/boschresearch/CNC_Machining/watchers
+
+Forks
+
+47 forks
+
+https://github.com/boschresearch/CNC_Machining/forks
+
+Report repository
+
+https://github.com/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fboschresearch%2FCNC_Machining&report=boschresearch+%28user%29
+
+Uh oh!
+
+There was an error while loading. 
+
+Please reload this page
+
+https://github.com/boschresearch/CNC_Machining
+
+.
+
+Contributors 2
+
+https://github.com/boschresearch/CNC_Machining/graphs/contributors
+
+ 
+
+MATnani Mohamed-Ali Tnani
+
+https://github.com/MATnani
+
+ 
+
+michaelfeil Michael Feil
+
+https://github.com/michaelfeil
+
+Languages
+
+Jupyter Notebook 98.7%
+
+https://github.com/boschresearch/CNC_Machining/search?l=jupyter-notebook
+
+Python 1.3%
+
+https://github.com/boschresearch/CNC_Machining/search?l=python
+
+Footer
+
+© 2026 GitHub, Inc.
+
+Footer navigation
+
+Terms
+
+https://docs.github.com/site-policy/github-terms/github-terms-of-service
+
+Privacy
+
+https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+
+Security
+
+https://github.com/security
+
+Status
+
+https://www.githubstatus.com/
+
+Community
+
+https://github.community/
+
+Docs
+
+https://docs.github.com/
+
+Contact
+
+https://support.github.com?tags=dotcom-footer
+
+Manage cookies
+
+Do not share my personal information
+
+You can't perform that action at this time.

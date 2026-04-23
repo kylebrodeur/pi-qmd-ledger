@@ -1,0 +1,10499 @@
+Enhancing Hierarchical Classification in Tree-Based Models Using Level-Wise Entropy Adjustment
+
+Loading web-font Gyre-Pagella/Normal/Regular
+
+Next Article in Journal
+
+PK-Judge: Enhancing IP Protection of Neural Network Models Using an Asymmetric Approach
+
+https://www.mdpi.com/2504-2289/9/3/66
+
+Next Article in Special Issue
+
+Explainable Deep Learning Model for ChatGPT-Rephrased Fake Review Detection Using DistilBERT
+
+https://www.mdpi.com/2504-2289/9/8/205
+
+Previous Article in Journal
+
+An Expected Goals On Target (xGOT) Model: Accounting for Goalkeeper Performance in Football
+
+https://www.mdpi.com/2504-2289/9/3/64
+
+Journals
+
+Active Journals
+
+https://www.mdpi.com/about/journals
+
+ 
+
+Find a Journal
+
+https://www.mdpi.com/about/journalfinder
+
+ 
+
+Journal Proposal
+
+https://www.mdpi.com/about/journals/proposal
+
+ 
+
+Proceedings Series
+
+https://www.mdpi.com/about/proceedings
+
+[
+
+Topics
+
+](https://www.mdpi.com/topics)
+
+Information
+
+For Authors
+
+https://www.mdpi.com/authors
+
+ 
+
+For Reviewers
+
+https://www.mdpi.com/reviewers
+
+ 
+
+For Editors
+
+https://www.mdpi.com/editors
+
+ 
+
+For Librarians
+
+https://www.mdpi.com/librarians
+
+ 
+
+For Publishers
+
+https://www.mdpi.com/publishing_services
+
+ 
+
+For Societies
+
+https://www.mdpi.com/societies
+
+ 
+
+For Conference Organizers
+
+https://www.mdpi.com/conference_organizers
+
+Open Access Policy
+
+https://www.mdpi.com/openaccess
+
+ 
+
+Institutional Open Access Program
+
+https://www.mdpi.com/ioap
+
+ 
+
+Special Issues Guidelines
+
+https://www.mdpi.com/special_issues_guidelines
+
+ 
+
+Editorial Process
+
+https://www.mdpi.com/editorial_process
+
+ 
+
+Research and Publication Ethics
+
+https://www.mdpi.com/ethics
+
+ 
+
+Article Processing Charges
+
+https://www.mdpi.com/apc
+
+ 
+
+Awards
+
+https://www.mdpi.com/awards
+
+ 
+
+Testimonials
+
+https://www.mdpi.com/testimonials
+
+[
+
+Author Services
+
+](https://www.mdpi.com/authors/english)
+
+Initiatives
+
+Sciforum
+
+https://sciforum.net/
+
+ 
+
+MDPI Books
+
+https://www.mdpi.com/books
+
+ 
+
+Preprints.org
+
+https://www.preprints.org/
+
+ 
+
+Scilit
+
+https://www.scilit.com/
+
+ 
+
+SciProfiles
+
+https://sciprofiles.com/
+
+ 
+
+Encyclopedia
+
+https://encyclopedia.pub/
+
+ 
+
+JAMS
+
+https://jams.pub/
+
+ 
+
+Proceedings Series
+
+https://www.mdpi.com/about/proceedings
+
+About
+
+Overview
+
+https://www.mdpi.com/about
+
+ 
+
+Contact
+
+https://www.mdpi.com/about/contact
+
+ 
+
+Careers
+
+https://careers.mdpi.com/
+
+ 
+
+News
+
+https://www.mdpi.com/about/announcements
+
+ 
+
+Press
+
+https://www.mdpi.com/about/press
+
+ 
+
+Blog
+
+http://blog.mdpi.com/
+
+Sign In / Sign Up
+
+https://www.mdpi.com/user/login
+
+Notice
+
+You can make submissions to other journals 
+
+here
+
+https://susy.mdpi.com/user/manuscripts/upload
+
+.
+
+clear
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Notice
+
+You are accessing a machine-readable page. In order to be human-readable, please install an RSS reader.
+
+Continue
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+ 
+
+Cancel
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+clear
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+All articles published by MDPI are made immediately available worldwide under an open access license. No special permission is required to reuse all or part of the article published by MDPI, including figures and tables. For articles published under an open access Creative Common CC BY license, any part of the article may be reused without permission provided that the original article is clearly cited. For more information, please refer to 
+
+https://www.mdpi.com/openaccess
+
+https://www.mdpi.com/openaccess
+
+.
+
+Feature papers represent the most advanced research with significant potential for high impact in the field. A Feature Paper should be a substantial original Article that involves several techniques or approaches, provides an outlook for future research directions and describes possible research applications.
+
+Feature papers are submitted upon individual invitation or recommendation by the scientific editors and must receive positive feedback from the reviewers.
+
+Editor's Choice articles are based on recommendations by the scientific editors of MDPI journals from around the world. Editors select a small number of articles recently published in the journal that they believe will be particularly interesting to readers, or important in the respective research area. The aim is to provide a snapshot of some of the most exciting work published in the various research areas of the journal.
+
+Original Submission Date Received: .
+
+You seem to have javascript disabled. Please note that many of the page functionalities won't work as expected without javascript enabled. 
+
+clear
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+ 
+
+zoom_out_map
+
+https://www.mdpi.com/toggle_desktop_layout_cookie
+
+ 
+
+search
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+ 
+
+menu
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+ 
+
+Journals
+
+https://www.mdpi.com/about/journals
+
+Active Journals
+
+https://www.mdpi.com/about/journals
+
+Find a Journal
+
+https://www.mdpi.com/about/journalfinder
+
+Journal Proposal
+
+https://www.mdpi.com/about/journals/proposal
+
+Proceedings Series
+
+https://www.mdpi.com/about/proceedings
+
+Topics
+
+https://www.mdpi.com/topics
+
+Information
+
+https://www.mdpi.com/authors
+
+For Authors
+
+https://www.mdpi.com/authors
+
+For Reviewers
+
+https://www.mdpi.com/reviewers
+
+For Editors
+
+https://www.mdpi.com/editors
+
+For Librarians
+
+https://www.mdpi.com/librarians
+
+For Publishers
+
+https://www.mdpi.com/publishing_services
+
+For Societies
+
+https://www.mdpi.com/societies
+
+For Conference Organizers
+
+https://www.mdpi.com/conference_organizers
+
+Open Access Policy
+
+https://www.mdpi.com/openaccess
+
+Institutional Open Access Program
+
+https://www.mdpi.com/ioap
+
+Special Issues Guidelines
+
+https://www.mdpi.com/special_issues_guidelines
+
+Editorial Process
+
+https://www.mdpi.com/editorial_process
+
+Research and Publication Ethics
+
+https://www.mdpi.com/ethics
+
+Article Processing Charges
+
+https://www.mdpi.com/apc
+
+Awards
+
+https://www.mdpi.com/awards
+
+Testimonials
+
+https://www.mdpi.com/testimonials
+
+Author Services
+
+https://www.mdpi.com/authors/english
+
+Initiatives
+
+https://www.mdpi.com/about/initiatives
+
+Sciforum
+
+https://sciforum.net/
+
+MDPI Books
+
+https://www.mdpi.com/books
+
+Preprints.org
+
+https://www.preprints.org/
+
+Scilit
+
+https://www.scilit.com/
+
+SciProfiles
+
+https://sciprofiles.com/
+
+Encyclopedia
+
+https://encyclopedia.pub/
+
+JAMS
+
+https://jams.pub/
+
+Proceedings Series
+
+https://www.mdpi.com/about/proceedings
+
+About
+
+https://www.mdpi.com/about
+
+Overview
+
+https://www.mdpi.com/about
+
+Contact
+
+https://www.mdpi.com/about/contact
+
+Careers
+
+https://careers.mdpi.com/
+
+News
+
+https://www.mdpi.com/about/announcements
+
+Press
+
+https://www.mdpi.com/about/press
+
+Blog
+
+http://blog.mdpi.com/
+
+Sign In / Sign Up
+
+https://www.mdpi.com/user/login
+
+ 
+
+Submit
+
+https://susy.mdpi.com/user/manuscripts/upload?journal=BDCC
+
+Search for Articles:
+
+Title / Keyword
+
+Author / Affiliation / Email
+
+Journal
+
+All Journals
+
+Accounting and Auditing
+
+Acoustics
+
+Acta Microbiologica Hellenica (AMH)
+
+Actuators
+
+Adhesives
+
+Administrative Sciences
+
+Adolescents
+
+Advances in Respiratory Medicine (ARM)
+
+Aerobiology
+
+Aerospace
+
+Agriculture
+
+AgriEngineering
+
+Agrochemicals
+
+Agronomy
+
+AI
+
+AI Chemistry
+
+AI for Engineering
+
+AI in Education
+
+AI in Medicine
+
+AI Materials
+
+AI Sensors
+
+Air
+
+Algorithms
+
+Allergies
+
+Alloys
+
+Analog
+
+Analytica
+
+Analytics
+
+Anatomia
+
+Anesthesia Research
+
+Animals
+
+Antibiotics
+
+Antibodies
+
+Antioxidants
+
+Applied Biosciences
+
+Applied Mechanics
+
+Applied Microbiology
+
+Applied Nano
+
+Applied Sciences
+
+Applied System Innovation (ASI)
+
+AppliedChem
+
+AppliedMath
+
+AppliedPhys
+
+Aquaculture Journal
+
+Architecture
+
+Arthropoda
+
+Arts
+
+Astronautics
+
+Astronomy
+
+Atmosphere
+
+Atoms
+
+Audiology Research
+
+Automation
+
+Axioms
+
+Bacteria
+
+Batteries
+
+Behavioral Sciences
+
+Beverages
+
+Big Data and Cognitive Computing (BDCC)
+
+BioChem
+
+Bioengineering
+
+Biologics
+
+Biology
+
+Biology and Life Sciences Forum
+
+Biomass
+
+Biomechanics
+
+BioMed
+
+Biomedicines
+
+BioMedInformatics
+
+Biomimetics
+
+Biomolecules
+
+Biophysica
+
+Bioresources and Bioproducts
+
+Biosensors
+
+Biosphere
+
+BioTech
+
+Birds
+
+Blockchains
+
+Brain Sciences
+
+Buildings
+
+Businesses
+
+C (Journal of Carbon Research)
+
+Cancers
+
+Cardiogenetics
+
+Cardiovascular Medicine
+
+Catalysts
+
+Cells
+
+Ceramics
+
+Challenges
+
+ChemEngineering
+
+Chemistry
+
+Chemistry Proceedings
+
+Chemosensors
+
+Children
+
+Chips
+
+CivilEng
+
+Clean Technologies (Clean Technol.)
+
+Climate
+
+Clinical and Translational Neuroscience (CTN)
+
+Clinical Bioenergetics
+
+Clinics and Practice
+
+Clocks & Sleep
+
+Coasts
+
+Coatings
+
+Colloids and Interfaces
+
+Colorants
+
+Commodities
+
+Complexities
+
+Complications
+
+Compounds
+
+Computation
+
+Computer Sciences & Mathematics Forum
+
+Computers
+
+Condensed Matter
+
+Conservation
+
+Construction Materials
+
+Corrosion and Materials Degradation (CMD)
+
+Cosmetics
+
+COVID
+
+Craniomaxillofacial Trauma & Reconstruction (CMTR)
+
+Crops
+
+Cryo
+
+Cryptography
+
+Crystals
+
+Culture
+
+Current Issues in Molecular Biology (CIMB)
+
+Current Oncology
+
+Dairy
+
+Data
+
+Dentistry Journal
+
+Dermato
+
+Dermatopathology
+
+Designs
+
+Diabetology
+
+Diagnostics
+
+Dietetics
+
+Digital
+
+Disabilities
+
+Diseases
+
+Diversity
+
+DNA
+
+Drones
+
+Drugs and Drug Candidates (DDC)
+
+Dynamics
+
+Earth
+
+Ecologies
+
+Econometrics
+
+Economies
+
+Education Sciences
+
+Electricity
+
+Electrochem
+
+Electronic Materials
+
+Electronics
+
+Emergency Care and Medicine
+
+Encyclopedia
+
+Endocrines
+
+Energies
+
+Energy Storage and Applications (ESA)
+
+Eng
+
+Engineering Proceedings
+
+Entropic and Disordered Matter (EDM)
+
+Entropy
+
+Environmental and Earth Sciences Proceedings
+
+Environmental Remediation
+
+Environments
+
+Epidemiologia
+
+Epigenomes
+
+European Burn Journal (EBJ)
+
+European Journal of Investigation in Health, Psychology and Education (EJIHPE)
+
+Family Sciences
+
+Fermentation
+
+Fibers
+
+FinTech
+
+Fire
+
+Fishes
+
+Fluids
+
+Foods
+
+Forecasting
+
+Forensic Sciences
+
+Forests
+
+Fossil Studies
+
+Foundations
+
+Fractal and Fractional (Fractal Fract)
+
+Fuels
+
+Future
+
+Future Internet
+
+Future Pharmacology
+
+Future Transportation
+
+Galaxies
+
+Games
+
+Gases
+
+Gastroenterology Insights
+
+Gastrointestinal Disorders
+
+Gastronomy
+
+Gels
+
+Genealogy
+
+Genes
+
+Geographies
+
+GeoHazards
+
+Geomatics
+
+Geometry
+
+Geosciences
+
+Geotechnics
+
+Geriatrics
+
+Germs
+
+Glacies
+
+Gout, Urate, and Crystal Deposition Disease (GUCDD)
+
+Grasses
+
+Green
+
+Green Health
+
+Hardware
+
+Healthcare
+
+Hearts
+
+Hemato
+
+Hematology Reports
+
+Heritage
+
+Histories
+
+Horticulturae
+
+Hospitals
+
+Humanities
+
+Humans
+
+Hydrobiology
+
+Hydrogen
+
+Hydrology
+
+Hydropower
+
+Hygiene
+
+Immuno
+
+Industries
+
+Infectious Disease Reports
+
+Informatics
+
+Information
+
+Infrastructures
+
+Inorganics
+
+Insects
+
+Instruments
+
+Intelligent Infrastructure and Construction
+
+International Journal of Cognitive Sciences (IJCS)
+
+International Journal of Environmental Medicine (IJEM)
+
+International Journal of Environmental Research and Public Health (IJERPH)
+
+International Journal of Financial Studies (IJFS)
+
+International Journal of Molecular Sciences (IJMS)
+
+International Journal of Neonatal Screening (IJNS)
+
+International Journal of Orofacial Myology and Myofunctional Therapy (IJOM)
+
+International Journal of Plant Biology (IJPB)
+
+International Journal of Topology
+
+International Journal of Translational Medicine (IJTM)
+
+International Journal of Turbomachinery, Propulsion and Power (IJTPP)
+
+International Medical Education (IME)
+
+Inventions
+
+IoT
+
+ISPRS International Journal of Geo-Information (IJGI)
+
+J
+
+Journal of Aesthetic Medicine (J. Aesthetic Med.)
+
+Journal of Ageing and Longevity (JAL)
+
+Journal of CardioRenal Medicine (JCRM)
+
+Journal of Cardiovascular Development and Disease (JCDD)
+
+Journal of Clinical & Translational Ophthalmology (JCTO)
+
+Journal of Clinical Medicine (JCM)
+
+Journal of Composites Science (J. Compos. Sci.)
+
+Journal of Cybersecurity and Privacy (JCP)
+
+Journal of Dementia and Alzheimer's Disease (JDAD)
+
+Journal of Developmental Biology (JDB)
+
+Journal of Experimental and Theoretical Analyses (JETA)
+
+Journal of Eye Movement Research (JEMR)
+
+Journal of Functional Biomaterials (JFB)
+
+Journal of Functional Morphology and Kinesiology (JFMK)
+
+Journal of Fungi (JoF)
+
+Journal of Genome Biotechnology and Genetics (JGBG)
+
+Journal of Gerontology and Geriatrics (JGG)
+
+Journal of Imaging (J. Imaging)
+
+Journal of Innovation
+
+Journal of Intelligence (J. Intell.)
+
+Journal of Interdisciplinary Research Applied to Medicine (JDReAM)
+
+Journal of Low Power Electronics and Applications (JLPEA)
+
+Journal of Manufacturing and Materials Processing (JMMP)
+
+Journal of Marine Science and Engineering (JMSE)
+
+Journal of Market Access & Health Policy (JMAHP)
+
+Journal of Mind and Medical Sciences (JMMS)
+
+Journal of Molecular Pathology (JMP)
+
+Journal of Nanotheranostics (JNT)
+
+Journal of Nuclear Engineering (JNE)
+
+Journal of Otorhinolaryngology, Hearing and Balance Medicine (JOHBM)
+
+Journal of Parks
+
+Journal of Personalized Medicine (JPM)
+
+Journal of Pharmaceutical and BioTech Industry (JPBI)
+
+Journal of Phytomedicine
+
+Journal of Respiration (JoR)
+
+Journal of Risk and Financial Management (JRFM)
+
+Journal of Sensor and Actuator Networks (JSAN)
+
+Journal of Superintelligence
+
+Journal of the American Podiatric Medical Association (JAPMA)
+
+Journal of the Oman Medical Association (JOMA)
+
+Journal of Theoretical and Applied Electronic Commerce Research (JTAER)
+
+Journal of Vascular Diseases (JVD)
+
+Journal of Xenobiotics (JoX)
+
+Journal of Zoological and Botanical Gardens (JZBG)
+
+Journalism and Media
+
+Kidney and Dialysis
+
+Kinases and Phosphatases
+
+Knowledge
+
+LabMed
+
+Laboratories
+
+Land
+
+Languages
+
+Laws
+
+Life
+
+Lights
+
+Limnological Review
+
+Lipidology
+
+Liquids
+
+Literature
+
+Livers
+
+Logics
+
+Logistics
+
+Low-Altitude Economy
+
+Lubricants
+
+Lymphatics
+
+Machine Learning and Knowledge Extraction (MAKE)
+
+Machines
+
+Macromol
+
+Magnetism
+
+Magnetochemistry
+
+Marine Drugs
+
+Materials
+
+Materials Proceedings
+
+Mathematical and Computational Applications (MCA)
+
+Mathematics
+
+Medical Sciences
+
+Medical Sciences Forum
+
+Medicina
+
+Medicines
+
+Membranes
+
+Merits
+
+Metabolites
+
+Metals
+
+Meteorology
+
+Methane
+
+Methods and Protocols (MPs)
+
+Metrics
+
+Metrology
+
+Micro
+
+Microbiology Research
+
+Microelectronics
+
+Micromachines
+
+Microorganisms
+
+Microplastics
+
+Microwave
+
+Minerals
+
+Mining
+
+Modelling
+
+Modern Mathematical Physics
+
+Molbank
+
+Molecules
+
+Multimedia
+
+Multimodal Technologies and Interaction (MTI)
+
+Muscles
+
+Nanoenergy Advances
+
+Nanomanufacturing
+
+Nanomaterials
+
+NDT
+
+Network
+
+Neuroglia
+
+Neuroimaging
+
+Neurology International
+
+NeuroSci
+
+Nitrogen
+
+Non-Coding RNA (ncRNA)
+
+Nursing Reports
+
+Nutraceuticals
+
+Nutrients
+
+Obesities
+
+Occupational Health
+
+Oceans
+
+Onco
+
+Optics
+
+Oral
+
+Organics
+
+Organoids
+
+Osteology
+
+Oxygen
+
+Pandemics
+
+Parasitologia
+
+Particles
+
+Pathogens
+
+Pathophysiology
+
+Peace Studies
+
+Pediatric Reports
+
+Pets
+
+Pharmaceuticals
+
+Pharmaceutics
+
+Pharmacoepidemiology
+
+Pharmacy
+
+Philosophies
+
+Photochem
+
+Photonics
+
+Phycology
+
+Physchem
+
+Physical Sciences Forum
+
+Physics
+
+Physiologia
+
+Plants
+
+Plasma
+
+Platforms
+
+Pollutants
+
+Polymers
+
+Polysaccharides
+
+Populations
+
+Poultry
+
+Powders
+
+Precision Oncology
+
+Primary and Hospital Care (PHC)
+
+Proceedings
+
+Processes
+
+Prosthesis
+
+Proteomes
+
+Psychiatry International
+
+Psychoactives
+
+Psychology International
+
+Publications
+
+Purification
+
+Quantum Beam Science (QuBS)
+
+Quantum Reports
+
+Quaternary
+
+Radiation
+
+Reactions
+
+Real Estate
+
+Receptors
+
+Recycling
+
+Regional Science and Environmental Economics (RSEE)
+
+Religions
+
+Remote Sensing
+
+Reports
+
+Reproductive Medicine (Reprod. Med.)
+
+Resources
+
+Rheumato
+
+Risks
+
+Robotics
+
+Romanian Journal of Preventive Medicine (RJPM)
+
+Ruminants
+
+Safety
+
+Sci
+
+Scientia Pharmaceutica (Sci. Pharm.)
+
+Sclerosis
+
+Seeds
+
+Semiconductors and Heterogeneous Integration
+
+Sensors
+
+Separations
+
+Sexes
+
+Signals
+
+Sinusitis
+
+Smart Cities
+
+Social Sciences
+
+Société Internationale d'Urologie Journal (SIUJ)
+
+Societies
+
+Software
+
+Soil Systems
+
+Solar
+
+Solids
+
+Spectroscopy Journal
+
+Sports
+
+Standards
+
+Stats
+
+Stratigraphy and Sedimentology
+
+Stresses
+
+Surfaces
+
+Surgeries
+
+Surgical Techniques Development
+
+Sustainability
+
+Sustainable Chemistry
+
+Swiss Archives of Neurology, Psychiatry and Psychotherapy (SANPP)
+
+Symmetry
+
+SynBio
+
+Systems
+
+Targets
+
+Taxonomy
+
+Technologies
+
+Telecom
+
+Textiles
+
+Thalassemia Reports
+
+Theoretical and Applied Ergonomics
+
+Therapeutics
+
+Thermo
+
+Time and Space
+
+Tomography
+
+Tourism and Hospitality
+
+Toxics
+
+Toxins
+
+Transplantology
+
+Trauma Care
+
+Trends in Higher Education
+
+Trends in Public Health
+
+Tropical Medicine and Infectious Disease (TropicalMed)
+
+Universe
+
+Urban Science
+
+Uro
+
+Vaccines
+
+Vehicles
+
+Venereology
+
+Veterinary Sciences
+
+Vibration
+
+Virtual Worlds
+
+Viruses
+
+Vision
+
+Waste
+
+Water
+
+Wild
+
+Wind
+
+Women
+
+World
+
+World Electric Vehicle Journal (WEVJ)
+
+Youth
+
+Zoonotic Diseases
+
+Big Data and Cognitive Computing (BDCC)
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Article Type
+
+All Article Types
+
+Article
+
+Review
+
+Communication
+
+Editorial
+
+Abstract
+
+Book Review
+
+Brief Communication
+
+Brief Report
+
+Case Report
+
+Clinicopathological Challenge
+
+Comment
+
+Commentary
+
+Concept Paper
+
+Conference Report
+
+Correction
+
+Creative
+
+Data Descriptor
+
+Discussion
+
+Entry
+
+Essay
+
+Expression of Concern
+
+Extended Abstract
+
+Field Guide
+
+Giants in Urology
+
+Guidelines
+
+Hypothesis
+
+Interesting Images
+
+Letter
+
+New Book Received
+
+Obituary
+
+Opinion
+
+Patent Summary
+
+Perspective
+
+Proceeding Paper
+
+Project Report
+
+Protocol
+
+Registered Report
+
+Reply
+
+Retraction
+
+Short Note
+
+Study Protocol
+
+Systematic Review
+
+Technical Note
+
+Tutorial
+
+Urology around the World
+
+Viewpoint
+
+All Article Types
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+ 
+
+Search
+
+Advanced Search
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Section
+
+All Sections
+
+Artificial Intelligence and Multi-Agent Systems
+
+Big Data
+
+Cognitive System
+
+Data Mining and Machine Learning
+
+Large Language Models and Embodied Intelligence
+
+General
+
+All Sections
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Special Issue
+
+All Special Issues
+
+Big Data and Cognitive Computing in 2023
+
+Advanced Data Mining Techniques for IoT and Big Data
+
+Advanced Machine Learning and Data Mining: A New Frontier in Artificial Intelligence Research
+
+Advancements in Deep Learning and Deep Federated Learning Models
+
+Advances and Applications of Deep Learning Methods and Image Processing
+
+Advances in Complex Networks
+
+Advances in Intelligent Defense Systems for the Internet of Things
+
+Advances in Natural Language Processing and Text Mining
+
+Advances in System Design and IoT Based Smart City
+
+AI-Driven Pattern Recognition for Next-Generation Biometrics
+
+AI, Computer Vision and Human–Robot Interaction
+
+Application of Artificial Intelligence in Traffic Management
+
+Application of Cloud Computing in Industrial Internet of Things
+
+Application of Cloud Computing in Industrial Internet of Things—2nd Edition
+
+Application of Deep Learning and Convolution Neural Networks for Social Healthcare
+
+Application of Deep Neural Networks
+
+Application of Semantic Technologies in Intelligent Environment
+
+Applied Artificial Intelligence for Sustainability
+
+Applied Data Science for Social Good
+
+Applied Data Science for Social Good: 2nd Edition
+
+Applied Deep Learning: Business and Industrial Applications
+
+Artificial Cognition for Human-Robot Interaction
+
+Artificial Cognitive Systems for Computer Vision
+
+Artificial Intelligence (AI) and Natural Language Processing (NLP)
+
+Artificial Intelligence and Multi-Agent Systems for Big Data
+
+Artificial Intelligence and Natural Language Processing
+
+Artificial Intelligence for Online Safety
+
+Artificial Intelligence for Sustainability Development
+
+Artificial Intelligence for Trustworthy Industrial Internet of Things
+
+Artificial Intelligence in Digital Humanities
+
+Artificial Intelligence in Sustainable Reconfigurable Manufacturing Systems and Operations Management
+
+Artificial Superintelligence: Coordination & Strategy
+
+Augmented Reality, Virtual Reality, and Computer Graphics
+
+Big Data Analytic: From Accuracy to Interpretability
+
+Big Data Analytics and Cloud Data Management
+
+Big Data Analytics and Edge Computing: Recent Trends and Future
+
+Big Data Analytics and Forecasting in Fashion
+
+Big Data Analytics for Cultural Heritage
+
+Big Data Analytics for Cultural Heritage 2nd Edition
+
+Big Data Analytics for Social Services
+
+Big Data Analytics with Machine Learning for Cyber Security
+
+Big Data and Cognitive Computing in 2026
+
+Big Data and Cognitive Computing: 5th Anniversary Feature Papers
+
+Big Data and Cognitive Computing: Feature Papers 2018
+
+Big Data and Cognitive Computing: Feature Papers 2020
+
+Big Data and Data Science in Educational Research
+
+Big Data and Information Science Technology
+
+Big Data and Internet of Things
+
+Big Data and Internet of Things in Smart Cities
+
+Big Data and Machine Learning Applications for Material Removal, Additive and Hybrid Manufacturing Processes
+
+Big Data and UN Sustainable Development Goals (SDGs)
+
+Big Data in Computer-Aided Design
+
+Big Data in Health Care Information Systems
+
+Big Data in Omics Science: Challenges and Opportunities
+
+Big Data System for Global Health
+
+Big Music Data
+
+Big-Data Driven Multi-Criteria Decision-Making
+
+Bioinformatics Dry Laboratories for Research and Education: Computational Systems and Infrastructures
+
+Blockchain and Cloud Computing in Big Data and Generative AI Era
+
+Blockchain Meets IoT for Big Data
+
+Brain-Inspired Hyperdimensional Computing: Theoretical Perspectives and Real-World Applications
+
+Business Intelligence and Big Data in E-commerce
+
+Challenges and Perspectives of Social Networks within Social Computing
+
+Cognitive and Physiological Assessments in Human-Computer Interaction
+
+Cognitive Services Integrating with Big Data, Clouds and IoT
+
+Computational Collective Intelligence with Big Data–AI Society
+
+Computational Finance and Big Data Analytics
+
+Computational Intelligence: Spiking Neural Networks
+
+Computational Models of Cognition and Learning
+
+COVID-19: Medical Internet of Things and Big Data Analytics
+
+Cross Modality Deep Learning and Knowledge Representation
+
+Cyber Security in Big Data Era
+
+Cybersecurity, Threat Analysis and the Management of Risk
+
+Data Mining and the Future of Cybersecurity
+
+Data Science in Health Care
+
+Data Security and Privacy in Blockchain-Based Decentralized Applications
+
+Data-Based Bioinformatics and Applications
+
+Data, Structure, and Information in Artificial Intelligence
+
+Deep Learning for Advanced Visual Representation and Analysis
+
+Deep Learning Technology and Big Data Method for Business and Environmental Management
+
+Deep Learning-Based Pose Estimation: Applications in Vision, Robotics, and Beyond
+
+Deep Network Learning and Its Applications
+
+Digital Health and Data Analytics in Public Health
+
+Digital Twins for Complex Systems
+
+Distributed Applications and Services for Future Internet
+
+Edge Computing and Fog Computing on the Internet of Things
+
+Educational Data Mining and Technology
+
+Emerging Trends and Applications of Big Data in Robotic Systems
+
+Energy-Efficient IoT (Internet of Things) and Big Data Challenges for Connected Intelligence
+
+Fault Diagnosis and Detection Based on Deep Learning
+
+Feature-Rich Artificial Intelligence Models and Applications of Cognition
+
+Generative AI and Large Language Models
+
+Graph-Based Data Mining and Social Network Analysis
+
+Health Assessment in the Big Data Era
+
+Human Factor in Information Systems Development and Management
+
+Industrial Applications of IoT and Blockchain for Sustainable Environment
+
+Industrial Data Mining and Machine Learning Applications
+
+Information Security and Cyber Intelligence
+
+Interactive Visual Analytics and Explainable AI for Big Data
+
+Internet of Things (IoT) and Ambient Intelligence
+
+Knowledge Modelling and Learning through Cognitive Networks
+
+Knowledge Representation Formalisms for AI Applications
+
+Learning with Big Data: Scalable Algorithms and Novel Applications
+
+Low-Power Data Processing on the Edge: Solutions for Artificial Intelligence Hardware Acceleration
+
+Machine and Deep Learning in Computer Vision Applications
+
+Machine Learning and AI Technology for Sustainable Development
+
+Machine Learning and Artificial Intelligence for Health Applications on Social Networks
+
+Machine Learning and Data Analysis for Image Processing
+
+Machine Learning and Data Analytics for Communication Networks in the 5G Era
+
+Machine Learning Applications and Big Data Challenges
+
+Machine Learning for Dependable Edge Computing Systems and Services
+
+Machine Learning for Social Media Analysis
+
+Machine Learning in Data Mining for Knowledge Discovery
+
+Machine Learning Techniques on Biometrics and IoT Applications
+
+Managing Cybersecurity Threats and Increasing Organizational Resilience
+
+ML-Based Cognitive Network Management: For Better 6G Applications
+
+Multimedia Systems for Multimedia Big Data
+
+Natural Language Processing and Event Extraction for Big Data
+
+Natural Language Processing Applications in Big Data
+
+Perception and Detection of Intelligent Vision
+
+Predictive Performance-Explainability Duality for Big Data Analytics-Powered Healthcare
+
+Privacy-Enhancing Technologies of Data for Sustainable and Secure Cooperation
+
+Quality and Security of Critical Infrastructure Systems
+
+Real-Time Data Services for the Internet of Things
+
+Recent Advances and Applications of Big Data and Distributed Computing Systems
+
+Recent Advances in Big Data-Driven Prescriptive Analytics
+
+Recent Advances in Deep Transfer Learning Applications for Image Processing Problems and Big Data
+
+Recent Advances in Machine Learning Methods for Imperfect Large-Scale Data
+
+Recommendation, Information Retrieval, and Exploratory Search
+
+Research on Privacy and Data Security
+
+Research Progress in Artificial Intelligence and Social Network Analysis
+
+Resilient and Reliable Artificial Intelligence (AI) Systems
+
+Review Papers in Big Data, Cloud-Based Data Analysis and Learning Systems
+
+Revolutionizing Healthcare: Exploring the Latest Advances in Digital Health Technology
+
+Security, Privacy, and Trust in Artificial Intelligence Applications
+
+Semantic Web Technology and Recommender Systems
+
+Semantic Web Technology and Recommender Systems 2nd Edition
+
+Smart Communication Systems and Networks for Big Data
+
+Smarter Healthcare via Big Data and Machine Learning
+
+Speech Recognition and Machine Learning: Current Trends and Future
+
+Sustainable Big Data Analytics and Machine Learning Technologies
+
+Transforming Cyber Security Provision Through Utilizing Artificial Intelligence
+
+Unlocking Minds and Machines: Advances in Cognitive Computing and Big Data Analytics
+
+Virtual Reality, Augmented Reality, and Human-Computer Interaction
+
+All Special Issues
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Volume
+
+ 
+
+9
+
+Issue
+
+ 
+
+3
+
+Number
+
+Page
+
+Logical Operator Operator
+
+AND
+
+OR
+
+Search Text
+
+Search Type
+
+All fields
+
+Title
+
+Abstract
+
+Keywords
+
+Authors
+
+Affiliations
+
+Doi
+
+Full Text
+
+References
+
+add_circle_outline
+
+remove_circle_outline
+
+ 
+
+Search
+
+Journals
+
+https://www.mdpi.com/about/journals
+
+BDCC
+
+https://www.mdpi.com/journal/BDCC
+
+Volume 9
+
+https://www.mdpi.com/2504-2289/9
+
+Issue 3
+
+https://www.mdpi.com/2504-2289/9/3
+
+10.3390/bdcc9030065
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Submit to this Journal
+
+https://susy.mdpi.com/user/manuscripts/upload?form%5Bjournal_id%5D%3D245
+
+ 
+
+Review for this Journal
+
+https://susy.mdpi.com/volunteer/journals/review
+
+ 
+
+Propose a Special Issue
+
+https://www.mdpi.com/journalproposal/sendproposalspecialissue/BDCC
+
+► ▼ Article Menu
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Article Menu
+
+Academic Editors
+
+https://www.mdpi.com/2504-2289/9/3/65#academic_editors
+
+ Xingyi Song
+
+ Ye Jiang 
+
+Yunfei Long
+
+https://sciprofiles.com/profile/4624507?utm_source=mdpi.com&utm_medium=website&utm_campaign=avatar_name
+
+Recommended Articles
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Related Info Link
+
+https://www.mdpi.com/2504-2289/9/3/65#related
+
+Google Scholar
+
+http://scholar.google.com/scholar?q=Enhancing%20Hierarchical%20Classification%20in%20Tree-Based%20Models%20Using%20Level-Wise%20Entropy%20Adjustment
+
+More by Authors Links
+
+https://www.mdpi.com/2504-2289/9/3/65#authors
+
+on DOAJ
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Narushynska, O.
+
+http://doaj.org/search/articles?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22%5C%22Olga%20Narushynska%5C%22%22%2C%22default_operator%22%3A%22AND%22%2C%22default_field%22%3A%22bibjson.author.name%22%7D%7D%7D
+
+Doroshenko, A.
+
+http://doaj.org/search/articles?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22%5C%22Anastasiya%20Doroshenko%5C%22%22%2C%22default_operator%22%3A%22AND%22%2C%22default_field%22%3A%22bibjson.author.name%22%7D%7D%7D
+
+Teslyuk, V.
+
+http://doaj.org/search/articles?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22%5C%22Vasyl%20Teslyuk%5C%22%22%2C%22default_operator%22%3A%22AND%22%2C%22default_field%22%3A%22bibjson.author.name%22%7D%7D%7D
+
+Antoniv, V.
+
+http://doaj.org/search/articles?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22%5C%22Volodymyr%20Antoniv%5C%22%22%2C%22default_operator%22%3A%22AND%22%2C%22default_field%22%3A%22bibjson.author.name%22%7D%7D%7D
+
+Arzubov, M.
+
+http://doaj.org/search/articles?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22%5C%22Maksym%20Arzubov%5C%22%22%2C%22default_operator%22%3A%22AND%22%2C%22default_field%22%3A%22bibjson.author.name%22%7D%7D%7D
+
+on Google Scholar
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Narushynska, O.
+
+http://scholar.google.com/scholar?q=Olga%20Narushynska
+
+Doroshenko, A.
+
+http://scholar.google.com/scholar?q=Anastasiya%20Doroshenko
+
+Teslyuk, V.
+
+http://scholar.google.com/scholar?q=Vasyl%20Teslyuk
+
+Antoniv, V.
+
+http://scholar.google.com/scholar?q=Volodymyr%20Antoniv
+
+Arzubov, M.
+
+http://scholar.google.com/scholar?q=Maksym%20Arzubov
+
+on PubMed
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Narushynska, O.
+
+http://www.pubmed.gov/?cmd=Search&term=Olga%20Narushynska
+
+Doroshenko, A.
+
+http://www.pubmed.gov/?cmd=Search&term=Anastasiya%20Doroshenko
+
+Teslyuk, V.
+
+http://www.pubmed.gov/?cmd=Search&term=Vasyl%20Teslyuk
+
+Antoniv, V.
+
+http://www.pubmed.gov/?cmd=Search&term=Volodymyr%20Antoniv
+
+Arzubov, M.
+
+http://www.pubmed.gov/?cmd=Search&term=Maksym%20Arzubov
+
+Article Views 5368
+
+https://www.mdpi.com/2504-2289/9/3/65#metrics
+
+Citations 5
+
+https://www.mdpi.com/2504-2289/9/3/65#metrics
+
+Table of Contents
+
+https://www.mdpi.com/2504-2289/9/3/65#table_of_contents
+
+Abstract
+
+https://www.mdpi.com/2504-2289/9/3/65#html-abstract
+
+Introduction
+
+https://www.mdpi.com/2504-2289/9/3/65#sec1-BDCC-09-00065
+
+Relevant Research
+
+https://www.mdpi.com/2504-2289/9/3/65#sec2-BDCC-09-00065
+
+Materials and Methods
+
+https://www.mdpi.com/2504-2289/9/3/65#sec3-BDCC-09-00065
+
+Experimental Settings
+
+https://www.mdpi.com/2504-2289/9/3/65#sec4-BDCC-09-00065
+
+Experimental Setup
+
+https://www.mdpi.com/2504-2289/9/3/65#sec5-BDCC-09-00065
+
+Results
+
+https://www.mdpi.com/2504-2289/9/3/65#sec6-BDCC-09-00065
+
+Discussion
+
+https://www.mdpi.com/2504-2289/9/3/65#sec7-BDCC-09-00065
+
+Conclusions
+
+https://www.mdpi.com/2504-2289/9/3/65#sec8-BDCC-09-00065
+
+Author Contributions
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Funding
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Data Availability Statement
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Conflicts of Interest
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+References
+
+https://www.mdpi.com/2504-2289/9/3/65#html-references_list
+
+Altmetric 
+
+share Share
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+ 
+
+announcement Help
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+ 
+
+format_quote Cite
+
+javascript:void(0);
+
+ 
+
+question_answer Discuss in SciProfiles
+
+https://sciprofiles.com/discussion-groups/public/10.3390/bdcc9030065?utm_source=mpdi.com&utm_medium=publication&utm_campaign=discuss_in_sciprofiles
+
+Need Help?
+
+Support
+
+Find support for a specific problem in the support section of our website.
+
+Get Support
+
+https://www.mdpi.com/about/contactform
+
+Feedback
+
+Please let us know what you think of our products and services.
+
+Give Feedback
+
+https://www.mdpi.com/feedback/send
+
+Information
+
+Visit our dedicated information section to learn more about MDPI.
+
+Get Information
+
+https://www.mdpi.com/authors
+
+clear
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+JSmol Viewer
+
+clear
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+first_page
+
+Download PDF
+
+https://www.mdpi.com/2504-2289/9/3/65/pdf?version=1741673594
+
+settings
+
+Order Article Reprints
+
+https://www.mdpi.com/2504-2289/9/3/65/reprints
+
+Font Type:
+
+Arial
+
+ 
+
+Georgia
+
+ 
+
+Verdana
+
+Font Size:
+
+Aa Aa Aa
+
+Line Spacing:
+
+
+
+ 
+
+
+
+ 
+
+
+
+Column Width:
+
+
+
+ 
+
+
+
+ 
+
+
+
+Background:
+
+Open Access Article
+
+Enhancing Hierarchical Classification in Tree-Based Models Using Level-Wise Entropy Adjustment
+
+by
+
+Olga Narushynska
+
+ 
+
+Olga Narushynska
+
+SciProfiles
+
+https://sciprofiles.com/profile/3451254?utm_source=mdpi.com&utm_medium=website&utm_campaign=avatar_name
+
+ 
+
+Scilit
+
+https://scilit.com/scholars?q=Olga%20Narushynska
+
+ 
+
+Preprints.org
+
+https://www.preprints.org/search?condition_blocks=[{%22value%22:%22Olga+Narushynska%22,%22type%22:%22author%22,%22operator%22:null}]&sort_field=relevance&sort_dir=desc&page=1&exact_match=true
+
+ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?q=Olga+Narushynska
+
+ 
+
+mailto:olha.o.narushynska@lpnu.ua
+
+ 
+
+,
+
+Anastasiya Doroshenko
+
+ 
+
+Anastasiya Doroshenko
+
+SciProfiles
+
+https://sciprofiles.com/profile/3411528?utm_source=mdpi.com&utm_medium=website&utm_campaign=avatar_name
+
+ 
+
+Scilit
+
+https://scilit.com/scholars?q=Anastasiya%20Doroshenko
+
+ 
+
+Preprints.org
+
+https://www.preprints.org/search?condition_blocks=[{%22value%22:%22Anastasiya+Doroshenko%22,%22type%22:%22author%22,%22operator%22:null}]&sort_field=relevance&sort_dir=desc&page=1&exact_match=true
+
+ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?q=Anastasiya+Doroshenko
+
+ 
+
+*
+
+ 
+
+mailto:anaastasiia.v.doroshenko@lpnu.ua
+
+ 
+
+,
+
+Vasyl Teslyuk
+
+ 
+
+Vasyl Teslyuk
+
+SciProfiles
+
+https://sciprofiles.com/profile/1231645?utm_source=mdpi.com&utm_medium=website&utm_campaign=avatar_name
+
+ 
+
+Scilit
+
+https://scilit.com/scholars?q=Vasyl%20Teslyuk
+
+ 
+
+Preprints.org
+
+https://www.preprints.org/search?condition_blocks=[{%22value%22:%22Vasyl+Teslyuk%22,%22type%22:%22author%22,%22operator%22:null}]&sort_field=relevance&sort_dir=desc&page=1&exact_match=true
+
+ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?q=Vasyl+Teslyuk
+
+ 
+
+mailto:vasyl.m.teslyuk@lpnu.ua
+
+ 
+
+,
+
+Volodymyr Antoniv
+
+ 
+
+Volodymyr Antoniv
+
+SciProfiles
+
+https://sciprofiles.com/profile/4143209?utm_source=mdpi.com&utm_medium=website&utm_campaign=avatar_name
+
+ 
+
+Scilit
+
+https://scilit.com/scholars?q=Volodymyr%20Antoniv
+
+ 
+
+Preprints.org
+
+https://www.preprints.org/search?condition_blocks=[{%22value%22:%22Volodymyr+Antoniv%22,%22type%22:%22author%22,%22operator%22:null}]&sort_field=relevance&sort_dir=desc&page=1&exact_match=true
+
+ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?q=Volodymyr+Antoniv
+
+ 
+
+mailto:volodymyr.y.antoniv@lpnu.ua
+
+ 
+
+and
+
+Maksym Arzubov
+
+ 
+
+Maksym Arzubov
+
+SciProfiles
+
+https://sciprofiles.com/profile/4171257?utm_source=mdpi.com&utm_medium=website&utm_campaign=avatar_name
+
+ 
+
+Scilit
+
+https://scilit.com/scholars?q=Maksym%20Arzubov
+
+ 
+
+Preprints.org
+
+https://www.preprints.org/search?condition_blocks=[{%22value%22:%22Maksym+Arzubov%22,%22type%22:%22author%22,%22operator%22:null}]&sort_field=relevance&sort_dir=desc&page=1&exact_match=true
+
+ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?q=Maksym+Arzubov
+
+ 
+
+mailto:maksym.v.arzubov@lpnu.ua
+
+ 
+
+Department of Automated Control Systems, Lviv Polytechnic National University, 79013 Lviv, Ukraine 
+
+*
+
+Author to whom correspondence should be addressed.
+
+Big Data Cogn. Comput.
+
+ 
+
+2025
+
+, 
+
+9
+
+(3), 65; 
+
+https://doi.org/10.3390/bdcc9030065
+
+https://doi.org/10.3390/bdcc9030065
+
+Submission received: 30 December 2024 / Revised: 3 March 2025 / Accepted: 6 March 2025 / Published: 11 March 2025
+
+(This article belongs to the Special Issue 
+
+Natural Language Processing Applications in Big Data
+
+https://www.mdpi.com/journal/BDCC/special_issues/9N6QB6G1RO
+
+)
+
+Download keyboard_arrow_down
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Download PDF
+
+https://www.mdpi.com/2504-2289/9/3/65/pdf?version=1741673594
+
+Download PDF with Cover
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Download XML
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Download Epub
+
+https://www.mdpi.com/2504-2289/9/3/65/epub
+
+Browse Figures
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+ 
+
+https://pub.mdpi-res.com/BDCC/BDCC-09-00065/article_deploy/html/images/BDCC-09-00065-g001.png?1741673669
+
+ 
+
+https://pub.mdpi-res.com/BDCC/BDCC-09-00065/article_deploy/html/images/BDCC-09-00065-g002.png?1741673672
+
+ 
+
+https://pub.mdpi-res.com/BDCC/BDCC-09-00065/article_deploy/html/images/BDCC-09-00065-g003a.png?1741673674
+
+ 
+
+https://pub.mdpi-res.com/BDCC/BDCC-09-00065/article_deploy/html/images/BDCC-09-00065-g003b.png?1741673676
+
+ 
+
+https://pub.mdpi-res.com/BDCC/BDCC-09-00065/article_deploy/html/images/BDCC-09-00065-g004.png?1741673678
+
+ 
+
+https://pub.mdpi-res.com/BDCC/BDCC-09-00065/article_deploy/html/images/BDCC-09-00065-g005.png?1741673679
+
+ 
+
+https://pub.mdpi-res.com/BDCC/BDCC-09-00065/article_deploy/html/images/BDCC-09-00065-g006.png?1741673681
+
+Versions Notes
+
+https://www.mdpi.com/2504-2289/9/3/65/notes
+
+Article Views
+
+https://www.mdpi.com/2504-2289/9/3/65#metrics
+
+Citations -
+
+https://www.mdpi.com/2504-2289/9/3/65#metrics
+
+Abstract
+
+Hierarchical classification, which organizes items into structured categories and subcategories, has emerged as a powerful solution for handling large and complex datasets. However, traditional flat classification approaches often overlook the hierarchical dependencies between classes, leading to suboptimal predictions and limited interpretability. This paper addresses these challenges by proposing a novel integration of tree-based models with hierarchical-aware split criteria through adjusted entropy calculations. The proposed method calculates entropy at multiple hierarchical levels, ensuring that the model respects the taxonomic structure during training. This approach aligns statistical optimization with class semantic relationships, enabling more accurate and coherent predictions. Experiments conducted on real-world datasets structured according to the GS1 Global Product Classification (GPC) system demonstrate the effectiveness of our method. The proposed model was applied using tree-based ensemble methods combined with the newly developed hierarchy-aware metric Penalized Information Gain (PIG). PIG was implemented with level-wise entropy adjustments, assigning greater weight to higher hierarchical levels to maintain the taxonomic structure. The model was trained and evaluated on two real-world datasets based on the GS1 Global Product Classification (GPC) system. The final dataset included approximately 30,000 product descriptions spanning four hierarchical levels. An 80-20 train–test split was used, with model hyperparameters optimized through 5-fold cross-validation and Bayesian search. The experimental results showed a 12.7% improvement in classification accuracy at the lowest hierarchy level compared to traditional flat classification methods, with significant gains in datasets featuring highly imbalanced class distributions and deep hierarchies. The proposed approach also increased the F1 score by 12.6%. Despite these promising results, challenges remain in scaling the model for very large datasets and handling classes with limited training samples. Future research will focus on integrating neural networks with hierarchy-aware metrics, enhancing data augmentation to address class imbalance, and developing real-time classification systems for practical use in industries such as retail, logistics, and healthcare.
+
+Keywords:
+
+hierarchical product classification
+
+https://www.mdpi.com/search?q=hierarchical+product+classification
+
+; 
+
+GS1 global data model
+
+https://www.mdpi.com/search?q=GS1+global+data+model
+
+; 
+
+decision trees
+
+https://www.mdpi.com/search?q=decision+trees
+
+; 
+
+neural networks
+
+https://www.mdpi.com/search?q=neural+networks
+
+; 
+
+automated classification
+
+https://www.mdpi.com/search?q=automated+classification
+
+; 
+
+product taxonomy
+
+https://www.mdpi.com/search?q=product+taxonomy
+
+; 
+
+hierarchical structures
+
+https://www.mdpi.com/search?q=hierarchical+structures
+
+; 
+
+retail data management
+
+https://www.mdpi.com/search?q=retail+data+management
+
+; 
+
+global trade optimization
+
+https://www.mdpi.com/search?q=global+trade+optimization
+
+; 
+
+flat classification
+
+https://www.mdpi.com/search?q=flat+classification
+
+; 
+
+entropy
+
+https://www.mdpi.com/search?q=entropy
+
+1. Introduction
+
+As global trade expands, the diversity of available products grows exponentially. This expansion has created a pressing need for efficient systems to organize and categorize goods [ 
+
+1
+
+https://www.mdpi.com/2504-2289/9/3/65#B1-BDCC-09-00065
+
+]. Hierarchical product classification has emerged as a critical tool, offering a structured way to manage products by sorting them into categories and subcategories, thus streamlining organization and accessibility [ 
+
+2
+
+https://www.mdpi.com/2504-2289/9/3/65#B2-BDCC-09-00065
+
+].
+
+In business, hierarchical classification is critical to enhancing the management of logistics, sales, and marketing [ 
+
+3
+
+https://www.mdpi.com/2504-2289/9/3/65#B3-BDCC-09-00065
+
+]. With the continuous growth of global commerce and the increasing complexity of consumer-related data—particularly purchasing patterns—developing effective algorithms for automatic product classification has become increasingly challenging [ 
+
+4
+
+https://www.mdpi.com/2504-2289/9/3/65#B4-BDCC-09-00065
+
+]. The manual classification of extensive product inventories is not only time-consuming but also resource-intensive, rendering it impractical for large-scale operations [ 
+
+5
+
+https://www.mdpi.com/2504-2289/9/3/65#B5-BDCC-09-00065
+
+]. In this context, machine learning (ML) methods offer promising solutions to handle hierarchical product classification more efficiently, providing an optimistic outlook for streamlining product organization [ 
+
+6
+
+https://www.mdpi.com/2504-2289/9/3/65#B6-BDCC-09-00065
+
+].
+
+Guided by the GS1 Global Product Classification (GPC) system—a widely recognized standard used in over 150 countries—this study aims to address the complexities of hierarchical product classification using machine learning techniques [ 
+
+7
+
+https://www.mdpi.com/2504-2289/9/3/65#B7-BDCC-09-00065
+
+]. The selection of the GS1 GPC system is motivated by its global adoption in retail, logistics, and supply chain management, providing a comprehensive and standardized taxonomy that ensures consistency in product categorization across diverse markets [ 
+
+8
+
+https://www.mdpi.com/2504-2289/9/3/65#B8-BDCC-09-00065
+
+]. This standardization is critical for enabling seamless international trade and fostering stronger global business partnerships.
+
+This paper introduces machine learning models designed specifically for hierarchical classification. Employing various techniques, such as decision trees and neural networks, we demonstrate that these models can process large volumes of data and maintain a high classification accuracy level within hierarchical structures.
+
+Additionally, as the global economy evolves, the importance of standardizing product classification systems continues to grow [ 
+
+9
+
+https://www.mdpi.com/2504-2289/9/3/65#B9-BDCC-09-00065
+
+]. Hierarchical classification supports the uniformity and reliability of product data across international markets, a vital aspect of facilitating cross-border trade and fostering stronger global partnerships [ 
+
+10
+
+https://www.mdpi.com/2504-2289/9/3/65#B10-BDCC-09-00065
+
+].
+
+In this context, advancing machine learning methodologies for hierarchical classification becomes a technical innovation and an essential step for supporting modern business and economic frameworks [ 
+
+11
+
+https://www.mdpi.com/2504-2289/9/3/65#B11-BDCC-09-00065
+
+].
+
+Previous research has explored various ML approaches for hierarchical classification, including decision trees [ 
+
+12
+
+https://www.mdpi.com/2504-2289/9/3/65#B12-BDCC-09-00065
+
+, 
+
+13
+
+https://www.mdpi.com/2504-2289/9/3/65#B13-BDCC-09-00065
+
+] and neural networks [ 
+
+4
+
+https://www.mdpi.com/2504-2289/9/3/65#B4-BDCC-09-00065
+
+, 
+
+14
+
+https://www.mdpi.com/2504-2289/9/3/65#B14-BDCC-09-00065
+
+, 
+
+15
+
+https://www.mdpi.com/2504-2289/9/3/65#B15-BDCC-09-00065
+
+]. Traditional methods such as flat classifiers, while computationally simpler, ignore the parent–child relationships between classes, often resulting in suboptimal predictions and cascading errors at lower hierarchy levels [ 
+
+16
+
+https://www.mdpi.com/2504-2289/9/3/65#B16-BDCC-09-00065
+
+]. To improve split decisions in decision tree models, Information Gain (IG) has been widely used as a criterion to maximize entropy reduction [ 
+
+17
+
+https://www.mdpi.com/2504-2289/9/3/65#B17-BDCC-09-00065
+
+]. However, IG's major limitation is its disregard for hierarchical dependencies, which can lead to splits that are statistically optimal but semantically incoherent. To address this, Taxonomic Informativeness (TI) was introduced to incorporate hierarchy into split evaluations [ 
+
+18
+
+https://www.mdpi.com/2504-2289/9/3/65#B18-BDCC-09-00065
+
+]. Although TI offers better alignment with taxonomic structures, it tends to overemphasize semantic relationships at the expense of statistical optimization, particularly when dealing with deeply nested hierarchies and imbalanced data distributions [ 
+
+19
+
+https://www.mdpi.com/2504-2289/9/3/65#B19-BDCC-09-00065
+
+].
+
+Despite these advancements, practical applications of hierarchical classification still face notable challenges. Existing methods like IG and TI often struggle with cascading misclassifications, where an error at a higher-level node propagates to subsequent levels, severely compromising overall accuracy. Additionally, handling class imbalance remains a significant issue, as many real-world datasets, especially in retail and logistics, exhibit skewed distributions, with dominant categories overshadowing less frequent ones [ 
+
+19
+
+https://www.mdpi.com/2504-2289/9/3/65#B19-BDCC-09-00065
+
+]. Computational efficiency is another concern; many hierarchy-aware methods are resource-intensive, limiting their scalability for large datasets or real-time applications [ 
+
+15
+
+https://www.mdpi.com/2504-2289/9/3/65#B15-BDCC-09-00065
+
+, 
+
+20
+
+https://www.mdpi.com/2504-2289/9/3/65#B20-BDCC-09-00065
+
+].
+
+This study introduces Penalized Information Gain (PIG), a novel metric designed to bridge the gap between statistical optimization and taxonomic coherence in hierarchical classification tasks. PIG extends the traditional IG criterion by incorporating level-wise entropy adjustments, assigning higher weights to upper hierarchical levels to minimize cascading errors and improve semantic consistency. By integrating PIG into tree-based ensemble models, this approach ensures that splits not only maximize statistical significance but also preserve the hierarchical structure of the data. Compared to IG and TI, PIG offers a balanced solution, addressing both statistical and taxonomic considerations simultaneously.
+
+The work presented in this study tackles the challenges of hierarchical classification by addressing the limitations of traditional split evaluation criteria. More specifically, this study achieves the following:
+
+It introduces Penalized Information Gain (PIG), a novel metric that integrates Information Gain (IG) with Taxonomic Informativeness (TI), enabling a hierarchy-aware evaluation of splits in decision tree models. This approach ensures that splits respect both statistical and taxonomic criteria.
+
+It provides a detailed empirical validation of the proposed metric using two real-world datasets structured according to the GS1 Global Product Classification (GPC) system. These experiments demonstrate the practical benefits of PIG, including improved classification accuracy and semantic alignment with hierarchical taxonomies.
+
+It critically analyzes hierarchical classification metrics, comparing IG, TI, and PIG to highlight their respective strengths and limitations. This analysis provides valuable insights for developing more effective split evaluation criteria in hierarchical classification tasks.
+
+The remainder of this paper is organized as follows. 
+
+Section 2
+
+https://www.mdpi.com/2504-2289/9/3/65#sec2-BDCC-09-00065
+
+ introduces the problem of hierarchical classification and presents the proposed Penalized Information Gain (PIG) metric. 
+
+Section 3
+
+https://www.mdpi.com/2504-2289/9/3/65#sec3-BDCC-09-00065
+
+ describes the datasets and experimental setup used to validate PIG. 
+
+Section 4
+
+https://www.mdpi.com/2504-2289/9/3/65#sec4-BDCC-09-00065
+
+ discusses the empirical results, comparing PIG with traditional metrics. Finally, 
+
+Section 5
+
+https://www.mdpi.com/2504-2289/9/3/65#sec5-BDCC-09-00065
+
+ concludes this study and identifies avenues for future research.
+
+Hierarchical classification is a specialized classification task involving organizing data into a taxonomy, where classes exhibit parent–child relationships. Formally, the hierarchy can be represented as a directed tree H = ( Y, E), where Y is the set of nodes (classes), and E ⊂ Y 
+
+2
+
+ represents the directed edges linking parent nodes to their children. Each data instance x ∈ X is assigned a unique path or set of paths Y ⊆ Y that align with the hierarchy. A valid assignment satisfies the constraint that for any class y ∈ Y, all its ancestors A( y) are also included in Y.
+
+Unlike flat classification, hierarchical classification must account for the dependencies between labels at different levels of the hierarchy. In decision tree-based models, traditional split evaluation criteria, such as Information Gain (IG), focus solely on entropy reduction, ignoring these hierarchical relationships. This oversight often leads to splits that optimize statistical metrics at the expense of semantic coherence [ 
+
+21
+
+https://www.mdpi.com/2504-2289/9/3/65#B21-BDCC-09-00065
+
+, 
+
+22
+
+https://www.mdpi.com/2504-2289/9/3/65#B22-BDCC-09-00065
+
+].
+
+This study focuses on methods that enhance split evaluation in decision tree models to better align with hierarchical structures. By introducing a hierarchy-aware metric, Penalized Information Gain (PIG), we aim to address the misalignment between statistical optimization and the preservation of taxonomic integrity. Our work evaluates how well splits respect the hierarchy while reducing uncertainty, bridging the gap between statistical and semantic criteria for hierarchical classification [ 
+
+23
+
+https://www.mdpi.com/2504-2289/9/3/65#B23-BDCC-09-00065
+
+].
+
+Hierarchical classification presents unique challenges that arise from the complex relationships between categories in a taxonomy. Unlike flat classification, where each class is treated independently, hierarchical classification requires models to account for parent–child dependencies between categories. This interdependence significantly increases the complexity of the task, particularly in scenarios involving deep or unbalanced hierarchies.
+
+One of the primary challenges is error propagation. A misclassification at a higher level of the hierarchy can cascade down, leading to incorrect predictions at all subsequent levels [ 
+
+14
+
+https://www.mdpi.com/2504-2289/9/3/65#B14-BDCC-09-00065
+
+]. For example, if a product is wrongly categorized at the “Electronics” level instead of “Furniture”, all subcategories within “Furniture” become inaccessible for further refinement. This issue is compounded in deep hierarchies, where early-stage errors have a magnified impact on the final classification.
+
+Another significant challenge is data imbalance within the hierarchy [ 
+
+24
+
+https://www.mdpi.com/2504-2289/9/3/65#B24-BDCC-09-00065
+
+]. Certain branches may have a disproportionately larger number of samples compared to others, leading models to prioritize larger categories. As a result, smaller but semantically important categories are often underrepresented, reducing the overall accuracy and utility of the classification system [ 
+
+25
+
+https://www.mdpi.com/2504-2289/9/3/65#B25-BDCC-09-00065
+
+]. Additionally, the varying depths of hierarchies create further imbalance, with some branches having more detailed subdivisions while others remain broad, making it difficult for models to generalize effectively across the structure.
+
+Overfitting is another critical concern, particularly at deeper levels of the hierarchy. As the dataset becomes narrower with each subsequent classification level, the risk of models becoming overly tailored to the training data increases. This can lead to the poor generalization of unseen data, undermining the model's reliability in practical applications. Addressing this issue requires strategies such as ensuring a sufficient number of training examples at each level or applying regularization techniques [ 
+
+18
+
+https://www.mdpi.com/2504-2289/9/3/65#B18-BDCC-09-00065
+
+].
+
+Finally, there is the challenge of balancing statistical optimization with semantic coherence [ 
+
+26
+
+https://www.mdpi.com/2504-2289/9/3/65#B26-BDCC-09-00065
+
+]. Traditional metrics like Information Gain focus purely on reducing entropy without considering the hierarchical structure of the data [ 
+
+27
+
+https://www.mdpi.com/2504-2289/9/3/65#B27-BDCC-09-00065
+
+]. This often results in splits that are statistically optimal but misaligned with the taxonomy, undermining the interpretability and meaningfulness of the predictions.
+
+These challenges highlight the need for hierarchy-aware methods and metrics that can address the limitations of standard approaches [ 
+
+28
+
+https://www.mdpi.com/2504-2289/9/3/65#B28-BDCC-09-00065
+
+]. Such methods must effectively handle the cascading nature of errors, mitigate the impact of imbalanced data, prevent overfitting at deeper levels, and align statistical objectives with the semantic structure of the taxonomy [ 
+
+19
+
+https://www.mdpi.com/2504-2289/9/3/65#B19-BDCC-09-00065
+
+]. Developing solutions that address these issues is crucial for advancing hierarchical classification in real-world scenarios [ 
+
+29
+
+https://www.mdpi.com/2504-2289/9/3/65#B29-BDCC-09-00065
+
+].
+
+Despite these challenges, hierarchical classification remains valuable in healthcare and product categorization, where large, multi-class datasets must be handled efficiently [ 
+
+30
+
+https://www.mdpi.com/2504-2289/9/3/65#B30-BDCC-09-00065
+
+]. The ability to structure the classification process hierarchically improves accuracy and helps manage the complexity of large-scale data, making it an effective approach in real-world applications [ 
+
+31
+
+https://www.mdpi.com/2504-2289/9/3/65#B31-BDCC-09-00065
+
+].
+
+2. Relevant Research
+
+Over the years, various machine learning models and methods have been explored to address the complexities of hierarchical classification, particularly focusing on handling multi-level taxonomies, cascading errors, and class imbalances.
+
+One of the earliest and most influential contribution to this field was presented by Joachims [ 
+
+32
+
+https://www.mdpi.com/2504-2289/9/3/65#B32-BDCC-09-00065
+
+], who introduced a model-building approach using Support Vector Machines (SVMs) combined with high-dimensional sparse text representations. This pioneering work laid the foundation for subsequent research in hierarchical text classification, emphasizing the importance of efficient feature representation in handling large and complex datasets. Building upon such foundational methods, researchers have explored ways to enhance model scalability and classification accuracy, especially for text-rich applications.
+
+A comprehensive overview of hierarchical classification methods across various application domains was provided by Silla and Freitas [ 
+
+16
+
+https://www.mdpi.com/2504-2289/9/3/65#B16-BDCC-09-00065
+
+]. Their extensive survey highlights the diverse use cases of hierarchical classification, encompassing NLP, image recognition, and gene function prediction. This study underscores the versatility of hierarchical classification methods while noting critical challenges, such as managing deeply nested hierarchies and handling data sparsity in lower-level classes. These challenges persist as significant hurdles in achieving consistent and accurate classification across multiple hierarchy levels.
+
+In recent years, deep learning has emerged as a dominant approach in hierarchical classification, particularly for processing short texts and complex documents. Yang et al. [ 
+
+33
+
+https://www.mdpi.com/2504-2289/9/3/65#B33-BDCC-09-00065
+
+] introduced Hierarchical Attention Networks (HANs) for document classification, leveraging attention mechanisms to capture hierarchical relationships within texts. This approach significantly improved classification accuracy by focusing on both sentence-level and document-level structures, addressing the challenge of representing hierarchical dependencies in textual data.
+
+Probabilistic models have also contributed to advancements in this field. Zhang et al. [ 
+
+34
+
+https://www.mdpi.com/2504-2289/9/3/65#B34-BDCC-09-00065
+
+] proposed a semi-supervised probabilistic framework for hierarchical multi-label classification. Their method utilizes both labeled and unlabeled data to enhance model robustness, effectively addressing the challenge of limited annotated data in many real-world applications. By incorporating probabilistic modeling, their approach offers improved handling of complex label dependencies inherent in hierarchical taxonomies.
+
+Another notable contribution is the work of Sebastiani [ 
+
+35
+
+https://www.mdpi.com/2504-2289/9/3/65#B35-BDCC-09-00065
+
+], who focused on methods for hierarchical multi-class text classification. His research introduced evaluation techniques using confusion matrices and precision metrics, providing a systematic framework for assessing the performance of hierarchical classification models. This work highlighted the need for comprehensive evaluation criteria that account for hierarchical relationships between classes, a gap that many earlier studies had overlooked.
+
+Decision tree-based methods have remained a popular choice for hierarchical classification due to their interpretability and efficiency. Read et al. [ 
+
+36
+
+https://www.mdpi.com/2504-2289/9/3/65#B36-BDCC-09-00065
+
+] explored classifier chains for multi-label hierarchical classification, demonstrating their effectiveness in capturing label dependencies within hierarchical structures [ 
+
+37
+
+https://www.mdpi.com/2504-2289/9/3/65#B37-BDCC-09-00065
+
+]. Their approach involves decomposing complex classification tasks into a sequence of simpler models, each focusing on a specific level of the hierarchy. This method is particularly suited for handling short texts, where contextual information is limited but hierarchical cues are vital [ 
+
+38
+
+https://www.mdpi.com/2504-2289/9/3/65#B38-BDCC-09-00065
+
+].
+
+Despite these significant contributions, several research gaps remain. Existing methods often struggle with cascading errors, where misclassifications at higher hierarchical levels propagate to subsequent layers, diminishing overall accuracy. Additionally, handling class imbalance—particularly in real-world datasets where certain categories dominate—remains a persistent challenge [ 
+
+19
+
+https://www.mdpi.com/2504-2289/9/3/65#B19-BDCC-09-00065
+
+]. Scalability is another critical concern, especially when dealing with ultra-large datasets or applications requiring real-time classification capabilities.
+
+Addressing these gaps, the current study introduces Penalized Information Gain (PIG), a novel hierarchy-aware metric that integrates the statistical strengths of Information Gain (IG) [ 
+
+13
+
+https://www.mdpi.com/2504-2289/9/3/65#B13-BDCC-09-00065
+
+] with the hierarchical sensitivity of Taxonomic Informativeness (TI) [ 
+
+18
+
+https://www.mdpi.com/2504-2289/9/3/65#B18-BDCC-09-00065
+
+]. Unlike traditional methods, PIG incorporates level-wise entropy adjustments, assigning higher weights to upper-level splits to mitigate cascading errors and improve semantic consistency across the hierarchy. By integrating PIG into tree-based ensemble models, this research fills the existing gaps by enhancing classification accuracy, addressing class imbalance issues, and ensuring computational efficiency suitable for large-scale and real-time applications.
+
+In conclusion, the extensive body of research in hierarchical classification demonstrates the evolution from traditional models, like SVMs and decision trees, to advanced deep learning and probabilistic approaches. While significant progress has been made, challenges such as cascading errors, data imbalance, and scalability continue to drive innovation in this field. The proposed PIG-based approach represents a step forward, offering a balanced solution that preserves hierarchical integrity while optimizing classification performance across various application domains.
+
+3. Materials and Methods
+
+3.1. Decision Tree Splitting Criteria
+
+Classical splitting criteria in decision tree-based hierarchical classification, such as Information Gain (IG), primarily focus on entropy reduction without considering hierarchical relationships, often resulting in suboptimal splits that overlook semantic dependencies between parent and child categories [ 
+
+13
+
+https://www.mdpi.com/2504-2289/9/3/65#B13-BDCC-09-00065
+
+, 
+
+15
+
+https://www.mdpi.com/2504-2289/9/3/65#B15-BDCC-09-00065
+
+].
+
+In what follows, we demonstrate the limitations of traditional split evaluation methods and introduce Penalized Information Gain (PIG), a hierarchy-aware metric that integrates Information Gain with Taxonomic Informativeness (TI) [ 
+
+31
+
+https://www.mdpi.com/2504-2289/9/3/65#B31-BDCC-09-00065
+
+]. This novel criterion aligns statistical optimization with the taxonomic structure of the data. We also discuss the implications of this approach for improving the interpretability and accuracy of splits in hierarchical classification tasks [ 
+
+39
+
+https://www.mdpi.com/2504-2289/9/3/65#B39-BDCC-09-00065
+
+]. Furthermore, we motivate the adoption of hierarchical evaluation metrics that go beyond standard statistical measures, addressing their critical role in advancing the field of hierarchical classification.
+
+3.1.1. Information Gain (IG) [ 
+
+40
+
+https://www.mdpi.com/2504-2289/9/3/65#B40-BDCC-09-00065
+
+]
+
+Information Gain (IG) [ 
+
+40
+
+https://www.mdpi.com/2504-2289/9/3/65#B40-BDCC-09-00065
+
+, 
+
+41
+
+https://www.mdpi.com/2504-2289/9/3/65#B41-BDCC-09-00065
+
+] measures the reduction in entropy after a dataset is split, providing a statistical criterion to select features that minimize uncertainty. It is calculated as the difference between the entropy of the parent dataset and the weighted sum of the entropies of the child subsets:
+
+I G S = H S − p l e f t
+
+· H S l e f t + p r i g h t
+
+· H S r i g h t
+
+where
+
+H S = − ∑ i = 1 k p i log p i is the entropy of S;
+
+p l e f t and p r i g h t are the proportion of samples S l e f t and S r i g h t , respectively.
+
+While IG effectively reduces overall uncertainty, it does not consider hierarchical dependencies between classes, which is critical for tasks where taxonomic relationships play a vital role [ 
+
+42
+
+https://www.mdpi.com/2504-2289/9/3/65#B42-BDCC-09-00065
+
+]. In this study, IG was applied to evaluate feature splits at each decision node, serving as a baseline for comparison against hierarchy-aware methods.
+
+3.1.2. Average Taxonomic Informativeness (ATI) [ 
+
+43
+
+https://www.mdpi.com/2504-2289/9/3/65#B43-BDCC-09-00065
+
+]
+
+To address the hierarchical limitations of IG, we employed Average Taxonomic Informativeness (ATI) [ 
+
+33
+
+https://www.mdpi.com/2504-2289/9/3/65#B33-BDCC-09-00065
+
+, 
+
+34
+
+https://www.mdpi.com/2504-2289/9/3/65#B34-BDCC-09-00065
+
+], which incorporates semantic relationships between classes into the split evaluation process. ATI measures how well a split preserves the taxonomy by weighing correct predictions at different hierarchy levels:
+
+A T I = 1 N ∑ i = 1 N ∑ l = 1 L w l
+
+· I y i l , y ^ i l ∑ l = 1 L w l
+
+Explanation of terms:
+
+N—total number of samples.
+
+L—total number of levels in the taxonomy.
+
+w l —weight assigned to level l in the hierarchy, representing the informativeness or specificity of that level.
+
+I y i l , y ^ i l —indicator function that evaluates whether the prediction y ^ i l at level l matches the true label y i l for sample i I y i l , y ^ i l = 1 i f y i l = y ^ i l , 0 o t h e r w i s e
+
+By emphasizing correct predictions at higher levels of the hierarchy, ATI ensures that splits respect semantic relationships between parent and child classes. In our study, ATI was integrated into the decision tree construction process to assess how well the splits align with the hierarchical structure of the GS1 GPC taxonomy.
+
+3.1.3. Penalized Information Gain (PIG)
+
+Penalized Information Gain (PIG) is an enhanced metric for evaluating splits in decision trees, designed specifically to incorporate hierarchical relationships into the decision-making process. While traditional Information Gain (IG) focuses solely on reducing entropy (uncertainty) in the dataset, PIG extends this approach by introducing a penalty term derived from Taxonomic Informativeness (TI). This modification ensures that splits respect the hierarchical structure of the data, favoring those that better separate taxonomically distinct classes.
+
+PIG incorporates TI into the IG framework through a penalty factor (PF), which scales IG based on the taxonomic relevance of the split:
+
+P I G S = I G S
+
+· P F
+
+where the penalty factor PF is defined as follows:
+
+P F = l o g 1 + α
+
+· A T I
+
+α > 0 is a scaling coefficient that controls the sensitivity of PF to changes in ATI.
+
+The logarithm provides a non-linear relationship, ensuring a gradual increase in PF as ATI improves.
+
+The Penalized Information Gain (PIG) metric balances statistical relevance and hierarchical consistency in decision tree splits by combining Information Gain (IG) with Taxonomic Informativeness (ATI). The logarithmic function ensures smooth transitions, allowing PIG to increase with ATI and reward hierarchically consistent classifications.
+
+PIG offers several advantages for hierarchical datasets:
+
+Hierarchy Awareness: Aligns splits with label hierarchies, preserving meaningful taxonomic distinctions.
+
+Improved Interpretability: Produces decision boundaries that respect semantic relationships, enhancing model transparency.
+
+Enhanced Generalization: Leverages hierarchical structures for better multi-level classification performance.
+
+By addressing the limitations of traditional split criteria, PIG simultaneously reduces uncertainty and preserves data semantics, improving accuracy and practical utility. Future work will explore its integration into ensemble methods like random forests and gradient boosting to further enhance performance.
+
+The Penalized Information Gain (PIG) metric includes the hyperparameter α, which controls the trade-off between Information Gain (IG) and Taxonomic Informativeness (TI). A higher α value places greater emphasis on preserving the hierarchical structure, while a lower α prioritizes entropy reduction.
+
+The integration of TI into the PIG calculation introduces additional overhead compared to traditional split criteria. Calculating IG has a complexity of O n log n , where n is the number of samples. Incorporating TI adds complexity proportional to the number of hierarchy levels (L) and classes (C), making the total complexity approximately O n log n + n L C . Despite this added cost, the optimization of hierarchical splits leads to improved model generalization and interpretability. The computational overhead remains manageable, especially when using parallelized implementations, making PIG suitable for large-scale hierarchical classification tasks.
+
+In this study, we present results obtained using CART (Classification and Regression Trees) as the base learner for evaluating the effectiveness of the proposed Penalized Information Gain (PIG) metric. While CART serves as a well-established and robust framework for decision tree construction, it is important to note that PIG is not limited to CART-based models. The metric can be seamlessly integrated into any decision tree algorithm that employs an information-based splitting criterion—such as Information Gain, Gini impurity, or similar measures—and supports the modification of this criterion. This flexibility allows PIG to be applied across a wide range of tree-based models, including those used in ensemble methods (e.g., random forests, Gradient Boosting Machines) and multi-branch decision trees (e.g., ID3, C4.5), thereby broadening its applicability to various hierarchical classification tasks.
+
+Modifying the decision tree algorithm is not required; instead, the proposed approach focuses on substituting the split criterion with the Penalized Information Gain (PIG) metric. This enables straightforward integration into existing tree-based models while preserving the original algorithmic structure.
+
+3.2. Addressing Challenges in Imbalanced Hierarchical Datasets
+
+Hierarchical datasets often suffer from imbalances that can significantly impact the performance and structure of decision tree models. These imbalances typically manifest in two interconnected forms [ 
+
+44
+
+https://www.mdpi.com/2504-2289/9/3/65#B44-BDCC-09-00065
+
+]. The first is size imbalance across branches, where certain branches of the hierarchy dominate due to an unequal distribution of samples. For example, in biological taxonomies, datasets may contain a disproportionately high number of mammal species compared to amphibians or reptiles, biasing the model toward larger branches [ 
+
+45
+
+https://www.mdpi.com/2504-2289/9/3/65#B45-BDCC-09-00065
+
+]. The second form is depth imbalance within branches, where some branches of the hierarchy extend to greater depths, offering finer granularity, while others remain shallow [ 
+
+46
+
+https://www.mdpi.com/2504-2289/9/3/65#B46-BDCC-09-00065
+
+]. This disparity often leads to splits that prioritize deeper branches at the expense of shallower ones [ 
+
+47
+
+https://www.mdpi.com/2504-2289/9/3/65#B47-BDCC-09-00065
+
+].
+
+These imbalances can bias decision trees toward larger branches, neglecting smaller but semantically important ones [ 
+
+39
+
+https://www.mdpi.com/2504-2289/9/3/65#B39-BDCC-09-00065
+
+]. Traditional criteria like Information Gain (IG) exacerbate this issue by prioritizing larger classes without considering hierarchical relationships.
+
+To address this, Penalized Information Gain (PIG) introduces two key mechanisms:
+
+Penalization of size-dominant splits that group taxonomically distinct classes.
+
+Promotion of balanced splits, ensuring that underrepresented branches are adequately considered.
+
+This is achieved through the penalty factor (PF):
+
+P F = 1 − T I S l e f t , S r i g h t ,
+
+which lowers the evaluation score for these splits. This adjustment ensures that splits favor taxonomic alignment over size dominance, maintaining the semantic coherence of the hierarchy.
+
+3.3. Encouraging Hierarchical Balance
+
+PIG promotes splits that achieve a balanced representation of hierarchical branches, even when smaller branches are involved.
+
+Traditional Information Gain often penalizes splits that isolate smaller yet taxonomically distinct branches, as these splits tend to result in lower entropy reductions. PIG overcomes this limitation by rewarding splits that preserve hierarchical balance. By integrating TI, PIG prioritizes semantic relevance, ensuring that smaller branches receive adequate consideration within the decision-making process.
+
+3.4. Quantitative Foundation for Balance Preservation
+
+The hierarchical balance maintained by PIG is underpinned by a robust mathematical framework:
+
+Bias in Standard Information Gain: Conventional Information Gain (IG(S)) inherently favors larger branches due to the proportional weighting of subsets in entropy calculations. This bias skews splits toward majority branches, often overlooking smaller but semantically significant ones.
+
+Adjustment Through PIG: PIG addresses this bias by scaling IG(S) with the penalty factor Tableware introducing a hierarchical adjustment. This adjustment ensures that splits consider the taxonomic relationships between classes, reducing the undue influence of size imbalances and better representing smaller branches.
+
+By addressing dataset imbalances, PIG enhances the functionality and interpretability of decision tree models in hierarchical classification tasks. Specifically, PIG achieves this through the following methods:
+
+Preservation of Rare Branches: PIG ensures that smaller, underrepresented branches remain distinct, enabling the model to generalize effectively to these classes.
+
+Alignment with Taxonomy: By aligning splits with the hierarchical structure, PIG reduces semantic distortion and ensures that meaningful distinctions are preserved.
+
+Improved Model Fairness: PIG prevents overfitting to the majority of branches, fostering models that are more robust and equitable across imbalanced datasets.
+
+Through its emphasis on hierarchical integrity and balanced representation, PIG offers a principled solution to the challenges of imbalanced hierarchical datasets. This approach enhances the generalizability and reliability of decision tree models, making it an invaluable tool for applications that rely on structured data with complex taxonomies.
+
+4. Experimental Settings
+
+In this section, we introduce the datasets and models utilized in our experiments, as well as the evaluation methodologies applied. The experiments are conducted using two real-world datasets, both structured according to the GS1 Global Product Classification (GPC) system. Additionally, we present the implementation details of the proposed Penalized Information Gain (PIG) metric and its integration into decision tree models.
+
+We implement the PIG metric within standard decision tree algorithms, modifying the split evaluation criteria to incorporate hierarchy-aware adjustments. Baseline comparisons are performed using traditional Information Gain (IG) to highlight the improvements introduced by PIG. All experiments are conducted on the same datasets, ensuring a fair comparison of the performance metrics, including accuracy, semantic coherence, and hierarchical balance.
+
+The evaluation is designed to demonstrate how PIG addresses key challenges such as data imbalance, hierarchical misalignment, and overfitting at deeper taxonomy levels. The following subsections describe the datasets, model configurations, and experimental protocols.
+
+4.1. Dataset
+
+Our study utilizes the Global Product Classification (GPC) system, which is publicly available through the GS1 GPC Browser ( 
+
+https://gpc-browser.gs1.org
+
+https://gpc-browser.gs1.org/
+
+, accessed on 17 December 2024) [ 
+
+8
+
+https://www.mdpi.com/2504-2289/9/3/65#B8-BDCC-09-00065
+
+]. The GPC is a widely adopted standard, providing a comprehensive hierarchical structure that spans thousands of product classes and subclasses. Given its detailed and organized approach to classifying goods and services, this structure is particularly suited for analyzing various machine learning methods in product classification.
+
+The GS1 Global Product Classification (GPC) system was developed to ensure consistency in classifying products and services across industries. Its hierarchical structure consists of four levels: segments, families, classes, and bricks. At the highest level, there are 21 segments, each of which is further divided into over 200 families. These families then break down into more specific classes and, ultimately, bricks, representing the most granular classification for products and services. For example, in the Food and Beverage segment, “milk” is categorized under the “Dairy Products” family and further refined into the “Liquid Milk” class.
+
+For the purposes of this research, we focused on a set of key segments, including Food/Beverage, Cleaning Supplies, and Tableware. Concentrating on these widely used product categories allowed us to analyze hierarchical classification models in real-world scenarios.
+
+In this study, we employed two datasets categorized according to the GPC system. The first dataset includes product data from a company operating within the restaurant supply industry. These products were assigned to categories by experts, following the hierarchical classification provided on the GS1 GPC website. The second dataset was sourced from [ 
+
+48
+
+https://www.mdpi.com/2504-2289/9/3/65#B48-BDCC-09-00065
+
+], a consumer product information website. Both datasets classify products using the GPC structure, making it possible to compare results between them.
+
+Each dataset entry contains a product description and a “brick” label, representing the most specific classification level within the GPC hierarchy. Using these datasets, we aim to explore how machine learning techniques can enhance hierarchical classification and streamline the organization of large volumes of product data.
+
+Although no data labeling or splitting is required for the current phase of our research, using these two distinct datasets allows us to explore how products from different industries and data sources can be effectively categorized using machine learning models. The GPC system's well-defined structure provides a solid foundation for investigating how hierarchical classification can be applied in practice.
+
+4.2. Experimental Validation of PIG Performance
+
+To demonstrate the advantages and limitations of the presented metrics, three illustrative examples were constructed, each reflecting different hierarchical structures and classification challenges. These examples highlight the strengths of Penalized Information Gain (PIG) in comparison to Information Gain (IG) and Average Taxonomic Informativeness (ATI) when applied to decision tree construction for hierarchical classification.
+
+The table presents three hierarchical classification examples, detailing product names, their actual hierarchical levels (Levels 1–4), and their corresponding splits (Left/Right). Each example demonstrates variations in classification accuracy across hierarchical levels, providing insights into how splits affect the preservation of the taxonomic structure.
+
+The 
+
+Figure 1
+
+https://www.mdpi.com/2504-2289/9/3/65#fig_body_display_BDCC-09-00065-f001
+
+ represents the hierarchical taxonomy of product categories, beginning with the root node “Food/Beverage” and branching into two primary subcategories: “Bread/Bakery Products” and “Cereal/Grain/Pulse Products”. Each branch further divides into more specific categories, illustrating the hierarchical relationships down to the fourth level, such as “Bread (Perishable)” and “Cereals Products—Not Ready to Eat (Shelf Stable)” ( 
+
+Table 1
+
+https://www.mdpi.com/2504-2289/9/3/65#table_body_display_BDCC-09-00065-t001
+
+).
+
+ 
+
+Figure 1.
+
+ Hierarchical taxonomy of product classification with example assignments.
+
+Table 1.
+
+ Examples of hierarchical splits for product classification using real levels and splits.
+
+ 
+
+We manually applied the PIG, ATI, and IG metrics to the examples presented in 
+
+Table 1
+
+https://www.mdpi.com/2504-2289/9/3/65#table_body_display_BDCC-09-00065-t001
+
+ to demonstrate the differences in how each metric evaluates hierarchical classification splits. This manual application allows for a clearer comparison of how Information Gain (IG) focuses solely on entropy reduction, while Average Taxonomic Informativeness (ATI) emphasizes taxonomic alignment. By integrating both statistical and hierarchical considerations, Penalized Information Gain (PIG) provides a balanced evaluation. The results, summarized in 
+
+Table 2
+
+https://www.mdpi.com/2504-2289/9/3/65#table_body_display_BDCC-09-00065-t002
+
+, highlight how PIG effectively penalizes splits that violate hierarchical consistency while rewarding those that maintain both entropy reduction and semantic coherence. This comparison underscores PIG's advantage over traditional metrics in capturing the complexities of hierarchical classification tasks.
+
+Table 2.
+
+ Time trade-offs between different labeling approaches.
+
+ 
+
+Table 2
+
+https://www.mdpi.com/2504-2289/9/3/65#table_body_display_BDCC-09-00065-t002
+
+ summarizes the evaluation metrics (IG, ATI, and PIG) for three hierarchical classification examples. While Information Gain (IG) remains constant across all examples, reflecting its focus on entropy reduction alone, Average Taxonomic Informativeness (ATI) and Penalized Information Gain (PIG) show variations that account for hierarchical misalignment, with Example 1 demonstrating the highest alignment (ATI = 0.92, PIG = 0.023, ATI = 0.92, PIG = 0.023) and Example 3 the lowest (ATI = 0.75, PIG = 0.020, ATI = 0.75, PIG = 0.020). This highlights PIG's ability to integrate statistical entropy reduction with taxonomic relevance, addressing the limitations of IG and ATI individually.
+
+The purpose of comparing these examples is to highlight the inadequacies of traditional metrics like IG in capturing the semantic and hierarchical dependencies inherent in taxonomic data. While IG focuses exclusively on reducing entropy, it fails to differentiate between splits that statistically reduce uncertainty but semantically violate the taxonomy. This limitation becomes evident in Examples 2 and 3, where the IG values remain constant despite clear differences in hierarchical misalignment.
+
+By incorporating hierarchical relevance into the evaluation, ATI provides a more nuanced understanding of split quality. However, ATI alone overlooks the statistical properties of the split, which are critical for robust decision tree construction. For instance, in Example 3, while ATI captures the loss of taxonomic alignment, it does not address the statistical impact of entropy reduction.
+
+PIG bridges this gap by integrating the statistical properties of IG with the hierarchical sensitivity of ATI. The comparison across examples demonstrates that PIG is capable of penalizing splits that fail to respect the taxonomy (as in Example 3) while rewarding splits that balance entropy reduction and taxonomic relevance (as in Example 1). This makes PIG particularly suitable for hierarchical classification tasks, where both statistical and semantic considerations are critical.
+
+5. Experimental Setup
+
+The experiments were conducted to enhance the hierarchical classification of short texts by leveraging advanced text preprocessing and hierarchy-aware evaluation criteria. The primary objective was to explore ensemble tree-based models—random forest and XGBoost—augmented with multiple split criteria to evaluate their efficacy in hierarchical contexts.
+
+The experiments were performed using a dataset structured in alignment with the Global Product Classification (GPC) system. The GPC taxonomy organizes product categories into four hierarchical levels: segments, families, classes, and the most granular level, bricks. Each instance in the dataset consists of a textual product description and its corresponding brick label ( 
+
+Figure 2
+
+https://www.mdpi.com/2504-2289/9/3/65#fig_body_display_BDCC-09-00065-f002
+
+).
+
+ 
+
+Figure 2.
+
+ Class (bricks level) proportion for train and test datasets.
+
+To ensure a robust evaluation, the dataset was divided into train and test sets. The class proportions within each split, visualized through a comparative diagram, highlight the dataset's imbalanced nature across hierarchical levels, further underscoring the necessity for hierarchy-aware split metrics.
+
+The experiments employed a two-step preprocessing strategy to optimize text representations:
+
+Byte Pair Encoding (BPE)
+
+: Applied as a subword tokenization method to address the challenges posed by abbreviated and short texts. BPE ensures compact and meaningful text representation while preserving semantic integrity [ 
+
+49
+
+https://www.mdpi.com/2504-2289/9/3/65#B49-BDCC-09-00065
+
+].
+
+BERT Embeddings
+
+: Contextualized dense vector representations were extracted using BERT to capture semantic relationships within the input text [ 
+
+50
+
+https://www.mdpi.com/2504-2289/9/3/65#B50-BDCC-09-00065
+
+]. These embeddings served as high-dimensional feature inputs to the machine learning models.
+
+The integration of BPE with BERT allowed for improved text generalization and representation, particularly effective for hierarchical short text classification [ 
+
+51
+
+https://www.mdpi.com/2504-2289/9/3/65#B51-BDCC-09-00065
+
+].
+
+6. Results
+
+The experiments utilized two widely adopted tree-based ensemble models, random forest and XGBoost [ 
+
+52
+
+https://www.mdpi.com/2504-2289/9/3/65#B52-BDCC-09-00065
+
+], configured with the following split criteria to evaluate their impact on hierarchical classification: IG, ATI, and PIG. The combination of these models and split metrics enabled a critical evaluation of how traditional and hierarchy-aware methods influence classification performance within structured taxonomies ( 
+
+Figure 3
+
+https://www.mdpi.com/2504-2289/9/3/65#fig_body_display_BDCC-09-00065-f003
+
+).
+
+ 
+
+ 
+
+Figure 3.
+
+ Performance evaluation of hierarchical classification: F1 score, precision, and recall across taxonomy levels.
+
+The key goals of the experimental setup were as follows:
+
+To compare the performance of random forest and XGBoost using different split criteria (IG, ATI, and PIG) in preserving both statistical entropy reduction and hierarchical taxonomic alignment.
+
+To analyze the impact of hierarchy-aware metrics (ATI and PIG) on mitigating the challenges of imbalanced data, particularly within deeply nested and sparsely populated branches of the GPC taxonomy.
+
+The models were trained and evaluated on the train and test sets, with the results visualized to demonstrate class-level performance across different configurations. The stacked bar diagram highlights class distributions and provides a comparative analysis of the models' behavior under varying split criteria.
+
+Table 3
+
+https://www.mdpi.com/2504-2289/9/3/65#table_body_display_BDCC-09-00065-t003
+
+ presents a comprehensive comparison of hierarchical classification performance using Information Gain (IG), Average Taxonomic Informativeness (ATI), and the proposed Penalized Information Gain (PIG) across different hierarchy levels—brick, class, family, and segment—using both random forest and XGBoost models. The results consistently demonstrate that incorporating hierarchy-aware metrics (ATI and PIG) leads to superior performance compared to the standard IG-based models.
+
+Table 3.
+
+ Comparison of hierarchical classification performance metrics (IG, ATI, and PIG) across different models and hierarchy levels.
+
+ 
+
+At the brick level, which represents the most granular classification, PIG-based models outperformed both IG and ATI counterparts. The XGBoost_PIG model achieved the highest accuracy (0.69) and F1 score (0.69), highlighting PIG's ability to balance entropy reduction with hierarchical alignment. In contrast, standard IG models showed lower performance, with the RandomForest_IG model yielding an accuracy of 0.54 and F1 score of 0.52, underscoring IG's inability to capture hierarchical dependencies.
+
+Moving up the hierarchy, similar trends persisted. At the class and family levels, PIG-based models consistently outperformed other approaches. The XGBoost_PIG model reached a class-level accuracy of 0.77 and family-level accuracy of 0.84, indicating that PIG's consideration of taxonomic relationships enables more accurate predictions across hierarchy depths. Comparatively, IG-based models showed moderate gains but failed to differentiate between taxonomically aligned and misaligned splits.
+
+At the segment level, the highest hierarchy tier, performance differences among models were less pronounced, with most models achieving near-perfect accuracy (≥0.96). This outcome is expected given the broader categories at this level, which inherently pose fewer classification challenges.
+
+Overall, the PIG-based models not only improved classification accuracy but also enhanced precision, recall, and F1 scores across all hierarchy levels, with XGBoost_PIG consistently delivering the best results. These improvements demonstrate PIG's effectiveness in addressing the limitations of traditional IG and ATI metrics by providing a balanced evaluation of both statistical significance and taxonomic coherence. The validation results underscore the importance of hierarchy-aware evaluation in achieving robust and semantically consistent hierarchical classification.
+
+7. Discussion
+
+The consistent performance improvements observed with PIG across multiple tree-based models (random forest and XGBoost) confirm its utility as an enhanced split criterion for hierarchical classification tasks. PIG effectively balances entropy reduction and taxonomic coherence, making it a valuable addition to hierarchical classification pipelines.
+
+The experimental setup underscores the importance of incorporating hierarchy-aware split metrics and robust text preprocessing methods for hierarchical classification tasks. By combining BPE, BERT embeddings, and hierarchy-aware metrics (ATI and PIG), the experiments achieved a significant step toward improving both classification accuracy and semantic coherence in hierarchical contexts.
+
+The ROC curve ( 
+
+Figure 4
+
+https://www.mdpi.com/2504-2289/9/3/65#fig_body_display_BDCC-09-00065-f004
+
+) demonstrates that XGBoost and random forest models, using hierarchy-aware split criteria (ATI and PIG), achieve improved classification performance compared to the standard Information Gain (IG). The curves for ATI and PIG exhibit better alignment toward the top-left region, indicating higher true positive rates and lower false positive rates across multiple classes. Models employing Penalized Information Gain (PIG) show consistent advantages, especially in handling complex and imbalanced hierarchical classes. Overall, the results highlight the effectiveness of integrating hierarchy-aware metrics into tree-based models for hierarchical classification tasks.
+
+ 
+
+Figure 4.
+
+ ROC curve comparison for hierarchical classification models across multiple classes for brick level.
+
+Models employing Penalized Information Gain (PIG) exhibit fewer misclassifications and better distribution across true positive predictions ( 
+
+Figure 5
+
+https://www.mdpi.com/2504-2289/9/3/65#fig_body_display_BDCC-09-00065-f005
+
+ and 
+
+Figure 6
+
+https://www.mdpi.com/2504-2289/9/3/65#fig_body_display_BDCC-09-00065-f006
+
+), especially at higher levels (family and segment). In contrast, Information Gain (IG) shows higher confusion, particularly at granular levels like brick and class, indicating its limitations in handling hierarchical dependencies. Overall, the use of PIG leads to improved alignment with the true labels, demonstrating its efficacy in preserving hierarchical consistency while reducing classification errors.
+
+ 
+
+Figure 5.
+
+ Multimodel normalized confusion matrices across hierarchical segment level.
+
+ 
+
+Figure 6.
+
+ Multimodel normalized confusion matrices across hierarchical family level.
+
+Our experiments highlighted that IG, while effective for reducing entropy, fails to consider the semantic structure of hierarchical data. This shortcoming became evident in the provided examples, where the IG values remained constant despite varying degrees of misalignment with the taxonomy. Such results underscore the inadequacy of IG in capturing the complex dependencies present in hierarchical classification.
+
+ATI, on the other hand, successfully reflects taxonomic relevance by measuring how well splits preserve the hierarchical structure. However, ATI alone does not account for the statistical quality of splits, which is critical for decision tree construction. This limitation was evident in cases where ATI captured the semantic losses but overlooked the entropy reduction achieved by splits [ 
+
+15
+
+https://www.mdpi.com/2504-2289/9/3/65#B15-BDCC-09-00065
+
+].
+
+The proposed PIG metric effectively addresses these gaps by combining the strengths of IG and ATI. By introducing a penalty factor derived from taxonomic informativeness, PIG aligns statistical optimization with the semantic structure of the hierarchy. As demonstrated in the examples, PIG penalizes splits that disrupt the taxonomy (e.g., Example 3) while rewarding splits that achieve a balance between entropy reduction and taxonomic alignment (e.g., Example 1). This makes PIG particularly suitable for tasks requiring both statistical robustness and semantic coherence.
+
+Our work highlights the importance of hierarchy-aware split evaluation metrics in improving classification performance. By ensuring that splits respect both statistical and taxonomic criteria, PIG enhances the interpretability and utility of decision trees for hierarchical classification tasks. Future research will explore integrating PIG into ensemble models, such as random forests and gradient boosting, and extending its application to multi-label hierarchical classification problems.
+
+8. Conclusions
+
+This study addressed the limitations of traditional split evaluation metrics in hierarchical classification by comparing Information Gain (IG), Average Taxonomic Informativeness (ATI), and the proposed Penalized Information Gain (PIG). While IG effectively reduces entropy, it fails to capture the semantic structure of hierarchical data, resulting in splits that disregard taxonomic relationships. ATI improves upon this by reflecting taxonomic relevance but lacks consideration of the statistical properties essential in decision tree construction. In contrast, PIG integrates the strengths of both IG and ATI, aligning statistical optimization with hierarchical consistency. By introducing a penalty factor based on taxonomic informativeness, PIG penalizes splits that violate the hierarchy while rewarding those that balance entropy reduction and taxonomic alignment. The experimental results demonstrated PIG's ability to enhance classification interpretability and generalization, particularly in complex hierarchical structures.
+
+The novelty of PIG lies in its dual optimization approach, which ensures that decision trees respect hierarchical dependencies while maintaining statistical rigor, an improvement over existing methods that typically prioritize one aspect over the other. Although PIG enhances split evaluation, it presents certain limitations, including increased computational complexity and sensitivity to the choice of hyperparameters.
+
+Future research will focus on the following:
+
+Comparative analysis to evaluate PIG against other state-of-the-art approaches for hierarchical classification, including neural network-based and hybrid methods.
+
+Scalability by applying the proposed methodology to larger and more diverse datasets across domains such as bioinformatics, product taxonomy, and medical hierarchies.
+
+Model extensions by exploring the integration of PIG into ensemble methods like gradient boosting, as well as hierarchical multi-label and deep learning frameworks.
+
+This future direction aims to further validate the robustness of PIG and expand its applicability to complex, real-world hierarchical classification problems.
+
+Author Contributions
+
+Conceptualization, O.N. and A.D.; methodology, O.N.; software, M.A. and V.A.; validation, O.N., V.T. and M.A.; formal analysis, O.N. and A.D.; investigation, O.N.; resources, V.A. and V.T.; data curation, V.A., O.N. and V.T.; writing—original draft preparation, O.N.; writing—review and editing, A.D.; visualization, A.D.; supervision, V.T.; project administration, M.A.; funding acquisition, V.T. All authors have read and agreed to the published version of the manuscript.
+
+Funding
+
+This research received no external funding.
+
+Data Availability Statement
+
+Data supporting the reported results can be found at 
+
+https://www.directionsforme.org/categories
+
+https://www.directionsforme.org/categories
+
+ (accessed on 17 December 2024).
+
+Conflicts of Interest
+
+The authors declare no conflicts of interest.
+
+References
+
+Junardi, W.; Khodra, M.L. Automatic Multi-Label Classification for GDP Economic-Phenomenon News. In Proceedings of the 2020 International Conference on ICT for Smart Society (ICISS), Bandung, Indonesia, 19–20 November 2020; IEEE: Bandung, Indonesia, 2020; pp. 1–6. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Automatic+Multi-Label+Classification+for+GDP+Economic-Phenomenon+News&conference=Proceedings+of+the+2020+International+Conference+on+ICT+for+Smart+Society+(ICISS)&author=Junardi,+W.&author=Khodra,+M.L.&publication_year=2020&pages=1%E2%80%936&doi=10.1109/ICISS50791.2020.9307579
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/ICISS50791.2020.9307579
+
+]
+
+Cotacallapa, H.; Saboya, N.; Canas Rodrigues, P.; Salas, R.; Linkolk López-Gonzales, J. A Flat-Hierarchical Approach Based on Machine Learning Model for e-Commerce Product Classification. IEEE Access 
+
+2024
+
+, 12, 72730–72745. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=A+Flat-Hierarchical+Approach+Based+on+Machine+Learning+Model+for+e-Commerce+Product+Classification&author=Cotacallapa,+H.&author=Saboya,+N.&author=Canas+Rodrigues,+P.&author=Salas,+R.&author=Linkolk+L%C3%B3pez-Gonzales,+J.&publication_year=2024&journal=IEEE+Access&volume=12&pages=72730%E2%80%9372745&doi=10.1109/ACCESS.2024.3400693
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/ACCESS.2024.3400693
+
+]
+
+Uddin, M.A.; Aryal, S.; Bouadjenek, M.R.; Al-Hawawreh, M.; Talukder, M.A. Hierarchical Classification for Intrusion Detection System: Effective Design and Empirical Analysis. arXiv 
+
+2024
+
+. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Hierarchical+Classification+for+Intrusion+Detection+System:+Effective+Design+and+Empirical+Analysis&author=Uddin,+M.A.&author=Aryal,+S.&author=Bouadjenek,+M.R.&author=Al-Hawawreh,+M.&author=Talukder,+M.A.&publication_year=2024&journal=arXiv&doi=10.48550/arXiv.2403.13013
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.48550/arXiv.2403.13013
+
+]
+
+Cao, Y.-K.; Wei, Z.-Y.; Tang, Y.-J.; Jin, C.-K. Hierarchical Label Text Classification Method with Deep-Level Label-Assisted Classification. In Proceedings of the 2023 IEEE 12th Data Driven Control and Learning Systems Conference (DDCLS), Xiangtan, China, 12–14 May 2023; IEEE: Xiangtan, China, 2023; pp. 1467–1474. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Hierarchical+Label+Text+Classification+Method+with+Deep-Level+Label-Assisted+Classification&conference=Proceedings+of+the+2023+IEEE+12th+Data+Driven+Control+and+Learning+Systems+Conference+(DDCLS)&author=Cao,+Y.-K.&author=Wei,+Z.-Y.&author=Tang,+Y.-J.&author=Jin,+C.-K.&publication_year=2023&pages=1467%E2%80%931474&doi=10.1109/DDCLS58216.2023.10166293
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/DDCLS58216.2023.10166293
+
+]
+
+Chang, C.-M.; Mishra, S.D.; Igarashi, T. A Hierarchical Task Assignment for Manual Image Labeling. In Proceedings of the 2019 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC), Memphis, TN, USA, 14–18 October 2019; IEEE: Memphis, TN, USA, 2019; pp. 139–143. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=A+Hierarchical+Task+Assignment+for+Manual+Image+Labeling&conference=Proceedings+of+the+2019+IEEE+Symposium+on+Visual+Languages+and+Human-Centric+Computing+(VL/HCC)&author=Chang,+C.-M.&author=Mishra,+S.D.&author=Igarashi,+T.&publication_year=2019&pages=139%E2%80%93143&doi=10.1109/VLHCC.2019.8818828
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/VLHCC.2019.8818828
+
+]
+
+Fan, Q.; Qiu, C. Hierarchical Multi-Label Text Classification Method Based on Multi-Level Decoupling. In Proceedings of the 2023 3rd International Conference on Neural Networks, Information and Communication Engineering (NNICE), Guangzhou, China, 24–26 February 2023; IEEE: Piscataway, NJ, USA, 2023; pp. 453–457. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Hierarchical+Multi-Label+Text+Classification+Method+Based+on+Multi-Level+Decoupling&conference=Proceedings+of+the+2023+3rd+International+Conference+on+Neural+Networks,+Information+and+Communication+Engineering+(NNICE)&author=Fan,+Q.&author=Qiu,+C.&publication_year=2023&pages=453%E2%80%93457
+
+]
+
+Rejeb, A.; Keogh, J.G.; Martindale, W.; Dooley, D.; Smart, E.; Simske, S.; Wamba, S.F.; Breslin, J.G.; Bandara, K.Y.; Thakur, S.; et al. Charting Past, Present, and Future Research in the Semantic Web and Interoperability. Future Internet 
+
+2022
+
+, 14, 161. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Charting+Past,+Present,+and+Future+Research+in+the+Semantic+Web+and+Interoperability&author=Rejeb,+A.&author=Keogh,+J.G.&author=Martindale,+W.&author=Dooley,+D.&author=Smart,+E.&author=Simske,+S.&author=Wamba,+S.F.&author=Breslin,+J.G.&author=Bandara,+K.Y.&author=Thakur,+S.&author=et+al.&publication_year=2022&journal=Future+Internet&volume=14&pages=161&doi=10.3390/fi14060161
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.3390/fi14060161
+
+]
+
+Global Product Classification (GPC). Available online: 
+
+https://www.gs1.org/standards/gpc
+
+https://www.gs1.org/standards/gpc
+
+ (accessed on 17 December 2024).
+
+Sepúlveda-Rojas, J.P.; Aravena, S.; Carrasco, R. Increasing Efficiency in Furniture Remanufacturing with AHP and the SECI Model. Sustainability 
+
+2024
+
+, 16, 10339. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Increasing+Efficiency+in+Furniture+Remanufacturing+with+AHP+and+the+SECI+Model&author=Sep%C3%BAlveda-Rojas,+J.P.&author=Aravena,+S.&author=Carrasco,+R.&publication_year=2024&journal=Sustainability&volume=16&pages=10339&doi=10.3390/su162310339
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.3390/su162310339
+
+]
+
+Kong, X.; Zhu, X.; Wang, M.; Wang, X.; Zou, M. Text Classification for Social Governance: A Novel Strategy with Adaptive Reward Mechanisms. In Proceedings of the 2024 6th International Conference on Communications, Information System and Computer Engineering (CISCE), Guangzhou, China, 10–12 May 2024; IEEE: Piscataway, NJ, USA, 2024; pp. 339–343. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Text+Classification+for+Social+Governance:+A+Novel+Strategy+with+Adaptive+Reward+Mechanisms&conference=Proceedings+of+the+2024+6th+International+Conference+on+Communications,+Information+System+and+Computer+Engineering+(CISCE)&author=Kong,+X.&author=Zhu,+X.&author=Wang,+M.&author=Wang,+X.&author=Zou,+M.&publication_year=2024&pages=339%E2%80%93343&doi=10.1109/CISCE62493.2024.10653108
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/CISCE62493.2024.10653108
+
+]
+
+Zhang, Q.; Chai, B.; Song, B.; Zhao, J. A Hierarchical Fine-Tuning Based Approach for Multi-Label Text Classification. In Proceedings of the 2020 IEEE 5th International Conference on Cloud Computing and Big Data Analytics (ICCCBDA), Chengdu, China, 10–13 April 2020; IEEE: Piscataway, NJ, USA, 2020; pp. 51–54. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=A+Hierarchical+Fine-Tuning+Based+Approach+for+Multi-Label+Text+Classification&conference=Proceedings+of+the+2020+IEEE+5th+International+Conference+on+Cloud+Computing+and+Big+Data+Analytics+(ICCCBDA)&author=Zhang,+Q.&author=Chai,+B.&author=Song,+B.&author=Zhao,+J.&publication_year=2020&pages=51%E2%80%9354&doi=10.1109/ICCCBDA49378.2020.9095668
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/ICCCBDA49378.2020.9095668
+
+]
+
+Li, J.; Wang, H.; Song, C.; Han, R.; Hu, T. Research on Hierarchical Clustering Undersampling and Random Forest Fusion Classification Method. In Proceedings of the 2021 IEEE International Conference on Progress in Informatics and Computing (PIC), Shanghai, China, 17–19 December 2021; IEEE: Piscataway, NJ, USA, 2021; pp. 53–57. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Research+on+Hierarchical+Clustering+Undersampling+and+Random+Forest+Fusion+Classification+Method&conference=Proceedings+of+the+2021+IEEE+International+Conference+on+Progress+in+Informatics+and+Computing+(PIC)&author=Li,+J.&author=Wang,+H.&author=Song,+C.&author=Han,+R.&author=Hu,+T.&publication_year=2021&pages=53%E2%80%9357&doi=10.1109/PIC53636.2021.9687089
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/PIC53636.2021.9687089
+
+]
+
+Tangirala, S. Evaluating the Impact of GINI Index and Information Gain on Classification Using Decision Tree Classifier Algorithm*. Int. J. Adv. Comput. Sci. Appl. 
+
+2020
+
+, 11, 277. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Evaluating+the+Impact+of+GINI+Index+and+Information+Gain+on+Classification+Using+Decision+Tree+Classifier+Algorithm*&author=Tangirala,+S.&publication_year=2020&journal=Int.+J.+Adv.+Comput.+Sci.+Appl.&volume=11&pages=277&doi=10.14569/IJACSA.2020.0110277
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.14569/IJACSA.2020.0110277
+
+]
+
+Peng, H.; Li, J.; Wang, S.; Wang, L.; Gong, Q.; Yang, R.; Li, B.; Yu, P.S.; He, L. Hierarchical Taxonomy-Aware and Attentional Graph Capsule RCNNs for Large-Scale Multi-Label Text Classification. IEEE Trans. Knowl. Data Eng. 
+
+2021
+
+, 33, 2505–2519. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Hierarchical+Taxonomy-Aware+and+Attentional+Graph+Capsule+RCNNs+for+Large-Scale+Multi-Label+Text+Classification&author=Peng,+H.&author=Li,+J.&author=Wang,+S.&author=Wang,+L.&author=Gong,+Q.&author=Yang,+R.&author=Li,+B.&author=Yu,+P.S.&author=He,+L.&publication_year=2021&journal=IEEE+Trans.+Knowl.+Data+Eng.&volume=33&pages=2505%E2%80%932519&doi=10.1109/TKDE.2019.2959991
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/TKDE.2019.2959991
+
+]
+
+Rao, S.X.; Egger, P.H.; Zhang, C. Hierarchical Classification of Research Fields in the “Web of Science” Using Deep Learning 2024. arXiv 
+
+2023
+
+. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Hierarchical+Classification+of+Research+Fields+in+the+%E2%80%9CWeb+of+Science%E2%80%9D+Using+Deep+Learning+2024&author=Rao,+S.X.&author=Egger,+P.H.&author=Zhang,+C.&publication_year=2023&journal=arXiv&doi=10.48550/arXiv.2302.00390
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.48550/arXiv.2302.00390
+
+]
+
+Silla, C.N.; Freitas, A.A. A Survey of Hierarchical Classification across Different Application Domains. Data Min. Knowl. Discov. 
+
+2011
+
+, 22, 31–72. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=A+Survey+of+Hierarchical+Classification+across+Different+Application+Domains&author=Silla,+C.N.&author=Freitas,+A.A.&publication_year=2011&journal=Data+Min.+Knowl.+Discov.&volume=22&pages=31%E2%80%9372&doi=10.1007/s10618-010-0175-9
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1007/s10618-010-0175-9
+
+]
+
+Nowozin, S. Improved Information Gain Estimates for Decision Tree Induction. In Proceedings of the 29th International Conference on Machine Learning (ICML'12), Edinburgh, Scotland, 26 June–1 July 2012; Omnipress: Madison, WI, USA, 2012; pp. 571–578. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Improved+Information+Gain+Estimates+for+Decision+Tree+Induction&conference=Proceedings+of+the+29th+International+Conference+on+Machine+Learning+(ICML%E2%80%9912)&author=Nowozin,+S.&publication_year=2012&pages=571%E2%80%93578&doi=10.48550/arXiv.1206.4620
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.48550/arXiv.1206.4620
+
+]
+
+Naik, A.; Rangwala, H. Filter Based Taxonomy Modification for Improving Hierarchical Classification. arXiv 
+
+2016
+
+. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Filter+Based+Taxonomy+Modification+for+Improving+Hierarchical+Classification&author=Naik,+A.&author=Rangwala,+H.&publication_year=2016&journal=arXiv&doi=10.48550/arXiv.1603.00772
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.48550/arXiv.1603.00772
+
+]
+
+Cai, X.; Xiao, M.; Ning, Z.; Zhou, Y. Resolving the Imbalance Issue in Hierarchical Disciplinary Topic Inference via LLM-Based Data Augmentation. In Proceedings of the 2023 IEEE International Conference on Data Mining (ICDM), Shanghai, China, 1–4 December 2023; IEEE: Piscataway, NJ, USA, 2023; pp. 956–961. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Resolving+the+Imbalance+Issue+in+Hierarchical+Disciplinary+Topic+Inference+via+LLM-Based+Data+Augmentation&conference=Proceedings+of+the+2023+IEEE+International+Conference+on+Data+Mining+(ICDM)&author=Cai,+X.&author=Xiao,+M.&author=Ning,+Z.&author=Zhou,+Y.&publication_year=2023&pages=956%E2%80%93961
+
+]
+
+Heinsen, F.A. Tree Methods for Hierarchical Classification in Parallel. arXiv 
+
+2022
+
+. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Tree+Methods+for+Hierarchical+Classification+in+Parallel&author=Heinsen,+F.A.&publication_year=2022&journal=arXiv&doi=10.48550/arXiv.2209.10288
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.48550/arXiv.2209.10288
+
+]
+
+Asadi, A.R. An Entropy-Based Model for Hierarchical Learning 2023. arXiv 
+
+2022
+
+. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=An+Entropy-Based+Model+for+Hierarchical+Learning+2023&author=Asadi,+A.R.&publication_year=2022&journal=arXiv&doi=10.48550/arXiv.2212.14681
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.48550/arXiv.2212.14681
+
+]
+
+Wadud, M.d.A.H.; Rashadul, M.d. Text Coherence Analysis Based on Misspelling Oblivious Word Embeddings and Deep Neural Network. Int. J. Adv. Comput. Sci. Appl. 
+
+2021
+
+, 12, 124. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Text+Coherence+Analysis+Based+on+Misspelling+Oblivious+Word+Embeddings+and+Deep+Neural+Network&author=Wadud,+M.d.A.H.&author=Rashadul,+M.d.&publication_year=2021&journal=Int.+J.+Adv.+Comput.+Sci.+Appl.&volume=12&pages=124&doi=10.14569/IJACSA.2021.0120124
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.14569/IJACSA.2021.0120124
+
+]
+
+Doroshenko, A. Application of Global Optimization Methods to Increase the Accuracy of Classification in the Data Mining Tasks. Comput. Model. Intell. Syst. 
+
+2019
+
+, 2353, 98–109. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Application+of+Global+Optimization+Methods+to+Increase+the+Accuracy+of+Classification+in+the+Data+Mining+Tasks&author=Doroshenko,+A.&publication_year=2019&journal=Comput.+Model.+Intell.+Syst.&volume=2353&pages=98%E2%80%93109&doi=10.32782/cmis/2353-8
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.32782/cmis/2353-8
+
+]
+
+Dindar, S.; Kaewunruen, S.; An, M. A Hierarchical Bayesian-Based Model for Hazard Analysis of Climate Effect on Failures of Railway Turnout Components. Reliab. Eng. Syst. Saf. 
+
+2022
+
+, 218, 108130. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=A+Hierarchical+Bayesian-Based+Model+for+Hazard+Analysis+of+Climate+Effect+on+Failures+of+Railway+Turnout+Components&author=Dindar,+S.&author=Kaewunruen,+S.&author=An,+M.&publication_year=2022&journal=Reliab.+Eng.+Syst.+Saf.&volume=218&pages=108130&doi=10.1016/j.ress.2021.108130
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1016/j.ress.2021.108130
+
+]
+
+Busson, A.J.G.; Rocha, R.; Gaio, R.; Miceli, R.; Pereira, I.; Moraes, D.d.S.; Colcher, S.; Veiga, A.; Rizzi, B.; Evangelista, F.; et al. Hierarchical Classification of Financial Transactions Through Context-Fusion of Transformer-Based Embeddings and Taxonomy-Aware Attention Layer. In Proceedings of the Anais do II Brazilian Workshop on Artificial Intelligence in Finance (BWAIF 2023), João Pessoa, Paraíba, 6–11 August 2023; pp. 13–24. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Hierarchical+Classification+of+Financial+Transactions+Through+Context-Fusion+of+Transformer-Based+Embeddings+and+Taxonomy-Aware+Attention+Layer&conference=Proceedings+of+the+Anais+do+II+Brazilian+Workshop+on+Artificial+Intelligence+in+Finance+(BWAIF+2023)&author=Busson,+A.J.G.&author=Rocha,+R.&author=Gaio,+R.&author=Miceli,+R.&author=Pereira,+I.&author=Moraes,+D.d.S.&author=Colcher,+S.&author=Veiga,+A.&author=Rizzi,+B.&author=Evangelista,+F.&author=et+al.&publication_year=2023&pages=13%E2%80%9324&doi=10.5753/bwaif.2023.229322
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.5753/bwaif.2023.229322
+
+]
+
+Dini, L.; Brunato, D.; Dell'Orletta, F.; Caselli, T. TEXT-CAKE: Challenging Language Models on Local Text Coherence. In Proceedings of the 31st International Conference on Computational Linguistics, Abu Dhabi, United Arab Emirates, 19–24 January 2025; Rambow, O., Wanner, L., Apidianaki, M., Al-Khalifa, H., Eugenio, B.D., Schockaert, S., Eds.; Association for Computational Linguistics: Stroudsburg, PA, USA, 2025; pp. 4384–4398. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=TEXT-CAKE:+Challenging+Language+Models+on+Local+Text+Coherence&conference=Proceedings+of+the+31st+International+Conference+on+Computational+Linguistics&author=Dini,+L.&author=Brunato,+D.&author=Dell%E2%80%99Orletta,+F.&author=Caselli,+T.&publication_year=2025&pages=4384%E2%80%934398
+
+]
+
+Shu, H.; Cao, L.; Xu, Z.; Liu, K. The Research of Multidimensional Information Decision Mining Based on Information Entropy. In Proceedings of the 2009 International Forum on Information Technology and Applications, Chengdu, China, 15–17 May 2009; IEEE: Piscataway, NJ, USA, 2009; pp. 732–735. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=The+Research+of+Multidimensional+Information+Decision+Mining+Based+on+Information+Entropy&conference=Proceedings+of+the+2009+International+Forum+on+Information+Technology+and+Applications&author=Shu,+H.&author=Cao,+L.&author=Xu,+Z.&author=Liu,+K.&publication_year=2009&pages=732%E2%80%93735
+
+]
+
+Song, J.; Zhang, P.; Qin, S.; Gong, J. A Method of the Feature Selection in Hierarchical Text Classification Based on the Category Discrimination and Position Information. In Proceedings of the 2015 International Conference on Industrial Informatics-Computing Technology, Intelligent Technology, Industrial Information Integration, Wuhan, China, 3–4 December 2015; IEEE: Piscataway, NJ, USA, 2015; pp. 132–135. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=A+Method+of+the+Feature+Selection+in+Hierarchical+Text+Classification+Based+on+the+Category+Discrimination+and+Position+Information&conference=Proceedings+of+the+2015+International+Conference+on+Industrial+Informatics-Computing+Technology,+Intelligent+Technology,+Industrial+Information+Integration&author=Song,+J.&author=Zhang,+P.&author=Qin,+S.&author=Gong,+J.&publication_year=2015&pages=132%E2%80%93135
+
+]
+
+Mutsaddi, A.; Jamkhande, A.; Thakre, A.; Haribhakta, Y. BERTopic for Topic Modeling of Hindi Short Texts: A Comparative Study. arXiv 
+
+2025
+
+. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=BERTopic+for+Topic+Modeling+of+Hindi+Short+Texts:+A+Comparative+Study&author=Mutsaddi,+A.&author=Jamkhande,+A.&author=Thakre,+A.&author=Haribhakta,+Y.&publication_year=2025&journal=arXiv&doi=10.48550/arXiv.2501.03843
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.48550/arXiv.2501.03843
+
+]
+
+Williams, L.; Anthi, E.; Burnap, P. Comparing Hierarchical Approaches to Enhance Supervised Emotive Text Classification. Big Data Cogn. Comput. 
+
+2024
+
+, 8, 38. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Comparing+Hierarchical+Approaches+to+Enhance+Supervised+Emotive+Text+Classification&author=Williams,+L.&author=Anthi,+E.&author=Burnap,+P.&publication_year=2024&journal=Big+Data+Cogn.+Comput.&volume=8&pages=38&doi=10.3390/bdcc8040038
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.3390/bdcc8040038
+
+]
+
+Zangari, A.; Marcuzzo, M.; Rizzo, M.; Giudice, L.; Albarelli, A.; Gasparetto, A. Hierarchical Text Classification and Its Foundations: A Review of Current Research. Electronics 
+
+2024
+
+, 13, 1199. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Hierarchical+Text+Classification+and+Its+Foundations:+A+Review+of+Current+Research&author=Zangari,+A.&author=Marcuzzo,+M.&author=Rizzo,+M.&author=Giudice,+L.&author=Albarelli,+A.&author=Gasparetto,+A.&publication_year=2024&journal=Electronics&volume=13&pages=1199&doi=10.3390/electronics13071199
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.3390/electronics13071199
+
+]
+
+Joachims, T. Text Categorization with Support Vector Machines: Learning with Many Relevant Features. In Machine Learning: ECML-98; Nédellec, C., Rouveirol, C., Eds.; Lecture Notes in Computer Science; Springer: Berlin/Heidelberg, Germany, 1998; Volume 1398, pp. 137–142. ISBN 978-3-540-64417-0. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Text+Categorization+with+Support+Vector+Machines:+Learning+with+Many+Relevant+Features&author=Joachims,+T.&publication_year=1998&pages=137%E2%80%93142
+
+]
+
+Yang, Z.; Yang, D.; Dyer, C.; He, X.; Smola, A.; Hovy, E. Hierarchical Attention Networks for Document Classification. In Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, San Diego, CA, USA, 12–17 June 2016; Association for Computational Linguistics: Stroudsburg, PA, USA, 2016; pp. 1480–1489. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Hierarchical+Attention+Networks+for+Document+Classification&conference=Proceedings+of+the+2016+Conference+of+the+North+American+Chapter+of+the+Association+for+Computational+Linguistics:+Human+Language+Technologies&author=Yang,+Z.&author=Yang,+D.&author=Dyer,+C.&author=He,+X.&author=Smola,+A.&author=Hovy,+E.&publication_year=2016&pages=1480%E2%80%931489&doi=10.18653/v1/N16-1174
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.18653/v1/N16-1174
+
+]
+
+Basu, S.; Bilenko, M.; Mooney, R.J. A Probabilistic Framework for Semi-Supervised Clustering. In Proceedings of the Tenth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, Seattle, WA, USA, 22–25 August 2004; ACM: New York, NY, USA, 2004; pp. 59–68. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=A+Probabilistic+Framework+for+Semi-Supervised+Clustering&conference=Proceedings+of+the+Tenth+ACM+SIGKDD+International+Conference+on+Knowledge+Discovery+and+Data+Mining&author=Basu,+S.&author=Bilenko,+M.&author=Mooney,+R.J.&publication_year=2004&pages=59%E2%80%9368&doi=10.1145/1014052.1014062
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1145/1014052.1014062
+
+]
+
+Sebastiani, F. Classification of Text, Automatic. In Encyclopedia of Language & Linguistics; Elsevier: Amsterdam, The Netherlands, 2006; pp. 457–462. ISBN 978-0-08-044854-1. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Classification+of+Text,+Automatic&author=Sebastiani,+F.&publication_year=2006&pages=457%E2%80%93462
+
+]
+
+Read, J.; Pfahringer, B.; Holmes, G.; Frank, E. Classifier Chains for Multi-Label Classification. Mach. Learn. 
+
+2011
+
+, 85, 333–359. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Classifier+Chains+for+Multi-Label+Classification&author=Read,+J.&author=Pfahringer,+B.&author=Holmes,+G.&author=Frank,+E.&publication_year=2011&journal=Mach.+Learn.&volume=85&pages=333%E2%80%93359&doi=10.1007/s10994-011-5256-5
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1007/s10994-011-5256-5
+
+]
+
+Sun, A.; Lim, E.-P. Hierarchical Text Classification and Evaluation. In Proceedings of the 2001 IEEE International Conference on Data Mining, San Jose, CA, USA, 29 November–2 December 2001; IEEE: Piscataway, NJ, USA, 2001; pp. 521–528. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Hierarchical+Text+Classification+and+Evaluation&conference=Proceedings+of+the+2001+IEEE+International+Conference+on+Data+Mining&author=Sun,+A.&author=Lim,+E.-P.&publication_year=2001&pages=521%E2%80%93528
+
+]
+
+Narushynska, O.; Teslyuk, V.; Doroshenko, A.; Arzubov, M. Data Sorting Influence on Short Text Manual Labeling Quality for Hierarchical Classification. Big Data Cogn. Comput. 
+
+2024
+
+, 8, 41. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Data+Sorting+Influence+on+Short+Text+Manual+Labeling+Quality+for+Hierarchical+Classification&author=Narushynska,+O.&author=Teslyuk,+V.&author=Doroshenko,+A.&author=Arzubov,+M.&publication_year=2024&journal=Big+Data+Cogn.+Comput.&volume=8&pages=41&doi=10.3390/bdcc8040041
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.3390/bdcc8040041
+
+]
+
+Kosmopoulos, A.; Paliouras, G.; Androutsopoulos, I. Probabilistic Cascading for Large Scale Hierarchical Classification. arXiv 
+
+2015
+
+. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Probabilistic+Cascading+for+Large+Scale+Hierarchical+Classification&author=Kosmopoulos,+A.&author=Paliouras,+G.&author=Androutsopoulos,+I.&publication_year=2015&journal=arXiv&doi=10.48550/arXiv.1505.02251
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.48550/arXiv.1505.02251
+
+]
+
+Kononenko, I.; Kukar, M. Measures for Evaluating the Quality of Attributes. In Machine Learning and Data Mining; Elsevier: Amsterdam, The Netherlands, 2007; pp. 153–180. ISBN 978-1-904275-21-3. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Measures+for+Evaluating+the+Quality+of+Attributes&author=Kononenko,+I.&author=Kukar,+M.&publication_year=2007&pages=153%E2%80%93180
+
+]
+
+Kosmopoulos, A.; Partalas, I.; Gaussier, E.; Paliouras, G.; Androutsopoulos, I. Evaluation Measures for Hierarchical Classification: A Unified View and Novel Approaches. Data Min. Knowl. Discov. 
+
+2015
+
+, 29, 820–865. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Evaluation+Measures+for+Hierarchical+Classification:+A+Unified+View+and+Novel+Approaches&author=Kosmopoulos,+A.&author=Partalas,+I.&author=Gaussier,+E.&author=Paliouras,+G.&author=Androutsopoulos,+I.&publication_year=2015&journal=Data+Min.+Knowl.+Discov.&volume=29&pages=820%E2%80%93865&doi=10.1007/s10618-014-0382-x
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1007/s10618-014-0382-x
+
+]
+
+Plaud, R.; Labeau, M.; Saillenfest, A.; Bonald, T. Revisiting Hierarchical Text Classification: Inference and Metrics 2024; Association for Computational Linguistics: Stroudsburg, PA, USA, 2024. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Revisiting+Hierarchical+Text+Classification:+Inference+and+Metrics+2024&author=Plaud,+R.&author=Labeau,+M.&author=Saillenfest,+A.&author=Bonald,+T.&publication_year=2024
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.18653/v1/2024.conll-1.18
+
+]
+
+Warwick, R.M. Average Taxonomic Diversity and Distinctness. In Encyclopedia of Ecology; Elsevier: Amsterdam, The Netherlands, 2008; pp. 300–305. ISBN 978-0-08-045405-4. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Average+Taxonomic+Diversity+and+Distinctness&author=Warwick,+R.M.&publication_year=2008&pages=300%E2%80%93305
+
+]
+
+Hwang, S.; Yeo, H.G.; Hong, J.-S. A New Splitting Criterion for Better Interpretable Trees. IEEE Access 
+
+2020
+
+, 8, 62762–62774. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=A+New+Splitting+Criterion+for+Better+Interpretable+Trees&author=Hwang,+S.&author=Yeo,+H.G.&author=Hong,+J.-S.&publication_year=2020&journal=IEEE+Access&volume=8&pages=62762%E2%80%9362774&doi=10.1109/ACCESS.2020.2985255
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/ACCESS.2020.2985255
+
+]
+
+Naik, A.; Rangwala, H. Inconsistent Node Flattening for Improving Top-down Hierarchical Classification. arXiv 
+
+2017
+
+. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Inconsistent+Node+Flattening+for+Improving+Top-down+Hierarchical+Classification&author=Naik,+A.&author=Rangwala,+H.&publication_year=2017&journal=arXiv&doi=10.48550/arXiv.1706.01214
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.48550/arXiv.1706.01214
+
+]
+
+Yang, J.; Gao, M.; Kuang, K.; Ni, B.; She, Y.; Xie, D.; Chen, C. Hierarchical Classification of Pulmonary Lesions: A Large-Scale Radio-Pathomics Study. In Medical Image Computing and Computer Assisted Intervention; Springer: Berlin/Heidelberg, Germany, 2020; Volume 12266, pp. 497–507. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Hierarchical+Classification+of+Pulmonary+Lesions:+A+Large-Scale+Radio-Pathomics+Study&author=Yang,+J.&author=Gao,+M.&author=Kuang,+K.&author=Ni,+B.&author=She,+Y.&author=Xie,+D.&author=Chen,+C.&publication_year=2020&pages=497%E2%80%93507
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1007/978-3-030-59725-2_48
+
+]
+
+Doroshenko, A.; Tkachenko, R. Classification of Imbalanced Classes Using the Committee of Neural Networks. In Proceedings of the 2018 IEEE 13th International Scientific and Technical Conference on Computer Sciences and Information Technologies (CSIT), Lviv, Ukraine, 11–14 September 2018; IEEE: Lviv, Ukraine, 2018; pp. 400–403. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Classification+of+Imbalanced+Classes+Using+the+Committee+of+Neural+Networks&conference=Proceedings+of+the+2018+IEEE+13th+International+Scientific+and+Technical+Conference+on+Computer+Sciences+and+Information+Technologies+(CSIT)&author=Doroshenko,+A.&author=Tkachenko,+R.&publication_year=2018&pages=400%E2%80%93403&doi=10.1109/STC-CSIT.2018.8526611
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/STC-CSIT.2018.8526611
+
+]
+
+Product Categories. Available online: 
+
+https://www.directionsforme.org/categories
+
+https://www.directionsforme.org/categories
+
+ (accessed on 17 December 2024).
+
+Vilar, D.; Federico, M. A Statistical Extension of Byte-Pair Encoding. In Proceedings of the 18th International Conference on Spoken Language Translation (IWSLT 2021), Bangkok, Thailand, 5–6 August 2021; Association for Computational Linguistics: Stroudsburg, PA, USA, 2021; pp. 263–275. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=A+Statistical+Extension+of+Byte-Pair+Encoding&conference=Proceedings+of+the+18th+International+Conference+on+Spoken+Language+Translation+(IWSLT+2021)&author=Vilar,+D.&author=Federico,+M.&publication_year=2021&pages=263%E2%80%93275&doi=10.18653/v1/2021.iwslt-1.31
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.18653/v1/2021.iwslt-1.31
+
+]
+
+Devlin, J.; Chang, M.-W.; Lee, K.; Toutanova, K. BERT: Pre-Training of Deep Bidirectional Transformers for Language Understanding; Association for Computational Linguistics: Stroudsburg, PA, USA, 2019; Volume 1, pp. 4171–4186. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=BERT:+Pre-Training+of+Deep+Bidirectional+Transformers+for+Language+Understanding&author=Devlin,+J.&author=Chang,+M.-W.&author=Lee,+K.&author=Toutanova,+K.&publication_year=2019
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.48550/arXiv.1810.04805
+
+]
+
+Teslyuk, V.; Doroshenko, A.; Narushynska, O. Preprocessing Product Descriptions with Byte Pair Encoding: A Solution for Abbreviation-Heavy Texts//CEUR Workshop Proceedings. In Proceedings of the Computational Intelligence Application Workshop (CIAW 2024), Lviv, Ukraine, 10–12 October 2024; CEUR: Lviv, Ukraine, 2024; Volume 3861, pp. 57–76. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Preprocessing+Product+Descriptions+with+Byte+Pair+Encoding:+A+Solution+for+Abbreviation-Heavy+Texts//CEUR+Workshop+Proceedings&conference=Proceedings+of+the+Computational+Intelligence+Application+Workshop+(CIAW+2024)&author=Teslyuk,+V.&author=Doroshenko,+A.&author=Narushynska,+O.&publication_year=2024&pages=57%E2%80%9376
+
+]
+
+Romeo, L.; Frontoni, E. A Unified Hierarchical XGBoost Model for Classifying Priorities for COVID-19 Vaccination Campaign. Pattern Recognit. 
+
+2022
+
+, 121, 108197. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=A+Unified+Hierarchical+XGBoost+Model+for+Classifying+Priorities+for+COVID-19+Vaccination+Campaign&author=Romeo,+L.&author=Frontoni,+E.&publication_year=2022&journal=Pattern+Recognit.&volume=121&pages=108197&doi=10.1016/j.patcog.2021.108197&pmid=34312570
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1016/j.patcog.2021.108197
+
+] [ 
+
+PubMed
+
+https://www.ncbi.nlm.nih.gov/pubmed/34312570
+
+]
+
+Figure 1.
+
+ Hierarchical taxonomy of product classification with example assignments.
+
+Figure 2.
+
+ Class (bricks level) proportion for train and test datasets.
+
+Figure 3.
+
+ Performance evaluation of hierarchical classification: F1 score, precision, and recall across taxonomy levels.
+
+ 
+
+Figure 4.
+
+ ROC curve comparison for hierarchical classification models across multiple classes for brick level.
+
+Figure 5.
+
+ Multimodel normalized confusion matrices across hierarchical segment level.
+
+Figure 6.
+
+ Multimodel normalized confusion matrices across hierarchical family level.
+
+Table 1.
+
+ Examples of hierarchical splits for product classification using real levels and splits.
+
+ 
+
+Product Name Real Level 1 Real Level 2 Real Level 3 Real Level 4 Split
+
+Example 1
+
+“Pics 10” “Flour Burrito Tortillas”
+
+Food/Beverage
+
+Bread/Bakery Products
+
+Bread
+
+Bread (Perishable)
+
+Left
+
+“Schmidt's Delicatessen” “No Seeds” “Rye Bread”
+
+Food/Beverage
+
+Bread/Bakery Products
+
+Bread
+
+Bread (Perishable)
+
+Left
+
+Ahold 100% Whole Wheat Bread
+
+Food/Beverage
+
+Bread/Bakery Products
+
+Bread
+
+Bread (Perishable)
+
+Right
+
+Tia Rosa Flour Tortillas Burrito
+
+Food/Beverage
+
+Bread/Bakery Products
+
+Bread
+
+Bread (Shelf Stable)
+
+Right
+
+Turano Gourmet Sandwich Rolls—8 CT
+
+Food/Beverage
+
+Bread/Bakery Products
+
+Bread
+
+Bread (Shelf Stable)
+
+Right
+
+Udi's Gluten Free Classic Hamburger Buns—4 CT
+
+Food/Beverage
+
+Bread/Bakery Products
+
+Bread
+
+Bread (Shelf Stable)
+
+Left
+
+Example 2
+
+Tia Rosa Flour Tortillas Burrito
+
+Food/Beverage
+
+Bread/Bakery Products
+
+Bread
+
+Bread (Shelf Stable)
+
+Left
+
+Turano Gourmet Sandwich Rolls—8 CT
+
+Food/Beverage
+
+Bread/Bakery Products
+
+Bread
+
+Bread (Shelf Stable)
+
+Left
+
+Udi's Gluten Free Classic Hamburger Buns—4 CT
+
+Food/Beverage
+
+Bread/Bakery Products
+
+Bread
+
+Bread (Shelf Stable)
+
+Right
+
+Ahold Fiber Select Brownies Chocolate Fudge—6 CT
+
+Food/Beverage
+
+Cereal/Grain/ Pulse Products
+
+Processed Cereal Products
+
+Cereals Products— Not Ready to Eat (Shelf Stable)
+
+Right
+
+American Classic Gourmet Muffins Raisin Bran—4 CT
+
+Food/Beverage
+
+Cereal/Grain/ Pulse Products
+
+Processed Cereal Products
+
+Cereals Products— Not Ready to Eat (Shelf Stable)
+
+Right
+
+Balconi Choco & Latte Sponge Cakes—10 CT
+
+Food/Beverage
+
+Cereal/Grain/ Pulse Products
+
+Processed Cereal Products
+
+Cereals Products— Not Ready to Eat (Shelf Stable)
+
+Left
+
+Example 3
+
+Tia Rosa Flour Tortillas Burrito
+
+Food/Beverage
+
+Bread/Bakery Products
+
+Bread
+
+Bread (Shelf Stable)
+
+Left
+
+Turano Gourmet Sandwich Rolls—8 CT
+
+Food/Beverage
+
+Bread/Bakery Products
+
+Bread
+
+Bread (Shelf Stable)
+
+Left
+
+Udi's Gluten Free Classic Hamburger Buns—4 CT
+
+Food/Beverage
+
+Bread/Bakery Products
+
+Bread
+
+Bread (Shelf Stable)
+
+Right
+
+Wheatena Toasted Wheat Cereal
+
+Food/Beverage
+
+Cereal/Grain/ Pulse Products
+
+Processed Cereal Products
+
+Cereals Products— Not Ready to Eat (Shelf Stable)
+
+Right
+
+Bobs Red Mill Old Fashioned Whole Grain Rolled Oats 32 oz STAND PACK
+
+Food/Beverage
+
+Cereal/Grain/ Pulse Products
+
+Processed Cereal Products
+
+Cereals Products— Not Ready to Eat (Shelf Stable)
+
+Right
+
+Hodgson Mill Oat Bran Hot Cereal
+
+Food/Beverage
+
+Cereal/Grain/ Pulse Products
+
+Processed Cereal Products
+
+Cereals Products— Not Ready to Eat (Shelf Stable)
+
+Left
+
+Table 2.
+
+ Time trade-offs between different labeling approaches.
+
+Example
+
+IG
+
+ATI
+
+PIG
+
+1
+
+0.082
+
+0.92
+
+0.023
+
+2
+
+0.082
+
+0.83
+
+0.021
+
+3
+
+0.082
+
+0.75
+
+0.020
+
+Table 3.
+
+ Comparison of hierarchical classification performance metrics (IG, ATI, and PIG) across different models and hierarchy levels.
+
+Name
+
+Brick_Test_Accuracy
+
+Brick_Test_F1 Score
+
+Brick_Test_Precision
+
+Brick_Test_Recall
+
+Class_Test_Accuracy
+
+Class_Test_F1 Score
+
+Class_Test_Precision
+
+Class_Test_Recall
+
+Family_Test_Accuracy
+
+Family_Test_F1 Score
+
+Family_Test_Precision
+
+Family_Test_Recall
+
+Segment_Test_Accuracy
+
+Segment_Test_F1 Score
+
+Segment_Test_Precision
+
+Segment_Test_Recall
+
+1_RandomForest_IG (standart)
+
+0.54
+
+0.52
+
+0.56
+
+0.54
+
+0.62
+
+0.60
+
+0.62
+
+0.62
+
+0.69
+
+0.68
+
+0.68
+
+0.69
+
+0.96
+
+0.96
+
+0.96
+
+0.96
+
+1_XGBoost_IG (standart)
+
+0.56
+
+0.56
+
+0.57
+
+0.56
+
+0.63
+
+0.63
+
+0.63
+
+0.63
+
+0.70
+
+0.69
+
+0.70
+
+0.70
+
+0.96
+
+0.96
+
+0.96
+
+0.96
+
+2_RandomForest_ATI
+
+0.55
+
+0.52
+
+0.57
+
+0.55
+
+0.62
+
+0.61
+
+0.63
+
+0.62
+
+0.69
+
+0.68
+
+0.69
+
+0.69
+
+0.96
+
+0.96
+
+0.96
+
+0.96
+
+2_XGBoost_ATI
+
+0.65
+
+0.63
+
+0.68
+
+0.65
+
+0.74
+
+0.72
+
+0.74
+
+0.74
+
+0.80
+
+0.80
+
+0.80
+
+0.80
+
+0.98
+
+0.98
+
+0.98
+
+0.98
+
+3_RandomForest_PIG
+
+0.66
+
+0.63
+
+0.68
+
+0.66
+
+0.74
+
+0.72
+
+0.74
+
+0.74
+
+0.80
+
+0.80
+
+0.80
+
+0.80
+
+0.98
+
+0.98
+
+0.98
+
+0.98
+
+3_XGBoost_PIG
+
+0.69
+
+0.69
+
+0.70
+
+0.69
+
+0.77
+
+0.77
+
+0.77
+
+0.77
+
+0.84
+
+0.84
+
+0.84
+
+0.84
+
+0.99
+
+0.99
+
+0.99
+
+0.99
+
+Disclaimer/Publisher's Note:
+
+ The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+© 2025 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license ( 
+
+https://creativecommons.org/licenses/by/4.0/
+
+https://creativecommons.org/licenses/by/4.0/
+
+).
+
+Share and Cite
+
+mailto:?&subject=From%20MDPI%3A%20%22Enhancing%20Hierarchical%20Classification%20in%20Tree-Based%20Models%20Using%20Level-Wise%20Entropy%20Adjustment"&body=https://www.mdpi.com/3218974%3A%0A%0AEnhancing%20Hierarchical%20Classification%20in%20Tree-Based%20Models%20Using%20Level-Wise%20Entropy%20Adjustment%0A%0AAbstract%3A%20Hierarchical%20classification%2C%20which%20organizes%20items%20into%20structured%20categories%20and%20subcategories%2C%20has%20emerged%20as%20a%20powerful%20solution%20for%20handling%20large%20and%20complex%20datasets.%20However%2C%20traditional%20flat%20classification%20approaches%20often%20overlook%20the%20hierarchical%20dependencies%20between%20classes%2C%20leading%20to%20suboptimal%20predictions%20and%20limited%20interpretability.%20This%20paper%20addresses%20these%20challenges%20by%20proposing%20a%20novel%20integration%20of%20tree-based%20models%20with%20hierarchical-aware%20split%20criteria%20through%20adjusted%20entropy%20calculations.%20The%20proposed%20method%20calculates%20entropy%20at%20multiple%20hierarchical%20levels%2C%20ensuring%20that%20the%20model%20respects%20the%20taxonomic%20structure%20during%20training.%20This%20approach%20aligns%20statistical%20optimization%20with%20class%20semantic%20relationships%2C%20enabling%20more%20accurate%20and%20coherent%20predictions.%20Experiments%20conducted%20on%20real-world%20datasets%20structured%20according%20to%20the%20GS1%20Global%20Product%20Classification%20%28GPC%29%20system%20demonstrate%20the%20effectiveness%20of%20our%20method.%20The%20proposed%20model%20was%20applied%20using%20tree-based%20ensemble%20methods%20combined%20with%20the%20newly%20developed%20hierarchy-aware%20metric%20Penalized%20Information%20Gain%20%28PIG%29.%20PIG%20was%20implemented%20with%20level-wise%20entropy%20adjustments%2C%20assigning%20greater%20weight%20to%20higher%20hierarchical%20levels%20to%20maintain%20the%20taxonomic%20structure.%20The%20model[...]
+
+ 
+
+https://x.com/intent/tweet?text=Enhancing+Hierarchical+Classification+in+Tree-Based+Models+Using+Level-Wise+Entropy+Adjustment&hashtags=mdpiBDCC&url=https%3A%2F%2Fwww.mdpi.com%2F3218974&via=BDCC_MDPI
+
+ 
+
+http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.mdpi.com%2F3218974&title=Enhancing%20Hierarchical%20Classification%20in%20Tree-Based%20Models%20Using%20Level-Wise%20Entropy%20Adjustment%26source%3Dhttps%3A%2F%2Fwww.mdpi.com%26summary%3DHierarchical%20classification%2C%20which%20organizes%20items%20into%20structured%20categories%20and%20subcategories%2C%20has%20emerged%20as%20a%20powerful%20solution%20for%20handling%20large%20and%20complex%20datasets.%20However%2C%20traditional%20flat%20classification%20approaches%20often%20overlook%20the%20%5B...%5D
+
+ 
+
+http://www.facebook.com/sharer.php?u=https://www.mdpi.com/3218974
+
+ 
+
+javascript:void(0);
+
+ 
+
+http://www.reddit.com/submit?url=https://www.mdpi.com/3218974
+
+ 
+
+http://www.mendeley.com/import/?url=https://www.mdpi.com/3218974
+
+MDPI and ACS Style
+
+Narushynska, O.; Doroshenko, A.; Teslyuk, V.; Antoniv, V.; Arzubov, M. Enhancing Hierarchical Classification in Tree-Based Models Using Level-Wise Entropy Adjustment. 
+
+Big Data Cogn. Comput.
+
+ 
+
+2025
+
+, 
+
+9
+
+, 65. https://doi.org/10.3390/bdcc9030065
+
+AMA Style
+
+Narushynska O, Doroshenko A, Teslyuk V, Antoniv V, Arzubov M. Enhancing Hierarchical Classification in Tree-Based Models Using Level-Wise Entropy Adjustment. 
+
+Big Data and Cognitive Computing
+
+. 2025; 9(3):65. https://doi.org/10.3390/bdcc9030065
+
+Chicago/Turabian Style
+
+Narushynska, Olga, Anastasiya Doroshenko, Vasyl Teslyuk, Volodymyr Antoniv, and Maksym Arzubov. 2025. "Enhancing Hierarchical Classification in Tree-Based Models Using Level-Wise Entropy Adjustment" 
+
+Big Data and Cognitive Computing
+
+ 9, no. 3: 65. https://doi.org/10.3390/bdcc9030065
+
+APA Style
+
+Narushynska, O., Doroshenko, A., Teslyuk, V., Antoniv, V., & Arzubov, M. (2025). Enhancing Hierarchical Classification in Tree-Based Models Using Level-Wise Entropy Adjustment. 
+
+Big Data and Cognitive Computing
+
+, 
+
+9
+
+(3), 65. https://doi.org/10.3390/bdcc9030065
+
+Article Metrics
+
+Yes
+
+Citations
+
+Crossref
+
+3
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Web of Science
+
+3
+
+https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=PARTNER_APP&SrcAuth=LinksAMR&KeyUT=WOS:001452862400001&DestLinkType=FullRecord&DestApp=ALL_WOS&UsrCustomerID=7e717b028bc90856e7c55c7029afc773
+
+Scopus
+
+5
+
+https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105000930504&origin=inward
+
+Google Scholar
+
+[click to view]
+
+https://scholar.google.com/scholar_lookup?title=Enhancing+Hierarchical+Classification+in+Tree-Based+Models+Using+Level-Wise+Entropy+Adjustment&volume=9&doi=10.3390%2Fbdcc9030065&journal=Big+Data+and+Cognitive+Computing&publication_year=2025&author=Olga+Narushynska&author=Anastasiya+Doroshenko&author=Vasyl+Teslyuk&author=Volodymyr+Antoniv&author=Maksym+Arzubov
+
+No
+
+Article Access Statistics
+
+Created with Highcharts 4.0.4 Article access statistics Article Views 7. Jan 8. Jan 9. Jan 10. Jan 11. Jan 12. Jan 13. Jan 14. Jan 15. Jan 16. Jan 17. Jan 18. Jan 19. Jan 20. Jan 21. Jan 22. Jan 23. Jan 24. Jan 25. Jan 26. Jan 27. Jan 28. Jan 29. Jan 30. Jan 31. Jan 1. Feb 2. Feb 3. Feb 4. Feb 5. Feb 6. Feb 7. Feb 8. Feb 9. Feb 10. Feb 11. Feb 12. Feb 13. Feb 14. Feb 15. Feb 16. Feb 17. Feb 18. Feb 19. Feb 20. Feb 21. Feb 22. Feb 23. Feb 24. Feb 25. Feb 26. Feb 27. Feb 28. Feb 1. Mar 2. Mar 3. Mar 4. Mar 5. Mar 6. Mar 7. Mar 8. Mar 9. Mar 10. Mar 11. Mar 12. Mar 13. Mar 14. Mar 15. Mar 16. Mar 17. Mar 18. Mar 19. Mar 20. Mar 21. Mar 22. Mar 23. Mar 24. Mar 25. Mar 26. Mar 27. Mar 28. Mar 29. Mar 30. Mar 31. Mar 1. Apr 2. Apr 3. Apr 4. Apr 5. Apr 6. Apr 0k 2k 4k 6k
+
+For more information on the journal statistics, click 
+
+here
+
+https://www.mdpi.com/journal/BDCC/stats
+
+.
+
+Multiple requests from the same IP address are counted as one view.
+
+Zoom
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+ | 
+
+Orient
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+ | 
+
+As Lines
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+ | 
+
+As Sticks
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+ | 
+
+As Cartoon
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+ | 
+
+As Surface
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+ | 
+
+Previous Scene
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+ | 
+
+Next Scene
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Cite
+
+Export citation file: 
+
+BibTeX
+
+javascript:window.document.forms['export-bibtex'].submit()
+
+ | 
+
+EndNote
+
+javascript:window.document.forms['export-endnote'].submit()
+
+ | 
+
+RIS
+
+javascript:window.document.forms['export-ris'].submit()
+
+MDPI and ACS Style
+
+Narushynska, O.; Doroshenko, A.; Teslyuk, V.; Antoniv, V.; Arzubov, M. Enhancing Hierarchical Classification in Tree-Based Models Using Level-Wise Entropy Adjustment. 
+
+Big Data Cogn. Comput.
+
+ 
+
+2025
+
+, 
+
+9
+
+, 65. https://doi.org/10.3390/bdcc9030065
+
+AMA Style
+
+Narushynska O, Doroshenko A, Teslyuk V, Antoniv V, Arzubov M. Enhancing Hierarchical Classification in Tree-Based Models Using Level-Wise Entropy Adjustment. 
+
+Big Data and Cognitive Computing
+
+. 2025; 9(3):65. https://doi.org/10.3390/bdcc9030065
+
+Chicago/Turabian Style
+
+Narushynska, Olga, Anastasiya Doroshenko, Vasyl Teslyuk, Volodymyr Antoniv, and Maksym Arzubov. 2025. "Enhancing Hierarchical Classification in Tree-Based Models Using Level-Wise Entropy Adjustment" 
+
+Big Data and Cognitive Computing
+
+ 9, no. 3: 65. https://doi.org/10.3390/bdcc9030065
+
+APA Style
+
+Narushynska, O., Doroshenko, A., Teslyuk, V., Antoniv, V., & Arzubov, M. (2025). Enhancing Hierarchical Classification in Tree-Based Models Using Level-Wise Entropy Adjustment. 
+
+Big Data and Cognitive Computing
+
+, 
+
+9
+
+(3), 65. https://doi.org/10.3390/bdcc9030065
+
+clear
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Big Data Cogn. Comput.
+
+, EISSN 2504-2289, Published by MDPI
+
+RSS
+
+https://www.mdpi.com/rss/journal/BDCC
+
+ 
+
+Content Alert
+
+https://www.mdpi.com/journal/BDCC/toc-alert
+
+Further Information
+
+Article Processing Charges
+
+https://www.mdpi.com/apc
+
+ 
+
+Pay an Invoice
+
+https://www.mdpi.com/about/payment
+
+ 
+
+Open Access Policy
+
+https://www.mdpi.com/openaccess
+
+ 
+
+Contact MDPI
+
+https://www.mdpi.com/about/contact
+
+ 
+
+Jobs at MDPI
+
+https://careers.mdpi.com/
+
+Guidelines
+
+For Authors
+
+https://www.mdpi.com/authors
+
+ 
+
+For Reviewers
+
+https://www.mdpi.com/reviewers
+
+ 
+
+For Editors
+
+https://www.mdpi.com/editors
+
+ 
+
+For Librarians
+
+https://www.mdpi.com/librarians
+
+ 
+
+For Publishers
+
+https://www.mdpi.com/publishing_services
+
+ 
+
+For Societies
+
+https://www.mdpi.com/societies
+
+ 
+
+For Conference Organizers
+
+https://www.mdpi.com/conference_organizers
+
+MDPI Initiatives
+
+Sciforum
+
+https://sciforum.net/
+
+ 
+
+MDPI Books
+
+https://www.mdpi.com/books
+
+ 
+
+Preprints.org
+
+https://www.preprints.org/
+
+ 
+
+Scilit
+
+https://www.scilit.com/
+
+ 
+
+SciProfiles
+
+https://sciprofiles.com?utm_source=mpdi.com&utm_medium=bottom_menu&utm_campaign=initiative
+
+ 
+
+Encyclopedia
+
+https://encyclopedia.pub/
+
+ 
+
+JAMS
+
+https://jams.pub/
+
+ 
+
+Proceedings Series
+
+https://www.mdpi.com/about/proceedings
+
+Follow MDPI
+
+LinkedIn
+
+https://www.linkedin.com/company/mdpi
+
+ 
+
+Facebook
+
+https://www.facebook.com/MDPIOpenAccessPublishing
+
+ 
+
+X
+
+https://x.com/MDPIOpenAccess
+
+ 
+
+Subscribe to receive issue release notifications and newsletters from MDPI journals
+
+Accounting and Auditing
+
+Acoustics
+
+Acta Microbiologica Hellenica
+
+Actuators
+
+Adhesives
+
+Administrative Sciences
+
+Adolescents
+
+Advances in Respiratory Medicine
+
+Aerobiology
+
+Aerospace
+
+Agriculture
+
+AgriEngineering
+
+Agrochemicals
+
+Agronomy
+
+AI
+
+AI Chemistry
+
+AI for Engineering
+
+AI in Education
+
+AI in Medicine
+
+AI Materials
+
+AI Sensors
+
+Air
+
+Algorithms
+
+Allergies
+
+Alloys
+
+Analog
+
+Analytica
+
+Analytics
+
+Anatomia
+
+Anesthesia Research
+
+Animals
+
+Antibiotics
+
+Antibodies
+
+Antioxidants
+
+Applied Biosciences
+
+Applied Mechanics
+
+Applied Microbiology
+
+Applied Nano
+
+Applied Sciences
+
+Applied System Innovation
+
+AppliedChem
+
+AppliedMath
+
+AppliedPhys
+
+Aquaculture Journal
+
+Architecture
+
+Arthropoda
+
+Arts
+
+Astronautics
+
+Astronomy
+
+Atmosphere
+
+Atoms
+
+Audiology Research
+
+Automation
+
+Axioms
+
+Bacteria
+
+Batteries
+
+Behavioral Sciences
+
+Beverages
+
+Big Data and Cognitive Computing
+
+BioChem
+
+Bioengineering
+
+Biologics
+
+Biology
+
+Biology and Life Sciences Forum
+
+Biomass
+
+Biomechanics
+
+BioMed
+
+Biomedicines
+
+BioMedInformatics
+
+Biomimetics
+
+Biomolecules
+
+Biophysica
+
+Bioresources and Bioproducts
+
+Biosensors
+
+Biosphere
+
+BioTech
+
+Birds
+
+Blockchains
+
+Brain Sciences
+
+Buildings
+
+Businesses
+
+C
+
+Cancers
+
+Cardiogenetics
+
+Cardiovascular Medicine
+
+Catalysts
+
+Cells
+
+Ceramics
+
+Challenges
+
+ChemEngineering
+
+Chemistry
+
+Chemistry Proceedings
+
+Chemosensors
+
+Children
+
+Chips
+
+CivilEng
+
+Clean Technologies
+
+Climate
+
+Clinical and Translational Neuroscience
+
+Clinical Bioenergetics
+
+Clinics and Practice
+
+Clocks & Sleep
+
+Coasts
+
+Coatings
+
+Colloids and Interfaces
+
+Colorants
+
+Commodities
+
+Complexities
+
+Complications
+
+Compounds
+
+Computation
+
+Computer Sciences & Mathematics Forum
+
+Computers
+
+Condensed Matter
+
+Conservation
+
+Construction Materials
+
+Corrosion and Materials Degradation
+
+Cosmetics
+
+COVID
+
+Craniomaxillofacial Trauma & Reconstruction
+
+Crops
+
+Cryo
+
+Cryptography
+
+Crystals
+
+Culture
+
+Current Issues in Molecular Biology
+
+Current Oncology
+
+Dairy
+
+Data
+
+Dentistry Journal
+
+Dermato
+
+Dermatopathology
+
+Designs
+
+Diabetology
+
+Diagnostics
+
+Dietetics
+
+Digital
+
+Disabilities
+
+Diseases
+
+Diversity
+
+DNA
+
+Drones
+
+Drugs and Drug Candidates
+
+Dynamics
+
+Earth
+
+Ecologies
+
+Econometrics
+
+Economies
+
+Education Sciences
+
+Electricity
+
+Electrochem
+
+Electronic Materials
+
+Electronics
+
+Emergency Care and Medicine
+
+Encyclopedia
+
+Endocrines
+
+Energies
+
+Energy Storage and Applications
+
+Eng
+
+Engineering Proceedings
+
+Entropic and Disordered Matter
+
+Entropy
+
+Environmental and Earth Sciences Proceedings
+
+Environmental Remediation
+
+Environments
+
+Epidemiologia
+
+Epigenomes
+
+European Burn Journal
+
+European Journal of Investigation in Health, Psychology and Education
+
+Family Sciences
+
+Fermentation
+
+Fibers
+
+FinTech
+
+Fire
+
+Fishes
+
+Fluids
+
+Foods
+
+Forecasting
+
+Forensic Sciences
+
+Forests
+
+Fossil Studies
+
+Foundations
+
+Fractal and Fractional
+
+Fuels
+
+Future
+
+Future Internet
+
+Future Pharmacology
+
+Future Transportation
+
+Galaxies
+
+Games
+
+Gases
+
+Gastroenterology Insights
+
+Gastrointestinal Disorders
+
+Gastronomy
+
+Gels
+
+Genealogy
+
+Genes
+
+Geographies
+
+GeoHazards
+
+Geomatics
+
+Geometry
+
+Geosciences
+
+Geotechnics
+
+Geriatrics
+
+Germs
+
+Glacies
+
+Gout, Urate, and Crystal Deposition Disease
+
+Grasses
+
+Green
+
+Green Health
+
+Hardware
+
+Healthcare
+
+Hearts
+
+Hemato
+
+Hematology Reports
+
+Heritage
+
+Histories
+
+Horticulturae
+
+Hospitals
+
+Humanities
+
+Humans
+
+Hydrobiology
+
+Hydrogen
+
+Hydrology
+
+Hydropower
+
+Hygiene
+
+Immuno
+
+Industries
+
+Infectious Disease Reports
+
+Informatics
+
+Information
+
+Infrastructures
+
+Inorganics
+
+Insects
+
+Instruments
+
+Intelligent Infrastructure and Construction
+
+International Journal of Cognitive Sciences
+
+International Journal of Environmental Medicine
+
+International Journal of Environmental Research and Public Health
+
+International Journal of Financial Studies
+
+International Journal of Molecular Sciences
+
+International Journal of Neonatal Screening
+
+International Journal of Orofacial Myology and Myofunctional Therapy
+
+International Journal of Plant Biology
+
+International Journal of Topology
+
+International Journal of Translational Medicine
+
+International Journal of Turbomachinery, Propulsion and Power
+
+International Medical Education
+
+Inventions
+
+IoT
+
+ISPRS International Journal of Geo-Information
+
+J
+
+Journal of Aesthetic Medicine
+
+Journal of Ageing and Longevity
+
+Journal of CardioRenal Medicine
+
+Journal of Cardiovascular Development and Disease
+
+Journal of Clinical & Translational Ophthalmology
+
+Journal of Clinical Medicine
+
+Journal of Composites Science
+
+Journal of Cybersecurity and Privacy
+
+Journal of Dementia and Alzheimer's Disease
+
+Journal of Developmental Biology
+
+Journal of Experimental and Theoretical Analyses
+
+Journal of Eye Movement Research
+
+Journal of Functional Biomaterials
+
+Journal of Functional Morphology and Kinesiology
+
+Journal of Fungi
+
+Journal of Genome Biotechnology and Genetics
+
+Journal of Gerontology and Geriatrics
+
+Journal of Imaging
+
+Journal of Innovation
+
+Journal of Intelligence
+
+Journal of Interdisciplinary Research Applied to Medicine
+
+Journal of Low Power Electronics and Applications
+
+Journal of Manufacturing and Materials Processing
+
+Journal of Marine Science and Engineering
+
+Journal of Market Access & Health Policy
+
+Journal of Mind and Medical Sciences
+
+Journal of Molecular Pathology
+
+Journal of Nanotheranostics
+
+Journal of Nuclear Engineering
+
+Journal of Otorhinolaryngology, Hearing and Balance Medicine
+
+Journal of Parks
+
+Journal of Personalized Medicine
+
+Journal of Pharmaceutical and BioTech Industry
+
+Journal of Phytomedicine
+
+Journal of Respiration
+
+Journal of Risk and Financial Management
+
+Journal of Sensor and Actuator Networks
+
+Journal of Superintelligence
+
+Journal of the American Podiatric Medical Association
+
+Journal of the Oman Medical Association
+
+Journal of Theoretical and Applied Electronic Commerce Research
+
+Journal of Vascular Diseases
+
+Journal of Xenobiotics
+
+Journal of Zoological and Botanical Gardens
+
+Journalism and Media
+
+Kidney and Dialysis
+
+Kinases and Phosphatases
+
+Knowledge
+
+LabMed
+
+Laboratories
+
+Land
+
+Languages
+
+Laws
+
+Life
+
+Lights
+
+Limnological Review
+
+Lipidology
+
+Liquids
+
+Literature
+
+Livers
+
+Logics
+
+Logistics
+
+Low-Altitude Economy
+
+Lubricants
+
+Lymphatics
+
+Machine Learning and Knowledge Extraction
+
+Machines
+
+Macromol
+
+Magnetism
+
+Magnetochemistry
+
+Marine Drugs
+
+Materials
+
+Materials Proceedings
+
+Mathematical and Computational Applications
+
+Mathematics
+
+Medical Sciences
+
+Medical Sciences Forum
+
+Medicina
+
+Medicines
+
+Membranes
+
+Merits
+
+Metabolites
+
+Metals
+
+Meteorology
+
+Methane
+
+Methods and Protocols
+
+Metrics
+
+Metrology
+
+Micro
+
+Microbiology Research
+
+Microelectronics
+
+Micromachines
+
+Microorganisms
+
+Microplastics
+
+Microwave
+
+Minerals
+
+Mining
+
+Modelling
+
+Modern Mathematical Physics
+
+Molbank
+
+Molecules
+
+Multimedia
+
+Multimodal Technologies and Interaction
+
+Muscles
+
+Nanoenergy Advances
+
+Nanomanufacturing
+
+Nanomaterials
+
+NDT
+
+Network
+
+Neuroglia
+
+Neuroimaging
+
+Neurology International
+
+NeuroSci
+
+Nitrogen
+
+Non-Coding RNA
+
+Nursing Reports
+
+Nutraceuticals
+
+Nutrients
+
+Obesities
+
+Occupational Health
+
+Oceans
+
+Onco
+
+Optics
+
+Oral
+
+Organics
+
+Organoids
+
+Osteology
+
+Oxygen
+
+Pandemics
+
+Parasitologia
+
+Particles
+
+Pathogens
+
+Pathophysiology
+
+Peace Studies
+
+Pediatric Reports
+
+Pets
+
+Pharmaceuticals
+
+Pharmaceutics
+
+Pharmacoepidemiology
+
+Pharmacy
+
+Philosophies
+
+Photochem
+
+Photonics
+
+Phycology
+
+Physchem
+
+Physical Sciences Forum
+
+Physics
+
+Physiologia
+
+Plants
+
+Plasma
+
+Platforms
+
+Pollutants
+
+Polymers
+
+Polysaccharides
+
+Populations
+
+Poultry
+
+Powders
+
+Precision Oncology
+
+Primary and Hospital Care
+
+Proceedings
+
+Processes
+
+Prosthesis
+
+Proteomes
+
+Psychiatry International
+
+Psychoactives
+
+Psychology International
+
+Publications
+
+Purification
+
+Quantum Beam Science
+
+Quantum Reports
+
+Quaternary
+
+Radiation
+
+Reactions
+
+Real Estate
+
+Receptors
+
+Recycling
+
+Regional Science and Environmental Economics
+
+Religions
+
+Remote Sensing
+
+Reports
+
+Reproductive Medicine
+
+Resources
+
+Rheumato
+
+Risks
+
+Robotics
+
+Romanian Journal of Preventive Medicine
+
+Ruminants
+
+Safety
+
+Sci
+
+Scientia Pharmaceutica
+
+Sclerosis
+
+Seeds
+
+Semiconductors and Heterogeneous Integration
+
+Sensors
+
+Separations
+
+Sexes
+
+Signals
+
+Sinusitis
+
+Smart Cities
+
+Social Sciences
+
+Société Internationale d'Urologie Journal
+
+Societies
+
+Software
+
+Soil Systems
+
+Solar
+
+Solids
+
+Spectroscopy Journal
+
+Sports
+
+Standards
+
+Stats
+
+Stratigraphy and Sedimentology
+
+Stresses
+
+Surfaces
+
+Surgeries
+
+Surgical Techniques Development
+
+Sustainability
+
+Sustainable Chemistry
+
+Swiss Archives of Neurology, Psychiatry and Psychotherapy
+
+Symmetry
+
+SynBio
+
+Systems
+
+Targets
+
+Taxonomy
+
+Technologies
+
+Telecom
+
+Textiles
+
+Thalassemia Reports
+
+Theoretical and Applied Ergonomics
+
+Therapeutics
+
+Thermo
+
+Time and Space
+
+Tomography
+
+Tourism and Hospitality
+
+Toxics
+
+Toxins
+
+Transplantology
+
+Trauma Care
+
+Trends in Higher Education
+
+Trends in Public Health
+
+Tropical Medicine and Infectious Disease
+
+Universe
+
+Urban Science
+
+Uro
+
+Vaccines
+
+Vehicles
+
+Venereology
+
+Veterinary Sciences
+
+Vibration
+
+Virtual Worlds
+
+Viruses
+
+Vision
+
+Waste
+
+Water
+
+Wild
+
+Wind
+
+Women
+
+World
+
+World Electric Vehicle Journal
+
+Youth
+
+Zoonotic Diseases
+
+Select options
+
+[-] accountaudit
+
+ 
+
+Accounting and Auditing
+
+ 
+
+[-] acoustics
+
+ 
+
+Acoustics
+
+ 
+
+[-] amh
+
+ 
+
+Acta Microbiologica Hellenica
+
+ 
+
+[-] actuators
+
+ 
+
+Actuators
+
+ 
+
+[-] adhesives
+
+ 
+
+Adhesives
+
+ 
+
+[-] admsci
+
+ 
+
+Administrative Sciences
+
+ 
+
+[-] adolescents
+
+ 
+
+Adolescents
+
+ 
+
+[-] arm
+
+ 
+
+Advances in Respiratory Medicine
+
+ 
+
+[-] aerobiology
+
+ 
+
+Aerobiology
+
+ 
+
+[-] aerospace
+
+ 
+
+Aerospace
+
+ 
+
+[-] agriculture
+
+ 
+
+Agriculture
+
+ 
+
+[-] agriengineering
+
+ 
+
+AgriEngineering
+
+ 
+
+[-] agrochemicals
+
+ 
+
+Agrochemicals
+
+ 
+
+[-] agronomy
+
+ 
+
+Agronomy
+
+ 
+
+[-] ai
+
+ 
+
+AI
+
+ 
+
+[-] aichem
+
+ 
+
+AI Chemistry
+
+ 
+
+[-] aieng
+
+ 
+
+AI for Engineering
+
+ 
+
+[-] aieduc
+
+ 
+
+AI in Education
+
+ 
+
+[-] aimed
+
+ 
+
+AI in Medicine
+
+ 
+
+[-] aimater
+
+ 
+
+AI Materials
+
+ 
+
+[-] aisens
+
+ 
+
+AI Sensors
+
+ 
+
+[-] air
+
+ 
+
+Air
+
+ 
+
+[-] algorithms
+
+ 
+
+Algorithms
+
+ 
+
+[-] allergies
+
+ 
+
+Allergies
+
+ 
+
+[-] alloys
+
+ 
+
+Alloys
+
+ 
+
+[-] analog
+
+ 
+
+Analog
+
+ 
+
+[-] analytica
+
+ 
+
+Analytica
+
+ 
+
+[-] analytics
+
+ 
+
+Analytics
+
+ 
+
+[-] anatomia
+
+ 
+
+Anatomia
+
+ 
+
+[-] anesthres
+
+ 
+
+Anesthesia Research
+
+ 
+
+[-] animals
+
+ 
+
+Animals
+
+ 
+
+[-] antibiotics
+
+ 
+
+Antibiotics
+
+ 
+
+[-] antibodies
+
+ 
+
+Antibodies
+
+ 
+
+[-] antioxidants
+
+ 
+
+Antioxidants
+
+ 
+
+[-] applbiosci
+
+ 
+
+Applied Biosciences
+
+ 
+
+[-] applmech
+
+ 
+
+Applied Mechanics
+
+ 
+
+[-] applmicrobiol
+
+ 
+
+Applied Microbiology
+
+ 
+
+[-] applnano
+
+ 
+
+Applied Nano
+
+ 
+
+[-] applsci
+
+ 
+
+Applied Sciences
+
+ 
+
+[-] asi
+
+ 
+
+Applied System Innovation
+
+ 
+
+[-] appliedchem
+
+ 
+
+AppliedChem
+
+ 
+
+[-] appliedmath
+
+ 
+
+AppliedMath
+
+ 
+
+[-] appliedphys
+
+ 
+
+AppliedPhys
+
+ 
+
+[-] aquacj
+
+ 
+
+Aquaculture Journal
+
+ 
+
+[-] architecture
+
+ 
+
+Architecture
+
+ 
+
+[-] arthropoda
+
+ 
+
+Arthropoda
+
+ 
+
+[-] arts
+
+ 
+
+Arts
+
+ 
+
+[-] astronautics
+
+ 
+
+Astronautics
+
+ 
+
+[-] astronomy
+
+ 
+
+Astronomy
+
+ 
+
+[-] atmosphere
+
+ 
+
+Atmosphere
+
+ 
+
+[-] atoms
+
+ 
+
+Atoms
+
+ 
+
+[-] audiolres
+
+ 
+
+Audiology Research
+
+ 
+
+[-] automation
+
+ 
+
+Automation
+
+ 
+
+[-] axioms
+
+ 
+
+Axioms
+
+ 
+
+[-] bacteria
+
+ 
+
+Bacteria
+
+ 
+
+[-] batteries
+
+ 
+
+Batteries
+
+ 
+
+[-] behavsci
+
+ 
+
+Behavioral Sciences
+
+ 
+
+[-] beverages
+
+ 
+
+Beverages
+
+ 
+
+[-] BDCC
+
+ 
+
+Big Data and Cognitive Computing
+
+ 
+
+[-] biochem
+
+ 
+
+BioChem
+
+ 
+
+[-] bioengineering
+
+ 
+
+Bioengineering
+
+ 
+
+[-] biologics
+
+ 
+
+Biologics
+
+ 
+
+[-] biology
+
+ 
+
+Biology
+
+ 
+
+[-] blsf
+
+ 
+
+Biology and Life Sciences Forum
+
+ 
+
+[-] biomass
+
+ 
+
+Biomass
+
+ 
+
+[-] biomechanics
+
+ 
+
+Biomechanics
+
+ 
+
+[-] biomed
+
+ 
+
+BioMed
+
+ 
+
+[-] biomedicines
+
+ 
+
+Biomedicines
+
+ 
+
+[-] biomedinformatics
+
+ 
+
+BioMedInformatics
+
+ 
+
+[-] biomimetics
+
+ 
+
+Biomimetics
+
+ 
+
+[-] biomolecules
+
+ 
+
+Biomolecules
+
+ 
+
+[-] biophysica
+
+ 
+
+Biophysica
+
+ 
+
+[-] bioresourbioprod
+
+ 
+
+Bioresources and Bioproducts
+
+ 
+
+[-] biosensors
+
+ 
+
+Biosensors
+
+ 
+
+[-] biosphere
+
+ 
+
+Biosphere
+
+ 
+
+[-] biotech
+
+ 
+
+BioTech
+
+ 
+
+[-] birds
+
+ 
+
+Birds
+
+ 
+
+[-] blockchains
+
+ 
+
+Blockchains
+
+ 
+
+[-] brainsci
+
+ 
+
+Brain Sciences
+
+ 
+
+[-] buildings
+
+ 
+
+Buildings
+
+ 
+
+[-] businesses
+
+ 
+
+Businesses
+
+ 
+
+[-] carbon
+
+ 
+
+C
+
+ 
+
+[-] cancers
+
+ 
+
+Cancers
+
+ 
+
+[-] cardiogenetics
+
+ 
+
+Cardiogenetics
+
+ 
+
+[-] cardiovascmed
+
+ 
+
+Cardiovascular Medicine
+
+ 
+
+[-] catalysts
+
+ 
+
+Catalysts
+
+ 
+
+[-] cells
+
+ 
+
+Cells
+
+ 
+
+[-] ceramics
+
+ 
+
+Ceramics
+
+ 
+
+[-] challenges
+
+ 
+
+Challenges
+
+ 
+
+[-] ChemEngineering
+
+ 
+
+ChemEngineering
+
+ 
+
+[-] chemistry
+
+ 
+
+Chemistry
+
+ 
+
+[-] chemproc
+
+ 
+
+Chemistry Proceedings
+
+ 
+
+[-] chemosensors
+
+ 
+
+Chemosensors
+
+ 
+
+[-] children
+
+ 
+
+Children
+
+ 
+
+[-] chips
+
+ 
+
+Chips
+
+ 
+
+[-] civileng
+
+ 
+
+CivilEng
+
+ 
+
+[-] cleantechnol
+
+ 
+
+Clean Technologies
+
+ 
+
+[-] climate
+
+ 
+
+Climate
+
+ 
+
+[-] ctn
+
+ 
+
+Clinical and Translational Neuroscience
+
+ 
+
+[-] clinbioenerg
+
+ 
+
+Clinical Bioenergetics
+
+ 
+
+[-] clinpract
+
+ 
+
+Clinics and Practice
+
+ 
+
+[-] clockssleep
+
+ 
+
+Clocks & Sleep
+
+ 
+
+[-] coasts
+
+ 
+
+Coasts
+
+ 
+
+[-] coatings
+
+ 
+
+Coatings
+
+ 
+
+[-] colloids
+
+ 
+
+Colloids and Interfaces
+
+ 
+
+[-] colorants
+
+ 
+
+Colorants
+
+ 
+
+[-] commodities
+
+ 
+
+Commodities
+
+ 
+
+[-] complexities
+
+ 
+
+Complexities
+
+ 
+
+[-] complications
+
+ 
+
+Complications
+
+ 
+
+[-] compounds
+
+ 
+
+Compounds
+
+ 
+
+[-] computation
+
+ 
+
+Computation
+
+ 
+
+[-] csmf
+
+ 
+
+Computer Sciences & Mathematics Forum
+
+ 
+
+[-] computers
+
+ 
+
+Computers
+
+ 
+
+[-] condensedmatter
+
+ 
+
+Condensed Matter
+
+ 
+
+[-] conservation
+
+ 
+
+Conservation
+
+ 
+
+[-] constrmater
+
+ 
+
+Construction Materials
+
+ 
+
+[-] cmd
+
+ 
+
+Corrosion and Materials Degradation
+
+ 
+
+[-] cosmetics
+
+ 
+
+Cosmetics
+
+ 
+
+[-] covid
+
+ 
+
+COVID
+
+ 
+
+[-] cmtr
+
+ 
+
+Craniomaxillofacial Trauma & Reconstruction
+
+ 
+
+[-] crops
+
+ 
+
+Crops
+
+ 
+
+[-] cryo
+
+ 
+
+Cryo
+
+ 
+
+[-] cryptography
+
+ 
+
+Cryptography
+
+ 
+
+[-] crystals
+
+ 
+
+Crystals
+
+ 
+
+[-] culture
+
+ 
+
+Culture
+
+ 
+
+[-] cimb
+
+ 
+
+Current Issues in Molecular Biology
+
+ 
+
+[-] curroncol
+
+ 
+
+Current Oncology
+
+ 
+
+[-] dairy
+
+ 
+
+Dairy
+
+ 
+
+[-] data
+
+ 
+
+Data
+
+ 
+
+[-] dentistry
+
+ 
+
+Dentistry Journal
+
+ 
+
+[-] dermato
+
+ 
+
+Dermato
+
+ 
+
+[-] dermatopathology
+
+ 
+
+Dermatopathology
+
+ 
+
+[-] designs
+
+ 
+
+Designs
+
+ 
+
+[-] diabetology
+
+ 
+
+Diabetology
+
+ 
+
+[-] diagnostics
+
+ 
+
+Diagnostics
+
+ 
+
+[-] dietetics
+
+ 
+
+Dietetics
+
+ 
+
+[-] digital
+
+ 
+
+Digital
+
+ 
+
+[-] disabilities
+
+ 
+
+Disabilities
+
+ 
+
+[-] diseases
+
+ 
+
+Diseases
+
+ 
+
+[-] diversity
+
+ 
+
+Diversity
+
+ 
+
+[-] dna
+
+ 
+
+DNA
+
+ 
+
+[-] drones
+
+ 
+
+Drones
+
+ 
+
+[-] ddc
+
+ 
+
+Drugs and Drug Candidates
+
+ 
+
+[-] dynamics
+
+ 
+
+Dynamics
+
+ 
+
+[-] earth
+
+ 
+
+Earth
+
+ 
+
+[-] ecologies
+
+ 
+
+Ecologies
+
+ 
+
+[-] econometrics
+
+ 
+
+Econometrics
+
+ 
+
+[-] economies
+
+ 
+
+Economies
+
+ 
+
+[-] education
+
+ 
+
+Education Sciences
+
+ 
+
+[-] electricity
+
+ 
+
+Electricity
+
+ 
+
+[-] electrochem
+
+ 
+
+Electrochem
+
+ 
+
+[-] electronicmat
+
+ 
+
+Electronic Materials
+
+ 
+
+[-] electronics
+
+ 
+
+Electronics
+
+ 
+
+[-] ecm
+
+ 
+
+Emergency Care and Medicine
+
+ 
+
+[-] encyclopedia
+
+ 
+
+Encyclopedia
+
+ 
+
+[-] endocrines
+
+ 
+
+Endocrines
+
+ 
+
+[-] energies
+
+ 
+
+Energies
+
+ 
+
+[-] esa
+
+ 
+
+Energy Storage and Applications
+
+ 
+
+[-] eng
+
+ 
+
+Eng
+
+ 
+
+[-] engproc
+
+ 
+
+Engineering Proceedings
+
+ 
+
+[-] edm
+
+ 
+
+Entropic and Disordered Matter
+
+ 
+
+[-] entropy
+
+ 
+
+Entropy
+
+ 
+
+[-] eesp
+
+ 
+
+Environmental and Earth Sciences Proceedings
+
+ 
+
+[-] environremediat
+
+ 
+
+Environmental Remediation
+
+ 
+
+[-] environments
+
+ 
+
+Environments
+
+ 
+
+[-] epidemiologia
+
+ 
+
+Epidemiologia
+
+ 
+
+[-] epigenomes
+
+ 
+
+Epigenomes
+
+ 
+
+[-] ebj
+
+ 
+
+European Burn Journal
+
+ 
+
+[-] ejihpe
+
+ 
+
+European Journal of Investigation in Health, Psychology and Education
+
+ 
+
+[-] famsci
+
+ 
+
+Family Sciences
+
+ 
+
+[-] fermentation
+
+ 
+
+Fermentation
+
+ 
+
+[-] fibers
+
+ 
+
+Fibers
+
+ 
+
+[-] fintech
+
+ 
+
+FinTech
+
+ 
+
+[-] fire
+
+ 
+
+Fire
+
+ 
+
+[-] fishes
+
+ 
+
+Fishes
+
+ 
+
+[-] fluids
+
+ 
+
+Fluids
+
+ 
+
+[-] foods
+
+ 
+
+Foods
+
+ 
+
+[-] forecasting
+
+ 
+
+Forecasting
+
+ 
+
+[-] forensicsci
+
+ 
+
+Forensic Sciences
+
+ 
+
+[-] forests
+
+ 
+
+Forests
+
+ 
+
+[-] fossstud
+
+ 
+
+Fossil Studies
+
+ 
+
+[-] foundations
+
+ 
+
+Foundations
+
+ 
+
+[-] fractalfract
+
+ 
+
+Fractal and Fractional
+
+ 
+
+[-] fuels
+
+ 
+
+Fuels
+
+ 
+
+[-] future
+
+ 
+
+Future
+
+ 
+
+[-] futureinternet
+
+ 
+
+Future Internet
+
+ 
+
+[-] futurepharmacol
+
+ 
+
+Future Pharmacology
+
+ 
+
+[-] futuretransp
+
+ 
+
+Future Transportation
+
+ 
+
+[-] galaxies
+
+ 
+
+Galaxies
+
+ 
+
+[-] games
+
+ 
+
+Games
+
+ 
+
+[-] gases
+
+ 
+
+Gases
+
+ 
+
+[-] gastroent
+
+ 
+
+Gastroenterology Insights
+
+ 
+
+[-] gastrointestdisord
+
+ 
+
+Gastrointestinal Disorders
+
+ 
+
+[-] gastronomy
+
+ 
+
+Gastronomy
+
+ 
+
+[-] gels
+
+ 
+
+Gels
+
+ 
+
+[-] genealogy
+
+ 
+
+Genealogy
+
+ 
+
+[-] genes
+
+ 
+
+Genes
+
+ 
+
+[-] geographies
+
+ 
+
+Geographies
+
+ 
+
+[-] geohazards
+
+ 
+
+GeoHazards
+
+ 
+
+[-] geomatics
+
+ 
+
+Geomatics
+
+ 
+
+[-] geometry
+
+ 
+
+Geometry
+
+ 
+
+[-] geosciences
+
+ 
+
+Geosciences
+
+ 
+
+[-] geotechnics
+
+ 
+
+Geotechnics
+
+ 
+
+[-] geriatrics
+
+ 
+
+Geriatrics
+
+ 
+
+[-] germs
+
+ 
+
+Germs
+
+ 
+
+[-] glacies
+
+ 
+
+Glacies
+
+ 
+
+[-] gucdd
+
+ 
+
+Gout, Urate, and Crystal Deposition Disease
+
+ 
+
+[-] grasses
+
+ 
+
+Grasses
+
+ 
+
+[-] green
+
+ 
+
+Green
+
+ 
+
+[-] greenhealth
+
+ 
+
+Green Health
+
+ 
+
+[-] hardware
+
+ 
+
+Hardware
+
+ 
+
+[-] healthcare
+
+ 
+
+Healthcare
+
+ 
+
+[-] hearts
+
+ 
+
+Hearts
+
+ 
+
+[-] hemato
+
+ 
+
+Hemato
+
+ 
+
+[-] hematolrep
+
+ 
+
+Hematology Reports
+
+ 
+
+[-] heritage
+
+ 
+
+Heritage
+
+ 
+
+[-] histories
+
+ 
+
+Histories
+
+ 
+
+[-] horticulturae
+
+ 
+
+Horticulturae
+
+ 
+
+[-] hospitals
+
+ 
+
+Hospitals
+
+ 
+
+[-] humanities
+
+ 
+
+Humanities
+
+ 
+
+[-] humans
+
+ 
+
+Humans
+
+ 
+
+[-] hydrobiology
+
+ 
+
+Hydrobiology
+
+ 
+
+[-] hydrogen
+
+ 
+
+Hydrogen
+
+ 
+
+[-] hydrology
+
+ 
+
+Hydrology
+
+ 
+
+[-] hydropower
+
+ 
+
+Hydropower
+
+ 
+
+[-] hygiene
+
+ 
+
+Hygiene
+
+ 
+
+[-] immuno
+
+ 
+
+Immuno
+
+ 
+
+[-] industries
+
+ 
+
+Industries
+
+ 
+
+[-] idr
+
+ 
+
+Infectious Disease Reports
+
+ 
+
+[-] informatics
+
+ 
+
+Informatics
+
+ 
+
+[-] information
+
+ 
+
+Information
+
+ 
+
+[-] infrastructures
+
+ 
+
+Infrastructures
+
+ 
+
+[-] inorganics
+
+ 
+
+Inorganics
+
+ 
+
+[-] insects
+
+ 
+
+Insects
+
+ 
+
+[-] instruments
+
+ 
+
+Instruments
+
+ 
+
+[-] iic
+
+ 
+
+Intelligent Infrastructure and Construction
+
+ 
+
+[-] ijcs
+
+ 
+
+International Journal of Cognitive Sciences
+
+ 
+
+[-] ijem
+
+ 
+
+International Journal of Environmental Medicine
+
+ 
+
+[-] ijerph
+
+ 
+
+International Journal of Environmental Research and Public Health
+
+ 
+
+[-] ijfs
+
+ 
+
+International Journal of Financial Studies
+
+ 
+
+[-] ijms
+
+ 
+
+International Journal of Molecular Sciences
+
+ 
+
+[-] IJNS
+
+ 
+
+International Journal of Neonatal Screening
+
+ 
+
+[-] ijom
+
+ 
+
+International Journal of Orofacial Myology and Myofunctional Therapy
+
+ 
+
+[-] ijpb
+
+ 
+
+International Journal of Plant Biology
+
+ 
+
+[-] ijt
+
+ 
+
+International Journal of Topology
+
+ 
+
+[-] ijtm
+
+ 
+
+International Journal of Translational Medicine
+
+ 
+
+[-] ijtpp
+
+ 
+
+International Journal of Turbomachinery, Propulsion and Power
+
+ 
+
+[-] ime
+
+ 
+
+International Medical Education
+
+ 
+
+[-] inventions
+
+ 
+
+Inventions
+
+ 
+
+[-] IoT
+
+ 
+
+IoT
+
+ 
+
+[-] ijgi
+
+ 
+
+ISPRS International Journal of Geo-Information
+
+ 
+
+[-] J
+
+ 
+
+J
+
+ 
+
+[-] jaestheticmed
+
+ 
+
+Journal of Aesthetic Medicine
+
+ 
+
+[-] jal
+
+ 
+
+Journal of Ageing and Longevity
+
+ 
+
+[-] jcrm
+
+ 
+
+Journal of CardioRenal Medicine
+
+ 
+
+[-] jcdd
+
+ 
+
+Journal of Cardiovascular Development and Disease
+
+ 
+
+[-] jcto
+
+ 
+
+Journal of Clinical & Translational Ophthalmology
+
+ 
+
+[-] jcm
+
+ 
+
+Journal of Clinical Medicine
+
+ 
+
+[-] jcs
+
+ 
+
+Journal of Composites Science
+
+ 
+
+[-] jcp
+
+ 
+
+Journal of Cybersecurity and Privacy
+
+ 
+
+[-] jdad
+
+ 
+
+Journal of Dementia and Alzheimer's Disease
+
+ 
+
+[-] jdb
+
+ 
+
+Journal of Developmental Biology
+
+ 
+
+[-] jeta
+
+ 
+
+Journal of Experimental and Theoretical Analyses
+
+ 
+
+[-] jemr
+
+ 
+
+Journal of Eye Movement Research
+
+ 
+
+[-] jfb
+
+ 
+
+Journal of Functional Biomaterials
+
+ 
+
+[-] jfmk
+
+ 
+
+Journal of Functional Morphology and Kinesiology
+
+ 
+
+[-] jof
+
+ 
+
+Journal of Fungi
+
+ 
+
+[-] jgbg
+
+ 
+
+Journal of Genome Biotechnology and Genetics
+
+ 
+
+[-] jgg
+
+ 
+
+Journal of Gerontology and Geriatrics
+
+ 
+
+[-] jimaging
+
+ 
+
+Journal of Imaging
+
+ 
+
+[-] joi
+
+ 
+
+Journal of Innovation
+
+ 
+
+[-] jintelligence
+
+ 
+
+Journal of Intelligence
+
+ 
+
+[-] jdream
+
+ 
+
+Journal of Interdisciplinary Research Applied to Medicine
+
+ 
+
+[-] jlpea
+
+ 
+
+Journal of Low Power Electronics and Applications
+
+ 
+
+[-] jmmp
+
+ 
+
+Journal of Manufacturing and Materials Processing
+
+ 
+
+[-] jmse
+
+ 
+
+Journal of Marine Science and Engineering
+
+ 
+
+[-] jmahp
+
+ 
+
+Journal of Market Access & Health Policy
+
+ 
+
+[-] jmms
+
+ 
+
+Journal of Mind and Medical Sciences
+
+ 
+
+[-] jmp
+
+ 
+
+Journal of Molecular Pathology
+
+ 
+
+[-] jnt
+
+ 
+
+Journal of Nanotheranostics
+
+ 
+
+[-] jne
+
+ 
+
+Journal of Nuclear Engineering
+
+ 
+
+[-] ohbm
+
+ 
+
+Journal of Otorhinolaryngology, Hearing and Balance Medicine
+
+ 
+
+[-] jop
+
+ 
+
+Journal of Parks
+
+ 
+
+[-] jpm
+
+ 
+
+Journal of Personalized Medicine
+
+ 
+
+[-] jpbi
+
+ 
+
+Journal of Pharmaceutical and BioTech Industry
+
+ 
+
+[-] jphytomed
+
+ 
+
+Journal of Phytomedicine
+
+ 
+
+[-] jor
+
+ 
+
+Journal of Respiration
+
+ 
+
+[-] jrfm
+
+ 
+
+Journal of Risk and Financial Management
+
+ 
+
+[-] jsan
+
+ 
+
+Journal of Sensor and Actuator Networks
+
+ 
+
+[-] superintelligence
+
+ 
+
+Journal of Superintelligence
+
+ 
+
+[-] japma
+
+ 
+
+Journal of the American Podiatric Medical Association
+
+ 
+
+[-] joma
+
+ 
+
+Journal of the Oman Medical Association
+
+ 
+
+[-] jtaer
+
+ 
+
+Journal of Theoretical and Applied Electronic Commerce Research
+
+ 
+
+[-] jvd
+
+ 
+
+Journal of Vascular Diseases
+
+ 
+
+[-] jox
+
+ 
+
+Journal of Xenobiotics
+
+ 
+
+[-] jzbg
+
+ 
+
+Journal of Zoological and Botanical Gardens
+
+ 
+
+[-] journalmedia
+
+ 
+
+Journalism and Media
+
+ 
+
+[-] kidneydial
+
+ 
+
+Kidney and Dialysis
+
+ 
+
+[-] kinasesphosphatases
+
+ 
+
+Kinases and Phosphatases
+
+ 
+
+[-] knowledge
+
+ 
+
+Knowledge
+
+ 
+
+[-] labmed
+
+ 
+
+LabMed
+
+ 
+
+[-] laboratories
+
+ 
+
+Laboratories
+
+ 
+
+[-] land
+
+ 
+
+Land
+
+ 
+
+[-] languages
+
+ 
+
+Languages
+
+ 
+
+[-] laws
+
+ 
+
+Laws
+
+ 
+
+[-] life
+
+ 
+
+Life
+
+ 
+
+[-] lights
+
+ 
+
+Lights
+
+ 
+
+[-] limnolrev
+
+ 
+
+Limnological Review
+
+ 
+
+[-] lipidology
+
+ 
+
+Lipidology
+
+ 
+
+[-] liquids
+
+ 
+
+Liquids
+
+ 
+
+[-] literature
+
+ 
+
+Literature
+
+ 
+
+[-] livers
+
+ 
+
+Livers
+
+ 
+
+[-] logics
+
+ 
+
+Logics
+
+ 
+
+[-] logistics
+
+ 
+
+Logistics
+
+ 
+
+[-] lae
+
+ 
+
+Low-Altitude Economy
+
+ 
+
+[-] lubricants
+
+ 
+
+Lubricants
+
+ 
+
+[-] lymphatics
+
+ 
+
+Lymphatics
+
+ 
+
+[-] make
+
+ 
+
+Machine Learning and Knowledge Extraction
+
+ 
+
+[-] machines
+
+ 
+
+Machines
+
+ 
+
+[-] macromol
+
+ 
+
+Macromol
+
+ 
+
+[-] magnetism
+
+ 
+
+Magnetism
+
+ 
+
+[-] magnetochemistry
+
+ 
+
+Magnetochemistry
+
+ 
+
+[-] marinedrugs
+
+ 
+
+Marine Drugs
+
+ 
+
+[-] materials
+
+ 
+
+Materials
+
+ 
+
+[-] materproc
+
+ 
+
+Materials Proceedings
+
+ 
+
+[-] mca
+
+ 
+
+Mathematical and Computational Applications
+
+ 
+
+[-] mathematics
+
+ 
+
+Mathematics
+
+ 
+
+[-] medsci
+
+ 
+
+Medical Sciences
+
+ 
+
+[-] msf
+
+ 
+
+Medical Sciences Forum
+
+ 
+
+[-] medicina
+
+ 
+
+Medicina
+
+ 
+
+[-] medicines
+
+ 
+
+Medicines
+
+ 
+
+[-] membranes
+
+ 
+
+Membranes
+
+ 
+
+[-] merits
+
+ 
+
+Merits
+
+ 
+
+[-] metabolites
+
+ 
+
+Metabolites
+
+ 
+
+[-] metals
+
+ 
+
+Metals
+
+ 
+
+[-] meteorology
+
+ 
+
+Meteorology
+
+ 
+
+[-] methane
+
+ 
+
+Methane
+
+ 
+
+[-] mps
+
+ 
+
+Methods and Protocols
+
+ 
+
+[-] metrics
+
+ 
+
+Metrics
+
+ 
+
+[-] metrology
+
+ 
+
+Metrology
+
+ 
+
+[-] micro
+
+ 
+
+Micro
+
+ 
+
+[-] microbiolres
+
+ 
+
+Microbiology Research
+
+ 
+
+[-] microelectronics
+
+ 
+
+Microelectronics
+
+ 
+
+[-] micromachines
+
+ 
+
+Micromachines
+
+ 
+
+[-] microorganisms
+
+ 
+
+Microorganisms
+
+ 
+
+[-] microplastics
+
+ 
+
+Microplastics
+
+ 
+
+[-] microwave
+
+ 
+
+Microwave
+
+ 
+
+[-] minerals
+
+ 
+
+Minerals
+
+ 
+
+[-] mining
+
+ 
+
+Mining
+
+ 
+
+[-] modelling
+
+ 
+
+Modelling
+
+ 
+
+[-] mmphys
+
+ 
+
+Modern Mathematical Physics
+
+ 
+
+[-] molbank
+
+ 
+
+Molbank
+
+ 
+
+[-] molecules
+
+ 
+
+Molecules
+
+ 
+
+[-] multimedia
+
+ 
+
+Multimedia
+
+ 
+
+[-] mti
+
+ 
+
+Multimodal Technologies and Interaction
+
+ 
+
+[-] muscles
+
+ 
+
+Muscles
+
+ 
+
+[-] nanoenergyadv
+
+ 
+
+Nanoenergy Advances
+
+ 
+
+[-] nanomanufacturing
+
+ 
+
+Nanomanufacturing
+
+ 
+
+[-] nanomaterials
+
+ 
+
+Nanomaterials
+
+ 
+
+[-] ndt
+
+ 
+
+NDT
+
+ 
+
+[-] network
+
+ 
+
+Network
+
+ 
+
+[-] neuroglia
+
+ 
+
+Neuroglia
+
+ 
+
+[-] neuroimaging
+
+ 
+
+Neuroimaging
+
+ 
+
+[-] neurolint
+
+ 
+
+Neurology International
+
+ 
+
+[-] neurosci
+
+ 
+
+NeuroSci
+
+ 
+
+[-] nitrogen
+
+ 
+
+Nitrogen
+
+ 
+
+[-] ncrna
+
+ 
+
+Non-Coding RNA
+
+ 
+
+[-] nursrep
+
+ 
+
+Nursing Reports
+
+ 
+
+[-] nutraceuticals
+
+ 
+
+Nutraceuticals
+
+ 
+
+[-] nutrients
+
+ 
+
+Nutrients
+
+ 
+
+[-] obesities
+
+ 
+
+Obesities
+
+ 
+
+[-] occuphealth
+
+ 
+
+Occupational Health
+
+ 
+
+[-] oceans
+
+ 
+
+Oceans
+
+ 
+
+[-] onco
+
+ 
+
+Onco
+
+ 
+
+[-] optics
+
+ 
+
+Optics
+
+ 
+
+[-] oral
+
+ 
+
+Oral
+
+ 
+
+[-] organics
+
+ 
+
+Organics
+
+ 
+
+[-] organoids
+
+ 
+
+Organoids
+
+ 
+
+[-] osteology
+
+ 
+
+Osteology
+
+ 
+
+[-] oxygen
+
+ 
+
+Oxygen
+
+ 
+
+[-] pandemics
+
+ 
+
+Pandemics
+
+ 
+
+[-] parasitologia
+
+ 
+
+Parasitologia
+
+ 
+
+[-] particles
+
+ 
+
+Particles
+
+ 
+
+[-] pathogens
+
+ 
+
+Pathogens
+
+ 
+
+[-] pathophysiology
+
+ 
+
+Pathophysiology
+
+ 
+
+[-] peacestud
+
+ 
+
+Peace Studies
+
+ 
+
+[-] pediatrrep
+
+ 
+
+Pediatric Reports
+
+ 
+
+[-] pets
+
+ 
+
+Pets
+
+ 
+
+[-] pharmaceuticals
+
+ 
+
+Pharmaceuticals
+
+ 
+
+[-] pharmaceutics
+
+ 
+
+Pharmaceutics
+
+ 
+
+[-] pharmacoepidemiology
+
+ 
+
+Pharmacoepidemiology
+
+ 
+
+[-] pharmacy
+
+ 
+
+Pharmacy
+
+ 
+
+[-] philosophies
+
+ 
+
+Philosophies
+
+ 
+
+[-] photochem
+
+ 
+
+Photochem
+
+ 
+
+[-] photonics
+
+ 
+
+Photonics
+
+ 
+
+[-] phycology
+
+ 
+
+Phycology
+
+ 
+
+[-] physchem
+
+ 
+
+Physchem
+
+ 
+
+[-] psf
+
+ 
+
+Physical Sciences Forum
+
+ 
+
+[-] physics
+
+ 
+
+Physics
+
+ 
+
+[-] physiologia
+
+ 
+
+Physiologia
+
+ 
+
+[-] plants
+
+ 
+
+Plants
+
+ 
+
+[-] plasma
+
+ 
+
+Plasma
+
+ 
+
+[-] platforms
+
+ 
+
+Platforms
+
+ 
+
+[-] pollutants
+
+ 
+
+Pollutants
+
+ 
+
+[-] polymers
+
+ 
+
+Polymers
+
+ 
+
+[-] polysaccharides
+
+ 
+
+Polysaccharides
+
+ 
+
+[-] populations
+
+ 
+
+Populations
+
+ 
+
+[-] poultry
+
+ 
+
+Poultry
+
+ 
+
+[-] powders
+
+ 
+
+Powders
+
+ 
+
+[-] precisoncol
+
+ 
+
+Precision Oncology
+
+ 
+
+[-] phc
+
+ 
+
+Primary and Hospital Care
+
+ 
+
+[-] proceedings
+
+ 
+
+Proceedings
+
+ 
+
+[-] processes
+
+ 
+
+Processes
+
+ 
+
+[-] prosthesis
+
+ 
+
+Prosthesis
+
+ 
+
+[-] proteomes
+
+ 
+
+Proteomes
+
+ 
+
+[-] psychiatryint
+
+ 
+
+Psychiatry International
+
+ 
+
+[-] psychoactives
+
+ 
+
+Psychoactives
+
+ 
+
+[-] psycholint
+
+ 
+
+Psychology International
+
+ 
+
+[-] publications
+
+ 
+
+Publications
+
+ 
+
+[-] purification
+
+ 
+
+Purification
+
+ 
+
+[-] qubs
+
+ 
+
+Quantum Beam Science
+
+ 
+
+[-] quantumrep
+
+ 
+
+Quantum Reports
+
+ 
+
+[-] quaternary
+
+ 
+
+Quaternary
+
+ 
+
+[-] radiation
+
+ 
+
+Radiation
+
+ 
+
+[-] reactions
+
+ 
+
+Reactions
+
+ 
+
+[-] realestate
+
+ 
+
+Real Estate
+
+ 
+
+[-] receptors
+
+ 
+
+Receptors
+
+ 
+
+[-] recycling
+
+ 
+
+Recycling
+
+ 
+
+[-] rsee
+
+ 
+
+Regional Science and Environmental Economics
+
+ 
+
+[-] religions
+
+ 
+
+Religions
+
+ 
+
+[-] remotesensing
+
+ 
+
+Remote Sensing
+
+ 
+
+[-] reports
+
+ 
+
+Reports
+
+ 
+
+[-] reprodmed
+
+ 
+
+Reproductive Medicine
+
+ 
+
+[-] resources
+
+ 
+
+Resources
+
+ 
+
+[-] rheumato
+
+ 
+
+Rheumato
+
+ 
+
+[-] risks
+
+ 
+
+Risks
+
+ 
+
+[-] robotics
+
+ 
+
+Robotics
+
+ 
+
+[-] rjpm
+
+ 
+
+Romanian Journal of Preventive Medicine
+
+ 
+
+[-] ruminants
+
+ 
+
+Ruminants
+
+ 
+
+[-] safety
+
+ 
+
+Safety
+
+ 
+
+[-] sci
+
+ 
+
+Sci
+
+ 
+
+[-] scipharm
+
+ 
+
+Scientia Pharmaceutica
+
+ 
+
+[-] sclerosis
+
+ 
+
+Sclerosis
+
+ 
+
+[-] seeds
+
+ 
+
+Seeds
+
+ 
+
+[-] shi
+
+ 
+
+Semiconductors and Heterogeneous Integration
+
+ 
+
+[-] sensors
+
+ 
+
+Sensors
+
+ 
+
+[-] separations
+
+ 
+
+Separations
+
+ 
+
+[-] sexes
+
+ 
+
+Sexes
+
+ 
+
+[-] signals
+
+ 
+
+Signals
+
+ 
+
+[-] sinusitis
+
+ 
+
+Sinusitis
+
+ 
+
+[-] smartcities
+
+ 
+
+Smart Cities
+
+ 
+
+[-] socsci
+
+ 
+
+Social Sciences
+
+ 
+
+[-] siuj
+
+ 
+
+Société Internationale d'Urologie Journal
+
+ 
+
+[-] societies
+
+ 
+
+Societies
+
+ 
+
+[-] software
+
+ 
+
+Software
+
+ 
+
+[-] soilsystems
+
+ 
+
+Soil Systems
+
+ 
+
+[-] solar
+
+ 
+
+Solar
+
+ 
+
+[-] solids
+
+ 
+
+Solids
+
+ 
+
+[-] spectroscj
+
+ 
+
+Spectroscopy Journal
+
+ 
+
+[-] sports
+
+ 
+
+Sports
+
+ 
+
+[-] standards
+
+ 
+
+Standards
+
+ 
+
+[-] stats
+
+ 
+
+Stats
+
+ 
+
+[-] stratsediment
+
+ 
+
+Stratigraphy and Sedimentology
+
+ 
+
+[-] stresses
+
+ 
+
+Stresses
+
+ 
+
+[-] surfaces
+
+ 
+
+Surfaces
+
+ 
+
+[-] surgeries
+
+ 
+
+Surgeries
+
+ 
+
+[-] std
+
+ 
+
+Surgical Techniques Development
+
+ 
+
+[-] sustainability
+
+ 
+
+Sustainability
+
+ 
+
+[-] suschem
+
+ 
+
+Sustainable Chemistry
+
+ 
+
+[-] sanpp
+
+ 
+
+Swiss Archives of Neurology, Psychiatry and Psychotherapy
+
+ 
+
+[-] symmetry
+
+ 
+
+Symmetry
+
+ 
+
+[-] synbio
+
+ 
+
+SynBio
+
+ 
+
+[-] systems
+
+ 
+
+Systems
+
+ 
+
+[-] targets
+
+ 
+
+Targets
+
+ 
+
+[-] taxonomy
+
+ 
+
+Taxonomy
+
+ 
+
+[-] technologies
+
+ 
+
+Technologies
+
+ 
+
+[-] telecom
+
+ 
+
+Telecom
+
+ 
+
+[-] textiles
+
+ 
+
+Textiles
+
+ 
+
+[-] thalassrep
+
+ 
+
+Thalassemia Reports
+
+ 
+
+[-] tae
+
+ 
+
+Theoretical and Applied Ergonomics
+
+ 
+
+[-] therapeutics
+
+ 
+
+Therapeutics
+
+ 
+
+[-] thermo
+
+ 
+
+Thermo
+
+ 
+
+[-] timespace
+
+ 
+
+Time and Space
+
+ 
+
+[-] tomography
+
+ 
+
+Tomography
+
+ 
+
+[-] tourismhosp
+
+ 
+
+Tourism and Hospitality
+
+ 
+
+[-] toxics
+
+ 
+
+Toxics
+
+ 
+
+[-] toxins
+
+ 
+
+Toxins
+
+ 
+
+[-] transplantology
+
+ 
+
+Transplantology
+
+ 
+
+[-] traumacare
+
+ 
+
+Trauma Care
+
+ 
+
+[-] higheredu
+
+ 
+
+Trends in Higher Education
+
+ 
+
+[-] tph
+
+ 
+
+Trends in Public Health
+
+ 
+
+[-] tropicalmed
+
+ 
+
+Tropical Medicine and Infectious Disease
+
+ 
+
+[-] universe
+
+ 
+
+Universe
+
+ 
+
+[-] urbansci
+
+ 
+
+Urban Science
+
+ 
+
+[-] uro
+
+ 
+
+Uro
+
+ 
+
+[-] vaccines
+
+ 
+
+Vaccines
+
+ 
+
+[-] vehicles
+
+ 
+
+Vehicles
+
+ 
+
+[-] venereology
+
+ 
+
+Venereology
+
+ 
+
+[-] vetsci
+
+ 
+
+Veterinary Sciences
+
+ 
+
+[-] vibration
+
+ 
+
+Vibration
+
+ 
+
+[-] virtualworlds
+
+ 
+
+Virtual Worlds
+
+ 
+
+[-] viruses
+
+ 
+
+Viruses
+
+ 
+
+[-] vision
+
+ 
+
+Vision
+
+ 
+
+[-] waste
+
+ 
+
+Waste
+
+ 
+
+[-] water
+
+ 
+
+Water
+
+ 
+
+[-] wild
+
+ 
+
+Wild
+
+ 
+
+[-] wind
+
+ 
+
+Wind
+
+ 
+
+[-] women
+
+ 
+
+Women
+
+ 
+
+[-] world
+
+ 
+
+World
+
+ 
+
+[-] wevj
+
+ 
+
+World Electric Vehicle Journal
+
+ 
+
+[-] youth
+
+ 
+
+Youth
+
+ 
+
+[-] zoonoticdis
+
+ 
+
+Zoonotic Diseases
+
+Subscribe
+
+© 1996-2026 MDPI (Basel, Switzerland) unless otherwise stated
+
+Disclaimer
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Disclaimer/Publisher's Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+Terms and Conditions
+
+https://www.mdpi.com/about/terms-and-conditions
+
+ 
+
+Privacy Policy
+
+https://www.mdpi.com/about/privacy
+
+We use cookies on our website to ensure you get the best experience.
+
+Read more about our cookies 
+
+here
+
+https://www.mdpi.com/about/privacy
+
+.
+
+Accept
+
+https://www.mdpi.com/accept_cookies
+
+Share Link
+
+mailto:?&subject=From%20MDPI%3A%20%22Enhancing%20Hierarchical%20Classification%20in%20Tree-Based%20Models%20Using%20Level-Wise%20Entropy%20Adjustment"&body=https://www.mdpi.com/3218974%3A%0A%0AEnhancing%20Hierarchical%20Classification%20in%20Tree-Based%20Models%20Using%20Level-Wise%20Entropy%20AdjustmentHierarchical%20classification%2C%20which%20organizes%20items%20into%20structured%20categories%20and%20subcategories%2C%20has%20emerged%20as%20a%20powerful%20solution%20for%20handling%20large%20and%20complex%20datasets.%20However%2C%20traditional%20flat%20classification%20approaches%20often%20overlook%20the%20hierarchical%20dependencies%20between%20classes%2C%20leading%20to%20suboptimal%20predictions%20and%20limited%20interpretability.%20This%20paper%20addresses%20these%20challenges%20by%20proposing%20a%20novel%20integration%20of%20tree-based%20models%20with%20hierarchical-aware%20split%20criteria%20through%20adjusted%20entropy%20calculations.%20The%20proposed%20method%20calculates%20entropy%20at%20multiple%20hierarchical%20levels%2C%20ensuring%20that%20the%20model%20respects%20the%20taxonomic%20structure%20during%20training.%20This%20approach%20aligns%20statistical%20optimization%20with%20class%20semantic%20relationships%2C%20enabling%20more%20accurate%20and%20coherent%20predictions.%20Experiments%20conducted%20on%20real-world%20datasets%20structured%20according%20to%20the%20GS1%20Global%20Product%20Classification%20%28GPC%29%20system%20demonstrate%20the%20effectiveness%20of%20our%20method.%20The%20proposed%20model%20was%20applied%20using%20tree-based%20ensemble%20methods%20combined%20with%20the%20newly%20developed%20hierarchy-aware%20metric%20Penalized%20Information%20Gain%20%28PIG%29.%20PIG%20was%20implemented%20with%20level-wise%20entropy%20adjustments%2C%20assigning%20greater%20weight%20to%20higher%20hierarchical%20levels%20to%20maintain%20the%20taxonomic%20structure.%20The%20model%20was%20trained%20and[...]
+
+ 
+
+https://x.com/intent/tweet?text=Enhancing+Hierarchical+Classification+in+Tree-Based+Models+Using+Level-Wise+Entropy+Adjustment&hashtags=mdpiBDCC&url=https%3A%2F%2Fwww.mdpi.com%2F3218974&via=BDCC_MDPI
+
+ 
+
+http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.mdpi.com%2F3218974&title=Enhancing%20Hierarchical%20Classification%20in%20Tree-Based%20Models%20Using%20Level-Wise%20Entropy%20Adjustment%26source%3Dhttps%3A%2F%2Fwww.mdpi.com%26summary%3DHierarchical%20classification%2C%20which%20organizes%20items%20into%20structured%20categories%20and%20subcategories%2C%20has%20emerged%20as%20a%20powerful%20solution%20for%20handling%20large%20and%20complex%20datasets.%20However%2C%20traditional%20flat%20classification%20approaches%20often%20overlook%20the%20%5B...%5D
+
+ 
+
+http://www.facebook.com/sharer.php?u=https://www.mdpi.com/3218974
+
+ 
+
+javascript:void(0);
+
+ 
+
+http://www.reddit.com/submit?url=https://www.mdpi.com/3218974
+
+ 
+
+http://www.mendeley.com/import/?url=https://www.mdpi.com/3218974
+
+ 
+
+http://www.citeulike.org/posturl?url=https://www.mdpi.com/3218974
+
+ 
+
+https://www.mdpi.com/3218974
+
+Copy
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+clear
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Share
+
+https://www.mdpi.com/3218974
+
+clear
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Back to Top Top
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+All MDPI websites use third-party website tracking technologies to provide and continually improve our services. I agree and may revoke or change my consent at any time with effect for the future. 
+
+https://www.mdpi.com/about/privacy
+
+ 
+
+https://www.mdpi.com/about/terms-and-conditions
+
+More Information
+
+https://www.mdpi.com/2504-2289/9/3/65
+
+Accept All
+
+Deny
+
+Powered by Usercentrics Consent Management
+
+https://www.usercentrics.com/consent-management-platform-powered-by-usercentrics/?utm_source=banner_uc&utm_medium=referral&utm_content=v3

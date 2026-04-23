@@ -1,0 +1,1307 @@
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyfI_xU9hFiY9grWHbMPZU5oqwKusW6rgFXdYzWAQFMt5xrKVFTktfkVrT-1vWa3Ldhv0dz6FFhFTE3w7xGebRfF-WMyoZjv2YJkghrvYMxW36JMPmWXcU-rP3PbkbuIqiiG16M9w=w248-h272-v0
+
+c8225b88-89c7-45e8-9af1-21c08f24c132
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzzIC9vHzrXpx9LqogBko-BZ3B1fZvnemPKIDb37xtam40vJWUOUlLRiX-BlvZQ9J6uGZXJiEEsnmrb7rHIqxzG9zYBKxF4wSs8FvlxlYaRE_y-U7mQ21wL9FIKAmOqu5oyB4lV=w236-h298-v0
+
+7ab35459-89e8-4ddc-9a8a-cbf89d56497b
+
+ D 
+
+J a 
+
+b 
+
+c 
+
+a 
+
+A R R A A 
+
+K S D C D 
+
+1 
+
+g ( t m c u p p w b M a T 2 m t c r 
+
+h 0
+
+ 
+
+Journal of Manufacturing Systems xxx (2018) xxx–xxx 
+
+Contents lists available at ScienceDirect 
+
+Journal  of  Manufacturing  Systems 
+
+journa l homepage: www.e lsev ier .com/ locate / jmansys 
+
+eep  learning  for  smart  manufacturing:  Methods  and  applications 
+
+injiang  Wang a,∗,  Yulin  Ma a,  Laibin  Zhang a,  Robert  X.  Gao b, Dazhong  Wu c 
+
+School of Mechanical and Transportation Engineering, China University of Petroleum, Beijing 102249, China Department of Mechanical and Aerospace Engineering, Case Western Reserve University, Cleveland, OH 44106, USA Department of Mechanical and Aerospace Engineering, University of Central Florida, Orlando, FL 32816, USA 
+
+ r  t  i  c  l  e  i  n  f  o 
+
+rticle history: eceived 13 November 2017 eceived in revised form 1 January 2018 ccepted 2 January 2018 vailable online xxx 
+
+eywords: 
+
+a  b  s  t  r  a  c  t 
+
+Smart  manufacturing  refers  to  using  advanced  data  analytics  to complement  physical  science  for  improv-ing system  performance  and  decision  making.  With  the  widespread  deployment  of  sensors  and  Internet of  Things,  there  is  an  increasing  need  of handling  big  manufacturing  data  characterized  by  high vol-ume,  high  velocity,  and  high  variety.  Deep  learning  provides  advanced  analytics  tools  for  processing and  analysing  big  manufacturing  data. This  paper  presents  a comprehensive  survey  of  commonly  used deep  learning  algorithms  and  discusses  their  applications  toward  making  manufacturing  “smart”.  The
+
+mart manufacturing eep learning omputational intelligence ata analytics 
+
+evolvement  of deep  learning  technologies  and  their  advantages  over traditional  machine  learning  are firstly  discussed.  Subsequently,  computational  methods  based  on  deep  learning  are  presented  specially aim  to  improve  system  performance  in  manufacturing.  Several  representative  deep  learning  models  are comparably  discussed.  Finally,  emerging  topics  of research  on  deep  learning  are  highlighted,  and  future trends  and  challenges  associated  with  deep  learning  for smart  manufacturing  are summarized. 
+
+© 2018  Published  by  Elsevier  Ltd on behalf  of The  Society  of  Manufacturing  Engineers.
+
+. Introduction 
+
+Over the past century, the manufacturing industry has under-one a number of paradigm shifts, from the Ford assembly line 1900s) to Toyota production system (1960s), flexible manufac-uring (1980s), reconfigurable manufacturing (1990s), agent-based 
+
+anufacturing (2000s), cloud manufacturing (2010s) [1,2]. Various ountries have developed strategic roadmaps to transform man-facturing to take advantage of the emerging infrastructure, as resented by Internet of Things (IoTs) and data science. As an exam-le, Germany introduced the framework of Industry 4.0 in 2010, hich has been evolved into a collaborative effort among mem-
+
+er countries in the European Union. Similarly, in 2011 the Smart anufacturing Leadership Coalition (SMLC) in the U.S. created 
+
+ systematic framework for implementing smart manufacturing. he plan “China Manufacturing 2025”, introduced in China in 015, aims to promote advanced manufacturing. As manufacturing achines are increasingly equipped with sensors and communica-
+
+ 
+
+ion capabilities, there is significant potential to further improve the ondition-awareness of manufacturing machines and processes, educe operational downtime, improve the level of automation and 
+
+∗ Corresponding author. E-mail address: jwang@cup.edu.edu (J. Wang). 
+
+ttps://doi.org/10.1016/j.jmsy.2018.01.003 278-6125/© 2018 Published by Elsevier Ltd on behalf of The Society of Manufacturing E
+
+product quality and response more timely to dynamically changing customer demands [3–8]. Statistics shows that 82% of the com-panies using smart manufacturing technologies have experienced increased efficiency and 45% of the companies of the companies experienced increased customer satisfaction [9]. 
+
+Smart manufacturing refers to a new manufacturing paradigm where manufacturing machines are fully connected through wire-less networks, monitored by sensors, and controlled by advanced computational intelligence to improve product quality, system productivity, and sustainability while reducing costs. Recent advancement of Internet of Things (IoTs), Cloud Computing, Cyber Physical System (CPS) provides key supporting technologies to advance modern manufacturing [10–13]. By leveraging these new technologies in manufacturing, data at different stages of a prod-uct’s life, ranging from raw materials, machines’ operations, facility logistics, and even human operators, is collected and processed [12]. With the proliferation of manufacturing data, data driven intelligence with advanced analytics transforms unprecedented volumes of data into actionable and insightful information for smart manufacturing as illustrated in Fig. 1. Data driven intelligence mod-els the complex multivariate nonlinear relationships among data, with no in-depth understanding of system physical behaviours
+
+ 
+
+required. Data driven intelligence has attracted extensive research effort 
+
+for manufacturing data distilling and decision making. In [14], 
+
+ngineers.
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxcSltPbvPY0jWBUGd0iGVXvBgmo-wT_etfmWCEqUtqlDEFBAcqjtz2R5YLG7WQa3z7N9N48037nW3EIPTDK49n5vHTAXxUfKePPX0G-xTZS9blncfxNZrTq-FnDkl7uXyCNfWo8Q=w1280-h512-v0
+
+f8a1be79-7db0-4444-9708-90e83afcfd59
+
+ 
+
+2 J. Wang et al. / Journal of Manufacturing Systems xxx (2018) xxx–xxx 
+
+ntellig 
+
+d c t d m g d p N i t s t g b l l c d a p m l M c a i m t t f 
+
+d s i m a a e o a a I s T p g e
+
+ 
+
+Fig. 1. The role of data driven i 
+
+ata mining techniques are classified into five categories, including haracterization and description, association, classification, predic-ion, clustering and evolution analysis. The barriers to data-driven ecision making in manufacturing are also identified. Typical achine learning techniques are reviewed in [15,16] for intelli-
+
+ent manufacturing, and their strengths and weaknesses are also iscussed in a wide range of manufacturing applications. A com-arative study of machine learning algorithms including Artificial eural Network, Support Vector Machine, and Random Forest 
+
+s performed for machining tool wear prediction. The schemes, echniques and paradigm of developing decision making support ystems are reviewed for the monitoring of machining opera-ions, and these techniques include neural networks, fuzzy logic, enetic algorithms, and hybrid systems [17,18]. The potential enefit and successful application examples of typical machining 
+
+earning techniques including Bayesian Networks, instance-based earning, Artificial Neural Network, and ensemble methods are dis-ussed in [19]. Cloud enabled prognosis techniques including data riven approach, physics based as well as model-based techniques re reviewed in [20], with the benefits from both advanced com-uting capability and information sharing for intelligent decision aking. Traditional machine learning is usually designed with shal-
+
+ow structures, such as Artificial Neural Network, Support Vector achine, and logistic regression, etc. By coping with limited hand-
+
+rafted features, it achieves decent performance in a variety of pplications. However, the massive data in smart manufacturing mposes a variety of challenges [18,19], such as the proliferation of 
+
+ultimodal data, high dimensionality of feature space, and mul-icollinearity among data measurements. These challenges render raditional algorithms struggling and thus greatly impede their per-ormance. 
+
+As a breakthrough in artificial intelligence, deep learning emonstrates outstanding performance in various applications of peech recognition, image recondition, natural language process-ng (e.g. translation, understanding, test questions & answers), 
+
+ultimodal image-text, and games (e.g. Alphago). Deep learning llows automatically processing of data towards highly nonlinear nd complex feature abstraction via a cascade of multiple lay-rs, instead of handcrafting the optimum feature representation f data with domain knowledge. With automatic feature learning nd high-volume modelling capabilities, deep learning provides an dvanced analytics tool for smart manufacturing in the big data era. t uses a cascade of layers of nonlinear processing to learn the repre-entations of data corresponding to different levels of abstraction. he hidden patterns underneath each other are then identified and
+
+ 
+
+redicted through end-to-end optimization. Deep learning offers reat potential to boost data-driven manufacturing applications, specially in the big data era [17,21].
+
+ence in smart manufacturing. 
+
+In light of the above challenges, this paper aims to provide a state-of-the-art review of deep learning techniques and their applications in smart manufacturing. Specifically, the deep learn-ing enabled advanced analytics framework is proposed to meet the opportunistic need of smart manufacturing. The typical deep learning models are briefly introduced, and their applications to manufacturing are outlined to highlight the latest advancement in relevant areas. The challenges and future trends of deep learning are discussed in the end. 
+
+The rest of paper is constructed as follows. Firstly, data-driven artificial intelligence techniques are reviewed in Section 2, with the superiority of deep learning techniques outlined. Next, the challenge and opportunistic need of deep learning in smart man-ufacturing are presented, and typical deep learning models are briefly discussed in Section 3. Then, the latest applications of deep learning techniques in the context of smart manufacturing are sum-marized in Section 4. Finally, the challenges as well as future trends of deep learning in smart manufacturing are discussed. 
+
+2. Overview of data driven intelligence 
+
+2.1. The evolution of data-driven artificial intelligence 
+
+Artificial intelligence is considered as a fundamental way  to possess intelligence, and listed as the first place in Gartner’s Top 10 strategic technology trends in 2017 [22]. Artificial intelligence has experienced several lifecycles, from the infancy period (1940s), through the first upsurge period (1960s) and the second upsurge period (1980s), and the present third boom period (after 2000s). The development trend and typical artificial intelligence models are summarized in Table 1. 
+
+The origin of Artificial Neural Network started back in 1940s, when MP  model [23] and Hebb rule [24] were proposed to discuss how neurons worked in human brain. At the workshops in Dart-mouth College, significant artificial intelligence capabilities like playing chess games and solving simple logic problems were devel-oped [24]. The pioneering work brought artificial intelligence to the first upsurge period (1960s). In 1956, a mathematical model named Perceptron [25] was  proposed to simulate the nervous system of human learning with linear optimization. Next, a network model called Adaptive Linear Unit [26] was developed in 1959 and had been successfully used in practical applications such as commu-nication and weather forecasting. The limitation of early artificial intelligence was also criticized due to the difficulty in handling non-linear problems, such as XOR (or XNOR) classification [27].
+
+ 
+
+With the development of Hopfield network circuit [28], artifi-cial intelligence stepped forward to the second upsurge (1980s). Back Propagation (BP) algorithm was  proposed to solve non-linear problems in complex neural network in 1974 [29]. A random mech-
+
+ 
+
+J. Wang et al. / Journal of Manufacturi 
+
+Table  1 
+
+List of typical artificial intelligence models. 
+
+Timeline Proposed models Reference 
+
+Infancy period (1940s) MP model [23] Hebb rule [24] 
+
+First upsurge period (1960s) 
+
+Perceptron [25] Adaptive Linear Unit [26] 
+
+Second upsurge period (1980s) 
+
+Hopfield network circuit [28] Back Propagation [29] Boltzmann Machine [30] Support Vector Machine [31] Restricted Boltzmann Machine [32] Auto Encoder [33] 
+
+Third boom period (after 2000s) 
+
+Recurrent Neural Network [34] Long short-term Memory [35] Convolutional Neural Network [36] Deep Belief Network [37,38] Deep Auto Encoder [39] Sparse Auto Encoder [40,41] Deep Boltzmann Machine [42] Denosing Auto Encoder [43] Deep Convolutional Neural Network [44] 
+
+a B s w p t f t 
+
+m i r p e M t u A l n r f s ( d N i s 
+
+t m o d w o c r c M h p u a 
+
+tional machine learning techniques as illustrated in Table 2. The
+
+Generative Adversarial Network [45] Attention-based LSTM [46] 
+
+nism was introduced into Hopfield network and put forward the oltzmann Machine (BM) in 1985 [30]. With the development of tatistical learning, Support Vector Machine (SVM) was  developed ith kernel functions transformation in 1997, and showed decent 
+
+erformance on classification and regression [31]. However, these raditional machine learning techniques require human expertise or feature extraction to reduce the dimension of input, and thus heir performance highly relies on the engineered features. 
+
+The birth of deep learning benefits not only from the rich accu-ulation of traditional machine learning techniques, but also the 
+
+nspiration of statistical learning. Deep learning uses data rep-esentation learning rather than explicit engineered features to erform tasks. It transforms data into abstract representations that nable the features to be learnt. In 1986, Restricted Boltzmann achine (RBM) was developed by obtaining the probability dis-
+
+ribution of Boltzmann Machine [32], and the hidden layers were sed as feature vectors to characterize the input data. Meanwhile, uto Encoder (AE) was proposed using the layer-by-layer Greedy 
+
+earning algorithm to minimize the loss function [33]. In 1995, a eural network with directed topology connections between neu-ons, called Recurrent Neural Network (RNN), was proposed for eature learning from sequence data [34]. In 1997, an improved ver-ion of recurrent neural network, named Long short-term Memory LSTM), was proposed to tackle the vanishing gradient problem and eal with complex time sequence data [35]. In 1998, Convolutional eural Network (CNN) was put forward to handle two dimensional 
+
+nputs (e.g. image), in which features learning were achieved by tacking convolutional layers and pooling layers [36]. 
+
+As the hierarchical structures of deep learning models get-ing deeper, model training and parameter optimization become 
+
+ore difficult and time consuming, even leading to overfitting r local optimization problems. Many attempts were made to evelop deep learning models, but no satisfactory performance as reported before 2006. Deep Belief Network (DBN) was devel-
+
+ped and achieved success in 2006 [37,38]. It allowed bidirectional onnections in top layer only instead of stacking RBMs directly to educe computational complexity, and the parameters were suc-essfully learned through layer-wise pre-training and fine tuning. eanwhile, Deep Auto Encoder was proposed by adding more 
+
+idden layers to deal with high nonlinear input [39]. The model
+
+ 
+
+arameters were firstly pre-trained using a greedy layer-by-layer nsupervised learning algorithm and then fine-tuned using BP lgorithm. One year later, Sparse Auto Encoder (SAE) was  put for-
+
+ ng Systems xxx (2018) xxx–xxx 3 
+
+ward to reduce dimensionality and learn sparse representations [40,41]. 
+
+Deep learning gained increasing popularity. In 2009, Deep Boltz-mann Machine with a bidirectional structure was proposed to learn ambiguous input data robustly, and the model parameters were optimized using layer-wise pre-training [42]. In 2010, Denoising Auto Encoder was presented to reconstruct the stochastically cor-rupted input data, and force the hidden layer to discover more robust features [43]. Deep Convolutional Neural Network (DCNN) was introduced with deep structure of Convolutional Neural Net-work in 2012 [44], and it showed superior performance in image recognition. Generative Adversarial Network (GAN) was proposed in 2014 [45], and it contained two  independent models acting as adversaries. The generative model was  designed to generate random samples similar to real samples while the discrimina-tive model was used for training and classification with both real and generated random samples. In 2016, an attention-based LSTM model was  proposed by integrating attention mechanism with LSTM [46]. Nowadays, more and more new models are being devel-oped even per week. 
+
+2.2. Comparison between deep learning and traditional machine learning 
+
+Both deep learning and traditional machine learning are data-driven artificial intelligence techniques to model the complex relationship between input and output as shown in Fig. 2. In addi-tion to the high hierarchical structure, deep learning also has distinctive attributes over traditional machine learning in terms of feature learning, model construction, and model training. 
+
+Deep learning integrates feature learning and model construc-tion in one model by selecting different kernels or tuning the parameters via end to end optimization. Its deep architecture of neural nets with many hidden layers is essentially multi-level non-linear operations. It transfers each layer’s representation (or features) from original input into more abstracted representation in the higher layers to find the complicated inherent structures. For example, the features such as edge, corner, contour, and object parts, are abstracted layer-by-layer from an image. These abstracted feature representations are then input to the classifier layer to perform classification and regression tasks. Overall, deep learning is an end-to-end learning structure with the minimum human inference, and the parameters of deep learning model are trained jointly. 
+
+On the contrary, traditional machine learning performs fea-ture extraction and model construction in a separated manner, and each module is constructed step-by-step. The handcrafted features are firstly extracted by transforming raw data into a different domain (e.g., statistical, frequency, and time-frequency domain) to take the representative information requiring expert domain knowledge. Next, feature selection is performed to improve the relevancy and reduce the spurious redundancy among fea-tures before feeding into the machine learning model. Traditional machine learning techniques usually has shallow structures with at most three layers (e.g. input, output, and one hidden layer). Thus, the performance of the constructed model not only relies on the optimization of adopted algorithms (e.g. BP Neural Net-work, Support Vector Machine, and logistic regression), but also is heavily affected by the handcrafted features. Generally, the feature extraction and selection are time-consuming, and highly depend on domain knowledge. 
+
+Therefore, deep learning has distinctive difference with tradi-
+
+ 
+
+high level abstract representation in feature learning makes deep learning more flexible and adaptable to data variety. Because the data are abstracted, the diverse data types and sources do not have
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwO8Nt7Rxy-jdBNnkvFelXgcH1Ohz2CAgDySWrmVzm1qpm5ih1rqY_KXXaHpqqBBIkTrUDtxR0XN4_gdkgZ3hx8tJkjdVJzPZKELD1hWjDV1Ju5eEHBbk8XGZvPDrS_wQUwcwOKeg=w1280-h547-v0
+
+44c0ffb7-60ce-4419-8dce-780b723259c0
+
+ 
+
+4 J. Wang et al. / Journal of Manufacturing Systems xxx (2018) xxx–xxx 
+
+Fig. 2. Comparison between two techniques: a) traditional machine learning, b) deep learning. 
+
+Table 2 
+
+Comparison between traditional machine learning and deep learning. 
+
+Feature learning Model construction Model training 
+
+Traditional machine learning 
+
+Explicit engineered features extracted with expert domain knowledge. 
+
+Use extracted features to construct data-driven model, usually with shallow structures. 
+
+Each module is trained step-by-step. 
+
+Deep  learning Features are learned by An end-to-end high Parameters are trained jointly. 
+
+s h e s t p g n m a p 
+
+3 
+
+m i o d f d p l a i p 
+
+h i l f F i a w a
+
+ transforming data into abstract representations. 
+
+trong influence on the analysis results. On the other hand, the deep ierarchical structure in deep learning is easier to model the nonlin-ar relationship using compositional function comparing with the hallow structure which is regarded as a generic function in tradi-ional machine learning. The superiority of deep network had been roven mathematically in [47]. As the size and variety of dataset row in the big data context, it becomes more difficult to create ew, highly relevant features. In the context of big data era in smart anufacturing, the ability to avoid feature engineering is regarded 
+
+s a great advantage due to the challenges associated with this rocess. 
+
+. Deep learning for smart manufacturing 
+
+With new technologies (e.g. IoT, big data) embraced in smart anufacturing, smart facilities focus on creating manufacturing 
+
+ntelligence that can have a positive impact across the entire rganization. The manufacturing today is experiencing an unprece-ented increase in available sensory data comprised of different 
+
+ormats, semantics, and structures. Sensory data was collected from ifferent aspects across the manufacturing enterprise, including roduct line, manufacturing equipment, manufacturing process, 
+
+abour activity, and environmental conditions. Data modelling and nalysis are the essential part of smart manufacturing to handling ncreased high volume data, as well as supporting real-time data rocessing [48]. 
+
+From sensory data to manufacturing intelligence, deep learning as attracted much attention as a breakthrough of computational 
+
+ntelligence. By mining knowledge from aggregated data, deep earning techniques play a key role in automatically learning rom data, identifying patterns, and making decisions as shown in ig. 3. Different levels of data analytics can be produced includ-
+
+ 
+
+ng descriptive analytics, diagnostic analytics, predictive analytics, nd prescriptive analytics. Descriptive analytics aims to summarize hat happens by capturing the product’s conditions, environment 
+
+nd operational parameters. When the product performance is
+
+hierarchical model structure with nonlinear combination of multi-layers. 
+
+reduced or the equipment failure happens, diagnostic analytics examine the root cause and report the reason it happens. Pre-dictive analytics utilizes statistical models to make predictions about the possibility of future production or equipment degra-dation with available historical data. Prescriptive analytics goes beyond by recommending one or more courses of action. Measures can be identified to improve production outcomes or correct the problems, showing the likely outcome of each decision. 
+
+With the advanced analytics provided by deep learning, man-ufacturing is transformed into highly optimized smart facilities. The benefits include reducing operating costs, keeping up with changing consumer demand, improving productivity and reducing downtime, gaining better visibility and extracting more value from the operations for globally competitiveness. 
+
+Up to date, various deep learning architectures have been devel-oped and the relevant research topics are fast-growing. To facilitate the investigation of manufacturing intelligence, several typical deep learning architectures are discussed including Convolutional Neural Network, Restricted Boltzmann Machine, Auto Encoder, and Recurrent Neural Network and their variants. The feature learning capability and model construction mechanism were emphasized since these models are the building blocks to construct compre-hensive and complex deep learning techniques. 
+
+3.1. Convolutional neural network 
+
+Convolutional Neural Network (CNN) is a multi-layer feed-forward artificial neural network which is firstly proposed for two-dimensional image processing [36]. It has also been inves-tigated for one-dimensional sequential data analysis including natural language processing and speech recognition recently [49]. In CNN, the feature learning is achieved by alternating and stack-
+
+ 
+
+ing convolutional layers and pooling operations. The convolutional layers convolve with raw input data using multiple local kernel filters and generate invariant local features. The subsequent pool-ing layers extract the most significant features with a fixed-length
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwUDl_jPhBG3wZaAMFFQ_b3LYLFlffb7oO45JPNBUjKcniBIyfo7K4v00An1lCRc1As6UrvJlv7vuk11Voo946LtC_SyFk0Jw0DSjqySrbqpxTnELqgvkmVHzGVYswxbj9X15Bc=w1280-h1090-v0
+
+fea0413e-475c-43c1-8572-7c7c63133832
+
+ 
+
+J. Wang et al. / Journal of Manufacturing Systems xxx (2018) xxx–xxx 5 
+
+nced a 
+
+o s m n r i a 
+
+v a s l b r c i s w 
+
+3 
+
+n
+
+ 
+
+Fig. 3. Deep learning enabled adva 
+
+ver sliding windows of the raw input data by pooling operations uch as max  pooling and average pooling. Max  pooling selects the aximum value of one region of the feature map  as the most sig-
+
+ificant feature. Average pooling calculates the mean value of one egion and takes it as the pooling value of this region. Max  pooling s well suited to extract sparse features, while pooling operation on ll samples may  not be optimal. 
+
+After multi-layer feature learning, fully-connected layers con-ert a two- dimensional feature map  into a one dimensional vector nd then feed it into a softmax function for model construction. By tacking convolutional layers, pooling layers, and fully-connected ayers, a typical CNN is constructed as shown in Fig. 4. Gradient ased backpropagation is usually used to train convolutional neu-al network by minimizing the minimum mean squared error or ross-entropy loss function. CNN has the advantageous properties ncluding sparse interactions with local connectivity, parameter haring with reduced numbers, and equivariant representation hich is invariant to object locations.
+
+ 
+
+.2. Restricted Boltzmann machine and its variant 
+
+Restricted Boltzmann Machine (RBM) is a two-layer neural etwork consisting of visible and hidden layer. There exists a sym-
+
+nalytics for smart manufacturing. 
+
+metric connection between visible and hidden units, but there are no connections between each neuron within the same layer. It is an energy based model in which the visible layer is used to input data while the hidden layer is used to extract features. All hidden nodes are assumed conditionally independent. The weights and offsets of these two layers are tuned over iterations in order to make the out-put of the visible layer as the approximation of the original input. Finally, the hidden layers are regarded as different representations of the visible layer. 
+
+The parameters in hidden layers are treated as the features to characterize the input data to realize data coding and dimen-sion reduction. Then, supervised learning methods such as logistic regression, Naïve Bayes, BP Neural Network, and Support Vector Machine, etc. can be used to implement data classification and regression. RBM takes the advantages of extracting required fea-tures from training datasets automatically, which avoids the local minimum value and thus has received a growing number of atten-tions. Utilizing RBM as the basic learning module, different variant models have been developed [32]. 
+
+Deep Belief Network (DBN): DBN is constructed by stacking mul-
+
+ 
+
+tiple RBMs, where the output of the lth layer in hidden units is used as the input of the (l + 1)th layer in visible units. For DBN training, a fast greedy algorithm is usually used to initialize the network and
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAz1IFrOwUPuUn1bhxuqFgTLQJECWr2FGDOoQ7e2K8S9rGmxcA9g2qB3tSCbzRsx7ae3zmLAnDT287EYsiZruqyfQpouZ-pi2DGSvRmbxmh29I7Sj21GWhZro3PA8tXYPe_aU4TXig=w1280-h615-v0
+
+d95d4c50-8369-4039-9dfb-b78bd405b31d
+
+ 
+
+6 J. Wang et al. / Journal of Manufacturing Systems xxx (2018) xxx–xxx 
+
+N×N 
+
+Convolution 
+
+Reshape 
+
+Fully connected layer 
+
+Input layer 
+
+Class 1 
+
+Class 2 
+
+Class 3 
+
+Class 4 Softmax 
+
+x11 x12 … x1n 
+
+x21 x22 … x2n 
+
+xn1 xn2 … xnn 
+
+Raw Data 
+
+Wavelet Scalogram 
+
+Sampling 
+
+Fig. 4. Architecture of convolutional neural network model. 
+
+) RBM 
+
+t c a a h d 
+
+d h l o i h D d j c 
+
+3 
+
+e n d s i a f i p h S
+
+ 
+
+Fig. 5. Architecture of (a 
+
+he parameters of this deep architecture are then fine-tuned by a ontractive wake-sleep algorithm [37]. Bayesian Belief Network is pplied to the area which is close to the visible layers, and RBMs re used to the area far from the visible layers. That is to say, the ighest two layers are undirected and the other lower layers are irected, as shown in Fig. 5. 
+
+Deep Boltzmann Machine (DBM): DBM can be regarded as a eep structured RBMs where hidden units are grouped into a ierarchy of layers. The full connections between two  adjacent 
+
+ayers are enabled, but no connection is allowed within a layer r between non-neighbouring layers as shown in Fig. 5. By stack-
+
+ng multi-RBMs, DBM can learn complex structures and construct igh-level representation of input data [42]. Compared to DBN, BM is a fully undirected graphical model while DBN is a mixed irected/undirected one. Accordingly, the DBM model is trained 
+
+ointly and more computationally expensive. On the contrary, DBN an be trained layer-wisely to be more efficiently. 
+
+.3. Auto encoder and its variants 
+
+Auto Encoder (AE) is an unsupervised learning algorithm xtracting features from input data without label information eeded. It mainly consists of two parts including encoder and ecoder as shown in Fig. 6. The encoder can perform data compres-ion especially in dealing input of high dimensionality by mapping nput to a hidden layer [33]. The decoder can reconstruct the pproximation of input. Suppose the activation function is a linear unction and we have less hidden layers than the dimensionality of
+
+ 
+
+nput data, then the linear Auto Encoder is similar to principle com-onent analysis (PCA). If the input data is highly nonlinear, more idden layers are required to construct the deep Auto Encoder. tochastic gradient descent (SGD) is often investigated to calculate
+
+, (b) DBN, and (c) DBM. 
+
+parameters and build auto-encoder by minimizing the objective loss function in terms of the least square loss or cross-entropy loss. 
+
+Several variants of AE have been developed and listed as follows: 
+
+1) Denoising Auto Encoder (DAE): DAE is an extension version of the basic Auto Encoder, which is trained to reconstruct the stochastically corrupted input data by adding isotropic Gaus-sian noise to x and forcing the hidden layer to discover more robust features [43]. 
+
+2) Sparse Auto Encoder (SAE): SAE makes the most of the hidden unit’s activations close to zero by imposing sparsity constraints on the hidden units, even the number of hidden units is large [40,41]. 
+
+3) Contractive Auto Encoder (CAE): In order to force the model resistant to small perturbations, CAE encourages learning more robust representations of the input x [50]. 
+
+3.4. Recurrent neural network and its variants 
+
+Compared with traditional neural networks, Recurrent Neural Network (RNN) has unique characteristic of topology connections between the neurons formed directed cycles for sequence data as shown in Fig. 7. Thus, RNN is suitable for feature learning from sequence data. It allows information persists in hidden layers and captures previous states of a few time steps ago. An updated rule is applied in RNN to calculate the hidden states at different time steps. Take the sequential input as a vector, the current hidden state can be calculated by two  parts through a same activation function (e.g. sigmoid or tanh function). The first part is calculated with the input
+
+ 
+
+while the second part is obtained from the hidden state at the pre-vious time step. Then, the target output can be calculated with the current hidden state through a softmax function. After processing the whole sequence, the hidden state is the learned representation
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwcYzu2lTG2tMvBdhXtF60uxsjrudfAW4tpr6PlzD7haxRSHjZx-ae6CSax2GVOIYojWf8scwuq4D7RO2XsUKCih8CGC_9Yjlk-Wwev_BsQyf6oiQLLyMOV8WDiZYT_A2gd5k0I=w474-h146-v0
+
+6e42fcee-1a9d-4ae6-8f81-8f93973494db
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxHcXEW66vE1_w8dqZpjYy8xLaZcu2menF-at7a5ffMuvbFYbi2m_nn8ybdMQmV0f1DunnJg93cnGNsyuXOln3OA_wu1xLZM3Xl9iMkeVzaa5OeSqWxk7_l_UUejhjMFKQMblLZYA=w1250-h477-v0
+
+0dc53984-ec5d-4e89-8752-1ee004a4828b
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyVz_7XPfajkPh04FnAp-EgcUdlBHOq_V1ug1Tii6Ogacn8YMjTVUDY1eLRCAGTzzyJFgwJEpHGiT1v4dOkQPZzzlBoYW84dyP-xdwvk2yDgSix4xnOM3kl9Lkh823npvP85ukZlA=w45-h45-v0
+
+d4b70590-a8f8-41c7-ade2-514ffa67f767
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzTwAdothOxVeUqtVCHEbAclXoBrM2IRAuyDK439xHbtBt-3QBJ7EdYM9zxz3VteutT1sdc42HHCp3EpsMQ6arJ8Lcu5EjqfelZoDQC-jG_FZlI5h81pyL6Upwr3ZwkYRIrYoS7Xw=w41-h41-v0
+
+06e16fae-c972-43c9-a82d-7fc5d2eeeb15
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAy72llzHjFrc4Y9yyJyJ-G6sW6XY1qpI6y-eqlPEW8nT92uI_kHfWuwyvYOe3fCmP7Wk7NyT4JhXpUEt-x3vdrevH0QqCG1z_94HldgcBEix9fU5eRl7vwIvBVLzrYaWjnw_46O=w43-h43-v0
+
+a5b07bdd-135e-4f82-9e84-b7c13a229499
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzjunUmTu_Br4qfL2PIyS8q8Cdnhu38qnUnGTSaBrUCF4-wx95eIdfDdhs39eCRyiv30q9ReXqwljRS_zim07VV4WUN8roCJHBoXdzbu7aV_k2JatVZ9KbbputUVyQGobewrHsz9g=w45-h46-v0
+
+f6d166b1-1f6d-41e0-a957-13930dd1c372
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwICnuzYxU8mkhfSo6s7E4-DFK5tNAWpFV5K8cYUYzbuOfjN1OFzztgcPMbB50zofxkEp3exShJWDJv1pgMDSzvIJMU912gATfhEXIMX8YLqW7vlWUrQB2V0zCaU4qnOsdU5AfvuA=w41-h40-v0
+
+a9b18640-7fce-4ffd-be77-002d9b591bc0
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxTSeiMhSfcWNjTsmxjMOPzomlhzyFSD_KoW0sfbqivalJzPPYucDwvddq6AbEKfDJOOK1C26RAYdhvc_iLG0j7m9ZYAW36z8LoMJdQQKY0E5h0BjMHN1fptW7Ej_0FgmYnuWBC=w43-h43-v0
+
+83b0ca13-9fbe-4c2b-be1d-1505c55ade6b
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxyiojG6ne43a-sV10qy4dMuQHoJ-0JB325M7hdw99OfEGv3zf9sjWQm8lwduk89AO7NIOTucftpGM6-rOVAiVo1JbvAiUaQQ2xOxl6a29TXXIoGgfQskFzmdPA80zWD-HyFID5Lw=w45-h46-v0
+
+2bf1a5a4-094a-42f7-bd0e-8a25ef127f09
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyIdr-_L3jKyEj4_b4LPTjQufJWIS2c3XQNGMqUuZek1NvHjQ_P7QZdIHtBDmvE7X4wy1nURe3NppMOX1Lup_ihuUVGS_uvgF7wGwXxLS8PcEugEwtw9LnWBeZ--IFr-c2uO0hh-g=w41-h40-v0
+
+58d4cf00-0c05-443f-9526-76e7e1973ee8
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwX3TQmWMsFAqZ8ONhnOTCtlvFh5j3VD-aRizMQ68o-bQfPgrsNSq9NyuCI8tQBHBxdFc2IgelXkZMdVQUKy0YKwYmAJI_y4eHOJuuYJlm4Um1WwmKShYkfLvNsbm5m6iCMOfxI=w43-h43-v0
+
+be114aa1-1b3e-4eea-90ba-3c314d4de5f6
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAy1EzU4MfP2fTp8sbSWaGZG5lgADvoPUYNakWlnDHo5J24lS-GohG5Uzwdf7xJdvH_u0zMo10Y-Ykd64_I5cu1hTanMyPxUtKLie5BH-An9mRQrt65ynfMXasi6Z17pYhvUv-hUTw=w53-h53-v0
+
+dac617be-ef4e-4486-9e6c-037cd16bc1e4
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwyYVdoPjhmrzZXoy7WCn81tof8ZGmaVxXUGo6zNrvK8w2fZeIMZXT0ErRZ86UEkQNgyVuLqt88dQDO-dkfpT7KPOJ8YFwiWvHTJjoJeno-_Fq-KoE4SWRXIxq7HkzpmybOy0aeqQ=w49-h49-v0
+
+474b7bc8-c29b-4d72-b818-6072e8248271
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwOeJOaNusoYw60PVOCcyp09L8WFZeeRhjzIsLWesVwWBk1aZkSrwY4p3lBh-0VP0xCEtwrcMusLWumyO-TSxx64yRmIdKefomfckAhwVLby_rV7D9K8JmOzJNf14_EbTVtDW98MA=w51-h51-v0
+
+cc21c2c9-694e-44cb-9f82-ac372c713290
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwi1DvUuiZwWUxoEk9rum3vJJB07VCu07m8jroz2lNPl78I3z-DTQOCPGafBzmkZBvNdPtGKtjHC8lxTJVM9rkY6XeMC07CrMCcYG1Ufq38vqjJ2w3-qe3sJeyU-ch9Hy7ZD0wPOQ=w53-h53-v0
+
+09aabc31-3014-401a-b3b0-7fb9cdf6c246
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxzgqYSFRSJPzFSPIAHssitQjky7r6FQn7bUgReaQRhas2UyEjYaMhGaDpZGqb1V42PJOfqt93mP5aPZXq5iBhf4ezt7V4mfdiOvJeKpPa8nr9phGYT2_x8Fz84zPUJIxSMZmaI2w=w48-h49-v0
+
+e897cefe-207b-401d-97f3-bc46b2067803
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxFshG5xej1XGpcxrywBGPfcvNzFHHJBVI5ZuTo7ucbH8b9Q-s3P24VWIKZmKdUdn60amQRnr6agp5AlYsCgIyovAZV4ClERvLaRKHHfwbq6Oz0v-P759eUEUx-OCzv8K5Pdy04=w51-h51-v0
+
+ddcf75cf-485f-471d-b2ff-138ab5fd1331
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwKoa3hcNFd3usz-ObIg5QGUq43_8w8FDwyaEJtbYY4fEMusstHtkJfWgN-9dEFGYpn7GErCuIjwaHbqy47Gt6doK3NAEEGcEtRtAw9gUbZJQoKQUPG_cUJUup8K__hBW6JWHB27Q=w53-h53-v0
+
+6c486cf7-4fa3-41df-a04c-0f18881e1c92
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzV0j3i4kwVsGRdSXPB3jJTzyR2ygkA1zED-CXgY5SwE1cVJ1XRm5f2J1yCi5Xp0DOs23X62XegqKPxD8EgHB-jJjWIUsHz4EhiRPK5LKzNcarc-_SoNvmsiB1bjRAOfVdCg3TE=w49-h49-v0
+
+4f265e23-6cef-44f1-bd89-c13897a61f4c
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzVUVzX3j502bPngwtQ7-FDo8GldHKBMM5Je-gmH2dV7Qmn0WZwTqm_Z4GJO-qQvXVu3lb4qo664iouAtJQ2Y_zVnk0Y8S6PljOhopWynST41_wnIFBD3bl2Edt_S8RZ8a5ITKyWw=w51-h51-v0
+
+e2819439-9155-48bc-8dd4-7a3b37f82a96
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAw8W0mZjFN3-jzlVTleMG9J7oelnOp18CZSSGzi8EMYkQT1BeZmqrf-S8tJsyRC8Q8UcSaraISjoWzWLiOLPFk0S-LgQcOXFgBe8t6GQMk9A2-YflnyF87uO-ChSd8wuF0Xr0jC=w52-h52-v0
+
+3f4a5a25-edf9-445e-b0fd-b01bd33c0b10
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAx7unzAocCEdaphcR1uuS-Vv-Gpy531kg8LEnzOFptO01N9YzOK-_TkdehQYsDqmxQyWH1skypfx1pEL7uZocgJtaTmLB4vIH5zdnE5kG7av-CaeJ73a2NnT9YtCReoVhHoWb1IvA=w48-h48-v0
+
+838d6a2b-cf62-4928-ad38-ff709d3a7447
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwrwvBr4sVL4M9OK4bXiNVGhxvZ-P1q8QE-DslFEi-wR2Fh1bFsvpzQU5Q5VQ75ZD2xn2lQa8PVh19cX2KXh2K6swC0B600FpSVWAI5j88OZbCCJh8_lEJvF9k-yzYhIux1nn1LtA=w50-h50-v0
+
+bcd6a3af-071e-4dff-ac06-c3c8e415bba3
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzaUgWXyCBA9_Lz3laJ6ysOsitZVVQ9QEGSu93WXNZNm8RqaBMOBzfKL6AfAduYpYzYCjqWkkEkeXu-qOpEeVe_MVt9wSfJ8oqhqEwJsEEed58vMB2OBntx8DwIH_u-TI-xuvD96w=w52-h52-v0
+
+0f000aa8-5310-43bb-9b83-910ad705cb52
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzVzEoHbWF-8NcrpEsItFyQVPTIFaxfMxjsNDeTKz03V3ElzaYS7gxTvjAIotVBWS4YiQlAoJKFStSMPFSDMzLSUf9BelFNnoPegd0wbr_6aCwrWjJLlGesyfAJTGHiYOy5Krwb=w47-h47-v0
+
+267f33ee-b7f2-4349-a120-20e15412ba0c
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyMvHlyonwZ1tO7FUdkQ43h0f0EV05oBwNMlPslJD43NIxWaSKLMebKwkJFuzxwBb3Fb6X_8g0UFCPhNql2pv5T9ZrpJH__MfCZtGaNkGaBIYFsJJRd3-1vzthKBRWKbjMlhJEmfQ=w49-h50-v0
+
+29f2f8eb-2b20-48ef-828d-91a72bcf8301
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxIrFqAbBw58LYGrAUjdV38SOh57Mjar6M_dJCC7j3W-LvxJxmczP9QpF0-JAlAaUbTcKjN5yYxJWw-WqX6hJlBHzxNAun6hsW1ADDQfu6gEXNSAThF7FPgRkzx3pGMv3fAanB0oQ=w787-h55-v0
+
+10d5152a-03b2-4d39-9862-f532806674bf
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzb5kwsMWkNAah7qFQbNEpHh956ozjJUTVAS7yUfYw34cVacKHdygcoESyee5B_hjA_KNOMw0jC_Nu1rPY_pfbCqsHFxdfzINpTx33TkeWlsiNyNHWyqPQiRLUtSBM-cg9KGMSY=w53-h53-v0
+
+853783b7-6ffa-43e9-ac45-6457f14d2a0c
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzyJQG__HkG5XA7zPUh84COvAcmtg922sdZigigeRmRjQXb6iadVYZpzkqAECjaf604jPU9ROBZA2aj0j0fbUaaGgo5Vq0y4HVIhFBfAa2cbyvYhNKazAdYI_5V69Nbq_r7At-5Ug=w49-h49-v0
+
+2cf41729-63b5-4bc1-a6f4-95452a03b11c
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxAg7gwEY6S9RNwef4Fxe0R67vLOb3CicwIVJtVGuumqkXk0x6EQRprSIbKuJ5qhCoothD83psmhCker9kVJZufxTsbur60FV3Zo2F0fEz8ndBDlSM2N_145W51C9SbdLpivf5EjQ=w51-h51-v0
+
+6d8db0d6-5fbf-4441-b7fb-0a851ea885dd
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAygPELhFKMshl0b0dAK5P7I1x28CK0KHEs9_bXT6L1I9j_up40Nl_2Y_8zeNsj4T1Goc0LAZUUy0005oEsa7JcBRxuddL4kD0hw6Q2nzrHakYmg5Amr371kKFSDKXHxBZUd3iG4Uw=w52-h37-v0
+
+8cca3fc4-3f41-45de-9b2c-6f88a6b54889
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzWH04h-gVbEpyvP5IN_g_l0cy_UeIu5Yh5_JO0S-9aUWiZDxHimjoe8YqGh1UMfn1FbWFQdYn0YIUjgIg2Y69nnb9ZquIe7ucUzEPuhlZaudhoaSla5QQr3rTvB8fzbuQng3N7ag=w47-h32-v0
+
+9273e288-cc52-4624-b458-2cdff83c4bf7
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAy4TzjXsykzknZxRqLKAK7nUozNEjkuaYwlnt1ApzzPgYH-1oaQM3YvaB-t6HajKZOE5QWbx7sula34zjs9vyVpQav5gY6UcxV-ADa7dbxmZNfk8-mfY15vSCtfcScqik0SYyP2Xw=w49-h35-v0
+
+bf6d1ca9-6a6a-4a0c-8392-786dbb8195d1
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwVIDhCi89AgsZ2yUa4HcpaEjv7CmUmPMFDxZwICp2Z3ku1FHRMYQoJTU3KMA259GrQoJgrKBcg821p_w5CV02HuaizYeWi1lMuTsTBpshDlPOaKo0K1JqhZvAXtuegWpXA9lE49g=w52-h37-v0
+
+aa51bc3b-8243-4f1a-8fad-ff2d15c0c069
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzQz8k5BfODdCu7MoWiUbJ_lF6prh9adcbVttOYVmpwDiztigFTGuQIPFYVRQVm8ZM5LU3TEujMIlA6KsQkA73a-n_wVIoThkMLQoj7o5YoxXsz_JJGsbOBcHryQw2yx07hX2irOA=w48-h32-v0
+
+ab06d420-4514-4b97-8f0a-bbdbfce130ca
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxJWVDI25N6gdiFLRh-LPOasKtezxVMJu7jHW3BG8Qdt2xwsJSuDnQIuoUNUohzJJqZxQot4XiKdByQhXH9DS9pzFkhXmVSmVWyXEx65FPmN_louNQHhpPAsNkN0FkM755PXleN3A=w50-h35-v0
+
+f7c8b239-044d-43ee-9a2e-c222e4373b59
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxmWvrykqgxjCteJ9mqmnFq1k4HkXe-U-XiS7n6QvV4geAQ2Mx8Jhvf8p3lnAjW3f4570_ezdQUaSXvRBXYZvplxPMy7E0yXFiQzbDpUFeEV0RMcXm3R9BJWWO0F7t-eUbwoYBTvw=w52-h37-v0
+
+ad7260b5-b119-4a7a-92a9-f5f86e52c92a
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAw2hs9vkkJ8kCOp5AhMucPrvVghyKzh6jHlGH7W26epvb2IW-o0pbNvsOGli6zh0BU1E9OffIAH1TKb7GyAJGfykklykql3a8upGZHjSXv7hDPBT7ISdYtk65L5BJdgJJ_o8vE9Mg=w48-h32-v0
+
+1f4402ae-4895-4e5c-b55b-ca15800e1b8b
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyg2cUaiU1qLX3f9su-uLytql4ZwUg0OYzBbbHdyAvnPnyivOdgrw_yU2aJbB-EB3aGP-kCFRkWKEzM-iCilgYkPK8ciR4KAZTraxwM6quMgB3wIGlp5vO2TNn15ZY_R8xjyv1h=w50-h35-v0
+
+abec5c08-1fb6-471f-9f02-2eb7a4682001
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwNA38t--CCscTU9Xm1m8V_gdB2n-aWjBDSp8ryVwDugFuKK1i9WSTgsDRXpOXzV1AtBPaVHvoYbL6Vnbb8FW19247t0xVIZ1Ukoolo0ETvR1BINiYwE7rMHo4M0QZdB-FaZOCMmw=w52-h36-v0
+
+3c5028b9-6cae-4572-9dd8-fc0df43e69e5
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwXANUKrkRvxTDwVgfpT_aNVqwB7CND6WmPDyygu1E3zCsxpY96HFATj_nhzU60_GWH6t3fXY6ijqmpatN9MHvqzyk528LLMXBtAHR0IgZy-Z1aJtE9NGNzAXCun4Tc0D-pNGYduw=w48-h32-v0
+
+f64eb583-990c-4a15-98f4-7dce806ae524
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwkqOQdKwLlEqN9dfAdxQHUHDdrDoXjmPh62WVP2D6N_Cpw_vMlQ9IdaAHeMyRldxepW45d-T-DfDNWaVaGJKi_DY3_RDOsHpevHTuc2pR3gpSWKqpyxHg-jqU69g7paP4G9mlYxg=w50-h34-v0
+
+019ec22b-e639-460c-93a7-aad154548a2a
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzF4_CdrEPbTZc9kprPxDRjkPfOgqJOw1HcexQH9DHD-mqDGm1VcdtM4cJBqQMWlIYargt7Xf5117KVMHFDp_XCcuZoWJ-yCxUMBx-6eNMhGsuAgtCO6046kpfuoihb8Iyhmr6mwQ=w52-h36-v0
+
+b800213b-f129-427e-8e20-1b74b1d729e7
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAy6MXbV4yCG7uwuW-c4KEN26OrOFTnrXz046Y9vd9ofcoLGZFEh4EkDCzdtVk58NoqD26JFdBu9JbhxqzBUEPwFC7nzR-7jqkn4tjJBssqB2u3BB4kSphB3PyNP0fHXfiTjGDz2vQ=w47-h33-v0
+
+7daefec0-4873-4cf7-b1c1-2cfa38c32373
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxwdvo8byJzyiN4OvIoBkUSoUMCcRMjaMTKQBfQtBE7E-ERl3xepNjA0HO7dXirj1xlPWaOv6SFo0tJsZInBH7T-w6kfqur1oOs9aC2PXV-o29zOHmVkM1xIRnTzBEHukHk-MpLcw=w49-h34-v0
+
+8311c512-66e7-4087-8e75-dbff9026aa01
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAywC2QrHFFy3-IcmRnLe8U03tygVlpWv5BrZK1AyGNOXoTw-78teewELQWnaKJcsRKK7DErpkVAX2buuD4rpkqL2BasKuP_KMeDVFE2sKObxY4lKUNx4LQlCyYKveOTEg1-5poTSw=w52-h52-v0
+
+cf51b3ca-db5c-47e2-8786-fe16b7ee3310
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzOZq81xmn2FLS5nvwAyO715UijnqVOCe-6i8vRdFCh9BXYTCyPGjaHc-oVFwOdF4_0C-iG_cATcGyMwnj3OcG6G8mWiQ79hOWkIXoxhFmNZYLyIVLFjtqU02MlkgNmmNUTJoIAoQ=w47-h48-v0
+
+957c6ed0-83d0-422c-b922-493cbe39af54
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAx4BAglfncLqODfMK9APRSP7JOIJkll2lFACP0RMfAKDhd32swwoVc5o7f335FBaGDjQakEAwaaLYmriSdIolEd_soQ58uwWE574f8gDbcoq5MSfjDLIdTs_oWOU0cviylMZS_6xA=w50-h50-v0
+
+51a4d628-af73-4867-9b6c-6f121dcb8555
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyonL9nUk7Z2WiX1bwSXu9WYLrWqu8hTWBwR9QCbysQtRjbQpj8WR1n3IZoqotfac8NdMZ3T1Qjt0eVDD_U2ZULhqpA-uHW8S-VCMDXwS5uP9GZzxzRlE-Vh2H4J3tmLvk5aT_B-g=w52-h36-v0
+
+907f01a3-54b0-4b14-b7ef-dae85782363a
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyK0yE1VGx6ywvB7ORInmzuZiez7BxEslhs0ndP93tU6aqAE3Isd-YX-63YTYcJP3QuE5DUAzzt-MucCVUQGcjt7A_cH28m8LBWodP1sVpo4AA6FutL7D_5V9olTi_xMxDf9hBb=w47-h32-v0
+
+1f32d8fa-e19e-434a-8f82-199f248d5a5a
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyMrtf77NIwAf6yi2YOXtLhwp7Ew2PtizEIGIG1SyAcLnDxVKW2sgvSqaTitNurclftcxvjW9ze8DnGkZ_R__B-OY5lkWK3whNdt6yhugtb03tCOIGMxplMa60RYhUeUvwsFPYw=w50-h34-v0
+
+3bf09d61-49da-4501-a0ef-2005263862dc
+
+ 
+
+J. Wang et al. / Journal of Manufacturing Systems xxx (2018) xxx–xxx 7 
+
+Fig. 6. The architecture of AE. 
+
+xt x2x1 
+
+h nh1 h 2 
+
+y1 ynOutput layer 
+
+Hidden layer 
+
+Input layer 
+
+h 0 fW fW fW 
+
+W 
+
+g g 
+
+y2 
+
+g 
+
+urren 
+
+o t t 
+
+R i c i g t d 
+
+l i L e t g e o 
+
+3 
+
+p a b d s s l l
+
+ 
+
+Fig. 7. Architecture of rec 
+
+f the input sequential data and a conventional multilayer percep-ron (MLP) is added on top to map  the obtained representation to argets. 
+
+Different from traditional neural networks, the model training in NN is performed by Backpropagation Through Time (BPTT). RNN 
+
+s firstly unrolled according to time and each unrolled time step is onsidered as an additional layer. Then backpropagation algorithm s applied to calculate gradients. Due to the vanishing/exploding radient problem using BPTT for model training, RNN cannot cap-ure long-term dependencies. In other words, RNN has difficulty in ealing with long-term sequence data. 
+
+A variety of enhancements are proposed to solve these prob-ems, among which long short-term memory (LSTM) is widely nvestigated for its effectiveness [35]. The most important idea of STM is cell state, which allows information flow down with lin-ar interactions. Comparing with single recurrent structure in RNN, he gates including forget gate layer, input gate layer and output ate layer, are used in LSTM to control the cell state. It enables ach recurrent unit to adaptively capture long-term dependencies f different time scales. 
+
+.5. Model comparison 
+
+With the above illustration, it can be found that CNN and RNN rovide complex composition mechanism to learn representation nd model construction. The RBM and AE can be used for layer-y-layer pretraining of deep neural network to characterize input ata. In these deep learning models, the top layers normally repre-
+
+ 
+
+ent the targets. For classification where targets are discrete values, oftmax layers are applied. For prediction with continuous targets, inear regression layers are added. According to the dependence on abelled data, DBN, AE and their variants are unsupervised learning
+
+t neural network model. 
+
+or semi supervised learning. CNN, RNN and their variants are super-vised learning. The Pros and Cons of these typical deep learning models are presented in Table 3. 
+
+Fortunately, a number of typical deep learning packages includ-ing open source or commercial software are available to public as summarized in Table 4. They facilitate the investigation of deep learning techniques in different manufacturing scenarios. 
+
+4. Applications to smart manufacturing 
+
+Computational intelligence is an essential part of smart man-ufacturing to enable accurate insights for better decision making. Machine learning has been widely investigated in different stages of manufacturing lifecycle covering concept, design [60], evalu-ation, production, operation, and sustainment [61] as shown in Fig. 8. The applications of data mining in manufacturing engineer-ing are reviewed in [62], covering different categories of production processes, operations, fault detection, maintenance, decision sup-port, and product quality improvement. The evolution and future of manufacturing are reviewed in [63,64], emphasizing the impor-tance of data modelling and analysis in manufacturing intelligence. The application schemes of machine learning in manufacturing are identified as summarized in [65,66]. Smart manufacturing also requires prognostics and health management (PHM) capabilities to meet the current and future needs for efficient and reconfigurable production [67].
+
+ 
+
+Deep learning, as an emerging technique, has been investigated for a wide range of manufacturing systems recently. To give an overview, the applications of state-of-the-art deep learning tech-niques in manufacturing are discussed in this study, especially in
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwaAVL3OQbGqiJ982ok1F7SSZ1iGh8S9WEhnY6r9bwpUWbh1uN1vMNknkrgnKgv6O2m6oJdMsMAF4G7XHpBr_VcCOHcgySDumkO1OjIGKTxi_QBMZozkPCj3sIJrk_VstCwVxXn8Q=w512-h126-v0
+
+e2e10568-ba15-4815-8684-64c97e83cad0
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAx4uszvIvqg7cQMOyZySB_K-6rQmpzz_UGWDBePflaQRGSlu0s2Nsx4JbAvVtvn3OE-zhZm_CNsc2mEwZJwlYiTsAvN8IuySMqkG7KxtlYJmLGg9JozyqSjTH-OfTRHzDwHXlcOtg=w32-h52-v0
+
+f868b815-f892-4ee3-8b65-45024e9ce498
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyZxGbfjy0CpAKK6st9py20OHlwOANDqJfCaxdFIaNFXbBkMixD8TiY4xUfPBT40eqVP-n04P2wc_qRQq0klk1vM7rO6Vu1LjFhnVK5IJukH--8Cih7O5mMiCTHqs0yKcDvQkSwJQ=w491-h39-v0
+
+0ddb6e9a-cf5b-42d9-9295-469237fd185c
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwuxmGzpE8eG07UN2jWWuxbiQh6o-OXWa5Bx7dQ0yNshQEKowJrGkW166evo9nNXu0YH1vcYr088hTSSYYvv7Szhgk4nCY0hff-87JnUwe2Qm3dR76kO4673Acn_PSPR4ubuTDnwQ=w1001-h783-v0
+
+3ebdd95c-f60f-4623-8d0a-2e4785512c1a
+
+ 
+
+8 J. Wang et al. / Journal of Manufacturing Systems xxx (2018) xxx–xxx 
+
+Table 3 
+
+Comparison between different deep learning models. 
+
+Model Principle Pros. Cons. 
+
+CNN Abstracted features are learned by stacked convolutional and sampling layers. 
+
+Reduced parameter number, invariance of shift, scale and distortion 
+
+High computational complexity for high hierarchical model training 
+
+RBM  Hidden layer describes variable dependencies and connections between input or output layers as  representative features. 
+
+Robust to ambiguous input and training label is not required in pre-training stage 
+
+Time-consuming for joint parameter optimization 
+
+AE  Unsupervised feature learning and data dimensionality reduction are achieved through encoding 
+
+Irrelevance in the input is eliminated, and meaningful information is preserved 
+
+Error propagation layer-by-layer and sparse representations are not guaranteed 
+
+RNN  Temporal pattern stored in the recurrent neuros connection and distributed hidden states for time-series data. 
+
+Short-term information is retained and temporal correlations are captured in sequence data. 
+
+Difficult to train the model and save the long-term dependence 
+
+Table 4 
+
+A list of deep learning tools. 
+
+Tools Type Description 
+
+Caffe/Caffe2 [51] Open-source Feedforward network, and suitable for image processing. 
+
+Theano [52] Open-source Consist of the most of state-of-the-art neural networks, originated at the University of Montreal Numerical in 2007. 
+
+TensorFlow [53] Open-source Open source software library for deep neural networks using data flow graphs, developed by Google Brain Team. 
+
+Pytorch [54] Open-source Deep learning framework widely used by Facebook and Twitter, originally developed at New York University in 2002. Excellent for convnets and rich set of RNNs. 
+
+CNTK  [55] Open-source Microsoft Cognitive Toolkit, and well known in the speech community. 
+
+Google Cloud machine learning platform [56] 
+
+Commercial Allow users to build and train machine learning models by using TensorFlow in Google Cloud Platform. 
+
+Amazon machine learning [57] 
+
+Commercial Cloud-based service for users to use machine learning technology. 
+
+Microsoft Azure [58] Commercial Machine learning library IBM Watson analytics [59] 
+
+Commercial Cloud-based machine learning platform for data exploration, visualization and predictive analytics. 
+
+F 
+
+t p 
+
+4 
+
+i 
+
+Table 5 
+
+A list of deep learning models with applications. 
+
+Deep learning model Application Scenarios Reference 
+
+CNN Surface integration inspection [72–75] Machinery fault diagnosis [77–84] 
+
+DBN Machinery fault diagnosis [85–92] Predictive analytics & defect prognosis [109–112] 
+
+AE  Machinery fault diagnosis [93–103]
+
+ig. 8. Typical application scenarios of machine learning in smart manufacturing. 
+
+he areas of product quality inspection, fault diagnosis, and defect rognosis, as highlighted in Table 5.
+
+ 
+
+.1. Descriptive analytics for product quality inspection 
+
+Surface integration inspection is usually inspected employ-ng machine vision and image processing techniques to detect
+
+RNNs Predictive analytics & defect prognosis [104–108] 
+
+surface defect for enhanced product quality in manufacturing [68]. Traditional machine learning has made remarkable progress and yields reliable results in many cases [69], but different pre-processing approaches including structural-based, statistical-based, filter-based, and model based techniques are needed to extract representative features with expert knowledge [70]. How-ever, flexible configuration in modern manufacturing system could shift production from one product to another quickly. The fea-ture representation may  need redesign from scratch for traditional machine learning. Additionally, a new product may  present com-plicated texture patterns or intensity variations, and the surface defects could be in an arbitrary size, orientation and shape. There-fore, manually designed features in traditional machine learning
+
+ 
+
+technique may  lead to insufficient or unsatisfactory inspection performance in complex surface scenarios or dynamic changing process [71]. To address these challenges, deep learning has been
+
+ 
+
+acturi 
+
+i w 
+
+a f N o d i p r m n a C n p t m a 
+
+4 
+
+d s f d i m n i 
+
+t i C d s a a d o m f i w B i B a s a p t f 
+
+l m [ t u i A A c i
+
+ 
+
+J. Wang et al. / Journal of Manuf 
+
+nvestigated to learn high-level generic features and applied to a ide range of textures or difficult-to-detect defects cases. 
+
+Convolutional Neural Network, originally designed for image nalysis, is well fit for automated defect identification in sur-ace integration inspection. In [72], a Deep Convolutional Neural etwork architecture is designed and the hyper-parameters are ptimized based on backpropagation and stochastic gradient escent algorithms. A max-pooling Convolutional Neural Network 
+
+s presented in [73] to perform feature extraction directly from the ixel representation of steel defect images and shows lower error ates comparing with multi-layer perceptron and support vector 
+
+achine. The image analysis is studied with convolutional neural etwork in [74] to automatically inspect dirties, scratches, burrs, nd wears on surface parts. The experimental results show that NN works properly with different types of defects on textured or on-textured surfaces. A generic approach based on CNN is pro-osed in [75] to extract patch feature and predict defect area via hresholding and segmenting. The results show the pretrained CNN 
+
+odel works well on small dataset with improved accuracy for utomated surface inspection system. 
+
+.2. Diagnostic analytics for fault assessment 
+
+Manufacturing systems are usually subject to failures caused by egradation or abnormal operating conditions, leading to exces-ive load, defection, fracture, overheating, corrosion, and wear. The ailure may  incur higher operating costs, lower productivity, more isqualified part waste, and even unexpected downtime. In order to 
+
+mplement smart manufacturing, it is crucial for a smart factory to onitor machinery conditions, identify the incipient defects, diag-
+
+ose the root cause of failures, and then incorporate the information nto manufacturing production and control [75]. 
+
+With aggregated data from smart sensory and automation sys-ems, more and more deep learning techniques have been widely nvestigated for machinery fault diagnosis and classification [76]. onvolutional Neural Network integrates feature learning and efect diagnosis in one model, and has been used in many aspects, uch as bearing [77–80], gearbox [81,82], wind generator [83], nd rotor [84], etc. Since CNN was originally developed for image nalysis, different approaches are investigated to construct two imensional input from time series data. The frequency spectrum f multi-channel vibration data is also investigated in [77] to fit the odel requirement. In [75], permutation is performed by trans-
+
+orming time series data into a matrix, and then normalized as mage. In [84], time frequency spectrum of vibration signal by 
+
+avelet transform is used as image input of a CNN model. Deep elief Network has fast inference as well as the advantage of encod-
+
+ng high order network structures by stacking multiple Restricted oltzmann Machines. It has been investigated for fault diagnosis of ircraft engine [85], chemical process [86], reciprocating compres-or [87], rolling element bearing [88,89], high speed train [90,91], nd wind turbine [92]. The input of a DBM model is usually the reprocessed features by Teager-Kaiser energy operator or wavelet ransform rather than raw data. Then the DBM model is constructed ollowing a supervised layer-by-layer learning process. 
+
+Auto Encoder has been investigated for unsupervised feature earning, and the learned features are then fed into a traditional 
+
+achine learning model for model training and classification. In 93], a five-layer deep neural network is presented using the fea-ures learned by an Auto Encoder for planetary gearbox diagnosis nder various operating conditions. Different variants are also 
+
+nvestigated including sparse Auto Encoder [94], stacked denoising
+
+ 
+
+uto Encoder [95], and Contractive Auto Encoder [96], etc. Sparse uto Encoder is investigated in [97] to learn the features of motor urrent signal, and partial corruption is performed on the input to mprove the robustness of feature representation. A multi-layered
+
+ ng Systems xxx (2018) xxx–xxx 9 
+
+extreme learning machine based Auto Encoder is investigated in [98] to learn feature representations for wind turbine fault clas-sification. In [99], a continuous sparse Auto Encoder is presented by adding Gaussian stochastic unit into an activation function to extract nonlinear features of the input data. To improve diagnostic analytics, the comprehensive deep learning models are also devel-oped. In [100], a sparse filtering based deep neural network model is investigated for unsupervised features learning. Synthesized deep learning models are discussed in [101,102] for signal denoising and fused feature extraction. Different deep learning models including Deep Boltzmann Machine, Deep Belief Network, and Stacked Auto Encoder with different preprocessing schemes are comparatively studied in [103] for rolling bearing fault diagnosis. The results show that stacked Auto Encoder performs the best. From the above lit-eratures, it is concluded that the deep learning models outperform traditional machine learning techniques with engineered features such as support vector machine, and BP Neural Network in terms of classification accuracy. 
+
+4.3. Predictive analytics for defect prognosis 
+
+In order to increase manufacturing productivity while reduc-ing maintenance cost, it is crucial to develop and implement an intelligent maintenance strategy that allows manufacturers to determine the condition of in-service systems in order to predict when maintenance should be performed. The temporal behaviour in the historical data is important for prediction, and deep recurrent neural network has demonstrated its capability to model tempo-ral pattern. Recently, a general recurrent neural network, named long short term memory, has been investigated to predict defect propagation and estimate remaining useful life (RUL) of mechani-cal systems or components. In [104], a competitive learning-based RNN has been proposed for long-term prognosis of rolling bearing health status. In [105], a new local feature-based gated recurrent unit network has been proposed to learn the representation of the sequence of local features and the proposed method is verified on three real machine health monitoring tasks. In [106], an integrated approach of CNN and bi-directional LSTM is presented for machin-ing tool wear prediction, in which CNN is used to extract local features from sequential signals and bi-directional LSTM to capture long-term dependence for prediction. Vanilla LSTM is investigated in [107] to estimate the remaining useful life of an aircraft turbofan engine under complex operating conditions and strong background noise, and the experimental results confirm that Vanilla LSTM pro-vides good prediction accuracy. A stacked LSTM network enables the learning of higher level temporal features, and has been pre-sented for anomaly prediction of space shuttle and engine [108]. 
+
+Deep Belief Network, as the feature learning approach in regres-sion models, has also been investigated for predictive analytics. In [109], Deep Belief Network is investigated to model the complex relationship between material removal rate and chemical mechan-ical polishing process parameters in semiconductor manufacturing. An integrative approach of Deep Belief Network and particle filter is presented in [110] for the RUL prediction of a ceramic bear-ing. By aggregating the output of ensemble DBNs, Support Vector Regression model is investigated to predict electricity load demand [111]. To predict the resource request in cloud computing, DBN is proposed in [112] to optimize job schedule and balance the com-putational load. 
+
+5. Discussions and outlook
+
+ 
+
+As the evolution of smart manufacturing, more and more machineries are equipped with smart sensors and meshed with Internet of Things. Currently, most companies do not know what
+
+ 
+
+1 facturi 
+
+t t n w e m c t t s a 
+
+m w T v w l f i v 
+
+5 
+
+c l S l w t m m c s m t a s f g t t a i m 
+
+5 
+
+b t b a u o r s e i i a
+
+ 
+
+0 J. Wang et al. / Journal of Manu 
+
+o do with the data they have, and they lack software and modelling o interpret and analyse them. On the other hand, manufacturers eed practical guidance to improve their processes and products, hile the academics develop up-to-date artificial intelligence mod-
+
+ls without considering how they will be applied in practice. As anufacturing process becomes more complex, more difficulty 
+
+omes along to clear the data and formulate the right problems o model. Five gaps are identified in smart manufacturing innova-ion including adopted strategies, improved data collection, use and haring, predictive model design, generalized predictive models, nd connected factories and control processes [48]. 
+
+To meet the high demand of advanced analytics in smart anufacturing, deep learning with feature learning and deep net-ork offers great potential and shows advantageous properties. 
+
+o handle overwhelming data characterized by high-volume, high-elocity and high-variety, there are still some challenges associated ith manufacturing industry to adopt, implement, and deploy deep 
+
+earning for real-world applications. To address the challenges, the uture development trends of deep learning for smart manufactur-ng are discussed in terms of data matter, model selection, model isualization, generic model, and incremental learning. 
+
+.1. Data matter 
+
+A common presumption in machine learning is that algorithms an learn better with more data, and thus the performance of deep earning model heavily depends on the scale and quality of datasets. o far deep learning shows the effectiveness when it is applied to imited types of data (e.g. images, speech, and vibration, etc.) and 
+
+ell-defined tasks. Multi-sensory has been instrumented to cap-ure data at all stages of a product’s life. Deep learning algorithm 
+
+ay  be infeasible to directly handle such high dimensional, multi-odality, and non-structured data, and even susceptible to the 
+
+urse of dimensionality. Extracting the relevant data to reduce the ize and applying appropriating task-specific regularization term ay  improve the performance of deep learning. On the other hand, 
+
+he class imbalance problem is another challenge. The class follows  highly-skewed distribution in real life, representing most data amples belong to few categories. For example, the dataset of sur-ace defects is normally too small and costly to collect. The ratio of ood to bad parts is highly imbalanced ranging from 9:1 to even less han one million. Thus, it is difficult to apply standard classification echniques to differentiating good parts from scraps. Appropri-te measures such as class resampling, cost-sensitive training, and ntegration of boot strapping may  be necessary for deep learning 
+
+odel to address class imbalance issues [113]. 
+
+.2. Model selection 
+
+Different problems are tacked with specialized models. A num-er of deep learning models are available at present. Considering he complexity in manufacturing process, model selection has ecome a major challenge. Generally, some empirical criteria can be dopted when applying deep learning models. Firstly, supervised or nsupervised deep learning algorithms can be chosen depending n the available data set in hand. Supervised deep learning algo-ithms are appropriate to dealing with data rich but knowledge parse problems, namely labelled data are available. If there is no
+
+ 
+
+xpert knowledge to solve the problem, unsupervised deep learn-ng algorithms might be suitable. Secondly, since one algorithm has ts strength and weakness, the general applicability of the selected lgorithm should be considered [16,19].
+
+ ng Systems xxx (2018) xxx–xxx 
+
+5.3. Model visualization 
+
+The analytics solutions of deep learning need to be understood by manufacturing engineers. Otherwise, the generated recommen-dations and decisions may  be ignored. Due to the model complexity behind, deep neural network is usually regarded as a black-box model. It is hard to explain the internal computation mechanism or interpret the abstract feature representation physically. Visual-ization of the learned features and model architecture may  offer some insights, and thus facilitate the construction and configu-ration of deep neural network models for complex problems. On the other hand, the engineered features by domain expertise have demonstrated its effectiveness. Complementing the abstract fea-tures with engineered features by visualization and fusion may contribute a more effective model. Some visualization techniques have been proposed including t-SNE model [114] for high dimen-sional data visualization, and visualization of activations produced by each layer of deep neural network via regularized optimization [115]. 
+
+5.4. Generic model 
+
+The application of deep learning is not bonded to specific machines, thus deep learning models can be a general solution to address manufacturing intelligence problems. Although many improvements including dropout and activation function have been investigated to handle large datasets, it is still challenging to build a high hierarchical model with multi-layers for com-plex problems. Both the architecture design and hyper-parameter optimizations have significant impacts on the performance of deep learning models. One way  to improve the architecture is to increase its width or depth. The determination of the optimal hyper-parameters relies on appropriate optimization algorithms in a computationally efficient way [116]. On the other hand, paral-lel implementation of deep learning algorithms can be applied to large scale and real time analytics using parallel computing, graphic processing unit (GPU), and Hadoop technology. On  the top, setting up the correct problem to be optimized, and choosing appropriate models should be the basis of developing generic models. 
+
+5.5. Incremental learning 
+
+The deep learning algorithms are not fundamentally built to learn incrementally and are therefore susceptible to the data veloc-ity issues. For a new problem setup, deep learning may  need to rebuild the model from scratch and the existing knowledge may be difficult to utilize. Additionally, the data in the new scenar-ios is also an issue. It is necessary to enable deep learning with incremental learning capabilities. Transfer learning aims to extract the knowledge from one source task and then applies the learned knowledge to a different but related task [117]. It could employ the pre-trained deep learning model from a relevant task for model initialization and fine-tuning to enable knowledge reuse and updat-ing as transferred deep learning. Some previous works focusing on transferred feature extraction/dimensionality reduction have been done. A maximum mean discrepancy (MMD)  measure evaluating the discrepancy between source and target domains is added into the target function of deep neural networks [118]. Thus, transferred deep learning is meaningful and promising for smart manufactur-ing to enable knowledge updating and intelligence upgrading. 
+
+6. Conclusions
+
+ 
+
+Deep learning provides advanced analytics and offers great potentials to smart manufacturing in the age of big data. By unlocking the unprecedented amount of data into actionable and
+
+ 
+
+acturi 
+
+i v m s a m m d a p a 
+
+[ g m m 
+
+A 
+
+b ( ( P 
+
+R
+
+ 
+
+J. Wang et al. / Journal of Manuf 
+
+nsightful information, deep learning gives decision-makers new isibility into their operations, as well as real-time performance easures and costs. To facilitate advanced analytics, a comprehen-
+
+ive overview of deep learning techniques is presented with the pplications to smart manufacturing. Four typical deep learning odels including Convolutional Neural Network, Restricted Boltz-ann Machine, Auto Encoder, and Recurrent Neural Network are 
+
+iscussed in detail. The emerging research effort of deep learning in pplications of manufacturing is also summarized. Despite of the romising results reported so far, there are still some limitations nd significant challenges for further exploration. 
+
+As the evolution of computing resources (e.g., cloud computing 119–124], fog computing [125,126], etc.), computational intelli-ence including deep learning may  be push into cloud, enabling ore convenient and on-demand computing services for smart anufacturing. 
+
+cknowledgments 
+
+This research acknowledges the financial support provided y National Key Research and Development Program of China No. 2016YFC0802103), National Science foundation of China No. 51504274), and Science Foundation of China University of etroleum, Beijing (No. 2462014YJRC039). 
+
+eferences 
+
+[1] Putnik G, Sluga A, ElMaraghy H, Teti R, Koren Y, Tolio T, et al. Scalability in manufacturing systems design and operation: state-of-the-art and future developments roadmap. CIRP Ann Manuf Technol 2013;62(2):751–74. 
+
+[2] Lee YT, Kumaraguru S, Jain S, Hatim Q, Robinson S, Helu M,  et al. A classification scheme for smart manufacturing systems’ performance metrics. Smart Sustain Manuf Syst 2017;1(1):52–74. 
+
+[3] Hu T, Li P, Zhang C, Liu R. Design and application of a real-time industrial Ethernet protocol under Linux using RTAI. Int J Comput Integr Manuf 2013;26(5):429–39. 
+
+[4] Ye Y, Hu T, Zhang C, Luo W.  Design and development of a CNC machining process knowledge base using cloud technology. Int J Adv Manuf Technol 2016:1–13. 
+
+[5] Tao F, Qi Q. New IT driven service-oriented smart manufacturing: framework and  characteristics. IEEE Trans Syst Man  Cybern Syst 2017;99:1–11. 
+
+[6] Ang J, Goh C, Saldivar A, Li Y. Energy-efficient through-life smart design, manufacturing and operation of ships in an industry 4.0 environment. Energies 2017;10(5):610. 
+
+[7] Huang Z, Hu T, Peng C, Hou M,  Zhang C. Research and development of industrial real-time Ethernet performance testing system used for CNC system. Int J Adv Manuf Technol 2016;83(5–8):1199–207. 
+
+[8] Lalanda P, Morand D, Chollet S. Autonomic mediation middleware for smart manufacturing. IEEE Internet Comput 2017;21(1):32–9. 
+
+[9] Smart Manufacturing Coalition. Manufacturing growth continues despite uncertain economy, according to ASQ outlook survey; 2013. https:// smartmanufacturingcoalition.org/sites/default/files/12.16.13 manufacturing outlook survey.pdf. [Accessed 10 Sepember 2017]. 
+
+[10]  Wang L, Törngren M,  Onori M.  Current status and advancement of cyber-physical systems in manufacturing. J Manuf Syst 2015;37:517–27. 
+
+[11] Wang P, Gao RX, Fan Z. Cloud computing for cloud manufacturing: benefits and  limitations. J Manuf Sci Eng 2015;137:1–10. 
+
+[12] Lu Y, Xu X, Xu J. Development of a hybrid manufacturing cloud. J Manuf Syst 2014;33(4):551–66. 
+
+[13] Wu D, Rosen DW,  Schaefer D. Cloud-based design and manufacturing: status and promise. Comput Aided Des 2015;59:1–14. 
+
+[14] Choudhary AK, Harding JA, Tiwari MK.  Data mining in manufacturing: a review based on the kind of knowledge. J Intell Manuf 2009;20(5):501–21. 
+
+[15] Lade P, Ghosh R, Srinivasan S. Manufacturing analytics and industrial internet of things. IEEE Intell Syst 2017;32(3):74–9. 
+
+[16] Monostori L, Márkus A, Brussel HV, Westkämpfer E. Machine learning approaches to manufacturing. CIRP Ann Manuf Technol 1996;45(2):675–712. 
+
+[17] Teti R, Jemielniak K, O’Donnell G, Dornfeld D. Advanced monitoring of machining operations. CIRP Ann Manuf Technol 2010;59(2):717–39. 
+
+[18] Helu M,  Libes D, Lubell J, Lyons K, Morris K. Enabling smart manufacturing
+
+ 
+
+technologies for decision-making support. Proceedings of the ASME international design engineering technical conferences and computers and information in engineering conference (IDETC/CIE) 2016:1–10. 
+
+[19] Wuest T, Weimer D, Irgens C, Klaus DT. Machine learning in manufacturing: advantages, challenges, and applications. Prod Manuf Res 2016;4(1):23–45.
+
+ ng Systems xxx (2018) xxx–xxx 11 
+
+[20] Gao R, Wang L, Teti R, Dornfeld D, Kumara S, Helu M,  et al. Cloud-enabled prognosis for manufacturing. CIRP Ann Manuf Technol 2015;64(2):749–72. 
+
+[21] Wu D, Jennings C, Terpenny J, Gao RX, Kumara S. A comparative study on machine learning algorithms for smart manufacturing: tool wear prediction using random forests. J Manuf Sci Eng 2017;139(7):1–10. 
+
+[22] Gartner’s Top10 strategic technology trendsfor; 2017. http://www.gartner. com/smarterwithgartner/gartners-top-10-technology-trends-2017/. [Accessed 13 August 2017]. 
+
+[23] Mcculloch WS,  Pitts WH.  A logical calculus of the ideas immanent in nervous activity. Bull Math Biophys 1943;5(4):115–33. 
+
+[24] Samuel AL. Some studies in machine learning using the game of checkers II—recent progress. Annu Rev Autom Program 2010;44(1–2):206–26. 
+
+[25] Rosenblatt F. Perceptron simulation experiments. Proc IRE 1960;48(3):301–9. 
+
+[26] Widrow B, Hoff ME.  Adaptive switching circuits. Cambridge: MIT  Press; 1960. 
+
+[27] Minsky M,  Perceptrons Papert S. Am J Psychol 1988;84(3):449–52. [28] Tank DW,  Hopfield JJ. Neural computation by concentrating information in 
+
+time. Proc Natl Acad Sci USA 1987;84(7):1896. [29] Werbos PJ. Backpropagation through time: what it does and how to do it. 
+
+Proc IEEE 1990;78(10):1550–60. [30] Sussmann HJ. Learning algorithms for Boltzmann machines. 27th IEEE 
+
+conference on decision and control 1988;1:786–91. [31] Vapnik VN. An overview of statistical learning theory. IEEE Trans Neural 
+
+Netw 1998;10(5):988–99. [32] Smolensky P. Information processing in dynamical systems: foundations of 
+
+harmony theory. Parallel distributed processing: explorations in the microstructure of cognition. Cambridge: MIT  Press; 1986. 
+
+[33] Rumelhart DE, Hinton GE, Williams RJ. Learning representations by back-propagating errors. Nature 1986;323(6088):533–6. 
+
+[34] Hihi SE, Hc-J MQ,  Bengio Y. Hierarchical recurrent neural networks for Long-Term dependencies. Adv Neural Inf Process Syst 1995;8:493–9. 
+
+[35] Hochreiter S, Schmidhuber J. Long short-Term memory. Neural Comput 1997;9(8):1735. 
+
+[36] Lécun Y, Bottou L, Bengio Y, Haffner P. Gradient-based learning applied to document recognition. Proc IEEE 1998;86(11):2278–324. 
+
+[37] Hinton GE, Salakhutdinov RR. Reducing the dimensionality of data with neural network. Science 2006;313(5786):504–7. 
+
+[38] Hinton GE, Osindero S, Teh YW.  A fast learning algorithm for deep belief nets. Neural Comput 2014;18(7):1527–54. 
+
+[39] Deng L, Seltzer M,  Yu D, Acero A, Mohamed A, Hinton GE. Binary coding of speech spectrograms using a deep auto-encoder. Proceedings of 11th annual conference of the international speech communication association 2010;3:1692–5. 
+
+[40] Schölkopf B, Platt J, Hofmann T. Efficient learning of sparse representations with an energy-Based model. Proceedings of advances in neural information processingsystems 2006:1137–44. 
+
+[41] Ranzato MA, Boureau YL, Lecun Y. Sparse feature learning for deep belief networks. Proceedings of international conference on neural information processing systems 2007;20:1185–92. 
+
+[42] Salakhutdinov RR, Hinton GE. Deep Boltzmann machines. J Mach Learn Res 2009;5(2):1967–2006. 
+
+[43] Larochelle H, Lajoie I, Bengio Y, Manzagol PA. Stacked denoising autoencoders: learning useful representations in a deep network with a local denoising criterion. J Mach Learn Res 2010;11(12):3371–408. 
+
+[44] Krizhevsky A, Sutskever I, Hinton GE. ImageNet classification with deep convolution neural networks. International conference on neural information processing systems 2012;25:1097–105. 
+
+[45] Goodfellow IJ, Pouget-Abadie J, Mirza M, Xu B, Warde-Farley D, Ozair S, et al. Generative adversarial nets. Int Conf Neural Inf Process Syst 2014;3:2672–80. 
+
+[46] Wang Y, Huang M,  Zhao L, Zhu X. Attention-based LSTM for aspect-level sentiment classification. Proceedings of conference on empirical methods in natural language processing 2016:606–15. 
+
+[47] Poggio T, Smale S. The mathematics of learning: dealing with data. Not Am Math Soc 2003;50(5):537–44. 
+
+[48] Kusiak A. Smart manufacturing must embrace big data. Nature 2017;544(7648):23–5. 
+
+[49] Ince T, Kiranyaz S, Eren L, Askar M,  Gabbouj M.  Real-time motor fault detection by 1-D convolution neural networks. IEEE Trans Ind Electron 2016;63(11):7067–75. 
+
+[50] Hassanzadeh A, Kaarna A, Kauranne T. Unsupervised multi-manifold classification of hyperspectral remote sensing images with contractive Autoencoder. Neurocomputing 2017;257:67–78. 
+
+[51] Caffe2. https://caffe2.ai/. 2017 [Accessed 20 October 2017]. [52] Theano. http://deeplearning.net/software/theano/index.html#. 2017 
+
+[Accessed 20 October 2017]. [53] Google TensorFlow. https://www.tensorflow.org/. 2017 [Accessed 20 
+
+October 2017]. [54] Pytorch. http://pytorch.org/. 2017 [Accessed 20 October 2017]. [55] Microsoft Cognitive Toolkit. https://www.microsoft.com/en-us/cognitive-
+
+ 
+
+toolkit. 2017 [Accessed 20 October 2017]. [56] Google Google cloud machine learning. https://cloud.google.com/products/ 
+
+machine-learning/. 2017 [Accessed 20 October 2017]. [57] Amazon Web  Service. Amazon AI, https://aws.amazon.com/amazon-ai/. 
+
+2017 [Accessed 20 October 2017].
+
+ 
+
+1 facturi
+
+ 
+
+2 J. Wang et al. / Journal of Manu 
+
+[58] Microsoft Microsoft Azure; 2017. https://azure.microsoft.com/en-us/ services/machine-learning-studio/. [Accessed 20 October 2017]. 
+
+[59] IBM. IBM Watson ecosystem program; 2017. http://m.ibm.com/http/www-03. ibm.com/innovation/us/watson/. [Accessed 20 October 2017]. 
+
+[60] Zhang W,  Jia MP,  Zhu L, Yan X. Comprehensive overview on computational intelligence techniques for machinery condition monitoring and fault diagnosis. Chin J Mech Eng 2017;30(4):1–14. 
+
+[61] Lee J, Lapira E, Bagheri B, Kao H. Recent advances and trends in predictive manufacturing systems in big data environment. Manuf Lettersm 2013;1(1):38–41. 
+
+[62] Harding JA, Shahbaz M,  Srinivas Kusiak A. Data mining in manufacturing: a review. J Manuf Sci Eng 2006;128:969–76. 
+
+[63] Esmaeilian B, Behdad S, Wang B. The evolution and future of manufacturing: a  review. J Manuf Syst 2016;39:79–100. 
+
+[64] Kang HS, Ju YL, Choi SS, Kim H, Park JH. Smart manufacturing: past research, present findings, and future directions. Int J Precision Eng Manuf Green Technol 2016;3(1):111–28. 
+
+[65] Hazen BT, Boone CA, Ezell JD, Jones-Farmer LA. Data quality for data science, predictive analytics, and big data in supply chain management: an introduction to the problem and suggestions for research and applications. Int  J Prod Econ 2014;154(4):72–80. 
+
+[66] Shin SJ, Woo  J, Rachuri S. Predictive analytics model for power consumption in  manufacturing. Procedia CIRP 2014;15:153–8. 
+
+[67] Vogl GW,  Weiss BA, Helu M.  A review of diagnostic and prognostic capabilities and best practice for manufacturing. J Intell Manuf 2016:1–17. 
+
+[68] Xie X. A review of recent advances in surface defect detection using texture analysis techniques. Elcvia Electron Lett ComputVision Image Anal 2008;7(3):1–22. 
+
+[69] Neogi N, Mohanta DK, Dutta PK. Review of vision-based steel surface inspection systems. EURASIP J Image Video Process 2014;1:1–19. 
+
+[70] Pernkopf F, O’Leary P. Visual inspection of machined metallic high-precision surfaces. EURASIP J Adv Signal Process 2002;7:667–8. 
+
+[71] Scholz-Reiter B, Weimer D, Thamer H. Automated surface inspection of cold-formed micro-parts. CIRP Ann Manuf Technol 2012;61(1):531–4. 
+
+[72] Weimer D, Scholz-Reiter B, Shpitalni M.  Design of deep convolution neural network architectures for automated feature extraction in industrial inspection. CIRP Ann Manuf Technol 2016;65(1):417–20. 
+
+[73] Ren R, Hung T, Tan KC. A generic deep-learning-based approach for automated surface inspection. IEEE Trans Cybern 2017;99:1–12. 
+
+[74] Masci J, Meier U, Ciresan D, Schmidhuber J, Fricout G, Mittal A. Steel defect classification with max-pooling convolution neural networks. IEEE international joint conference on neural networks (IJCNN) 2012;20:1–6. 
+
+[75] Park JK, Kwon BK, Park JH, Kang DJ. Machine learning-based imaging system for  surface defect inspection. Int J Precision Eng Manuf Green Technol 2016;3(3):303–10. 
+
+[76] Zhao R, Yan R, Chen Z, Chen Z, Mao  K, Wang P, et al. Deep learning and its applications to machine health monitoring: a survey; 2016. https://arxiv. org/pdf/1612.07640.pdf. [Accessed 20 October 2017]. 
+
+[77] Janssens O, Slavkovikj V, Vervisch B, Stockman K, Loccufier M, Verstockt S, et  al. Convolution neural network based fault detection for rotating machinery. J Sound Vib 2016;377:331–45. 
+
+[78] Lu C, Wang Z, Zhou B. Intelligent fault diagnosis of rolling bearing using hierarchical convolution network based health state classification. Adv Eng Inf 2017;32:139–51. 
+
+[79] Guo X, Chen L, Shen C. Hierarchical adaptive deep convolution neural network and its application to bearing fault diagnosis. Measurement 2016;93:490–502. 
+
+[80] Verstraete D, Droguett E, Meruance V, Modarres M,  Ferrada A. Deep learning enabled fault diagnosis using time-frequency image analysis of rolling element bearings. Shock Vib 2017:1–29. 
+
+[81] Chen ZQ, Li C, Sanchez RV. Gearbox fault identification and classification with convolution neural networks. Shock Vib 2015;2:1–10. 
+
+[82] Wang P, Ananya Yan R, Gao RX. Virtualization and deep recognition for system fault classification. J Manuf Syst 2017;44:310–6. 
+
+[83] Dong H, Yang L, Li H. Small fault diagnosis of front-end speed controlled wind generator based on deep learning. WESEAS Trans Circuits Syst 2016;15:64–72. 
+
+[84] Wang J, Zhuang J, Duan L, Cheng W.  A multi-scale convolution neural network for featureless fault diagnosis. Proceedings of 2016 international symposium on flexible automation 2016:65–70. 
+
+[85] Tamilselvan P, Wang P. Failure diagnosis using deep belief learning based health state classification. Reliab Eng Syst Saf 2013;115(7):124–35. 
+
+[86] Yu H, Khan F, Garaniya V. Nonlinear Gaussian belief network based fault diagnosis for industrial processes. J Process Control 2015;35:178–200. 
+
+[87] Tran VT, Althobiani F, Ball A. An approach to fault diagnosis of reciprocating compressor valves using teager–kaiser energy operator and deep belief networks. Expert Syst Appl 2014;41(9):4113–22. 
+
+[88] Shao H, Jiang H, Zhang X, Niu M.  Rolling bearing fault diagnosis using an optimization deep belief network. Meas Sci Technol 2015;26(11):1–17. 
+
+[89] Gan M,  Wang C, Zhu C. Construction of hierarchical diagnosis network based on  deep learning and its application in the fault pattern recognition of
+
+ 
+
+rolling element bearings. Mech Syst Signal Process 2016;72–73(2):92–104. [90] Yin J, Zhao W.  Fault diagnosis network design for vehicle on-board 
+
+equipments of high speed railway: a deep learning approach. Eng Appl Artif Intell 2016;56:250–9.
+
+ ng Systems xxx (2018) xxx–xxx 
+
+[91] Xie H, Yang Y, Wang H, Li T, Jin W.  Fault diagnosis in high-speed train running gears with improved deep belief networks. J Comput Inf Syst 2015;11(24):7723–30. 
+
+[92] Li C, Sanchez RV, Zurita G, Cerrada M,  Cabrera D, Vasquez RE. Gearbox fault diagnosis based on deep random forest fusion of acoustic and vibratory signals. Mech Syst Signal Process 2016;7:6–77, 283–293. 
+
+[93] Jia F, Lei Y, Lin J, Zhou X, Lu N. Deep neural networks: a promising tool for fault characteristic mining and intelligent diagnosis of rotating machinery with massive data. Mech Syst Signal Process 2016;7:2–73, 303–315. 
+
+[94] Guo J, Xie X, Bie R, Sun L. Structural health monitoring by using a sparse coding −based deep learning algorithm with wireless sensor networks. Pers Ubiquit Comput 2014;18:1977–87. 
+
+[95] Lu C, Wang Z, Qin W,  Ma  J. Fault diagnosis of rotary machinery components using a stacked denoising autoencoder-based health state identification. Signal Process 2017;130:377–88. 
+
+[96] Shao H, Jiang H, Wang F, Zhao H. An enhancement deep feature fusion method for rotating machinery fault diagnosis. Knowl Based Syst 2017;119:200–20. 
+
+[97] Sun W,  Shao S, Zhao R, Yan R, Zhang X, Chen X. A sparse auto-encoder-based deep neural network approach for induction motor faults classification. Measurement 2016;89:171–8. 
+
+[98] Yang Z, Wang X, Zhong J. Representational learning for fault diagnosis of wind turbine equipment: a multi-layered extreme learning machines approach. Energies 2016;9(379):1–17. 
+
+[99] Wang L, Zhao X, Pei J, Tang G. Transformer fault diagnosis using continuous sparse autoencoder. SpingerPlus 2016;5(448):1–13. 
+
+[100] Lei Y, Jia F, Lin J, Xing S, Ding SX. An intelligent fault diagnosis method using unsupervised feature learning towards mechanical big data. IEEE Trans Ind Electron 2016;63(5):3137–47. 
+
+[101] Li C, Sanchez RV, Zutita G, Cerrada M,  Cabrera D, Vasquez RE. Multimodel deep support vector classification with homologous features and its application to gearbox fault diagnosis. Neurocomputing 2015;168:119–27. 
+
+[102] Guo X, Shen C, Chen L. Deep fault recognizer: an integrated model to denoise and extract features for fault diagnosis in rotating machinery. Appl Sci  2017;7(41):1–17. 
+
+[103] Chen Z, Deng S, Chen X, Li C, Sanchez RV, Qin H. Deep neural network-based rolling bearing fault diagnosis. Microelectron Reliab 2017;75:327–33. 
+
+[104] Malhi A, Yan R, Gao RX. Prognosis of defect propagation based on recurrent neural networks. IEEE Trans Instrum Meas 2011;60(3):703–11. 
+
+[105] Zhao R, Wang D, Yan R, Mao  K, Shen F, Wang J. Machine health monitoring using local feature-based gated recurrent unit networks. IEEE Transa Ind Electron 2018;65(2):1539–48. 
+
+[106] Zhao R, Yan R, Wang J, Mao K. Learning to monitor machine health with convolution bi-directional LSTM networks. Sensors 2017;17(273):1–18. 
+
+[107] Wu Y, Yuan M,  Dong S, Lin L, Liu Y. Remaining useful life estimation of engineered systems using vanilla LSTM neural networks. Neurocomputing 2017;226(5):853–60. 
+
+[108] Malhotra P, Vig L, Shroff G, Agarwal P. Long short term memory networks for  anomaly detection in time series. In: Proceeding of European symposium on artificial neural networks, computational intelligence, and machine learning. 2015. p. 89–94. 
+
+[109] Wang P, Gao RX, Yan R. A deep learning-based approach to material removal rate prediction in polishing. CIRP Ann Manuf Technol 2017;66:429–32. 
+
+[110] Deutsch J, He M,  He D. Remaining useful life prediction of hybrid ceramic bearings using an integrated deep learning and particle filter approach. Appl Sci 2017;7(649):1–17. 
+
+[111] Qiu X, Zhang L, Ren Y, Suganthan PN, Amaratunga G.  Ensemble deep learning for regression and time series forecasting. IEEE symposium series on  computational intelligence 2014:1–6. 
+
+[112] Zhang W,  Duan P, Yang LT, Xia F, Li Z, Lu Q, et al. Resource requests prediction in the cloud computing environment with a deep belief network. Software Pract Exp 2017;47(3):473–88. 
+
+[113] Khan SH, Hayat M,  Bennamoun M,  Sohel FA, Tognari R. Cost-sensitive learning of deep feature representations from imbalanced data. IEEE Trans Neural Networks Learn Syst 2017;99:1–15. 
+
+[114] Maaten LVD, Hinton G. Visualizing data using t-SNE. J Mach Learn Res 2008;9(2605):2579–605. 
+
+[115] Yu D, Yao K, Su H, Li G, Seide F. KL-divergence regularized deep neural network adaptation for improved large vocabulary speech recognition. IEEE international conference on acoustics, speech and signal processing 2013:7893–7. 
+
+[116] Vig E, Dorr M,  Cox D. Large-scale optimization of hierarchical features for saliency prediction in natural images. IEEE computer vision and pattern recognition 2014:2798–805. 
+
+[117] Pan SJ, Yang Q. A survey on transfer learning. IEEE Trans Knowl Data Eng 2010;22(10):1345–59. 
+
+[118] Dziugaite GK, Roy DM,  Ghahramani Z. Training generative neural networks via  Maximum Mean Discrepancy optimization. Proceedings of the 31st conference on uncertainty in artificial intelligence 2015:258–67. 
+
+[119] Mell P, Grance T. The NIST definition of cloud computing. Commun ACM 2009;53(6), 50–50.
+
+ 
+
+[120] Davis J, Edgar T, Porter J, Bernaden J, Sarli M.  Smart manufacturing, manufacturing intelligence and demand-dynamic performance. Comput Chem Eng 2012;47(12):145–56. 
+
+[121] Lee J, Kao HA, Yang S. Service innovation and smart analytics for industry 4: 0  and big data environment. Procedia CIRP 2014;16:3–8.
+
+ 
+
+acturi 
+
+[ 
+
+[ 
+
+[ 
+
+[125] O’Donovan P, Leahy K, Bruton K, O’Sullivan D. Big data in manufacturing: a systematic mapping study. J Big Data 2015;2(1):1–22. 
+
+[126] Wu D, Liu S, Zhang L, Terpenny J, Gao RX, Kurfess T, et al. A fog
+
+ 
+
+J. Wang et al. / Journal of Manuf 
+
+122] Lee J, Lapira E, Bagheri B, Kao H. Recent advances and trends in predictive manufacturing systems in big data environment. Manuf Lett 2013;1(1):38–41.
+
+ 
+
+123] Chen CLP, Zhang CY. Data-intensive applications, challenges, techniques and technologies: a survey on Big Data. Inf Sci 2014;275(11):314–47. 
+
+124] Meziane F, Vadera S, Kobbacy K, Proudlove N. Intelligent systems in manufacturing: current developments and future prospects. Integr Manuf Syst 2000;11(4):218–38.
+
+ ng Systems xxx (2018) xxx–xxx 13
+
+ 
+
+computing-based framework for process monitoring and prognosis in cyber-manufacturing. J Manuf Syst 2017;43(1):25–34.

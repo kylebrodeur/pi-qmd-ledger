@@ -1,0 +1,1019 @@
+Prediction of Machine Failures Using Machine Learning Methods
+
+Home
+
+https://www.researchgate.net/directory/publications
+
+Electrical Engineering
+
+https://www.researchgate.net/topic/Electrical-Engineering/publications
+
+Machines
+
+https://www.researchgate.net/topic/Machines/publications
+
+Conference Paper
+
+Prediction of Machine Failures Using Machine Learning Methods
+
+September 2025
+
+DOI: 
+
+10.1109/INTCEC65580.2025.11255707
+
+https://doi.org/10.1109/INTCEC65580.2025.11255707
+
+Conference: 2025 Interdisciplinary Conference on Electrics and Computer (INTCEC)
+
+Authors:
+
+M. Hanefi Calp
+
+https://www.researchgate.net/scientific-contributions/M-Hanefi-Calp-2332317876
+
+M. Hanefi Calp
+
+https://www.researchgate.net/scientific-contributions/M-Hanefi-Calp-2332317876
+
+This person is not on ResearchGate, or hasn't claimed this research yet.
+
+ 
+
+Request full-text PDF
+
+To read the full-text of this research, you can request a copy directly from the author.
+
+Request full-text
+
+Download citation
+
+https://www.researchgate.net/publication/398059084_Prediction_of_Machine_Failures_Using_Machine_Learning_Methods/citation/download
+
+Copy link Link copied
+
+Request full-text
+
+https://www.researchgate.net/lite.research.ResearchResourcesSummary.requestFulltext.html?publicationUid=398059084&ev=su_requestFulltext
+
+Download citation
+
+https://www.researchgate.net/publication/398059084_Prediction_of_Machine_Failures_Using_Machine_Learning_Methods/citation/download
+
+Copy link Link copied
+
+To read the full-text of this research, you can request a copy directly from the author.
+
+References (18)
+
+https://www.researchgate.net/publication/398059084_Prediction_of_Machine_Failures_Using_Machine_Learning_Methods#references
+
+ 
+
+Discover the world's research
+
+25+ million members
+
+160+ million publication pages
+
+2.3+ billion citations
+
+Join for free
+
+https://www.researchgate.net/signup.SignUp.html
+
+No full-text available
+
+To read the full-text of this research,
+
+you can request a copy directly from the author.
+
+Request full-text PDF
+
+Citations (0)
+
+References (18)
+
+ResearchGate has not been able to resolve any citations for this publication.
+
+MultiSenseNet: Multi-Modal Deep Learning for Machine Failure Risk Prediction
+
+https://www.researchgate.net/publication/393510834_MultiSenseNet_Multi-Modal_Deep_Learning_for_Machine_Failure_Risk_Prediction
+
+Article
+
+Full-text available
+
+Jan 2025
+
+ Mostafijur Rahman
+
+https://www.researchgate.net/profile/Mostafijur-Rahman-14
+
+ Md Sabbir Hossain
+
+https://www.researchgate.net/profile/Md-Hossain-1881
+
+ Uland Rozario
+
+https://www.researchgate.net/profile/Uland-Rozario
+
+Nilanjan Dey
+
+https://www.researchgate.net/scientific-contributions/Nilanjan-Dey-2200463807
+
+Predictive maintenance plays a key role in industrial manufacturing by identifying machine failure risks early. This prevents downtime and improves efficiency, contributing towards industry innovation. This paper presents a method for predicting equipment failures using multi-modal sensor data. Their approach combines advanced techniques, including convolutional neural networks (CNNs) for feature extraction, long short-term memory networks (LSTMs) for temporal patterns, transformer-based attention mechanisms for critical feature identification, and graph neural networks (GNNs) for modeling sensor-machine relationships. The model was tested on two real-world datasets: the Machine Failure Classification Dataset and the Machine Failure Prediction Dataset. MultiSenseNet outperformed existing benchmarks, achieving accuracy rates of 95.4% and 95.2%, respectively. It also excelled in precision, recall, F1-score, and AUC metrics compared to traditional machine learning models and recent deep learning architectures. The model performed consistently across different hyperparameter settings, reaching peak accuracy of 94.7% on the classification dataset and 95.6% on the prediction dataset after 40 training epochs. Training and validation curves showed effective convergence with minimal overfitting.
+
+View
+
+https://www.researchgate.net/publication/393510834_MultiSenseNet_Multi-Modal_Deep_Learning_for_Machine_Failure_Risk_Prediction
+
+Show abstract
+
+Safe and Balanced: A Framework for Constrained Multi-Objective Reinforcement Learning
+
+https://www.researchgate.net/publication/388020461_Safe_and_Balanced_A_Framework_for_Constrained_Multi-Objective_Reinforcement_Learning
+
+Article
+
+Full-text available
+
+Jan 2025
+
+IEEE T PATTERN ANAL
+
+Shangding Gu
+
+https://www.researchgate.net/scientific-contributions/Shangding-Gu-2170010563
+
+Bilgehan Sel
+
+https://www.researchgate.net/scientific-contributions/Bilgehan-Sel-2237688886
+
+ Yuhao Ding
+
+https://www.researchgate.net/profile/Yuhao-Ding-5
+
+ Ming Jin
+
+https://www.researchgate.net/profile/Ming-Jin-38
+
+In numerous reinforcement learning (RL) problems involving safety-critical systems, a key challenge lies in balancing multiple objectives while simultaneously meeting all stringent safety constraints. To tackle this issue, we propose a primal-based framework that orchestrates policy optimization between multi-objective learning and constraint adherence. Our method employs a novel natural policy gradient manipulation method to optimize multiple RL objectives and overcome conflicting gradients between different tasks, since the simple weighted average gradient direction may not be beneficial for specific tasks' performance due to misaligned gradients of different task objectives. When there is a violation of a hard constraint, our algorithm steps in to rectify the policy to minimize this violation. We establish theoretical convergence and constraint violation guarantees in a tabular setting. Empirically, our proposed method also outperforms prior state-of-the-art methods on challenging safe multi-objective RL tasks.
+
+View
+
+https://www.researchgate.net/publication/388020461_Safe_and_Balanced_A_Framework_for_Constrained_Multi-Objective_Reinforcement_Learning
+
+Show abstract
+
+A comparative analysis of gradient boosting algorithms
+
+https://www.researchgate.net/publication/343840428_A_comparative_analysis_of_gradient_boosting_algorithms
+
+Article
+
+Full-text available
+
+Mar 2021
+
+ARTIF INTELL REV
+
+Candice Bentéjac
+
+https://www.researchgate.net/scientific-contributions/Candice-Bentejac-2166201861
+
+Anna Csörgő
+
+https://www.researchgate.net/scientific-contributions/Anna-Csoergo-2166178916
+
+ Gonzalo Martínez-Muñoz
+
+https://www.researchgate.net/profile/Gonzalo-Martinez-Munoz
+
+The family of gradient boosting algorithms has been recently extended with several interesting proposals (i.e. XGBoost, LightGBM and CatBoost) that focus on both speed and accuracy. XGBoost is a scalable ensemble technique that has demonstrated to be a reliable and efficient machine learning challenge solver. LightGBM is an accurate model focused on providing extremely fast training performance using selective sampling of high gradient instances. CatBoost modifies the computation of gradients to avoid the prediction shift in order to improve the accuracy of the model. This work proposes a practical analysis of how these novel variants of gradient boosting work in terms of training speed, generalization performance and hyper-parameter setup. In addition, a comprehensive comparison between XGBoost, LightGBM, CatBoost, random forests and gradient boosting has been performed using carefully tuned models as well as using their default settings. The results of this comparison indicate that CatBoost obtains the best results in generalization accuracy and AUC in the studied datasets although the differences are small. LightGBM is the fastest of all methods but not the most accurate. Finally, XGBoost places second both in accuracy and in training speed. Finally an extensive analysis of the effect of hyper-parameter tuning in XGBoost, LightGBM and CatBoost is carried out using two novel proposed tools.
+
+View
+
+https://www.researchgate.net/publication/343840428_A_comparative_analysis_of_gradient_boosting_algorithms
+
+Show abstract
+
+A systematic review shows no performance benefit of machine learning over logistic regression for clinical prediction models
+
+https://www.researchgate.net/publication/331028284_A_systematic_review_shows_no_performance_benefit_of_machine_learning_over_logistic_regression_for_clinical_prediction_models
+
+Article
+
+Full-text available
+
+Feb 2019
+
+J CLIN EPIDEMIOL
+
+ Evangelia Christodoulou
+
+https://www.researchgate.net/profile/Evangelia-Christodoulou
+
+ Jie Ma
+
+https://www.researchgate.net/profile/Jie-Ma-28
+
+Gary S. Collins
+
+https://www.researchgate.net/scientific-contributions/Gary-S-Collins-14777561
+
+ Ben Van Calster
+
+https://www.researchgate.net/profile/Ben-Van-Calster
+
+Objective: To compare performance of logistic regression (LR) with machine learning (ML) for clinical prediction modeling. Study design and setting: We conducted a Medline literature search (1/2016 to 8/2017), and extracted comparisons between LR and ML models for binary outcomes. Results: We included 71 out of 927 studies. The median sample size was 1250 (range 72-3,994,872), with 19 predictors considered (range 5-563) and 8 events per predictor (range 0.3-6,697). The most common ML methods were classification trees (30 studies), random forests (28), artificial neural networks (26), and support vector machines (24). Sixty-four (90%) studies used the area under the receiver operating characteristic curve (AUC) to assess discrimination. Calibration was not addressed in 56 (79%) studies. We identified 282 comparisons between a LR and ML model (AUC range, 0.52-0.99). For 145 comparisons at low risk of bias, the difference in logit(AUC) between LR and ML was 0.00 (95% confidence interval, -0.18 to 0.18). For 137 comparisons at high risk of bias, logit(AUC) was 0.34 (0.20 to 0.47) higher for ML. Conclusions: We found no evidence of superior performance of ML over LR for clinical prediction modeling, but improvements in methodology and reporting are needed for studies that compare modeling algorithms.
+
+View
+
+https://www.researchgate.net/publication/331028284_A_systematic_review_shows_no_performance_benefit_of_machine_learning_over_logistic_regression_for_clinical_prediction_models
+
+Show abstract
+
+KNN Algoritması ve R Dili ile Metin Madenciliği Kullanılarak Bilimsel Makale Tasnifi
+
+https://www.researchgate.net/publication/310572624_KNN_Algoritmasi_ve_R_Dili_ile_Metin_Madenciligi_Kullanilarak_Bilimsel_Makale_Tasnifi
+
+Article
+
+Full-text available
+
+Oct 2016
+
+ Deniz Kilinç
+
+https://www.researchgate.net/profile/Deniz-Kilinc-2
+
+ Emin Borandağ
+
+https://www.researchgate.net/profile/Emin-Borandag
+
+ Fatih Yucalar
+
+https://www.researchgate.net/profile/Fatih-Yucalar-2
+
+ Akin Ozcift
+
+https://www.researchgate.net/profile/Akin-Ozcift
+
+Metin tabanlı veri setleri üzerinde analiz işlemi gerçekleştirebilmek için Veri Madenciliğinin alt alanı olan Metin Madenciliği (MM) alanındaki teknik ve yöntemler kullanılmaktadır. Bu çalışmada, akademik yayınlar üzerinde metin madenciliği yöntemleri kullanılarak akademik makalelerin sınıflara ayrılarak tasnif edilme başarısı ölçülmüştür. Bu amaçla bir akademik bilgi paylaşım ağı olan Research Gate üzerindeki belirli akademik yayınların özetleri, geliştirilen yazılım araçları kullanılarak elde edilmiş ve bu özetlerden bir veri seti oluşturulmuştur. Veri seti içerisindeki yayınlar “Materials Science & Engineering” ve “Social Sciences & Humanities” olmak üzere iki ayrı kategoride yer almaktadırlar. Veri seti üzerinde R dili ve R Studio araçlarından yararlanılarak sınıflandırma amacıyla K-En Yakın Komşu (KNN) algoritması kullanılmıştır. Çalışma sonucunda %96,67 oranında doğruluk (ACC) değeri bulunarak yayınların hangi sınıfa ait olduğu tespit edilmiştir.
+
+View
+
+https://www.researchgate.net/publication/310572624_KNN_Algoritmasi_ve_R_Dili_ile_Metin_Madenciligi_Kullanilarak_Bilimsel_Makale_Tasnifi
+
+Show abstract
+
+Prognostics and health management design for rotary machinery systems—Reviews, methodology and applications
+
+https://www.researchgate.net/publication/258440016_Prognostics_and_health_management_design_for_rotary_machinery_systems-Reviews_methodology_and_applications
+
+Article
+
+Full-text available
+
+Jan 2014
+
+MECH SYST SIGNAL PR
+
+ Jay Lee
+
+https://www.researchgate.net/profile/Jay-Lee-27
+
+ Fangji Wu
+
+https://www.researchgate.net/profile/Fangji_Wu
+
+ Wenyu Zhao
+
+https://www.researchgate.net/profile/Wenyu-Zhao-5
+
+ David Siegel
+
+https://www.researchgate.net/profile/David-Siegel
+
+View
+
+https://www.researchgate.net/publication/258440016_Prognostics_and_health_management_design_for_rotary_machinery_systems-Reviews_methodology_and_applications
+
+Utilizing machine learning for predictive maintenance of production machinery in small and medium enterprises
+
+https://www.researchgate.net/publication/394908800_Utilizing_machine_learning_for_predictive_maintenance_of_production_machinery_in_small_and_medium_enterprises
+
+Article
+
+Jun 2025
+
+ Yopa Prawatya
+
+https://www.researchgate.net/profile/Yopa-Prawatya
+
+Noveicalistus H Djanggu
+
+https://www.researchgate.net/scientific-contributions/Noveicalistus-H-Djanggu-2340847853
+
+Ratih Rahmahwati
+
+https://www.researchgate.net/scientific-contributions/Ratih-Rahmahwati-2157413095
+
+Predictive maintenance involves the early detection of potential machine failures and subsequent maintenance to prevent such failures. Machine learning is a pertinent statistical method for predictive maintenance, enabling the early detection of machine failures and the implementation of preventive measures through a model. The development of the machine learning model commences with data collection from the machine, encompassing vibration, acceleration, machine temperature, and machine sound, facilitated by a microcontroller equipped with sensors. Subsequently, the data undergoes cleaning, including removing outliers or missing values and standardization. Data is partitioned into 70% allocated for training and 30% for testing. After determining hyperparameters and their values through hyperparameter tuning, the training data is utilized to train machine learning models, such as K-nearest neighbor, decision tree, and random forest models. Post-training, the models are evaluated using the remaining test data, employing performance metrics such as accuracy, precision, recall, and F1-score. The random forest model excels due to its utilization of a substantial number of trees for predictions and the full exploitation of the variables which F1-score is 91.22%. The best-performing model is subsequently deployed into a monitoring system, providing real-time machine condition predictions. The deployment results validate the accurate prediction of machine failures.
+
+View
+
+https://www.researchgate.net/publication/394908800_Utilizing_machine_learning_for_predictive_maintenance_of_production_machinery_in_small_and_medium_enterprises
+
+Show abstract
+
+Leveraging Machine Learning As a Prerequisite for Effective Maintenance
+
+https://www.researchgate.net/publication/393059768_Leveraging_Machine_Learning_As_a_Prerequisite_for_Effective_Maintenance
+
+Chapter
+
+Jun 2025
+
+Nevena Tufegdžić
+
+https://www.researchgate.net/scientific-contributions/Nevena-Tufegdzic-2317201151
+
+ Milica Tufegdžić
+
+https://www.researchgate.net/profile/Milica-Tufegdzic-2
+
+ Raul Turmanidze
+
+https://www.researchgate.net/profile/Raul-Turmanidze
+
+Giorgi Popkhadze
+
+https://www.researchgate.net/scientific-contributions/Giorgi-Popkhadze-2131998424
+
+View
+
+https://www.researchgate.net/publication/393059768_Leveraging_Machine_Learning_As_a_Prerequisite_for_Effective_Maintenance
+
+Artificial Neural Networks
+
+https://www.researchgate.net/publication/387712349_Artificial_Neural_Networks
+
+Chapter
+
+Jan 2025
+
+Zhen “Leo” Liu
+
+https://www.researchgate.net/scientific-contributions/Zhen-Leo-Liu-2301772268
+
+This chapter presents essential knowledge about the Artificial Neural Network (ANN), or more specifically, shallow ANNs. We will first check the structure of biological neurons to understand how ANN can mathematically imitate biological NN's behavior. Next, the mathematical formulation of the well-known M-P neuron model and other significant concepts, such as activation function, will be discussed. Then, we will see how perceptron, as one of the simplest and most typical NNs, works from a mathematical perspective. In particular, the training of such a network via backpropagation will be detailed. The yielded equations will be generalized for NNs with more than three layers to guide implementations. Based on that, extra skills about NN implementations, the illustration of the implementation procedure with an example, and the transformation of data as it moves through a network, will be discussed in detail. Finally, a few other shallow ANN issues will be briefly mentioned.
+
+View
+
+https://www.researchgate.net/publication/387712349_Artificial_Neural_Networks
+
+Show abstract
+
+A systematic literature review of machine learning methods applied to predictive maintenance
+
+https://www.researchgate.net/publication/335644027_A_systematic_literature_review_of_machine_learning_methods_applied_to_predictive_maintenance
+
+Article
+
+Sep 2019
+
+COMPUT IND ENG
+
+ Thyago Peres Carvalho
+
+https://www.researchgate.net/profile/Thyago-Carvalho-3
+
+ Fabrizzio Alphonsus Alves de Melo Nunes Soares
+
+https://www.researchgate.net/profile/Fabrizzio-Soares
+
+Roberto Vita
+
+https://www.researchgate.net/scientific-contributions/Roberto-Vita-2162236534
+
+ Symone Gomes Soares Alcalá
+
+https://www.researchgate.net/profile/Symone-Alcala
+
+The amount of data extracted from production processes has increased exponentially due to the proliferation of sensing technologies. When processed and analyzed, data can bring out valuable information and knowledge from manufacturing process, production system and equipment. In industries, equipment maintenance is an important key, and affects the operation time of equipment and its efficiency. Thus, equipment faults need to be identified and solved, avoiding shutdown in the production processes. Machine Learning (ML) methods have been emerged as a promising tool in Predictive Maintenance (PdM) applications to prevent failures in equipment that make up the production lines in the factory floor. However, the performance of PdM applications depends on the appropriate choice of the ML method. The aim of this paper is to present a systematic literature review of ML methods applied to PdM, showing which are being explored in this field and the performance of the current state-of-the-art ML techniques. This review focuses on two scientific databases and provides a useful foundation on the ML techniques, their main results, challenges and opportunities, as well as it supports new research works in the PdM field.
+
+View
+
+https://www.researchgate.net/publication/335644027_A_systematic_literature_review_of_machine_learning_methods_applied_to_predictive_maintenance
+
+Show abstract
+
+Random Forest
+
+https://www.researchgate.net/publication/319278469_Random_Forest
+
+Article
+
+Jan 2017
+
+J Insur Med
+
+Steven J. Rigatti
+
+https://www.researchgate.net/scientific-contributions/Steven-J-Rigatti-2158930171
+
+For the task of analyzing survival data to derive risk factors associated with mortality, physicians, researchers, and biostatisticians have typically relied on certain types of regression techniques, most notably the Cox model. With the advent of more widely distributed computing power, methods which require more complex mathematics have become increasingly common. Particularly in this era of "big data" and machine learning, survival analysis has become methodologically broader. This paper aims to explore one technique known as Random Forest. The Random Forest technique is a regression tree technique which uses bootstrap aggregation and randomization of predictors to achieve a high degree of predictive accuracy. The various input parameters of the random forest are explored. Colon cancer data (n = 66,807) from the SEER database is then used to construct both a Cox model and a random forest model to determine how well the models perform on the same data. Both models perform well, achieving a concordance error rate of approximately 18%.
+
+View
+
+https://www.researchgate.net/publication/319278469_Random_Forest
+
+Show abstract
+
+Machine learning enabled dynamic scheduling of a job shop
+
+Jan 2025
+
+Sarasvati
+
+Remaining useful life estimation based on non-linear feature reduction and support vector regression
+
+J Ben Ali
+
+B Chebel-Morello
+
+L Saidi
+
+S Malinowski
+
+F Fnaiech
+
+Machine learning techniques for condition monitoring and fault diagnosis of industrial machinery: A review
+
+C Zhang
+
+W Chen
+
+X Dong
+
+Learning-to-learn to guide random search: Derivative-free meta blackbox optimization on manifold
+
+Bilgehan Sel
+
+Ahmad Tawaha
+
+Yuhao Ding
+
+Ruoxi Jia
+
+Bo Ji
+
+Javad Lavaei
+
+Ming Jin
+
+Learning-to-learn to guide random search: Derivative-free meta blackbox optimization on manifold
+
+38
+
+Sel
+
+Machine learning techniques for condition monitoring and fault diagnosis of industrial machinery: A review
+
+Jan 2019
+
+44
+
+Zhang
+
+Remaining useful life estimation based on non-linear feature reduction and support vector regression
+
+Jan 2015
+
+268
+
+Ben Ali
+
+Recommended publications
+
+Discover more about: 
+
+Machines
+
+https://www.researchgate.net/topic/Machines
+
+Thesis
+
+Low-rank methods for heterogeneous and multi-source data
+
+https://www.researchgate.net/publication/334129418_Low-rank_methods_for_heterogeneous_and_multi-source_data
+
+June 2019
+
+ 
+
+Geneviève Robin
+
+https://www.researchgate.net/profile/Genevieve-Robin
+
+In modern applications of statistics and machine learning, one often encounters many data imperfections. In particular, data are often heterogeneous, i.e. combine quantitative and qualitative information, incomplete, with missing values caused by machine failure or nonresponse phenomenons, and multi-source, when the data result from the compounding of diverse sources. In this dissertation, we 
+
+... [Show full abstract]
+
+https://www.researchgate.net/
+
+ develop several methods for the analysis of multi-source, heterogeneous and incomplete data. We provide a complete framework, and study all the aspects of the different methods, with thorough theoretical studies, open source implementations, and empirical evaluations. We study in details two particular applications from ecology and medical sciences.
+
+Read more
+
+https://www.researchgate.net/publication/334129418_Low-rank_methods_for_heterogeneous_and_multi-source_data
+
+Preprint
+
+Full-text available
+
+The benefits of predictive maintenance in manufacturing excellence: a case study to establish reliab...
+
+https://www.researchgate.net/publication/370893555_The_benefits_of_predictive_maintenance_in_manufacturing_excellence_a_case_study_to_establish_reliable_methods_for_predicting_failures
+
+May 2023
+
+Anwar Meddaoui
+
+https://www.researchgate.net/scientific-contributions/Anwar-Meddaoui-2217767205
+
+ 
+
+Hain Mustapha
+
+https://www.researchgate.net/profile/Hain-Mustapha
+
+Adil Hachmoud
+
+https://www.researchgate.net/scientific-contributions/Adil-Hachmoud-2251690190
+
+In the course of manufacturing excellence, decision makers are consistently confronted with the task of making choices that will enhance and meet the plant's requirements. To this end, it is essential to maintain machines and equipment in a timely manner, which can prove to be one of the primary challenges. Predictive maintenance (PdM) technology can enable real-time maintenance, providing 
+
+... [Show full abstract]
+
+https://www.researchgate.net/
+
+ numerous benefits such as reduced downtime, lower costs, and improved production quality. This article tries to demonstrate efficient physical parameters used in PdM field. The paper presents a case study operated in industrial production process to compare between the most used algorithm in predicting equipment failures. Future research can improve prediction accuracy with other artificial intelligence tools.
+
+View full-text
+
+https://www.researchgate.net/publication/370893555_The_benefits_of_predictive_maintenance_in_manufacturing_excellence_a_case_study_to_establish_reliable_methods_for_predicting_failures
+
+Article
+
+Full-text available
+
+Predictive Maintenance Model for Marine Vessels using Machine Learning Predictive Maintenance Model...
+
+https://www.researchgate.net/publication/391492094_Predictive_Maintenance_Model_for_Marine_Vessels_using_Machine_Learning_Predictive_Maintenance_Model_for_Marine_Vessels_using_Machine_Learning
+
+May 2025
+
+· European Chemical Bulletin
+
+ 
+
+Thirein Myo
+
+https://www.researchgate.net/profile/Thirein-Myo
+
+Zakariya Al Hasani
+
+https://www.researchgate.net/scientific-contributions/Zakariya-Al-Hasani-2312479650
+
+ 
+
+Muhammad Rayhan Ahmed
+
+https://www.researchgate.net/profile/Muhammad-Rayhan-Ahmed
+
+Badar Al Baroomi
+
+https://www.researchgate.net/scientific-contributions/Badar-Al-Baroomi-2215722351
+
+The field of predictive maintenance has gained increasing interest recently for various reasons with the improvement of monitoring techniques and the increase of new methodologies and algorithms across different learning methods. There is an urgent need for the industry to detect faults accurately and in advance in the production environment, to minimize maintenance costs, prevent sudden failures 
+
+... [Show full abstract]
+
+https://www.researchgate.net/
+
+ and ensure optimum use of machines. Ideally, the process begins with collecting historical data from many sensors installed in different devices. In this paper, the available propulsion system data is used due to time limitation as the recording of historical data takes vast amount of time. Instead, the implementation of machine learning models using two popular algorithms are focused here. The evaluation of applied machine learning algorithms provides promising results to implement in the industry.
+
+View full-text
+
+https://www.researchgate.net/publication/391492094_Predictive_Maintenance_Model_for_Marine_Vessels_using_Machine_Learning_Predictive_Maintenance_Model_for_Marine_Vessels_using_Machine_Learning
+
+Article
+
+Full-text available
+
+Particle filtering-based methods for time to failure estimation with a real-world prognostic applica...
+
+https://www.researchgate.net/publication/321628736_Particle_filtering-based_methods_for_time_to_failure_estimation_with_a_real-world_prognostic_application
+
+August 2018
+
+· Applied Intelligence
+
+ 
+
+Chunsheng Yang
+
+https://www.researchgate.net/profile/Chunsheng-Yang-4
+
+Qingfeng Lou
+
+https://www.researchgate.net/scientific-contributions/Qingfeng-Lou-2087658217
+
+Jie Liu
+
+https://www.researchgate.net/scientific-contributions/Jie-Liu-2328935019
+
+[...]
+
+ 
+
+Qiangqiang Cheng
+
+https://www.researchgate.net/profile/Qiangqiang-Cheng
+
+One of core technologies for prognostics is to predict failures before they occur and estimate time to failure (TTF) by using built-in predictive models. The predictive model could be either physics-based model or machine learning-based model. Machine learning-based predictive modeling is an emerging application of machine learning to machinery maintenance. Accurate TTF estimation could help 
+
+... [Show full abstract]
+
+https://www.researchgate.net/
+
+ performing predictive action “just-in-time”. However, the developed predictive models sometimes fail to provide a precise TTF estimate. To address this issue, we propose a Particle Filtering (PF)-based method to estimate TTF. After introducing the PF-based algorithm, we present the implementation along with the experimental results obtained from a case study of Auxiliary Power Unit (APU) prognostics. To our best knowledge, this is the first application of PF-based method to APU prognostic. The results demonstrated that the PF-based method is useful for estimating TTF for predictive maintenance and it greatly improved TTF estimation precision for APU prognostics.
+
+View full-text
+
+https://www.researchgate.net/publication/321628736_Particle_filtering-based_methods_for_time_to_failure_estimation_with_a_real-world_prognostic_application
+
+Article
+
+Latest developments in gear defect diagnosis and prognosis: A review
+
+https://www.researchgate.net/publication/339889861_Latest_developments_in_gear_defect_diagnosis_and_prognosis_A_review
+
+March 2020
+
+· Measurement
+
+ 
+
+Anil Kumar
+
+https://www.researchgate.net/profile/Anil-Kumar-340
+
+C.P. Gandhi
+
+https://www.researchgate.net/scientific-contributions/CP-Gandhi-2167205486
+
+ 
+
+Zhou Yuqing
+
+https://www.researchgate.net/profile/Zhou-Yuqing
+
+[...]
+
+ 
+
+Jiawei Xiang
+
+https://www.researchgate.net/profile/Jiawei-Xiang
+
+Gears are an important component of industrial machinery and a breakdown of machinery on account of the failure of gears could result in immense production loss. Timely monitoring of machine health is always important. This has motivated the researchers in this field to develop methods to identify defects in gears. This paper provides an insight into various defects that generally occur in gears.
+
+... [Show full abstract]
+
+https://www.researchgate.net/
+
+ In addition, a state-of-the-art review is provided on the latest and most widely used diagnosis methods for gearbox condition monitoring. Furthermore, the challenges faced in the area of gear defect diagnosis are discussed and a summary of various diagnostic methods is also provided.
+
+Read more
+
+https://www.researchgate.net/publication/339889861_Latest_developments_in_gear_defect_diagnosis_and_prognosis_A_review
+
+Preprint
+
+Full-text available
+
+There can be no other reason for this behavior: Issues in the explanation of machine and human behav...
+
+https://www.researchgate.net/publication/337019239_There_can_be_no_other_reason_for_this_behavior_Issues_in_the_explanation_of_machine_and_human_behavior
+
+November 2019
+
+ 
+
+Patrick Byers
+
+https://www.researchgate.net/profile/Patrick-Byers-2
+
+While machine learning techniques have been used to model categorization/decision making tasks that are beyond the capabilities of traditional AI, these new models are typically uninterpretable, i.e., the reasons for their decisions are not clear. Some have argued that, in developing machines that can report the reasons for their decisions, developers should take, as a guide, human explanations 
+
+... [Show full abstract]
+
+https://www.researchgate.net/
+
+ for behavior, which make reference to mental states (e.g., knowledge/belief). This proposal is correct, but unattainable given certain characteristics of current AI. To explain this, this article draws on recent discourse-analytic research showing that ascriptions of knowledge/belief presume behavioral performances to instantiate particular sorts of broader dispositions. This is reflected by the possibility of ascribing knowledge/belief to an agent on the basis of their behavior, arguing that there can be no other explanation for the observed behavior. Reports of the behavior of the recent AI systems shows that this presumption does not hold. Consequently, while it is certainly possible to program machines to report mental states of knowledge/belief to account for their decisions, the failure of current AI to engage in typically human ways of life means that such ascribed mental states are inevitably meaningless.
+
+View full-text
+
+https://www.researchgate.net/publication/337019239_There_can_be_no_other_reason_for_this_behavior_Issues_in_the_explanation_of_machine_and_human_behavior
+
+Chapter
+
+Machine Learning-Based Maintenance Need Prediction for a Power Station Case Study
+
+https://www.researchgate.net/publication/390435146_Machine_Learning-Based_Maintenance_Need_Prediction_for_a_Power_Station_Case_Study
+
+February 2025
+
+Nicolla Fundira
+
+https://www.researchgate.net/scientific-contributions/Nicolla-Fundira-2309372819
+
+Evangelista Tasiiwa Nyakujipa
+
+https://www.researchgate.net/scientific-contributions/Evangelista-Tasiiwa-Nyakujipa-2309356794
+
+This chapter presents the development and application of a machine learning-based maintenance need prediction system using regression models, focusing on a coal-fired thermal power station in Southern Africa. This study emerged from the need to address the inefficiencies in traditional maintenance practices at the power station, where the aging infrastructure has led to frequent equipment 
+
+... [Show full abstract]
+
+https://www.researchgate.net/
+
+ failures, costly repairs, and significant downtime. The chapter explores the steps taken to develop a predictive maintenance model using operational data from the power station, the selection and tuning of machine learning models, and the practical implications of deploying such a system in an industrial setting. The machine learning model demonstrated a high level of accuracy in predicting exceedance counts, which are critical indicators of potential equipment failures meaning that predictive maintenance system could effectively reduce downtime and prevent costly repairs.
+
+Read more
+
+https://www.researchgate.net/publication/390435146_Machine_Learning-Based_Maintenance_Need_Prediction_for_a_Power_Station_Case_Study
+
+Article
+
+Full-text available
+
+Sheep Health Behavior Analysis in Machine Learning: A Short Comprehensive Survey
+
+https://www.researchgate.net/publication/375775951_Sheep_Health_Behavior_Analysis_in_Machine_Learning_A_Short_Comprehensive_Survey
+
+November 2023
+
+· Smart Agricultural Technology
+
+ 
+
+Alam Noor
+
+https://www.researchgate.net/profile/Alam-Noor
+
+ 
+
+Murray Corke
+
+https://www.researchgate.net/profile/Murray-Corke
+
+Eduardo Tovar
+
+https://www.researchgate.net/scientific-contributions/Eduardo-Tovar-7707898
+
+Sheep management and production enhancement are difficult for farmers due to the lack of dynamic response and poor welfare of the sheep. Poor welfare needs to be mitigated, and each farm must receive an expert-level assessment of critical importance. To mitigate poor welfare, researchers have conducted machine learning-based studies to automate the sheep health behavior monitoring process instead 
+
+... [Show full abstract]
+
+https://www.researchgate.net/
+
+ of using manual assessment. However, failure to recognize some sheep health behaviors degrades the performance of the model. In addition, behavior challenges, parameters, and analysis must be considered when conducting a study based on machine learning. In this paper, we discuss the different challenges: what are the parameters of the sheep health behaviors, and how to analyze the sheep health behaviors for automated machine learning systems to be helpful in the long term? The hypothesis is based on a different review of the literature of precision-based animal welfare monitoring systems with the potential to improve management and production.
+
+View full-text
+
+https://www.researchgate.net/publication/375775951_Sheep_Health_Behavior_Analysis_in_Machine_Learning_A_Short_Comprehensive_Survey
+
+Article
+
+Network Reliability Analysis through Survival Signature and Machine Learning Techniques
+
+https://www.researchgate.net/publication/375586764_Network_Reliability_Analysis_through_Survival_Signature_and_Machine_Learning_Techniques
+
+November 2023
+
+· Reliability Engineering & System Safety
+
+ 
+
+Yan Shi
+
+https://www.researchgate.net/profile/Yan-Shi-22
+
+ 
+
+Jasper Behrensdorf
+
+https://www.researchgate.net/profile/Jasper-Behrensdorf-2
+
+Jiayan Zhou
+
+https://www.researchgate.net/scientific-contributions/Jiayan-Zhou-2265954000
+
+[...]
+
+ 
+
+Michael Beer
+
+https://www.researchgate.net/profile/Michael-Beer
+
+As complex networks become ubiquitous in modern society, ensuring their reliability is crucial due to the potential consequences of network failures. However, the analysis and assessment of network reliability become computationally challenging as networks grow in size and complexity. This research proposes a novel graph-based neural network framework for accurately and efficiently estimating the 
+
+... [Show full abstract]
+
+https://www.researchgate.net/
+
+ survival signature and network reliability. The method incorporates a novel strategy to aggregate feature information from neighboring nodes, effectively capturing the response flow characteristics of networks. Additionally, the framework utilizes the higher-order graph neural networks to further aggregate feature information from neighboring nodes and the node itself, enhancing the understanding of network topology structure. An adaptive framework along with several efficient algorithms is further proposed to improve prediction accuracy. Compared to traditional machine learning-based approaches, the proposed graph-based neural network framework integrates response flow characteristics and network topology structure information, resulting in highly accurate network reliability estimates. Moreover, once the graph-based neural network is properly constructed based on the original network, it can be directly used to estimate network reliability of different network variants, i.e., sub-networks, which is not feasible with traditional non-machine learning methods. Several applications demonstrate the effectiveness of the proposed method in addressing network reliability analysis problems.
+
+Read more
+
+https://www.researchgate.net/publication/375586764_Network_Reliability_Analysis_through_Survival_Signature_and_Machine_Learning_Techniques
+
+Preprint
+
+Full-text available
+
+High Dimensional Distributed Gradient Descent with Arbitrary Number of Byzantine Attackers
+
+https://www.researchgate.net/publication/372625814_High_Dimensional_Distributed_Gradient_Descent_with_Arbitrary_Number_of_Byzantine_Attackers
+
+July 2023
+
+ 
+
+Puning Zhao
+
+https://www.researchgate.net/profile/Puning-Zhao
+
+Zhiguo Wan
+
+https://www.researchgate.net/scientific-contributions/Zhiguo-Wan-2252391365
+
+Robust distributed learning with Byzantine failures has attracted extensive research interests in recent years. However, most of existing methods suffer from curse of dimensionality, which is increasingly serious with the growing complexity of modern machine learning models. In this paper, we design a new method that is suitable for high dimensional problems, under arbitrary number of Byzantine 
+
+... [Show full abstract]
+
+https://www.researchgate.net/
+
+ attackers. The core of our design is a direct high dimensional semi-verified mean estimation method. Our idea is to identify a subspace first. The components of mean value perpendicular to this subspace can be estimated via gradient vectors uploaded from worker machines, while the components within this subspace are estimated using auxiliary dataset. We then use our new method as the aggregator of distributed learning problems. Our theoretical analysis shows that the new method has minimax optimal statistical rates. In particular, the dependence on dimensionality is significantly improved compared with previous works.
+
+View full-text
+
+https://www.researchgate.net/publication/372625814_High_Dimensional_Distributed_Gradient_Descent_with_Arbitrary_Number_of_Byzantine_Attackers
+
+Last Updated: 30 Nov 2025
+
+Interested in research on Machines?
+
+Join ResearchGate to discover and stay up-to-date with the latest research from leading experts in 
+
+Machines
+
+ and many other scientific topics.
+
+Join for free
+
+https://www.researchgate.net/signup.SignUp.html
+
+ResearchGate iOS App Get it from the App Store now.
+
+https://www.researchgate.net/go.GetApp.html?_sg=anYjIzEckPYaNzONeDAimmoHFO_-Nb2n4B6ula7eW3hIBfIPcq5y42B5ztskuamkB3aTv8cis8sECCJ142tDqOWo67F6uk_jImciYDlEF7g&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+Install
+
+https://www.researchgate.net/go.GetApp.html?_sg=anYjIzEckPYaNzONeDAimmoHFO_-Nb2n4B6ula7eW3hIBfIPcq5y42B5ztskuamkB3aTv8cis8sECCJ142tDqOWo67F6uk_jImciYDlEF7g&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+Keep up with your stats and more
+
+https://www.researchgate.net/go.GetApp.html?_sg=anYjIzEckPYaNzONeDAimmoHFO_-Nb2n4B6ula7eW3hIBfIPcq5y42B5ztskuamkB3aTv8cis8sECCJ142tDqOWo67F6uk_jImciYDlEF7g&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+Access scientific knowledge from anywhere
+
+https://www.researchgate.net/go.GetApp.html?_sg=anYjIzEckPYaNzONeDAimmoHFO_-Nb2n4B6ula7eW3hIBfIPcq5y42B5ztskuamkB3aTv8cis8sECCJ142tDqOWo67F6uk_jImciYDlEF7g&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+or
+
+Discover by subject area
+
+https://www.researchgate.net/topics
+
+Recruit researchers
+
+https://www.researchgate.net/scientific-recruitment/?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=indextop
+
+Join for free
+
+https://www.researchgate.net/signup.SignUp.html?hdrsu=1&_sg%5B0%5D=pwBVppfxkEqTGwR5p1DherEu0_PTStIaE0v_i9L-LOzMdGSH_yAabdG01DMzktWeV8Nme1cBXGIDZJRcnpRZVlyT3Do
+
+Login
+
+https://www.researchgate.net/
+
+ Email 
+
+Tip:
+
+ Most researchers use their institutional email address as their ResearchGate login Password 
+
+Forgot password?
+
+https://www.researchgate.net/application.LostPassword.html
+
+ 
+
+[x] yes Keep me logged in Log in or 
+
+Continue with Google
+
+https://www.researchgate.net/connector/google
+
+ Welcome back! Please log in. Email · Hint 
+
+Tip:
+
+ Most researchers use their institutional email address as their ResearchGate login Password 
+
+Forgot password?
+
+https://www.researchgate.net/application.LostPassword.html
+
+ 
+
+[x] yes Keep me logged in Log in or 
+
+Continue with Google
+
+https://www.researchgate.net/connector/google
+
+ No account? 
+
+Sign up
+
+https://www.researchgate.net/signup.SignUp.html?hdrsu=1&_sg%5B0%5D=pwBVppfxkEqTGwR5p1DherEu0_PTStIaE0v_i9L-LOzMdGSH_yAabdG01DMzktWeV8Nme1cBXGIDZJRcnpRZVlyT3Do
+
+Company
+
+About us
+
+https://www.researchgate.net/about
+
+News
+
+https://www.researchgate.net/blog
+
+Careers
+
+https://www.researchgate.net/careers
+
+Support
+
+Help Center
+
+https://help.researchgate.net/?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=new-footer&utm_content=helpcenter
+
+Business solutions
+
+Advertising
+
+https://www.researchgate.net/marketing-solutions?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=new-footer&utm_content=advertising
+
+Recruiting
+
+https://www.researchgate.net/scientific-recruitment?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=new-footer&utm_content=recruiting
+
+© 2008-2026 ResearchGate GmbH. All rights reserved.
+
+Terms
+
+https://www.researchgate.net/terms-of-service
+
+Privacy
+
+https://www.researchgate.net/privacy-policy
+
+Copyright
+
+https://www.researchgate.net/ip-policy
+
+Imprint
+
+https://www.researchgate.net/imprint
+
+Consent preferences
+
+javascript:Didomi.preferences.show()

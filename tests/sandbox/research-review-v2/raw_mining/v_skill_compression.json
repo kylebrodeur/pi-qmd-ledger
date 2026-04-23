@@ -1,0 +1,111 @@
+{
+  "value": {
+    "answer": "To replicate the versatile, \"jack-of-all-trades\" capability of a traditional community machine shop, modern manufacturing uses AI to capture the tacit, multi-domain knowledge of veteran machinists and compress it into accessible, automated tools for novice operators [1, 2]. This concept of \"skill compression\" relies on transforming decades of individual experience into a shared, digital institutional memory that actively guides less experienced workers through complex tasks without requiring them to have specialized degrees [3, 4].\n\nThe mechanism for turning complex expertise into a guided workflow for non-experts involves several integrated AI technologies:\n\n**1. Capturing Process Intelligence as \"Digital Tooling\"**\nThe foundation of this workflow is preserving the exact \"recipe\" of how a master expert manufactures a part before they retire [1]. Systems like Machina Labs' RoboCraftsman capture complete \"process intelligence\" by linking every formed part to a digital record that includes 3D scan data, expert-designed toolpaths, robotic sensor data, and quality assessments [3, 5]. This highly searchable and repeatable \"digital tooling\" creates a permanent institutional memory that allows a non-expert to easily clone and apply a previously successful manufacturing process to different materials or configurations without relying on costly trial-and-error [3].\n\n**2. AI-Assisted Task Decomposition and CAM Programming**\nTo guide non-experts through the highly technical process of programming a Computer Numerical Control (CNC) machine, AI algorithms decompose complex manufacturing tasks into manageable, automated steps [6]. Intelligent Computer-Aided Manufacturing (CAM) platforms—such as DELMIA Machining or CloudNC's CAM Assist—analyze uploaded 3D CAD models to understand their geometry [7]. Utilizing neural networks trained on past expert decisions and common geometries, the AI automatically detects shape patterns and recommends the most suitable machining operations, cutting strategies, and toolpaths [7, 8]. This effectively automates up to 80% of the CAM programming, providing intelligent, step-by-step guidance that helps novice programmers confidently set up complex jobs accurately and efficiently [2, 9].\n\n**3. Structuring \"Design Intent\" via AI Knowledge Graphs**\nA traditional \"jack-of-all-trades\" relies on a deep memory of past mistakes and successes. To compress and replicate this capability for newer employees, platforms like CoLab actively build AI Knowledge Graphs during the design and review stages [4]. These graphs permanently link 3D models, 2D drawings, and conversational feedback to secure a company's historical \"design intent\" (the reasoning behind an engineering decision) [4, 10]. When a junior engineer begins a new workflow, the AI proactively surfaces relevant \"lessons learned\" and best practices from similar historical projects, ensuring they are guided by enterprise-wide expertise rather than starting from zero [4, 10].\n\n**4. Interactive Decision Support and Explainable AI (XAI)**\nDuring physical machining operations, complex multi-physics data must be translated into a format that a non-expert can quickly understand and act upon. Intelligent decision-support interfaces and dashboards use Explainable AI (XAI) to distill high-dimensional sensor data into clear, interpretable visual recommendations [11, 12]. If the machine detects an impending failure, tool wear, or vibration anomaly, the AI acts as an industrial \"copilot\" [11, 13]. It presents the operator with the root cause, predicts the outcome, and suggests specific corrective adjustments [11, 14]. The operator then simply reviews and approves the AI's recommendation, keeping the human firmly in the loop while elevating their capability to that of an expert troubleshooter [11, 15].",
+    "conversation_id": "e9b14c3e-49c3-49da-95a6-f0a9335ed950",
+    "sources_used": [
+      "c9b4ee4c-6971-4c71-995a-43bac959ce1a",
+      "e21838a8-a1d9-409a-8f2c-25321a52cf44",
+      "598e8703-0e65-4abf-8835-b8bf64e90b19",
+      "35d9bef5-45f4-4e85-86a8-6efdcf291068",
+      "eaeacc41-c483-4878-bc84-ac8960cc6249",
+      "29a33fd3-39fb-4f6a-883a-69abe5857ca7",
+      "b7840874-44a5-499b-9492-a736b9c7f385",
+      "b255c002-cc13-4513-b0e4-7d0d4e890070",
+      "267f88bc-08f6-40ae-bdac-a5750b26eeb9"
+    ],
+    "citations": {
+      "1": "c9b4ee4c-6971-4c71-995a-43bac959ce1a",
+      "2": "e21838a8-a1d9-409a-8f2c-25321a52cf44",
+      "3": "c9b4ee4c-6971-4c71-995a-43bac959ce1a",
+      "4": "598e8703-0e65-4abf-8835-b8bf64e90b19",
+      "5": "35d9bef5-45f4-4e85-86a8-6efdcf291068",
+      "6": "eaeacc41-c483-4878-bc84-ac8960cc6249",
+      "7": "e21838a8-a1d9-409a-8f2c-25321a52cf44",
+      "8": "e21838a8-a1d9-409a-8f2c-25321a52cf44",
+      "9": "29a33fd3-39fb-4f6a-883a-69abe5857ca7",
+      "10": "598e8703-0e65-4abf-8835-b8bf64e90b19",
+      "11": "b7840874-44a5-499b-9492-a736b9c7f385",
+      "12": "b255c002-cc13-4513-b0e4-7d0d4e890070",
+      "13": "267f88bc-08f6-40ae-bdac-a5750b26eeb9",
+      "14": "b255c002-cc13-4513-b0e4-7d0d4e890070",
+      "15": "b255c002-cc13-4513-b0e4-7d0d4e890070"
+    },
+    "references": [
+      {
+        "source_id": "c9b4ee4c-6971-4c71-995a-43bac959ce1a",
+        "citation_number": 1,
+        "cited_text": "For example, if a defense contractor needs to pivot from low-rate aerospace production to field-repair components, they can do so with the same equipment and workforce. Similarly, commercial manufacturers can respond to supply chain needs, ramp-ups, or product design changes without needing to fabricate new dies or retool their lines. Curating And Preserving Manufacturing Knowledge In conventional manufacturing, much of the process knowledge is stored in the experience of metalworkers, welders, machinists, toolmakers, and engineers, many of whom are nearing retirement. When they leave the workforce, they often take decades of know-how and industry-specific insight with them. This phenomenon poses a serious challenge to knowledge continuity and process control."
+      },
+      {
+        "source_id": "e21838a8-a1d9-409a-8f2c-25321a52cf44",
+        "citation_number": 2,
+        "cited_text": "Transforming with DELMIA Machining's AI Capabilities DELMIA Machining software is at the forefront of innovation in automation, fabrication and manufacturing, thanks to its advanced AI capabilities that significantly enhance CNC machining processes. One of the standout features of DELMIA Machining's AI integration is its ability to automatically propose the most effective toolpath types based on the selected geometry. This functionality is highly valuable for assisting less experienced users in the programming phase."
+      },
+      {
+        "source_id": "c9b4ee4c-6971-4c71-995a-43bac959ce1a",
+        "citation_number": 3,
+        "cited_text": "The RoboCraftsman addresses this by capturing not just geometry but complete process intelligence. Each formed part is linked to a digital record that includes toolpaths, robot sensor data, scan data, and quality assessments. These records function as “digital tooling,” which preserves the recipe for how each part was made and why. This data-rich manufacturing history is searchable, transferable, and repeatable. It allows cloning a successful process at a different location or with a different material by drawing from prior runs. With continued use, this digital knowledge base becomes a form of institutional memory that persists and grows, even as personnel change. Combined with machine learning, these digital traces improve forming algorithms and reduce the need for trial-and-error tuning. And for materials science teams, this trove of data opens new possibilities for linking micro-structure evolution to in-process variables, unlocking better models and new alloy-processing strategies."
+      },
+      {
+        "source_id": "598e8703-0e65-4abf-8835-b8bf64e90b19",
+        "citation_number": 4,
+        "cited_text": "Tools to Explore: CoLab (Enterprise Knowledge Management) : Capturing the \"why\" behind a design is notoriously difficult. CoLab automatically builds an AI Knowledge Graph in the background as your team collaborates and conducts design reviews, permanently linking 3D models, 2D drawings, and the conversational feedback surrounding them. This secures your company's design intent. Instead of forcing engineers to dig through PDM/PLM or SharePoint before a project, CoLab's AI Lessons Learned proactively surfaces past mistakes and best practices from similar parts, turning static historical data into an active engineering input."
+      },
+      {
+        "source_id": "35d9bef5-45f4-4e85-86a8-6efdcf291068",
+        "citation_number": 5,
+        "cited_text": "Speed Go back to previous menu 0.5× 0.75× Normal 1.25× 1.5× 1.75× 2× 4× PIP Exit fullscreen Enter fullscreen Play INTELLIGENT. AGILE. REAL METAL. From CAD to Metal in Days Machina Labs builds and operates elastic factories. Intelligent, agile, software-defined manufacturing that turns design intent into precise metal structures in days. Our factories use AI-guided robotics to load, form, scan, trim, finish and assemble complex structures directly from CAD. No dies. No molds. No delays. The result is speed – Go from prototype to production in one RoboCraftsman factory."
+      },
+      {
+        "source_id": "eaeacc41-c483-4878-bc84-ac8960cc6249",
+        "citation_number": 6,
+        "cited_text": "Large language model tasks can often be decomposed to make human feedback more effective. Task decomposition means breaking a complex task into smaller parts that either a human or a model can handle more easily. For instance, instead of asking a human annotator to directly label a long, complex prompt-response pair as “good” or “bad”, the process might be decomposed: the human might first check factual accuracy, then appropriateness, then completeness, etc., before giving an overall judgment. Decomposition is also used in prompt design: an LLM might be guided to tackle a multi-step problem step-by-step (and a human overseer can verify each step). By inserting checkpoints where humans verify intermediate results, errors can be caught earlier and feedback becomes more targeted. For example, NineTwoThree Studio (2024) describes breaking down an insurance claim processing task for an LLM into subtasks with human review at each stage, which boosted accuracy into the high 90% after iterative human corrections."
+      },
+      {
+        "source_id": "e21838a8-a1d9-409a-8f2c-25321a52cf44",
+        "citation_number": 7,
+        "cited_text": "AI can indeed program a CNC machine, leveraging advanced algorithms to automate and optimize various aspects of the programming process. This includes generating G-code and M-code, which are essential for controlling CNC machines. AI systems analyze 3D models, material properties, and historical data to create efficient tool paths.Several key steps are involved: Analyzing 3D Models : AI evaluates CAD models to understand the geometry and features of the part to be machined. Simulating Tool Paths : The system simulates different tool paths to identify the most efficient route, reducing material waste and machining time. Optimizing Parameters : AI adjusts machining parameters such as feed rates and spindle speeds based on material and machine capabilities."
+      },
+      {
+        "source_id": "e21838a8-a1d9-409a-8f2c-25321a52cf44",
+        "citation_number": 8,
+        "cited_text": "When novice programmers are tasked with machining new parts, they often face challenges in determining the optimal operations required for effective machining. DELMIA Machining's AI-driven toolpath proposal system addresses this issue by offering intelligent guidance based on proven past experiences. The AI system employs a neural network trained on various common geometries encountered in machining. This network detects shape patterns and suggests the most suitable machining operations for each geometry."
+      },
+      {
+        "source_id": "29a33fd3-39fb-4f6a-883a-69abe5857ca7",
+        "citation_number": 9,
+        "cited_text": "As the table shows, real-world software is already using AI for CNC machining across these three stages. Below we look at three popular products being used by machine shops, noting how they use AI to improve performance. At the pre-machining stage, one popular tool for CNC programmers is CloudNC's CAM Assist . That company was formed with the goal of making CNC programming as simple, fast, and intuitive as 3D printing slicing. Its flagship product, CAM Assist, can be used with popular tools like Fusion, Mastercam, and Siemens Nx, and offers helpful tools like machinability feedback, AI-generated machining strategies and operations, and quick generation of custom fixtures. It claims that up to 80% of a CAM program can be automated using its AI tools, enabling reduced programming time for machinists."
+      },
+      {
+        "source_id": "598e8703-0e65-4abf-8835-b8bf64e90b19",
+        "citation_number": 10,
+        "cited_text": "Next Step: For a more detailed breakdown on the differences between LLMs and agentic workflows, check out: The Engineering Leader's Guide to Agentic AI Want to see AutoReview in action? Get a custom demo from a fellow engineer Get a Demo Engineering Knowledge Management Who It's For: Engineers buried under stacks of blueprints, spec sheets, and past project data—and engineering leaders terrified of the \"brain drain\" when senior experts retire. Why It Matters: Before generating new geometry, engineers need to understand constraints, requirements, and historical context. Unfortunately, the true \"design intent\" (the why behind a past decision) is usually lost in scattered emails, slide decks, or someone's memory. AI-powered tools now solve this by actively structuring historical data, reading past drawings, and automatically surfacing lessons learned so you never start a design from zero."
+      },
+      {
+        "source_id": "b7840874-44a5-499b-9492-a736b9c7f385",
+        "citation_number": 11,
+        "cited_text": "Intuitive Interfaces and Decision Support A major future trend is the development of intelligent interfaces and decision-support tools that make interactions between humans and machines more intuitive [1, 7, 8]. Future systems will utilize natural language queries to execute simulation or optimization actions, helping to make complex, high-dimensional AI predictions easily interpretable to operators [9]. This allows AI to act as an intelligent assistant that recommends actions, explains its reasoning, and waits for human validation or oversight before executing high-stakes tasks [6, 10]. Designing these interactions effectively will require a deep understanding of the AI's core mechanics to ensure appropriate human oversight [11, 12]."
+      },
+      {
+        "source_id": "b255c002-cc13-4513-b0e4-7d0d4e890070",
+        "citation_number": 12,
+        "cited_text": "Explainability is particularly important when AI models interact with diverse data sources for instance, vision data from industrial cameras, acoustic signals from machine sensors, and multivariate time-series data from process monitoring systems. Each of these data domains captures complementary aspects of manufacturing behavior: visual data reveal surface and geometric anomalies; acoustic and vibration signals expose internal mechanical conditions; and sensor data track thermal, electrical, or dynamic system states. In this context, XAI provides mechanisms to interpret and validate model decisions across these modalities. For example, visual methods such as Grad-CAM or Saliency maps highlight spatial regions driving defect detection and classification, while SHAP (SHapley Additive exPlanations) explain feature-level contributions in time-series or acoustic analysis [ 26 ]. Such interpretability enables informed decision-making, facilitates troubleshooting, and reinforces user trust in AI-assisted manufacturing. The integration of XAI into the manufacturing pipeline is summarised in Figure 3 , which depicts how data from visual, acoustic, and sensor sources feed into AI models, followed by explainability layers that generate interpretable outputs for human validation."
+      },
+      {
+        "source_id": "267f88bc-08f6-40ae-bdac-a5750b26eeb9",
+        "citation_number": 13,
+        "cited_text": "Siemens' transformation of its Erlangen factory into a \"fully AI-driven adaptive manufacturing facility\" highlights the future of this technology.[34] By using world models grounded in physical science, these digital twins can pre-discover up to 90% of potential problems.[34] Furthermore, the introduction of industrial \"copilots\" allows human engineers to interact with these complex models using natural language and augmented reality (AR).[36, 37] For example, Meta’s Ray-Ban AI glasses now interact with Siemens’ tools to guide technicians through routine maintenance via real-time conversational AI.[36]"
+      },
+      {
+        "source_id": "b255c002-cc13-4513-b0e4-7d0d4e890070",
+        "citation_number": 14,
+        "cited_text": "AI's role in manufacturing has become particularly prominent in quality control, predictive maintenance, and process optimisation, where data-driven methods have achieved unprecedented accuracy. Deep learning models now power visual inspection systems for surface defect detection, vibration-based fault diagnosis, and multivariate sensor fusion for predictive maintenance. However, these models often operate as “black boxes,” providing results without interpretable reasoning. This opacity limits operator trust and hinders root-cause analysis when failures occur [ 24 ]. To mitigate such limitations, XAI has emerged as a critical approach to make AI reasoning comprehensible to engineers and auditors. By visualising which features or data regions influence predictions, XAI allows stakeholders to assess not just whether a model works, but why it produces a given outcome [ 25 ]."
+      },
+      {
+        "source_id": "b255c002-cc13-4513-b0e4-7d0d4e890070",
+        "citation_number": 15,
+        "cited_text": "Figure 1. Open in a new tab The three pillars and seven key requirements of Trustworthy AI, adapted from the European Commission's HLEG framework [ 13 ]. These dimensions collectively define the foundation for ethical, lawful, and robust AI in industrial systems. Among these pillars, transparency and human-in-the-loop (HITL) oversight are central to building operational trust. Transparency refers to the degree to which stakeholders including developers, operators, and regulators can understand an AI system's data sources, decision processes, and limitations. The EU AI Act further formalises this requirement by mandating explainability and traceability for high-risk AI systems in industrial settings [ 14 ]. Complementarily, human-in-the-loop approaches ensure that AI systems augment rather than replace human decision-making, embedding oversight mechanisms that allow humans to interpret, validate, or override AI outputs when necessary. This human-centric perspective is essential in manufacturing, where system reliability, worker safety, and quality control depend on the interplay between human expertise and automated intelligence [ 22 ]. The central role of human oversight and collaboration within Industry 5.0 is illustrated in Figure 2 , where humans, AI systems, and industrial processes operate in a continuous feedback loop that ensures transparency, validation, and shared control."
+      }
+    ]
+  }
+}

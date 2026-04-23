@@ -1,0 +1,159 @@
+Make - 3DExperience Marketplace
+
+3DEXPERIENCE
+
+ | 
+
+Make
+
+https://make.3dexperience.3ds.com/welcome
+
+| 
+
+Log in
+
+https://make.3dexperience.3ds.com/processes/subtractive
+
+ 
+
+Sign up
+
+https://make.3dexperience.3ds.com/processes/subtractive
+
+|
+
+en
+
+PROCESSES - Make
+
+3D printing - Additive
+
+https://make.3dexperience.3ds.com/processes/subtractive
+
+CNC Machining - Subtractive
+
+https://make.3dexperience.3ds.com/processes/subtractive
+
+Introduction to CNC machining - subtractive processes
+
+https://make.3dexperience.3ds.com/processes/subtractive
+
+Milling
+
+https://make.3dexperience.3ds.com/processes/subtractive
+
+Turning
+
+https://make.3dexperience.3ds.com/processes/subtractive
+
+Spark machining - EDM
+
+https://make.3dexperience.3ds.com/processes/subtractive
+
+Forming
+
+https://make.3dexperience.3ds.com/processes/subtractive
+
+Cutting
+
+https://make.3dexperience.3ds.com/processes/subtractive
+
+Molding
+
+https://make.3dexperience.3ds.com/processes/subtractive
+
+Finishing
+
+https://make.3dexperience.3ds.com/processes/subtractive
+
+CNC Machining - Subtractive
+
+Introduction to CNC machining - subtractive processes
+
+Subtractive manufacturing (CNC machining) is a machining process in which solid piece of raw material is carved into a desired 3D geometrical shape and size by using a controlled material-removal process. This process relies heavily upon the use of machine tools in addition to power and hand tools.
+
+The application of Computer Numerical Control (CNC) is vastly adapted to the modern world of machining. CNC uses computers to control the movement and operation of mills, lathes, and other cutting machines. Although subtractive manufacturing is broadly adapted to manufacture metal products, it can also be applied to wood, plastic, ceramic, and composites materials.
+
+Historically, the subtractive machining process was mainly performed by hand. Processes such as woodcarving, forging, and filling of metals, once done by hand, have undergone rapid advancements over the past century and now broadly incorporate technology that makes them more efficient and precise.
+
+Milling
+
+Milling is a subtractive machining process that uses a wide range of machine toolsets to efficiently precision-cut a variety of materials (such as metals, plastics, or wood) into a defined geometrical part. Milling machines rapidly produce end-use parts with the adoption of 3- or 5-axis processes. Metal parts offer greater finishing choices, while machined plastic parts are completed as-milled and expose visible tool marks.
+
+While 3-axis machining is one of the most widely used techniques for part fabrication, its rudimentary simplicity limits it to parts that are not too deep; likewise, there are restrictions when machining a deeper part with narrow cavities. These limitations can lead to an inadequate finish as well as high labor costs. One advantage of 3-axis machining is its low cost.
+
+As the need for more sophisticated parts has emerged, 5-axis machining can work a part from five sides in a single operation, making it highly suitable for deeper parts originating from harder materials. It also ensures a higher degree of precision and rapidity while reducing tool vibration. Although 5-axis machining is faster, it does require longer preparation time.
+
+The 1980's ushered in widespread utilization of Computer Numerical Control (CNC) milling in machine shops, eventually enabling hobbyists, artisans, and designers to access the technology. This has lead to extensive industry application in the fields of jewelry, printed circuit boards, firearm parts, and fine art manufacturing.
+
+Today, CNC Pocket Milling is one of the most widely used operations in machining. CAD/CAM programming software enables machinists to machine away large amounts of material before finishing the part. Because this process is accelerated and maximizes the bulk of material removal, it is extensively used in the aerospace and shipyard industries.
+
+Consequentially, CNC gave rise to the transformation of milling machines into machining centers comprised of automatic tool changers, tool magazines or carousels, CNC control, coolant systems, and enclosures. These centers generally fall into one of two categories: Vertical Machining Centers (VMCs) or Horizontal Machining Centers (HMCs).
+
+Turning
+
+Turning is a subtractive machining process that uses a cutting tool, typically a lathe, to achieve a variety of shapes for end use plastic, metal, wood, or stone parts. In brief, turning is performed with the use of a rotating metal rod while a cutting tool is held against a rigid piece of material, generally cylindrically shaped, to remove material and create final parts. Today, CNC (Computer Numerical Control) is the most common automated form of turning.
+
+Turning takes a fairly rigid material such as metal, plastic, stone or wood and rotates it while carving it with a cutting tool that uses one, two, or three axes of motion, resulting in diameter and depths of remarkable precision. It is possible to perform turning on either the interior or exterior of a cylinder (also known as boring) to create cylindrical parts of different forms.
+
+There are four specific turning operations:
+
+Turning
+
+ is one of the most basic machining processes, which involves a rotating part being cut by a single-point cutting tool whose movement is parallel to the axis of rotation. Turning can be performed on both the external and internal surfaces of parts.
+
+Facing
+
+ is frequently the first operation, and often the last, performed in the production of machined parts. It moves the cutting tool at right-angles to the axis of rotation while the part rotates.
+
+Parting
+
+ creates deep grooves that remove an entire or partial segment from its parent part.
+
+Grooving
+
+ is the cutting of grooves at a specific depth and can be performed on internal and external surfaces, as well as on the face of a part. It encompasses face grooving, boring, drilling, knurling, reaming, threading, and polygonal turning.
+
+Spark machining - EDM
+
+Spark machining is a subtractive machining process that attains a desired shape by producing sparks that melt tiny portions of a metal workpiece. It is also known as Electrical Discharge Machining (EDM), spark eroding, burning, die sinking, wire burning, and wire erosion.
+
+Rapid reiterations of electrical current discharges between two electrodes, the tool-electrode and the workpiece-electrode, work to remove material from a workpiece without ever making physical contact. This is particularly beneficial for the production of fragile parts that cannot absorb the stress of conventional machining.
+
+The English physicist Joseph Priestly first noted the erosive effect of electrical discharges in the second half of the 18th century. Later in the mid-20th century, discoveries in die-sink and wire-cut spark machining were made and launched onto the mass market. Most recently, a portable drill and tap remover has been introduced as an innovative means to removing a broken tap or drill bit from a workpiece.
+
+EDM is primarily used to manufacture complex shapes with hard metals or those that would be otherwise very difficult to machine using traditional techniques. Generally, it works with electrically conductive materials, but it is possible to machine insulating ceramics under certain conditions.
+
+© 2026 | Dassault Systèmes - All rights reserved
+
+Marketplace General Terms & Conditions
+
+https://make.3dexperience.3ds.com/processes/subtractive
+
+Make special Offers
+
+https://make.3dexperience.3ds.com/processes/subtractive
+
+Privacy Policy
+
+https://make.3dexperience.3ds.com/processes/subtractive
+
+Loading...
+
+Error loading App...
+
+You decide what cookies 3DS will use
+
+Continue with only necessary cookies
+
+We, Dassault Systèmes, together with our trusted 3DS business stakeholders, use cookies to give you the best experience on our websites by: measuring their audience and improving their performance, by providing you with content and proposals that correspond to your interactions, by serving ads that are relevant to your interests and by allowing you to share content on social networks.
+
+Your preferences will be kept for 6 months and you can change them at any time. To learn more about how this site uses cookies, please visit our 
+
+privacy policy
+
+https://www.3ds.com/privacy-policy
+
+.
+
+Accept All Manage my preferences

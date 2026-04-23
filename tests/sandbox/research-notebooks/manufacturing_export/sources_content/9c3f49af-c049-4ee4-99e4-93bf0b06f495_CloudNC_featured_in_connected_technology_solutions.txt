@@ -1,0 +1,457 @@
+CloudNC featured in connected technology solutions - artificial intelligence ushers in a brave new world for CNC machining 
+
+CAM Integrations
+
+CAM Assist for Fusion Get started today
+
+https://www.cloudnc.com/fusion
+
+CAM Assist for Mastercam Get started today
+
+https://www.cloudnc.com/mastercam
+
+CAM Assist for Siemens NX Get started today
+
+https://www.cloudnc.com/siemens-nx-cam
+
+CAM Assist for GibbsCAM Get started today
+
+https://www.cloudnc.com/gibbscam
+
+CAM Assist for SolidCAM Get started today
+
+https://www.cloudnc.com/solidcam
+
+CAM Assist for Creo Coming soon
+
+https://www.cloudnc.com/creo
+
+More CAM Packages Register your interest
+
+https://www.cloudnc.com/other-packages
+
+Pricing
+
+https://www.cloudnc.com/pricing
+
+ 
+
+About Us
+
+https://www.cloudnc.com/about-us
+
+ 
+
+Help
+
+https://www.cloudnc.com/help-center
+
+ 
+
+Book a demo
+
+https://www.cloudnc.com/start2
+
+Back to all articles
+
+https://www.cloudnc.com/blog
+
+CloudNC featured in connected technology solutions - artificial intelligence ushers in a brave new world for CNC machining
+
+CloudNC
+
+July 17, 2019
+
+ 
+
+CLOUDNC FEATURED IN
+
+ 
+
+CONNECTED TECHNOLOGY SOLUTIONS
+
+http://connectedtechnologysolutions.co.uk/could-this-innovative-technology-change-the-way-that-manuafcturing-operates/
+
+ 
+
+– PUBLISHED 5TH JULY 2019.
+
+It is rare to come across a technology or business model that has the power to transform operations in a practical way, but if the vision of CloudNC comes to fruition it could do just that. The innovative start-up's claim is that they are building the world's most intelligent factory, powered by ground-breaking artificial intelligence.
+
+Their goal is to make CNC machining as efficient and accessible as possible. Machining today is slow, costly and heavily reliant on human input, which has its limitations. With CloudNC's AI controlling the process, it is possible to machine faster, cheaper and at a higher quality. Intrigued by the vision CTS editor Mark Venables spoke to co-founder and CEO of CloudNC, Theo Saville, for a greater insight.
+
+ 
+
+Analysing setup sheets
+
+WHY? WHAT MADE YOU LOOK AT OPTIMISING THE SUPPLY CHAIN FROM CAD, THROUGH CAM TO FINISHED PART?
+
+Co-founder Chris Emery and I met at the Entrepreneur First start-up accelerator where we were working on additive manufacture ideas. We both realised, that despite the promise of additive manufacturing, its potential to really revolutionise parts manufacture was limited. CNC machining is far more capable, but it is traditionally unwieldy. We realised that we could make it work much better.
+
+WHAT ARE THE CURRENT INEFFICIENCIES AND BOTTLENECKS IN CNC MACHINING? WHERE IS COST AND TIME LOST?
+
+CNC manufacturing the world over is quite fragmented as an industry. It is served by a huge number of small companies with the natural variance in specialty and capability – in efficiency and quality. But, the process for CNC machining is fairly uniform – a customer will usually create a 3d CAD file of the part they need and pass it to a CNC CAM engineer. The engineer uses the model to create a set of instructions for the CNC machine, which, depending on how complex that part is, can take a significant amount of time. Anything from under an hour for a very simple part, to more than 600 hours for something very complex. The CAD model is appraised, a quote offered for the CAM engineering, then the process of creating the instructions needs to happen before the machining can actually be completed. Moreover, that final set of instructions is one way amongst trillions of possible variations in instructions – it might not be the most efficient, result in the highest possible quality, or use the full capability of the CNC machine. Once the product is made, using traditional manufacturing techniques, it is shipped to the customer. It is an expensive process that takes a long time.
+
+HOW DO YOU OVERCOME THESE INEFFICIENCIES?
+
+CloudNC has created breakthrough AI enabled software that leverages the computing power of the cloud to automate the process of creating instructions for the CNC machine. That means that we can set our CNC machines to work straight away. This hugely reduces the cost involved in having parts made, as well as opening the possibility of much shorter lead times. We can also be confident that the software has found one of the best ways to machine the part with the available equipment from trillions of possibilities, raising the quality and optimising the potential of the CNC machines. Our ordering and manufacture process are also highly streamlined, offering further cost and time savings to our customers.
+
+WHAT WOULD THE NEW WORKFLOW BE? DOES A CUSTOMER SIMPLY SUPPLY YOU A CAD FILE?
+
+Yes – our customers upload a CAD file and tolerancing data to our website, we provide a quote within 24hrs and book in the work – be it for a single part or tens of thousands – on confirmation from the customer.
+
+WHAT CAN YOU TELL ME ABOUT THE DEVELOPMENT PROCESS? HAVE YOU WORKED WITH ANY RESEARCH OR EXTERNAL COMPANIES OR RECEIVED ANT GRANT OR SUPPORT?
+
+There is no doubt that we are where we are today because many people and organisations have believed in us and encouraged us to overcome the huge and complex challenges in developing the CloudNC solution. As I mentioned, Chris and I met on the Entrepreneur First Accelerator, and we've attracted investment and support from 
+
+InnovateUK
+
+https://www.gov.uk/government/organisations/innovate-uk
+
+ , The 
+
+AMRC
+
+https://amrc.group.shef.ac.uk/
+
+ , 
+
+MTC
+
+http://www.the-mtc.org/
+
+ and WMG, as well as significant VC funding. This has enabled us to focus on bringing in the very best talent in the world and create a culture of innovation that has the capability to revolutionise our sector. It's a hugely exciting environment to be in – and a very unusual approach for manufacturing.
+
+WHAT ROLE DOES AI PLAY IN YOUR SOLUTION? WOULD THIS SOLUTION HAVE BEEN FEASIBLE WITHOUT THE MATURATION OF AI?
+
+It's the maturing and convergence of several technology streams that makes our approach possible. The huge computing power of the cloud, new software techniques and frameworks, quicker graphics cards and improvements in high-performance programming languages are all playing a part too. Anyone combining the very latest technologies in new ways is standing on the shoulders of giants who have driven the technology to where it is and we are no exception. It's a really exciting time for innovators, with new toolkits that can help overcome challenges that have existed for a really long time.
+
+IS YOUR SOLUTION LIMITED TO ONE CNC MACHINE OR RANGE?
+
+No – in fact, Factory 1, our first factory, which is up and running in Chelmsford, Essex, uses the best CNC machinery available from the likes of Erowa, DMG Mori and Mazak. Our whole approach is to fully utilise the full capabilities of best in class machinery, so we don't compromise on using the best available machinery.
+
+WHY NOW? WHAT TECHNOLOGICAL ADVANCEMENTS HAVE MADE THE TIME RIGHT FOR BRINGING THIS SOLUTION TO MARKET – I'M THINKING OF MORE ADVANCED AI/ML, IMPROVED CONNECTIVITY, COST OF COMPUTE/STORAGE ETC?
+
+As you might expect, the perfect time for a holistic redesign of a complex sector, relies on the maturity of several aspects of technology and approaches. There's another factor too – the environment in which we operate has changed for the better. Ten years ago, there wasn't the tech investment ecosystem or government support available in the UK to make CloudNC happen. Similarly, there probably weren't enough software engineers of high enough quality, but the UK has rapidly improved to become world-class on both fronts – particularly in the past five years. Importantly, it's also a dynamic process, so there are some technologies, including industry 4.0 manufacturing approaches that are maturing all of the time. Factory 1 seeks to make use of cutting-edge manufacturing techniques and we are developing better processes throughout the supply chain to reach our ultimate vision of a completely automated service from uploading of a file to receipt of the product.
+
+That vision is in sight, and there are many continuous improvements that we are making to reach our automation goal. In time, through shipping and loading robotics, automated inspection, verification, packaging and fulfilment, our expert staff will only ever take over in the most challenging and interesting scenarios. Our intention is that people will be used not for any dirty, dangerous or repetitive tasks, but for what humans are still best at – problem solving, lateral thinking and adaptive reasoning. So while the timing of the CloudNC approach is reliant on the technological and environmental progress of recent times, it is also an approach that is set in the DNA of our company – one of constant improvement and innovation in every aspect of the CNC machining market.
+
+ 
+
+Chris Emery (CTO) and Theo Saville (CEO) co-founders of CloudNC
+
+YOU SPEAK ABOUT CREATING THE WORLD'S MOST INTELLIGENT FACTORY. WHAT DO YOU CONSIDER THE MOST IMPORTANT ELEMENTS OF AN INTELLIGENT FACTORY?
+
+The most important would be flexible autonomy. Automated production machinery that can produce a different component every time, or thousands of the same, without requiring any instruction from humans. We believe that all machine tools should be as simple to use and highly automated as a desktop 3D printer. Automation is relatively simple if you're making the same thing 100,000 times, but incredibly hard or near impossible when you want to make small, unique batches.
+
+As well as flexible autonomy, connectivity needs to be baked in from the start. Equipment should be networked by default and able to talk to you. It's crazy to us that most machines can't tell you what's wrong or when and how to maintain them in natural language or report their performance or utilisation without third party or optional extra add-ons.
+
+Finally, the most important element of all for intelligent factories is the human element. Comparing the success of Toyota to the American car manufacturers in the last half-century is a great example of human ingenuity and incredible manufacturing culture winning over the mass application of automation. We've taken these lessons thoroughly onboard and paired with the learnings on culture that have come out of the recent generation of hypergrowth tech companies. Hire the best people, assume they'll do an amazing job by default, then remove all barriers to doing great work and innovating. Our managers exist to enable, rather than to instruct and delegate tasks. Everyone at CloudNC has the power to make changes to how we work, invest company funds in tools and technology, and spend portions of their time on non-'day job' projects (a little like Google's 20% time). It's up to me to build the kind of culture where creativity is harnessed and deployed at every level – I'll know I've succeeded when I never need to point out another manufacturing inefficiency, because whatever it is, it's already being worked on. We spend at least as much time and effort thinking on organisational culture and recruitment as we do on technology. In the end, it doesn't matter how good your automation and equipment is if you don't have a world-leading people organisation behind it.
+
+GIVEN THAT YOU HAD A BLANK SHEET OF PAPER ARE THERE ANY TECHNOLOGIES THAT YOU CAN IMPLEMENT EFFECTIVELY THAT WOULD NOT WORK IF LAYERED ON A BROWNFIELD FACILITY WITH NUMEROUS AGEING LEGACY SYSTEMS?
+
+We believe so! Not having a legacy ERP system, which are notoriously difficult to migrate away from, or old equipment that can't be networked, for example, has helped tremendously. Also, a lack of legacy processes and no ingrained bad habits has been extremely helpful. By combining a clean slate with a workforce coached in constantly iterating and improving we started somewhat chaotically, but rapidly progressed to good working practices and are now improving into high-performance processes. Such a curve is hard to imagine in a brownfield environment.
+
+HOW ARE YOU BRINGING INTELLIGENCE INTO YOUR BACK-OFFICE FUNCTIONS FOR THE ENTERPRISE?
+
+This comes back to culture, I think, and the advantage of not having legacy approaches that dictate our methods. Many of the things we do by default might be considered break-through applications of intelligent back office tools and approaches elsewhere – such as the use of Slack in creative ways to manage our manufacturing operations back when we had no ERP software. It's also possible to see cross-pollination of ideas and best practice transferring between areas of the enterprise, like seeing Kanban pop up in the software engineering office's management of inventory, or software-style product management practices and OKRs cross into the manufacturing side. It is probably fair to say that rather than bringing intelligence into our back-office, we set out with intelligent back-office systems that play a fundamental role in our whole approach to the enterprise.
+
+It is our intention to set a gold standard for manufacturing, to have the best manufacturing facilities in the world and to attract and retain the best human talent to deliver our services.
+
+HOW HAVE YOU ENSURED THAT YOUR SOLUTION IS SCALABLE, AND SCALABLE QUICKLY?
+
+This is the very essence of our plan – we've had great early success with Factory 1, and our aspirations are for more factories to open very quickly – multiple new facilities here in the UK and beyond within a really short period of time. To achieve this, we're building a factory framework that is scalable by design, and a talented team that is very experienced in scaling companies and overcoming the challenges associated with this, while maintaining the price and service levels that we are already becoming known for.
+
+CAN YOU TALK ME THROUGH THE BUSINESS ADVANTAGES FOR MANUFACTURERS?
+
+For manufacturers of all kinds, and across all industries, we are offering a step change that can help them unlock their potential in new and interesting ways. First of all though, we are offering a much cheaper way of getting CNC machined parts that are aerospace grade, whether they require one unit, hundreds, or thousands. We'll soon be able to offer instant quoting, and in the meantime offer 24hr turnaround against the industry average of five days, allowing more rapid costing of new projects and faster commissioning of new business approaches and models. It fits into a faster, more flexible, industry 4.0 approach to our customers' business too – the ability to prototype more efficiently, and to pass on the cost savings to their customers to be more competitive.
+
+WHY HAVE YOU ADOPTED THIS PARTICULAR BUSINESS MODEL WITH ALL THE INHERENT CHALLENGES OF RAISING LARGE AMOUNTS OF CAPITAL, DEVELOPING BOTH AN INBOUND AND OUTBOUND SUPPLY CHAIN AS WELL AS A LARGE BACK OFFICE? FROM THE OUTSIDE A LICENSING ARRANGEMENT, SIMILAR TO ARM, WOULD HAVE ALLOWED YOU TO FOCUS ON THE IP WITHOUT ALL THE EXTRA CHALLENGES.
+
+That's a really good question – and drives straight to the heart of what CloudNC is all about. While our AI and Cloud enabled software is at the core of our offering, it is by no means the full extent of it. We realised from quite early on that to really deliver what we set out to – to enormously reduce the cost, improve the overall quality and slash the lead times for CNC machined parts – we would need to offer an end-to-end service. By going 'full-stack', we can achieve much greater optimisation of price, speed, quality and customer experience overall than we could by just automating CAM in other people's factories. Our vision wasn't limited to improving the efficiency of one element (the CAM design process), but to changing the whole approach and offering an outcome that is far greater than the sum of its parts. To realise this, we needed to approach the manufacture not with legacy systems to work around, but with a blank sheet of paper that gave us the opportunity to maximise the benefits of the software by surrounding it with the very best processes using the very best machinery and taking responsibility for the whole customer experience. Naturally it makes the whole project larger by orders of magnitude, but it also means that the full benefit can be maximised by more customers. It is our intention to set a gold standard for manufacturing, to have the best manufacturing facilities in the world and to attract and retain the best human talent to deliver our services. We will continue to improve our software but by avoiding the as-a-service model we can maintain and develop the world-leading technology ourselves. ARM is a wonderful company and it's a great pleasure to be mentioned in the same breath – we are all committed to having the same global market penetration as ARM, but given the cycle times of the chip market and the technology it underpins, there is sound logic to their business model and it has served them very well, but we felt that to best service our industry, we needed to 'own' the process.
+
+ 
+
+A glimpse inside Factory 1
+
+WHAT ARE YOUR PLANS FOR FUTURE GROWTH?
+
+We're very well positioned to take advantage of the fantastic platform and proof of concept that Factory 1 gives us. As I mentioned previously, we have plans to roll out more factories here in the UK and further afield over 2020. We're a rapidly growing enterprise and our team is expanding faster than ever – we're up beyond 70 and adding ten new team members or more each month, and this rate is increasing. Our management is very capable and experienced in scaling tech start-ups, as well as in creating cutting edge industry 4.0 enabled greenfield aerospace, space and automotive operations. As you would expect from the difficulty of the problem, we've had to recruit some of the top software engineering talent in the world. CloudNC is applying the lessons of hypergrowth tech enterprises – and has the business expertise that helped grow Fetchr to be a leading international logistics operator and managed Uber's internationalisation, for example. We believe that to get the most from our talented and high-performing team, we need to break the traditional manufacturing mould, so from the outset our company culture is built on trust and context with team members empowered to make informed decisions and work both horizontally and vertically within the business. Feedback and ideas are shared constantly across a wide variety of channels like “Ask Me Anything” (AMAs), all-hands, cross-team/dept working groups, all over the place in Slack project management software, via our product managers and so on.
+
+The decisions that are made from this model vary from changing the snacks available in the canteen, to actioning ideas to make CloudNC more inclusive and diverse place to work, or even changing the way we approach fundamental business or technology challenges. Being innovative and enabling an innovation culture are about much more than technology – alone technology cannot achieve anything – it must be combined with amazing people who can make it happen. We believe our future growth and the step-change for industry that CloudNC is bringing, depends on it.
+
+DOES THIS TECHNOLOGY HAVE APPLICATIONS OUTSIDE OF CNC MACHINING, TAKING INTELLIGENCE AND AI DECISION MAKING INTO OTHER ELEMENTS OF MANUFACTURING?
+
+For now, we are wholly focused on improving the process for getting CNC machined parts. Our team has shown incredible aptitude for overcoming a variety of challenges along the way – what we set out to do wasn't easy and is not done yet! Having said that – do I believe CloudNC could meet different engineering and technological challenges? Yes, I really do – but for now, there is work to do!
+
+I UNDERSTAND THERE MAY BE DIFFICULTIES IN NAMING WHO YOU HAVE OR ARE PLANNING TO WORK WITH, BUT ANY INFORMATION WOULD BE USEFUL?
+
+Case studies will be available in time, but suffice to say that we're already fulfilling orders for aerospace, defence, oil & gas, medical, motorsports, maritime and industrial equipment industries, and there are company names in there that your readers will certainly recognise!
+
+CloudNC featured in 
+
+Connected Technology Solutions
+
+http://connectedtechnologysolutions.co.uk/could-this-innovative-technology-change-the-way-that-manuafcturing-operates/
+
+ .
+
+Related articles
+
+[
+
+An interview with Theo Saville, Forbes (Europe 2019) Manufacturing & Industry
+
+](https://www.cloudnc.com/blog/cloudnc-forbes-theo-saville-2019)
+
+CloudNC
+
+February 3, 2020
+
+[
+
+How to hire good machinists
+
+](https://www.cloudnc.com/blog/how-to-hire-good-machinists)
+
+Norval Scott
+
+August 21, 2025
+
+[
+
+CloudNC featured in Tomorrow Unlocked: When factories really become smart
+
+](https://www.cloudnc.com/blog/featured-when-factories-become-smart)
+
+CloudNC
+
+March 4, 2021
+
+Complete up to 80% of your CAM program in minutes
+
+CAM Assist
+
+ integrates with your CAM package to generate machining strategies and toolpaths. Takes just 1 hour to learn. Same day set-up.
+
+Try CAM Assist for free
+
+https://www.cloudnc.com/start2
+
+ 
+
+London Office
+
+1 Norton Folgate, Spitalfields, London, E1 6DB
+
+Chelmsford Factory
+
+Unit 2, 10 Clock Tower Retail Park, Chelmsford, CM1 3FJ
+
+Contact us
+
+https://www.cloudnc.com/contact
+
+ 
+
+https://www.facebook.com/TeamCloudNC
+
+ 
+
+https://www.instagram.com/team_cloudnc/
+
+ 
+
+https://twitter.com/TeamCloudNC
+
+ 
+
+https://www.linkedin.com/company/10273467
+
+ 
+
+https://www.youtube.com/@TeamCloudNC
+
+ 
+
+https://www.tiktok.com/@teamcloudnc
+
+CAM Assist for
+
+Fusion
+
+https://www.cloudnc.com/fusion
+
+Mastercam
+
+https://www.cloudnc.com/mastercam
+
+Siemens NX
+
+https://www.cloudnc.com/siemens-nx-cam
+
+GibbsCAM
+
+https://www.cloudnc.com/gibbscam
+
+SolidCAM
+
+https://www.cloudnc.com/solidcam
+
+Creo
+
+https://www.cloudnc.com/creo
+
+Other CAM Packages
+
+https://www.cloudnc.com/other-packages
+
+Manufacturing
+
+Design
+
+https://www.cloudnc.com/manufacturing
+
+ 
+
+Multi-axis
+
+https://www.cloudnc.com/manufacturing#multi-axis
+
+ 
+
+Turned Parts
+
+https://www.cloudnc.com/manufacturing#turned-parts
+
+ 
+
+Post Processes
+
+https://www.cloudnc.com/manufacturing#post-processes
+
+ 
+
+Quality & Inspection
+
+https://www.cloudnc.com/manufacturing#qa
+
+Resources
+
+Free Soft Jaw Designer
+
+https://www.cloudnc.com/soft-jaw-designer
+
+ 
+
+Blog
+
+https://www.cloudnc.com/blog
+
+ 
+
+Case Studies
+
+https://www.cloudnc.com/case-studies
+
+ 
+
+Customer Support
+
+https://www.cloudnc.com/help-center
+
+Company
+
+About Us
+
+https://www.cloudnc.com/about-us
+
+ 
+
+Contact
+
+https://www.cloudnc.com/contact
+
+ 
+
+Careers
+
+https://www.cloudnc.com/careers
+
+ 
+
+Newsroom
+
+https://www.cloudnc.com/newsroom
+
+ 
+
+中文官网
+
+https://www.camassist.cn/index.html
+
+ 
+
+ 
+
+ 
+
+Terms of Service
+
+https://www.cloudnc.com/terms-and-conditions
+
+ 
+
+Privacy Policy
+
+https://www.cloudnc.com/terms-and-conditions
+
+© 2026 CloudNC. All rights reserved.
+
+ 
+
+English
+
+https://www.cloudnc.com/blog/cloudnc-ai-technology-for-cnc-machining
+
+Deutsch
+
+https://www.cloudnc.com/de/blog/cloudnc-ai-technology-for-cnc-machining
+
+Français
+
+https://www.cloudnc.com/fr/blog/cloudnc-ai-technology-for-cnc-machining
+
+Español
+
+https://www.cloudnc.com/es/blog/cloudnc-ai-technology-for-cnc-machining
+
+Português
+
+https://www.cloudnc.com/pt/blog/cloudnc-ai-technology-for-cnc-machining
+
+Italiano
+
+https://www.cloudnc.com/it/blog/cloudnc-ai-technology-for-cnc-machining
+
+Polski
+
+https://www.cloudnc.com/pl/blog/cloudnc-ai-technology-for-cnc-machining
+
+中文 (简体)
+
+https://www.cloudnc.com/zh/blog/cloudnc-ai-technology-for-cnc-machining
+
+日本語
+
+https://www.cloudnc.com/ja/blog/cloudnc-ai-technology-for-cnc-machining
+
+한국어
+
+https://www.cloudnc.com/ko/blog/cloudnc-ai-technology-for-cnc-machining
+
+हिंदी
+
+https://www.cloudnc.com/hi/blog/cloudnc-ai-technology-for-cnc-machining
+
+ 

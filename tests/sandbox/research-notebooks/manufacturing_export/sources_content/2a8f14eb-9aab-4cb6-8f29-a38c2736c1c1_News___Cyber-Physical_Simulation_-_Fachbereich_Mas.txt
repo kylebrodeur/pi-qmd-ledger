@@ -1,0 +1,869 @@
+News – Cyber-Physical Simulation – TU Darmstadt
+
+Skip menu
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/index.en.jsp#site-main
+
+Search in www.maschinenbau.tu-darmstadt.de/cps for …
+
+Search with:
+
+DuckDuckGo
+
+Google
+
+Bing
+
+Brave
+
+Ecosia
+
+Submit search (opens in new tab)
+
+Quick access
+
+Naturwissenschaften
+
+Mathematics (Dept. 4)
+
+https://www.mathematik.tu-darmstadt.de/
+
+Physics (Dept. 5)
+
+https://www.physik.tu-darmstadt.de/
+
+Chemistry (Dept. 7)
+
+https://www.chemie.tu-darmstadt.de/
+
+Biology (Dept. 10)
+
+https://www.bio.tu-darmstadt.de/
+
+Materials and Earth Sciences (Dept. 11)
+
+https://www.matgeo.tu-darmstadt.de/
+
+Geistes- und Sozialwissenschaften
+
+Law and Economics (Dept. 1)
+
+https://www.wi.tu-darmstadt.de/
+
+History and Social Sciences (Dept. 2)
+
+https://www.gugw.tu-darmstadt.de/
+
+Human Sciences (Dept. 3)
+
+https://www.humanw.tu-darmstadt.de/
+
+Ingenieurwissenschaften
+
+Civil and Environmental Engineering Sciences (Dept. 13)
+
+https://www.bauing.tu-darmstadt.de/
+
+Architecture (Dept. 15)
+
+https://www.architektur.tu-darmstadt.de/
+
+Mechanical Engineering (Dept. 16)
+
+https://www.maschinenbau.tu-darmstadt.de/
+
+Electrical Engineering and Information Technology (Dept. 18)
+
+https://www.etit.tu-darmstadt.de/
+
+Computer Science (Dept. 20)
+
+http://www.informatik.tu-darmstadt.de/
+
+Research Fields
+
+Energy and Environment (E+E)
+
+https://www.tu-darmstadt.de/energy-and-environment
+
+Information and Intelligence (I+I)
+
+https://www.tu-darmstadt.de/information-and-intelligence
+
+Matter and Materials (M+M)
+
+https://www.tu-darmstadt.de/matter-and-materials
+
+Services
+
+University and State Library Darmstadt (ULB)
+
+http://www.ulb.tu-darmstadt.de/
+
+Science Communication Centre (SCC)
+
+http://www.tu-darmstadt.de/scc
+
+University IT-Service and Computing Centre (HRZ)
+
+http://www.hrz.tu-darmstadt.de/
+
+University Sports Centre (USZ)
+
+http://www.usz.tu-darmstadt.de/
+
+Forum for Interdisciplinary Research (FiF)
+
+http://www.fif.tu-darmstadt.de/
+
+Centre for Educational Development (HDA)
+
+https://www.hda.tu-darmstadt.de/
+
+Language Resource Centre (SPZ)
+
+http://www.spz.tu-darmstadt.de/
+
+Academic Bridging Courses (Studienkolleg)
+
+http://www.stk.tu-darmstadt.de/
+
+Centre for Teacher Education (ZfL)
+
+http://www.zfl.tu-darmstadt.de/
+
+State Materials Testing Institute (MPA)
+
+http://www.mpa-ifw.tu-darmstadt.de/
+
+Go to...
+
+Home - TU Darmstadt
+
+https://www.tu-darmstadt.de/
+
+Addressbook
+
+https://www.idm.tu-darmstadt.de/addressbook
+
+Area maps and navigation
+
+https://www.tu-darmstadt.de/universitaet/campus/index.en.jsp
+
+Canteen menu
+
+https://studierendenwerkdarmstadt.de/en/
+
+Directorates and staff units
+
+https://www.intern.tu-darmstadt.de/verwaltung/index.en.jsp
+
+Events
+
+https://www.tu-darmstadt.de/universitaet/aktuelles_meldungen/veranstaltungen_6/index.de.jsp
+
+Info-Portal for employees
+
+https://www.intern.tu-darmstadt.de/
+
+News
+
+https://www.tu-darmstadt.de/universitaet/aktuelles_meldungen/index.en.jsp
+
+Semester dates
+
+https://www.tu-darmstadt.de/studieren/studierende_tu/semestermine/index.en.jsp
+
+TU from A-Z
+
+https://www.tu-darmstadt.de/universitaet/organisation_verwaltung/tu_von_a_bis_z/index.en.jsp
+
+TUCaN - Course catalogue
+
+https://www.tucan.tu-darmstadt.de/
+
+TU-Shop
+
+https://www.tu-shop.de/en/
+
+Cyber-Physical Simulation
+
+https://www.maschinenbau.tu-darmstadt.de/cps/
+
+Quick access
+
+Deutsch
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/index.de.jsp
+
+Search
+
+Login
+
+https://login.tu-darmstadt.de/idp/profile/cas/login?service=https%3A%2F%2Fwww.maschinenbau.tu-darmstadt.de%2Fcps%2Finstitute_cps%2Fcps_news%2Findex.en.jsp
+
+Institute CPS
+
+Study
+
+Research
+
+Open search panel 
+
+Home of institution
+
+https://www.maschinenbau.tu-darmstadt.de/cps/
+
+News
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/index.en.jsp
+
+Team
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_team/index.en.jsp
+
+Jobs
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_jobs/index.en.jsp
+
+Directions
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_directions/index.en.jsp
+
+Courses
+
+Overview
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_courses/index.en.jsp
+
+Lecture Numerical Simulation Methods
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_courses/vorlesung_numerische_simulationsmethoden/num_sim.en.jsp
+
+Lecture Introduction FEM
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_courses/cps_lecture_fem/index.en.jsp
+
+Lecture Physics-aware Machine Learning
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_courses/vorlesung_physikbewusstes_ml/paml_1.en.jsp
+
+Lecture Multiscale Methods
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_courses/cps_lecture_msm/index.en.jsp
+
+Lecture Applied Structural Optimization
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_courses/vorlesung_angew___strukturoptimierung/struct_opt.en.jsp
+
+Tutorial Machine Learning
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_courses/cps_tutorial_mlsm/index.en.jsp
+
+Tutorial FE Simulation
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_courses/cps_tutorial_fem/index.en.jsp
+
+Bachelor & Master Theses
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_theses/index.en.jsp
+
+Student Projects (ADP & ARP)
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_projects/index.en.jsp
+
+Overview (Research)
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_research/research_topics_1.en.jsp
+
+Overview
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_research/uebersicht_11/index.en.jsp
+
+Topics
+
+Isogeometric Methods
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_research/cps_topics/forschungsgebiete/isogeometric_methods.en.jsp
+
+Functional 3D printing
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_research/cps_topics/funktionaler_3d_druck/functional_3d_printing.en.jsp
+
+Physics-enhanced machine learning
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_research/cps_topics/ph/physics_enhanced_ml.en.jsp
+
+Collaborations
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_research/cps_collaborations/index.en.jsp
+
+Publications
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_research/cps_publications/index.en.jsp
+
+Pre-prints & Post-prints
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_research/cps_preprints/index.en.jsp
+
+GAMM AG Data Workshop 2025
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_research/gamm_ag_data_workshop_2025/gamm_ag_data_workshop_2025.en.jsp
+
+Open menu
+
+Institute CPS
+
+Study
+
+Research
+
+Institute CPS
+
+News
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/index.en.jsp
+
+Team
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_team/index.en.jsp
+
+Jobs
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_jobs/index.en.jsp
+
+Directions
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_directions/index.en.jsp
+
+Study
+
+Courses
+
+Bachelor & Master Theses
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_theses/index.en.jsp
+
+Student Projects (ADP & ARP)
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_projects/index.en.jsp
+
+Research
+
+Overview
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_research/research_topics_1.en.jsp
+
+Overview
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_research/uebersicht_11/index.en.jsp
+
+Topics
+
+Collaborations
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_research/cps_collaborations/index.en.jsp
+
+Publications
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_research/cps_publications/index.en.jsp
+
+Pre-prints & Post-prints
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_research/cps_preprints/index.en.jsp
+
+GAMM AG Data Workshop 2025
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_research/gamm_ag_data_workshop_2025/gamm_ag_data_workshop_2025.en.jsp
+
+Courses
+
+Overview
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_courses/index.en.jsp
+
+Lecture Numerical Simulation Methods
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_courses/vorlesung_numerische_simulationsmethoden/num_sim.en.jsp
+
+Lecture Introduction FEM
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_courses/cps_lecture_fem/index.en.jsp
+
+Lecture Physics-aware Machine Learning
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_courses/vorlesung_physikbewusstes_ml/paml_1.en.jsp
+
+Lecture Multiscale Methods
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_courses/cps_lecture_msm/index.en.jsp
+
+Lecture Applied Structural Optimization
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_courses/vorlesung_angew___strukturoptimierung/struct_opt.en.jsp
+
+Tutorial Machine Learning
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_courses/cps_tutorial_mlsm/index.en.jsp
+
+Tutorial FE Simulation
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_teaching/cps_courses/cps_tutorial_fem/index.en.jsp
+
+Topics
+
+Isogeometric Methods
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_research/cps_topics/forschungsgebiete/isogeometric_methods.en.jsp
+
+Functional 3D printing
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_research/cps_topics/funktionaler_3d_druck/functional_3d_printing.en.jsp
+
+Physics-enhanced machine learning
+
+https://www.maschinenbau.tu-darmstadt.de/cps/cps_research/cps_topics/ph/physics_enhanced_ml.en.jsp
+
+Search in www.maschinenbau.tu-darmstadt.de/cps with:
+
+DuckDuckGo
+
+Google
+
+Bing
+
+Brave
+
+Ecosia
+
+for …
+
+Submit search
+
+Quick access
+
+Deutsch
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/index.de.jsp
+
+Login
+
+https://login.tu-darmstadt.de/idp/profile/cas/login?service=https%3A%2F%2Fwww.maschinenbau.tu-darmstadt.de%2Fcps%2Finstitute_cps%2Fcps_news%2Findex.en.jsp
+
+Home
+
+https://www.maschinenbau.tu-darmstadt.de/cps/
+
+Quick access
+
+Naturwissenschaften
+
+Mathematics (Dept. 4)
+
+https://www.mathematik.tu-darmstadt.de/
+
+Physics (Dept. 5)
+
+https://www.physik.tu-darmstadt.de/
+
+Chemistry (Dept. 7)
+
+https://www.chemie.tu-darmstadt.de/
+
+Biology (Dept. 10)
+
+https://www.bio.tu-darmstadt.de/
+
+Materials and Earth Sciences (Dept. 11)
+
+https://www.matgeo.tu-darmstadt.de/
+
+Geistes- und Sozialwissenschaften
+
+Law and Economics (Dept. 1)
+
+https://www.wi.tu-darmstadt.de/
+
+History and Social Sciences (Dept. 2)
+
+https://www.gugw.tu-darmstadt.de/
+
+Human Sciences (Dept. 3)
+
+https://www.humanw.tu-darmstadt.de/
+
+Ingenieurwissenschaften
+
+Civil and Environmental Engineering Sciences (Dept. 13)
+
+https://www.bauing.tu-darmstadt.de/
+
+Architecture (Dept. 15)
+
+https://www.architektur.tu-darmstadt.de/
+
+Mechanical Engineering (Dept. 16)
+
+https://www.maschinenbau.tu-darmstadt.de/
+
+Electrical Engineering and Information Technology (Dept. 18)
+
+https://www.etit.tu-darmstadt.de/
+
+Computer Science (Dept. 20)
+
+http://www.informatik.tu-darmstadt.de/
+
+Research Fields
+
+Energy and Environment (E+E)
+
+https://www.tu-darmstadt.de/energy-and-environment
+
+Information and Intelligence (I+I)
+
+https://www.tu-darmstadt.de/information-and-intelligence
+
+Matter and Materials (M+M)
+
+https://www.tu-darmstadt.de/matter-and-materials
+
+Services
+
+University and State Library Darmstadt (ULB)
+
+http://www.ulb.tu-darmstadt.de/
+
+Science Communication Centre (SCC)
+
+http://www.tu-darmstadt.de/scc
+
+University IT-Service and Computing Centre (HRZ)
+
+http://www.hrz.tu-darmstadt.de/
+
+University Sports Centre (USZ)
+
+http://www.usz.tu-darmstadt.de/
+
+Forum for Interdisciplinary Research (FiF)
+
+http://www.fif.tu-darmstadt.de/
+
+Centre for Educational Development (HDA)
+
+https://www.hda.tu-darmstadt.de/
+
+Language Resource Centre (SPZ)
+
+http://www.spz.tu-darmstadt.de/
+
+Academic Bridging Courses (Studienkolleg)
+
+http://www.stk.tu-darmstadt.de/
+
+Centre for Teacher Education (ZfL)
+
+http://www.zfl.tu-darmstadt.de/
+
+State Materials Testing Institute (MPA)
+
+http://www.mpa-ifw.tu-darmstadt.de/
+
+Go to...
+
+Home - TU Darmstadt
+
+https://www.tu-darmstadt.de/
+
+Addressbook
+
+https://www.idm.tu-darmstadt.de/addressbook
+
+Area maps and navigation
+
+https://www.tu-darmstadt.de/universitaet/campus/index.en.jsp
+
+Canteen menu
+
+https://studierendenwerkdarmstadt.de/en/
+
+Directorates and staff units
+
+https://www.intern.tu-darmstadt.de/verwaltung/index.en.jsp
+
+Events
+
+https://www.tu-darmstadt.de/universitaet/aktuelles_meldungen/veranstaltungen_6/index.de.jsp
+
+Info-Portal for employees
+
+https://www.intern.tu-darmstadt.de/
+
+News
+
+https://www.tu-darmstadt.de/universitaet/aktuelles_meldungen/index.en.jsp
+
+Semester dates
+
+https://www.tu-darmstadt.de/studieren/studierende_tu/semestermine/index.en.jsp
+
+TU from A-Z
+
+https://www.tu-darmstadt.de/universitaet/organisation_verwaltung/tu_von_a_bis_z/index.en.jsp
+
+TUCaN - Course catalogue
+
+https://www.tucan.tu-darmstadt.de/
+
+TU-Shop
+
+https://www.tu-shop.de/en/
+
+Cyber-Physical Simulation
+
+https://www.maschinenbau.tu-darmstadt.de/cps/
+
+ 
+
+News
+
+Picture: Lena Schwind
+
+You are here:
+
+TU Darmstadt
+
+https://www.tu-darmstadt.de/
+
+Mechanical Engineering
+
+https://www.maschinenbau.tu-darmstadt.de/
+
+CPS
+
+https://www.maschinenbau.tu-darmstadt.de/cps/index.en.jsp
+
+Institute CPS
+
+News
+
+News
+
+Contact
+
+ 
+
+News at CPS
+
+Nonlinear electro-elastic finite element analysis with neural network constitutive models 2024/03/28 In our recent work, we demonstrate the applicability of neural network constitutive models for complex electro-elastic finite element analysis.
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_578816.en.jsp
+
+ Dominik Klein awarded with Dr.-Klaus-Körper Prize 2026/03/30 Congratulations to our doctoral graduate and postdoc Dr. Dominik Klein on receiving the Dr.-Klaus-Körper Prize of the GAMM for the best doctoral theses in applied math…
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_664448.en.jsp
+
+New automated framework for identifying effective material models 2026/03/05 In our new publication in the journal Engineering with Computers, we present an automated framework for identifying effective constitutive models of nonhomoge…
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_662016.en.jsp
+
+HiWi (m/f/x) wanted: AI for Physics / Physics-aware machine learning / Reduced-order modeling / Digital Twin 2026/02/10 The ECOTWIN team is looking for a student assistant to help us expand our machine learning codebase in Python / JAX.
+
+https://www.maschinenbau.tu-darmstadt.de/media/cps_1/stellenausschreibungen_2/kannapinn_1/Ausschreibung_HiWi_ROM_A4.pdf
+
+ Level 5 Autonomous Process Control with Digital Twins 2026/02/05 New publication on digital twins for autonomous thermal food processing demonstrates level 5 autonomy by integrating physics-based surrogates and optimal control.
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_661952.en.jsp
+
+ “Stable Port-Hamiltonian Neural Networks” to be presented at NeurIPS 2025 2025/11/27 We are excited to share that our paper “Stable Port-Hamiltonian Neural Networks” was accepted at NeurIPS 2025 and will be presented by Fabian Roth in San Dieg…
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_652544.en.jsp
+
+ Second edition of “Deep Learning in Computational Mechanics” now published! 2025/11/25 The second edition of the textbook “Deep Learning in Computational Mechanics”, with Prof. Oliver Weeger as new co-author, is now published online with Springer.
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_652736.en.jsp
+
+ Congratulations to Dominik Klein for passing his doctoral examination! 2025/10/20 As second PhD student of CPS, Dominik Klein successfully defended his doctoral dissertation entitled “Polyconvex Hyperelasticity with Neural Networks: On I…
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_648832.en.jsp
+
+ Minimizing stress concentrations in 3D printing through material optimization 2025/10/04 New publication on structural optimization for grayscale vat photopolymierzation in “Progress in Additive Manufacturing”
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_646785.en.jsp
+
+ Immersed isogeometric analysis for finite deformation elasticity 2025/09/01 In our latest publication in the “Archive of of Applied Mechanics”, we present an immersed isogeometric analysis approach with boundary conformal quadrature…
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_646848.en.jsp
+
+ Survey on bridging the gap of physics-based modeling and machine learning 2025/07/09 New survey article offers both researchers and engineers a structured overview of the cutting-edge methods in physics-informed ML, underlining their importance for f…
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_636416.en.jsp
+
+Johanna Wiegand awarded with study prize 2025/06/05 Mechanical engineering graduate and CPS master's student Johanna Wiegand was awarded the 2024 Study Prize by the SEW-EURODRIVE Foundation.
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_631616.en.jsp
+
+A finite swelling 3D beam model with axial and radial diffusion 2025/05/12 In our recent publication, we combine beam theory with diffusion and finite strain swelling. The model is useful for the numerically efficient simulation of new generations…
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_629440.en.jsp
+
+ Exchange on Data-Driven Modeling and Simulation of Microstructures at TU Darmstadt 2025/04/04 On February 11 and 12, 2025, the annual meeting of the GAMM AG Data was successfully hosted at TU Darmstadt, organized by the CPS institute
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_626112.en.jsp
+
+Physics-augmented ML for modeling nonlinear 3D beams 2024/12/04 In our latest publication, we develop physics-augmented neural networks for material modeling of 3D beams that exhibit nonlinear, hyperelastic material behavior. So far…
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_611648.en.jsp
+
+ New publication on material modeling of flexible-tough polymer blends 2024/12/02
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_611008.en.jsp
+
+ GAMM AG Data Workshop 2025 at TU Darmstadt 2024/11/29 The annual workshop of the GAMM activity group “Data-driven modeling and numerical simulation of microstructured materials” (AG Data) will take place on…
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_610944.en.jsp
+
+ Successful ICCE conference in Darmstadt 2024/10/21 In the beginning of October, CE@TUDa successfully oraganized the ICCE conference, which was a great occasion to bid farewell to Prof. Michael Schäfer for his…
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_604416.en.jsp
+
+ Multiscale modeling for FFF 3D printed G-Polymers 2024/09/26 New article on multiscale modeling of FFF 3D printed G-polymers and composites published!
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_604480.en.jsp
+
+ Physics-augmented neural networks for thermoelasticity 2024/09/23 In our latest publication, we extended the formulation of physics-augmented neural networks for constitutive modeling of thermo-hyperelastic materials.
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_599680.en.jsp
+
+ How many data sets does it take to accurately train a surrogate model? 2024/08/19 The answer can be found in the latest publication of our PostDoc Maximilian Kannapinn – it's just two!
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_599744.en.jsp
+
+ Time to say goodbye! 2024/07/29 We are happy to share the work accomplished by our interns Kushal Agarwal and Yajur Agarwal, who both just completed their interships supported by the DAAD WIS…
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_599488.en.jsp
+
+ CPS @ Engineer Your Future Day 2024/06/27 Yesterday, our colleagues Jasper Schommartz and Juan Camilo Alzate Cobo proudly represented our group at the “Engineer Your Future Day” of the Mechanical Enginee…
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_599552.en.jsp
+
+ New publication on rate-dependent energy dissipation of graded viscoelastic structures 2024/05/26 Congratulations to our first Ph.D. graduate Dr. Iman Valizadeh for his publication “Rate-dependent energy dissipation of graded viscoelastic structures fabricated…
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_586560.en.jsp
+
+ DYNAmore Preis für die Masterarbeit von Felix Rutsch 2024/05/15
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/news_details_cps_584832.de.jsp
+
+Contact
+
+ 
+
+LinkedIn-Seite der TU Darmstadt
+
+https://www.linkedin.com/school/564180
+
+Instagram-Kanal der TU Darmstadt
+
+https://www.instagram.com/tudarmstadt/
+
+Bluesky-Kanal der TU Darmstadt
+
+https://bsky.app/profile/tuda.bsky.social
+
+Facebook-Seite der TU Darmstadt
+
+https://www.facebook.com/tudarmstadt
+
+YouTube-Kanal der TU Darmstadt
+
+https://www.youtube.com/user/tudarmstadt
+
+Contact
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_team/index.en.jsp
+
+Directions
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_directions/index.en.jsp
+
+Sitemap
+
+https://www.maschinenbau.tu-darmstadt.de/cps/sitemap.en.jsp
+
+Legal note
+
+https://www.maschinenbau.tu-darmstadt.de/cps/impressum.en.jsp
+
+Accessibility
+
+https://www.tu-darmstadt.de/barrierefreiheit
+
+Privacy Policy
+
+https://www.tu-darmstadt.de/datenschutzerklaerung
+
+Go to top
+
+https://www.maschinenbau.tu-darmstadt.de/cps/institute_cps/cps_news/index.en.jsp#top
+
+Contact
+
+Prof. Dr. rer. nat. Oliver Weeger
+
+Picture: Lena Schwind
+
+weeger@cps.tu-...
+
+mailto:weeger@cps.tu-darmstadt.de
+
+work +49 6151 16-20990
+
+tel:+49615116-20990
+
+Work S4|10 411
+
+Dolivostr. 15
+
+64293 Darmstadt
+
+We would like to customise the information and usability of this website to your preferences and needs. To this end, we use so-called cookies. Please choose which cookies you would like to enable when visiting our webpages.
+
+Some of these cookies are required to load and correctly display this website on your device. These are strictly necessary or essential cookies and cannot be deselected.
+
+The preferences cookie saves your language setting, while the statistics cookie regulates how the open-source statistical software “Matomo” analyses your visits to and activities on our website.
+
+For more information about cookies we use, please refer to our 
+
+privacy policy
+
+https://www.tu-darmstadt.de/datenschutzerklaerung
+
+.
+
+ 
+
+[x] essential
+
+Strictly necessary only
+
+ 
+
+[-] usability
+
+ 
+
+Preferences
+
+ 
+
+[-] statistics
+
+ 
+
+Statistics Accept all Save & close
+
+Legal note
+
+https://www.maschinenbau.tu-darmstadt.de/cps/impressum.en.jsp

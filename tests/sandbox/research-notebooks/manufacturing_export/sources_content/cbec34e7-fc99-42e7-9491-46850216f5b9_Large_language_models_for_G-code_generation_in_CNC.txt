@@ -1,0 +1,185 @@
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwLciPwZF1ZpKMjyo29pKvu4Nv8_sFPG30xw8tvdSkiG8G8uCKIwQsOE3EIEaNrpkhQkB5obAtbFUlgyGs_QL0_tt9oqbKpgG8GR479bUaGSWBa8ky8-jrHzwYKv-hnrUREm1DplA=w226-h80-v0
+
+fea241cf-807e-4e56-be8d-2e7b1e7eb098
+
+     
+
+ 
+
+ 
+
+Advances in Production Engineering & Management ISSN 1854-6250 Volume 20 | Number 2 | June 2025 | pp 224–238 Journal home: apem-journal.org https://doi.org/10.14743/apem2025.2.537 Original scientific paper 
+
+  
+
+Large language models for G-code generation in CNC machining: A comparison of ChatGPT-3.5 and ChatGPT-4o 
+
+Šket, K.a,*, Potočnik, D.a, Brezocnik, M.a, Ficko, M.a, Klančnik, S.a aUniversity of Maribor, Faculty of Mechanical Engineering, Maribor, Slovenia   A B S T R A C T  A R T I C L E   I N F O This research explores the viability of producing ISO G-code for 3-axis ma-chining with OpenAI's Chat Generative Pre-Trained Transformer models, particularly ChatGPT-3.5 and the newer GPT-4o. G-code (RS-274-D, ISO 6983) converts human directives into commands that machines can understand, controlling toolpaths, spindle velocities, and feed rates to produce particular aspects of an object. Previously, G-code was generated either by hand or through the use of computer-aided manufacturing (CAM) software along with machine-specific post-processors, both of which may require considerable time and expense. This research aimed to assess the practicality and effec-tiveness of specific large language models (LLMs) in generating G-code. The assessment took place in three distinct phases on a sample component that required 3-axis machining. These phases included: (1) the self-generated production of G-code for the sample component, (2) the examination of the independently generated G-code in the CAM application, and (3) the recogni-tion and justification of mistakes in the G-code. The outcomes indicated vary-ing abilities with promising findings. This method could accelerate and possi-bly enhance manufacturing workflows by decreasing reliance on expensive CAM software and specialized knowledge. 
+
+ Keywords: 
+
+Generative artificial intelligence; Intelligent manufacturing; Large language models (LLM); ChatGPT; CNC machining; G-code programming  
+
+*Corresponding author:  
+
+kristijan.sket@um.si (Šket, K.) 
+
+Article history:  
+
+Received 9 May 2025 Revised 13 June 2025 Accepted 19 June 2025 
+
+ Content from this work may be used under the terms of the Creative Commons Attribution 4.0 International Licence (CC BY 4.0). Any further distribution of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI. 
+
+References [1] Li, B.-H., Hou, B.-C., Yu, W.-T., Lu, X.-B., Yang, C.-W. (2017). Applications of artificial intelligence in intelligent 
+
+manufacturing: A review, Frontiers of Information Technology & Electronic Engineering, Vol. 18, 86-96, doi: 
+
+10.1631/FITEE.1601885. 
+
+[2] Yang, T., Yi, X., Lu, S., Johansson, K.H., Chai, T. (2021). Intelligent manufacturing for the process industry driven 
+
+by industrial artificial intelligence, Engineering, Vol. 7, No. 9, 1224-1230, doi: 10.1016/j.eng.2021.04.023. 
+
+[3] Tao, F., Qi, Q., Liu, A., Kusiak, A. (2018). Data-driven smart manufacturing, Journal of Manufacturing Systems, Vol. 
+
+48, Part C, 157-169, doi: 10.1016/j.jmsy.2018.01.006. 
+
+[4] Davis, J., Edgar, T., Graybill, R., Korambath, P., Schott, B., Swink, D., Wang, J., Wetzel, J. (2015). Smart manufactur-
+
+ing, Annual Review of Chemical and Biomolecular Engineering, Vol. 6, 141-160, doi: 10.1146/annurev-
+
+chembioeng-061114-123255. 
+
+[5] Wan, J., Li, X., Dai, H.-N., Kusiak, A., Martinez-Garcia, M., Li, D. (2021). Artificial-intelligence-driven customized 
+
+manufacturing factory: Key technologies, applications, and challenges, Proceedings of the IEEE, Vol. 109, No. 4, 
+
+377-398, doi: 10.1109/JPROC.2020.3034808. 
+
+[6] Lee, J., Davari, H., Singh, J., Pandhare, V. (2018). Industrial artificial intelligence for industry 4.0-based manufac-
+
+turing systems, Manufacturing Letters, Vol. 18, 20-23, doi: 10.1016/j.mfglet.2018.09.002. 
+
+[7] Yao, X., Zhou, J., Zhang, J., Boer, C.R. (2017). From intelligent manufacturing to smart manufacturing for industry 
+
+4.0 driven by next generation artificial intelligence and further on, In: Proceedings of 2017 5th International Con-ference on Enterprise Systems (ES), Beijing, China, 311-318, doi: 10.1109/ES.2017.58. 
+
+ [8] Heiden, B., Alieksieiev, V., Volk, M., Tonino-Heiden, B. (2021). Framing artificial intelligence (AI) additive manu-
+
+facturing (AM), Procedia Computer Science, Vol. 186, 387-394, doi: 10.1016/j.procs.2021.04.161. 
+
+[9] Rane, N., Choudhary, S., Rane, J. (2024). Intelligent manufacturing through generative artificial intelligence, such 
+
+as ChatGPT or Bard, SSRN Electronic Journal, doi: 10.2139/ssrn.4681747. 
+
+[10] Wang, X., Anwer, N., Dai, Y., Liu, A. (2023). ChatGPT for design, manufacturing, and education, Procedia CIRP, Vol. 
+
+119, 7-14, doi: 10.1016/j.procir.2023.04.001. 
+
+[11] Javaid, M., Haleem, A., Singh, R.P. (2023). A study on ChatGPT for industry 4.0: Background, potentials, challeng-
+
+es, and eventualities, Journal of Economy and Technology, Vol. 1, 127-143, doi: 10.1016/j.ject.2023.08.001. 
+
+[12] Badini, S., Regondi, S., Frontoni, E., Pugliese, R. (2023). Assessing the capabilities of ChatGPT to improve additive 
+
+manufacturing troubleshooting, Advanced Industrial and Engineering Polymer Research, Vol. 6, No. 3, 278-287, 
+
+doi: 10.1016/j.aiepr.2023.03.003. 
+
+[13] Sriwastwa, A., Ravi, P., Emmert, A., Chokshi, S., Kondor, S., Dhal, K., Patel, P., Chepelev, L.L., Rybicki, F.J., Gupta, R. (2023). Generative AI for medical 3D printing: A comparison of ChatGPT outputs to reference standard educa-
+
+tion, 3D Printing in Medicine, Vol. 9, Article No. 21, doi: 10.1186/s41205-023-00186-8. 
+
+[14] Jignasu, A., Marshall, K., Ganapathysubramanian, B., Balu, A., Hegde, C., Krishnamurthy, A. (2023). Towards foun-dational AI models for additive manufacturing: Language models for G-code debugging, manipulation, and com-
+
+prehension, ArXiv, doi: 10.48550/arXiv.2309.02465. 
+
+[15] Thirunavukarasu, A.J., Ting, D.S.J., Elangovan, K., Gutierrez, L., Tan, T.F., Ting, D.S.W. (2023). Large language mod-
+
+els in medicine, Nature Medicine, Vol. 29, 1930-1940, doi: 10.1038/s41591-023-02448-8. 
+
+[16] Dai, W., Lin, J., Jin, H., Li, T., Tsai, Y.-S., Gašević, D., Chen, G. (2023). Can large language models provide feedback to 
+
+students? A case study on ChatGPT, In: Proceedings of 2023 IEEE International Conference on Advanced Learning Technologies (ICALT), Orem, USA, 323-325, doi: 10.1109/ICALT58122.2023.00100. 
+
+[17] Chang, Y., Wang, X., Wang, J., Wu, Y., Yang, L., Zhu, K., Chen, H., Yi, X., Wang, C., Wang, Y., Ye, W., Zhang, Y., Chang, 
+
+Y., Yu, P.S., Yang, Q., Xie, X. (2024). A survey on evaluation of large language models, ACM Transactions on Intelli-gent Systems and Technology, Vol. 15, No. 3, 1-45, doi: 10.1145/3641289. 
+
+[18] Devlin, J., Chang, M.-W., Lee, K., Toutanova, K. (2019). BERT: Pre-training of deep bidirectional transformers for 
+
+language understanding, In: Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Minneapolis, USA, 4171-4186, doi: 10.18653/ 
+
+v1/N19-1423. 
+
+[19] Bouschery, S.G., Blazevic, V., Piller, F.T. (2023). Augmenting human innovation teams with artificial intelligence: 
+
+exploring transformer-based language models, Journal of Product Innovation Management, Vol. 40, No. 2, 139-
+
+153, doi: 10.1111/jpim.12656. 
+
+[20] Pearce, K., Zhan, T., Komanduri, A., Zhan, J. (2021). A comparative study of transformer-based language models 
+
+on extractive question answering, ArXiv, doi: 10.48550/arXiv.2110.03142. 
+
+[21] Kalla, D., Smith, N. (2023). Study and analysis of Chat GPT and its impact on different fields of study, Internation-al Journal of Innovative Science and Research Technology, Vol. 8, No. 3, 827-833, doi: 10.5281/zenodo.7767675. 
+
+[22] Chitsaart, C., Rianmora, S., Rattana-Areeyagon, M., Namjaiprasert, W. (2014). Automatic generating CNC-code for 
+
+milling machine, International Journal of Mechanical, Aerospace, Industrial, Mechatronic and Manufacturing Engi-neering, Vol. 7, No. 12, 2607-2613. 
+
+[23] Zhang, Y., Zeng, Q., Mu, G., Yang, Y., Yan, Y., Song, W. , Gong, Y. (2018). A design for a novel open, intelligent and 
+
+integrated CNC system based on ISO 10303-238 and PMAC, Tehnički Vjesnik – Technical Gazette, Vol. 25, No. 2, 
+
+470-478, doi: 10.17559/TV-20170419111243. 
+
+[24] Gu, Y., Wang, Y., Lin, J., Yuan, X. (2017). Fault location in CNC system software based on the architecture expan-
+
+sion, Tehnički Vjesnik – Technical Gazette, Vol. 24, No. 2, 619-625, doi: 10.17559/TV-20160704190047. 
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwgHm51p9ZWDjAPcFlga2uJhweP5MMRrCKHw6kyVCdMM2NFayAt4TbMHotjGPqH25Xt983H4oqhjM8_oCBc1et-54Dj_Hfkkxs6y3RCFNhIPriCOKV38ooLlCV9mjlS3uuGaGtX=w150-h53-v0
+
+9f9b627c-d805-4eb8-a04f-f61bb16dc8e4
+
+  
+
+ 
+
+  
+
+ 
+
+ 
+
+Advances in Production Engineering & Management ISSN 1854-6250 
+
+Letnik 20 | Številka 2 | Junij 2025 | Strani 224–238 Spletna stran: apem-journal.org 
+
+https://doi.org/10.14743/apem2025.2.537 Izvirni znanstveni članek 
+
+  
+
+Uporaba velikih jezikovnih modelov za generiranje G-kode pri CNC-obdelavi: primerjalna študija modelov ChatGPT-3.5 in ChatGPT-4o  
+
+Šket, K.a,*, Potočnik, D.a, Brezocnik, M.a, Ficko, M.a, Klančnik, S.a 
+
+aUniversity of Maribor, Faculty of Mechanical Engineering, Maribor, Slovenia 
+
+  
+
+P O V Z E T E K  P O D A T K I   O   Č L A N K U 
+
+Ta raziskava preučuje izvedljivost generiranja ISO G-kode pri triosni obdelavi z modeli ChatGPT-3.5 in GPT-4o (angl. Chat Generative Pre-Trained Trans-former) podjetja OpenAI. G-koda (RS-274-D, ISO 6983) pretvarja človeška navodila v strojne ukaze, ki nadzorujejo poti orodja, hitrosti vretena in poda-jalne hitrosti za oblikovanje posameznih značilnosti obdelovanca. Doslej se je G-koda ustvarjala ročno ali z uporabo programske opreme za računalniško podprto izdelavo (CAM) skupaj s postprocesorji, prilagojenimi posameznim strojem, pri čemer oba pristopa zahtevata precej časa in stroškov. Namen te raziskave je bil oceniti praktičnost in učinkovitost izbranih velikih jezikovnih modelov (LLM) pri generiranju G-kode. Ocenjevanje je potekalo v treh ločenih fazah pri vzorčnem obdelovancu za triosno obdelavo: (1) samodejno generi-ranje G-kode za vzorčni obdelovanec, (2) preverjanje neodvisno ustvarjene G-kode v aplikaciji CAM in (3) prepoznavanje ter pojasnjevanje napak v G-kodi. Rezultati so pokazali različno stopnjo uspešnosti in obetavne ugotovitve. Takšen pristop bi lahko pospešil in izboljšal proizvodne procese z zmanjša-njem odvisnosti od dragih CAM-programov in zahtevnega specializiranega znanja. 
+
+Ključne besede: Generativna umetna inteligenca; Pametna proizvodnja; Veliki jezikovni modeli (LLM); ChatGPT; CNC-obdelava; Programiranje G-kode 
+
+*Kontaktna oseba: kristijan.sket@um.si (Šket, K.) 
+
+Zgodovina članka:  Prejet 9. maja 2025 Popravljen 13. junija 2025 Sprejet 19. junija 2025 
+
+ Content from this work may be used under the terms of the Creative Commons Attribution 4.0 International Licence (CC BY 4.0). Any further distribution of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI. 
+
+ 

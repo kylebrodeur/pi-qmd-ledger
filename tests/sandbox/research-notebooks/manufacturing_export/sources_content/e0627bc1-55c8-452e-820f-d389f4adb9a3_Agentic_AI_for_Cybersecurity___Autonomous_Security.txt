@@ -1,0 +1,1633 @@
+Agentic AI for Cybersecurity & Autonomous Security Operations | eSentire 
+
+https://www.esentire.com/
+
+Get Started
+
+https://www.esentire.com/get-started
+
+What We Do
+
+How We Do It
+
+Resources
+
+Company
+
+Partners
+
+Get Started
+
+What we do
+
+How we do it
+
+Resources
+
+Company
+
+Partners
+
+Get Started
+
+https://www.esentire.com/get-started
+
+Back
+
+What We Do
+
+AI-DRIVEN SECURITY OPERATIONS
+
+Atlas Security Operations Platform Task-specific Atlas Agents investigate threats at machine speed with full transparency, expert validation, and explainable outcomes you can trust.
+
+https://www.esentire.com/what-we-do/security-operations-platform
+
+Atlas Extended Detection and Response Open XDR with Agentic AI & machine learning that eliminates noise, enables real-time detection and response, and automatically blocks threats.
+
+https://www.esentire.com/what-we-do/xdr-extended-detection-and-response
+
+Atlas User Experience See what our SOC sees, review investigations, and see how we are protecting your business.
+
+https://www.esentire.com/what-we-do/atlas-user-experience
+
+Atlas Platform Integrations Seamless integrations and threat investigation that adapts to your tools and evolves with your business.
+
+https://www.esentire.com/what-we-do/mdr-and-platform-integrations
+
+EXPERT-VALIDATED DEFENSE
+
+Security Operations Center (SOC) 24/7 SOC-as-a-Service with unlimited threat hunting and incident handling.
+
+https://www.esentire.com/what-we-do/security-operations-center
+
+Threat Response Unit (TRU) Proactive threat intelligence, original threat research and a world-class team of seasoned industry veterans.
+
+https://www.esentire.com/what-we-do/threat-response-unit
+
+Cyber Resilience Team Extend your team capabilities and prevent business disruption with expertise from eSentire.
+
+https://www.esentire.com/what-we-do/cyber-resilience-team
+
+Response and Remediation We balance automated blocks with rapid human-led investigations to manage threats.
+
+https://www.esentire.com/what-we-do/esentire-managed-detection-and-response/response-and-remediation
+
+ESENTIRE SERVICES
+
+Managed Detection and Response Combine AI-driven security operations, multi-signal attack surface coverage and 24/7 Elite Threat Hunters to help you take your security program to the next level.
+
+https://www.esentire.com/what-we-do/esentire-managed-detection-and-response
+
+All-in-One eSentire MDR
+
+https://www.esentire.com/what-we-do/esentire-managed-detection-and-response
+
+ 
+
+MDR for Microsoft
+
+https://www.esentire.com/what-we-do/esentire-managed-detection-and-response/microsoft-mdr
+
+Digital Forensics and Incident Response Get unlimited Incident Response with threat suppression guarantee - anytime, anywhere.
+
+https://www.esentire.com/what-we-do/digital-forensics-and-incident-response
+
+Continuous Threat Exposure Management (CTEM) CTEM and advisory programs that identify security gaps and build proactive strategies to address them.
+
+https://www.esentire.com/what-we-do/exposure-vulnerability-and-risk-management
+
+Back
+
+How We Do It
+
+MDR Packages and 24/7 Protection 
+
+https://www.esentire.com/how-we-do-it/mdr-pricing-packaging
+
+MDR Pricing and Packages Flexible MDR pricing and packages that fit your unique security requirements.
+
+https://www.esentire.com/how-we-do-it/mdr-pricing-packaging
+
+Atlas Essentials Entry level foundational MDR coverage
+
+https://www.esentire.com/how-we-do-it/mdr-pricing-packaging#Packages
+
+Atlas Advanced Comprehensive Next Level eSentire MDR
+
+https://www.esentire.com/how-we-do-it/mdr-pricing-packaging#Packages
+
+Atlas Complete Next Level eSentire MDR with Cyber Risk Advisors to continuously advance your security program
+
+https://www.esentire.com/how-we-do-it/mdr-pricing-packaging#Packages
+
+Explore MDR Packages →
+
+https://www.esentire.com/how-we-do-it/mdr-pricing-packaging#Packages
+
+ 
+
+Build Your MDR Package →
+
+https://www.esentire.com/how-we-do-it/mdr-pricing-packaging#PPLTool
+
+24/7 Coverage
+
+Endpoint
+
+https://www.esentire.com/how-we-do-it/signals/mdr-for-endpoint
+
+Network
+
+https://www.esentire.com/how-we-do-it/signals/mdr-for-network
+
+Log
+
+https://www.esentire.com/how-we-do-it/signals/mdr-for-log
+
+Cloud
+
+https://www.esentire.com/how-we-do-it/signals/cloud
+
+Identity
+
+https://www.esentire.com/how-we-do-it/signals/identity
+
+INDUSTRIES
+
+Insurance
+
+https://www.esentire.com/how-we-do-it/industries/insurance-cybersecurity
+
+ 
+
+Construction
+
+https://www.esentire.com/how-we-do-it/industries/construction-cybersecurity
+
+ 
+
+Finance
+
+https://www.esentire.com/how-we-do-it/industries/financial-services-cybersecurity
+
+ 
+
+Legal
+
+https://www.esentire.com/how-we-do-it/industries/legal-cybersecurity
+
+ 
+
+Manufacturing
+
+https://www.esentire.com/how-we-do-it/industries/manufacturing-cybersecurity
+
+ 
+
+Private Equity
+
+https://www.esentire.com/how-we-do-it/industries/private-equity-cybersecurity
+
+ 
+
+Healthcare
+
+https://www.esentire.com/how-we-do-it/industries/healthcare-cybersecurity
+
+ 
+
+Retail
+
+https://www.esentire.com/how-we-do-it/industries/retail-cybersecurity
+
+ 
+
+Food Supply
+
+https://www.esentire.com/how-we-do-it/industries/food-supply-cybersecurity
+
+ 
+
+Government and Education
+
+https://www.esentire.com/how-we-do-it/industries/state-local-governments-cybersecurity
+
+ 
+
+Automotive Dealerships
+
+https://www.esentire.com/how-we-do-it/industries/automotive-dealerships
+
+USE CASES
+
+Ransomware Stop ransomware before it spreads.
+
+https://www.esentire.com/how-we-do-it/use-cases/ransomware
+
+Identity Response Stop identity-based cyberattacks.
+
+https://www.esentire.com/how-we-do-it/use-cases/identity-threat-detection-and-response
+
+Zero Day Attacks Detect and respond to zero-day exploits.
+
+https://www.esentire.com/how-we-do-it/use-cases/zero-day-exploits
+
+Cybersecurity Compliance Meet regulatory compliance mandates.
+
+https://www.esentire.com/how-we-do-it/use-cases/cybersecurity-compliance
+
+Third-Party Risk Defend third-party and supply chain risk.
+
+https://www.esentire.com/how-we-do-it/use-cases/third-party-cyber-risk
+
+Cloud Misconfiguration End misconfigurations and policy violations.
+
+https://www.esentire.com/how-we-do-it/use-cases/cloud-misconfiguration-breaches
+
+Cyber Risk Adopt a risk-based security approach.
+
+https://www.esentire.com/how-we-do-it/use-cases/cyber-risk-management
+
+Mid-Market Security Mid-market security essentials to prioritize.
+
+https://www.esentire.com/how-we-do-it/use-cases/mid-market-security
+
+Sensitive Data Security Protect your most sensitive data.
+
+https://www.esentire.com/how-we-do-it/use-cases/sensitive-data
+
+Cyber Insurance Meet insurability requirements with MDR.
+
+https://www.esentire.com/how-we-do-it/use-cases/meet-cyber-insurance-requirements
+
+Cyber Threat Intelligence Operationalize cyber threat intelligence.
+
+https://www.esentire.com/how-we-do-it/use-cases/cyber-threat-intelligence
+
+Security Leadership Build a proven security program.
+
+https://www.esentire.com/how-we-do-it/use-cases/security-leadership
+
+Back
+
+Resources
+
+Resources
+
+Resource Library
+
+https://www.esentire.com/resources/library
+
+ 
+
+Video Library
+
+https://www.esentire.com/resources/video-library
+
+ 
+
+Case Studies
+
+https://www.esentire.com/resources/mdr-and-cybersecurity-case-studies
+
+ 
+
+Compare MDR Vendors
+
+https://www.esentire.com/esentire-mdr-vs-everyone/compare
+
+ 
+
+TRU Intelligence Center
+
+https://www.esentire.com/resources/tru-intelligence-center
+
+ 
+
+Monthly Threat Intelligence Briefings
+
+https://www.esentire.com/resources/monthly-threat-intelligence-briefings
+
+ 
+
+Cybersecurity Tools
+
+https://www.esentire.com/cybersecurity-tools
+
+ 
+
+Cybersecurity Glossary
+
+https://www.esentire.com/cybersecurity-fundamentals-defined
+
+ 
+
+Real vs. Fake MDR
+
+https://www.esentire.com/esentire-mdr-vs-everyone
+
+ 
+
+Blogs
+
+https://www.esentire.com/resources/blog
+
+ 
+
+Security Advisories
+
+https://www.esentire.com/resources/security-advisories
+
+SECURITY ADVISORIES
+
+Mar 31, 2026 Axios npm Packages Compromised On March 31st, 2026, threat actors compromised the Axios npm (Node Package Manager) package, publishing two malicious versions, 1.14.1 and 0.30.4, to the npm registry. This supply chain… Read More
+
+https://www.esentire.com/security-advisories/axios-npm-packages-compromised
+
+Mar 30, 2026 F5 BIG-IP APM Flaw CVE-2025-53521 Exploited in the Wild On March 27th, 2026, F5 confirmed exploitation of a previously known vulnerability in its BIG-IP Access Policy Manager (APM) versions. The flaw, tracked as CVE-2025-53521 (CVSS: 9.3),… Read More
+
+https://www.esentire.com/security-advisories/f5-big-ip-apm-flaw-cve-2025-53521-exploited-in-the-wild
+
+View Advisories
+
+https://www.esentire.com/resources/security-advisories
+
+From The Blog
+
+Apr 01, 2026 Tycoon 2FA Infrastructure Update: Threat Actors Adapt Following Global… Read More
+
+https://www.esentire.com/blog/tycoon-2fa-infrastructure-update-threat-actors-adapt-following-global-coalition-takedown
+
+Mar 25, 2026 EtherRAT & SYS_INFO Module: C2 on Ethereum (EtherHiding), Target… Read More
+
+https://www.esentire.com/blog/etherrat-sys-info-module-c2-on-ethereum-etherhiding-target-selection-cdn-like-beacons
+
+Mar 25, 2026 How eSentire Runs Expert-level Threat Investigations at Scale with Claude Read More
+
+https://www.esentire.com/blog/how-esentire-runs-expert-level-threat-investigations-at-scale-with-claude
+
+VIEW ARTICLES
+
+https://www.esentire.com/resources/blog
+
+Back
+
+Company
+
+ABOUT ESENTIRE
+
+eSentire is The Authority in Managed Detection and Response Services, protecting the critical data and applications of 2000+ organizations in 80+ countries from known and unknown cyber threats. Founded in 2001, the company's mission is to hunt, investigate and stop cyber threats before they become business disrupting events.
+
+About Us
+
+https://www.esentire.com/company/about-us
+
+ 
+
+Leadership
+
+https://www.esentire.com/company/leadership
+
+ 
+
+Careers
+
+https://www.esentire.com/company/careers
+
+ 
+
+Event Calendar →
+
+https://www.esentire.com/company/event-calendar
+
+ 
+
+Newsroom →
+
+https://www.esentire.com/company/newsroom
+
+ 
+
+Aston Villa Football Club →
+
+https://www.esentire.com/company/aston-villa-football-club-partnership
+
+EVENT CALENDAR
+
+Apr
+
+14
+
+April TRU Intelligence Briefing
+
+Apr
+
+15
+
+Philadelphia Cybersecurity Summit
+
+Apr
+
+23
+
+Aston Villa CISO Round Table
+
+May
+
+07
+
+Seattle FutureCon
+
+May
+
+12
+
+May TRU Intelligence Briefing
+
+View Calendar →
+
+https://www.esentire.com/company/event-calendar
+
+LATEST PRESS RELEASE
+
+Mar 19, 2026 eSentire Appoints Cybersecurity Industry Veteran James C. Foster as Chief Executive Officer Read More
+
+https://www.esentire.com/news-releases/esentire-appoints-cybersecurity-industry-veteran-james-c-foster-as-chief-executive-officer
+
+View Newsroom →
+
+https://www.esentire.com/company/newsroom
+
+OUR PARTNERSHIPS
+
+Aston Villa Football Club AVFC takes its cyber protection to the Next Level with eSentire as its official cybersecurity partner. Learn More
+
+https://www.esentire.com/company/aston-villa-football-club-partnership
+
+Back
+
+Partners
+
+PARTNER PROGRAM
+
+We provide sophisticated cybersecurity solutions for Managed Security Service Providers (MSSPs), Managed Service Providers (MSPs), and Value-Added Resellers (VARs). Find out why you should partner with eSentire, the Authority in Managed Detection and Response, today.
+
+LEARN MORE →
+
+https://www.esentire.com/partners
+
+Apply to become an e3 ecosystem partner with eSentire today.
+
+https://www.esentire.com/partners/become-a-partner
+
+APPLY NOW →
+
+https://www.esentire.com/partners/become-a-partner
+
+Sign in to the Partner Portal to access exclusive resources, campaigns, training, sales tools, and support.
+
+https://partner.esentire.com/#/page/login
+
+LOGIN NOW →
+
+https://partner.esentire.com/#/page/login
+
+Back
+
+Search
+
+Search our site
+
+ 
+
+Search
+
+Quick Links
+
+ALL-IN-ONE ESENTIRE MDR → Multi-Signal MDR with 300+ technology integrations to support your existing investments.
+
+https://www.esentire.com/what-we-do/esentire-managed-detection-and-response
+
+24/7 SOC SUPPORT → 24/7 SOC-as-a-Service with unlimited threat hunting and incident handling.
+
+https://www.esentire.com/what-we-do/security-operations-center
+
+MDR PRICING AND PACKAGES → We offer three flexible MDR pricing packages that can be customized to your unique needs.
+
+https://www.esentire.com/how-we-do-it/mdr-pricing-packaging
+
+TRU INTELLIGENCE CENTER → The latest security advisories, blogs, reports, industry publications and webinars published by TRU.
+
+https://www.esentire.com/resources/tru-intelligence-center
+
+MDR VENDOR COMPARISONS → Compare eSentire to other Managed Detection and Response vendors to see how we stack up against the competition.
+
+https://www.esentire.com/esentire-mdr-vs-everyone/compare
+
+MDR CASE STUDIES → See why 2000+ organizations globally have chosen eSentire for their MDR Solution.
+
+https://www.esentire.com/resources/mdr-and-cybersecurity-case-studies
+
+Back
+
+Get Started
+
+Get Started
+
+https://www.esentire.com/get-started
+
+Build A Quote
+
+https://www.esentire.com/build-a-quote
+
+Become A Partner
+
+https://www.esentire.com/partners/become-a-partner
+
+Breached? Call Us Now
+
+tel:1-866-579-2200
+
+Home
+
+https://www.esentire.com/
+
+ 
+
+Resources
+
+https://www.esentire.com/resources
+
+ AI Cybersecurity
+
+AI Cybersecurity
+
+Agentic AI in Cybersecurity: The Future of AI-Powered, Human-Led Security Operations
+
+Date Updated: February 18, 2026
+
+|
+
+5 MIN READ
+
+What Is Agentic AI for Cybersecurity?
+
+Agentic AI in cybersecurity refers to AI systems that can plan, decide, and take actions across security workflows, not just generate insights or recommendations. Unlike traditional AI that performs single-task pattern recognition or generative AI that responds to prompts, agentic AI pursues specific goals through multi-step reasoning, autonomous tool use, and adaptive decision-making.
+
+Think of it this way: traditional detection AI flags a suspicious login. Generative AI summarizes the alert for a 
+
+Security Operations Centre (SOC) Analyst
+
+https://www.esentire.com/what-we-do/security-operations-center
+
+. However, agentic AI investigates the login by querying identity logs, correlating endpoint telemetry, cross-referencing threat intelligence, determining if remediation is needed, and executing containment – all within seconds and with full transparency into its reasoning.
+
+Why It Matters Now
+
+New threat research from 
+
+eSentire's Threat Response Unit (TRU)
+
+https://www.esentire.com/what-we-do/threat-response-unit
+
+ states that if threat actors use valid credentials, it only takes 14 minutes to begin active exploitation. This means SOC Analysts physically cannot investigate thousands of alerts daily at the speed required to keep up with the cyberattacks at scale.
+
+There are three converging forces make agentic AI essential for modern security operations:
+
+Speed of cyberattacks has outpaced human response capabilities
+
+Tool sprawl has created complexity without clarity; organizations have multiple tools
+
+Alert fatigue is leading to increasing numbers of SOC Analysts burning out, which may then increase security failures
+
+The Key Distinction: Augmentation, Not Replacement
+
+Here's what's critical to understand: 
+
+agentic AI augments human SOC Analysts by executing bounded actions; it does not replace human accountability.
+
+ The most effective implementations establish clear governance around which decisions AI can make autonomously, which require human approval, and where human judgment remains essential.
+
+Organizations that chase "fully autonomous" security without proper oversight are exposing themselves to new attack surfaces and governance failures.
+
+In this guide, we explore what makes agentic AI different, where it delivers genuine value in the SOC, the security risks every CISO must address, and why the most effective approach combines AI-first speed with human-backed trust.
+
+How Agentic AI Differs from Traditional Security AI
+
+The cybersecurity industry has experienced multiple waves of AI adoption, each building on the last but serving fundamentally different purposes. Understanding these distinctions is critical to cutting through vendor hype and identifying genuine agentic capabilities.
+
+Rules-Based Automation vs. Generative AI vs. Agentic AI
+
+Rules-based automation (SOAR platforms)
+
+ executes predefined playbooks deterministically.
+
+If alert type = X and severity = high, then run playbook Y.
+
+However, these systems break when scenarios don't match expected patterns, require constant manual tuning, and lack the ability to adapt to novel situations.
+
+Traditional security AI (machine learning)
+
+ performs single-task pattern recognition.
+
+ML models excel at detecting anomalies in network traffic, identifying malicious file behavior, or spotting credential misuse.
+
+But they stop at threat detection; they flag the threat and hand it to a human for investigation and response.
+
+Generative AI assistants
+
+ respond to analyst prompts with summaries, recommendations, or investigation guidance.
+
+They help SOC Analysts work faster by synthesizing information, drafting reports, or suggesting next steps.
+
+But they remain reactive; they assist with tasks rather than pursue goals autonomously.
+
+Agentic AI
+
+ combines reasoning, planning, and action.
+
+Given a goal like "investigate this credential theft alert," an agentic system decides which data sources to query, determines what additional evidence is needed, cross-references findings with threat intelligence, formulates a hypothesis about attacker intent, and recommends or executes containment, all while maintaining context across multiple steps.
+
+Therefore, the architectural difference is fundamental. Agentic AI exhibits:
+
+Goal-directed behavior:
+
+ Pursuing an objective like "determine if this is a true positive and contain if necessary"
+
+Multi-step reasoning:
+
+ Breaking complex investigations into subtasks and iterating based on findings
+
+Tool use:
+
+ Actively calling APIs, querying SIEMs, enriching data from threat feeds, updating tickets
+
+Persistent memory:
+
+ Retaining context across investigation steps and learning from analyst feedback
+
+Adaptive execution:
+
+ Adjusting investigative approach when initial hypotheses prove incorrect
+
+Why "Autonomy" Is Often Misunderstood in Security
+
+The biggest misconception plaguing agentic AI adoption is that 
+
+autonomy does not mean unsupervised decision-making.
+
+An AI agent might have high agency (i.e., ability to perform many actions like isolating endpoints, blocking IPs, or disabling accounts) but low autonomy (i.e., requiring human approval for each action). On the other hand, it might have low agency (i.e., only allowed to enrich alerts and generate investigation reports) but high autonomy (i.e., executing these tasks without human review).
+
+The most effective security implementations establish 
+
+bounded autonomy
+
+, meaning clear definitions of which decisions fall within the agent's authority, and which require human approval. For example:
+
+High-confidence, low-impact actions
+
+ (blocking known-malicious IPs, quarantining obvious phishing emails): Autonomous execution with post-action notification
+
+Medium-confidence actions
+
+ (isolating a potentially compromised endpoint): Agent recommends, analyst approves in seconds via mobile alert
+
+High-impact actions
+
+ (disabling executive accounts, shutting down production systems): Always require human authorization with full context review
+
+The Role of Guardrails, Confidence Thresholds, and Analyst-in-the-Loop Models
+
+Effective agentic AI implementations rely on multiple layers of control:
+
+Confidence thresholds
+
+ ensure AI agents automatically escalate to humans when certainty drops below defined levels.
+
+Policy engines
+
+ enforce organizational rules at runtime. An AI agent may determine that quarantining a laptop is the optimal response, but policy dictates that C-suite devices require CISO approval for containment actions. The agent respects this boundary automatically.
+
+Scope boundaries
+
+ define which systems, data sources, and actions agents can access through least-privilege principles. For example, investigation agents can read security telemetry but cannot modify production systems.
+
+Approval gates
+
+ require explicit human sign-off for predefined action categories.
+
+Learn more about how eSentire thinks about 
+
+AI augmentation vs. automation in security operations
+
+https://www.esentire.com/blog/how-ai-can-reshape-security-operations-through-augmentation-not-automation
+
+.
+
+What Makes Agentic AI Security-Grade (and What Doesn't)
+
+Core Capabilities Required for Security Use
+
+Expert-data training
+
+ is the foundational requirement. Generic large language models (LLMs) trained on public internet data lack the domain-specific knowledge required for security decision-making.
+
+Security-grade agentic AI must be trained on real analyst investigations, validated incident responses, and curated threat intelligence. Without this, agents produce unreliable outputs that erode analyst trust.
+
+Multi-source integration and contextual reasoning
+
+ separate true agents from chatbots. Security-grade agents must correlate signals across identity systems, endpoint telemetry, network traffic, cloud infrastructure, and threat intelligence simultaneously, which humans cannot do at volume and speed.
+
+They must understand that a failed login from an unusual location might be benign if the user recently submitted a travel request, or highly suspicious if it coincides with credential exposure in a dark web breach database.
+
+Explainability and audit trails
+
+ are non-negotiable in security. Every agent decision must include a transparent record of evidence collected, reasoning applied, and actions taken. Black-box recommendations that cannot be validated or challenged are unacceptable in high-stakes security operations.
+
+Continuous feedback loops with human experts
+
+ prevent agent accuracy from drifting over time. The strongest implementations capture analyst corrections, feed them back into training pipelines, and continuously improve agent performance based on real-world outcomes.
+
+Why Many "Agentic" Claims Fall Short
+
+The industry is experiencing widespread 
+
+AI washing
+
+; that is, exaggerating or falsely claiming AI capabilities. Common red flags include:
+
+Vague "AI-powered" marketing
+
+ without specifying what AI technology is actually used or what tasks it automates
+
+SOAR rebranded with an LLM wrapper
+
+ where the underlying system still requires manual playbook creation and rule tuning
+
+No demonstrable accuracy metrics
+
+ or independent validation of agent performance
+
+Lack of explainability mechanisms
+
+ or audit trails for agent decisions
+
+Generic capabilities that work across industries
+
+ rather than purpose-built for security operations
+
+Many vendor "agentic AI" offerings follow the same pattern; that is, adding conversational interfaces to existing automation without fundamentally changing decision-making capabilities.
+
+Agentic AI Use Cases in a Modern SOC
+
+Threat Detection and Signal Prioritization
+
+In traditional SOCs, Analysts triage alerts using severity scoring and basic correlation rules. Agentic AI changes this by evaluating alerts using 
+
+contextual reasoning
+
+ that accounts for asset criticality, user behavior baselines, threat actor TTPs, and organizational risk tolerance simultaneously.
+
+The key advancement is adaptive reasoning rather than static rules. Instead of "if severity = critical, then escalate," agents evaluate whether this particular critical alert warrants immediate attention given current context.
+
+In other words, has this host recently been patched? Is the user account active? Does the behavior match known threat campaigns? Should this wait until business hours or wake the on-call analyst?
+
+Threat Investigation and Triage
+
+Once a potential threat is identified, agentic AI can conduct cyber threat investigations that previously required hours of Analysts' time. Agents autonomously collect IOCs, enrich data from threat intelligence feeds, correlate with historical incidents, analyze malware samples, and draft structured investigation reports – all within minutes.
+
+For example, 
+
+eSentire's Atlas AI Security Operations Platform
+
+https://www.esentire.com/what-we-do/security-operations-platform
+
+ comprehensive threat investigation reports in minutes, achieving what previously took expert Analysts 5+ hours — now completed in under 7 minutes.
+
+Guided and Semi-Autonomous Response
+
+The most advanced implementations move beyond detection and investigation into response execution with appropriate human oversight. Organizations implement tiered response models where the AI agent's autonomy scales with action risk and confidence:
+
+High-confidence, low-impact actions execute autonomously:
+
+ blocking connections to known-malicious infrastructure, quarantining phishing emails, revoking compromised API tokens.
+
+Medium-confidence or medium-impact actions trigger human-in-the-loop approval:
+
+ isolating potentially compromised endpoints, disabling user accounts, blocking domains with limited threat intelligence. Agents present evidence and recommendations, analysts approve via mobile notification in seconds.
+
+High-impact actions
+
+ 
+
+require full human control:
+
+ shutting down production systems, wiping devices, modifying security policies.
+
+Continuous Security Posture Improvement
+
+Beyond IR, agentic AI improves security posture through continuous learning and detection tuning. Agents analyze investigation outcomes, identify patterns in false positives, recommend detection rule improvements, and close feedback loops that previously required weeks of manual analysis.
+
+The shift is from static detection rules that require manual tuning every time they generate false positives to systems that learn which environmental patterns should suppress alerts, which asset categories warrant different thresholds, and how to balance detection sensitivity with Analyst workload.
+
+Learn how eSentire's Atlas AI Security Operations Platform and see how AI accelerates SOC investigation outcomes.
+
+The Agentic AI Security Risks (and How CISOs Should Address Them)
+
+While agentic AI offers transformative capabilities, it also introduces critical security risks that CISOs must proactively address. Understanding these Agentic AI security risks is as important as understanding the benefits.
+
+Model Context Protocol and Prompt Injection Risks
+
+Prompt injection has emerged as the 
+
+#1 vulnerability in the OWASP 2025 Top 10 for LLM Applications
+
+https://www.esentire.com/blog/model-context-protocol-security-critical-vulnerabilities-every-ciso-should-address-in-2025
+
+, appearing in over 73% of production AI deployments during security audits.
+
+The attack vector is straightforward: attackers inject malicious instructions into data sources that AI agents consume during operations:
+
+In 
+
+direct prompt injection
+
+, attackers explicitly enter commands to override agent behavior.
+
+In 
+
+indirect prompt injection
+
+, malicious instructions are embedded in documents, emails, web pages, or database records that agents process during normal investigations.
+
+The security implications for agentic SOC deployments are severe. An attacker who can inject instructions into threat intelligence feeds, security documentation, or investigation notes could cause agents to misclassify threats, suppress critical alerts, or execute unauthorized actions.
+
+Supply Chain and Third-Party AI Risk
+
+Supply chain attacks have grown significantly in recent years and attackers are continuing to use trusted relationships to exploit organizations. In fact, based on 
+
+threat research
+
+https://www.esentire.com/resources/library/esentire-2026-annual-cyber-threat-report
+
+ from eSentire's Threat Response Unit (TRU), supply chain and trusted relationships attacks demonstrated 85% intrusion ratio.
+
+When AI models and agents enter the equation, supply chain risks multiply.
+
+Model poisoning attacks
+
+ compromise AI training data or model weights to introduce backdoors or bias behavior. In security operations, a poisoned model could learn to ignore specific attack patterns or misclassify certain threat indicators.
+
+Malicious AI packages
+
+ circulate on platforms like GitHub, Hugging Face, and npm registries. Attackers contribute legitimate code to build trust before injecting malicious functionality or backdoors. Organizations often consume these models or components without adequate security vetting.
+
+Third-party model dependencies
+
+ create opaque risk. Many agentic AI platforms integrate large language models from multiple providers. Security teams often lack visibility into these models' training data, security controls, or vulnerability status.
+
+Model Context Protocol Security Vulnerabilities
+
+The Model Context Protocol (MCP), introduced by Anthropic in November 2024, is rapidly becoming the standard for connecting AI agents to tools and data sources. However, MCP was not designed with security-first principles, creating critical vulnerabilities.
+
+There have been five critical attack vectors identified associated with MCPs:
+
+Hidden instructions in tool descriptions
+
+ allowing prompt injection through MCP server metadata
+
+Tool shadowing and impersonation
+
+ where malicious servers mimic legitimate tools
+
+Excessive agency
+
+ where agents receive overly broad permissions from MCP servers
+
+Data exfiltration through legitimate channels
+
+ bypassing DLP systems
+
+Rugpull attacks
+
+ where MCP server behavior changes after initial approval
+
+The fundamental security flaw is that MCP enables AI agents to call external services with minimal oversight. An agent investigating an alert might query a compromised MCP server that injects malicious instructions or exfiltrates investigation data.
+
+To learn more about Model Context Protocols, and the MCP vulnerabilities every CISO should address, 
+
+read the full blog
+
+https://www.esentire.com/blog/model-context-protocol-security-critical-vulnerabilities-every-ciso-should-address-in-2025
+
+.
+
+Agentic AI and the Human SOC Analyst: A New Operating Model
+
+The most persistent question around agentic AI adoption is: what happens to human Analysts? The answer is clear: 
+
+AI augments and elevates analysts, it does not replace them.
+
+From Alert Takers to Decision Owners
+
+Traditional SOC Analysts spend most of their time as "alert takers"; in other words, they're consuming tickets, executing runbooks, copy-pasting data between tools, and drowning in repetitive triage work.
+
+Agentic AI eliminates this manual work by handling the repetitive investigative heavy lifting – that is, collecting telemetry, enriching indicators, correlating timelines, querying threat intelligence, documenting findings, etc.
+
+This shifts the Analysts to performing higher-value work:
+
+Threat hunting:
+
+ Proactively searching for hidden threats using hypothesis-driven investigations
+
+Detection engineering:
+
+ Tuning AI models and refining detection logic based on environmental patterns
+
+Strategic incident response:
+
+ Managing complex investigations requiring business context and stakeholder coordination
+
+AI training and validation:
+
+ Fine-tuning agent behavior and validating agent decisions
+
+Incident command:
+
+ Leading breach response and crisis communications
+
+As a result, SOC Analysts now become more strategic, more senior, and more valuable.
+
+Where Human Judgment Remains Essential
+
+Despite AI's capabilities, certain tasks require human judgment and remain irreplaceable:
+
+Business context and risk tolerance:
+
+ AI cannot determine whether isolating a system during peak business hours is acceptable, whether to escalate a potential breach to executives immediately or wait for more evidence, or how organizational politics and ongoing initiatives influence security decisions.
+
+Novel and zero-day threats:
+
+ AI trained on historical data struggles with genuinely novel attack patterns. Human analysts excel at recognizing when something "feels wrong" even if it doesn't match known indicators.
+
+Ethical and legal implications:
+
+ High-stakes decisions like suspending user accounts, reporting breaches to regulators, or involving law enforcement require human judgment on ethical, legal, and reputational considerations.
+
+Adversary intent analysis:
+
+ Understanding attacker motivation, predicting next moves in an ongoing campaign, and recognizing social engineering tactics require human intuition.
+
+Crisis communications:
+
+ Managing stakeholder relationships during active incidents, briefing executives, coordinating with legal and PR teams, and external communications require human judgment and emotional intelligence.
+
+Cross-team collaboration:
+
+ Security decisions often span organizational boundaries. Coordinating response actions that impact business operations, negotiating remediation timelines with IT teams, and building security culture all require human skills.
+
+The 
+
+2025 Gartner® Market Guide for Managed Detection and Response
+
+https://www.esentire.com/resources/library/2025-gartner-market-guide-for-managed-detection-and-response-services
+
+ report emphasizes that "Turnkey, human-delivered threat detection, investigation, and response capabilities are a core requirement for buyers of MDR services."
+
+The emphasis on "human-delivered" is deliberate; AI enhances MDR, it does not replace the human-led service model.
+
+REPORT
+
+2025 Gartner® Market Guide for Managed Detection and Response
+
+Download Now
+
+https://www.esentire.com/resources/library/2025-gartner-market-guide-for-managed-detection-and-response-services
+
+How Agentic AI Fits into MDR and 24/7 Security Operations
+
+For most organizations, agentic AI delivers maximum value when deployed within a 
+
+Managed Detection and Response (MDR)
+
+https://www.esentire.com/cybersecurity-fundamentals-defined/glossary/what-is-managed-detection-and-response-mdr
+
+ framework rather than as standalone technology due to:
+
+Continuous human oversight:
+
+ MDR provides 24/7 coverage ensuring AI agents operate under constant supervision.
+
+Contextual knowledge:
+
+ Human SOC Analysts, as part of the MDR service offering, develop deep understanding of customer environments, risk tolerances, and business operations. This context is essential for validating AI decisions and ensuring automated actions align with organizational priorities.
+
+Accountability and SLAs:
+
+ MDR providers maintain clear accountability for security outcomes (i.e., response times, escalation procedures, etc.) regardless of whether AI or humans performed the investigation.
+
+Continuous improvement:
+
+ MDR operates as a managed service where AI models are continuously trained on combined intelligence from multiple customer environments, creating Security Network Effects so lessons learned from one customer's incident improve outcomes for all customers.
+
+Tool orchestration complexity:
+
+ Integrating agentic AI with existing security infrastructure requires significant engineering effort. MDR providers invest in these integrations centrally, allowing customers to benefit without building and maintaining complex toolchains.
+
+What to Ask MDR Providers About Agentic AI
+
+Gartner predicts
+
+https://www.gartner.com/en/newsroom/press-releases/2024-03-11-gartner-predicts-one-third-of-interactions-with-genai-services-will-use-action-models-and-autonomous-agents-for-task-completion-by-2028
+
+ that by 2028, nearly 33% of all interactions with GenAI services will “use action models and autonomous agents for task completion”.
+
+For security leaders, the challenge isn't just identifying which vendors have AI; it's determining which ones are truly using it to deliver faster, more accurate, and more secure outcomes today.
+
+Therefore, security leaders evaluating MDR providers should ask pointed questions about AI capabilities and governance:
+
+Is your AI system fully operational, or still in beta? What is your roadmap, and how is AI being applied across detection and investigation today?
+
+What actions can your Agentic AI take autonomously, which require human approval, and how are these limitations visible and controllable from anywhere (e.g., mobile app)?
+
+How do you quantify and communicate the effectiveness and ROI of your Agentic AI beyond anecdotal claims?
+
+How does your solution enable collaborative response between our internal teams and your analysts?
+
+GUIDE
+
+AI Fact or Fiction: 10 Questions to Ask MDR Providers About AI Capabilities
+
+Read Now
+
+https://www.esentire.com/resources/library/ai-fact-or-fiction-10-questions-to-ask-mdr-providers-about-ai-capabilities
+
+Preparing Your Organization for Agentic AI Adoption
+
+At any organization, successfully deploying agentic AI requires organizational readiness across governance, technology, and culture dimensions. In order to establish a proper foundation for AI governance in cybersecurity, organizations should keep the following top of mind:
+
+Risk tolerance definitions
+
+ establish boundaries for AI autonomy. Organizations must define which security actions are low-risk (autonomous execution acceptable), medium-risk (human approval required), and high-risk (always requires senior analyst or CISO sign-off).
+
+Approval models
+
+ specify workflows for different action categories. High-confidence phishing blocks might auto-execute with post-action notification. Endpoint isolation might trigger analyst approval via mobile alert. Production system shutdowns always require CISO authorization.
+
+Regulatory considerations
+
+ vary by industry and geography. The EU AI Act classifies cybersecurity AI as high-risk, requiring human oversight mechanisms, audit trails, and transparency documentation.
+
+GUIDE
+
+AI Readiness Guide for CISO-Led AI Transformation
+
+Read Now
+
+https://www.esentire.com/resources/library/ciso-led-ai-transformation-readiness-guide
+
+The Path Forward: AI-First Security, Human-Backed Trust
+
+The strongest position for security operations in 2025 and beyond is 
+
+AI-first for speed and scale, human-backed for trust and accountability.
+
+ This model delivers the machine speed required to match modern attacks while maintaining the human oversight necessary to manage AI risks, validate critical decisions, and ensure security outcomes align with organizational priorities.
+
+As you evaluate agentic AI capabilities and MDR providers, look for:
+
+Transparent AI that explains its reasoning and shows its work
+
+Clear governance defining agent autonomy boundaries
+
+Continuous human oversight, not unconstrained automation
+
+Proven accuracy metrics validated by independent assessment
+
+Learning systems that improve through feedback loops
+
+Accountability models that clarify who owns security outcomes
+
+The future of security operations is not AI-only, and it cannot remain human-only. It's the intelligent combination of both – leveraging AI for what it does best (speed, scale, consistency) while preserving human judgment where it remains essential (context, ethics, strategy, accountability).
+
+Organizations that embrace this balanced approach will be best positioned to defend against modern threats while building sustainable, effective security operations for the long term.
+
+eSentire Atlas Security Operations Platform
+
+Our Atlas Security Operations Platform deploys specialized agent teams to stop attacks at scale by creating a one-to-many security network effect, with complete transparency and expert validation. We give security leaders both the performance of AI-driven SecOps automation and the confidence of proven, explainable outcomes.
+
+Learn More
+
+https://www.esentire.com/what-we-do/security-operations-platform
+
+Cookies allow us to deliver the best possible experience for you on our website - by continuing to use our website or by closing this box, you are consenting to our use of cookies. Visit our 
+
+Privacy Policy
+
+https://www.esentire.com/legal/privacy-policy
+
+ to learn more.
+
+Accept
+
+https://www.esentire.com/resources/agentic-ai-in-cybersecurity
+
+ARE YOU EXPERIENCING A SECURITY INCIDENT OR HAVE YOU BEEN BREACHED?
+
+Call 1-866-579-2200
+
+tel:1-866-579-2200
+
+The Proven Choice for
+
+Managed Detection and Response
+
+GET STARTED →
+
+https://www.esentire.com/get-started
+
+ 
+
+PARTNER LOGIN →
+
+https://partner.esentire.com/#/page/login
+
+Sales and
+
+Customer Support
+
+NORTH AMERICA 1-866-579-2200
+
+tel:1-866-579-2200
+
+ [EMEA (0)8000-443242](tel:+44(0)8000 443242) [ANZ/APAC 1-519-651-2200](tel:+1 519 651 2200) 
+
+https://ca.linkedin.com/company/esentire-inc-
+
+ 
+
+https://twitter.com/eSentire
+
+ 
+
+https://www.youtube.com/c/eSentireInc
+
+What we do
+
+Managed Detection and Response
+
+https://www.esentire.com/what-we-do/esentire-managed-detection-and-response
+
+ 
+
+Digital Forensics and Incident Response
+
+https://www.esentire.com/what-we-do/digital-forensics-and-incident-response
+
+ 
+
+Continuous Threat Exposure Management Services
+
+https://www.esentire.com/what-we-do/exposure-vulnerability-and-risk-management
+
+ 
+
+Atlas Security Operations Platform
+
+https://www.esentire.com/what-we-do/security-operations-platform
+
+ 
+
+Atlas Extended Detection and Response (XDR)
+
+https://www.esentire.com/what-we-do/xdr-extended-detection-and-response
+
+ 
+
+Atlas User Experience
+
+https://www.esentire.com/what-we-do/atlas-user-experience
+
+ 
+
+Atlas Platform Integrations
+
+https://www.esentire.com/what-we-do/mdr-and-platform-integrations
+
+ 
+
+Security Operations Center (SOC)
+
+https://www.esentire.com/what-we-do/security-operations-center
+
+ 
+
+Threat Response Unit (TRU)
+
+https://www.esentire.com/what-we-do/threat-response-unit
+
+ 
+
+Cyber Resilience Team
+
+https://www.esentire.com/what-we-do/team-esentire
+
+ 
+
+MDR for Microsoft
+
+https://www.esentire.com/what-we-do/esentire-managed-detection-and-response/microsoft-mdr
+
+ 
+
+MDR for AWS
+
+https://www.esentire.com/what-we-do/esentire-managed-detection-and-response/aws-cloud-security
+
+ 
+
+Response and Remediation
+
+https://www.esentire.com/what-we-do/esentire-managed-detection-and-response/response-and-remediation
+
+ 
+
+MDR Pricing
+
+https://www.esentire.com/how-we-do-it/mdr-pricing-packaging
+
+How we do it
+
+Endpoint
+
+https://www.esentire.com/how-we-do-it/signals/mdr-for-endpoint
+
+ 
+
+Network
+
+https://www.esentire.com/how-we-do-it/signals/mdr-for-network
+
+ 
+
+Log
+
+https://www.esentire.com/how-we-do-it/signals/mdr-for-log
+
+ 
+
+Cloud
+
+https://www.esentire.com/how-we-do-it/signals/cloud
+
+ 
+
+Identity
+
+https://www.esentire.com/how-we-do-it/signals/identity
+
+Industries
+
+Insurance
+
+https://www.esentire.com/how-we-do-it/industries/insurance-cybersecurity
+
+ 
+
+Construction
+
+https://www.esentire.com/how-we-do-it/industries/construction-cybersecurity
+
+ 
+
+Finance
+
+https://www.esentire.com/how-we-do-it/industries/financial-services-cybersecurity
+
+ 
+
+Legal
+
+https://www.esentire.com/how-we-do-it/industries/legal-cybersecurity
+
+ 
+
+Manufacturing
+
+https://www.esentire.com/how-we-do-it/industries/manufacturing-cybersecurity
+
+ 
+
+Private Equity
+
+https://www.esentire.com/how-we-do-it/industries/private-equity-cybersecurity
+
+ 
+
+Healthcare
+
+https://www.esentire.com/how-we-do-it/industries/healthcare-cybersecurity
+
+ 
+
+Retail
+
+https://www.esentire.com/how-we-do-it/industries/retail-cybersecurity
+
+ 
+
+Food Supply
+
+https://www.esentire.com/how-we-do-it/industries/food-supply-cybersecurity
+
+ 
+
+Government and Education
+
+https://www.esentire.com/how-we-do-it/industries/state-local-governments-cybersecurity
+
+ 
+
+Automotive Dealerships
+
+https://www.esentire.com/how-we-do-it/industries/automotive-dealerships
+
+Use Cases
+
+Ransomware
+
+https://www.esentire.com/how-we-do-it/use-cases/ransomware
+
+ 
+
+Third-Party Risk
+
+https://www.esentire.com/how-we-do-it/use-cases/third-party-cyber-risk
+
+ 
+
+Sensitive Data Security
+
+https://www.esentire.com/how-we-do-it/use-cases/sensitive-data
+
+ 
+
+Cloud Misconfiguration
+
+https://www.esentire.com/how-we-do-it/use-cases/cloud-misconfiguration-breaches
+
+ 
+
+Zero Day Attacks
+
+https://www.esentire.com/how-we-do-it/use-cases/zero-day-exploits
+
+ 
+
+Cyber Risk
+
+https://www.esentire.com/how-we-do-it/use-cases/cyber-risk-management
+
+ 
+
+Cybersecurity Compliance
+
+https://www.esentire.com/how-we-do-it/use-cases/cybersecurity-compliance
+
+ 
+
+Mid-Market Security
+
+https://www.esentire.com/how-we-do-it/use-cases/mid-market-security
+
+ 
+
+Cyber Insurance
+
+https://www.esentire.com/how-we-do-it/use-cases/meet-cyber-insurance-requirements
+
+ 
+
+Security Leadership
+
+https://www.esentire.com/how-we-do-it/use-cases/security-leadership
+
+ 
+
+Cyber Threat Intelligence
+
+https://www.esentire.com/how-we-do-it/use-cases/cyber-threat-intelligence
+
+ 
+
+Identity Response
+
+https://www.esentire.com/how-we-do-it/use-cases/identity-threat-detection-and-response
+
+Resources
+
+Security Advisories
+
+https://www.esentire.com/resources/security-advisories
+
+ 
+
+Blog
+
+https://www.esentire.com/resources/blog
+
+ 
+
+Resource Library
+
+https://www.esentire.com/resources/library
+
+ 
+
+Video Library
+
+https://www.esentire.com/resources/video-library
+
+ 
+
+TRU Intelligence Center
+
+https://www.esentire.com/resources/tru-intelligence-center
+
+ 
+
+Monthly Cyber Threat Intelligence Briefings
+
+https://www.esentire.com/resources/monthly-threat-intelligence-briefings
+
+ 
+
+Case Studies
+
+https://www.esentire.com/resources/mdr-and-cybersecurity-case-studies
+
+ 
+
+Switch to eSentire
+
+https://www.esentire.com/switch-to-esentire
+
+ 
+
+Consolidate & Save
+
+https://www.esentire.com/consolidate-and-save
+
+ 
+
+Experience Next Level MDR
+
+https://www.esentire.com/next-level-mdr
+
+ 
+
+Real vs. Fake MDR
+
+https://www.esentire.com/esentire-mdr-vs-everyone
+
+ 
+
+Compare MDR Vendors
+
+https://www.esentire.com/esentire-mdr-vs-everyone/compare
+
+ 
+
+Cybersecurity Glossary
+
+https://www.esentire.com/cybersecurity-fundamentals-defined
+
+Tools
+
+Build Your eSentire MDR Package
+
+https://www.esentire.com/cybersecurity-tools/mdr-package-selector
+
+ 
+
+See Where You Stand on the Maturity Spectrum
+
+https://www.esentire.com/cybersecurity-tools/exposure-management-maturity-assessment
+
+ 
+
+Cybersecurity Assessment
+
+https://www.esentire.com/cybersecurity-assessment-tool
+
+ 
+
+SOC Calculator
+
+https://www.esentire.com/security-operations-center-pricing-calculator
+
+ 
+
+MITRE ATT&CK® Tool
+
+https://www.esentire.com/mitre-attck-framework-tool
+
+Company
+
+About Us
+
+https://www.esentire.com/company/about-us
+
+ 
+
+Leadership
+
+https://www.esentire.com/company/leadership
+
+ 
+
+Newsroom
+
+https://www.esentire.com/company/newsroom
+
+ 
+
+Event Calendar
+
+https://www.esentire.com/company/event-calendar
+
+ 
+
+Aston Villa Football Club
+
+https://www.esentire.com/company/aston-villa-football-club-partnership
+
+ 
+
+Careers
+
+https://www.esentire.com/company/careers
+
+ 
+
+Partners
+
+https://www.esentire.com/partners
+
+ 
+
+Australia & New Zealand
+
+https://www.esentire.com/en-au-nz/switch-to-esentire
+
+ 
+
+United Kingdom
+
+https://www.esentire.com/en-gb/switch-to-esentire
+
+ 
+
+Modern Slavery Statement
+
+https://esentire-dot-com-assets.s3.amazonaws.com/assetsV4/Modern-Slavery-Statement-20250227-ex.pdf
+
+ 
+
+Trust Portal
+
+https://trust.esentire.com/
+
+2026 eSentire, Inc. All Rights Reserved.
+
+Sitemap
+
+https://www.esentire.com/sitemap
+
+ 
+
+Terms and Conditions
+
+https://www.esentire.com/legal/terms-and-conditions
+
+ 
+
+Privacy Policy
+
+https://www.esentire.com/legal/privacy-policy
+
+ 
+
+Accessibility
+
+https://www.esentire.com/legal/accessibility
+
+ 
+
+Legal
+
+https://www.esentire.com/legal/documents
+
+ 
+
+ 

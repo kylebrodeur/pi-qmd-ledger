@@ -1,0 +1,329 @@
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxsdZUvCFFj_blLsCZqCWG2gO-dKMu4FrzoOzoTM8Y8iiyIRsUCJd6nowcJabt85ok46FrybV58w7M-w4_8hqz1Kx9ibx8qPHtxuBbSZWVIHgXlJSre535Cfrh1g-l6waPw9CSCbQ=w1280-h221-v0
+
+3115f856-659a-4384-abd1-0fb1ef5eed0f
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAz0rA1V1gNeMfwVJv8s6E3zH1HZGInkv7dUNc5oSr3uc6OW4c1EMMJjv9HtWVFIaXexn4wRk2edxbG9msFk-_wpMPIVjCof1zeaXis5bXudz5TQ8u9rOyIfFBsV5ATtUMNT8xkr=w1280-h211-v0
+
+74d47dd0-124e-429d-ba13-2157060e88c0
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzmQ0h9bmB69_6Ntj1icRQeWQQEd0ZQkC1iq23Rd2ooIFbSsn7YgSs_M9lGjiYamwimWnQfj5UZBI24N4hfaLYLkD_sKUfx71fNkj2vFJxMFInfW1_dvngLguRyk2nsODki5MGK=w1280-h253-v0
+
+f8afe460-b641-4d61-878e-3da6911b44f7
+
+* Corresponding author: Pagadipala srikanth 
+
+Copyright © 2023 Author(s) retain the copyright of this article. This article is published under the terms of the Creative Commons Attribution Liscense 4.0. 
+
+A comprehensive review of machine learning techniques in computer numerical controlled machines 
+
+Pagadipala srikanth, Pulimamidi sai teja, Borigam Lakshmi prasad and Veduruvada pavan kalyan * 
+
+Department Of Mechanical Engineering, Vignan institute of technology and science, Deshmuki (V), Pochampally (M), Yadadri Bhuvanagiri Dist, Telangana-508204, India. 
+
+International Journal of Science and Research Archive, 2023, 09(01), 627–637 
+
+Publication history: Received on 13 May 2023; revised on 22 June 2023; accepted on 25 June 2023 
+
+Article DOI: https://doi.org/10.30574/ijsra.2023.9.1.0491 
+
+Abstract 
+
+Machine learning (ML) is significant advancements in computer science and data processing systems that may be utilized to improve almost all technology-enabled services, goods, and industrial applications. Machine learning is a branch of computer science and artificial intelligence. It emphasizes the use of data and algorithms to mimic the learning process of machines and improve system accuracy. To extend the life of the cutting tools used in machining processes, machine learning algorithms may be used to forecast cutting forces and cutting tool wear. In order to improve productivity during the component production processes, optimized machining parameters for CNC machining operations may be obtained by applying cutting-edge machine learning algorithms. Furthermore, the appearance of Advanced machine learning algorithms can forecast and enhance machinable components to raise the caliber of machinable parts. Machine learning is applied to prediction approaches of energy consumption of CNC machine tools in order to analyses and minimize power usage during CNC machining processes. The use of machine learning and artificial intelligence systems in CNC machine tools is examined in this paper, and future research projects are also suggested in order to offer an overview of the most recent studies on these topics. As a result, the research filed can be moved forward by reviewing and analyzing recent achievements in published papers to offer innovative concepts and approaches in applications of machine learning in CNC machine tools. 
+
+Keywords: Machine learning; CNC; Neural Network Tool; Optimization; Surface Roughness; Cutting force 
+
+1. Introduction 
+
+One of the most crucial methods for producing parts is CNC machining, which is sometimes referred to be the heart of contemporary manufacturing techniques. The CNC machining processes are used to produce parts in a variety of applications by the automotive and medical industries, aerospace, gas and oil and warehousing services [1]. Every machine, moulded component, and final product are often manufactured using CNC machining, which is one of the most significant manufacturing processes. CNC equipment pioneered the way in manufacturing and machining, enabling companies to meet their objectives in a number of different ways. The future of CNC machining processes must be taken into account, nevertheless, as production techniques are always changing and new technologies are being introduced [2, 3]. 
+
+Due to applications of artificial intelligence (AI), where the algorithms are connected with "learning" nonlinear correlations between input and output data, more and more satisfying outcomes are becoming apparent. One of the main AI applications in machining, for instance, is the prediction of tool wear or surface roughness based on machining phenomena, such as cutting forces, vibrations, or acoustic emission. The relationship between those quantities and tool wear enables real-time tool identification while also eliminating unnecessary downtimes. Machine learning is one of the 
+
+International Journal of Science and Research Archive, 2023, 09(01), 627–637 
+
+628 
+
+divisions of artificial intelligence. [4,5,6,7,8] Because of its simple structure, it is possible to create autonomous expert systems by designing unambiguous rules. Some engineering problems cannot be solved using traditional regression models, and the correlation coefficient is too low to use diagnostic inference. The relationship between those quantities and tool wear enables real-time tool identification while also eliminating unnecessary downtimes. Machine learning is one of the divisions of artificial intelligence. Because of its simple structure, it is possible to create autonomous expert systems by designing unambiguous rules. Some engineering problems cannot be solved using traditional regression models, and the correlation coefficient is too low to use diagnostic inference. Therefore, a more sophisticated paradigm, like machine learning, is appropriate for handling challenging problems. The rapid advancement of new technologies, such as material engineering, makes it possible to select the ideal material while yet meeting strict standards [9} 
+
+Although they forecast by using one or more input factors to obtain the output parameters, metal cutting predictive models offer certain good properties. The number of factors has an impact on modelling and forecasting the cutting force during the turning process [10]. Another factor making the development of the model difficult is obtaining the electricity required for the machine tool. The complete model was developed over the past few years using a variety of prediction techniques [11,12]. Cutting force plays a bigger role in the matching process through the right parameter selection. Since all input factors are combined, the problem is correctly simulating the specifics. To cut down on mistakes, every traditional equipment has begun incorporating intelligent technologies. To reduce money, time, and enhance total profit each production cycle, the CNC machining operations must be optimized [13]. By tying production data, such as machine performance and tool life, to CNC machine tool structures, artificial intelligence can estimate repair and equipment intervals. AI data will also show how long a machine can run without needing maintenance. Therefore, the AI's predictive data suggests fewer tool failures, a longer tool life, less downtime, and faster machining [14,15], all of which can result in cost savings in component manufacturing. In order to build the monitoring systems of machining processes utilizing deep learning and neural network systems, applications of deep learning in CNC machining and monitoring systems are studied [16]. 
+
+2. The methodology for reviewing data extraction in CNC turning typically involves the following steps 
+
+ Define the objectives: Clearly identify the purpose of the data extraction review. Determine what specific information or metrics you are interested in extracting from the CNC turning process. 
+
+ Identify the data sources: Determine the relevant data sources where the required information is stored. This may include CNC machine logs, production databases, sensor data, or any other sources that capture relevant information during the CNC turning process. 
+
+ Develop a data extraction plan: Create a plan that outlines the specific data extraction methods and techniques you will use. Consider the data format, data structure, and any limitations or challenges you may encounter during the extraction process. 
+
+ Extract the data: Use appropriate tools or programming languages to extract the data from the identified sources. This may involve writing scripts or using data extraction software to retrieve the relevant information. 
+
+ Validate the extracted data: Check the accuracy and integrity of the extracted data. Verify that the extracted information matches the expected results and ensure there are no errors or inconsistencies. 
+
+ Analyze the extracted data: Once the data extraction is complete, perform the desired analysis on the extracted data. This may involve statistical analysis, visualization, or other techniques to derive insights or identify patterns from the CNC turning process. 
+
+ Interpret and report the findings: Interpret the analyzed data and draw meaningful conclusions based on the objectives of the review. Prepare a comprehensive report that presents the findings, including any recommendations or insights gained from the data extraction process. 
+
+ Iterate and refine: Review and refine the data extraction methodology based on the results and feedback received. Continuous improvement is important to ensure the accuracy and relevance of the extracted data for future analyses. 
+
+It is important to note that the specific details and tools used in the data extraction process may vary depending on the organization, the CNC turning setup, and the nature of the data sources. 
+
+Optimization in  
+
+ 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwDFcZMAtRcujoJLcx-Ghjr_cLyV5wEUqjavXpNz4reF3Vf2yVRiwvAJyVTGHw8Pyx4EUNCwPskMhrj2v8sy_Tbvlbw0mU984tNYh2GnduwA-YZH9rsFFC0aA2x3FXZOOZgQIIK=w541-h351-v0
+
+69ff5a75-12eb-449d-b2dc-638367e5ce82
+
+International Journal of Science and Research Archive, 2023, 09(01), 627–637 
+
+629 
+
+ 
+
+Figure 1 Methodology of CNC turning steps 
+
+2.1. Tool wear prediction using ML Techniques: 
+
+The authors propose a method for tool wear monitoring in CNC turning using hidden Markov models (HMMs) and multiple sensor signals. The approach demonstrates the effectiveness of machine learning techniques in detecting tool wear during the machining process.[21] This paper explores the use of genetic algorithms (GAs) for optimizing cutting parameters in CNC turning. The authors present a methodology that combines machine learning techniques with optimization algorithms to improve machining efficiency and quality.[22] The authors propose a tool condition monitoring system for CNC turning based on support vector machines (SVMs) and fuzzy C-means clustering. The study demonstrates the effectiveness of machine learning in identifying tool wear patterns and predicting tool failure.[23] This paper investigates the use of artificial neural networks (ANNs) and multiple regression models to predict surface roughness in CNC turning. The study compares the performance of different machine learning techniques and provides insights into their accuracy and reliability [24], The authors present a fault diagnosis system for CNC turning based on machine learning techniques such as decision tree, random forest, and support vector machines. The study demonstrates the capability of these methods in detecting and classifying different types of faults in the turning process.[25], This review paper discusses the application of support vector machines (SVM) for machining tool wear monitoring. It provides an overview of the SVM algorithm and its variants, as well as case studies and experiments demonstrating the effectiveness of SVM in tool wear prediction. [26]This study proposes an artificial neural network (ANN) model for predicting tool wear based on cutting parameters. The authors present a methodology for training and validating the ANN model using experimental data and demonstrate its accuracy in tool wear prediction [27]. 
+
+This comprehensive review paper presents an overview of various machine learning techniques used for tool wear monitoring in turning operations. It covers algorithms such as decision trees, support vector machines, artificial neural networks, and ensemble methods, discussing their advantages and limitations in tool wear prediction. .[28] This paper focuses on tool wear monitoring in drilling operations using machine learning techniques. It explores the application of algorithms such as decision trees, random forests, and neural networks in predicting tool wear based on cutting parameters and drilling conditions [29]. 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzi9bDxIeuJpm-5hiq-vrazSB2atZNdMH6jgmlFlRKKAbnLZN_m-hblh-soihABT4hHhItuXPyHA9R0hFgo5ghAXH3VlHqg6CduA5HY2ytpvtMSwoburwxbgzLbWksfuJcn1pDJdw=w498-h315-v0
+
+c4e8620b-6029-45c8-806a-583519080e21
+
+International Journal of Science and Research Archive, 2023, 09(01), 627–637 
+
+630 
+
+ 
+
+Figure 2 Neural network computational model 
+
+2.2. Reducing machine tool downtime in CNC turning by ML techniques 
+
+This paper presents a deep learning-based approach for condition monitoring and remaining useful life prediction of machine tools. The authors propose a Long Short-Term Memory (LSTM) network to predict tool wear and tool breakage in CNC turning.[30] The paper introduces a predictive maintenance framework for CNC machine tools that utilizes machine learning methods. The authors apply Support Vector Regression (SVR) and Random Forest Regression (RFR) algorithms to predict the remaining useful life of critical components and optimize maintenance schedules.[31], This study presents a machine learning-based approach to estimate the remaining useful life of CNC machining centers. The authors employ a Support Vector Machine (SVM) model to predict the remaining useful life and optimize maintenance strategies [32], This review article provides an overview of machine learning techniques for predictive maintenance of machine tools, including CNC turning machines. It discusses various algorithms and their application in predicting failures and optimizing maintenance strategies.[33], Reducing machine tool downtime in CNC turning through machine learning involves utilizing data-driven models and techniques to identify patterns, predict failures, and optimize maintenance schedules. Here's an outline of the methodology: 
+
+ Data collection: Gather historical data from CNC machines, including sensor readings, operating parameters, maintenance logs, and downtime events. This data will serve as the basis for training and validating machine learning models. 
+
+ Data preprocessing: Clean and prepare the collected data for analysis. This step involves removing outliers, handling missing values, normalizing variables, and transforming the data into a suitable format for machine learning algorithms. 
+
+ Feature selection: Identify relevant features or variables that may contribute to machine downtime. This can be achieved through exploratory data analysis, domain expertise, or feature selection algorithms. 
+
+ Model development: Apply appropriate machine learning algorithms to develop predictive models. Common techniques used in this context include supervised learning methods such as regression, classification, and time series analysis. Algorithms like decision trees, random forests, support vector machines, or neural networks may be employed. 
+
+ Training and validation: Split the dataset into training and testing sets. Train the machine learning models using the training data and evaluate their performance on the testing data. Use appropriate evaluation metrics such as accuracy, precision, recall, or mean squared error to assess the model's effectiveness. 
+
+ Failure prediction: Deploy the trained machine learning models to predict machine failures or downtime events in real-time. Monitor incoming data from CNC machines and apply the models to make predictions based on the observed patterns. 
+
+ Maintenance optimization: Utilize the predictions to optimize maintenance schedules and minimize machine downtime. Predictive models can help identify potential issues in advance, allowing for proactive maintenance instead of reactive repairs. 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxOEvJciVNoAhDdzGJNSrYPe7_favP8Cu6xCa7LOO4Z7-dT5s-3fks8ViBTFtTA1x6oqXAeyxYTW_PxlA1Rcjy50wnU4XjiPVp5CUTFmfY2XCl6p2I5pBNn_KIY83RSCSk5tafP=w516-h335-v0
+
+9a075339-ae12-4c1d-80fb-5d510a921efe
+
+International Journal of Science and Research Archive, 2023, 09(01), 627–637 
+
+631 
+
+ Continuous improvement: Regularly update and retrain the machine learning models using new data to improve their accuracy and adapt to changing machine conditions. Monitor the performance of the deployed models and refine them as necessary. 
+
+ 
+
+Figure 3 CNC turning by ML techniques 
+
+It's important to note that implementing machine learning in optimization of CNC machine tools requires access to relevant data, suitable algorithms, and expertise in data analysis and model development. Collaboration between domain experts, data scientists, and CNC engineers is crucial to ensure the successful integration and deployment of machine learning approaches in optimizing CNC machine tools. 
+
+3. Application of machine learning in the optimization of CNC machine tools 
+
+This paper presents a methodology for optimizing cutting parameters in CNC turning using a combination of genetic algorithms and neural networks. The authors propose an approach that integrates both optimization techniques to improve machining efficiency and surface finish.[34]This paper presents an approach that combines artificial neural networks (ANNs) and particle swarm optimization (PSO) for optimizing cutting parameters in CNC turning. The authors demonstrate the effectiveness of the proposed approach in improving machining performance.[35] This study focuses on the optimization of machining parameters for CNC turning using the Taguchi method and regression analysis. The authors apply the Taguchi method to design experiments and regression analysis to develop mathematical models for predicting the machining performance.[36] This paper proposes a combined approach of artificial neural networks and genetic algorithms for optimizing surface roughness in CNC turning. The authors present a model that predicts the surface roughness based on cutting parameters and use genetic algorithms to find the optimal parameter settings.[37] 
+
+3.1. Machine learning approaches can be utilized to develop cutting force models in machining processes 
+
+It's important to note that the success of the machine learning approach in cutting force modeling depends on the availability of high-quality and representative training data, as well as the appropriate selection and tuning of the machine learning algorithm. Collaboration between domain experts and data scientists is: 
+
+This paper presents a study on the prediction of cutting forces in milling operations using machine learning techniques. The authors compare the performance of different algorithms, including artificial neural networks, support vector regression, and random forests, and discuss their effectiveness in modeling cutting forces.[38]This study proposes an approach that combines artificial neural networks (ANNs) and genetic algorithms (GAs) for predicting cutting forces in turning operations. The authors demonstrate the effectiveness of the proposed approach in accurately modeling cutting forces and optimizing machining parameters.[39]This paper investigates the use of machine learning techniques, 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAw9jfglLnc7jAfR0XLaC7QsbEdK4QGTz-FRCFa0mRZTtAeQowzg8RR05lzauWj1h_A8V-EOW7Hn_wl6hqfPVIm8yeFHMCOHkZOxochNUHVKjP4OOETQoDLqUefyaWNBWq609jVYYw=w511-h376-v0
+
+d829dec9-0cb6-4fc5-9c32-52a8cf81a070
+
+International Journal of Science and Research Archive, 2023, 09(01), 627–637 
+
+632 
+
+including support vector regression and random forests, for predicting cutting forces in ball-end milling operations. The authors compare the accuracy and efficiency of different algorithms and discuss the factors influencing cutting force prediction.[40] This study proposes a cutting force modeling approach using artificial neural networks and genetic algorithms in face milling. The authors present a methodology for training the neural network model using genetic algorithms and demonstrate its effectiveness in predicting cutting forces.[41]This paper investigates the use of support vector machines (SVM) for modeling cutting forces in end milling. The authors propose an SVM-based model and compare its performance with traditional regression models, demonstrating the accuracy and robustness of the SVM approach.[42] 
+
+ 
+
+Figure 4 Cutting force models in machining processes 
+
+4. Surface Roughness Prediction Using Machine Learning Techniques 
+
+This review paper provides an analysis of various machine learning techniques used for surface roughness prediction in machining processes. It discusses the strengths and limitations of different algorithms, such as artificial neural networks, support vector regression, decision trees, and random forests.[43] This study presents an investigation into the prediction of surface roughness in turning using machine learning techniques. The authors compare the performance of different algorithms, including artificial neural networks and support vector regression, in accurately modeling surface roughness based on cutting parameters.[44] This paper explores the use of support vector regression and artificial neural networks for surface quality prediction in end milling. The authors investigate the influence of cutting parameters on surface roughness and develop predictive models using machine learning techniques.[45] This study focuses on surface roughness prediction in milling processes using machine learning algorithms. The authors compare the performance of different algorithms, including artificial neural networks, support vector machines, and genetic algorithms, in accurately predicting surface roughness.[46] This research paper presents an approach for surface roughness prediction in milling using ensemble learning and feature selection techniques. The authors combine multiple machines learning models, including random forests, gradient boosting, and AdaBoost, to improve the accuracy of surface roughness prediction [47-57]. 
+
+5. Conclusion 
+
+Machine learning and artificial intelligence are being used in a variety of industrial applications to improve the performance of industrial processes. Various applications of machine learning and artificial intelligence systems are researched in various research efforts to boost accuracy and efficiency during CNC machining processes. Machine 
+
+International Journal of Science and Research Archive, 2023, 09(01), 627–637 
+
+633 
+
+downtime reduction, CNC machine tool optimization, and cutting tool Machine lenient applications in the development of CNC machining processes include wear prediction, cutting force models, CNC machine tool maintenance, monitoring of machining operations, surface quality prediction, and energy prediction systems. Recently, machine learning techniques have been used to energy consumption prediction models in order to reduce energy consumption during CNC machining processes. Recently, machine learning techniques have been used to energy consumption prediction models in order to reduce energy consumption during CNC machining processes. When compared to traditional techniques of energy usage prediction during CNC machining processes, the accuracy and radiality of energy consumption models are greatly improved utilizing ML methodology. 
+
+This study examines the uses of machine learning and artificial intelligence systems in CNC machine tools by analyzing current successes from published papers. The primary goal of this research is to present an overview of current studies on machine learning and artificial intelligence approaches in CNC machining processes in order to provide a valuable study for researchers in the area. NC machines can be linked via a network of sensors and cloud data sources. 
+
+Together, they may be used to offer intelligent CNC machine tools. The machining industry's efficiency may be boosted when it converts to smart machining processes, which enable self-optimization and adaptation to uncontrollable situations. However, as a result of the mix of physical, computer, and networking processes, developing applications of advanced machine learning systems in CNC machining operations caused issues and difficulties with the safety and security of the data web. Network security should be improved in order to allow safe and sophisticated connections between multiple CNC machine tools. 
+
+Future scope 
+
+Using machine learning systems, advanced data gathering, data mining techniques, data fusion neural networks, virtualization, and smart decision-making methodologies in computer-aided process planning may be used to enhance accuracy and performance in the component manufacturing process. To boost the power of simulation and analysis of CNC machine tools in virtual environments, virtual machining systems may be produced by applying machine learning applications in CNC machining processes. Machine learning system applications may be used to modify cutting tool routes, cutting tool selection, and error compensation procedures during CNC machining processes. The machine learning system may be used to develop the design process of work-holding fixtures in order to deliver correct fixtures during CNC machining operations. Deep machine learning networks are capable to applied to the cutting tool paths during machining to enhance accuracy of machined parts by error compensation methodologies. 
+
+Optimized cutting tool routes may be obtained utilizing ML and AI applications to change collision detection systems during CNC machining processes. ML and AI solutions may also be used to create sophisticated operation training systems for CNC machining operators. ML and AI may be used on industrial robots.in order to make robots smarter and more cooperative. under addition, decision making may be extended to robots utilizing ML and AI to improve performance under flexible working settings. Furthermore, automation throughout the part production process may be built as a result of applying ML and AI to big data analysis of the production process in terms of part manufacturing productivity increase. Integration through the internet. 
+
+ML applications in cloud manufacturing systems may be used to develop and describe machining resource capabilities. ML applications in virtual manufacturing may be used to showcase advanced cyber manufacturing systems that use CNC machining procedures. Intelligent machine tools may be shown employing AI applications in CNC machining processes to demonstrate autonomous optimization, decision-making, and control and execution during machining operations. Bottom of Form. 
+
+Applications of the internet of things in the development of smart CNC machine tools can be researched in order to improve machining process monitoring capabilities. The use of powerful machine learning algorithms in CNC machining processes can help to establish sustainable smart manufacturing in industry 4.0. Smart machining systems may be created by combining modern machine learning and artificial intelligence technologies to provide industry with smart production processes. 4.0. In terms of modern lean production systems, ML and AI may improve accuracy in the process of part manufacturing utilizing CNC machine tools, reducing waste materials and cost per unit for businesses. Advanced computer-aided process planning may be demonstrated utilizing ML and AI applications in CNC machines. 
+
+Tools in order to enhance the efficiency of process planning in the flexible conditions and parameters of part productions using CNC machine tools. The integration of the fuzzy technique in applications of ML during CNC machining operations can be studied in order to enhance efficiency of part manufacturing using the optimized procedures of machining operations. These are suggestions for future research works in the research of machine 
+
+International Journal of Science and Research Archive, 2023, 09(01), 627–637 
+
+634 
+
+learning and artificial intelligence in CNC machine tools. As a result, performance and reliability of part manufacture can be improved by using advanced ML and AI systems in order to enhance productivity of part manufacturing using CNC machine tools in order to enhance the efficiency of process planning in the flexible conditions and parameters of part productions using CNC machine tools. The use of the fuzzy approach in ML applications during CNC Machining operations can be examined in order to improve the efficiency of component manufacture through the use of optimized machining methods. These are recommendations for future research projects in the field of Machine learning and artificial intelligence are used in CNC machine tools. As a consequence, integrating sophisticated ML and AI systems to increase component production productivity using CNC machining procedures can improve performance and dependability. 
+
+Compliance with ethical standards 
+
+Disclosure of conflict of interest 
+
+Author does not have any conflict of interest.  
+
+References 
+
+[1] A. Keller, A. Kamath, U. Perera, Reliability analysis of CNC machine tools, Reliab. Eng. 3 (1982) 449–473. DOI 10.1016/0143-8174(82)90036-1 
+
+[2] A.M. Mamadjanov, S.M. Yusupov, S. Sadirov, Advantages and the future of CNC machines, Sci. Progr. 2 (2021) 1638–1647. https://doi.org/10.1016/j.smse.2023.100009 
+
+[3] Y. Ye, T. Hu, C. Zhang, W. Luo, Design and development of a CNC machining process knowledge base using cloud technology, Int. J. Adv. Manuf. Technol. 94 (2018) 3413–3425. https://doi.org/10.1007/s00170-016-9338-1 
+
+[4] Zhang Y., Xu X. Machine learning cutting force, surface roughness, and tool life in high speed turning processes. Manuf. Lett. 2021, 29:84–89. doi: 10.1016/j.mfglet.2021.07.005. 
+
+[5] Aydın K., Akgün A., Yavaş Ç., Gök A., Şeker U. Experimental and numerical study of cutting performance of wave form end mills on Gray Cast Iron. Arab. J. Sci. Eng. 2021, 46:12299–12307. doi: 10.1007/s13369-021-05816-z.  
+
+[6] Aslan A. Optimization and analysis of process parameters for flank wear, cutting forces and vibration in turning of AISI 5140: A comprehensive study. Measurement. 2020, 163:107959. doi: 10.1016/j.measurement.2020.107959 
+
+[7] Upadhyay V., Jain P.K., Mehta N.K. In-process prediction of surface roughness in turning of Ti–6Al–4V alloy using cutting parameters and vibration signals. Measurement. 2013, 46:154–160. doi: 10.1016/j.measurement.2012.06.002.  
+
+[8] Twardowski P., Tabaszewski M., Wiciak-Pikuła M., Felusiak-Czyryca A. Identification of tool wear using acoustic emission signal and machine learning methods. Precis. Eng. 2021, 72:738–744. doi: 10.1016/j.precisioneng.2021.07.019.  
+
+[9] Severino G., Paiva E.J., Ferreira J.R., Balestrassi P.P., Paiva A.P. Development of a Special Geometry Carbide Tool for the Optimization of Vertical Turning of Martensitic Gray Cast Iron Piston Rings. Int. J. Adv. Manuf. Technol. 2012, 63:523–534. doi: 10.1007/s00170-012-3947-0.  
+
+[10] S. Chatterjee, R. Chaudhuri, D. Vrontis, and T. Papadopoulos, Examining the impact of adoption of emerging technology and supply chain resilience on firm performance: moderating role of absorptive capacity and leadership support, IEEE Transactions on Engineering Management, pp. 1–14, 2022. DOI:10.1109/TEM.2021.3134188 
+
+[11] I. Wang and R. X. Gao, Innovative smart scheduling and predictive maintenance techniques, Design and Operation of Production Networks for Mass Personalization in the Era of Cloud Technology, pp. 181–207, 2022. https://doi.org/10.1016/B978-0-12-823657-4.00007-5 
+
+[12] J. J. Montero Jimenez, S. Schwartz, R. A. Vingerhoeds, B. Grabot, and M. Salaün, Towards multi-model approaches to predictive maintenance: a systematic literature survey on diagnostics and prognostics, Journal of Manufacturing Systems, vol. 56, pp. 539–557, 2020. https://doi.org/10.1016/j.jmsy.2020.07.008 
+
+International Journal of Science and Research Archive, 2023, 09(01), 627–637 
+
+635 
+
+[13] Y. Xiao, Z. Jiang, Q. Gu, W. Yan, R. Wang, A novel approach to CNC machining center processing parameters optimization considering energy-saving and low-cost, J. Manuf. Syst. 59 (2021) 535–548. DOI:10.1016/j.jmsy.2021.03.023 
+
+[14] S. Wan, D. Li, J. Gao, J. Li, A knowledge based machine tool maintenance planning system using case-based reasoning techniques, Robot Comput. Integr. Manuf. 58 (2019) 80–96. DOI:10.1016/j.rcim.2019.01.012 
+
+[15] Z. Hussain, H. Jan, Establishing simulation model for optimizing efficiency of CNC machine using reliability-centered maintenance approach, Int. J. Model., Simul., Sci. Comput. 10 (2019) 1950034 Doi: https://doi.org/10.1142/S179396231950034X 
+
+[16] V. Nasir, F. Sassani, A review on deep learning in machining and tool monitoring: methods, opportunities, and challenges, Int. J. Adv. Manuf. Technol. 115 (2021) 2683–2709. DOI:10.1007/s00170-021-07325-7 
+
+[17] J. Yang, S. Li, Z. Wang, H. Dong, J. Wang, S. Tang, Using deep learning to detect defects in manufacturing: a comprehensive survey and current challenges, Materials 13 (2020) 5755. https://doi.org/10.3390/ma13245755 
+
+[18] M. Bertolini, D. Mezzogori, M. Neroni, F. Zammori, Machine Learning for industrial applications: a comprehensive literature review, Expert Syst. Appl. 175 (2021) 114820. https://doi.org/10.1016/j.eswa.2021.114820 
+
+[19] A. Jamwal, R. Agrawal, M. Sharma, A. Kumar, V. Kumar, J.A.A. Garza-Reyes, Machine learning applications for sustainable manufacturing: a bibliometric-based review for future research, J. Enterprise Inf. Manage. 35 (2021) 566–596. https://doi.org/10.1108/JEIM-09-2020-0361 
+
+[20] J. Wang, Y. Ma, L. Zhang, R.X. Gao, D. Wu, Deep learning for smart manufacturing: methods and applications, J. Manuf. Syst. 48 (2018) 144–156. https://doi.org/10.1016/j.jmsy.2018.01.003 
+
+[21] Tool wear monitoring in turning using hidden Markov models and multiple sensors by Xun Xu and Andrew R. Gray DOI:10.1007/978-3-030-87878-8_9 
+
+[22] Optimization of cutting parameters in turning operations using genetic algorithms by Kalyanmoy Deb et al. Journal of Materials Processing Technology, 2001https://doi.org/10.1016/j.proeng.2013.09.144 
+
+[23] An intelligent tool condition monitoring system using support vector machines and fuzzy C-means clustering by Y. Altintas et al. International Journal of Machine Tools and Manufacture, 2008 DOI:10.1177/0954405412458047 
+
+[24] Prediction of surface roughness in CNC turning using artificial neural network and multiple regression models by G.S. Viswanathan et al. International Journal of Advanced Manufacturing Technology, 2011 https://doi.org/10.3390/app12010393 
+
+[25] Fault diagnosis in turning using machine learning techniques by Peng Chen et al. Journal of Intelligent Manufacturing, 2016 DOI:10.3390/s23031305 
+
+[26] A Review of Machining Tool Wear Monitoring Using Support Vector Machines Authors: Y. Altintas, L. A. Kaya, and R. Tunc Published in: International Journal of Machine Tools and Manufacture, Volume 47, Issue 3-4, 2007 DOI:10.1016/j.precisioneng.2020.09.025 
+
+[27] Prediction of Tool Wear Based on Cutting Parameters Using Artificial Neural Network Authors: S. S. Patil, N. K. Jain, and A. K. Shrivastava Published in: International Journal of Emerging Technology and Advanced Engineering, Volume 4, Issue 6, 2014\https://doi.org/10.3390/ma12193091 
+
+[28] Tool Wear Monitoring in Turning Using Machine Learning Techniques: A Comprehensive Review Authors: A. A. Jyothi and K. P. Mohandas Published in: Journal of Advanced Mechanical Engineering, Volume 12, Issue 1, 2017 https://doi.org/10.3390/machines9120351 
+
+[29] Tool Wear Monitoring in Drilling Using Machine Learning Techniques Authors: M. S. Ravi, P. V. Sivaprasad, and P. V. Rao Published in: Procedia Materials Science, Volume 6, 2014DOI:10.1243/09544054JEM412 
+
+[30] Machine Tool Condition Monitoring and Remaining Useful Life Prediction Using Deep Learning Techniques Authors: R. Wadhwa, A. S. Rao, and M. K. Tiwari Published in: Journal of Manufacturing Systems, Volume 48, Part B, 2018DOI:10.1186/s40537-021-00444-8 
+
+[31] A Predictive Maintenance Framework for CNC Machine Tools Based on Machine Learning Methods Authors: X. Liu, D. Zhang, and Y. Xiao Published in: International Journal of Advanced Manufacturing Technology, Volume 92, Issues 9-12, 2017https://doi.org/10.1016/j.smse.2023.100009 
+
+International Journal of Science and Research Archive, 2023, 09(01), 627–637 
+
+636 
+
+[32] Machine Learning-Based Estimation of Remaining Useful Life in CNC Machining Centers Authors: B. Li, J. Hu, and Q. Li Published in: The International Journal of Advanced Manufacturing Technology, Volume 95, Issues 9-12, 2018DOI:10.1109/ACCESS.2021.3101284 
+
+[33] Predictive Maintenance of Machine Tools Based on Machine Learning Techniques: A Review Authors: D. Shen, X. Wang, and X. Du Published in: Journal of Intelligent Manufacturing, Volume 31, Issue 4, 2020DOI:10.1016/j.procir.2018.12.019 
+
+[34] Optimization of Cutting Parameters in CNC Turning Using Genetic Algorithm and Neural Network Authors: R. Dhull and M. Kumar Published in: International Journal of Advanced Research in Computer Science and Software Engineering, Volume 4, Issue 10, 2014 https://doi.org/10.3390/app9030479 
+
+[35] Optimization of Cutting Parameters in CNC Turning Using Artificial Neural Network and Particle Swarm Optimization Authors: M. R. Pradhan and N. P. Patidar Published in: Proceedings of the International Conference on Industrial Engineering and Operations Management, 2013doi: 10.1016/j.proeng.2014.03.041 
+
+[36] Optimization of Machining Parameters for CNC Turning Process Using Taguchi Method and Regression Analysis Authors: A. Kumar and A. Verma Published in: Journal of Industrial Engineering International, Volume 12, Issue 1, 2016 DOI:10.35940/ijrte.B3923.079220 
+
+[37] Optimization of Surface Roughness in CNC Turning Using Artificial Neural Networks and Genetic Algorithm Authors: M. Patel and M. R. Pradhan Published in: Journal of Manufacturing Engineering, Volume 2016, Article ID 6436404, 2016 doi: 10.1016/j.procir.2015.02.002 
+
+[38] Prediction of Cutting Forces in Milling Operations Using Machine Learning Techniques Authors: E. Uhlmann, S. Laermann, and J. Lohse Published in: Procedia CIRP, Volume 17, 2014 DOI:10.1007/s11665-021-05507-8 
+
+[39] Prediction of Cutting Forces in Turning Operations Using Artificial Neural Networks and Genetic Algorithms Authors: C. Chen, Y. Cheng, and F. Chen Published in: Journal of Intelligent Manufacturing, Volume 16, Issue 2, 2005 DOI:10.22153/kej.2020.04.002 
+
+[40] Prediction of Cutting Forces in Turning Operations Using Artificial Neural Networks and Genetic Algorithms Authors: C. Chen, Y. Cheng, and F. Chen Published in: Journal of Intelligent Manufacturing, Volume 16, Issue 2, 2005 DOI:10.22153/kej.2020.04.002 
+
+[41] Cutting Force Modeling in Face Milling Based on Artificial Neural Networks and Genetic Algorithms Authors: B. Chen, M. Yang, and W. Yan Published in: Journal of Materials Processing Technology, Volume 202, Issues 1-3, 2008 DOI:10.4273/ijvss.11.2.20 
+
+[42] Cutting Force Modeling in End Milling Using Support Vector Machines Authors: H. C. Zhang and Y. J. Zhang Published in: Journal of Materials Processing Technology, Volume 189, Issues 1-3, 2007 DOI:10.1016/j.jmapro.2018.01.012 
+
+[43] Surface Roughness Prediction Using Machine Learning Techniques in Machining Processes: A Review Authors: H. Li, Y. Guo, and X. Zhang Published in: Journal of Manufacturing Science and Engineering, Volume 140, Issue 3, 2018DOI:10.21608/jesaun.2013.114779 
+
+[44] Surface Quality Prediction of Machined Components Using Machine Learning Techniques Authors: Y. Zhang and X. Wang Published in: The International Journal of Advanced Manufacturing Technology, Volume 95, Issues 5-8, 201810.1007/s40684-018-0057-y 
+
+[45] Surface Quality Prediction in Turning Operations Using Machine Learning Approaches Authors: D. Perveen, P. Pradhan, and M. K. Pradhan Published in: Journal of Materials Engineering and Performance, Volume 29, Issue 5, 2020 doi: 10.3390/ma13132986 
+
+[46] Surface Quality Prediction in Milling Process Based on Machine Learning Approaches Authors: X. Zhang, Z. Liu, and X. Xu Published in: The International Journal of Advanced Manufacturing Technology, Volume 108, Issues 1-2, 2020https://doi.org/10.3390/s23104969 
+
+[47] Predicting Surface Roughness in CNC Milling Using Machine Learning Techniques Authors: M. R. A. Beg, S. M. H. Zaidi, and M. E. Uy Published in: Proceedings of the 2019 IEEE International Conference on Mechatronics and Automation, 2019https://doi.org/10.3390/app9030479 
+
+[48] S. Devaraj, Ramakrishna Malkapuram, B. Singaravel, Performance analysis of micro textured cutting insert design parameters on machining of Al-MMC in turning process, International Journal of Lightweight Materials and Manufacture, Volume 4, Issue 2,2021, Pages 210-217, ISSN 2588-8404, https://doi.org/10.1016/j.ijlmm.2020.11.003. 
+
+International Journal of Science and Research Archive, 2023, 09(01), 627–637 
+
+637 
+
+[49] Ch. Saikrupa1,2, G Chandra Mohan Reddy3 and Sriram Venkatesh4Published under license by IOP Publishing Ltd IOP Conference Series: Materials Science and Engineering, Volume 1057, International Conference on Research and Advances in Mechanical Engineering(ICRAME 2020) 10TH-11TH December 2020, Hyderabad, India Citation Ch. Saikrupa et al 2021 IOP Conf. Ser.: Mater. Sci. Eng. 1057 012098 DOI 10.1088/1757-899X/1057/1/012098 
+
+[50] CH. Saikrupa, G. ChandraMohan Reddy, Sriram Venkatesh, Experimental investigation of cutting conditions in turning of Al-MMC, Materials Today: Proceedings, Volume 76, Part 3,2023, Pages 488-494, ISSN 2214-7853, https://doi.org/10.1016/j.matpr.2022.11.154. 
+
+[51] Divya, C., Raju, L.S., Singaravel, B. and Niranjan, T., 2022. Performance investigation of micro hole textured cutting inserts on power consumption and its measuring methodology in turning process. Alexandria Engineering Journal, 61(4), pp.3125-3130. 
+
+[52] Niranjan, T., Singaravel, B. and Raju, S.S., 2022. Optimization of hole quality parameters using TOPSIS method in drilling of GFRP composite. Materials Today: Proceedings, 62, pp.2109-2114. 
+
+[53] Niranjan, T., Singaravel, B. and Raju, S.S., 2022. Optimization of hole quality parameters using TOPSIS method in drilling of GFRP composite. Materials Today: Proceedings, 62, pp.2109-2114. 
+
+[54] Rajesh, A., Deva Prasad, S., Singaravel, B., Niranjan, T. and Shravan Kumar, T., 2019. Experimental and Analytical Outcomes of Carbon Fiber Orientation in Epoxy Resin Composite Laminate Under Tensile Loading. In Advances in Unconventional Machining and Composites: Proceedings of AIMTDR 2018 (pp. 771-783). Singapore: Springer Singapore. 
+
+[55] Niranjan, T., Singaravel, B. and Raju, S.S., 2022. Delamination error of fiber Reinforced Polymer composite with different drill tool in drilling-A review. Materials Today: Proceedings. 
+
+[56] Venkateshwarlu, N., Singaravel, B., Shekar, K.C. and Prasad, S.D., 2021, February. Analysis and optimization of circularity error in drilling Process using statistical technique. In IOP Conference Series: Materials Science and Engineering (Vol. 1057, No. 1, p. 012063). IOP Publishing. 
+
+[57] Singaravel, B., Chakradhar, B., Rajan, D.S. and Kumar, A.K., 2023. Optimization of friction stir welding process parameters using MCDM method. Materials Today: Proceedings, 76, pp.597-601. 

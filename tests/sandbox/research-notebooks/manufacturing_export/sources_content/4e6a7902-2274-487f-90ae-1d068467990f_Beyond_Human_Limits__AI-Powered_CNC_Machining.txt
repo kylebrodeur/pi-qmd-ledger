@@ -1,0 +1,619 @@
+{{data.title}}
+
+Cancel
+
+Log In
+
+{{data.title}}
+
+{{data.addressModal.validAddress.HomeAddressLine1}}   {{data.addressModal.validAddress.HomeAddressLine2}}   {{data.addressModal.validAddress.HomeCity}} {{data.addressModal.validAddress.HomeState}}, {{data.addressModal.validAddress.HomeZipCode}}   {{data.addressModal.validAddress.HomeCountry}}  
+
+No use the address that was entered.
+
+{{data.addressModal.address.HomeAddressLine1}}   {{data.addressModal.address.HomeAddressLine2}}   {{data.addressModal.address.HomeCity}} {{data.addressModal.address.HomeState}}, {{data.addressModal.address.HomeZipCode}}   {{data.addressModal.address.HomeCountry}}  
+
+Did you mean this address?
+
+{{data.addressModal.validAddress.Line1}}   {{data.addressModal.validAddress.Line2}}   {{data.addressModal.validAddress.City}} {{data.addressModal.validAddress.Region}}, {{data.addressModal.validAddress.ZipCode}}   {{data.addressModal.validAddress.Country}}  
+
+No use the address that was entered.
+
+{{data.addressModal.address.Line1}}   {{data.addressModal.address.Line2}}   {{data.addressModal.address.City}} {{data.addressModal.address.Region}}, {{data.addressModal.address.ZipCode}}   {{data.addressModal.address.Country}}  
+
+Please log in.
+
+You must log in or contact Customer Service.
+
+We were unable to validate the address you entered.
+
+You can still proceed with your address as entered, but an incorrect address may result in billing or shipping delays.
+
+You currently have an ASCM Plus Academic Membership
+
+ Your current ASCM Plus membership with Academic discount  expired  is set to expire  on {{data.renewalModal.membershipExpirationDate}}. You will need to go through the validation process again nto renew with your current discount level. If you are no longer academic, you can either renew as a professional without a discount or see what other discount plans you may be eligible for. 
+
+You currently have an ASCM Plus Young Professional Membership
+
+ Your current ASCM Plus membership with Young Professional discount  expired  is set to expire  on {{data.renewalModal.membershipExpirationDate}}  and you are no longer eligible for this membership plan .  You may be able to renew as a Young Professional if you're still within a 2 year period from when you graduated college.  You will need to go through the verification process again. If you have eclipsed that period, you will need to upgrade to a professional membership but there are other discounts that may apply. 
+
+You currently have an ASCM Core Young Professional Membership
+
+ Your current ASCM Core membership with Young Professional discount   expired  is set to expire  on {{data.renewalModal.membershipExpirationDate}}  and you are no longer eligible for this membership plan .  You may be able to renew as a Young Professional if you're still within a 2 year period from when you graduated college.  You will need to go through the verification process again. If you have eclipsed that period, you will need to upgrade to a professional membership but there are other discounts that may apply. 
+
+Upgrade to Plus and Save
+
+Upgrade to a Plus level membership and take advantage of additional benefits and savings with discounts on all your certifications.
+
+You currently have an ASCM Plus Professional Membership
+
+ Your current ASCM Plus Professional membership   expired  is set to expire  on {{data.renewalModal.membershipExpirationDate}}. 
+
+You currently have an ASCM Core Professional Membership
+
+ Your current ASCM Core Professional membership   expired  is set to expire  on {{data.renewalModal.membershipExpirationDate}}. 
+
+Upgrade to Plus and Save
+
+Upgrade to a Plus level membership and take advantage of additional benefits and savings with discounts on all your certifications.
+
+You currently have an ASCM Plus Active Military Membership
+
+ Your current ASCM Plus membership with Active Military discount that   expired  is set to expire  on {{data.renewalModal.membershipExpirationDate}}. You will need to go through the validation process again nto renew with your current discount level. If you are no longer active duty, you can either renew as a professional without a discount or see what other discount plans you may be eligible for. 
+
+You currently have an ASCM Plus Federal Employee Membership
+
+ Your current ASCM Plus membership with Federal Discount   expired  is set to expire  on {{data.renewalModal.membershipExpirationDate}}. You will need to go through the validation process again to renew with your current discount level. If you are no longer a federal employee, you can either renew as a professional without a discount or see what other discount plans you may be eligible for. 
+
+I've Read and Accept the ASCM Code of Ethics and Testing Policy  
+
+Become a Member
+
+Log In
+
+Search
+
+Partners
+
+ Cart ({{data.quantity}}) 
+
+Log In
+
+ {{data.quantity}} 
+
+ASCM Insights
+
+Back to Posts
+
+AI-Powered CNC Machining Transforms Production
+
+Share
+
+Facebook
+
+Twitter
+
+LinkedIn
+
+Mail
+
+ASCM Insights - Blog Posts
+
+ By: Elizabeth Rennie 
+
+10.16.24
+
+Editor’s note:
+
+AI
+
+ is revolutionizing the way computer numerical control (CNC) machines are being programmed by manufacturers today. By providing informed recommendations, AI assists less experienced users in making better decisions and reduces the risk of errors. This automated guidance also streamlines the setup process and enhances the accuracy of machining operations. For manufacturers, this translates to improved efficiency, reduced programming time and more consistent part quality. I recently had the pleasure of speaking with 
+
+DELMIA’s
+
+https://www.3ds.com/products/delmia/
+
+ George Chen. We delved into the exciting world of AI and its transformative potential for machining operations.
+
+Rennie: 
+
+Tell me about the current impact of AI programming on automation, fabrication and manufacturing. Specifically, how can CNC machines be automated to improve performance and efficiency?
+
+Chen:
+
+ In the realm of automation, fabrication and manufacturing, integrating AI with CNC machining operations is rapidly transforming the industry. As companies seek to enhance precision, increase efficiency and reduce costs, AI-driven CNC machining is emerging as a game-changing innovation.
+
+To start with the basics, CNC machines are automated systems that use computer programming to control the movement and operation of machinery tools such as lathes, mills and grinders. This automation allows for high precision and repeatability in manufacturing processes.
+
+As AI becomes increasingly integrated into CNC machines, algorithms can optimize cutting paths, predict maintenance needs and make real-time adjustments during operations. This results in reduced waste, faster production times and lower operational costs.
+
+Machine learning (ML), as a subset of AI, is also used in CNC machining to improve accuracy. By analyzing historical data and current conditions, ML models can predict tool wear and optimize machining parameters. This predictive capability extends the life of cutting tools and minimizes downtime. For example, AI can analyze large datasets from previous machining operations to identify patterns and optimize future processes. This leads to more efficient production schedules and improved overall productivity.
+
+Rennie: 
+
+CNC machining has long been integral to the manufacturing process and is known for its precision and repeatability. What new capabilities, that extend beyond traditional limits, is AI now offering?
+
+Chen: 
+
+There are several. First, AI enhances CNC machining precision by leveraging 
+
+real-time data analytics
+
+https://www.ascm.org/topics/supply-chain-analytics/
+
+. AI-powered quality control systems can reduce defect rates and algorithms analyze data from sensors embedded in CNC machines to detect deviations and anomalies that human operators might miss. This ensures higher consistency and quality in the final product, translating to fewer rework cycles and higher customer satisfaction.
+
+The adoption of AI for 
+
+predictive maintenance
+
+https://www.ascm.org/ascm-insights/5-food-supply-chain-advancements-with-ai-and-ml/
+
+ is also revolutionizing how manufacturers approach equipment upkeep. Predictive maintenance powered by AI can decrease maintenance costs and reduce unplanned downtime. By analyzing historical performance data and real-time sensor inputs, AI can forecast potential machine failures before they occur, enabling proactive maintenance that prevents costly disruptions.
+
+In addition, AI’s role in optimizing production scheduling is crucial for maximizing efficiency. AI-driven scheduling systems can 
+
+improve production efficiency and algorithms
+
+https://www.ascm.org/ascm-insights/5-ways-ai-is-becoming-essential-to-supply-chain/
+
+ can automatically generate and optimize toolpaths, manage machine availability and reduce lead times, leading to more streamlined operations and enhanced throughput.
+
+The automation of complex machining processes through AI significantly boosts productivity. AI systems in CNC machining can automate setup procedures, tool changes and even adapt to new designs with minimal human intervention. This results in faster production cycles and a notable reduction in human error.
+
+Lastly, the ability to quickly adapt to varying production needs is becoming increasingly important. AI enhances CNC machining’s flexibility by enabling rapid adjustments to production parameters. There is significantly less time spent reconfiguring machinery for different products and the key roles AI-driven systems play in this endeavor. This agility supports manufacturers in meeting the growing demand for customized and small-batch production runs without compromising efficiency.
+
+Rennie: 
+
+Please describe exactly how can AI be used to program a CNC machine. What do professionals need to know?
+
+Chen:
+
+ Leveraging advanced algorithms to automate and optimize various aspects of the programming process includes generating G-code and M-code, which are essential for controlling CNC machines. AI systems analyze 3D models, material properties and historical data to create efficient tool paths. Several key steps are involved: First, AI evaluates CAD models to understand the geometry and features of the part to be machined. Also, the system simulates different tool paths to identify the most efficient route, reducing material waste and machining time. And AI adjusts machining parameters such as feed rates and spindle speeds based on material and machine capabilities. For example, if a part requires complex contours, AI can determine the best cutting strategy to achieve precise dimensions. This reduces the need for manual programming and minimizes errors, making the process more efficient and reliable.
+
+Rennie: 
+
+Can you share some real cases with our readers to help them understand successful applications and approaches?
+
+Chen:
+
+ Several leading companies are already reaping the benefits of AI-powered CNC machining. One well-known utility has adopted AI to boost predictive maintenance and process optimization in its CNC machining operations. Using AI to analyze machine data and forecast potential failures, they achieved a 20% increase in equipment uptime and a 15% reduction in maintenance costs. This approach enhances productivity and lowers operational expenses by minimizing unexpected breakdowns and optimizing maintenance schedules. The business has also been successful in integrating AI to improve manufacturing efficiency and reduce costs.
+
+In another example, an engineering and technology company integrated AI into its CNC machining. Doing that, they have revolutionized its quality control, achieving a 40% reduction in defect rates. AI-driven real-time quality monitoring systems continuously analyze production data and sensor inputs to detect and correct deviations promptly. This proactive approach identifies potential issues before they impact the final product and enhances overall product quality. This technology underscores their dedication to advancing manufacturing excellence and customer satisfaction through innovative AI applications.
+
+Rennie: 
+
+What’s the most important thing for supply chain professionals to keep in mind when starting out with AI for machining?
+
+Chen:
+
+ As a supply chain professional, understanding how AI can optimize and streamline manufacturing processes is crucial. By automating tasks, reducing costs and improving quality, AI empowers companies to achieve operational excellence and meet the ever-evolving demands of today's competitive market. The constructive interaction between AI and CNC machining is set to reshape the future of manufacturing. Embracing these innovations will empower industries to achieve new levels of excellence, driving growth and success in an increasingly complex market.
+
+Manufacturers seeking a competitive edge can get ahead of the curve by downloading our 
+
+Top 10 Trends of 2025
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+. 
+
+Learn why AI is  a game-changer  for warehousing and  logistics  along with other major trends shaping supply chain today. 
+
+Share
+
+Facebook
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Twitter
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+LinkedIn
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Mail
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+About the Author
+
+Elizabeth Rennie
+
+ Editor-in-Chief, SCM Now magazine, ASCM 
+
+ Elizabeth Rennie is Editor-in-Chief at the Association for Supply Chain Management. She may be contacted at erennie@ascm.org. 
+
+Tags
+
+Emerging Topics
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Artificial Intelligence
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Manufacturing and Production 
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Production
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Subscribe
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Popular Posts
+
+ASCM Insights - Blog Posts
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Get a CPG Demand-Forecasting Edge
+
+ By: Elizabeth Rennie 
+
+03.10.25
+
+Read More
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ASCM Insights - Blog Posts
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+10 Actionable Steps to Build Manufacturing Resilience
+
+ By: Elizabeth Rennie 
+
+03.24.25
+
+Read More
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ASCM Insights - Blog Posts
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Navigating Aisles of CPG Uncertainty
+
+ By: Elizabeth Rennie 
+
+01.11.26
+
+Read More
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Categories
+
+ASCM Insights - Blog Posts
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+From our CEO - SCM Now Impact
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Podcasts
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Related Posts
+
+ASCM Insights - Blog Posts
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+AR-Powered Skills Development Transforms Manufacturing
+
+ By: Wendy Mlynarek 
+
+11.22.23
+
+Read More
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ASCM Insights - Blog Posts
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+6 Things Supply Chain Professionals Need to Know About AI
+
+ By: Elizabeth Rennie 
+
+05.30.25
+
+Read More
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ASCM Insights - Blog Posts
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+5 Ways AI Is Becoming Essential to Supply Chain
+
+ By: Richard E.Crandall, PH.D., CPIM-F, CIRM, CSCP 
+
+06.17.25
+
+Read More
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Last Post
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Next Post
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Home
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ASCM Insights
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+AI-Powered CNC Machining Transforms Production  
+
+ ASCM is an unbiased partner, connecting companies around the world with industry experts, frameworks and global standards to transform supply chains. 
+
+Contact Us
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Get the Latest ASCM and Supply Chain News
+
+About Us
+
+ Our  Mission  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ ASCM  Governance  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Leadership  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ Global  Network  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Newsroom  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ Partnering with  ASCM  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ Become an  Instructor  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ Careers at  ASCM  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+FAQs  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Resources
+
+ Become a  Member  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ Manage  Membership  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ Learning  Opportunities  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ Find a  Partner/Chapter  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ ASCM  Blog  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ Credential  Verification  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ Return  Policy  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ Pay  Invoice  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Other Properties
+
+ Learning System  Login  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ Supply Chain Knowledge  Center  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ Partner  Resources  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ IDP  Resources  
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Cookie Settings
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Privacy Policy
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+Terms of Use
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+© Copyright ASCM 2026.
+
+Your Discount Has Been Applied
+
+Your discount has been successfully applied and will be reflected after adding items to your cart.
+
+This Discount is No Longer Available
+
+No discount could be applied as either the affiliated link has expired or is invalid.
+
+Close
+
+https://www.ascm.org/making-an-impact/research/top-10-supply-chain-trends-in-2025/
+
+ASCM Membership Terms and Conditions and ASCM Privacy Policy
+
+ASCM Privacy Policy
+
+ASCM Membership Terms 
+
+The 
+
+ASCM Membership Terms and Conditions
+
+ and 
+
+ASCM Privacy Policy
+
+ have changed. Please review the
+
+ ASCM Membership Terms and Conditions
+
+https://www.ascm.org/link/e73455319424477d9a10da3ee6945e4f.aspx
+
+ and 
+
+ASCM Privacy Policy
+
+https://www.ascm.org/link/c37794500f1d4441a75413c7bfd800fb.aspx
+
+ and indicate your acceptance by clicking below. Until you indicate acceptance, you will be unable to log in to the ascm.org website.
+
+If you have questions or concerns, please contact ASCM Customer Relations at 1-800-444-2742 or +1-773-867-1777 or email 
+
+support@ascm.org
+
+mailto:support@ascm.org
+
+.
+
+The 
+
+ASCM Privacy Policy
+
+ has changed. Please review the 
+
+ASCM Privacy Policy
+
+http://www.apics.org/about/contact/customer-service/privacy-policy
+
+ and indicate your acceptance by clicking below. Until you indicate acceptance,  you will be unable to log in to any ASCM website .
+
+If you have questions or concerns, please contact ASCM Customer  Support  at 1-800-444-2742 or +1-773-867-1777 or email 
+
+support@ascm.org
+
+mailto:support@ascm.org
+
+.
+
+The 
+
+ASCM Membership Terms and Conditions
+
+ has changed. Please review the
+
+ ASCM Membership Terms and Conditions
+
+https://www.ascm.org/link/e73455319424477d9a10da3ee6945e4f.aspx
+
+ and indicate your acceptance by clicking below. Until you indicate acceptance, you will be unable to log in to the ascm.org website.
+
+If you have questions or concerns, please contact ASCM Customer Relations at 1-800-444-2742 or +1-773-867-1777 or email 
+
+support@ascm.org
+
+mailto:support@ascm.org
+
+.
+
+Agree and Continue
+
+mailto:support@ascm.org
+
+Membership Auto-Renewal
+
+Your current ASCM membership is set to renew on 
+
+[[dateToken]]
+
+If you have any questions please 
+
+contact us
+
+https://www.ascm.org/link/c7fad211e9ab4cecb6de1425f523c241.aspx
+
+.
+
+Your current ASCM membership is set to renew on 
+
+[[dateToken]]
+
+The membership has been removed from your cart.
+
+If you have any questions please 
+
+contact us
+
+https://www.ascm.org/link/c7fad211e9ab4cecb6de1425f523c241.aspx
+
+.
+
+Close
+
+https://www.ascm.org/link/c7fad211e9ab4cecb6de1425f523c241.aspx
+
+{{data.title}}
+
+ {{data.body}} 
+
+{{data.button}}
+
+https://www.ascm.org#
+
+Membership Already in Cart
+
+There is already a membership in your cart. Remove membership and add bundle to the cart?
+
+There is already a bundle with a membership in your cart. Remove the bundle and add membership to the cart?
+
+There is already a membership in the cart. Remove membership and add bundle to cart? Only one bundle can be purchased per transaction. If purchasing multiple bundles, please complete your purchase before continuing with another.

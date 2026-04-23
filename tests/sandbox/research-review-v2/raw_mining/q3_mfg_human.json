@@ -1,0 +1,130 @@
+{
+  "value": {
+    "answer": "**The \"AI 30% Rule\"**\nThe \"AI 30% rule\" is a design and operational safeguard that dictates artificial intelligence should only manage approximately 30% of a given task or process, while human operators retain control over the remaining 70% [1, 2]. Under this framework, AI is delegated the routine, repetitive, and data-heavy optimization tasks, freeing human workers to handle responsibilities that require \"big picture\" context, such as creativity, complex reasoning, strategic oversight, and ethical judgment [1, 2]. The rule is rooted in the Industry 5.0 philosophy that complete machine autonomy is rarely safe or desirable, and that maintaining human-machine synergy is essential for balancing operational efficiency with accountability [2, 3]. \n\n**Decision-Support Tools for Human Override in Failure Scenarios**\nWhen an AI system recommends or executes an incorrect or suboptimal process optimization, human operators require specific tools to detect the failure, understand the context, and safely override the system. The proposed decision-support tools and mechanisms include:\n\n*   **Supervision Dashboards with \"Drill-Down\" Investigation:** Purpose-built interfaces are designed to distill complex AI behaviors into interpretable visualizations [4]. A well-designed dashboard displays current process parameters, the AI's recommended targets, expected outcome improvements, confidence scores, and the reasoning behind the recommendation [4]. Crucially, these interfaces support rapid \"drill-down\" capabilities, allowing a human supervisor to immediately access the raw data, constraints, and alternative options the AI considered but rejected [5].\n*   **Explainable AI (XAI) Visualizations:** To prevent operators from blindly trusting a \"black box\" model, systems employ XAI techniques such as SHAP (SHapley Additive exPlanations), Grad-CAM, Integrated Gradients, and Saliency maps [6, 7]. These tools translate deep learning activations into visual heatmaps or feature-level explanations, allowing an engineer to quickly verify if the AI's optimization is grounded in physical reality or if it is hallucinating based on sensor noise [6, 7].\n*   **Natural Language Dialogue Interfaces:** Future systems are integrating Large Language Models (LLMs) to allow operators to use natural language queries to interrogate the AI [8]. This enables the AI to act as an intelligent assistant that can explain its reasoning or allow the operator to verbally simulate corrective actions before validating an override [8, 9].\n*   **Automated Circuit Breakers and Rollback Capabilities:** If an AI makes decisions that prove problematic in execution (e.g., adjusting parameters at a dangerously high frequency), automated circuit breakers can detect this anomaly and autonomously suspend the AI's authority pending human review [10]. Coupled with this are \"rollback capabilities,\" which allow an operator to instantly hit a switch and restore the machinery to its previous safe operational state [10].\n*   **Escalation Protocols:** Agents are programmed to recognize their own limits—such as novel scenarios, conflicting objectives, or high-consequence decisions—and automatically escalate these to a human [5, 11]. Effective escalation tools clearly communicate the AI's uncertainty and the trade-offs of different options rather than just throwing a generic error flag [11].\n*   **Absolute Human Override Authority:** At the architectural level, AI agents must be designed with hard-coded constraints that recognize and immediately defer to human intervention [12]. When a qualified operator assumes direct control or issues a manual command, the system must suspend autonomous operations without delay or debate [12].",
+    "conversation_id": "e9b14c3e-49c3-49da-95a6-f0a9335ed950",
+    "sources_used": [
+      "29a33fd3-39fb-4f6a-883a-69abe5857ca7",
+      "b7840874-44a5-499b-9492-a736b9c7f385",
+      "0be43657-718c-4334-9110-4c35f02ec4a6",
+      "3780a338-5e1d-41f4-8a8a-39c141bfb1f4",
+      "b255c002-cc13-4513-b0e4-7d0d4e890070"
+    ],
+    "citations": {
+      "1": "29a33fd3-39fb-4f6a-883a-69abe5857ca7",
+      "2": "b7840874-44a5-499b-9492-a736b9c7f385",
+      "3": "0be43657-718c-4334-9110-4c35f02ec4a6",
+      "4": "3780a338-5e1d-41f4-8a8a-39c141bfb1f4",
+      "5": "3780a338-5e1d-41f4-8a8a-39c141bfb1f4",
+      "6": "b255c002-cc13-4513-b0e4-7d0d4e890070",
+      "7": "b255c002-cc13-4513-b0e4-7d0d4e890070",
+      "8": "b7840874-44a5-499b-9492-a736b9c7f385",
+      "9": "0be43657-718c-4334-9110-4c35f02ec4a6",
+      "10": "3780a338-5e1d-41f4-8a8a-39c141bfb1f4",
+      "11": "3780a338-5e1d-41f4-8a8a-39c141bfb1f4",
+      "12": "3780a338-5e1d-41f4-8a8a-39c141bfb1f4"
+    },
+    "references": [
+      {
+        "source_id": "29a33fd3-39fb-4f6a-883a-69abe5857ca7",
+        "citation_number": 1,
+        "cited_text": "What is the 30% rule in AI? The AI 30% rule suggests that AI should only be deployed for about 30% of a task or process, with humans completing the remaining 70%. The rule is intended as a safeguard to ensure that AI is focused on routine, data-driven tasks, while humans retain “big picture” responsibilities like creativity, complex reasoning, and ethical judgement. Can AI write G-code? Yes, various AI tools, including large language models like ChatGPT, have demonstrated the ability to generate working G-code, though the accuracy and reliability of the outputs is questionable. Even dedicated AI CAM tools require human oversight to check for errors and inconsistencies."
+      },
+      {
+        "source_id": "b7840874-44a5-499b-9492-a736b9c7f385",
+        "citation_number": 2,
+        "cited_text": "-------------------------------------------------------------------------------- Human-Machine Synergy: The Evolution of Industry 5.0 Human-machine collaboration is emerging as a central pillar in the future of smart manufacturing , particularly as the sector transitions from Industry 4.0 to Industry 5.0. Rather than aiming for complete automation, future trends emphasize a partnership where artificial intelligence and machines augment human expertise [1, 2]. **Balancing Roles and the \"AI 30% Rule\"**Industry 5.0 highlights the importance of pairing advanced technologies with skilled workers [3]. In this framework, AI and robots are deployed to handle routine, repetitive, and data-driven tasks, which frees human operators to focus on creative, strategic, and \"big picture\" responsibilities like quality checks and ethical judgment [3-5]. The \"AI 30% rule\" encapsulates this dynamic, suggesting that AI should manage approximately 30% of a given process, while humans control the remaining 70% [4]. Because complete independence from human oversight is rarely safe or desirable, this collaborative approach is essential for balancing operational efficiency with accountability [6]."
+      },
+      {
+        "source_id": "0be43657-718c-4334-9110-4c35f02ec4a6",
+        "citation_number": 3,
+        "cited_text": "Human-Machine Synergy: The Evolution of Industry 5.0 Human-machine collaboration is emerging as a central pillar in the future of smart manufacturing , particularly as the sector transitions from Industry 4.0 to Industry 5.0. Rather than aiming for complete automation, future trends emphasize a partnership where artificial intelligence and machines augment human expertise [1, 2]. **Balancing Roles and the \"AI 30% Rule\"**Industry 5.0 highlights the importance of pairing advanced technologies with skilled workers [3]. In this framework, AI and robots are deployed to handle routine, repetitive, and data-driven tasks, which frees human operators to focus on creative, strategic, and \"big picture\" responsibilities like quality checks and ethical judgment [3-5]. The \"AI 30% rule\" encapsulates this dynamic, suggesting that AI should manage approximately 30% of a given process, while humans control the remaining 70% [4]. Because complete independence from human oversight is rarely safe or desirable, this collaborative approach is essential for balancing operational efficiency with accountability [6]."
+      },
+      {
+        "source_id": "3780a338-5e1d-41f4-8a8a-39c141bfb1f4",
+        "citation_number": 4,
+        "cited_text": "Supervision Interfaces and Dashboards : Effective human oversight requires purpose-built interfaces that communicate what agents are observing, how they are reasoning, and what actions they are taking or recommending. These dashboards must distill complex agent behavior into interpretable visualizations that busy operations personnel can rapidly assess during normal production monitoring. A well-designed supervision dashboard for a process optimization agent might display current process parameter values alongside agent-recommended targets, the expected outcome improvement if recommendations are implemented, confidence scores indicating agent certainty, and the reasoning factors driving each recommendation. When the agent adjusts parameters autonomously, the dashboard highlights what changed, why the agent determined adjustment was warranted, and what outcome improvements the agent predicts."
+      },
+      {
+        "source_id": "3780a338-5e1d-41f4-8a8a-39c141bfb1f4",
+        "citation_number": 5,
+        "cited_text": "Critically, these interfaces must support rapid drill-down investigation. When a supervisor questions why an agent recommended a specific action, they must be able to immediately access the data the agent analyzed, the patterns it detected, the constraints it respected, and the alternative options it considered but rejected. Escalation and Exception Handling : Perhaps the most critical aspect of human supervision is well-designed escalation protocols that ensure agents elevate decisions beyond their competence to qualified human judgment. Agents must recognize three types of situations demanding escalation:"
+      },
+      {
+        "source_id": "b255c002-cc13-4513-b0e4-7d0d4e890070",
+        "citation_number": 6,
+        "cited_text": "Table 1. Comparison of manufacturing data modalities and explainable AI use cases. <cited_table>",
+        "cited_table": {
+          "num_columns": 7,
+          "rows": [
+            [
+              "Data Domain/Type",
+              "Data Source",
+              "Example Use Cases",
+              "Task Type",
+              "Selected Dataset",
+              "Industrial Relevance",
+              "XAI Contribution"
+            ],
+            [
+              "Vision-Based Image Classification (Grayscale/RGB Images)",
+              "Automated cameras, industrial vision sensors",
+              "- Surface defect detection on castings, welds, and machined parts - Paint and coating uniformity inspection - Dimensional quality verification - Porosity detection in additive manufacturing",
+              "Binary/Multi-Class Classification",
+              "Casting Dataset [",
+              "Represents automated visual inspection systems for defect and quality assurance in manufacturing",
+              "Provides visual interpretability using Grad-CAM, Integrated Gradients, and Occlusion to explain decision regions."
+            ],
+            [
+              "Vision-Based Object Detection and Localisation (Color Images with Bounding Boxes)",
+              "Industrial cameras, robotic inspection systems",
+              "- Detection and localisation of cracks, scratches, and dents - PCB solder-joint and component placement verification - Tool wear and edge-chipping localisation - Weld seam tracking and uniformity analysis",
+              "Multi-Class Object Detection",
+              "Defects Dataset [",
+              "Reflects industrial inspection tasks requiring classification and spatial localisation for defect identification",
+              "Improves model transparency via Grad-CAM and Saliency-based visualisation of spatial attention."
+            ],
+            [
+              "Acoustic/Vibration-Based Time-Series Analysis (Audio or Vibration Signals)",
+              "Microphones, accelerometers, vibration sensors",
+              "- Machine condition monitoring (bearings, fans, motors, pumps) - Tool chatter, imbalance, or looseness detection - Predictive maintenance using sound and vibration data - Leakage detection in pneumatic and compressor systems",
+              "Unsupervised Anomaly Detection",
+              "MIMII Dataset [",
+              "Models acoustic condition monitoring for early fault detection and predictive maintenance",
+              "Uses SHAP and LIME to explain feature-level reasoning in anomaly detection."
+            ]
+          ]
+        }
+      },
+      {
+        "source_id": "b255c002-cc13-4513-b0e4-7d0d4e890070",
+        "citation_number": 7,
+        "cited_text": "Explainability is particularly important when AI models interact with diverse data sources for instance, vision data from industrial cameras, acoustic signals from machine sensors, and multivariate time-series data from process monitoring systems. Each of these data domains captures complementary aspects of manufacturing behavior: visual data reveal surface and geometric anomalies; acoustic and vibration signals expose internal mechanical conditions; and sensor data track thermal, electrical, or dynamic system states. In this context, XAI provides mechanisms to interpret and validate model decisions across these modalities. For example, visual methods such as Grad-CAM or Saliency maps highlight spatial regions driving defect detection and classification, while SHAP (SHapley Additive exPlanations) explain feature-level contributions in time-series or acoustic analysis [ 26 ]. Such interpretability enables informed decision-making, facilitates troubleshooting, and reinforces user trust in AI-assisted manufacturing. The integration of XAI into the manufacturing pipeline is summarised in Figure 3 , which depicts how data from visual, acoustic, and sensor sources feed into AI models, followed by explainability layers that generate interpretable outputs for human validation."
+      },
+      {
+        "source_id": "b7840874-44a5-499b-9492-a736b9c7f385",
+        "citation_number": 8,
+        "cited_text": "Intuitive Interfaces and Decision Support A major future trend is the development of intelligent interfaces and decision-support tools that make interactions between humans and machines more intuitive [1, 7, 8]. Future systems will utilize natural language queries to execute simulation or optimization actions, helping to make complex, high-dimensional AI predictions easily interpretable to operators [9]. This allows AI to act as an intelligent assistant that recommends actions, explains its reasoning, and waits for human validation or oversight before executing high-stakes tasks [6, 10]. Designing these interactions effectively will require a deep understanding of the AI's core mechanics to ensure appropriate human oversight [11, 12]."
+      },
+      {
+        "source_id": "0be43657-718c-4334-9110-4c35f02ec4a6",
+        "citation_number": 9,
+        "cited_text": "Intuitive Interfaces and Decision Support A major future trend is the development of intelligent interfaces and decision-support tools that make interactions between humans and machines more intuitive [1, 7, 8]. Future systems will utilize natural language queries to execute simulation or optimization actions, helping to make complex, high-dimensional AI predictions easily interpretable to operators [9]. This allows AI to act as an intelligent assistant that recommends actions, explains its reasoning, and waits for human validation or oversight before executing high-stakes tasks [6, 10]. Designing these interactions effectively will require a deep understanding of the AI's core mechanics to ensure appropriate human oversight [11, 12]."
+      },
+      {
+        "source_id": "3780a338-5e1d-41f4-8a8a-39c141bfb1f4",
+        "citation_number": 10,
+        "cited_text": "Automated Circuit Breakers : Beyond manual intervention, agent systems should incorporate automated safeguards that detect anomalous behavior patterns and autonomously reduce agent authority or suspend operations pending human review. For example, if a process optimization agent makes parameter adjustments at a frequency substantially exceeding historical patterns, circuit breakers might automatically restrict the agent to monitoring mode and alert supervisors to investigate. Rollback Capabilities : When agents make decisions that prove suboptimal or problematic in execution, operators need the ability to quickly restore previous operational states."
+      },
+      {
+        "source_id": "3780a338-5e1d-41f4-8a8a-39c141bfb1f4",
+        "citation_number": 11,
+        "cited_text": "Novel scenarios not adequately represented in training data or outside the boundaries of validated operating experience. Conflicting objectives where optimizing one performance dimension would degrade another, requiring human judgment about business priority trade-offs. High-consequence decisions that exceed the agent's autonomous authority threshold based on risk tiering frameworks. Effective escalation requires clear communication of uncertainty. Agents cannot simply flag exception conditions without context. They must explain what makes the situation unusual, what information they lack to make confident recommendations, and what options they've considered along with the trade-offs of each."
+      },
+      {
+        "source_id": "3780a338-5e1d-41f4-8a8a-39c141bfb1f4",
+        "citation_number": 12,
+        "cited_text": "Human Override Authority : Perhaps most critically, agents must be designed to recognize and immediately defer to human operator intervention. When a qualified operator issues a manual command or assumes direct control, the agent must suspend autonomous operation without delay or debate. Implementing these constraints requires more than prompt engineering or post-hoc validation. They must be architected into agent decision frameworks through formal verification methods, embedded rule engines that evaluate all proposed actions against constraint libraries, and continuous monitoring that flags any attempts, whether from design flaws or adversarial attacks, to operate outside established boundaries."
+      }
+    ]
+  }
+}

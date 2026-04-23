@@ -1,0 +1,3155 @@
+A physics-informed neural network framework for multi-physics coupling microfluidic problems | Request PDF
+
+Home
+
+https://www.researchgate.net/directory/publications
+
+Statistical Learning
+
+https://www.researchgate.net/topic/Statistical-Learning/publications
+
+ANN Techniques
+
+https://www.researchgate.net/topic/ANN-Techniques/publications
+
+Biosignal Processing
+
+https://www.researchgate.net/topic/Biosignal-Processing/publications
+
+Biosignals
+
+https://www.researchgate.net/topic/Biosignals/publications
+
+Physiology
+
+https://www.researchgate.net/topic/Physiology/publications
+
+Neural Networks
+
+https://www.researchgate.net/topic/Neural-Networks/publications
+
+Article
+
+A physics-informed neural network framework for multi-physics coupling microfluidic problems
+
+September 2024
+
+Computers & Fluids
+
+https://www.researchgate.net/journal/Computers-Fluids-0045-7930
+
+ 284:106421
+
+DOI: 
+
+10.1016/j.compfluid.2024.106421
+
+https://doi.org/10.1016/j.compfluid.2024.106421
+
+License
+
+CC BY 4.0
+
+https://www.researchgate.net/deref/https%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby%2F4.0%2F
+
+Authors:
+
+Runze Sun
+
+https://www.researchgate.net/scientific-contributions/Runze-Sun-2248667396
+
+Runze Sun
+
+https://www.researchgate.net/scientific-contributions/Runze-Sun-2248667396
+
+This person is not on ResearchGate, or hasn't claimed this research yet.
+
+Hyogu Jeong
+
+https://www.researchgate.net/profile/Hyogu-Jeong
+
+Queensland University of Technology
+
+https://www.researchgate.net/institution/Queensland_University_of_Technology
+
+Jiachen Zhao
+
+https://www.researchgate.net/profile/Jiachen_Zhao5
+
+Queensland University of Technology
+
+https://www.researchgate.net/institution/Queensland_University_of_Technology
+
+Yixing Gou
+
+https://www.researchgate.net/profile/Yixing-Gou-2
+
+Hebei University of Technology
+
+https://www.researchgate.net/institution/Hebei-University-of-Technology
+
+Show all 7 authors
+
+https://www.researchgate.net/
+
+ 
+
+Hide
+
+https://www.researchgate.net/
+
+ 
+
+Request full-text PDF
+
+To read the full-text of this research, you can request a copy directly from the authors.
+
+Request full-text
+
+Download citation
+
+https://www.researchgate.net/publication/383762904_A_physics-informed_neural_network_framework_for_multi-physics_coupling_microfluidic_problems/citation/download
+
+Copy link Link copied
+
+Request full-text
+
+https://www.researchgate.net/lite.research.ResearchResourcesSummary.requestFulltext.html?publicationUid=383762904&ev=su_requestFulltext
+
+Download citation
+
+https://www.researchgate.net/publication/383762904_A_physics-informed_neural_network_framework_for_multi-physics_coupling_microfluidic_problems/citation/download
+
+Copy link Link copied
+
+To read the full-text of this research, you can request a copy directly from the authors.
+
+Citations (34)
+
+https://www.researchgate.net/publication/383762904_A_physics-informed_neural_network_framework_for_multi-physics_coupling_microfluidic_problems#citations
+
+References (111)
+
+https://www.researchgate.net/publication/383762904_A_physics-informed_neural_network_framework_for_multi-physics_coupling_microfluidic_problems#references
+
+ 
+
+Discover the world's research
+
+25+ million members
+
+160+ million publication pages
+
+2.3+ billion citations
+
+Join for free
+
+https://www.researchgate.net/signup.SignUp.html
+
+No full-text available
+
+To read the full-text of this research,
+
+you can request a copy directly from the authors.
+
+Request full-text PDF
+
+Citations (34)
+
+References (111)
+
+... PINNs have been successfully applied to various multi-physics coupling scenarios. For example, Sun et al. 
+
+18
+
+ applied PINNs to solve the governing equations in electrokinetic microfluidic systems, including the Nernst-Planck, Poisson, and Navier-Stokes equations, demonstrating exceptional interpolation capabilities in predicting electromigration, ion concentration polarization, and electroosmotic flow. Inspired by entropy viscosity methods in CFD, He et al. 19 developed an artificial viscosity-based PINN for forward and inverse flow problems in high-Reynolds-number domains....
+
+... The loss function used to evaluate the transfer training process was constructed based on Eqs. (17) and 
+
+(18)
+
+ as follows: ...
+
+Physics-informed neural network for solving the coupled Reynolds–energy equations with viscosity–temperature effects in hydrodynamic journal bearings
+
+https://www.researchgate.net/publication/392470603_Physics-informed_neural_network_for_solving_the_coupled_Reynolds-energy_equations_with_viscosity-temperature_effects_in_hydrodynamic_journal_bearings
+
+Article
+
+Full-text available
+
+Jun 2025
+
+PHYS FLUIDS
+
+https://www.researchgate.net/journal/Physics-of-Fluids-1089-7666
+
+Weikai Zhao
+
+https://www.researchgate.net/scientific-contributions/Weikai-Zhao-2315337044
+
+Xiaomeng Tong
+
+https://www.researchgate.net/scientific-contributions/Xiaomeng-Tong-2231982857
+
+ Maolin Cai
+
+https://www.researchgate.net/profile/Maolin-Cai
+
+Tianyang Song
+
+https://www.researchgate.net/scientific-contributions/Tianyang-Song-2315364999
+
+This study presents an efficient solution framework for energy–Reynolds-coupled equations in hydrodynamic journal bearings (HJBs) incorporating the viscosity–temperature effect through a physics-informed neural network (PINN). The proposed framework is termed Reynolds-and-energy-coupled physics-informed neural network, abbreviated as RAE-PINN. Leveraging the unsupervised learning capabilities of PINN, an adaptive sampling strategy is introduced to optimize the spatial distribution of computational points. Additionally, a hard-constraint method is employed to ensure the physical consistency of boundary conditions and cavitation regions. To further enhance the generalization capability of RAE-PINN, a transfer learning strategy is implemented, enabling adaptation to variations in bearing structural parameters (such as aspect ratio, eccentricity, and radial clearance) and operating conditions (e.g., rotational speed). The results demonstrate that RAE-PINN achieves high accuracy in predicting oil film pressure and temperature distributions, closely aligning with high-fidelity finite element method (FEM) simulations. Furthermore, RAE-PINN achieves a computational speedup of over 300 times, reducing the solution time for a single bearing case from several minutes to less than one second, thereby significantly enhancing computational efficiency. Compared to traditional numerical methods, RAE-PINN not only preserves computational accuracy but also substantially reduces computational costs, providing an efficient, stable, and scalable numerical solution framework for intelligent modeling, optimized design, and real-time analysis of rotating machinery bearing systems.
+
+View
+
+https://www.researchgate.net/publication/392470603_Physics-informed_neural_network_for_solving_the_coupled_Reynolds-energy_equations_with_viscosity-temperature_effects_in_hydrodynamic_journal_bearings
+
+Show abstract
+
+... Since their introduction, PINNs have proven to be highly effective for addressing both forward and inverse problems [19]. They have been applied successfully to areas such as numerical simulations of the Navier-Stokes equations, tomographic reconstruction, and multi-physics modelling [20][21] 
+
+[22]
+
+ . However, PINNs should not be seen as simple replacements for classical solvers....
+
+Optimisation of physics-informed neural network architecture and training for tokamak equilibrium reconstruction
+
+https://www.researchgate.net/publication/402879542_Optimisation_of_physics-informed_neural_network_architecture_and_training_for_tokamak_equilibrium_reconstruction
+
+Article
+
+Full-text available
+
+Apr 2026
+
+PLASMA PHYS CONTR F
+
+https://www.researchgate.net/journal/Plasma-Physics-and-Controlled-Fusion-1361-6587
+
+Novella Rutigliano
+
+https://www.researchgate.net/scientific-contributions/Novella-Rutigliano-2314559153
+
+ A. Murari
+
+https://www.researchgate.net/profile/A-Murari
+
+Pasquale Gaudio
+
+https://www.researchgate.net/scientific-contributions/Pasquale-Gaudio-2340840080
+
+ Riccardo Rossi
+
+https://www.researchgate.net/profile/Riccardo-Rossi
+
+Reconstructing the plasma state is a central challenge in nuclear fusion experiments, as it is essential for understanding and predicting plasma behaviour. Physics-informed neural networks (PINNs), especially when combined with a multi-diagnostic approach, offer powerful advantages for addressing this problem. PINNs embed the governing physical laws directly into the learning process through differential equation constraints, enabling them to integrate sparse or noisy measurements while maintaining physical consistency. This makes them particularly suitable for equilibrium reconstruction, where they can incorporate diagnostic data as boundary conditions and naturally enforce the structure of the magnetohydrodynamic equations. Moreover, the use of multiple diagnostics helps over-constrain the system, reducing uncertainties and mitigating the ill-posedness characteristic of the plasma core region. Starting from results obtained in previous works [1] where the capabilities of multi-diagnostics equilibrium reconstruction through PINNs were demonstrated, in this work we perform several parametric studies to optimise both the neural network architecture and the training procedure. We examine the impact of automatically adjusting the relative weights between data and physics losses during training, the role of specialised physics-based network's layers informed by prior knowledge or plasma state hypotheses, the choice of hidden layers' activation function, and the benefits of initialising training from a pre-trained network. These analyses provide guidelines for designing the most effective neural network and training strategy for specific plasma conditions.
+
+View
+
+https://www.researchgate.net/publication/402879542_Optimisation_of_physics-informed_neural_network_architecture_and_training_for_tokamak_equilibrium_reconstruction
+
+Show abstract
+
+... Applications include predicting multi-species transport in 2D domains [50], validating against FEM for coupled electrokinetic flows 
+
+[51]
+
+ , and solving the Young-Laplace equation for capillary action [52]. However, these studies primarily address simpler 2D physics or specific, lowerdimensional aspects of 3D systems....
+
+Performance analysis of a three-dimensional micromixer with baffles using a flexible physics-informed neural network
+
+https://www.researchgate.net/publication/401021892_Performance_analysis_of_a_three-dimensional_micromixer_with_baffles_using_a_flexible_physics-informed_neural_network
+
+Article
+
+Full-text available
+
+Feb 2026
+
+ Meraj Hassanzadeh
+
+https://www.researchgate.net/profile/Meraj-Hassanzadeh
+
+ Ehsan Ghaderi
+
+https://www.researchgate.net/profile/Ehsan-Ghaderi-4
+
+ Mohamad Ali Bijarchi
+
+https://www.researchgate.net/profile/Mohamad-Ali-Bijarchi
+
+This study introduces a Flexible Physics-Informed Neural Network (FlexPINN) to overcome the limitations of standard PINNs in modeling fully three-dimensional, geometrically complex micromixers with internal baffles. The mesh-free framework integrates parallel-network architecture, first-order dimensionless governing equations, adaptive loss weighting, and a novel global conservation penalty to prevent trivial solutions and ensure robust convergence. Employing transfer learning reduces the training time for new baffle shapes by ~ 35%, requiring approximately 3.5 h versus 5.5 h for a base case on a single GPU. Validated against conventional Computational Fluid Dynamics, FlexPINN achieves high-fidelity predictions, with maximum relative errors of 3.25% for the pressure drop coefficient and 2.86% for the mixing index. A comprehensive parametric study evaluates three baffle shapes (rectangular, elliptical, triangular) across four configurations and Reynolds numbers (Re = 5, 20, 40, 80). Results demonstrate that rectangular baffles in a double-unit, staggered configuration (C) at Re = 40 yield the peak mixing efficiency of 1.63, significantly outperforming other designs. This work successfully bridges a critical gap in PINN applications by providing a validated, efficient tool for the analysis and optimization of intricate 3D passive micromixers.
+
+View
+
+https://www.researchgate.net/publication/401021892_Performance_analysis_of_a_three-dimensional_micromixer_with_baffles_using_a_flexible_physics-informed_neural_network
+
+Show abstract
+
+... The time-and space-dependent velocity field u(x, t) calculated from the flow equation, is injected into the advection term of the transport equations. Within the PINN framework, this multiphysics linkage is naturally handled by incorporating the residuals of all governing equations into a single global loss function, enabling a unified solution without complex inter-field iterations 
+
+(Sun et al., 2024)
+
+ . The detailed derivation of these governing equations, including parameter definitions and the non-dimensionalization process, is provided in (Text S1 in Supporting Information S1)....
+
+An Efficient Multi‐Physics GPT‐PINN Framework for Predicting Reactive Solute Transport in Parameterized Groundwater Systems
+
+https://www.researchgate.net/publication/400444720_An_Efficient_Multi-Physics_GPT-PINN_Framework_for_Predicting_Reactive_Solute_Transport_in_Parameterized_Groundwater_Systems
+
+Article
+
+Full-text available
+
+Feb 2026
+
+GEOPHYS RES LETT
+
+https://www.researchgate.net/journal/Geophysical-Research-Letters-1944-8007
+
+ Zhiyu Jiao
+
+https://www.researchgate.net/profile/Zhiyu-Jiao
+
+ Xiaobin Zhu
+
+https://www.researchgate.net/profile/Xiaobin-Zhu-5
+
+ Guiyao Xiong
+
+https://www.researchgate.net/profile/Guiyao-Xiong
+
+ Jichun Wu
+
+https://www.researchgate.net/profile/Jichun-Wu
+
+Plain Language Summary Predicting groundwater and contaminant movement is critical for managing Earth's largest freshwater reservoir. However, these systems involve complex, interconnected physics, making simulations for tasks like risk assessment computationally prohibitive. Standard AI models often fail here, as they require costly retraining for each new parameter. The latest AI framework, MP‐GPT‐PINN, solves this by decoupling the problem into two stages. A one‐time offline stage intelligently learns the system's core physics by building a compact library of pre‐trained models on the most physically significant scenarios. It uses a specialized parallel architecture to handle water flow and chemical transport separately, preventing interference. The rapid online stage then generates near‐instantaneous predictions by solving a simple linear problem to combine these models. This approach is up to 10,000 times faster than standard methods while maintaining high fidelity, with relative errors as low as 0.1%. This speed makes previously intractable large‐scale tasks, such as Monte Carlo uncertainty analysis and real‐time data assimilation, computationally feasible, providing a transformative new tool for the geoscience community.
+
+View
+
+https://www.researchgate.net/publication/400444720_An_Efficient_Multi-Physics_GPT-PINN_Framework_for_Predicting_Reactive_Solute_Transport_in_Parameterized_Groundwater_Systems
+
+Show abstract
+
+... Similar bounds that have been imposed upon them are different for settings in geopolymer systems in the absence of fibers and in high-performance concrete, where the uncontrolled type of degradation dynamics comes into play in process. The method provides support for generalizing structural interpretation of any materials system with a considerable amount of complexity subject to sudden alterations in its degradation landscapes according to established principles of the TPINN model 
+
+45
+
+ . The compressive and tensile strength of fly ash-based sustainable concrete was modeled using hybrid approach integrating gradient boosting (XGBoost), deep neural networks (DNNs), and optimization via AutoGluon process 46,47 ....
+
+Durability and service life prediction of fly ash based geopolymer high performance concrete under extreme environmental conditions
+
+https://www.researchgate.net/publication/398337513_Durability_and_service_life_prediction_of_fly_ash_based_geopolymer_high_performance_concrete_under_extreme_environmental_conditions
+
+Article
+
+Full-text available
+
+Dec 2025
+
+ Vikrant Vairagade
+
+https://www.researchgate.net/profile/Vikrant-Vairagade
+
+The durability assessment of fly ash-based geopolymer high-performance concrete (HPC) under extreme environment treatment remains a subject of critical concern in structural material engineering sets. To enhance this performance, the present research develops a unique integrated framework based on physics informed and deep learning type analytical designs built to predict the durability and residual service life of geopolymer HPC subjected to freezing-and-thawing, sulfate, and thermal degradation. Firstly, it employs a Transformer Based Physics Informed Neural Network (TPINN) for modeling multi-degradation mechanisms with embedded physical constraints and self-attention mechanisms for accurate degradation mapping. Secondly, the Spatiotemporal Graph Neural Networks (ST-GNN) seize a localized pattern of crack propagation through time and space so as to step up the interpretability in damage evolutions prediction. Thirdly, the Deep Reinforcement Learning Based Mix Optimization (DRL MO) model seeks to maximize long-term retention of compressive strength while simultaneously searching for the best mix compositions free of fiber reinforcement constraints. Fourthly, Hypergraph Self Supervised Learning (HSSL) makes use of contrastive learning to model thermal deformability from micro to macro scales without requiring any labelled data samples. Finally, the Diffusion Probabilistic Model for Uncertainty Quantification (DPM-UQ) issues stochastic service-life predictions amounting to quantified failure risks in a risk-based decision-making process. This comprehensive framework considerably enhances predictive accuracy, interpretability, and decreases data need. Coupled with the insights produced from these models regarding service life extension and maintenance planning, this framework will hold considerable promise for suggesting a credible, scalable durability prediction of geopolymer HPC in extreme environments.
+
+View
+
+https://www.researchgate.net/publication/398337513_Durability_and_service_life_prediction_of_fly_ash_based_geopolymer_high_performance_concrete_under_extreme_environmental_conditions
+
+Show abstract
+
+... In natural language and vision, such models have transformed generalization and data efficiency, yet the extension of this paradigm to scientific modeling remains in its infancy (Touvron et al. 2023;Zhai et al. 2022). Physical systems pose unique challenges: data are multiresolution and multi-scale (Pathak et al. 2022;Yang, Guo, and Ren 2025), governed by constraints such as conservation laws , symmetry, and stiffness; they evolve in continuous space-time (Raissi, Perdikaris, and Karniadakis 2019;Angelov, Filev, and Kasabov 2010); and they couple nonlinear operators across disparate physical processes (Aarts et al. 2025;Li et al. 2025; 
+
+Sun et al. 2024)
+
+ . A foundation model for physics must therefore reconcile two seemingly opposed requirements: (1) the scalability and generalization of large sequence models (Wiesner, Wessling, and Baek 2025;Alkin et al. 2024), and (2) the physical fidelity and inductive structure of domain-specific solvers (Chalapathi, Du, and Krishnapriyan 2024;Gao et al. 2025)....
+
+Towards a Foundation Model for Partial Differential Equations Across Physics Domains
+
+https://www.researchgate.net/publication/398134497_Towards_a_Foundation_Model_for_Partial_Differential_Equations_Across_Physics_Domains
+
+Preprint
+
+Full-text available
+
+Nov 2025
+
+ Eduardo A. Soares
+
+https://www.researchgate.net/profile/Eduardo-Soares-17
+
+ Emilio Vital Brazil
+
+https://www.researchgate.net/profile/Emilio-Vital-Brazil
+
+ Victor Yukio Shirasuna
+
+https://www.researchgate.net/profile/Victor-Shirasuna
+
+ A. Cristiano I. Malossi
+
+https://www.researchgate.net/profile/A-Cristiano-I-Malossi
+
+We present PDE-FM, a modular foundation model for physics-informed machine learning that unifies spatial, spectral, and temporal reasoning across heterogeneous partial differential equation (PDE) systems. PDE-FM combines spatial-spectral tokenization, physics-aware conditioning, and a Mamba-based state-space backbone with an operator-theoretic decoder, enabling scalable and data-efficient modeling of complex physical dynamics. In contrast to task-specific neural operators, PDE-FM is pretrained once on diverse PDE datasets and can be transferred to new physical regimes without architectural or data-specific modifications. Evaluated on twelve 2D and 3D datasets from The Well benchmark - spanning hydrodynamic, radiative, elastic, and astrophysical phenomena - PDE-FM achieves state-of-the-art accuracy in six domains, reducing mean VRMSE by 46% relative to prior operator-learning baselines. The model demonstrates robust cross-physics generalization, excelling in turbulent and radiative systems while maintaining strong performance in linear and steady-state regimes. These results suggest that large-scale pretraining across diverse physical processes can yield transferable representations of dynamics, marking a step toward unified, foundation-level surrogates for multi-physics simulation and scientific discovery.
+
+View
+
+https://www.researchgate.net/publication/398134497_Towards_a_Foundation_Model_for_Partial_Differential_Equations_Across_Physics_Domains
+
+Show abstract
+
+... Physics-Informed Neural Networks (PINNs) [17] were introduced as a framework to incorporate known physical laws into the learning objective by penalising violations of differential equations. PINNs have been applied to inverse problems [2], partial observations [11], and multi-physics settings 
+
+[21]
+
+ . Despite these advances, PINNs exhibit poor scalability in stiff systems and are known to have poor extrapolation performance outside the training domain [13]....
+
+Physics-Informed Neural ODEs with Scale-Aware Residuals for Learning Stiff Biophysical Dynamics
+
+https://www.researchgate.net/publication/397700419_Physics-Informed_Neural_ODEs_with_Scale-Aware_Residuals_for_Learning_Stiff_Biophysical_Dynamics
+
+Preprint
+
+Full-text available
+
+Nov 2025
+
+Kamalpreet Singh Kainth
+
+https://www.researchgate.net/scientific-contributions/Kamalpreet-Singh-Kainth-2331326925
+
+Prathamesh Dinesh Joshi
+
+https://www.researchgate.net/scientific-contributions/Prathamesh-Dinesh-Joshi-2292045484
+
+Raj Abhijit Dandekar
+
+https://www.researchgate.net/scientific-contributions/Raj-Abhijit-Dandekar-2292046561
+
+Sreedat Panat
+
+https://www.researchgate.net/scientific-contributions/Sreedat-Panat-2331304599
+
+Neural differential equations offer a powerful framework for modeling continuous-time dynamics, but forecasting stiff biophysical systems remains unreliable. Standard Neural ODEs and physics informed variants often require orders of magnitude more iterations, and even then may converge to suboptimal solutions that fail to preserve oscillatory frequency or amplitude. We introduce PhysicsInformed Neural ODEs with with Scale-Aware Residuals (PI-NODE-SR), a framework that combines a low-order explicit solver (Heun method) residual normalisation to balance contributions between state variables evolving on disparate timescales. This combination stabilises training under realistic iteration budgets and avoids reliance on computationally expensive implicit solvers. On the Hodgkin-Huxley equations, PI-NODE-SR learns from a single oscillation simulated with a stiff solver (Rodas5P) and extrapolates beyond 100 ms, capturing both oscillation frequency and near-correct amplitudes. Remarkably, end-to-end learning of the vector field enables PI-NODE-SR to recover morphological features such as sharp subthreshold curvature in gating variables that are typically reserved for higher-order solvers, suggesting that neural correction can offset numerical diffusion. While performance remains sensitive to initialisation, PI-NODE-SR consistently reduces long-horizon errors relative to baseline Neural-ODEs and PINNs, offering a principled route to stable and efficient learning of stiff biological dynamics.
+
+View
+
+https://www.researchgate.net/publication/397700419_Physics-Informed_Neural_ODEs_with_Scale-Aware_Residuals_for_Learning_Stiff_Biophysical_Dynamics
+
+Show abstract
+
+... Physics-informed neural network (PINN) is an emerging prediction method that introduces physical laws into neural networks [10,11]. Compared with the conventional neural network, the distinct difference that PINN introduces is the loss function of physics inconsistency 
+
+[12,
+
+ 13]. When prediction results do not follow the physical law, the loss function of physics inconsistency exerts a penalty on the neural network....
+
+Predicting Airplane Cabin Temperature Using a Physics-Informed Neural Network Based on a Priori Monotonicity
+
+https://www.researchgate.net/publication/397311326_Predicting_Airplane_Cabin_Temperature_Using_a_Physics-Informed_Neural_Network_Based_on_a_Priori_Monotonicity
+
+Article
+
+Full-text available
+
+Nov 2025
+
+Zijian Liu
+
+https://www.researchgate.net/scientific-contributions/Zijian-Liu-2330025354
+
+Liangxu Cai
+
+https://www.researchgate.net/scientific-contributions/Liangxu-Cai-2292400094
+
+Jianjun Zhang
+
+https://www.researchgate.net/scientific-contributions/Jianjun-Zhang-2038722247
+
+Chen Ding
+
+https://www.researchgate.net/scientific-contributions/Chen-Ding-2231792875
+
+Airplane cabin temperature is a critical environmental factor governing the safety and reliability of airborne equipment. Compared with measuring temperature, predicting temperature is more cost- and time-saving and can cover an extreme flight envelope. Physics-informed neural networks (PINNs) offer a promising prediction solution whose performance hinges on the availability of precise governing differential equations. However, building governing differential equations between flight parameters and cabin temperature is a great challenge, as it is comprehensively influenced by aerodynamic heat, avionic heat, and internal flow. To solve this, a new PINN framework based on “a priori monotonicity” is proposed. Underlying physical trends (monotonicity) from flight data are extracted to construct the loss function as a data-driven constraint, thus eliminating the need for any governing equations. The new PINN is developed to estimate the seven cabin temperatures of an unmanned aerial vehicle. The model was trained on data from four flight sorties and validated on another four independent sorties. Results demonstrate that the proposed PINN achieves a mean absolute error of 1.9 and a root mean square error of 2.6, outperforming a conventional neural network by approximately 35%. The core value of this work is a new PINN framework that bypasses the development of complex governing equations, which enhances its practicality for engineering applications.
+
+View
+
+https://www.researchgate.net/publication/397311326_Predicting_Airplane_Cabin_Temperature_Using_a_Physics-Informed_Neural_Network_Based_on_a_Priori_Monotonicity
+
+Show abstract
+
+... PINNs are a specialized class of artificial neural networks (NNs) that seamlessly incorporate governing physics equations in the loss function of NNs, enabling them to address both forward and inverse computational problems [30]. Their effectiveness has been demonstrated across a wide range of partial differential equations (PDEs), including applications in solid mechanics [31][32][33][34][35][36], fluid mechanics [37][38][39][40] 
+
+[41]
+
+ , food drying [42][43][44][45], and more. A key advantage of PINNs is their use of automatic differentiation (AD) in deep learning to compute PDE operators, which significantly outperforms the numerical differentiation methods used in traditional computational techniques [46]....
+
+Fourier feature embedded physics-informed neural network-based topology optimization (FF-PINNTO) framework for geometrically nonlinear structures
+
+https://www.researchgate.net/publication/397148265_Fourier_feature_embedded_physics-informed_neural_network-based_topology_optimization_FF-PINNTO_framework_for_geometrically_nonlinear_structures
+
+Article
+
+Nov 2025
+
+COMPUT METHOD APPL M
+
+ Hyogu Jeong
+
+https://www.researchgate.net/profile/Hyogu-Jeong
+
+ Jinshuai Bai
+
+https://www.researchgate.net/profile/Jinshuai-Bai
+
+ C. P. Batuwatta-Gamage
+
+https://www.researchgate.net/profile/C-P-Batuwatta-Gamage
+
+Yuantong Gu
+
+https://www.researchgate.net/scientific-contributions/Yuantong-Gu-2068855086
+
+View
+
+https://www.researchgate.net/publication/397148265_Fourier_feature_embedded_physics-informed_neural_network-based_topology_optimization_FF-PINNTO_framework_for_geometrically_nonlinear_structures
+
+... 118 Meanwhile, physics-informed neural network (PINN) frameworks for heat transfer and electrokinetic microfluidics provide data-efficient, reliable solvers that can be embedded in model predictive control (MPC) or reinforcement learning systems to maintain precise temperature distributions even when load conditions change. 
+
+119
+
+ These methods enable verification of heater performance during the design phase and enable the prediction of microheater thermal field distribution using machine learning. Unlike laser-focused heat sources, electrodes face size limitations that restrict their ability to create smaller thermal points....
+
+Designing and integrating microfluidic electrodes for biosensing and micromanipulation
+
+https://www.researchgate.net/publication/396556480_Designing_and_integrating_microfluidic_electrodes_for_biosensing_and_micromanipulation
+
+Article
+
+Full-text available
+
+Oct 2025
+
+ Shen Yigang
+
+https://www.researchgate.net/profile/Shen-Yigang
+
+Huaixin Li
+
+https://www.researchgate.net/scientific-contributions/Huaixin-Li-2331872982
+
+ Ya Li
+
+https://www.researchgate.net/profile/Ya-Li-107
+
+ Jin Li
+
+https://www.researchgate.net/profile/Jin-Li-28
+
+Microfluidic systems enable the precise measurement, manipulation, and control of fluids and particles at the microscale, providing new tools and insights for biological, chemical, and medical research. Electrodes are key components of microfluidic systems, functioning both as sensors for target detection and as microactua-tors for sample manipulation. The integration of functional electrodes into microfluidic devices has broadened the applications of microfluidic technology across various fields, enhancing its capacity to address complex biochemical challenges. In this review, we first examine the construction of microfluidic electrodes, focusing on manufacturing and bonding methods. We then classify the electrodes into two classes, i.e., sensing and manipulation, and discuss their fundamental principles alongside representative real-world applications. Finally, we highlight current challenges in microfluidic electrode technology and propose innovative design strategies for electrode integration that could stimulate new research into micro/nano fabrication, chemical engineering, and biological engineering.
+
+View
+
+https://www.researchgate.net/publication/396556480_Designing_and_integrating_microfluidic_electrodes_for_biosensing_and_micromanipulation
+
+Show abstract
+
+... Recent studies have demonstrated the capability of physicsenhanced machine learning (PEML) in microchannel flow applications. Sun et al. 
+
+33
+
+ have developed a multi-physics PINN framework that solves Nernst-Planck, Poisson, and Navier-Stokes equations without labeled data, which accurately predict EOF behavior from minimal training data. Merdasi et al. 34 have modeled coupled EOFpressure-driven microchannel flows with heat transfer, using segregated PINNs, for non-uniform wall zeta-potential....
+
+Modeling microchannel flow of Phan–Thien–Tanner fluids using hybrid skip-physics informed neural network
+
+https://www.researchgate.net/publication/396242439_Modeling_microchannel_flow_of_Phan-Thien-Tanner_fluids_using_hybrid_skip-physics_informed_neural_network
+
+Article
+
+Full-text available
+
+Oct 2025
+
+PHYS FLUIDS
+
+https://www.researchgate.net/journal/Physics-of-Fluids-1089-7666
+
+Ankan Basu
+
+https://www.researchgate.net/scientific-contributions/Ankan-Basu-2276163930
+
+Sumanta Banerjee
+
+https://www.researchgate.net/scientific-contributions/Sumanta-Banerjee-2276154343
+
+Sandip Sarkar
+
+https://www.researchgate.net/scientific-contributions/Sandip-Sarkar-2326925889
+
+This study investigates the combined electroosmotic and pressure-driven flow of viscoelastic fluids in a parallel-plate microchannel, emphasizing the interplay of flow and thermal transport under realistic electrokinetic conditions. The simplified Phan–Thien–Tanner model is used to characterize nonlinear rheology, while the electric double-layer potential is evaluated using the full Poisson–Boltzmann formulation, beyond the Debye–Hückel approximation. Closed-form solutions are obtained for the velocity field, flow rate, and stress distribution under hydrodynamically fully developed conditions. The thermally developing regime is analyzed through the energy equation, considering Joule heating and viscous dissipation. To improve predictive accuracy, a physics-informed neural network (PINN) framework is integrated with the governing equations to reconstruct velocity and temperature profiles from sparse data without mesh generation. Multiple PINN architectures were investigated, with skip connections shown to significantly enhance convergence in deeper networks. A hybrid training strategy, combining physics-constrained learning with data-driven fine-tuning, outperforms conventional neural networks. A Hybrid Skip-PINN (five hidden layers) achieves the best performance with mean squared error of 1.3783 × 10⁻⁶ and demonstrates robustness against noisy data. Parametric studies highlight the effects of viscoelastic, Brinkman, Peclet, and surface potential parameters. The proposed hybrid framework offers a robust methodology for design and optimization of microfluidic systems.
+
+View
+
+https://www.researchgate.net/publication/396242439_Modeling_microchannel_flow_of_Phan-Thien-Tanner_fluids_using_hybrid_skip-physics_informed_neural_network
+
+Show abstract
+
+... Given the multiphysics nature of the point defect model, we employ a segregated PINN architecture in which each physical field is represented by its own dedicated neural network. This approach, shown to improve accuracy and stability over single-network formulations 
+
+[24]
+
+ , allows each network to specialize in learning the dynamics of a specific variable: The moving boundary associated with film growth is explicitly captured through U L , following the methodology of Kathane and Karagadde [25]. All networks share a common feed-forward design, using the Swish activation function, Figure 1: Full PINN Structure Schematic which has been shown to yield improved convergence and accuracy compared to tanh [26]....
+
+A physics-informed neural network approach to the point defect model for electrochemical oxide film growth
+
+https://www.researchgate.net/publication/396223201_A_physics-informed_neural_network_approach_to_the_point_defect_model_for_electrochemical_oxide_film_growth
+
+Preprint
+
+Full-text available
+
+Oct 2025
+
+ Mohid Farooqi
+
+https://www.researchgate.net/profile/Mohid-Farooqi
+
+ Ingmar Bösing
+
+https://www.researchgate.net/profile/Ingmar-Boesing
+
+Conrard G. Tetsassi Feugmo
+
+https://www.researchgate.net/scientific-contributions/Conrard-G-Tetsassi-Feugmo-2326919803
+
+Physics-informed neural networks (PINNs) offer a novel AI-driven framework for integrating physical laws directly into neural network models, facilitating the solution of complex multiphysics problems in materials engineering. This study systematically explores the application of PINNs to simulate oxide film layer growth in halide-free solutions using the point defect model (PDM). We identify and analyze four key failure modes in this context: imbalanced loss components across different physical processes, numerical instabilities due to variable scale disparities, challenges in enforcing boundary conditions within multiphysics systems, and convergence to mathematically valid but physically meaningless solutions. To overcome these challenges, we implement and validate established techniques including nondimensionalization for training stabilization, Neural Tangent Kernel-based adaptive loss balancing, and robust enforcement of boundary conditions. Our results demonstrate the effectiveness of these strategies in enhancing the reliability and physical fidelity of PINN simulations in electrochemical physics, highlighting the novelty and practical impact of our approach.
+
+View
+
+https://www.researchgate.net/publication/396223201_A_physics-informed_neural_network_approach_to_the_point_defect_model_for_electrochemical_oxide_film_growth
+
+Show abstract
+
+... Leveraging automatic differentiation, PINN incorporate governing equations, boundary conditions, and constitutive relations into a unified loss functional, enabling the approximation of continuous solution fields in a physics-consistent manner. This framework has been successfully applied to various problems in solid mechanics, including linear elasticity, hyperelasticity, elastoplasticity, and polycrystalline plasticity [37][38][39][40], as well as to multi-physics systems such as piezoelectricity and electromagnetism [41][42] 
+
+[43]
+
+ ....
+
+Physics-informed neural network framework for solving forward and inverse flexoelectric problems
+
+https://www.researchgate.net/publication/393148640_Physics-informed_neural_network_framework_for_solving_forward_and_inverse_flexoelectric_problems
+
+Preprint
+
+Full-text available
+
+Jun 2025
+
+ Hyeonbin Moon
+
+https://www.researchgate.net/profile/Hyeonbin-Moon
+
+ Donggeun Park
+
+https://www.researchgate.net/profile/Donggeun-Park-2
+
+ Jinwook Yeo
+
+https://www.researchgate.net/profile/Jinwook-Yeo
+
+ Seunghwa Ryu
+
+https://www.researchgate.net/profile/Seunghwa-Ryu
+
+Flexoelectricity, the coupling between strain gradients and electric polarization, poses significant computational challenges due to its governing fourth-order partial differential equations that require C1-continuous solutions. To address these issues, we propose a physics-informed neural network (PINN) framework grounded in an energy-based formulation that treats both forward and inverse problems within a unified architecture. The forward problem is recast as a saddle-point optimization of the total potential energy, solved via the deep energy method (DEM), which circumvents the direct computation of high-order derivatives. For the inverse problem of identifying unknown flexoelectric coefficients from sparse measurements, we introduce an additional variational loss that enforces stationarity with respect to the electric potential, ensuring robust and stable parameter inference. The framework integrates finite element-based numerical quadrature for stable energy evaluation and employs hard constraints to rigorously enforce boundary conditions. Numerical results for both direct and converse flexoelectric effects show excellent agreement with mixed-FEM solutions, and the inverse model accurately recovers material parameters from limited data. This study establishes a unified, mesh-compatible, and scalable PINN approach for high-order electromechanical problems, offering a promising alternative to traditional simulation techniques.
+
+View
+
+https://www.researchgate.net/publication/393148640_Physics-informed_neural_network_framework_for_solving_forward_and_inverse_flexoelectric_problems
+
+Show abstract
+
+... Leveraging automatic differentiation, PINN incorporate governing equations, boundary conditions, and constitutive relations into a unified loss functional, enabling the approximation of continuous solution fields in a physics-consistent manner. This framework has been successfully applied to various problems in solid mechanics, including linear elasticity, hyperelasticity, elastoplasticity, and polycrystalline plasticity [37][38][39][40], as well as to multi-physics systems such as piezoelectricity and electromagnetism [41][42] 
+
+[43]
+
+ ....
+
+Physics-informed neural network framework for solving forward and inverse flexoelectric problems
+
+https://www.researchgate.net/publication/393062927_Physics-informed_neural_network_framework_for_solving_forward_and_inverse_flexoelectric_problems
+
+Preprint
+
+Full-text available
+
+Jun 2025
+
+ Seunghwa Ryu
+
+https://www.researchgate.net/profile/Seunghwa-Ryu
+
+Flexoelectricity, the coupling between strain gradients and electric polarization, poses significant computational challenges due to its governing fourth-order partial differential equations that require C¹-continuous solutions. To address these issues, we propose a physics-informed neural network (PINN) framework grounded in an energy-based formulation that treats both forward and inverse problems within a unified architecture. The forward problem is recast as a saddle-point optimization of the total potential energy, solved via the deep energy method (DEM), which circumvents the direct computation of high-order derivatives. For the inverse problem of identifying unknown flexoelectric coefficients from sparse measurements, we introduce an additional variational loss that enforces stationarity with respect to the electric potential, ensuring robust and stable parameter inference. The framework integrates finite element-based numerical quadrature for stable energy evaluation and employs hard constraints to rigorously enforce boundary conditions. Numerical results for both direct and converse flexoelectric effects show excellent agreement with mixed-FEM solutions, and the inverse model accurately recovers material parameters from limited data. This study establishes a unified, mesh-compatible, and scalable PINN approach for high-order electromechanical problems, offering a promising alternative to traditional simulation techniques.
+
+View
+
+https://www.researchgate.net/publication/393062927_Physics-informed_neural_network_framework_for_solving_forward_and_inverse_flexoelectric_problems
+
+Show abstract
+
+... More broadly, models integrating Hausdorff fractional derivatives [72], polynomial interpolation [73], and liquid time-constant neural dynamics 
+
+[74]
+
+ offer methodological flexibility for addressing multi-scale or fractal-like behaviour in materials, potentially relevant in assessing micro-crack propagation or paint layer degradation in steel structures....
+
+Physics-Informed Neural Networks for the Structural Analysis and Monitoring of Railway Bridges: A Systematic Review
+
+https://www.researchgate.net/publication/391684879_Physics-Informed_Neural_Networks_for_the_Structural_Analysis_and_Monitoring_of_Railway_Bridges_A_Systematic_Review
+
+Article
+
+Full-text available
+
+May 2025
+
+Yuniel Martínez
+
+https://www.researchgate.net/scientific-contributions/Yuniel-Martinez-2313064580
+
+ Luis Rojas Valdivia
+
+https://www.researchgate.net/profile/Luis-Rojas-Valdivia
+
+ Álvaro Peña
+
+https://www.researchgate.net/profile/Alvaro-Pena-10
+
+ Jose Garcia Conejeros
+
+https://www.researchgate.net/profile/Jose-Garcia-Conejeros
+
+Physics-informed neural networks (PINNs) offer a mesh-free approach to solving partial differential equations (PDEs) with embedded physical constraints. Although PINNs have gained traction in various engineering fields, their adoption for railway bridge analysis remains under-explored. To address this gap, a systematic review was conducted across Scopus and Web of Science (2020–2025), filtering records by relevance, journal impact, and language. From an initial pool, 120 articles were selected and categorised into nine thematic clusters that encompass computational frameworks, hybrid integration with conventional solvers, and domain decomposition strategies. Through natural language processing (NLP) and trend mapping, this review evidences a growing but fragmented research landscape. PINNs demonstrate promising capabilities in load distribution modelling, structural health monitoring, and failure prediction, particularly under dynamic train loads on multi-span bridges. However, methodological gaps persist in large-scale simulations, plasticity modelling, and experimental validation. Future work should focus on scalable PINN architectures, refined modelling of inelastic behaviours, and real-time data assimilation, ensuring robustness and generalisability through interdisciplinary collaboration.
+
+View
+
+https://www.researchgate.net/publication/391684879_Physics-Informed_Neural_Networks_for_the_Structural_Analysis_and_Monitoring_of_Railway_Bridges_A_Systematic_Review
+
+Show abstract
+
+... While the single-network model struggled with maintaining species conservation in different regions of the computational domain, the segregated-network model effectively adhered to the species conservation law. In another study, Sun et al. 
+
+[50]
+
+ compared and validated PINN model predictions, including fluid flow, electric potential distribution, and ion transport characteristics, against results obtained from Finite Element Methods (FEM). Overall, the PINN model demonstrates significant promise for achieving accurate solutions in microfluidic systems with multiphysics coupling....
+
+FlexPINN: Modeling Fluid Dynamics and Mass Transfer in 3D Micromixer Geometries Using a Flexible Physics-Informed Neural Network
+
+https://www.researchgate.net/publication/391219613_FlexPINN_Modeling_Fluid_Dynamics_and_Mass_Transfer_in_3D_Micromixer_Geometries_Using_a_Flexible_Physics-Informed_Neural_Network
+
+Preprint
+
+Full-text available
+
+Apr 2025
+
+ Meraj Hassanzadeh
+
+https://www.researchgate.net/profile/Meraj-Hassanzadeh
+
+ Ehsan Ghaderi
+
+https://www.researchgate.net/profile/Ehsan-Ghaderi-4
+
+ Mohamad Ali Bijarchi
+
+https://www.researchgate.net/profile/Mohamad-Ali-Bijarchi
+
+In this study, fluid flow and concentration distribution inside a 3D T-shaped micromixer with various fin shapes and configurations are investigated using a Flexible Physics-Informed Neural Network (FlexPINN), which includes modifications over the vanilla PINN architecture. Three types of fins (rectangular, elliptical, and triangular) are considered to evaluate the influence of fin geometry, along with four different fin configurations inside the 3D channel to examine the effect of placement. The simulations are conducted at four Reynolds numbers: 5, 20, 40, and 80, in both single-unit (four fins) and double-unit (eight fins) configurations. The goal is to assess pressure drop coefficient, mixing index, and mixing efficiency using the FlexPINN method. Given the challenges in simulating 3D problems with standard PINN, several improvements are introduced. The governing equations are injected into the network as first-order, dimensionless derivatives to enhance accuracy. Transfer learning is used to reduce computational cost, and adaptive loss weighting is applied to improve convergence compared to the vanilla PINN approach. These modifications enable a consistent and flexible architecture that can be used across numerous tested cases. Using the proposed FlexPINN method, the pressure drop coefficient and mixing index are predicted with maximum errors of 3.25% and 2.86%, respectively, compared to Computational Fluid Dynamics (CFD) results. Among all the tested cases, the rectangular fin with configuration C in the double-unit setup at Reynolds number 40 shows the highest mixing efficiency, reaching a value of 1.63. The FlexPINN framework demonstrates strong capabilities in simulating fluid flow and species transport in complex 3D geometries.
+
+View
+
+https://www.researchgate.net/publication/391219613_FlexPINN_Modeling_Fluid_Dynamics_and_Mass_Transfer_in_3D_Micromixer_Geometries_Using_a_Flexible_Physics-Informed_Neural_Network
+
+Show abstract
+
+... 38 Physics-Informed Neural Networks (PINNs) have recently emerged as a 39 powerful approach for solving complex and nonlinear problems in computa- 40 tional science by leveraging machine learning and deep learning models [29]. 
+
+41
+
+ PINNs are a specialized class of artificial neural networks (NNs) that seam- then derived using AD to calculate the overall potential energy of the system. evaluated by the displacement field and its gradient produced by the DEM....
+
+Fourier Feature Embedded Physics-Informed Neural Network-Based Topology Optimization (Ff-Pinnto) Framework for Geometrically Nonlinear Structures
+
+https://www.researchgate.net/publication/390456729_Fourier_Feature_Embedded_Physics-Informed_Neural_Network-Based_Topology_Optimization_Ff-Pinnto_Framework_for_Geometrically_Nonlinear_Structures
+
+Preprint
+
+Jan 2025
+
+ Hyogu Jeong
+
+https://www.researchgate.net/profile/Hyogu-Jeong
+
+ Jinshuai Bai
+
+https://www.researchgate.net/profile/Jinshuai-Bai
+
+ C. P. Batuwatta-Gamage
+
+https://www.researchgate.net/profile/C-P-Batuwatta-Gamage
+
+Yuantong Gu
+
+https://www.researchgate.net/scientific-contributions/Yuantong-Gu-2068855086
+
+View
+
+https://www.researchgate.net/publication/390456729_Fourier_Feature_Embedded_Physics-Informed_Neural_Network-Based_Topology_Optimization_Ff-Pinnto_Framework_for_Geometrically_Nonlinear_Structures
+
+... Additionally, PINNs have been employed for the prediction of parametric, three-dimensional flow based on boundary data, 34 and a framework for solving multi-physics coupling microfluidic problems. 
+
+35
+
+ Furthermore, a physics-informed radial basis function neural network has been developed to efficiently model oil-water two-phase Darcy flow, 36 highlighting the growing applicability of PINNs in complex multi-physics problems....
+
+Deep learning applications in radiative magnetohydrodynamic bioconvection within a vertical wavy porous structure
+
+https://www.researchgate.net/publication/390434456_Deep_learning_applications_in_radiative_magnetohydrodynamic_bioconvection_within_a_vertical_wavy_porous_structure
+
+Article
+
+Full-text available
+
+Apr 2025
+
+PHYS FLUIDS
+
+https://www.researchgate.net/journal/Physics-of-Fluids-1089-7666
+
+ Sarthak Sharma
+
+https://www.researchgate.net/profile/Sarthak-Sharma-34
+
+Darbhasayanam Srinivasacharya
+
+https://www.researchgate.net/scientific-contributions/Darbhasayanam-Srinivasacharya-2178615861
+
+This study provides an in-depth analysis of the combined effects of spatially stationary surface waves, fluid inertia, and thermal radiation on natural convection along a heated vertical wavy surface. The surface is embedded within a porous medium saturated with an electrically conducting fluid while also examining the intricate dynamics of magnetohydrodynamic (MHD) bioconvection. Conducted within the boundary layer regime at a high Darcy–Rayleigh number, the research employs a coordinate transformation to reformulate the governing boundary layer equations into a nonsimilar form. The nonlinear and coupled differential equations are solved using the advanced framework of deep learning, specifically through physics-informed neural networks (PINNs). The study investigates the impact of critical factors such as learning rates, neuron configurations, boundary conditions, activation functions, and the number of collocation and training data points on the convergence rate and accuracy of PINNs. Additionally, it analyzes the behavior of the loss function and residuals at various data points. Comprehensive histograms are generated to illustrate the dimensionless velocity, temperature, concentration, and motile micro-organism density. Furthermore, the study evaluates the influence of key physical parameters on the local Nusselt and Sherwood numbers, as well as the motile micro-organism density number. By leveraging deep learning techniques, this work provides valuable insights into the dynamics of natural convection and MHD bioconvection, demonstrating the efficacy of PINNs in modeling complex heat, mass, and micro-organism transfer phenomena in porous media under the influence of thermal radiation.
+
+View
+
+https://www.researchgate.net/publication/390434456_Deep_learning_applications_in_radiative_magnetohydrodynamic_bioconvection_within_a_vertical_wavy_porous_structure
+
+Show abstract
+
+... In recent years, there has been a lot of interest in applying deep learning methods-specifically, deep neural networks-to nonlinear partial differential equations (PDEs). Numerous complex scientific problems, including those in fluid and solid mechanics [1][2][3][4][5][6][7][8][9] 
+
+[10]
+
+ , cyber-physical systems [11], biological systems [12][13][14][15], can efficiently be resolved by the Physics-Informed Neural Networks (PINNs) [16][17][18]. One remarkable feature of PINNs is that, in addition to solving PDEs easily (the forward analysis), they may also provide us a precise estimate of the equation based on the governing data of the physical issues of our concern (the inverse analysis)....
+
+Inelastic Scattering, Emergent Interactions of Solitons in the Zakharov-Kuznetsov Equation through Conservative and non-Conservative Physics-Informed Neural Networks
+
+https://www.researchgate.net/publication/387540493_Inelastic_Scattering_Emergent_Interactions_of_Solitons_in_the_Zakharov-Kuznetsov_Equation_through_Conservative_and_non-Conservative_Physics-Informed_Neural_Networks
+
+Preprint
+
+Dec 2024
+
+ Atsushi Nakamula
+
+https://www.researchgate.net/profile/Atsushi-Nakamula
+
+Kiori Obuse
+
+https://www.researchgate.net/scientific-contributions/Kiori-Obuse-46903175
+
+Nobuyuki Sawado
+
+https://www.researchgate.net/scientific-contributions/Nobuyuki-Sawado-9839714
+
+Kouichi Toda
+
+https://www.researchgate.net/scientific-contributions/Kouichi-Toda-7661937
+
+Physics-Informed Neural Networks (PINNs) are used to study collision process of soliton solutions in the 2+1 dimensional Zakharov-Kuznetsov equation. The Zakharov-Kuznetsov equation originally was the model in three dimensions of plasma with a uniform magnetic field and it is a direct extension of the KdV equation into higher dimensions and is a typical quasi-integrable system. PINNs successfully solve the equations in the forward process and the solutions are obtained using the mesh-free approach and automatic differentiation while accounting for conservation laws. In the inverse process, the proper form of the equation can be successfully derived from a given training data. On the other hand, the situation becomes weird in the collision process. The result in the forward analysis no longer possesses the conservation laws, which is ought to be referred to as a dynamically incompatible field configuration (DIFC) instead of the solutions of the system. Conservative PINNs are thus introduced and we succeed to obtain the solutions that satisfy the conservation laws. The inverse analysis suggests a different equation where the coefficients exhibit the significant changes, which implies an emergent temporal interaction. With these modulated coefficients, we recalculate the equation and confirm that the conservation law has unquestionably improved.
+
+View
+
+https://www.researchgate.net/publication/387540493_Inelastic_Scattering_Emergent_Interactions_of_Solitons_in_the_Zakharov-Kuznetsov_Equation_through_Conservative_and_non-Conservative_Physics-Informed_Neural_Networks
+
+Show abstract
+
+Numerical Analysis of Viscous and Frictional Heating in Journal Bearings: A Review
+
+https://www.researchgate.net/publication/403285668_Numerical_Analysis_of_Viscous_and_Frictional_Heating_in_Journal_Bearings_A_Review
+
+Article
+
+Mar 2026
+
+ Jeongin Lee
+
+https://www.researchgate.net/profile/Jeongin-Lee-13
+
+ Junho Suh
+
+https://www.researchgate.net/profile/Junho-Suh
+
+Hyunsu Kim
+
+https://www.researchgate.net/scientific-contributions/Hyunsu-Kim-2345637859
+
+This review summarizes the advances in the thermal analysis of journal bearings, focusing on numerical methods that capture how viscous and frictional heating influence the bearing performance and reliability. In the full-film lubrication regime, research has progressed from classical thermo-hydrodynamic models coupling Reynolds and energy equations to thermo-elasto-hydrodynamic (TEHD), asymmetric shaft thermal bending models, and computational fluid dynamics-based analyses. In a mixed lubrication regime, particularly under severe conditions such as low rotating speed and high load, mixed-TEHD models integrating surface roughness, asperity contact, and wear have been developed, highlighting frictional heat as the dominant heat source. The review also highlights emerging machine learning approaches as alternatives to conventional high-cost simulations, including data-driven surrogate models and physics-informed neural networks.
+
+View
+
+https://www.researchgate.net/publication/403285668_Numerical_Analysis_of_Viscous_and_Frictional_Heating_in_Journal_Bearings_A_Review
+
+Show abstract
+
+A physics-informed coupled residual-Fourier neural network for multi-physics field prediction in laser manufacturing
+
+https://www.researchgate.net/publication/401888872_A_physics-informed_coupled_residual-Fourier_neural_network_for_multi-physics_field_prediction_in_laser_manufacturing
+
+Article
+
+Mar 2026
+
+Mater Des
+
+Wenbo Zhou
+
+https://www.researchgate.net/scientific-contributions/Wenbo-Zhou-2333473408
+
+Le Song
+
+https://www.researchgate.net/scientific-contributions/Le-Song-2333458671
+
+Xuyang Chen
+
+https://www.researchgate.net/scientific-contributions/Xuyang-Chen-2333472011
+
+Baorui Du
+
+https://www.researchgate.net/scientific-contributions/Baorui-Du-2162301806
+
+View
+
+https://www.researchgate.net/publication/401888872_A_physics-informed_coupled_residual-Fourier_neural_network_for_multi-physics_field_prediction_in_laser_manufacturing
+
+Microfluidics in Separation Science: Fabrication, Applications and Intelligent Systems
+
+https://www.researchgate.net/publication/401364019_Microfluidics_in_Separation_Science_Fabrication_Applications_and_Intelligent_Systems
+
+Article
+
+Feb 2026
+
+J CHROMATOGR A
+
+ Listya Eka Anggraini
+
+https://www.researchgate.net/profile/Listya-Eka-Anggraini
+
+Muhammad Naeem Younis
+
+https://www.researchgate.net/scientific-contributions/Muhammad-Naeem-Younis-2341552018
+
+Mohammed A. Abdalmwla
+
+https://www.researchgate.net/scientific-contributions/Mohammed-A-Abdalmwla-2331840917
+
+Chanbasha Basheer
+
+https://www.researchgate.net/scientific-contributions/Chanbasha-Basheer-2341528936
+
+View
+
+https://www.researchgate.net/publication/401364019_Microfluidics_in_Separation_Science_Fabrication_Applications_and_Intelligent_Systems
+
+Generative AI as an Enabler for Process Intensification
+
+https://www.researchgate.net/publication/400618376_Generative_AI_as_an_Enabler_for_Process_Intensification
+
+Article
+
+Feb 2026
+
+IND ENG CHEM RES
+
+Alejandro Montesinos-Castellanos
+
+https://www.researchgate.net/scientific-contributions/Alejandro-Montesinos-Castellanos-2109212284
+
+ Antonio Flores
+
+https://www.researchgate.net/profile/Antonio-Flores-22
+
+Enrique A. López Guajardo
+
+https://www.researchgate.net/scientific-contributions/Enrique-A-Lopez-Guajardo-2339477687
+
+Ruben Morales-Menendez
+
+https://www.researchgate.net/scientific-contributions/Ruben-Morales-Menendez-2338180378
+
+View
+
+https://www.researchgate.net/publication/400618376_Generative_AI_as_an_Enabler_for_Process_Intensification
+
+Physics-informed machine learning for electroosmotic flow in graphene nanochannels: Towards next-generation desalination membranes
+
+https://www.researchgate.net/publication/399326534_Physics-informed_machine_learning_for_electroosmotic_flow_in_graphene_nanochannels_Towards_next-generation_desalination_membranes
+
+Article
+
+Jan 2026
+
+DESALINATION
+
+ Vinay Arya
+
+https://www.researchgate.net/profile/Vinay-Arya-3
+
+ Ankit Agarwal
+
+https://www.researchgate.net/profile/Ankit-Agarwal-36
+
+ Chirodeep Bakli
+
+https://www.researchgate.net/profile/Chirodeep-Bakli
+
+Reducing specific energy consumption for water desalination remains a central challenge for achieving sustainable freshwater production. Electroosmotic flow (EOF) inside graphene nanochannels underpins a promising pathway for electrically regulated desalination membranes, energy storage, and osmotic energy harvesting. However, molecular dynamics studies capture nanoscale details; they are computationally intensive, and continuum approaches break down at nanoscale dimensions. In this work, a physics-informed neural network (PINN) predicts electroosmotic velocities, charge densities, and density profiles within nanochannels relevant to water purification applications. The training data are obtained from molecular simulations, spanning confinements of 1.75 nm −7.9 nm and electric fields up to 1.1 V/nm, surface charge densities up to −0.12C/m2, and ionic concentrations corresponding to regimes of brackish and seawater desalination. The PINN model embeds the continuum framework of 1-D electroosmotic equations in the most fundamental form to ensure physical consistency while learning with limited data. The model reproduces MD results with strong agreement, with electroosmotic velocity predictions achieving an R2> 0.97. This PINN approach reduces computational time from hours to minutes, offering a scalable tool for nanofluidic design. Notably, the framework enables the rapid evaluation of key desalination performance metrics, such as water flux versus energy cost, and the identification of optimal regimes. By bridging the atomistic and continuum scales, this work not only models EOF within graphene nanoconfinements but also highlights the potential of physics-informed modelling in the rational design of high-performance desalination systems.
+
+View
+
+https://www.researchgate.net/publication/399326534_Physics-informed_machine_learning_for_electroosmotic_flow_in_graphene_nanochannels_Towards_next-generation_desalination_membranes
+
+Show abstract
+
+An analytical solutions-enhanced neural network for high-accuracy modeling: A case study on gas turbine
+
+https://www.researchgate.net/publication/398961637_An_analytical_solutions-enhanced_neural_network_for_high-accuracy_modeling_A_case_study_on_gas_turbine
+
+Article
+
+Dec 2025
+
+Zepeng Han
+
+https://www.researchgate.net/scientific-contributions/Zepeng-Han-2301611222
+
+ Wei Han
+
+https://www.researchgate.net/profile/Wei-Han-14
+
+Wenjing Ma
+
+https://www.researchgate.net/scientific-contributions/Wenjing-Ma-2264863276
+
+Jun Sui
+
+https://www.researchgate.net/scientific-contributions/Jun-Sui-74271170
+
+View
+
+https://www.researchgate.net/publication/398961637_An_analytical_solutions-enhanced_neural_network_for_high-accuracy_modeling_A_case_study_on_gas_turbine
+
+Coupled Physics-Informed Neural Network for Multi-Physics Modeling in Additive Friction Stir Deposition
+
+https://www.researchgate.net/publication/398788160_Coupled_Physics-Informed_Neural_Network_for_Multi-Physics_Modeling_in_Additive_Friction_Stir_Deposition
+
+Article
+
+Dec 2025
+
+IEEE T AUTOM SCI ENG
+
+ Raghav Gnanasambandam
+
+https://www.researchgate.net/profile/Raghav-Gnanasambandam
+
+ Nikhil Gotawala
+
+https://www.researchgate.net/profile/Nikhil-Gotawala
+
+ Xiaofeng Wu
+
+https://www.researchgate.net/profile/Xiaofeng-Wu-8
+
+ Zhenyu James Kong
+
+https://www.researchgate.net/profile/Zhenyu-Kong
+
+Additive Friction Stir Deposition (AFSD) is an emerging metal additive manufacturing process gaining increased attention due to its solid-state processing nature, resulting in desirable mechanical properties and the capability of fabricating large parts. To understand the multi-physics nature of the process, modeling of thermal distribution and material velocity during processing is imperative, which can be addressed by solving the related partial differential equations (PDEs). However, complex coupled PDEs entail inaccuracies and slowness in utilizing the existing numerical methods, such as the Finite Volume Method (FVM). This work proposes a neural network-based method, coupled Physics Informed Neural Network (coPINN), as a fast and accurate mesh-free solution for predicting the thermomechanical states during the AFSD process. In the case studies, the proposed coPINN accurately predicts the velocity and temperature distribution for a steady-state non-linear coupled fluid dynamics-heat transfer model of the AFSD process faster than the existing FVM. Comprehensive comparisons with residual errors show the proposed method's trustworthiness in handling coupled physics, non-linearity, and mixed boundary conditions. In addition, the solutions of our approach show better conformance with the actual experimental data than the FVM-based solver. Overall, this work shows more efficient neural network-based solutions of a PDEs-based model than a traditional numerical method.
+
+View
+
+https://www.researchgate.net/publication/398788160_Coupled_Physics-Informed_Neural_Network_for_Multi-Physics_Modeling_in_Additive_Friction_Stir_Deposition
+
+Show abstract
+
+Beyond hard constraint: unified knowledge-embedding physics informed neural networks for multi-domain system
+
+https://www.researchgate.net/publication/398767832_Beyond_hard_constraint_unified_knowledge-embedding_physics_informed_neural_networks_for_multi-domain_system
+
+Article
+
+Dec 2025
+
+NEURAL NETWORKS
+
+ Jiarui Hao
+
+https://www.researchgate.net/profile/Jiarui-Hao-2
+
+ Dengji Zhou
+
+https://www.researchgate.net/profile/Dengji-Zhou
+
+Qinchao Li
+
+https://www.researchgate.net/scientific-contributions/Qinchao-Li-2334157353
+
+ Dawen Huang
+
+https://www.researchgate.net/profile/Dawen-Huang
+
+View
+
+https://www.researchgate.net/publication/398767832_Beyond_hard_constraint_unified_knowledge-embedding_physics_informed_neural_networks_for_multi-domain_system
+
+Fundamental flaws of physics-informed neural networks and explainability methods in engineering systems
+
+https://www.researchgate.net/publication/398065479_Fundamental_flaws_of_physics-informed_neural_networks_and_explainability_methods_in_engineering_systems
+
+Article
+
+Full-text available
+
+Nov 2025
+
+COMPUT IND ENG
+
+ M.Z. Naser
+
+https://www.researchgate.net/profile/Mz-Naser
+
+Physics-informed neural networks (PINNs) and explainable artificial intelligence (XAI) have gained widespread adoption for their ability to integrate data-driven modeling with constitutive laws and interpretable predictions. However, despite their success, these methods harbor systematic risks that not only compromise their integrity but also remain largely invisible. Through our review and a series of classical mechanistic case studies, we identify three interconnected failure modes. First, PINNs embed idealized governing equations that often omit critical multiscale phenomena, boundary complexities, and nonlinear couplings. Second, post-hoc explainability methods generate attributions based on statistical correlations that are likely to conflict with causal principles, which can result in producing explanations that violate conservation laws and misrepresent true mechanisms. Third, and most critically, these failures create a multiplicative propagation of errors that, unlike traditional numerical methods with quantifiable errors, produce false confidence through predictions that appear physically plausible while masking critical omissions. Toward the end of this paper, we present engineering-specific consequences of these failure modes and provide recommendations for proper deployment.
+
+View
+
+https://www.researchgate.net/publication/398065479_Fundamental_flaws_of_physics-informed_neural_networks_and_explainability_methods_in_engineering_systems
+
+Show abstract
+
+Multi-system condition monitoring of marine engines: A unified deep learning framework introducing physical prior knowledge
+
+https://www.researchgate.net/publication/397004729_Multi-system_condition_monitoring_of_marine_engines_A_unified_deep_learning_framework_introducing_physical_prior_knowledge
+
+Article
+
+Oct 2025
+
+Bo Wang
+
+https://www.researchgate.net/scientific-contributions/Bo-Wang-2306656597
+
+Zirui Wang
+
+https://www.researchgate.net/scientific-contributions/Zirui-Wang-2324784689
+
+Chong Yao
+
+https://www.researchgate.net/scientific-contributions/Chong-Yao-2115828295
+
+Enzhe Song
+
+https://www.researchgate.net/scientific-contributions/Enzhe-Song-2034424650
+
+View
+
+https://www.researchgate.net/publication/397004729_Multi-system_condition_monitoring_of_marine_engines_A_unified_deep_learning_framework_introducing_physical_prior_knowledge
+
+Physics informed neural network modeling for MHD natural convection: Thermal radiation and cross-diffusion effects on vertical plate dynamics
+
+https://www.researchgate.net/publication/392538526_Physics_informed_neural_network_modelling_for_MHD_natural_convection_Thermal_radiation_and_cross-diffusion_effects_on_vertical_plate_dynamics
+
+Article
+
+Jun 2025
+
+EUR J MECH B-FLUID
+
+ Sarthak Sharma
+
+https://www.researchgate.net/profile/Sarthak-Sharma-34
+
+Darbhasayanam Srinivasacharya
+
+https://www.researchgate.net/scientific-contributions/Darbhasayanam-Srinivasacharya-2178615861
+
+View
+
+https://www.researchgate.net/publication/392538526_Physics_informed_neural_network_modelling_for_MHD_natural_convection_Thermal_radiation_and_cross-diffusion_effects_on_vertical_plate_dynamics
+
+Electrohydrodynamic crystalline anisotropic solidification based on a hybrid lattice Boltzmann model
+
+https://www.researchgate.net/publication/392296924_Electrohydrodynamic_crystalline_anisotropic_solidification_based_on_a_hybrid_lattice_Boltzmann_model
+
+Article
+
+Jun 2025
+
+INT COMMUN HEAT MASS
+
+ Zhang Yinnan
+
+https://www.researchgate.net/profile/Zhang_Yinnan
+
+ Vedad Dzanic
+
+https://www.researchgate.net/profile/Vedad-Dzanic
+
+ Jiachen Zhao
+
+https://www.researchgate.net/profile/Jiachen_Zhao5
+
+Chaofeng Lü
+
+https://www.researchgate.net/scientific-contributions/Chaofeng-Lue-2154384237
+
+View
+
+https://www.researchgate.net/publication/392296924_Electrohydrodynamic_crystalline_anisotropic_solidification_based_on_a_hybrid_lattice_Boltzmann_model
+
+STAMNet—A spatiotemporal attention module and network for upscaling reactive transport simulations of the hyporheic zone
+
+https://www.researchgate.net/publication/392290868_STAMNet-A_spatiotemporal_attention_module_and_network_for_upscaling_reactive_transport_simulations_of_the_hyporheic_zone
+
+Article
+
+Jun 2025
+
+ADV WATER RESOUR
+
+Marc Berghouse
+
+https://www.researchgate.net/scientific-contributions/Marc-Berghouse-2267469794
+
+ Rishi Parashar
+
+https://www.researchgate.net/profile/Rishi-Parashar
+
+View
+
+https://www.researchgate.net/publication/392290868_STAMNet-A_spatiotemporal_attention_module_and_network_for_upscaling_reactive_transport_simulations_of_the_hyporheic_zone
+
+Corrosion modeling of Magnesium and its alloys: A short review
+
+https://www.researchgate.net/publication/390951616_Corrosion_modeling_of_Magnesium_and_its_alloys_A_short_review
+
+Article
+
+Apr 2025
+
+ Alma Ortiz
+
+https://www.researchgate.net/profile/Alma-Ortiz
+
+Marvin Montoya-Rangel
+
+https://www.researchgate.net/scientific-contributions/Marvin-Montoya-Rangel-2175600701
+
+H. Castaneda
+
+https://www.researchgate.net/scientific-contributions/H-Castaneda-2310848423
+
+ Rodrigo Montoya
+
+https://www.researchgate.net/profile/Rodrigo-Montoya-3
+
+View
+
+https://www.researchgate.net/publication/390951616_Corrosion_modeling_of_Magnesium_and_its_alloys_A_short_review
+
+Prediction of runoff in the upper reaches of the Hei River based on the LSTM model guided by physical mechanisms
+
+https://www.researchgate.net/publication/390378963_Prediction_of_runoff_in_the_upper_reaches_of_the_Hei_River_based_on_the_LSTM_model_guided_by_physical_mechanisms
+
+Article
+
+Apr 2025
+
+ Huazhu Xue
+
+https://www.researchgate.net/profile/Huazhu-Xue
+
+Chaoqiang Guo
+
+https://www.researchgate.net/scientific-contributions/Chaoqiang-Guo-2309141616
+
+ Guotao Dong
+
+https://www.researchgate.net/profile/Guotao-Dong
+
+Qian Yuan
+
+https://www.researchgate.net/scientific-contributions/Qian-Yuan-2298425593
+
+View
+
+https://www.researchgate.net/publication/390378963_Prediction_of_runoff_in_the_upper_reaches_of_the_Hei_River_based_on_the_LSTM_model_guided_by_physical_mechanisms
+
+Physics-Informed Neural Networks with Periodic Activation Functions for Solute Transport in Heterogeneous Porous Media
+
+https://www.researchgate.net/publication/376801041_Physics-Informed_Neural_Networks_with_Periodic_Activation_Functions_for_Solute_Transport_in_Heterogeneous_Porous_Media
+
+Article
+
+Full-text available
+
+Dec 2023
+
+ Salah A. Faroughi
+
+https://www.researchgate.net/profile/Salah-A-Faroughi-2
+
+ Ramin Soltanmohammadi
+
+https://www.researchgate.net/profile/Ramin-Soltanmohammadi
+
+ Pingki Datta
+
+https://www.researchgate.net/profile/Pingki-Datta
+
+ Shirko Faroughi
+
+https://www.researchgate.net/profile/Shirko-Faroughi
+
+Simulating solute transport in heterogeneous porous media poses computational challenges due to the high-resolution meshing required for traditional solvers. To overcome these challenges, this study explores a mesh-free method based on deep learning to accelerate solute transport simulation. We employ Physics-informed Neural Networks (PiNN) with a periodic activation function to solve solute transport problems in both homogeneous and heterogeneous porous media governed by the advection-dispersion equation. Unlike traditional neural networks that rely on large training datasets, PiNNs use strong-form mathematical models to constrain the network in the training phase and simultaneously solve for multiple dependent or independent field variables, such as pressure and solute concentration fields. To demonstrate the effectiveness of using PiNNs with a periodic activation function to resolve solute transport in porous media, we construct PiNNs using two activation functions, sin and tanh, for seven case studies, including 1D and 2D scenarios. The accuracy of the PiNNs' predictions is then evaluated using absolute point error and mean square error metrics and compared to the ground truth solutions obtained analytically or numerically. Our results demonstrate that the PiNN with sin activation function, compared to tanh activation function, is up to two orders of magnitude more accurate and up to two times faster to train, especially in heterogeneous porous media. Moreover, PiNN's simultaneous predictions of pressure and concentration fields can reduce computational expenses in terms of inference time by three orders of magnitude compared to FEM simulations for two-dimensional cases.
+
+View
+
+https://www.researchgate.net/publication/376801041_Physics-Informed_Neural_Networks_with_Periodic_Activation_Functions_for_Solute_Transport_in_Heterogeneous_Porous_Media
+
+Show abstract
+
+A deep branching solver for fully nonlinear partial differential equations
+
+https://www.researchgate.net/publication/376574096_A_deep_branching_solver_for_fully_nonlinear_partial_differential_equations
+
+Article
+
+Full-text available
+
+Dec 2023
+
+J COMPUT PHYS
+
+Jiang Yu Nguwi
+
+https://www.researchgate.net/scientific-contributions/Jiang-Yu-Nguwi-2193883292
+
+Guillaume Penent
+
+https://www.researchgate.net/scientific-contributions/Guillaume-Penent-2197890742
+
+ Nicolas Privault
+
+https://www.researchgate.net/profile/Nicolas-Privault-2
+
+View
+
+https://www.researchgate.net/publication/376574096_A_deep_branching_solver_for_fully_nonlinear_partial_differential_equations
+
+Effective data sampling strategies and boundary condition constraints of physics-informed neural networks for identifying material properties in solid mechanics
+
+https://www.researchgate.net/publication/372066439_Effective_data_sampling_strategies_and_boundary_condition_constraints_of_physics-informed_neural_networks_for_identifying_material_properties_in_solid_mechanics
+
+Article
+
+Full-text available
+
+Jul 2023
+
+APPL MATH MECH-ENGL
+
+ Wensi Wu
+
+https://www.researchgate.net/profile/Wensi-Wu
+
+ Mitchell Daneker
+
+https://www.researchgate.net/profile/Mitchell-Daneker
+
+ Matthew A. Jolley
+
+https://www.researchgate.net/profile/Matthew-Jolley-2
+
+ Lu Lu
+
+https://www.researchgate.net/profile/Lu-Lu-51
+
+Material identification is critical for understanding the relationship between mechanical properties and the associated mechanical functions. However, material identification is a challenging task, especially when the characteristic of the material is highly nonlinear in nature, as is common in biological tissue. In this work, we identify unknown material properties in continuum solid mechanics via physics-informed neural networks (PINNs). To improve the accuracy and efficiency of PINNs, we develop efficient strategies to nonuniformly sample observational data. We also investigate different approaches to enforce Dirichlet-type boundary conditions (BCs) as soft or hard constraints. Finally, we apply the proposed methods to a diverse set of time-dependent and time-independent solid mechanic examples that span linear elastic and hyperelastic material space. The estimated material parameters achieve relative errors of less than 1%. As such, this work is relevant to diverse applications, including optimizing structural integrity and developing novel materials.
+
+View
+
+https://www.researchgate.net/publication/372066439_Effective_data_sampling_strategies_and_boundary_condition_constraints_of_physics-informed_neural_networks_for_identifying_material_properties_in_solid_mechanics
+
+Show abstract
+
+Physics-Informed Neural Networks for Low Reynolds Number Flows over Cylinder
+
+https://www.researchgate.net/publication/371440105_Physics-Informed_Neural_Networks_for_Low_Reynolds_Number_Flows_over_Cylinder
+
+Article
+
+Full-text available
+
+Jun 2023
+
+ Elijah Hao Wei Ang
+
+https://www.researchgate.net/profile/Elijah-Ang
+
+Guangjian Wang
+
+https://www.researchgate.net/scientific-contributions/Guangjian-Wang-2253393575
+
+ Bing Feng NG
+
+https://www.researchgate.net/profile/Bing-Feng-Ng
+
+Physics-informed neural network (PINN) architectures are recent developments that can act as surrogate models for fluid dynamics in order to reduce computational costs. PINNs make use of deep neural networks, where the Navier-Stokes equation and freestream boundary conditions are used as losses of the neural network; hence, no simulation or experimental data in the training of the PINN is required. Here, the formulation of PINN for fluid dynamics is demonstrated and critical factors influencing the PINN design are discussed through a low Reynolds number flow over a cylinder. The PINN architecture showed the greatest improvement to the accuracy of results from the increase in the number of layers, followed by the increase in the number of points in the point cloud. Increasing the number of nodes per hidden layer brings about the smallest improvement in performance. In general, PINN is much more efficient than computational fluid dynamics (CFD) in terms of memory resource usage, with PINN requiring 5–10 times less memory. The tradeoff for this advantage is that it requires longer computational time, with PINN requiring approximately 3 times more than that of CFD. In essence, this paper demonstrates the direct formulation of PINN without the need for data, alongside hyperparameter design and comparison of computational requirements.
+
+View
+
+https://www.researchgate.net/publication/371440105_Physics-Informed_Neural_Networks_for_Low_Reynolds_Number_Flows_over_Cylinder
+
+Show abstract
+
+Deep learning with microfluidics for on-chip droplet generation, control, and analysis
+
+https://www.researchgate.net/publication/371387353_Deep_learning_with_microfluidics_for_on-chip_droplet_generation_control_and_analysis
+
+Article
+
+Full-text available
+
+Jun 2023
+
+ Hao Sun
+
+https://www.researchgate.net/profile/Hao-Sun-52
+
+Wantao Xie
+
+https://www.researchgate.net/scientific-contributions/Wantao-Xie-2234708030
+
+Jin Mo
+
+https://www.researchgate.net/scientific-contributions/Jin-Mo-2234715255
+
+Hui Dong
+
+https://www.researchgate.net/scientific-contributions/Hui-Dong-2210876010
+
+Droplet microfluidics has gained widespread attention in recent years due to its advantages of high throughput, high integration, high sensitivity and low power consumption in droplet-based micro-reaction. Meanwhile, with the rapid development of computer technology over the past decade, deep learning architectures have been able to process vast amounts of data from various research fields. Nowadays, interdisciplinarity plays an increasingly important role in modern research, and deep learning has contributed greatly to the advancement of many professions. Consequently, intelligent microfluidics has emerged as the times require, and possesses broad prospects in the development of automated and intelligent devices for integrating the merits of microfluidic technology and artificial intelligence. In this article, we provide a general review of the evolution of intelligent microfluidics and some applications related to deep learning, mainly in droplet generation, control, and analysis. We also present the challenges and emerging opportunities in this field.
+
+View
+
+https://www.researchgate.net/publication/371387353_Deep_learning_with_microfluidics_for_on-chip_droplet_generation_control_and_analysis
+
+Show abstract
+
+Ensemble deep learning: A review
+
+https://www.researchgate.net/publication/362378768_Ensemble_deep_learning_A_review
+
+Article
+
+Full-text available
+
+Oct 2022
+
+ENG APPL ARTIF INTEL
+
+ Mudasir Ganaie
+
+https://www.researchgate.net/profile/Mudasir-Ganaie
+
+ Minghui Hu
+
+https://www.researchgate.net/profile/Minghui-Hu-9
+
+ Ashwani Kumar Malik
+
+https://www.researchgate.net/profile/Ashwani-Kumar-Malik
+
+ Ponnuthurai N. Suganthan
+
+https://www.researchgate.net/profile/Ponnuthurai-Suganthan
+
+Ensemble learning combines several individual models to obtain better generalization performance. Currently, deep learning architectures are showing better performance compared to the shallow or traditional models. Deep ensemble learning models combine the advantages of both the deep learning models as well as the ensemble learning such that the final model has better generalization performance. This paper reviews the state-of-art deep ensemble models and hence serves as an extensive summary for the researchers. The ensemble models are broadly categorized into bagging, boosting, stacking, negative correlation based deep ensemble models, explicit/implicit ensembles, homogeneous/heterogeneous ensemble, decision fusion strategies based deep ensemble models. Applications of deep ensemble models in different domains are also briefly discussed. Finally, we conclude this paper with some potential future research directions.
+
+View
+
+https://www.researchgate.net/publication/362378768_Ensemble_deep_learning_A_review
+
+Show abstract
+
+Physics-informed PointNet: A deep learning solver for steady-state incompressible flows and thermal fields on multiple sets of irregular geometries
+
+https://www.researchgate.net/publication/362349546_Physics-informed_PointNet_A_deep_learning_solver_for_steady-state_incompressible_flows_and_thermal_fields_on_multiple_sets_of_irregular_geometries
+
+Article
+
+Full-text available
+
+Jul 2022
+
+J COMPUT PHYS
+
+ Ali Kashefi
+
+https://www.researchgate.net/profile/Ali-Kashefi
+
+ Tapan Mukerji
+
+https://www.researchgate.net/profile/Tapan-Mukerji
+
+We present a novel physics-informed deep learning framework for solving steady-state incompressible flow on multiple sets of irregular geometries by incorporating two main elements: using a point-cloud based neural network to capture geometric features of computational domains, and using the mean squared residuals of the governing partial differential equations, boundary conditions, and sparse observations as the loss function of the network to capture the physics. While the solution of the continuity and Navier-Stokes equations is a function of the geometry of the computational domain, current versions of physics-informed neural networks have no mechanism to express this functionally in their outputs, and thus are restricted to obtain the solutions only for one computational domain with each training procedure. Using the proposed framework, three new facilities become available. First, the governing equations are solvable on a set of computational domains containing irregular geometries with high variations with respect to each other but requiring training only once. Second, after training the introduced framework on the set, it is now able to predict the solutions on domains with unseen geometries from seen and unseen categories as well. The former and the latter both lead to savings in computational costs. Finally, all the advantages of the point-cloud based neural network for irregular geometries, already used for supervised learning, are transferred to the proposed physics-informed framework. The effectiveness of our framework is shown through the method of manufactured solutions and thermally-driven flow for forward and inverse problems.
+
+View
+
+https://www.researchgate.net/publication/362349546_Physics-informed_PointNet_A_deep_learning_solver_for_steady-state_incompressible_flows_and_thermal_fields_on_multiple_sets_of_irregular_geometries
+
+Show abstract
+
+Physics-Informed Neural Operator for Learning Partial Differential Equations
+
+https://www.researchgate.net/publication/362153400_Physics-Informed_Neural_Operator_for_Learning_Partial_Differential_Equations
+
+Article
+
+Full-text available
+
+Nov 2021
+
+ Zongyi Li
+
+https://www.researchgate.net/profile/Zongyi-Li-7
+
+ Hongkai Zheng
+
+https://www.researchgate.net/profile/Hongkai-Zheng
+
+Nikola Kovachki
+
+https://www.researchgate.net/scientific-contributions/Nikola-Kovachki-2146048562
+
+Anima Anandkumar
+
+https://www.researchgate.net/scientific-contributions/Anima-Anandkumar-2134679132
+
+Machine learning methods have recently shown promise in solving partial differential equations (PDEs). They can be classified into two broad categories: approximating the solution function and learning the solution operator. The Physics-Informed Neural Network (PINN) is an example of the former while the Fourier neural operator (FNO) is an example of the latter. Both these approaches have shortcomings. The optimization in PINN is challenging and prone to failure, especially on multi-scale dynamic systems. FNO does not suffer from this optimization issue since it carries out supervised learning on a given dataset, but obtaining such data may be too expensive or infeasible. In this work, we propose the physics-informed neural operator (PINO), where we combine the operating-learning and function-optimization frameworks. This integrated approach improves convergence rates and accuracy over both PINN and FNO models. In the operator-learning phase, PINO learns the solution operator over multiple instances of the parametric PDE family. In the test-time optimization phase, PINO optimizes the pre-trained operator ansatz for the querying instance of the PDE. Experiments show PINO outperforms previous ML methods on many popular PDE families while retaining the extraordinary speed-up of FNO compared to solvers. In particular, PINO accurately solves challenging long temporal transient flows and Kolmogorov flows where other baseline ML methods fail to converge.
+
+View
+
+https://www.researchgate.net/publication/362153400_Physics-Informed_Neural_Operator_for_Learning_Partial_Differential_Equations
+
+Show abstract
+
+Scientific Machine Learning Through Physics–Informed Neural Networks: Where we are and What's Next
+
+https://www.researchgate.net/publication/362090837_Scientific_Machine_Learning_through_Physics-Informed_Neural_Networks_Where_we_are_and_What's_next
+
+Article
+
+Full-text available
+
+Jul 2022
+
+J SCI COMPUT
+
+ Salvatore Cuomo
+
+https://www.researchgate.net/profile/Salvatore-Cuomo
+
+ Vincenzo Schiano Di Cola
+
+https://www.researchgate.net/profile/Vincenzo-Schiano-Di-Cola
+
+ Fabio Giampaolo
+
+https://www.researchgate.net/profile/Fabio-Giampaolo
+
+ Francesco Piccialli
+
+https://www.researchgate.net/profile/Francesco-Piccialli
+
+Physics-Informed Neural Networks (PINN) are neural networks (NNs) that encode model equations, like Partial Differential Equations (PDE), as a component of the neural network itself. PINNs are nowadays used to solve PDEs, fractional equations, integral-differential equations, and stochastic PDEs. This novel methodology has arisen as a multi-task learning framework in which a NN must fit observed data while reducing a PDE residual. This article provides a comprehensive review of the literature on PINNs: while the primary goal of the study was to characterize these networks and their related advantages and disadvantages. The review also attempts to incorporate publications on a broader range of collocation-based physics informed neural networks, which stars form the vanilla PINN, as well as many other variants, such as physics-constrained neural networks (PCNN), variational hp-VPINN, and conservative PINN (CPINN). The study indicates that most research has focused on customizing the PINN through different activation functions, gradient optimization techniques, neural network structures, and loss function structures. Despite the wide range of applications for which PINNs have been used, by demonstrating their ability to be more feasible in some contexts than classical numerical techniques like Finite Element Method (FEM), advancements are still possible, most notably theoretical issues that remain unresolved.
+
+View
+
+https://www.researchgate.net/publication/362090837_Scientific_Machine_Learning_through_Physics-Informed_Neural_Networks_Where_we_are_and_What's_next
+
+Show abstract
+
+Multi-dimensional-double-spiral (MDDS) inertial microfluidic platform for sperm isolation directly from the raw semen sample
+
+https://www.researchgate.net/publication/359149107_Multi-dimensional-double-spiral_MDDS_inertial_microfluidic_platform_for_sperm_isolation_directly_from_the_raw_semen_sample
+
+Article
+
+Full-text available
+
+Mar 2022
+
+ Hyungkook Jeon
+
+https://www.researchgate.net/profile/Hyungkook-Jeon
+
+Claudia Cremers
+
+https://www.researchgate.net/scientific-contributions/Claudia-Cremers-2216680941
+
+Doris Le
+
+https://www.researchgate.net/scientific-contributions/Doris-Le-2216697871
+
+Jongyoon Han
+
+https://www.researchgate.net/scientific-contributions/Jongyoon-Han-38527995
+
+Here, we propose a fully-automated platform using a spiral inertial microfluidic device for standardized semen preparation that can process patient-derived semen samples with diverse fluidic conditions without any pre-washing steps. We utilized the multi-dimensional double spiral (MDDS) device to effectively isolate sperm cells from other non-sperm seminal cells (e.g., leukocytes) in the semen sample. The recirculation platform was employed to minimize sample dependency and achieve highly purified and concentrated (up to tenfold) sperm cells in a rapid and fully-automated manner (~ 10 min processing time for 50 mL of diluted semen sample). The clinical (raw) semen samples obtained from healthy donors were directly used without any pre-washing step to evaluate the developed separation platform, which showed excellent performance with ~ 80% of sperm cell recovery, and > 99.95% and > 98% removal of 10-μm beads (a surrogate for leukocytes) from low-viscosity and high-viscosity semen samples, respectively. We expect that the novel platform will be an efficient and automated tool to achieve purified sperm cells directly from raw semen samples for assisted reproductive technologies (ARTs) as an alternative to density centrifugation or swim-up methods, which often suffer from the low recovery of sperm cells and labor-intensive steps.
+
+View
+
+https://www.researchgate.net/publication/359149107_Multi-dimensional-double-spiral_MDDS_inertial_microfluidic_platform_for_sperm_isolation_directly_from_the_raw_semen_sample
+
+Show abstract
+
+A Preliminary Study on the Resolution of Electro-Thermal Multi-Physics Coupling Problem Using Physics-Informed Neural Network (PINN)
+
+https://www.researchgate.net/publication/358316374_A_Preliminary_Study_on_the_Resolution_of_Electro-Thermal_Multi-Physics_Coupling_Problem_Using_Physics-Informed_Neural_Network_PINN
+
+Article
+
+Full-text available
+
+Feb 2022
+
+Yaoyao Ma
+
+https://www.researchgate.net/scientific-contributions/Yaoyao-Ma-2213935048
+
+ Xiaoyu Xu
+
+https://www.researchgate.net/profile/Xiaoyu-Xu-21
+
+ Shuai Yan
+
+https://www.researchgate.net/profile/Shuai-Yan-10
+
+Zhuoxiang Ren
+
+https://www.researchgate.net/scientific-contributions/Zhuoxiang-Ren-2163440459
+
+The problem of electro-thermal coupling is widely present in the integrated circuit (IC). The accuracy and efficiency of traditional solution methods, such as the finite element method (FEM), are tightly related to the quality and density of mesh construction. Recently, PINN (physics-informed neural network) was proposed as a method for solving differential equations. This method is mesh free and generalizes the process of solving PDEs regardless of the equations' structure. Therefore, an experiment is conducted to explore the feasibility of PINN in solving electro-thermal coupling problems, which include the electrokinetic field and steady-state thermal field. We utilize two neural networks in the form of sequential training to approximate the electric field and the thermal field, respectively. The experimental results show that PINN provides good accuracy in solving electro-thermal coupling problems.
+
+View
+
+https://www.researchgate.net/publication/358316374_A_Preliminary_Study_on_the_Resolution_of_Electro-Thermal_Multi-Physics_Coupling_Problem_Using_Physics-Informed_Neural_Network_PINN
+
+Show abstract
+
+Predicting Voltammetry Using Physics-Informed Neural Networks
+
+https://www.researchgate.net/publication/357723582_Predicting_Voltammetry_Using_Physics-Informed_Neural_Networks
+
+Article
+
+Full-text available
+
+Jan 2022
+
+ Haotian Chen
+
+https://www.researchgate.net/profile/Haotian-Chen-25
+
+Enno Kätelhön
+
+https://www.researchgate.net/scientific-contributions/Enno-Kaetelhoen-44255727
+
+Richard G. Compton
+
+https://www.researchgate.net/scientific-contributions/Richard-G-Compton-2045683706
+
+View
+
+https://www.researchgate.net/publication/357723582_Predicting_Voltammetry_Using_Physics-Informed_Neural_Networks
+
+Applying machine learning to study fluid mechanics
+
+https://www.researchgate.net/publication/357620743_Applying_machine_learning_to_study_fluid_mechanics
+
+Article
+
+Full-text available
+
+Jan 2022
+
+ Steven L. Brunton
+
+https://www.researchgate.net/profile/Steven-Brunton-2
+
+This paper provides a short overview of how to use machine learning to build data-driven models in fluid mechanics. The process of machine learning is broken down into five stages: (1) formulating a problem to model, (2) collecting and curating training data to inform the model, (3) choosing an architecture with which to represent the model, (4) designing a loss function to assess the performance of the model, and (5) selecting and implementing an optimization algorithm to train the model. At each stage, we discuss how prior physical knowledge may be embedding into the process, with specific examples from the field of fluid mechanics. Graphic abstract
+
+View
+
+https://www.researchgate.net/publication/357620743_Applying_machine_learning_to_study_fluid_mechanics
+
+Show abstract
+
+Multifidelity Modeling for Physics-Informed Neural Networks (PINNs)
+
+https://www.researchgate.net/publication/356179960_Multifidelity_Modeling_for_Physics-Informed_Neural_Networks_PINNs
+
+Article
+
+Full-text available
+
+Nov 2021
+
+J COMPUT PHYS
+
+ Michael Penwarden
+
+https://www.researchgate.net/profile/Michael_Penwarden2
+
+ Shandian Zhe
+
+https://www.researchgate.net/profile/Shandian-Zhe
+
+Akil Narayan
+
+https://www.researchgate.net/scientific-contributions/Akil-Narayan-2004202099
+
+ Robert M. Kirby
+
+https://www.researchgate.net/profile/Robert-Kirby-3
+
+Multifidelity simulation methodologies are often used in an attempt to judiciously combine low-fidelity and high-fidelity simulation results in an accuracy-increasing, cost-saving way. Candidates for this approach are simulation methodologies for which there are fidelity differences connected with significant computational cost differences. Physics-informed Neural Networks (PINNs) are candidates for these types of approaches due to the significant difference in training times required when different fidelities (expressed in terms of architecture width and depth as well as optimization criteria) are employed. In this paper, we propose a particular multifidelity approach applied to PINNs that exploits low-rank structure. We demonstrate that width, depth, and optimization criteria can be used as parameters related to model fidelity and show numerical justification of cost differences in training due to fidelity parameter choices. We test our multifidelity scheme on various canonical forward PDE models that have been presented in the emerging PINNs literature.
+
+View
+
+https://www.researchgate.net/publication/356179960_Multifidelity_Modeling_for_Physics-Informed_Neural_Networks_PINNs
+
+Show abstract
+
+How to Control the Microfluidic Flow and Separate the Magnetic and Non-Magnetic Particles in the Runner of a Disc
+
+https://www.researchgate.net/publication/355850176_How_to_Control_the_Microfluidic_Flow_and_Separate_the_Magnetic_and_Non-Magnetic_Particles_in_the_Runner_of_a_Disc
+
+Article
+
+Full-text available
+
+Oct 2021
+
+Yao-Tsung Lin
+
+https://www.researchgate.net/scientific-contributions/Yao-Tsung-Lin-2152573507
+
+Chien-Sheng Huang
+
+https://www.researchgate.net/scientific-contributions/Chien-Sheng-Huang-2037415725
+
+ shi-chang Tseng
+
+https://www.researchgate.net/profile/Shi-Chang-Tseng-2
+
+Biochips play an important role in both medical and food industry safety testing. Moreover, magnetic activated cell sorting is a well-established technology for biochip development. However, biochips need to be manufactured by precision instruments, resulting in the high cost of biochips. Therefore, this study used magnetic-activation and mechanics theories to create a novel disc that could manipulate the microfluidic flow, mixing, reaction, and separation on the runner of the disc. The goal of the research was to apply in the field of biomedical detection systems to reduce the cost of biochips and simplify the operation process. The simulation and experimental investigation showed that the pattern of the reaction chamber was stomach-shaped and the reservoir chamber was rectangular-shaped on the disc. The microfluid could be controlled to flow to the reaction chamber from the buffer and sample chamber when the disc spun at 175~200 rpm within three minutes. This was defined as the first setting mode. The microfluid could then be controlled to flow to the reservoir chamber from the reaction chamber when the disc spun at 225 rpm within five to ten minutes. This was defined as the second setting mode. This verified that the pattern design of the disc was optimized for control of the microfluid flow, mixing, reaction, and separation in the runner of the disc by different setting modes.
+
+View
+
+https://www.researchgate.net/publication/355850176_How_to_Control_the_Microfluidic_Flow_and_Separate_the_Magnetic_and_Non-Magnetic_Particles_in_the_Runner_of_a_Disc
+
+Show abstract
+
+Microfluidic chips: recent advances, critical strategies in design, applications and future perspectives
+
+https://www.researchgate.net/publication/355657151_Microfluidic_chips_recent_advances_critical_strategies_in_design_applications_and_future_perspectives
+
+Article
+
+Full-text available
+
+Oct 2021
+
+MICROFLUID NANOFLUID
+
+Prapti Pattanayak
+
+https://www.researchgate.net/scientific-contributions/Prapti-Pattanayak-2194766924
+
+ Sachin Kumar Singh
+
+https://www.researchgate.net/profile/Sachin-Singh-18
+
+ Monica Gulati
+
+https://www.researchgate.net/profile/Monica-Gulati
+
+ Vijay Kumar
+
+https://www.researchgate.net/profile/Vijay-Kumar-286
+
+Microfluidic chip technology is an emerging tool in the field of biomedical application. Microfluidic chip includes a set of groves or microchannels that are engraved on different materials (glass, silicon, or polymers such as polydimethylsiloxane or PDMS, polymethylmethacrylate or PMMA). The microchannels forming the microfluidic chip are interconnected with each other for desired results. This organization of microchannels trapped into the microfluidic chip is associated with the outside by inputs and outputs penetrating through the chip, as an interface between the macro- and miniature world. With the help of a pump and a chip, microfluidic chip helps to determine the behavioral change of the microfluids. Inside the chip, there are microfluidic channels that permit the processing of the fluid, for example, blending and physicochemical responses. Microfluidic chip has numerous points of interest including lesser time and reagent utilization and alongside this, it can execute numerous activities simultaneously. The miniatured size of the chip fastens the reaction as the surface area increases. It is utilized in different biomedical applications such as food safety sensing, peptide analysis, tissue engineering, medical diagnosis, DNA purification, PCR activity, pregnancy, and glucose estimation. In the present study, the design of various microfluidic chips has been discussed along with their biomedical applications.
+
+View
+
+https://www.researchgate.net/publication/355657151_Microfluidic_chips_recent_advances_critical_strategies_in_design_applications_and_future_perspectives
+
+Show abstract
+
+Physics‐Informed Neural Network Method for Forward and Backward Advection‐Dispersion Equations
+
+https://www.researchgate.net/publication/352744049_Physics-Informed_Neural_Network_Method_for_Forward_and_Backward_Advection-Dispersion_Equations
+
+Article
+
+Full-text available
+
+Jul 2021
+
+WATER RESOUR RES
+
+https://www.researchgate.net/journal/Water-Resources-Research-1944-7973
+
+ Qizhi He
+
+https://www.researchgate.net/profile/Qizhi-He-2
+
+Alexandre M. Tartakovsky
+
+https://www.researchgate.net/scientific-contributions/Alexandre-M-Tartakovsky-58540339
+
+We propose a discretization-free approach based on the physics-informed neural network (PINN) method for solving the coupled advection-dispersion equation (ADE) and Darcy flow equation with space-dependent hydraulic conductivity (Formula presented.). In this approach, (Formula presented.), hydraulic head, and concentration fields are approximated with deep neural networks (DNNs). We assume that K(x) is given by its values on a grid, and we use these values to train the K DNN. The head and concentration DNNs are trained by minimizing the residuals of the flow equation and ADE and using the initial and boundary conditions as additional constraints. The PINN method is applied to one- and two-dimensional forward ADEs, where its performance for various Péclet numbers (Pe) is compared with the analytical and numerical solutions. We find that the PINN method is accurate with errors of less than 1% and outperforms some conventional discretization-based methods for large Pe. Next, we demonstrate that the PINN method remains accurate for the backward ADEs, with the relative errors in most cases staying under 5% compared to the reference concentration field. Finally, we show that when available, the concentration measurements can be easily incorporated in the PINN method and significantly improve (by more than 50% in the considered cases) the accuracy of the PINN solution of the backward ADE.
+
+View
+
+https://www.researchgate.net/publication/352744049_Physics-Informed_Neural_Network_Method_for_Forward_and_Backward_Advection-Dispersion_Equations
+
+Show abstract
+
+Physics-informed machine learning
+
+https://www.researchgate.net/publication/351814752_Physics-informed_machine_learning
+
+Article
+
+Full-text available
+
+May 2021
+
+ Yannis Kevrekidis
+
+https://www.researchgate.net/profile/Yannis-Kevrekidis
+
+ Liu Yang
+
+https://www.researchgate.net/profile/Liu-Yang-583
+
+ George Em Karniadakis
+
+https://www.researchgate.net/profile/George-Karniadakis
+
+ Lu Lu
+
+https://www.researchgate.net/profile/Lu-Lu-51
+
+Despite great progress in simulating multiphysics problems using the numerical discretization of partial differential equations (PDEs), one still cannot seamlessly incorporate noisy data into existing algorithms, mesh generation remains complex, and high-dimensional problems governed by parameterized PDEs cannot be tackled. Moreover, solving inverse problems with hidden physics is often prohibitively expensive and requires different formulations and elaborate computer codes. Machine learning has emerged as a promising alternative, but training deep neural networks requires big data, not always available for scientific problems. Instead, such networks can be trained from additional information obtained by enforcing the physical laws (for example, at random points in the continuous space-time domain). Such physics-informed learning integrates (noisy) data and mathematical models, and implements them through neural networks or other kernel-based regression networks. Moreover, it may be possible to design specialized network architectures that automatically satisfy some of the physical invariants for better accuracy, faster training and improved generalization. Here, we review some of the prevailing trends in embedding physics into machine learning, present some of the current capabilities and limitations and discuss diverse applications of physics-informed learning both for forward and inverse problems, including discovering hidden physics and tackling high-dimensional problems.
+
+View
+
+https://www.researchgate.net/publication/351814752_Physics-informed_machine_learning
+
+Show abstract
+
+Machine learning–accelerated computational fluid dynamics
+
+https://www.researchgate.net/publication/351671220_Machine_learning-accelerated_computational_fluid_dynamics
+
+Article
+
+Full-text available
+
+May 2021
+
+Dmitrii Kochkov
+
+https://www.researchgate.net/scientific-contributions/Dmitrii-Kochkov-2124619666
+
+Jamie A. Smith
+
+https://www.researchgate.net/scientific-contributions/Jamie-A-Smith-2189203735
+
+Ayya Alieva
+
+https://www.researchgate.net/scientific-contributions/Ayya-Alieva-2189216365
+
+Stephan Hoyer
+
+https://www.researchgate.net/scientific-contributions/Stephan-Hoyer-2134813949
+
+Significance Accurate simulation of fluids is important for many science and engineering problems but is very computationally demanding. In contrast, machine-learning models can approximate physics very quickly but at the cost of accuracy. Here we show that using machine learning inside traditional fluid simulations can improve both accuracy and speed, even on examples very different from the training data. Our approach opens the door to applying machine learning to large-scale physical modeling tasks like airplane design and climate prediction.
+
+View
+
+https://www.researchgate.net/publication/351671220_Machine_learning-accelerated_computational_fluid_dynamics
+
+Show abstract
+
+A three-dimensional (3-D) meshfree-based computational model to investigate stress-strain-time relationships of plant cells during drying
+
+https://www.researchgate.net/publication/342756245_A_three-dimensional_3-D_meshfree-based_computational_model_to_investigate_stress-strain-time_relationships_of_plant_cells_during_drying
+
+Article
+
+Full-text available
+
+Jul 2020
+
+PLOS ONE
+
+https://www.researchgate.net/journal/PLOS-One-1932-6203
+
+ Charith Rathnayaka
+
+https://www.researchgate.net/profile/Charith-Rathnayaka
+
+ Chaminda Karunasena
+
+https://www.researchgate.net/profile/Chaminda-Karunasena
+
+ Chathura Wijerathne
+
+https://www.researchgate.net/profile/Chathura-Wijerathne-2
+
+Y.T. Gu
+
+https://www.researchgate.net/scientific-contributions/YT-Gu-2068678512
+
+A better understanding of plant cell micromechanics would enhance the current opinion on “how things are happening” inside a plant cell, enabling more detailed insights into plant physiology as well as processing plant biomaterials. However, with the contemporary laboratory equipment, the experimental investigation of cell micromechanics has been a challenging task due to diminutive spatial and time scales involved. In this investigation, a three-dimensional (3-D) coupled Smoothed Particle Hydrodynamics (SPH) and Coarse-Grained (CG) computational approach has been employed to model micromechanics of single plant cells going through drying or dehydration. This meshfree-based computational model has conclusively demonstrated that it can effectively simulate the behaviour of stress and strain in a plant cell being compressed at different levels of dryness: ranging from a fresh state to an extremely dried state. In addition, different biological and physical circumstances have been approximated through the proposed novel computational framework in the form of different turgor pressures, strain rates, mechanical properties and cell sizes. The proposed computational framework has potential not only to study the micromechanical characteristics of plant cellular structure during drying, but also other equivalent, biological structures and processes with relevant modifications. There are no underlying difficulties in adopting the model to replicate other types of cells and more sophisticated micromechanical phenomena of the cells under different external loading conditions.
+
+View
+
+https://www.researchgate.net/publication/342756245_A_three-dimensional_3-D_meshfree-based_computational_model_to_investigate_stress-strain-time_relationships_of_plant_cells_during_drying
+
+Show abstract
+
+Inverse design of microfluidic concentration gradient generator using deep learning and physics-based component model
+
+https://www.researchgate.net/publication/341436139_Inverse_design_of_microfluidic_concentration_gradient_generator_using_deep_learning_and_physics-based_component_model
+
+Article
+
+Full-text available
+
+May 2020
+
+MICROFLUID NANOFLUID
+
+ Seong Hyeon Hong
+
+https://www.researchgate.net/profile/Seong-Hyeon-Hong-4
+
+ Haizhou Yang
+
+https://www.researchgate.net/profile/Haizhou_Yang
+
+Yi Wang
+
+https://www.researchgate.net/scientific-contributions/Yi-Wang-57501276
+
+This paper presents a new paradigm of deep neural network (DNN) for the inverse design of microfluidic concentration gradient generators (µCGGs) with complex network topology. In this method, a concentration gradient (CG) and design parameters yielding the CG are, respectively, used as inputs and outputs of DNN, and the relationship between them is mapped. Several new elements are also proposed, including utilization of fast-running physics-based component model in the closed form to generate a large amount of data for DNN learning which otherwise is not available through computationally demanding computational fluid dynamics (CFD) simulation; and a divide-and-conquer strategy and DNN formulation combining classification and regression to mitigate many-to-one design complications for enhanced accuracy. Several DNN structures are investigated and developed, including single fully connected neural network (FCNN), convolutional neural network, and a new cascade FCNN for a divide-and-conquer implementation. Case studies are performed on a triple-Y µCGG to evaluate design performance of the proposed method in a six-dimensional space that only includes sample concentrations at inlet reservoirs as design parameters, and in a nine-dimensional design space, to which inlet flow pressures are also added. It is verified in high-fidelity CFD simulation that widely used CGs can be produced using DNN-predicted design parameters accurately with average error < 4% and < 8.5% relative to the prescribed CGs, respectively, in the six- and nine-dimensional design space. The learned design rules are packaged into the DNN model that allows to generate accurate µCGGs designs instantaneously (~ 3 ms) and eliminates requirements of simulation and optimization knowledge, facilitating distribution of the design capabilities to microfluidic end users.
+
+View
+
+https://www.researchgate.net/publication/341436139_Inverse_design_of_microfluidic_concentration_gradient_generator_using_deep_learning_and_physics-based_component_model
+
+Show abstract
+
+A Physics-Informed Neural Network framework to investigate nonlinear and heterogenous shrinkage of drying plant cells
+
+https://www.researchgate.net/publication/379659254_A_Physics-Informed_Neural_Network_framework_to_investigate_nonlinear_and_heterogenous_shrinkage_of_drying_plant_cells
+
+Article
+
+Apr 2024
+
+INT J MECH SCI
+
+H.C.P. Karunasena
+
+https://www.researchgate.net/scientific-contributions/HCP-Karunasena-2278611712
+
+ C. P. Batuwatta-Gamage
+
+https://www.researchgate.net/profile/C-P-Batuwatta-Gamage
+
+ Charith Rathnayaka
+
+https://www.researchgate.net/profile/Charith-Rathnayaka
+
+Y.T. Gu
+
+https://www.researchgate.net/scientific-contributions/YT-Gu-2068678512
+
+View
+
+https://www.researchgate.net/publication/379659254_A_Physics-Informed_Neural_Network_framework_to_investigate_nonlinear_and_heterogenous_shrinkage_of_drying_plant_cells
+
+Transfer learning and pretraining enhanced physics-informed machine learning for closed-circuit reverse osmosis modeling
+
+https://www.researchgate.net/publication/379124485_Transfer_learning_and_pretraining_enhanced_physics-informed_machine_learning_for_closed-circuit_reverse_osmosis_modeling
+
+Article
+
+Mar 2024
+
+DESALINATION
+
+Yunquan Chen
+
+https://www.researchgate.net/scientific-contributions/Yunquan-Chen-2276830435
+
+Zhiqiang Wu
+
+https://www.researchgate.net/scientific-contributions/Zhiqiang-Wu-2276812005
+
+ Bing J. Zhang
+
+https://www.researchgate.net/profile/Bing-Zhang-83
+
+ Qinglin Chen
+
+https://www.researchgate.net/profile/Qinglin-Chen-5
+
+View
+
+https://www.researchgate.net/publication/379124485_Transfer_learning_and_pretraining_enhanced_physics-informed_machine_learning_for_closed-circuit_reverse_osmosis_modeling
+
+Physical informed neural networks with soft and hard boundary constraints for solving advection-diffusion equations using Fourier expansions
+
+https://www.researchgate.net/publication/377926848_Physical_informed_neural_networks_with_soft_and_hard_boundary_constraints_for_solving_advection-diffusion_equations_using_Fourier_expansions
+
+Article
+
+Feb 2024
+
+COMPUT MATH APPL
+
+ Xi'An Li
+
+https://www.researchgate.net/profile/Xian-Li-71
+
+Jiaxin Deng
+
+https://www.researchgate.net/scientific-contributions/Jiaxin-Deng-2254426726
+
+ Jinran Wu
+
+https://www.researchgate.net/profile/Jinran-Wu-2
+
+ You-Gan Wang
+
+https://www.researchgate.net/profile/You-Gan-Wang
+
+Deep learning methods have gained considerable interest in the numerical solution of various partial differential equations (PDEs). One particular focus is physics-informed neural networks (PINN), which integrate physical principles into neural networks. This transforms the process of solving PDEs into optimization problems for neural networks. To address a collection of advection-diffusion equations (ADE) in a range of difficult circumstances, this paper proposes a novel network structure. This architecture integrates the solver, a multi-scale deep neural networks (MscaleDNN) utilized in the PINN method, with a hard constraint technique known as HCPINN. This method introduces a revised formulation of the desired solution for ADE by utilizing a loss function that incorporates the residuals of the governing equation and penalizes any deviations from the specified boundary and initial constraints. By surpassing the boundary constraints automatically, this method improves the accuracy and efficiency of the PINN technique. To address the ``spectral bias'' phenomenon in neural networks, a subnetwork structure of MscaleDNN and a Fourier-induced activation function are incorporated into the HCPINN, resulting in a hybrid approach called SFHCPINN. The effectiveness of SFHCPINN is demonstrated through various numerical experiments involving ADE in different dimensions. The numerical results indicate that SFHCPINN outperforms both standard PINN and its subnetwork version with Fourier feature embedding. It achieves remarkable accuracy and efficiency while effectively handling complex boundary conditions and high-frequency scenarios in ADE.
+
+View
+
+https://www.researchgate.net/publication/377926848_Physical_informed_neural_networks_with_soft_and_hard_boundary_constraints_for_solving_advection-diffusion_equations_using_Fourier_expansions
+
+Show abstract
+
+A Physics-Informed Neural-Network-Based Multi-Domain Computational Model to Investigate Nonlinear and Heterogenous Shrinkage of Plant Cells During Drying
+
+https://www.researchgate.net/publication/376275817_A_Physics-Informed_Neural-Network-Based_Multi-Domain_Computational_Model_to_Investigate_Nonlinear_and_Heterogenous_Shrinkage_of_Plant_Cells_During_Drying
+
+Preprint
+
+Jan 2023
+
+ C. P. Batuwatta-Gamage
+
+https://www.researchgate.net/profile/C-P-Batuwatta-Gamage
+
+ Charith Rathnayaka
+
+https://www.researchgate.net/profile/Charith-Rathnayaka
+
+ Chaminda Karunasena
+
+https://www.researchgate.net/profile/Chaminda-Karunasena
+
+Yuantong Gu
+
+https://www.researchgate.net/scientific-contributions/Yuantong-Gu-2068855086
+
+View
+
+https://www.researchgate.net/publication/376275817_A_Physics-Informed_Neural-Network-Based_Multi-Domain_Computational_Model_to_Investigate_Nonlinear_and_Heterogenous_Shrinkage_of_Plant_Cells_During_Drying
+
+A Physics-Informed Neural-Network-Based Multi-Domain Computational Model to Investigate Nonlinear and Heterogenous Shrinkage of Plant Cells During Drying
+
+https://www.researchgate.net/publication/374903234_A_Physics-Informed_Neural-Network-Based_Multi-Domain_Computational_Model_to_Investigate_Nonlinear_and_Heterogenous_Shrinkage_of_Plant_Cells_During_Drying
+
+Preprint
+
+Jan 2023
+
+ C. P. Batuwatta-Gamage
+
+https://www.researchgate.net/profile/C-P-Batuwatta-Gamage
+
+ Charith Rathnayaka
+
+https://www.researchgate.net/profile/Charith-Rathnayaka
+
+ Chaminda Karunasena
+
+https://www.researchgate.net/profile/Chaminda-Karunasena
+
+Yuantong Gu
+
+https://www.researchgate.net/scientific-contributions/Yuantong-Gu-2068855086
+
+View
+
+https://www.researchgate.net/publication/374903234_A_Physics-Informed_Neural-Network-Based_Multi-Domain_Computational_Model_to_Investigate_Nonlinear_and_Heterogenous_Shrinkage_of_Plant_Cells_During_Drying
+
+Physics Informed Neural Network application on mixing and heat transfer in combined electroosmotic-pressure driven flow
+
+https://www.researchgate.net/publication/373739693_Physics_Informed_Neural_Network_application_on_mixing_and_heat_transfer_in_combined_electroosmotic-pressure_driven_flow
+
+Article
+
+Sep 2023
+
+CHEM ENG PROCESS
+
+ Arshia Merdasi
+
+https://www.researchgate.net/profile/Arshia-Merdasi
+
+Saman Ebrahimi
+
+https://www.researchgate.net/scientific-contributions/Saman-Ebrahimi-2260551186
+
+ Xiang Yang
+
+https://www.researchgate.net/profile/Xiang-Yang-10
+
+ Robert Francis Kunz
+
+https://www.researchgate.net/profile/Robert-Kunz
+
+In the current research, different architectures of physics-informed neural networks (PINNs) are implemented to investigate the mixed electroosmotic pressure driven (EOF/PD) flow in microchannels with non-uniform zeta-potential distribution on the walls. Through performing a detailed numerical simulation and PINN solutions based on Poisson-Boltzmann, Laplace, Navier-Stokes, concentration, and energy equations, we predict the non-uniformly distributed zeta-potential on the fluid dynamic, and heat transfer characteristics. It is observed that there is a good agreement between the Finite Volume Method (FVM) and segregated PINN approach. Comparing the PINN results with the numerical simulation, we show that amalgamating losses in all governing equations and applying a single PINN leads to higher training loss when compared to the multi-structured PINN, where a PINN is separately trained for each governing equation. Specifically, the normalized mean absolute percentage errors in the velocity prediction of the single and segregated PINNs are 20.17% and 9.2% respectively. In addition to the structure of the PINN, we also examine the effect of grid point distribution on PINNs. We demonstrate that using boundary layer collocation points can drastically improve the training efficiency and reduce the total loss for EOF/PD flow.
+
+View
+
+https://www.researchgate.net/publication/373739693_Physics_Informed_Neural_Network_application_on_mixing_and_heat_transfer_in_combined_electroosmotic-pressure_driven_flow
+
+Show abstract
+
+Physics-informed deep learning method for the refrigerant filling mass flow metering
+
+https://www.researchgate.net/publication/372113088_Physics-informed_deep_learning_method_for_the_refrigerant_filling_mass_flow_metering
+
+Article
+
+Jul 2023
+
+FLOW MEAS INSTRUM
+
+Weikun Xuan
+
+https://www.researchgate.net/scientific-contributions/Weikun-Xuan-2255401063
+
+ Haozhe Lou
+
+https://www.researchgate.net/profile/Haozhe-Lou
+
+Shenghua Fu
+
+https://www.researchgate.net/scientific-contributions/Shenghua-Fu-2168754451
+
+ Nanxi Ding
+
+https://www.researchgate.net/profile/Nanxi-Ding
+
+View
+
+https://www.researchgate.net/publication/372113088_Physics-informed_deep_learning_method_for_the_refrigerant_filling_mass_flow_metering
+
+Greedy Layer-Wise Training of Deep Networks
+
+https://www.researchgate.net/publication/371869820_Greedy_Layer-Wise_Training_of_Deep_Networks
+
+Chapter
+
+Sep 2007
+
+Yoshua Bengio
+
+https://www.researchgate.net/scientific-contributions/Yoshua-Bengio-51346366
+
+ Pascal Lamblin
+
+https://www.researchgate.net/profile/Pascal-Lamblin
+
+Dan Popovici
+
+https://www.researchgate.net/scientific-contributions/Dan-Popovici-2254712182
+
+ Hugo Larochelle
+
+https://www.researchgate.net/profile/Hugo-Larochelle
+
+Papers from the 2006 flagship meeting on neural computation, with contributions from physicists, neuroscientists, mathematicians, statisticians, and computer scientists. The annual Neural Information Processing Systems (NIPS) conference is the flagship meeting on neural computation and machine learning. It draws a diverse group of attendees—physicists, neuroscientists, mathematicians, statisticians, and computer scientists—interested in theoretical and applied aspects of modeling, simulating, and building neural-like or intelligent systems. The presentations are interdisciplinary, with contributions in algorithms, learning theory, cognitive science, neuroscience, brain imaging, vision, speech and signal processing, reinforcement learning, and applications. Only twenty-five percent of the papers submitted are accepted for presentation at NIPS, so the quality is exceptionally high. This volume contains the papers presented at the December 2006 meeting, held in Vancouver. Bradford Books imprint
+
+View
+
+https://www.researchgate.net/publication/371869820_Greedy_Layer-Wise_Training_of_Deep_Networks
+
+Show abstract
+
+Accelerating intelligent microfluidic image processing with transfer deep learning: A microchannel droplet/bubble breakup case study
+
+https://www.researchgate.net/publication/369628542_Accelerating_intelligent_microfluidic_image_processing_with_transfer_deep_learning_a_microchannel_dropletbubble_breakup_case_study
+
+Article
+
+Mar 2023
+
+SEP PURIF TECHNOL
+
+ Shuyuan Zhang
+
+https://www.researchgate.net/profile/Shuyuan-Zhang-29
+
+ Li Haoran
+
+https://www.researchgate.net/profile/Li-Haoran-6
+
+Kai Wang
+
+https://www.researchgate.net/scientific-contributions/Kai-Wang-2059096213
+
+Tong Qiu
+
+https://www.researchgate.net/scientific-contributions/Tong-Qiu-2318497809
+
+View
+
+https://www.researchgate.net/publication/369628542_Accelerating_intelligent_microfluidic_image_processing_with_transfer_deep_learning_a_microchannel_dropletbubble_breakup_case_study
+
+A Physics-Informed Neural Network-based Topology Optimization (PINNTO) framework for structural optimization
+
+https://www.researchgate.net/publication/368885534_A_Physics-Informed_Neural_Network-based_Topology_Optimization_PINNTO_framework_for_structural_optimization
+
+Article
+
+Mar 2023
+
+ENG STRUCT
+
+ Hyogu Jeong
+
+https://www.researchgate.net/profile/Hyogu-Jeong
+
+ C. P. Batuwatta-Gamage
+
+https://www.researchgate.net/profile/C-P-Batuwatta-Gamage
+
+ Jinshuai Bai
+
+https://www.researchgate.net/profile/Jinshuai-Bai
+
+Yuantong Gu
+
+https://www.researchgate.net/scientific-contributions/Yuantong-Gu-2068855086
+
+Physics-Informed Neural Networks (PINNs) have recently attracted exponentially increasing attention in the field of computational mechanics. This paper proposes a novel topology optimization framework: Physics-Informed Neural Network-based Topology Optimization (PINNTO). Unlike existing machine-learning based topology optimization frameworks, PINNTO employs an energy-based PINN to replace Finite Element Analysis (FEA) in the conventional structural topology optimization, to numerically determine the deformation states, which is a key novelty in the proposed methodology. A supervised neural network that respects governing physical laws defined via partial differential equations is trained to develop the corresponding network without any labelled data, with the intention of solving solid mechanics problems. To assess feasibility and potential of the proposed PINNTO framework, a number of topology-optimization-related case studies have been implemented. The subsequent findings illustrate that PINNTO has the ability to attain optimized topologies with neither labelled data nor FEA. In addition, it has the capability to generate comparable designs to those produced by the current successful approaches such as Solid Isotropic Material with Penalization (SIMP). Based on the results of this study, it can also be deduced that PINNTO can acquire optimal topologies for various types of complex domains given that the boundary conditions and loading configurations are correctly imposed for the associated energy-based PINN. Consequently, the proposed PINNTO framework has demonstrated promising capabilities to solve problems under conditions when the usage of FEA is challenged (if not impossible). In summary, the proposed PINNTO framework opens up a new avenue for structural design in this 'data-rich' age.
+
+View
+
+https://www.researchgate.net/publication/368885534_A_Physics-Informed_Neural_Network-based_Topology_Optimization_PINNTO_framework_for_structural_optimization
+
+Show abstract
+
+Self-adaptive physics-informed neural networks
+
+https://www.researchgate.net/publication/365388990_Self-adaptive_physics-informed_neural_networks
+
+Article
+
+Nov 2022
+
+J COMPUT PHYS
+
+ Levi D. McClenny
+
+https://www.researchgate.net/profile/Levi-Mcclenny
+
+ Ulisses M Braga-Neto
+
+https://www.researchgate.net/profile/Ulisses-Braga-Neto
+
+Physics-Informed Neural Networks (PINNs) have emerged recently as a promising application of deep neural networks to the numerical solution of nonlinear partial differential equations (PDEs). However, it has been recognized that adaptive procedures are needed to force the neural network to fit accurately the stubborn spots in the solution of “stiff” PDEs. In this paper, we propose a fundamentally new way to train PINNs adaptively, where the adaptation weights are fully trainable and applied to each training point individually, so the neural network learns autonomously which regions of the solution are difficult and is forced to focus on them. The self-adaptation weights specify a soft multiplicative soft attention mask, which is reminiscent of similar mechanisms used in computer vision. The basic idea behind these SA-PINNs is to make the weights increase as the corresponding losses increase, which is accomplished by training the network to simultaneously minimize the losses and maximize the weights. In addition, we show how to build a continuous map of self-adaptive weights using Gaussian Process regression, which allows the use of stochastic gradient descent in problems where conventional gradient descent is not enough to produce accurate solutions. Finally, we derive the Neural Tangent Kernel matrix for SA-PINNs and use it to obtain a heuristic understanding of the effect of the self-adaptive weights on the dynamics of training in the limiting case of infinitely-wide PINNs, which suggests that SA-PINNs work by producing a smooth equalization of the eigenvalues of the NTK matrix corresponding to the different loss terms. In numerical experiments with several linear and nonlinear benchmark problems, the SA-PINN outperformed other state-of-the-art PINN algorithm in L2 error, while using a smaller number of training epochs.
+
+View
+
+https://www.researchgate.net/publication/365388990_Self-adaptive_physics-informed_neural_networks
+
+Show abstract
+
+DPM: A Novel Training Method for Physics-Informed Neural Networks in Extrapolation
+
+https://www.researchgate.net/publication/363390275_DPM_A_Novel_Training_Method_for_Physics-Informed_Neural_Networks_in_Extrapolation
+
+Article
+
+May 2021
+
+Jungeun Kim
+
+https://www.researchgate.net/scientific-contributions/Jungeun-Kim-2185078400
+
+ Kookjin Lee
+
+https://www.researchgate.net/profile/Kookjin-Lee
+
+ Dongeun Lee
+
+https://www.researchgate.net/profile/Dongeun-Lee
+
+Noseong Park
+
+https://www.researchgate.net/scientific-contributions/Noseong-Park-2099294409
+
+We present a method for learning dynamics of complex physical processes described by time-dependent nonlinear partial differential equations (PDEs). Our particular interest lies in extrapolating solutions in time beyond the range of temporal domain used in training. Our choice for a baseline method is physics-informed neural network (PINN) because the method parameterizes not only the solutions, but also the equations that describe the dynamics of physical processes. We demonstrate that PINN performs poorly on extrapolation tasks in many benchmark problems. To address this, we propose a novel method for better training PINN and demonstrate that our newly enhanced PINNs can accurately extrapolate solutions in time. Our method shows up to 72% smaller errors than state-of-the-art methods in terms of the standard L2-norm metric.
+
+View
+
+https://www.researchgate.net/publication/363390275_DPM_A_Novel_Training_Method_for_Physics-Informed_Neural_Networks_in_Extrapolation
+
+Show abstract
+
+Orthogonal grid physics-informed neural networks: A neural network-based simulation tool for advection–diffusion–reaction problems
+
+https://www.researchgate.net/publication/363004409_Orthogonal_grid_physics-informed_neural_networks_A_neural_network-based_simulation_tool_for_advection-diffusion-reaction_problems
+
+Article
+
+Jul 2022
+
+ Qingzhi Hou
+
+https://www.researchgate.net/profile/Qingzhi-Hou-2
+
+Zewei Sun
+
+https://www.researchgate.net/scientific-contributions/Zewei-Sun-2229230132
+
+Li He
+
+https://www.researchgate.net/scientific-contributions/Li-He-2229188455
+
+ Alireza Keramat
+
+https://www.researchgate.net/profile/Alireza-Keramat
+
+Stable and accurate reconstruction of pollutant transport is a crucial and challenging problem, including the inverse problem of identifying pollution sources and physical coefficients and the forward problem of inferring pollutant transport. Governed by advection, diffusion, and reaction processes, this transport phenomenon can be represented by the advection–diffusion–reaction (ADR) equation. In this paper, the physics-informed neural networks (PINNs) are applied to solve the forward and inverse ADR problems. To further enhance the stability and accuracy of the original PINN, two improvements are developed. The first adjusts the orthogonal grid (OG) point selection method and the other suggests adding an additional regulation function, namely, first derivative constraint (FDC). The new method is referred to as OG-PINN with FDC. To verify the effectiveness of the proposed method, five forward and inverse ADR problems are solved, and the results are compared with the analytical and reference solutions. For forward problems, the improved method can solve various ADR problems accurately and stably. For inverse problems, the ability of the OG-PINN for model parameter learning and initial distribution prediction is demonstrated and analyzed. The former gives the missed physical information in the ADR equation from the data, and the latter is used to trace the source of pollutants. The proposed method is quantitatively reliable for investigating various advection–diffusion–reaction processes.
+
+View
+
+https://www.researchgate.net/publication/363004409_Orthogonal_grid_physics-informed_neural_networks_A_neural_network-based_simulation_tool_for_advection-diffusion-reaction_problems
+
+Show abstract
+
+Physics-informed neural networks for solving the Boltzmann equation of the electron velocity distribution function in weakly ionized plasmas
+
+https://www.researchgate.net/publication/361456013_Physics-informed_neural_networks_for_solving_the_Boltzmann_equation_of_the_electron_velocity_distribution_function_in_weakly_ionized_plasmas
+
+Article
+
+Jun 2022
+
+Satoru Kawaguchi
+
+https://www.researchgate.net/scientific-contributions/Satoru-Kawaguchi-2223311711
+
+tomoyuki murakami
+
+https://www.researchgate.net/scientific-contributions/tomoyuki-murakami-2223301923
+
+The equilibrium electron velocity distribution function (EVDF) and electron transport coefficient in weakly ionized plasmas under crossed DC uniform electric and magnetic fields are calculated via the Boltzmann equation (BE) using physics-informed neural networks (PINNs). The latent solution of the BE is represented by artificial neural network, and then the neural network is trained to respect the BE. By leveraging automatic differentiation, no mesh generation in velocity space is required, allowing us to calculate the three-dimensional EVDF properly with 0.01% of memory capacity required for the conventional mesh-based method. The EVDF and electron transport coefficients in SF6 calculated from the PINNs are benchmarked by comparing with those calculated from Monte Carlo simulation (MCS). In most cases, the relative difference between the electron transport coefficient calculated from the PINNs and MCS is found to be within 1%.
+
+View
+
+https://www.researchgate.net/publication/361456013_Physics-informed_neural_networks_for_solving_the_Boltzmann_equation_of_the_electron_velocity_distribution_function_in_weakly_ionized_plasmas
+
+Show abstract
+
+Droplet deposition characteristics detection method based on deep learning
+
+https://www.researchgate.net/publication/360555141_Droplet_deposition_characteristics_detection_method_based_on_deep_learning
+
+Article
+
+Jul 2022
+
+COMPUT ELECTRON AGR
+
+Wei Yang
+
+https://www.researchgate.net/scientific-contributions/Wei-Yang-2162956559
+
+Xinze Li
+
+https://www.researchgate.net/scientific-contributions/Xinze-Li-2215137394
+
+ Minzan Li
+
+https://www.researchgate.net/profile/Minzan-Li
+
+Ziyuan Hao
+
+https://www.researchgate.net/scientific-contributions/Ziyuan-Hao-2147152892
+
+Accurate acquisition of spraying quality parameters of plant protection Unmanned Aerial Vehicle (UAV) is helpful to analyze the deposition and distribution of pesticides in field crops. It is of great significance for pest control. UAV spray quality detection system was used to collect droplets, the droplet deposition parameters can be detected by processing the droplet images. However, the spots and the adhesion of the droplets led to large data errors. In order to solve this problem, this paper developed a recognition method of adhesive droplets based on Deeplab V3 + deep learning network, and a concave point matching segmentation algorithm based on convolutional neural network was designed to segment adhesion droplets. Used water instead of pesticides to spray to verify the detection effect of the above method. The test results showed that this method was accurate in the identification and extraction of droplets in the detection of droplet coverage. Compared with the droplet coverage measured by Deposit scan, the average relative error is 3.81%. Compared with the manual counting method, the detection error of the droplet deposition density was 3.17%. It was better for the segmentation of adhesion droplets. In terms of droplet size detection, compared with volume middle diameter measured by laser particle sizer, the detection error was 5.48%. This method improves the accuracy of UAV spray quality detection, so as to ensure the correctness of plant protection UAV spraying decisions.
+
+View
+
+https://www.researchgate.net/publication/360555141_Droplet_deposition_characteristics_detection_method_based_on_deep_learning
+
+Show abstract
+
+Self-adaptive loss balanced Physics-informed neural networks
+
+https://www.researchgate.net/publication/360438101_Self-adaptive_loss_balanced_Physics-informed_neural_networks
+
+Article
+
+May 2022
+
+NEUROCOMPUTING
+
+ Zixue Xiang
+
+https://www.researchgate.net/profile/Zixue-Xiang
+
+ Wei Peng
+
+https://www.researchgate.net/profile/Wei-Peng-101
+
+ Xu Liu
+
+https://www.researchgate.net/profile/Xu-Liu-166
+
+ Wen Yao
+
+https://www.researchgate.net/profile/Wen-Yao-6
+
+Physics-informed neural networks (PINNs) have received significant attention as a representative deep learning-based technique for solving partial differential equations (PDEs). The loss function of PINNs is a weighted sum of multiple terms, including the mismatch of observed data, boundary and initial constraints, as well as PDE residuals. In this paper, we observe that the performance of PINNs is susceptible to the weighted combination of competitive multiple loss functions. Therefore, we establish Gaussian probabilistic models to define the self-adaptive loss function through the adaptive weights for each loss term. In particular, we propose a self-adaptive loss balanced method that automatically assigns the weights of losses by updating adaptive weights in each epoch based on the maximum likelihood estimation. Finally, we perform a series of numerical experiments with self-adaptive loss balanced physics-informed neural networks (lbPINNs), including solving Poisson, Burgers, Helmholtz, Navier-Stokes, and Allen-Cahn equations in regular and irregular areas. We also test the robustness of lbPINNs by varying the initial adaptive weights, numbers of observations, hidden layers, and neurons per layer. These experimental results demonstrate that lbPINNs consistently achieve better performance than PINNs, and reduce the relative L2 error by about two orders of magnitude.
+
+View
+
+https://www.researchgate.net/publication/360438101_Self-adaptive_loss_balanced_Physics-informed_neural_networks
+
+Show abstract
+
+Two mechanisms of H+/OH− ion generation in anion-exchange membrane systems with polybasic acid salt solutions
+
+https://www.researchgate.net/publication/359189449_Two_mechanisms_of_HOH-_ion_generation_in_anion-exchange_membrane_systems_with_polybasic_acid_salt_solutions
+
+Article
+
+Mar 2022
+
+J MEMBRANE SCI
+
+ O. A. Rybalkina
+
+https://www.researchgate.net/profile/O-Rybalkina
+
+M. V. Sharafan
+
+https://www.researchgate.net/scientific-contributions/M-V-Sharafan-77150199
+
+Victor Nikonenko
+
+https://www.researchgate.net/scientific-contributions/Victor-Nikonenko-2208332455
+
+N. D. Pismenskaya
+
+https://www.researchgate.net/scientific-contributions/N-D-Pismenskaya-2199338634
+
+Electrodialysis are increasingly used in hybrid membrane technologies for the recovery and separation of weak polybasic acids from municipal and industrial wastewater and other solutions. It is known that the rate of generation of H⁺ and OH⁻ ions at ion-exchange membrane boundaries during the treatment of such solutions is greater than that in the case of strong electrolytes, such as NaCl. One of the mechanisms of this generation, water splitting involving catalytic participation of functional groups, is relatively well understood. However, the second possible mechanism, where H⁺ ions are generated during acid dissociation at the depleted solution/anion-exchange membrane interface, is not sufficiently clear. Current-voltage characteristics (CVCs) of a Neosepta AMX anion-exchange membrane in 0.02 M NaH2PO4, NaH2Cit, KHT, and NaCl solutions are recorded. The effective transport number of H⁺ ion in the depleted boundary solution is measured to quantify the rate of the H⁺ ion generation. While the “water splitting” mechanism takes place in any kind of electrolytes, the “acid dissociation” mechanism is characteristic only for weak polybasic acids and other ampholytes, the electric charge of which depends on the pH. With that, the first mechanism occurs only at overlimiting currents, and the second occurs both in the underlimiting and overlimiting current modes. The dissociation of acid species at an AEM interface is caused by Donnan exclusion of protons as co-ions from the membrane. The rate of this reaction increases in the order KHT < NaH2PO4<NaH2Cit. This order is determined by the values of equilibrium acid dissociation constants pKai for the first and second ionization steps as well as by the dissociation rate constants for acid anions. The contribution of each of the H⁺/OH⁻ ion generation mechanisms depends on the current density, more precisely, on the interval between the 1st, 2nd or 3rd limiting currents, recorded on the I–V characteristic. At relatively low currents, the contribution of “water splitting” in the studied weakly acidic systems is insignificant. At i > 2.6 ilimLev, there is a competition between both mechanisms of H⁺ ion generation. The obtained results give new insight into the understanding of the kinetics of H⁺/OH⁻ ion generation and the impact of this process on the efficiency of electrodialysis of solutions containing polybasic acid species.
+
+View
+
+https://www.researchgate.net/publication/359189449_Two_mechanisms_of_HOH-_ion_generation_in_anion-exchange_membrane_systems_with_polybasic_acid_salt_solutions
+
+Show abstract
+
+A general Neural Particle Method for hydrodynamics modeling
+
+https://www.researchgate.net/publication/359017225_A_general_Neural_Particle_Method_for_hydrodynamics_modeling
+
+Article
+
+Apr 2022
+
+COMPUT METHOD APPL M
+
+ Jinshuai Bai
+
+https://www.researchgate.net/profile/Jinshuai-Bai
+
+ Ying Zhou
+
+https://www.researchgate.net/profile/Ying-Zhou-106
+
+ Yuwei Ma
+
+https://www.researchgate.net/profile/Yuwei-Ma-4
+
+Yuantong Gu
+
+https://www.researchgate.net/scientific-contributions/Yuantong-Gu-2068855086
+
+Neural Particle Method (NPM) is a newly proposed Physics-Informed Neural Network (PINN) based, truly meshfree method for hydrodynamics modeling. In the NPM, PINN is applied to globally approximate field variables, and the high-order Implicit Runge–Kutta (IRK) method is used to treat the time integration. The NPM can easily achieve incompressibility and deal with the free-surface problem. However, the NPM is currently limited to inviscid hydrodynamics problems and is computationally expensive. In this work, we developed a general NPM (gNPM) for viscous hydrodynamics modeling. In the gNPM, a single pressure is output as the predicted pressure field rather than the multiple pressures in the original NPM. Thus, the size of the neural network is greatly reduced, making the gNPM computationally more efficient. Besides, the spatial derivatives in the governing equations are calculated with respect to the current spatial coordinates rather than the predicted space. In this manner, the gNPM is more straightforward to be implemented. Furthermore, by considering the viscous term in the conservation of momentum, the gNPM can be applied for viscous hydrodynamics modeling. The effectiveness and robustness of the gNPM have been demonstrated through several hydrodynamics benchmark cases with different boundary conditions. We highlight that the proposed gNPM is able to cope with highly uneven particle distributions, while the traditional meshfree method can produce severe failure.
+
+View
+
+https://www.researchgate.net/publication/359017225_A_general_Neural_Particle_Method_for_hydrodynamics_modeling
+
+Show abstract
+
+Physics-informed deep learning for data-driven solutions of computational fluid dynamics
+
+https://www.researchgate.net/publication/358028153_Physics-informed_deep_learning_for_data-driven_solutions_of_computational_fluid_dynamics
+
+Article
+
+Jan 2022
+
+Solji Choi
+
+https://www.researchgate.net/scientific-contributions/Solji-Choi-2199792255
+
+ Ikhwan Jung
+
+https://www.researchgate.net/profile/Ikhwan-Jung
+
+Haeun Kim
+
+https://www.researchgate.net/scientific-contributions/Haeun-Kim-2212989092
+
+ Jong Min Lee
+
+https://www.researchgate.net/profile/Jong-Lee-52
+
+Computational fluid dynamics (CFD) is an essential tool for solving engineering problems that involve fluid dynamics. Especially in chemical engineering, fluid motion usually has extensive effects on system states, such as temperature and component concentration. However, due to the critical issue of long computational times for simulating CFD, application of CFD is limited for many real-time problems, such as real-time optimization and process control. In this study, we developed a surrogate model of a continuous stirred tank reactor (CSTR) with van de Vusse reaction using physics-informed neural network (PINN), which can train the governing equations of the system. We propose a PINN architecture that can train every governing equation which a chemical reactor system follows and can train a multi-reference frame system. Also, we investigated that PINN can resolve the problem of neural network that needs a large number of training data, is easily overfitted and cannot contain physical meaning. Furthermore, we modified the original PINN suggested by Raissi to solve the memory error and divergence problem with two methods: Mini-batch training and weighted loss function. We also suggest a similarity-based sampling strategy where the accuracy can be improved up to five times over random sampling. This work can provide a guideline for developing a high performance surrogate model of the chemical process.
+
+View
+
+https://www.researchgate.net/publication/358028153_Physics-informed_deep_learning_for_data-driven_solutions_of_computational_fluid_dynamics
+
+Show abstract
+
+Meta-MgNet: Meta Multigrid Networks for Solving Parameterized Partial Differential Equations
+
+https://www.researchgate.net/publication/357999979_Meta-MgNet_Meta_Multigrid_Networks_for_Solving_Parameterized_Partial_Differential_Equations
+
+Article
+
+Jan 2022
+
+J COMPUT PHYS
+
+Yuyan Chen
+
+https://www.researchgate.net/scientific-contributions/Yuyan-Chen-2167105034
+
+ Bin Dong
+
+https://www.researchgate.net/profile/Bin-Dong-23
+
+ Jinchao Xu
+
+https://www.researchgate.net/profile/Jinchao-Xu-2
+
+This paper studies numerical solutions for parameterized partial differential equations (PDEs) with deep learning. Parametrized PDEs arise in many important application areas, including design optimization, uncertainty analysis, optimal control, and inverse problems. The computational cost associated with these applications using traditional numerical schemes can be exorbitant, especially when the parameters fall into a particular range, and the underlying PDE model is required to be solved with high accuracy using a fine spatial-temporal mesh. Recently, solving PDEs with deep learning has become an emerging field in scientific computing. Existing works demonstrate great potentials of the deep learning-based approach in speeding up numerical solutions of various types of PDEs. However, there is still limited research on the deep learning approach for solving parameterized PDEs. If we directly apply existing deep supervised learning models to solving parameterized PDEs, the models need to be constantly fine-tuned or retrained when the parameters of the PDE change. This limits the applicability and utility of these models in practice. To resolve this issue, we propose a meta-learning based method that can efficiently solve parameterized PDEs with a wide range of parameters without retraining. Our key observation is to regard training a solver for the parameterized PDE with a given set of parameters as a learning task. Then, training a solver for the parameterized PDEs with varied parameters can be viewed as a multi-task learning problem, to which meta-learning is one of the most effective approaches. This new perspective can be applied to many existing PDE solvers to make them suitable for solving parameterized PDEs. As an example, we adopt the Multigrid Network (MgNet) [21] as the base solver. To achieve multi-task learning, we introduce a new hypernetwork, called Meta-NN, in MgNet and refer to the entire network as the Meta-MgNet. Meta-NN takes the differential operators and the right-hand-side of the underlying parameterized PDEs as inputs and generates appropriate smoothers for MgNet, which are essential ingredients for multigrid methods and can significantly affect the convergent speed. The proposed Meta-NN is carefully designed so that Meta-MgNet has guaranteed convergence for Poisson's equation. Finally, extensive numerical experiments demonstrate that Meta-MgNet is more efficient in solving parameterized PDEs than the MG methods and MgNet trained by supervised learning.
+
+View
+
+https://www.researchgate.net/publication/357999979_Meta-MgNet_Meta_Multigrid_Networks_for_Solving_Parameterized_Partial_Differential_Equations
+
+Show abstract
+
+Refinement of Brine for Lithium Extraction using Ion Concentration Polarization
+
+https://www.researchgate.net/publication/356023845_Refinement_of_Brine_for_Lithium_Extraction_using_Ion_Concentration_Polarization
+
+Article
+
+Nov 2021
+
+SEP PURIF TECHNOL
+
+Alex Christopher Barksdale
+
+https://www.researchgate.net/scientific-contributions/Alex-Christopher-Barksdale-2206615566
+
+Junghyo Yoon
+
+https://www.researchgate.net/scientific-contributions/Junghyo-Yoon-2206569700
+
+ Hyukjin J. Kwon
+
+https://www.researchgate.net/profile/Hyukjin-Kwon-8
+
+Jongyoon Han
+
+https://www.researchgate.net/scientific-contributions/Jongyoon-Han-38527995
+
+The surge of electric vehicle deployment in response to the global climate crisis has marked tremendous increase in the demand of lithium-ion batteries. Lithium brine has gained much attention as a critical primary lithium resource over mineral sources due to cheaper processing and greater abundance. However, reducing the Mg²⁺:Li⁺ ratio of brines remains a challenge, as magnesium contaminates lithium precipitates. Series of solar evaporation ponds are traditionally employed to concentrate Li and reduce Mg content to tackle this issue, but typically required 1-2 years to process a batch of feed solution, and require much land area disturbing the local environment near brine resources. Here we present a continuous, scalable ion separation technique for reducing the Mg²⁺:Li⁺ ratio of brine as an alternative to solar evaporation. The device utilizes ion concentration polarization to induce a locally amplified electric field. The amplified electric field separates ions into streams according to electrophoretic mobility. We demonstrate reduction of a 25:1 Mg²⁺:Li⁺ lab brine to below 10:1 Mg²⁺:Li⁺, which is an acceptable lithium production purity by industrial standards. Reduction of a 60:1 Mg²⁺:Li⁺ to ∼10:1 and a 100:1 Mg²⁺:Li⁺ brine to approximately 20:1 are also demonstrated. The system suffers a high specific energy consumption (8.804 kWh/g Li⁺ for 25:1 reduction to 9:1) due to low lithium recovery (9.9%) and microfluidic system size. However, an economic scaling analysis shows that this work is within an order of magnitude of the state-of-the-art separation technologies in the literature after various process parameters are normalized. Ultimately, this work demonstrates a potential novel process for continuous lithium extraction from brines, which is a generalizable ion separation tool utilizing differences in electrophoretic mobility.
+
+View
+
+https://www.researchgate.net/publication/356023845_Refinement_of_Brine_for_Lithium_Extraction_using_Ion_Concentration_Polarization
+
+Show abstract
+
+Novel electroosmotic micromixer configuration based on ion‐selective microsphere
+
+https://www.researchgate.net/publication/354795186_Novel_electroosmotic_micromixer_configuration_based_on_ion-selective_microsphere
+
+Article
+
+Sep 2021
+
+ Jarrod Schiffbauer
+
+https://www.researchgate.net/profile/Jarrod-Schiffbauer
+
+ Georgy Ganchenko
+
+https://www.researchgate.net/profile/Georgy-Ganchenko-2
+
+ N. V. Nikitin
+
+https://www.researchgate.net/profile/N-Nikitin
+
+Evgeny A. Demekhin
+
+https://www.researchgate.net/scientific-contributions/Evgeny-A-Demekhin-2180451114
+
+In this paper, a micromixer of a new configuration is presented, consisting of a spherical chamber in the center of which an ion‐selective microsphere is placed. Stratified liquid is introduced through the chamber via inlet and outlet holes under an external pressure gradient and an external electric field is directed in such a way that the resulting electroosmotic flow is directed against the pressure driven flow, resulting in mixing. The investigation is carried out by direct numerical simulation on a super‐computer. Optimal values of the applied electric field are determined to yield strong mixing. Above this optimal mixing regime, a number of instabilities and bifurcations are realized, which qualitatively coincide with those occurring during electrophoresis of an ion‐selective microgranule. As shown by our calculation, these instabilities do not lead to an enhanced mixing. The resulting electroconvective vortices remain confined near the surface of the microgranule, and do not sufficiently perturb the stratified fluid flow further from the granule. On the other hand, another type of instability caused by the salt concentration gradient can generate sufficiently strong oscillations to enhance mixing. However this only occurs when the external electric field is sufficiently high that the electroosmotic flow is comparable to the pressure driven flow. This ultimately leads to creation of reverse flows of the liquid and cessation of the device operation. Thus, it was shown that the best mixing occurs in the absence of electrokinetic instability. Based on the data obtained, it is possible to select the necessary geometric characteristics of the micromixer to achieve the optimal mixing mode for a given set of liquids, which may be ten times more effective than passive mixers at the same flowrates. A comparison with the experimental data of the other authors confirms the effectiveness of this device and its other capabilities. Furthermore, the basic device design can be operated in other modes, e.g., an electrohydrodynamic pump, a streaming current generator, or even a micro‐reactor, depending on the system parameters and choice of an ion‐selective granule. This article is protected by copyright. All rights reserved
+
+View
+
+https://www.researchgate.net/publication/354795186_Novel_electroosmotic_micromixer_configuration_based_on_ion-selective_microsphere
+
+Show abstract
+
+Uncovering turbulent plasma dynamics via deep learning from partial observations
+
+https://www.researchgate.net/publication/353892895_Uncovering_turbulent_plasma_dynamics_via_deep_learning_from_partial_observations
+
+Article
+
+Aug 2021
+
+PRE
+
+ Abhilash Mathews
+
+https://www.researchgate.net/profile/Abhilash_Mathews
+
+Manaure Francisquez
+
+https://www.researchgate.net/scientific-contributions/Manaure-Francisquez-2125265376
+
+J. W. Hughes
+
+https://www.researchgate.net/scientific-contributions/J-W-Hughes-18443195
+
+ Barrett Rogers
+
+https://www.researchgate.net/profile/Barrett-Rogers-2
+
+One of the most intensely studied aspects of magnetic confinement fusion is edge plasma turbulence which is critical to reactor performance and operation. Drift-reduced Braginskii two-fluid theory has for decades been widely applied to model boundary plasmas with varying success. Towards better understanding edge turbulence in both theory and experiment, we demonstrate that a physics-informed deep learning framework constrained by partial differential equations can accurately learn turbulent fields consistent with the two-fluid theory from partial observations of electron pressure which is not otherwise possible using conventional equilibrium models. This technique presents a paradigm for the advanced design of plasma diagnostics and validation of magnetized plasma turbulence theories in challenging thermonuclear environments.
+
+View
+
+https://www.researchgate.net/publication/353892895_Uncovering_turbulent_plasma_dynamics_via_deep_learning_from_partial_observations
+
+Show abstract
+
+Simulation of multi-species flow and heat transfer using physics-informed neural networks
+
+https://www.researchgate.net/publication/353651197_Simulation_of_multi-species_flow_and_heat_transfer_using_physics-informed_neural_networks
+
+Article
+
+Aug 2021
+
+ Ryno Laubscher
+
+https://www.researchgate.net/profile/Ryno-Laubscher-2
+
+In the present work, single- and segregated-network physics-informed neural network (PINN) architectures are applied to predict momentum, species, and temperature distributions of a dry air humidification problem in a simple two-dimensional (2D) rectangular domain. The created PINN models account for variable fluid properties, species- and heat-diffusion, and convection. Both the mentioned PINN architectures were trained using different hyperparameter settings, such as network width and depth, to find the best-performing configuration. It is shown that the segregated-network PINN approach results in on-average 62% lower losses when compared to the single-network PINN architecture for the given problem. Furthermore, the single-network variant struggled to ensure species mass conservation in different areas of the computational domain, whereas the segregated approach successfully maintained species conservation. The PINN predicted velocity, temperature, and species profiles for a given set of boundary conditions were compared to results generated using OpenFOAM software. Both the single- and segregated-network PINN models produced accurate results for temperature and velocity profiles, with average percentage difference relative to the computational fluid dynamics results of approximately 7.5% for velocity and 8% for temperature. The mean error percentages for the species mass fractions are 9% for the single-network model and 1.5% for the segregated-network approach. To showcase the applicability of PINNs for surrogate modeling of multi-species problems, a parameterized version of the segregated-network PINN is trained that could produce results for different water vapor inlet velocities. The normalized mean absolute percentage errors, relative to the OpenFOAM results, across three predicted cases for velocity and temperature are approximately 7.5% and 2.4% for water vapor mass fraction.
+
+View
+
+https://www.researchgate.net/publication/353651197_Simulation_of_multi-species_flow_and_heat_transfer_using_physics-informed_neural_networks
+
+Show abstract
+
+Extreme Theory of Functional Connections: A Fast Physics-Informed Neural Network Method for Solving Ordinary and Partial Differential Equations
+
+https://www.researchgate.net/publication/352217407_Extreme_Theory_of_Functional_Connections_A_Fast_Physics-Informed_Neural_Network_Method_for_Solving_Ordinary_and_Partial_Differential_Equations
+
+Article
+
+Jun 2021
+
+NEUROCOMPUTING
+
+ Enrico Schiassi
+
+https://www.researchgate.net/profile/Enrico-Schiassi
+
+ Roberto Furfaro
+
+https://www.researchgate.net/profile/Roberto-Furfaro
+
+ Carl Leake
+
+https://www.researchgate.net/profile/Carl-Leake
+
+ D. Mortari
+
+https://www.researchgate.net/profile/D-Mortari
+
+We present a novel, accurate, fast, and robust physics-informed neural network method for solving problems involving differential equations (DEs), called Extreme Theory of Functional Connections, or X-TFC. The proposed method is a synergy of two recently developed frameworks for solving problems involving DEs: the Theory of Functional Connections TFC, and the Physics-Informed Neural Networks PINN. Here, the latent solution of the DEs is approximated by a TFC constrained expression that employs a Neural Network (NN) as the free-function. The TFC approximated solution form always analytically satisfies the constraints of the DE, while maintaining a NN with unconstrained parameters . X-TFC uses a single-layer NN trained via the Extreme Learning Machine (ELM) algorithm. This choice is based on the approximating properties of the ELM algorithm that reduces the training of the network to a simple least-squares, because the only trainable parameters are the output weights. The proposed methodology was tested over a wide range of problems including the approximation of solutions to linear and nonlinear ordinary DEs (ODEs), systems of ODEs, and partial DEs (PDEs). The results show that, for most of the problems considered, X-TFC achieves high accuracy with low computational time, even for large scale PDEs, without suffering the curse of dimensionality.
+
+View
+
+https://www.researchgate.net/publication/352217407_Extreme_Theory_of_Functional_Connections_A_Fast_Physics-Informed_Neural_Network_Method_for_Solving_Ordinary_and_Partial_Differential_Equations
+
+Show abstract
+
+DeepM&Mnet: Inferring the electroconvection multiphysics fields based on operator approximation by neural networks
+
+https://www.researchgate.net/publication/350317258_DeepMMnet_Inferring_the_electroconvection_multiphysics_fields_based_on_operator_approximation_by_neural_networks
+
+Article
+
+Mar 2021
+
+ Zhicheng Wang
+
+https://www.researchgate.net/profile/Zhicheng-Wang-6
+
+ Lu Lu
+
+https://www.researchgate.net/profile/Lu-Lu-51
+
+ Shengze Cai
+
+https://www.researchgate.net/profile/Shengze-Cai
+
+ George Em Karniadakis
+
+https://www.researchgate.net/profile/George-Karniadakis
+
+Electroconvection is a multiphysics problem involving coupling of the flow field with the electric field as well as the cation and anion concentration fields. Here, we use electroconvection as a benchmark problem to put forward a new data assimilation framework, the DeepM&Mnet, for simulating multiphysics and multiscale problems at speeds much faster than standard numerical methods using pre-trained neural networks (NNs). We first pre-train DeepONets that can predict independently each field, given general inputs from the rest of the fields of the coupled system. DeepONets can approximate nonlinear operators and are composed of two sub-networks, a branch net for the input fields and a trunk net for the locations of the output field. DeepONets, which are extremely fast, are used as building blocks in the DeepM&Mnet and form constraints for the multiphysics solution along with some sparse available measurements of any of the fields. We demonstrate the new methodology and document the accuracy of each individual DeepONet, and subsequently we present two different DeepM&Mnet architectures that infer accurately and efficiently 2D electroconvection fields for unseen electric potentials. The DeepM&Mnet framework is general and can be applied for building any complex multiphysics and multiscale models based on very few measurements using pre-trained DeepONets in a “plug-and-play" mode.
+
+View
+
+https://www.researchgate.net/publication/350317258_DeepMMnet_Inferring_the_electroconvection_multiphysics_fields_based_on_operator_approximation_by_neural_networks
+
+Show abstract
+
+The effects of pH and ionic strength on the volume phase transition temperature of thermo-responsive anionic copolymer gels
+
+https://www.researchgate.net/publication/350045839_The_effects_of_pH_and_ionic_strength_on_the_volume_phase_transition_temperature_of_thermo-responsive_anionic_copolymer_gels
+
+Article
+
+Mar 2021
+
+POLYMER
+
+Aleksey D. Drozdov
+
+https://www.researchgate.net/scientific-contributions/Aleksey-D-Drozdov-9624048
+
+ Jesper De Claville Christiansen
+
+https://www.researchgate.net/profile/Jesper-Christiansen-2
+
+Applications of thermo-responsive (TR) gels in biomedicine and biotechnoligy require modulation of their volume phase transition temperature Tc in a rather wide interval. This is conventionally performed by incorporation of hydrophilic or hydrophobic monomers in the feed. The most pronounced growth of Tc occurs when TR monomers are copolymerized with anionic, cationic or ampholyte monomers. The effect of ionic monomers on the volume phase transition temperature of copolymer gels is traditionally analyzed in equilibrium swelling tests in distilled water. To evaluate how pH and ionic strength of aqueous solutions affect Tc, a constitutive model is developed. Adjustable parameters are found by fitting observations on poly(N-isopropylacrylamide-co-acrylic acid) and poly(N-isopropylacrylamide-co-itaconic acid) macro- and microgels below and above their critical temperature. The ability of the model to predict Tc is validated by comparison of experimental data with results of simulation. An analytical formula is derived that describes the influence molar fraction of comonomers, pH and molar fraction of salt in aqueous solutions on the volume phase transition temperature of TR anionic gels.
+
+View
+
+https://www.researchgate.net/publication/350045839_The_effects_of_pH_and_ionic_strength_on_the_volume_phase_transition_temperature_of_thermo-responsive_anionic_copolymer_gels
+
+Show abstract
+
+Cached Gaussian elimination for simulating Stokes flow on domains with repetitive geometry
+
+https://www.researchgate.net/publication/346605313_Cached_Gaussian_elimination_for_simulating_Stokes_flow_on_domains_with_repetitive_geometry
+
+Article
+
+Dec 2020
+
+ Ounan Ding
+
+https://www.researchgate.net/profile/Ounan-Ding
+
+Craig Schroeder
+
+https://www.researchgate.net/scientific-contributions/Craig-Schroeder-2170256667
+
+Microfluidic “lab on a chip” devices are small devices that operate on small length scales on small volumes of fluid; these devices find uses in a variety of applications. Designs for microfluidic chips are generally composed of standardized and often repeated components connected by long, thin, straight fluid channels. We propose a novel meshing algorithm for use in simulating the linear incompressible stationary Stokes equations on geometry with these features, which produces sparse symmetric positive indefinite systems with many repeated matrix blocks. We use a discretization that is formally third order accurate for velocity and second order accurate for pressure in the L∞ norm. We also propose a novel linear system solver based on cyclic reduction, reordered sparse Gaussian elimination, and operation caching that is designed to efficiently solve systems with repeated matrix blocks. We demonstrate that the resulting fluid solver is significantly faster than existing methods up to resolutions of a few million degrees of freedom for microfluidic problems.
+
+View
+
+https://www.researchgate.net/publication/346605313_Cached_Gaussian_elimination_for_simulating_Stokes_flow_on_domains_with_repetitive_geometry
+
+Show abstract
+
+NSFnets (Navier-Stokes flow nets): Physics-informed neural networks for the incompressible Navier-Stokes equations
+
+https://www.researchgate.net/publication/346504954_NSFnets_Navier-Stokes_flow_nets_Physics-informed_neural_networks_for_the_incompressible_Navier-Stokes_equations
+
+Article
+
+Nov 2020
+
+Xiaowei Jin
+
+https://www.researchgate.net/scientific-contributions/Xiaowei-Jin-2143313936
+
+ Shengze Cai
+
+https://www.researchgate.net/profile/Shengze-Cai
+
+ Hui Li
+
+https://www.researchgate.net/profile/Hui-Li-115
+
+ George Em Karniadakis
+
+https://www.researchgate.net/profile/George-Karniadakis
+
+In the last 50 years there has been a tremendous progress in solving numerically the Navier-Stokes equations using finite differences, finite elements, spectral, and even meshless methods. Yet, in many real cases, we still cannot incorporate seamlessly (multi-fidelity) data into existing algorithms, and for industrial-complexity applications the mesh generation is time consuming and still an art. Moreover, solving ill-posed problems (e.g., lacking boundary conditions) or inverse problems is often prohibitively expensive and requires different formulations and new computer codes. Here, we employ physics-informed neural networks (PINNs), encoding the governing equations directly into the deep neural network via automatic differentiation, to overcome some of the aforementioned limitations for simulating incompressible laminar and turbulent flows. We develop the Navier-Stokes flow nets (NSFnets) by considering two different mathematical formulations of the Navier-Stokes equations: the velocity-pressure (VP) formulation and the vorticity-velocity (VV) formulation. Since this is a new approach, we first select some standard benchmark problems to assess the accuracy, convergence rate, computational cost and flexibility of NSFnets; analytical solutions and direct numerical simulation (DNS) databases provide proper initial and boundary conditions for the NSFnet simulations. The spatial and temporal coordinates are the inputs of the NSFnets, while the instantaneous velocity and pressure fields are the outputs for the VP-NSFnet, and the instantaneous velocity and vorticity fields are the outputs for the VV-NSFnet. This is unsupervised learning and, hence, no labeled data are required beyond boundary and initial conditions and the fluid properties. The residuals of the VP or VV governing equations, together with the initial and boundary conditions, are embedded into the loss function of the NSFnets. No data is provided for the pressure to the VP-NSFnet, which is a hidden state and is obtained via the incompressibility constraint without extra computational cost. Unlike the traditional numerical methods, NSFnets inherit the properties of neural networks (NNs), hence the total error is composed of the approximation, the optimization, and the generalization errors. Here, we empirically attempt to quantify these errors by varying the sampling (“residual”) points, the iterative solvers, and the size of the NN architecture. For the laminar flow solutions, we show that both the VP and the VV formulations are comparable in accuracy but their best performance corresponds to different NN architectures. The initial convergence rate is fast but the error eventually saturates to a plateau due to the dominance of the optimization error. For the turbulent channel flow, we show that NSFnets can sustain turbulence at Reτ∼1,000, but due to expensive training we only consider part of the channel domain and enforce velocity boundary conditions on the subdomain boundaries provided by the DNS data base. We also perform a systematic study on the weights used in the loss function for balancing the data and physics components, and investigate a new way of computing the weights dynamically to accelerate training and enhance accuracy. In the last part, we demonstrate how NSFnets should be used in practice, namely for ill-posed problems with incomplete or noisy boundary conditions as well as for inverse problems. We obtain reasonably accurate solutions for such cases as well without the need to change the NSFnets and at the same computational cost as in the forward well-posed problems. We also present a simple example of transfer learning that will aid in accelerating the training of NSFnets for different parameter settings.
+
+View
+
+https://www.researchgate.net/publication/346504954_NSFnets_Navier-Stokes_flow_nets_Physics-informed_neural_networks_for_the_incompressible_Navier-Stokes_equations
+
+Show abstract
+
+Show more
+
+Recommended publications
+
+Discover more about: 
+
+Neural Networks
+
+https://www.researchgate.net/topic/Neural-Networks
+
+Sponsored content
+
+2020 Global Business Challenge - $125,000 in cash prizes
+
+https://www.researchgate.net/institution/Queensland_University_of_Technology/post/5f195a9ba63794209f6914e3_2020_Global_Business_Challenge-125_000_in_cash_prizes
+
+July 2020
+
+The 2020 GBC is the pre-eminent global innovation competition for postgraduate students and is run jointly by three of Australian's leading universities, The University of Queensland, Queensland University of Technology and Griffith University and is supported by the Queensland and Australian...
+
+View post
+
+https://www.researchgate.net/institution/Queensland_University_of_Technology/post/5f195a9ba63794209f6914e3_2020_Global_Business_Challenge-125_000_in_cash_prizes
+
+Article
+
+Full-text available
+
+Retracted: Coupled Attention Framework of Convolutional Neural Network Based on Computer Intelligenc...
+
+https://www.researchgate.net/publication/376510147_Retracted_Coupled_Attention_Framework_of_Convolutional_Neural_Network_Based_on_Computer_Intelligence
+
+December 2023
+
+· Computational Intelligence and Neuroscience
+
+Computational Intelligence and Neuroscience
+
+https://www.researchgate.net/scientific-contributions/Computational-Intelligence-and-Neuroscience-2223751689
+
+View full-text
+
+https://www.researchgate.net/publication/376510147_Retracted_Coupled_Attention_Framework_of_Convolutional_Neural_Network_Based_on_Computer_Intelligence
+
+Conference Paper
+
+Full-text available
+
+Z-Transforms and its Inference on Partially Observable Point Processes
+
+https://www.researchgate.net/publication/326202343_Z-Transforms_and_its_Inference_on_Partially_Observable_Point_Processes
+
+July 2018
+
+ 
+
+Young Lee
+
+https://www.researchgate.net/profile/Young-Lee-110
+
+Thanh Vinh Vo
+
+https://www.researchgate.net/scientific-contributions/Thanh-Vinh-Vo-2144625704
+
+ 
+
+Kar Wai Lim
+
+https://www.researchgate.net/profile/Kar-Wai-Lim-2
+
+ 
+
+Harold Soh
+
+https://www.researchgate.net/profile/Harold-Soh
+
+This paper proposes an inference framework based on the Z-transform for a specific class of non-homogeneous point processes. This framework gives an alternative method to maximum likelihood estimation which is omnipresent in the field of point processes. The inference strategy is to couple or match the theoretical Z-transform with its empirical counterpart from the observed samples. This 
+
+... [Show full abstract]
+
+https://www.researchgate.net/
+
+ procedure fully characterizes the distribution of the point process since there exists a one-to-one mapping with the Z-transform. We illustrate how to use the methodology to estimate a point process whose intensity is driven by a general neural network.
+
+View full-text
+
+https://www.researchgate.net/publication/326202343_Z-Transforms_and_its_Inference_on_Partially_Observable_Point_Processes
+
+Conference Paper
+
+Full-text available
+
+Landmark Detection and Tracking in Ultrasound using a CNN-RNN Framework
+
+https://www.researchgate.net/publication/316441246_Landmark_Detection_and_Tracking_in_Ultrasound_using_a_CNN-RNN_Framework
+
+December 2016
+
+Akshay Rangamani
+
+https://www.researchgate.net/scientific-contributions/Akshay-Rangamani-2096710791
+
+ 
+
+Tao Xiong
+
+https://www.researchgate.net/profile/Tao-Xiong-6
+
+ 
+
+Arun Nair
+
+https://www.researchgate.net/profile/Arun-Nair-31
+
+[...]
+
+ 
+
+Sang Chin
+
+https://www.researchgate.net/profile/Sang-Chin
+
+We present a novel framework for landmark detection and tracking in ultrasound data. Our method employs a convolutional neural network (CNN) encoder-decoder for landmark detection, coupled with a recurrent neural network (RNN) for encoding information from previous video frames of the object being tracked. We evaluated our method on the MICCAI CLUST 2015 De Luca u.a. (2015) challenge dataset, and 
+
+... [Show full abstract]
+
+https://www.researchgate.net/
+
+ have achieved promising results.
+
+View full-text
+
+https://www.researchgate.net/publication/316441246_Landmark_Detection_and_Tracking_in_Ultrasound_using_a_CNN-RNN_Framework
+
+Last Updated: 28 Mar 2026
+
+Looking for the full-text?
+
+You can request the full-text of this article directly from the authors on ResearchGate.
+
+Request full-text
+
+Already a member? 
+
+Log in
+
+https://www.researchgate.net/login
+
+ResearchGate iOS App Get it from the App Store now.
+
+https://www.researchgate.net/go.GetApp.html?_sg=uiTrl8IUMf4OqEb3NyeKViufiA-xsUiLAYpJSvDcx8sL0xMJibmhxL1ehDnvcbmVy2LqnrvTdfqW52EpGk7O8PvKBx6BMAcONBrlBIKec3I&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+Install
+
+https://www.researchgate.net/go.GetApp.html?_sg=uiTrl8IUMf4OqEb3NyeKViufiA-xsUiLAYpJSvDcx8sL0xMJibmhxL1ehDnvcbmVy2LqnrvTdfqW52EpGk7O8PvKBx6BMAcONBrlBIKec3I&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+Keep up with your stats and more
+
+https://www.researchgate.net/go.GetApp.html?_sg=uiTrl8IUMf4OqEb3NyeKViufiA-xsUiLAYpJSvDcx8sL0xMJibmhxL1ehDnvcbmVy2LqnrvTdfqW52EpGk7O8PvKBx6BMAcONBrlBIKec3I&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+Access scientific knowledge from anywhere
+
+https://www.researchgate.net/go.GetApp.html?_sg=uiTrl8IUMf4OqEb3NyeKViufiA-xsUiLAYpJSvDcx8sL0xMJibmhxL1ehDnvcbmVy2LqnrvTdfqW52EpGk7O8PvKBx6BMAcONBrlBIKec3I&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+or
+
+Discover by subject area
+
+https://www.researchgate.net/topics
+
+Recruit researchers
+
+https://www.researchgate.net/scientific-recruitment/?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=indextop
+
+Join for free
+
+https://www.researchgate.net/signup.SignUp.html?hdrsu=1&_sg%5B0%5D=3u5aT5ajbOU2ZCyRXqrxHMsJkmv5Bh5Vw9j-nm1HJAolmbZzWumF8-Le9LwUCzA_9zw3aW29vlM7fLmYUzlW46WpYnE
+
+Login
+
+https://www.researchgate.net/
+
+ Email 
+
+Tip:
+
+ Most researchers use their institutional email address as their ResearchGate login Password 
+
+Forgot password?
+
+https://www.researchgate.net/application.LostPassword.html
+
+ 
+
+[x] yes Keep me logged in Log in or 
+
+Continue with Google
+
+https://www.researchgate.net/connector/google
+
+ Welcome back! Please log in. Email · Hint 
+
+Tip:
+
+ Most researchers use their institutional email address as their ResearchGate login Password 
+
+Forgot password?
+
+https://www.researchgate.net/application.LostPassword.html
+
+ 
+
+[x] yes Keep me logged in Log in or 
+
+Continue with Google
+
+https://www.researchgate.net/connector/google
+
+ No account? 
+
+Sign up
+
+https://www.researchgate.net/signup.SignUp.html?hdrsu=1&_sg%5B0%5D=3u5aT5ajbOU2ZCyRXqrxHMsJkmv5Bh5Vw9j-nm1HJAolmbZzWumF8-Le9LwUCzA_9zw3aW29vlM7fLmYUzlW46WpYnE
+
+Company
+
+About us
+
+https://www.researchgate.net/about
+
+News
+
+https://www.researchgate.net/blog
+
+Careers
+
+https://www.researchgate.net/careers
+
+Support
+
+Help Center
+
+https://help.researchgate.net/?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=new-footer&utm_content=helpcenter
+
+Business solutions
+
+Advertising
+
+https://www.researchgate.net/marketing-solutions?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=new-footer&utm_content=advertising
+
+Recruiting
+
+https://www.researchgate.net/scientific-recruitment?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=new-footer&utm_content=recruiting
+
+© 2008-2026 ResearchGate GmbH. All rights reserved.
+
+Terms
+
+https://www.researchgate.net/terms-of-service
+
+Privacy
+
+https://www.researchgate.net/privacy-policy
+
+Copyright
+
+https://www.researchgate.net/ip-policy
+
+Imprint
+
+https://www.researchgate.net/imprint
+
+Consent preferences
+
+javascript:Didomi.preferences.show()

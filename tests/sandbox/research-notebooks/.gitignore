@@ -1,0 +1,16 @@
+# NotebookLM Export - Large Binaries
+# These can be regenerated/re-downloaded via nlm CLI
+
+# Audio files (large)
+**/*.mp3
+
+# Slide decks (large)
+**/*.pptx
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

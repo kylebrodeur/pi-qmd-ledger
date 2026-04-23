@@ -1,0 +1,975 @@
+Artificial Intelligence for Machine Tools - CECIMO
+
+ 
+
+ 
+
+https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+
+Consent
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+Details
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+[#IABV2SETTINGS#]
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+About
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+This website uses cookies
+
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you've provided to them or that they've collected from your use of their services.
+
+[#GPC_BANNER_ICON#]
+
+[#GPC_TOAST_TEXT#]
+
+Consent Selection
+
+Necessary
+
+ 
+
+[x]
+
+Preferences
+
+ 
+
+[x]
+
+Statistics
+
+ 
+
+[x]
+
+Marketing
+
+ 
+
+[-]
+
+Show details
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+Details
+
+Necessary 12
+
+ 
+
+[x]  Necessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the website. The website cannot function properly without these cookies.
+
+Cookiebot 1
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+ 
+
+Learn more about this provider
+
+https://www.cookiebot.com/goto/privacy-policy/
+
+ 
+
+CookieConsent
+
+ Stores the user's cookie consent state for the current domain 
+
+Maximum Storage Duration
+
+: 1 year 
+
+Type
+
+: HTTP Cookie
+
+Google 6
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+ 
+
+Learn more about this provider
+
+https://business.safety.google/privacy/
+
+ Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness. 
+
+_GRECAPTCHA
+
+ This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website. 
+
+Maximum Storage Duration
+
+: 180 days 
+
+Type
+
+: HTTP Cookie 
+
+_grecaptcha
+
+ This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+rc::a
+
+ This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+rc::b
+
+ This cookie is used to distinguish between humans and bots. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTML Local Storage 
+
+rc::c
+
+ This cookie is used to distinguish between humans and bots. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTML Local Storage 
+
+rc::f
+
+ This cookie is used to distinguish between humans and bots. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage
+
+cdn-de-04.visual-paradigm.com peoryjeeon.de-04.visual-paradigm.com 2
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+ 
+
+JSESSIONID [x2]
+
+ Preserves users states across page requests. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie
+
+cdn-latest.visual-paradigm.com 1
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+ 
+
+persist:root
+
+ This cookie stores visitor credentials in an encrypted cookie in order to allow the visitor to stay logged in on reentry, if the visitor has accepted the 'stay logged in'-button. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage
+
+www.cecimo.eu 2
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+ 
+
+itsec-hb-login-GUID#
+
+ Set by WP Security Plugin to change the backend login URL for additional security. 
+
+Maximum Storage Duration
+
+: 1 day 
+
+Type
+
+: HTTP Cookie 
+
+wordpress_test_cookie
+
+ Used to check if the user's browser supports cookies. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie
+
+Preferences 0
+
+ 
+
+[x]  Preference cookies enable a website to remember information that changes the way the website behaves or looks, like your preferred language or the region that you are in. We do not use cookies of this type.
+
+Statistics 6
+
+ 
+
+[x]  Statistic cookies help website owners to understand how visitors interact with websites by collecting and reporting information anonymously.
+
+Google 5
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+ 
+
+Learn more about this provider
+
+https://business.safety.google/privacy/
+
+ Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness. 
+
+_ga [x2]
+
+ Registers a unique ID that is used to generate statistical data on how the visitor uses the website. 
+
+Maximum Storage Duration
+
+: 2 years 
+
+Type
+
+: HTTP Cookie 
+
+ga# [x2]
+
+ Used by Google Analytics to collect data on the number of times a user has visited the website as well as dates for the first and most recent visit. 
+
+Maximum Storage Duration
+
+: 2 years 
+
+Type
+
+: HTTP Cookie 
+
+_gid
+
+ Registers a unique ID that is used to generate statistical data on how the visitor uses the website. 
+
+Maximum Storage Duration
+
+: 1 day 
+
+Type
+
+: HTTP Cookie
+
+cdn-latest.visual-paradigm.com 1
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+ 
+
+cookiecookie
+
+ This cookie is used by the website's operator in context with multi-variate testing. This is a tool used to combine or change content on the website. This allows the website to find the best variation/edition of the site. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie
+
+Marketing 13
+
+ 
+
+[-]  Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third party advertisers.
+
+Google 1
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+ 
+
+Learn more about this provider
+
+https://business.safety.google/privacy/
+
+ Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness. 
+
+NID
+
+ Registers a unique ID that identifies a returning user's device. The ID is used for targeted ads. 
+
+Maximum Storage Duration
+
+: 6 months 
+
+Type
+
+: HTTP Cookie
+
+YouTube 12
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+ 
+
+Learn more about this provider
+
+https://business.safety.google/privacy/
+
+ 
+
+__Secure-ROLLOUT_TOKEN
+
+ Used to track user's interaction with embedded content. 
+
+Maximum Storage Duration
+
+: 180 days 
+
+Type
+
+: HTTP Cookie 
+
+__Secure-YEC
+
+ Stores the user's video player preferences using embedded YouTube video 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie 
+
+__Secure-YNID
+
+ Pending 
+
+Maximum Storage Duration
+
+: 180 days 
+
+Type
+
+: HTTP Cookie 
+
+LAST_RESULT_ENTRY_KEY
+
+ Used to track user's interaction with embedded content. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie 
+
+LogsDatabaseV2:V#||LogsRequestsStore
+
+ Used to track user's interaction with embedded content. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: IndexedDB 
+
+ServiceWorkerLogsDatabase#SWHealthLog
+
+ Necessary for the implementation and functionality of YouTube video-content on the website. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: IndexedDB 
+
+TESTCOOKIESENABLED
+
+ Used to track user's interaction with embedded content. 
+
+Maximum Storage Duration
+
+: 1 day 
+
+Type
+
+: HTTP Cookie 
+
+VISITOR_INFO1_LIVE
+
+ Tries to estimate the users' bandwidth on pages with integrated YouTube videos. 
+
+Maximum Storage Duration
+
+: 180 days 
+
+Type
+
+: HTTP Cookie 
+
+YSC
+
+ Registers a unique ID to keep statistics of what videos from YouTube the user has seen. 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie 
+
+yt-icons-last-purged
+
+ Necessary for the implementation and functionality of YouTube video-content on the website. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+ytidb::LAST_RESULT_ENTRY_KEY
+
+ Used to track user's interaction with embedded content. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: HTML Local Storage 
+
+YtIdbMeta#databases
+
+ Used to track user's interaction with embedded content. 
+
+Maximum Storage Duration
+
+: Persistent 
+
+Type
+
+: IndexedDB
+
+Unclassified 1 Unclassified cookies are cookies that we are in the process of classifying, together with the providers of individual cookies.
+
+visual-paradigm.com 1
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+ 
+
+VPSESSIONID
+
+ Pending 
+
+Maximum Storage Duration
+
+: Session 
+
+Type
+
+: HTTP Cookie
+
+Cross-domain consent[#BULK_CONSENT_DOMAINS_COUNT#]
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+ [#BULK_CONSENT_TITLE#]
+
+List of domains your consent applies to: [#BULK_CONSENT_DOMAINS#]
+
+Cookie declaration last updated on 3/27/26 by 
+
+Cookiebot
+
+https://www.cookiebot.com/
+
+[#IABV2_TITLE#]
+
+[#IABV2_BODY_INTRO#]
+
+[#IABV2_BODY_LEGITIMATE_INTEREST_INTRO#]
+
+[#IABV2_BODY_PREFERENCE_INTRO#]
+
+[#IABV2_LABEL_PURPOSES#]
+
+[#IABV2_BODY_PURPOSES_INTRO#]
+
+[#IABV2_BODY_PURPOSES#]
+
+[#IABV2_LABEL_FEATURES#]
+
+[#IABV2_BODY_FEATURES_INTRO#]
+
+[#IABV2_BODY_FEATURES#]
+
+[#IABV2_LABEL_PARTNERS#]
+
+[#IABV2_BODY_PARTNERS_INTRO#]
+
+[#IABV2_BODY_PARTNERS#]
+
+About
+
+Cookies are small text files that can be used by websites to make a user's experience more efficient.
+
+The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies we need your permission.
+
+This site uses different types of cookies. Some cookies are placed by third party services that appear on our pages.
+
+You can at any time change or withdraw your consent from the Cookie Declaration on our website.
+
+Learn more about who we are, how you can contact us and how we process personal data in our Privacy Policy.
+
+Please state your consent ID and date when you contact us regarding your consent.
+
+ 
+
+[-]
+
+Do not sell or share my personal information
+
+Allow all Customize
+
+Allow selection Deny
+
+About Us
+
+https://www.cecimo.eu/about-us/
+
+What We Do
+
+https://www.cecimo.eu/about-us/what-we-do/
+
+Our Members
+
+https://www.cecimo.eu/about-us/our-members/
+
+Organisation
+
+https://www.cecimo.eu/about-us/structure/
+
+Secretariat
+
+https://www.cecimo.eu/about-us/secretariat/
+
+Contact
+
+https://www.cecimo.eu/about-us/contact/
+
+Machine Tools
+
+https://www.cecimo.eu/machine-tools/
+
+Conventional
+
+https://www.cecimo.eu/machine-tools/subtractive/
+
+Additive
+
+https://www.cecimo.eu/machine-tools/additive/
+
+Economic Data
+
+https://www.cecimo.eu/economic-data/
+
+Data for the Sector
+
+https://www.cecimo.eu/economic-data/key-statistics/
+
+Economic and Statistical Toolbox
+
+https://www.cecimo.eu/economic-data/toolbox/
+
+Economic and Statistical Annual Report
+
+https://www.cecimo.eu/economic-and-statistical-annual-report/
+
+Additive Manufacturing
+
+https://www.cecimo.eu/additive-manufacturing/
+
+Policy
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+Sustainability
+
+https://www.cecimo.eu/policy/sustainability/
+
+Digital
+
+https://www.cecimo.eu/policy/digital-single-market/
+
+Competitiveness
+
+https://www.cecimo.eu/policy/competitiveness/
+
+Research & Innovation
+
+https://www.cecimo.eu/policy/reserach-innovation/
+
+Trade
+
+https://www.cecimo.eu/policy/trade/
+
+Skills
+
+https://www.cecimo.eu/policy/skills/
+
+EU projects
+
+https://www.cecimo.eu/eu-projects/
+
+Ongoing Projects
+
+https://www.cecimo.eu/eu-projects/#ongoing
+
+Past Projects
+
+https://www.cecimo.eu/eu-projects/#past
+
+EU Funding Guide
+
+https://www.cecimo.eu/eu-funding-guide/
+
+Events
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+Events Calendar
+
+https://www.cecimo.eu/events-calendar/
+
+EMO
+
+https://www.cecimo.eu/events/emo/
+
+Trade Fairs
+
+https://www.cecimo.eu/events/trade-fairs/
+
+Newsroom
+
+https://www.cecimo.eu/newsroom/
+
+News
+
+https://www.cecimo.eu/newsroom/news/
+
+Publications
+
+https://www.cecimo.eu/newsroom/publications/
+
+Magazine
+
+https://www.cecimo.eu/newsroom/magazine/
+
+MTI Awards
+
+https://www.cecimo.eu/?page_id=18239
+
+Members area
+
+https://extranet.cecimo.eu/
+
+Select Page
+
+About Us
+
+https://www.cecimo.eu/about-us/
+
+What We Do
+
+https://www.cecimo.eu/about-us/what-we-do/
+
+Our Members
+
+https://www.cecimo.eu/about-us/our-members/
+
+Organisation
+
+https://www.cecimo.eu/about-us/structure/
+
+Secretariat
+
+https://www.cecimo.eu/about-us/secretariat/
+
+Contact
+
+https://www.cecimo.eu/about-us/contact/
+
+Machine Tools
+
+https://www.cecimo.eu/machine-tools/
+
+Conventional
+
+https://www.cecimo.eu/machine-tools/subtractive/
+
+Additive
+
+https://www.cecimo.eu/machine-tools/additive/
+
+Economic Data
+
+https://www.cecimo.eu/economic-data/
+
+Data for the Sector
+
+https://www.cecimo.eu/economic-data/key-statistics/
+
+Economic and Statistical Toolbox
+
+https://www.cecimo.eu/economic-data/toolbox/
+
+Economic and Statistical Annual Report
+
+https://www.cecimo.eu/economic-and-statistical-annual-report/
+
+Additive Manufacturing
+
+https://www.cecimo.eu/additive-manufacturing/
+
+Policy
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+Sustainability
+
+https://www.cecimo.eu/policy/sustainability/
+
+Digital
+
+https://www.cecimo.eu/policy/digital-single-market/
+
+Competitiveness
+
+https://www.cecimo.eu/policy/competitiveness/
+
+Research & Innovation
+
+https://www.cecimo.eu/policy/reserach-innovation/
+
+Trade
+
+https://www.cecimo.eu/policy/trade/
+
+Skills
+
+https://www.cecimo.eu/policy/skills/
+
+EU projects
+
+https://www.cecimo.eu/eu-projects/
+
+Ongoing Projects
+
+https://www.cecimo.eu/eu-projects/#ongoing
+
+Past Projects
+
+https://www.cecimo.eu/eu-projects/#past
+
+EU Funding Guide
+
+https://www.cecimo.eu/eu-funding-guide/
+
+Events
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+Events Calendar
+
+https://www.cecimo.eu/events-calendar/
+
+EMO
+
+https://www.cecimo.eu/events/emo/
+
+Trade Fairs
+
+https://www.cecimo.eu/events/trade-fairs/
+
+Newsroom
+
+https://www.cecimo.eu/newsroom/
+
+News
+
+https://www.cecimo.eu/newsroom/news/
+
+Publications
+
+https://www.cecimo.eu/newsroom/publications/
+
+Magazine
+
+https://www.cecimo.eu/newsroom/magazine/
+
+MTI Awards
+
+https://www.cecimo.eu/?page_id=18239
+
+Members area
+
+https://extranet.cecimo.eu/
+
+Publications
+
+Artificial Intelligence for Machine Tools
+
+07 June 2023
+
+ 
+
+In recent years, 
+
+Artificial Intelligence (AI)
+
+ has shown the potential to impact the work and growth of many sectors. 
+
+Manufacturing
+
+ is one of those sectors that can potentially reap large benefits from the integration of AI in various domains, such as supply chain management,quality control, and predictive maintenance, which have brought significant improvements inefficiency and productivity. The future of AI could bring smart factories, that are highly automated and can adapt to changing production requirements.
+
+Machinery products using this technology are already available on the market and in service. Leveraging AI and machine learning can help manufacturers to improve operational efficiency, launch new products, customise product designs, and address challenges such as unexpected machinery failure or defective product delivery.
+
+The deployment of these solutions represents an opportunity to improve the competitiveness of the European Union. Nevertheless, the potential for the manufacturing industries to continue to reap these significant benefits will rely on a ** legislative framework** that allows manufacturers to further research, develop and test AI technologies in their production processes. It is fundamental for our sector that the proposed legislation will strategically support the European manufacturing industries in their deployment of AI to strengthen their competitiveness and innovative capabilities vis-à-vis the other largest economies.
+
+This paper explores the ** current status of AI in the EU**, its 
+
+impact
+
+ 
+
+on the machine tools sector
+
+, 
+
+standards development
+
+ for AI in manufacturing and 
+
+potential use cases
+
+ of this technology in the sector.
+
++READ THE FULL PAPER HERE+
+
+Back to publications
+
+hhttps://www.cecimo.eu/publications/
+
+©2021 Cecimo – Boulevard Brand Whitlock 165 – B – 1200 Brussels
+
+Tel: +32 2 502 70 90
+
+Terms of use
+
+https://www.cecimo.eu/terms-of-use
+
+ – 
+
+Cookies Policy
+
+https://www.cecimo.eu/cookies-policy
+
+ – 
+
+Privacy Policy
+
+https://www.cecimo.eu/privacy-policy
+
+twitter
+
+https://twitter.com/cecimo
+
+linkedin
+
+https://fr.linkedin.com/company/cecimo
+
+youtube
+
+https://www.youtube.com/user/cecimomachinetool/
+
+Facebook
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+X
+
+https://www.cecimo.eu/publications/artificial-intelligence-for-machine-tools/
+
+RSS
+
+https://www.cecimo.eu/feed/
+
+Designed by 
+
+Elegant Themes
+
+https://www.elegantthemes.com/
+
+ | Powered by 
+
+WordPress
+
+https://www.wordpress.org/

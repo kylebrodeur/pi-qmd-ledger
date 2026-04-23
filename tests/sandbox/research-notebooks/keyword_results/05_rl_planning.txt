@@ -1,0 +1,22 @@
+⭐ 854	Azure-Samples/serverless-chat-langchainjs	Build your own serverless AI Chat with Retrieval-Augmented-Generation using LangChain.js, TypeScript and Azure
+⭐ 7585	ggerganov/ggwave	Tiny data-over-sound library
+⭐ 531	agentscope-ai/OpenJudge	OpenJudge: A Unified Framework for Holistic Evaluation and Quality Rewards
+⭐ 5317	dotenvx/dotenvx	a secure dotenv–from the creator of `dotenv`
+⭐ 4929	argilla-io/argilla	Argilla is a collaboration tool for AI engineers and domain experts to build high-quality datasets
+⭐ 47451	makeplane/plane	🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.
+⭐ 38425	Fission-AI/OpenSpec	Spec-driven development (SDD) for AI coding assistants.
+⭐ 36098	ueberdosis/tiptap	The headless rich text editor framework for web artisans.
+⭐ 3527	neuraloperator/neuraloperator	Learning in infinite dimension with neural operators.
+⭐ 321	10up/safe-redirect-manager	A simple HTTP redirection plugin for WordPress.
+⭐ 3066	luspr/awesome-ml-courses	Awesome free machine learning and AI courses with video lectures.
+⭐ 284	apache/couchdb-docker	Semi-official Apache CouchDB Docker images
+⭐ 25672	dapr/dapr	Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration.
+⭐ 18340	OthmanAdi/planning-with-files	Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.
+⭐ 16656	microsoft/agent-lightning	The absolute trainer to light up AI agents.
+⭐ 12229	firebase/functions-samples	Collection of sample apps showcasing popular use cases using Cloud Functions for Firebase
+⭐ 10841	r-spacex/SpaceX-API	:rocket: Open Source REST API for SpaceX launch, rocket, core, capsule, starlink, launchpad, and landing pad data.
+⭐ 10790	simular-ai/Agent-S	Agent S: an open agentic framework that uses computers like a human
+⭐ 10790	simular-ai/Agent-S	Agent S: an open agentic framework that uses computers like a human
+⭐ 10691	thedevs-network/kutt	Free Modern URL Shortener.
+⭐ 10691	thedevs-network/kutt	Free Modern URL Shortener.
+⭐ 10691	thedevs-network/kutt	Free Modern URL Shortener.

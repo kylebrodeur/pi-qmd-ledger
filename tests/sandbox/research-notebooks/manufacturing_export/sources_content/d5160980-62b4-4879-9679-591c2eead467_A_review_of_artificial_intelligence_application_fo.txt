@@ -1,0 +1,4791 @@
+Skip to main content
+
+Advertisement
+
+Log in
+
+A review of artificial intelligence application for machining surface quality prediction: from key factors to model development
+
+Open access
+
+ Published:  10 February 2025  
+
+Volume 37 , pages 775–798, ( 2026 ) 
+
+Cite this article
+
+ You have full access to this 
+
+open access
+
+https://www.springernature.com/gp/open-science/about/the-fundamentals-of-open-access-and-open-research
+
+ article
+
+Download PDF  
+
+https://www.springernature.com/gp/open-science/about/the-fundamentals-of-open-access-and-open-research
+
+Save article  
+
+https://www.springernature.com/gp/open-science/about/the-fundamentals-of-open-access-and-open-research
+
+View saved research  
+
+https://www.springernature.com/gp/open-science/about/the-fundamentals-of-open-access-and-open-research
+
+Journal of Intelligent Manufacturing  
+
+https://www.springernature.com/gp/open-science/about/the-fundamentals-of-open-access-and-open-research
+
+ Aims and scope 
+
+https://www.springernature.com/gp/open-science/about/the-fundamentals-of-open-access-and-open-research
+
+ Submit manuscript 
+
+https://www.springernature.com/gp/open-science/about/the-fundamentals-of-open-access-and-open-research
+
+ A review of artificial intelligence application for machining surface quality prediction: from key factors to model development 
+
+Download PDF  
+
+https://link.springer.com/content/pdf/10.1007/s10845-025-02571-y.pdf
+
+Jeong Hoon Ko
+
+https://link.springer.com/content/pdf/10.1007/s10845-025-02571-y.pdf
+
+1
+
+https://link.springer.com/content/pdf/10.1007/s10845-025-02571-y.pdf
+
+ & 
+
+Chen Yin
+
+https://link.springer.com/content/pdf/10.1007/s10845-025-02571-y.pdf
+
+ORCID:  orcid.org/0000-0003-1723-7728
+
+https://link.springer.com/content/pdf/10.1007/s10845-025-02571-y.pdf
+
+2
+
+https://link.springer.com/content/pdf/10.1007/s10845-025-02571-y.pdf
+
+9259  Accesses
+
+29  Citations
+
+Explore all metrics 
+
+https://link.springer.com/content/pdf/10.1007/s10845-025-02571-y.pdf
+
+Abstract
+
+This article presents a comprehensive review of the state-of-the-art advancements in applying artificial intelligence (AI) techniques, especially machine learning and deep learning models, to forecast surface quality in computer numerical control (CNC) machining. Surface quality is influenced by a wide range of factors, which makes its prediction a complex and significant challenge. The factors affecting surface quality are reviewed and categorized into two key elements—tool center positioning errors and the interaction between the tool edge and workpiece materials. As highlighted in recent research of less than five years, the factors are systematically organized into the key elements and presented in tabulated form. Then, particular emphasis is placed on how recent AI techniques have incorporated these factors, addressing the capability of machine learning and deep learning methods to handle the complexity and variability inherent in machining surface quality prediction (MSQP). Moreover, further review is conducted to highlight how advanced AI techniques, particularly transfer learning techniques, have enabled accurate and adaptive MSQP despite data scarcity conditions due to costly experiments and diverse machining conditions. By comprehensively reviewing recent studies from the perspective of the analysis results of key elements affecting surface quality and the inherent characteristics of data-driven AI techniques, this paper identifies the strengths and limitations of various machine learning and deep learning approaches applied in MSQP. Based on the insights into the state of the art, future research directions are discussed for improving prediction accuracy, computational efficiency, and real-time monitoring in the domain.
+
+Similar content being viewed by others
+
+Towards AI driven surface roughness evaluation in manufacturing: a prospective study 
+
+https://link.springer.com/content/pdf/10.1007/s10845-025-02571-y.pdf
+
+Article   Open access   03 October 2024  
+
+Assessment of milling condition by image processing of the produced surfaces 
+
+https://link.springer.com/content/pdf/10.1007/s10845-025-02571-y.pdf
+
+Article   Open access   02 December 2022  
+
+Machine Learning and Artificial Intelligence Supported Machining: A Review and Insights for Future Research 
+
+https://link.springer.com/content/pdf/10.1007/s10845-025-02571-y.pdf
+
+Article   22 October 2024  
+
+Explore related subjects
+
+Discover the latest articles, books and news in related subjects, suggested using machine learning.  
+
+Machine Learning
+
+https://link.springer.com/content/pdf/10.1007/s10845-025-02571-y.pdf
+
+Machines, Tools, Processes
+
+https://link.springer.com/content/pdf/10.1007/s10845-025-02571-y.pdf
+
+Machining
+
+https://link.springer.com/content/pdf/10.1007/s10845-025-02571-y.pdf
+
+Skills
+
+https://link.springer.com/content/pdf/10.1007/s10845-025-02571-y.pdf
+
+Surface Chemistry
+
+https://link.springer.com/content/pdf/10.1007/s10845-025-02571-y.pdf
+
+Artificial Intelligence
+
+https://link.springer.com/content/pdf/10.1007/s10845-025-02571-y.pdf
+
+Deep Learning Applications in Intelligent Systems
+
+https://link.springer.com/content/pdf/10.1007/s10845-025-02571-y.pdf
+
+Introduction
+
+The surface quality of machined components is critical in determining their performance, reliability, and sustainability. High-quality surfaces characterized by minimal surface roughness and form errors are essential for minimizing operational wear (Benardos & Vosniakos, 
+
+2003
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR13
+
+), extending component life, and ensuring aesthetic standards, particularly in precision engineering industries, including die and mold (Liu et al., 
+
+2022
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR85
+
+; Zhao et al., 
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR165
+
+), aerospace (Hue et al., 
+
+2024
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR54
+
+), and biomedical devices (Bose et al., 
+
+2018
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR15
+
+).
+
+The surface quality is typically quantified by measuring the deviations from the nominal surface (Benardos & Vosniakos, 
+
+2003
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR13
+
+; “DIN 4760” 1982; Iso, 
+
+1997
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR55
+
+; Lu, 
+
+2008
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR88
+
+). For example, form errors are often expressed with first and second-order deviation waves, while roughness is described by superimposed deviations from third-order and below. Commonly used roughness parameters include  \({\text{R}}_{a}\)  (average roughness) and  \({\text{R}}_{z}\)  (mean peak-to-valley height). Extensive research has been conducted on predicting and controlling surface quality across various manufacturing processes, such as polishing processes (Xu et al., 
+
+2012
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR145
+
+), grinding processes (Huaian et al., 
+
+2020
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR51
+
+), laser-aided processes (Ai et al., 
+
+2024a
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR4
+
+, 
+
+2024b
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR5
+
+, 
+
+2024c
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR6
+
+, and machining processes (Jiang et al., 
+
+2014
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR58
+
+). This article focuses on Computer Numerical Control (CNC) machining processes, as machining is a critical and foundational process in manufacturing. It is often essential for achieving precise dimensional shaping and fine surface quality control, especially as a finishing step following other manufacturing processes. In machining surface quality prediction (MSQP), traditional methods often rely on post-process inspections, which are time-consuming and may reduce production efficiency. These approaches typically involve manual measurement of surface roughness and visual inspection of surface defects, limiting their suitability for online monitoring and adaptive quality control (Li et al., 
+
+2022c
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR80
+
+; Tercan & Meisen, 
+
+2022
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR123
+
+). Additionally, they cannot provide real-time insights during the machining process, failing to prevent quality degradation before it occurs. Such limitations hinder traditional MSQP methods from modern manufacturing environments that require high efficiency and precision. In recent decades, advancements in sensing technology and computer science have enabled the collection of various monitoring signals during machining processes (Yin et al., 
+
+2021a
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR157
+
+). Artificial intelligence (AI) has demonstrated transformative potential in various fields, particularly the manufacturing industry (Yin et al., 
+
+2021b
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR159
+
+). AI-driven MSQP methods leverage real-time analysis of vast sensor data, overcoming the drawbacks of traditional MSQP methods by automating feature extraction, enabling big data analytics, and delivering online predictions. For instance, machine learning models can uncover complex relationships between machining parameters and surface quality without relying on expert knowledge (Nouhi & Pour, 
+
+2021
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR97
+
+). Deep learning models are particularly effective in processing high-dimensional, time-series monitoring signals, providing faster and more accurate surface quality assessments compared to conventional methods (Wang et al., 
+
+2023a
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR133
+
+). These advancements position AI as the new standard in MSQP, offering excellent precision, efficiency, and adaptability for high-quality surface prediction in modern manufacturing.
+
+Due to the significant importance of the MSQP in practical machining, some representative and high-quality review papers have also been presented in the last decades, which systematically summarise and discuss the technologies and applications of the MSQP from different perspectives. For instance, Yang et al. (
+
+2024
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR148
+
+) gave a comprehensive review and comparative analysis of AI methods utilized for surface roughness prediction in machining, while machine learning, image processing, and deep learning were introduced and discussed. Sarıkaya et al. (
+
+2021
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR111
+
+) presented a review of machined surface integrity from a tool wear aspect in superalloy machining. Wang et al., (
+
+2021c
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR132
+
+) reviewed the advancements in high-speed metal cutting with a focus on the material removal mechanism and machined surface integrity. Khorasani et al. (
+
+2012
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR64
+
+) analyzed and summarized the effects of machining parameters on surface roughness. These review articles presented the research advances in MSQP and offered future research directions that are of great relevance to industry and academia. However, there are several limitations:
+
+(1)  
+
+Existing reviews on MSQP have addressed the topic from a single perspective, focusing either on the introduction of AI techniques or the analysis of partial factors affecting the surface qualities. As a result, there is a lack of systematic reviews on MSQP on how the prediction methodologies considered all the interlinked factors relevant to the surface generation mechanism and how the AI methodologies are constructed to effectively handle each factor. Consequently, these reviews may fall short of offering a comprehensive overview and in-depth guidance for the effective application of AI with the integration of the comprehensive factors in MSQP.
+
+(2)  
+
+Furthermore, the issue of data scarcity has not been adequately considered in previous reviews. The application of AI requires a considerable amount of data to consider a number of potential combinations of different toolings, materials, cutting conditions, machines, environments, and so on in CNC machining. Since collecting data on machining processes is often time-consuming and expensive, and each machining condition is unique, creating a diverse dataset that represents all potential variations is particularly challenging. Thus, data scarcity remains a ubiquitous issue in real-world machining environments.
+
+To fill these gaps, this paper begins by reviewing the key factors that influence surface quality in CNC machining and evaluates the latest advancements over the past five years. Building on this analysis, this paper then focuses on how recent AI techniques have integrated these factors into MSQP, examining the ability of machine learning and deep learning methods to overcome the complexity and variability inherent in MSQP. Finally, this paper highlights how advanced AI techniques have facilitated accurate and adaptive MSQP under conditions of data scarcity. The main contributions of this paper are summarized as follows:
+
+(1)  
+
+An in-depth review of the critical factors influencing surface quality in material removal processes is presented. Two fundamental aspects—tool center position errors and the interaction between the tool edge and workpiece material—are examined in detail, as they play a crucial role in determining surface quality. Each factor affecting these components is analyzed, accompanied by a concise overview of how recent research has addressed these challenges. The factors and corresponding references from the last five years are systematically summarized in a table, offering a clear synthesis of the latest advancements in this field.
+
+(2)  
+
+Based on the analysis of key factors affecting surface quality, a comprehensive review of AI techniques, particularly machine learning and deep learning methods, is then provided by examining how they incorporate these factors. Specifically, this paper categorizes AI-driven MSQP approaches into three groups according to how model inputs are distilled from key factors: MSQP using machining parameters, MSQP using sensor signals, and MSQP using hybrid information.
+
+(3)  
+
+From the perspective of the data-driven nature of AI techniques, this paper also addresses the data scarcity problem in applying AI methods to MSQP. Transfer learning (TL), which stands out as an advanced AI technique and promising solution for addressing data scarcity, is thoroughly reviewed. The common TL techniques and their applications in surface roughness and chatter prediction are presented in detail, filling a gap that previous reviews have not addressed.
+
+The structure of this review is: Chapter 
+
+Two key elements and multiple factors affecting the surface quality
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Sec2
+
+ reviews the critical factors influencing surface quality in material removal processes, while the corresponding references from the last five years are systematically summarized. In line with the principles of surface quality generation, Chapter 
+
+AI approaches incorporating key factors in MSQP
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Sec8
+
+ reviews the machine learning and deep learning methodologies applied to predicting and monitoring surface quality in machining. This section examines recent advancements in machine learning and their impact on enhancing prediction accuracy. Chapter 
+
+Advanced AI approaches considering data scarcity in MSQP
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Sec8
+
+ summarises the methodology and application of TL in tackling the data scarcity problem in MSQP. Finally, Chapter 
+
+Conclusion
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Sec18
+
+ concludes this paper by discussing future research directions necessary to advance the state of the art. A summary of recent trends in surface quality prediction is presented, highlighting areas where further research and development are required.
+
+Two key elements and multiple factors affecting the surface quality
+
+Two key elements affecting surface quality
+
+Cutting theories, encompassing both cutting mechanics and dynamics, have significantly advanced methods for predicting surface quality, including form errors and surface roughness. Machining dynamic models have evolved from mechanistic force models to more complex frameworks that incorporate structural responses and process damping (Altintas et al., 
+
+2020
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR9
+
+; Feng & Liu, 
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR40
+
+). Surface form error, including cusp errors, was simulated using tool center trajectories based on tool static deflection and runout by early researchers, and the more accurate motion of the cutter center has been modeled with consideration of dynamic responses of machining systems (Zhuo et al., 
+
+2021
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR70
+
+; Li et al., 
+
+2018
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR81
+
+; Liu et al., 
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR86
+
+; Yuan et al., 
+
+2024
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR160
+
+).
+
+For instance, in the case of end milling, as shown in Fig. 
+
+1
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Fig1
+
+(a), ((x
+
+c,
+
+ y
+
+c
+
+), (x
+
+cm,
+
+ y
+
+cm
+
+)) are present and previous center position and ((x
+
+e,
+
+ y
+
+e
+
+), (x
+
+em,
+
+ y
+
+em
+
+)) are present and previous edge element location according to the cutting edge location angles(
+
+ϕ
+
+e,
+
+ϕ
+
+em
+
+)). Researchers have accounted for variations in the tool center (x
+
+c
+
+, y
+
+c
+
+) to compute the dynamic uncut chip thickness (h). The uncut chip thickness, determined by the previous and present cutting-edge positions ((x
+
+e
+
+, y
+
+e
+
+), (x
+
+em
+
+, y
+
+em
+
+)) at the specific aligned cutting edge location angles (ϕ
+
+e
+
+, ϕ
+
+em
+
+) produces the cutting forces. Then, these forces, in turn, influence the tool center position through transfer functions, thereby updating the dynamic uncut chip thickness. This continuous interaction is formulated into time or frequency domain equations.
+
+Fig. 1
+
+Full size image
+
+Wavy surface generated during the tool’s dynamic motion. 
+
+a
+
+ Tool center variation. 
+
+b
+
+ Interaction between tool flank and wavy surface
+
+By superimposing the leftover tool edge locations, the surface topography can be constructed as earlier studies proposed. The resulting machined surface often exhibits a wavy pattern due to the vibration of the cutting edge, as shown in Fig. 
+
+1
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Fig1
+
+(b). To mitigate severe wavy marks, such as chatter, it is essential to consider the machining stability via the machining dynamic model. As a result, the deviation of the tool center is the first key element, as it directly influences the dynamic uncut chip thickness, force generation, and stability, leading to the variation of the surface quality.
+
+In addition to deviations in the tool center position relative to the nominal position, the interaction between the tool edge and workpiece material is considered the other key element affecting the surface quality. Those interactions have been studied in the context of the plowing process, with some researchers incorporating minimum chip thickness and elastic recovery into surface quality or profile prediction models. As the plowing action involves the tool cross-edge radiuses and flank geometries, the cutting edge geometric effects have been investigated by researchers in surface quality generations (Bassett et al., 
+
+2012
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR11
+
+; Denkena & Biermann, 
+
+2014
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR33
+
+). Figure 
+
+2
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Fig2
+
+ presents examples of cutting edge geometry preparation and various cross edge radii affecting sharpness, which influences the plowing action (Bassett et al., 
+
+2012
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR11
+
+; Ko, 
+
+2015
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR71
+
+). Although detailed geometric characteristics, such as cross-edge radii, are typically not disclosed in standard tooling catalogs, these are essential to control the precise surface generation. Incorporation of the effect of the edge geometries, along with force equations, has played a key role in modeling the plowing effect and its reflection into process damping effect (Tunç & Budak, 
+
+2012
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR125
+
+).
+
+Fig. 2
+
+Full size image
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR125
+
+ cutting edge geometries (Bassett et al., 
+
+2012
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR11
+
+; Ko, 
+
+2015
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR71
+
+). 
+
+a
+
+ Cutting edge preparation effects. 
+
+b
+
+ Various radii of cross edges
+
+Figure 
+
+3
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Fig3
+
+ illustrates an example of tool wear, which alters the original geometry compared to a new tool. The tested tools have a diameter of 10 mm and 2 flutes. Figure 
+
+3
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Fig3
+
+(a) depicts the cross edge geometric variables, where  \({e}_{\text{r}}\)
+
+,
+
+\({\delta }_{\text{f}}\) ,  \({l}_{\text{f}}\)  refer to the cross edge radius, infinitesimal flank angles, and lengths, respectively. Figure 
+
+3
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Fig3
+
+(b) shows the fresh tool with  \({e}_{\text{r}}\) = 8.168 µm,  \({\delta }_{\text{f}1}\) = 7.391° and  \({l}_{\text{f}1}\) = 100.37 µm, Fig. 
+
+3
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Fig3
+
+(c) shows the worn tool with  \({e}_{\text{r}}\) = 32.690 µm,  \({\delta }_{\text{f}1}\) = -11.467°  \({l}_{\text{f}1}\) = 31.115 µm,  \({\delta }_{\text{f}2}\) = 1.583°,  \({l}_{\text{f}2}\) = 21.214 µm,  \({\delta }_{\text{f}3}\) = 4.076°,  \({l}_{\text{f}3}\) = 56.617 µm (Ko, 
+
+2015
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR71
+
+). The red lines in the Figs. 
+
+3
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Fig3
+
+(b, c) indicate the measured direction of the cross edge variable.
+
+Fig. 3
+
+Full size image
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Fig3
+
+Tool edge radius changes according to the tool wear. 
+
+a
+
+ Cross edge radius, infinitesimal flank lengths, and angles. 
+
+b
+
+ Fresh tool A. 
+
+c
+
+ Worn tool B
+
+Changes in the cross-edge radius and flank profile have been shown to significantly influence plowing action and the minimum chip thickness during cutting. Figure 
+
+4
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Fig4
+
+ highlights the impact of process damping on variation of surface quality, even when the cutting conditions, tool configuration, and machine structure remain the same. In the example, the sound signal reveals that the chatter frequency around 4.8 kHz has been dampened due to increased process damping from tool wear. The tool wear may either increase instability or enhance stability depending on variables such as tool edge geometries, spindle speed (operating frequencies), modifications to the tool’s dynamic structure, or differences in the workpiece material.
+
+Fig. 4
+
+Full size image
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Fig4
+
+Comparison of measured surface roughness and sound signals for milling SUS 304 with fresh tool and worn tool. 
+
+a
+
+ Ra = 2.501 µm for fresh tool A. 
+
+b
+
+ Ra = 0.281 µm for worn tool B. 
+
+c
+
+ Sound signal’s FFT for fresh tool A. 
+
+d
+
+ Sound signal’s FFT for worn tool B
+
+For a mathematical understanding of the tool center position and the cutting edge interaction with workpiece material, the simplified formation is derived. The center position of an end mill (
+
+X
+
+c
+
+, Y
+
+c
+
+, Z
+
+c
+
+) is time (
+
+t
+
+) and position (
+
+p
+
+) dependent, which can be described using the vibration displacement (
+
+x, y, z
+
+), feed rate ( \({feed}_{i,} i=x, y, z\) ), runout ( \({R}_{r}\) ) together with tool position errors ( \({E}_{x}, {E}_{y}, {E}_{z}\)
+
+)
+
+ as in Eq. (
+
+1
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Equ1
+
+),
+
+$$ \underbrace {{\left\{ \begin{gathered} X_{c} (t,p) \hfill \\ \begin{array}{*{20}c} {Y_{c} (t,p)} \\ {Z_{c} (t,p)} \\ \end{array} \hfill \\ \end{gathered} \right\}}}_{{Tool{\kern 1pt} \,Center}} = \underbrace {{\left[ \begin{gathered} feed_{x} \cdot t + R_{r} \cdot \sin \varphi \hfill \\ feed_{y} \cdot t + R_{r} \cdot \cos \varphi \hfill \\ feed_{z} \cdot t \hfill \\ \end{gathered} \right]}}_{{Tool{\kern 1pt} \;Rigid\,Body\,Motion}} + \underbrace {{\left\{ \begin{gathered} x(t) \hfill \\ y(t) \hfill \\ z(t) \hfill \\ \end{gathered} \right\}}}_{{Tool{\kern 1pt} {\kern 1pt} Vibration}} + \underbrace {{\left\{ \begin{gathered} E_{x} (t,p) \hfill \\ E_{y} (t,p) \hfill \\ E_{z} (t,p) \hfill \\ \end{gathered} \right\}}}_{{Tool\;Position\;{\kern 1pt} Error}} $$  (1) 
+
+The tool vibration  \((x, y, z)\)  is derived as Eq. (
+
+2
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Equ2
+
+),
+
+$$ \underbrace {{\left\{ \begin{gathered} x \hfill \\ y \hfill \\ z \hfill \\ \end{gathered} \right\}}}_{Tool\,\,Vibration} = \underbrace {{\left[ {\begin{array}{*{20}c} {\Phi_{xx} } & {\Phi_{xy} } & {\Phi_{xz} } \\ {\Phi_{yx} } & {\Phi_{yy} } & {\Phi_{yz} } \\ {\Phi_{zx} } & {\Phi_{zy} } & {\Phi_{zz} } \\ \end{array} } \right]}}_{Transfer\,Function}\underbrace {{\left\{ {\begin{array}{*{20}c} {F_{x} } \\ {F_{y} } \\ {F_{z} } \\ \end{array} } \right\}}}_{Cutting\,\,Forces} $$  (2) 
+
+where  \({\Phi }_{ab}\)  is a transfer function with the coordinate  \({a}_{b}\)  ( \(a\)  or  \(b\)  is  \(x, y, z\) ) denotes the displacement of the tool or workpiece center coordinate  \(a\)  when force  \(F\)  is applied in direction  \(b\) .
+
+The tool position error can be decomposed with Eq. (
+
+3
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Equ3
+
+),
+
+$$ \underbrace {{\left\{ \begin{gathered} E_{x} (t,p) \hfill \\ E_{y} (t,p) \hfill \\ E_{z} (t,p) \hfill \\ \end{gathered} \right\}}}_{Tool\;Position\;Error} = \underbrace {{\left\{ \begin{gathered} E_{kx} (t,p) \hfill \\ E_{ky} (t,p) \hfill \\ E_{kz} (t,p) \hfill \\ \end{gathered} \right\}}}_{Kinematic\;error} + \underbrace {{\left\{ \begin{gathered} E_{tx} (t,p) \hfill \\ E_{ty} (t,p) \hfill \\ E_{tz} (t,p) \hfill \\ \end{gathered} \right\}}}_{{Thermal\;deformation{\kern 1pt} {\kern 1pt} error}} + \underbrace {{\left\{ \begin{gathered} E_{px} (t,p) \hfill \\ E_{py} (t,p) \hfill \\ E_{pz} (t,p) \hfill \\ \end{gathered} \right\}}}_{{Component{\kern 1pt} wear}} + \underbrace {{\left\{ \begin{gathered} E_{cx} (t,p) \hfill \\ E_{cy} (t,p) \hfill \\ E_{cz} (t,p) \hfill \\ \end{gathered} \right\}}}_{{Contour{\kern 1pt} Control{\kern 1pt} {\kern 1pt} error}} $$  (3) 
+
+Typically, the tool center position errors caused by factors such as volumetric error including machine kinematic errors and thermal deformation, and control errors have been individually studied and often overlooked in a holistic formulation of machining processes. As the tool position errors directly affect the cutting edge position and the surface generation, it is now critical to integrate these factors into a unified formulation and control strategy. This becomes especially necessary as the demand for high-precision products has been more stringent than before. In addition to the tool center position deviation with the reference of nominal position, the plowing action of the cutting tool involving the tool cross edge radiuses and flank section interaction with the workpiece surface requires a further advanced model of cutting processes (Bassett et al., 
+
+2012
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR11
+
+; Ko, 
+
+2015
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR71
+
+).
+
+For example, the total forces during the cutting operation shown in Fig. 
+
+5
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Fig5
+
+ are the summation of cutting forces ( \({F}_{c}\) ) and plowing forces ( \({F}_{p}\) ) as defined in Eq. (
+
+4
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Equ4
+
+),
+
+$$ \underbrace {F(j)}_{Total\,Forces} = \underbrace {{\sum\limits_{i} {\sum\limits_{k} {dF_c} (i,j,k) } }}_{Cutting\,Forces} + \underbrace {{\sum\limits_{i} {\sum\limits_{k} {\sum\limits_{f} {dF_p} (i,j,k,f) } } }}_{Plowing\,Forces} $$  (4) 
+
+where  \(i, j, k\) , and  \(f\)  represent the segment indices for the number of flutes, rotation angle, axial disk, and flank section, respectively. The cutting force ( \({F}_{c}\) ) acting on the rake surface of a disk element is decomposed into two orthogonal components: the normal pressure force,  \({dF}_{f}(i, j, k)\) , and the frictional force,  \({dF_f}(i, j, k)\) . The plowing or indentation forces ( \({F}_{p}\) ) consisting of the normal force ( \({dP_n}\) ) and frictional force components ( \({dP_f}\) ) act on the tool nose segments as well as along the flank geometries. At the front of the rounded portion of the tool nose, a singular point delineates the transition between shearing and plowing. The profile of the nose cross edge radius and flank edges can be accurately measured using optical devices and then digitized into segmental angles ( \({\delta }_{c}\) ,  \({\delta }_{f}\) ) for use in the force equations (Ko, 
+
+2015
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR71
+
+).
+
+Fig. 5
+
+Full size image
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR71
+
+Force components at the cutting edge (Ko, 
+
+2015
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR71
+
+)
+
+As the forces in Eq. (
+
+4
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Equ4
+
+) are applied to Eq. (
+
+2
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Equ2
+
+), they influence tool center vibration, while the plowing forces may affect the process stability depending on specific process conditions, transfer function, workpiece material properties, and cutting edge geometries (Altintas et al., 
+
+2020
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR9
+
+; Cornelius et al., 
+
+2024
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR27
+
+; Feng & Liu, 
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR40
+
+; Sellmeier & Denkena, 
+
+2012
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR113
+
+; Tunç & Budak, 
+
+2012
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR125
+
+; Tyler & Schmitz, 
+
+2013
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR126
+
+). Consideration of precise cutting edge geometries and process damping has improved the prediction of the actual location of the cutting edge. Furthermore, researchers have advanced process prediction methodologies by incorporating the concept of the minimum chip thickness and considering elastic recovery into the process prediction (Grzesik, 
+
+1996
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR44
+
+; Karpat & Güven, 
+
+2024
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR61
+
+; Ning et al., 
+
+2024
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR96
+
+). The impact of cutting temperature and the effectiveness of coolant have also been studied for surface quality improvement (Gueli et al., 
+
+2021
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR45
+
+; Kishawy et al., 
+
+2005
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR68
+
+; Pereira Guimarães et al., 
+
+2022
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR100
+
+). So in this review article, the cutting edge interaction with work piece material is considered the second key element interlinked to the cutter center position.
+
+Factors affecting surface quality
+
+As industrial requirements for surface quality have been more stringent, it is essential to review and reflect all the factors affecting surface errors in advanced modeling and control strategies, particularly for high-end CNC machine tools. Chapter 
+
+Two key elements affecting surface quality
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Sec3
+
+ identified two key elements: tool center positioning errors and the interaction of the cutting edge with the workpiece material. Chapter 
+
+Factors affecting surface quality
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Sec4
+
+ explores the groups of factors influencing surface quality, categorized under these two key elements. Since each factor component is interconnected with others, the grouping does not imply independence between the groups. Instead, all the detailed factors interactively contribute to the final surface errors. Table 
+
+1
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Tab1
+
+ provides a consolidated overview of the factors and detailed components influencing surface qualities, categorized into tool position errors and the interaction between the tool cutting edge and workpiece materials. The references associated with the factors are limited to publications from the past five years.
+
+Table 1 Group of factors and detailed components under key elements affecting the surface quality
+
+Full size table
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Tab1
+
+Chapters 
+
+The machine tool volumetric errors
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Sec5
+
+ and 
+
+The contour control errors
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Sec6
+
+ review multiple factors influencing tool positioning errors and Chapter 
+
+Machining process effects and phenomena
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Sec7
+
+ discusses ones affecting surface quality resulting from the interaction between tool edge and workpiece material during machining.
+
+The machine tool volumetric errors
+
+The machine tool volumetric errors are caused by geometric and kinematic errors as well as other deformation effects, including thermal stress, mechanical load, wear, etc. (Okafor & Ertekin, 
+
+2000
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR98
+
+; Wu et al., 
+
+2022
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR141
+
+). The deformation errors impact the actual position of the tooling during the machining operation. In high-precision, multi-layer surface machining, time and position-dependent deformation is one of the critical reasons for generating localized deterioration in consecutive layers, leading to the variation of surface quality even under the same machining configuration.
+
+The three-axis machine tools are known to have twenty-one known geometric errors, while five-axis machines are subject to forty-one errors (Hou et al., 
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR48
+
+; Okafor & Ertekin, 
+
+2000
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR98
+
+). Researchers have studied models and methodologies for compensating geometric and kinematic errors for precision surface generation. In the past five years, new methodologies have emerged to advance kinematic error modeling. A novel geometric error measurement method was introduced by analyzing the decomposition of rigid body degrees of freedom within the framework of multi-body kinematics theory (Hou et al., 
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR48
+
+). Some researchers derived a homogeneous transformation matrix to simplify geometric error modeling in a three-axis machine tool by eliminating high-order error terms (Ding et al., 
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR36
+
+). Others proposed a sensitivity analysis method to separately identify linear and angular errors, accounting for geometric error variations based on machining positions in a five-axis machine tool (Tao et al., 
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR122
+
+). Extensive research has been conducted on machine tool thermal errors, with most studies applying finite element method (FEM) to predict spindle deformation (Dai et al. 2023a; Wang et al., 
+
+2023c
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR140
+
+; Yan et al., 
+
+2020
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR146
+
+). Recent advancements have introduced digital twins and integrated machine learning approaches to improve thermal modeling (Liao et al., 
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR82
+
+; Liu et al., 
+
+2024
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR87
+
+; Xiao & Fan, 
+
+2022
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR143
+
+; Yang et al., 
+
+2023b
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR152
+
+). For example, researchers developed a distance-guided domain adversarial network (DGDAN) that used data from spindle thermal models and partially collected data from the physical system, achieving thermal error predictions with less than 12% accuracy (Ma et al., 
+
+2024
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR89
+
+). Extensive studies have investigated ball-screw wear due to its significance as a key mechanical component. Recent research has utilized visual image processing techniques to predict wear (Schlagenhauf et al., 
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR112
+
+). Additionally, modal analysis has been employed by some researchers to assess how structural wear affects the dynamic modes of the feed drive system (Jia et al., 
+
+2019
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR57
+
+). Compared to the ball-screw-based feed drive systems, which are more susceptible to critical wear, linear motor-based systems have seen considerable advancements claiming the advantage of wear-less operations (Brandenburg et al., 
+
+2000
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR16
+
+; Ko et al., 
+
+2024
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR70
+
+).
+
+As discussed above, significant progress has been made in addressing individual error components, such as machine geometric errors, thermal errors, and wear, which collectively contribute to machine tool volumetric errors. While these individual error components have been extensively studied, further research is anticipated to focus on predicting the time- and position-dependent integrated behavior of all combined components during actual machining processes, which still remains unresolved. Artificial intelligence is expected to play a pivotal role in targeting the integrated volumetric error, dynamically varying with the specific time and position of machining operations.
+
+The contour control errors
+
+The field of CNC control research has seen significant advancements over the last few decades. The dramatic improvements in motor performance and control algorithms have paved the way for enhanced contour accuracy in multi-axis operations for free-form surfaces. However, CNC machine tools still may have motion errors, such as contouring and tracking errors, generated from kinematic errors, tool orientation errors, friction and cutting disturbance, motor performance, machine dynamics, ball-screw wear, and more (Altintas & Khoshdarregi, 
+
+2012
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR8
+
+; Chiu & Lee, 
+
+2017a
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR24
+
+; Jixiang Yang & Altintas, 
+
+2015
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR150
+
+). Recent research aimed at reducing contouring errors has focused on several strategies, including tracking-error constrained feed rate scheduling, inverse dynamics for vibration avoidance, and advanced contour error estimation algorithms have been done (Kim & Okwudire, 
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR65
+
+; Yang et al., 
+
+2020
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR151
+
+; Du et al., 
+
+2020
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR38
+
+). The application of digital twin technology has been explored to incorporate unknown factors in intelligent feed rate optimization, thereby limiting contour errors beyond those modeled in physics-based frameworks (H. Kim & Okwudire, 
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR65
+
+). Researchers developed a nearest point projection curvature circle iterative algorithm, for real-time estimation of multi-axis contouring errors (Yang et al., 
+
+2020
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR151
+
+). Others have simplified the complex free-form curve equations with a more straightforward helix equation for a contour error estimation method, which accurately estimates the deviation between the desired and actual tool paths in multi-axis machining (Du et al., 
+
+2020
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR38
+
+). Additionally, some researchers have developed an online, high-precision contour error estimation algorithm for five-axis CNC machining (Hu et al., 
+
+2020
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR50
+
+).
+
+Machine tool control has significantly advanced through the reduction of contour errors with the discussed state-of-the-art method. To maintain surface quality in complex curved surface machining, it is essential to integrate the status feedback of the machine tool into control algorithms, accounting for time- and position-dependent errors such as wear, thermal effects, and load deformation. While real-time detection of multiple error components using sensors is feasible, integrating all this information into the control loop may introduce delays in response time. By developing an advanced digital twin tower with multi-sensor feedback and correlating errors in advance, further innovation is still required to enhance contour error control for both the machine-related as well as machining process errors.
+
+Machining process effects and phenomena
+
+The remaining factors center on machining process effects and phenomena arising from the interaction between the tooling and workpiece materials under the specific process configuration, which directly influence surface quality during machining. The cutting edge interaction with workpiece material considers plastic deformation in the primary shear zone extending into the material near the machined surface, the post-machining elastic recovery of the surface, adhesive interactions between the chip and the rounded cutting edge, and the relative vibrations between the tool and the workpiece. While the fundamentals of the cutting forces and tooling behaviors, such as deflection, runout, and vibrations, have been considered in the past as covered in Chapter 
+
+Two key elements affecting surface quality
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Sec3
+
+, this chapter emphasizes the recent research trends published within the last five years.
+
+A significant portion of recent studies has focused on investigating tool wear and its impact on surface quality. Researchers have explored how wear mechanisms, such as abrasion, adhesion, and diffusion, affect the cutting edge and, consequently, the surface finish of the machined workpiece. Tool wear is a critical topic because the tool degradation impacts various factors such as cutting forces, deflection, vibration, process damping, residual stress, and elastic recovery. The tool wear effect has been extensively studied, particularly in the machining of difficult-to-machine materials such as Inconel 718 alloy, cemented carbide, Cr12MoV, CFRP, and titanium alloys (Akhavan Niaki & Mears, 
+
+2017
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR7
+
+; Ashworth et al., 
+
+2022
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR10
+
+; Khaliq et al., 
+
+2020a
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR62
+
+, 
+
+2020b
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR63
+
+; Rimpault et al., 
+
+2017
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR105
+
+; Tian et al., 
+
+2022
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR124
+
+; Wu et al., 
+
+2024
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR142
+
+; Zhang et al., 
+
+2024a
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR161
+
+). Special attention has been given to the relationships between tool wear, residual stress, and surface quality as these results directly affect the performance of the machined components. The complexity of monitoring and predicting tool wear has led to the progressive applications of artificial intelligence in recent research (Yin et al., 
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR158
+
+). Furthermore, advancements in coolant technologies including high-pressure coolant, cryogenic cooling, minimum quantity lubrication (MQL), and dry machining have been explored with regard to machining temperature and tool wear (Gueli et al., 
+
+2021
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR45
+
+; Mao et al., 
+
+2024
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR90
+
+; Pereira Guimarães et al., 
+
+2022
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR100
+
+; Sivarupan et al., 
+
+2024
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR118
+
+). The role of coolant in controlling surface quality, particularly its effect on tool wear, has been a focus of these investigations. 
+
+In addition, researchers have delved into minimum uncut chip thickness and elastic recovery in machining processes, as it alters the surface profile and affects plowing forces and process damping effect. The plowing and process damping have been investigated using FEM and experimental methodologies (Huang et al., 
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR52
+
+; Jing et al., 
+
+2020
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR59
+
+; Karpat, 
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR60
+
+; Ning et al., 
+
+2024
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR96
+
+; Zhang et al., 
+
+2021
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR163
+
+). The necessary coefficients for defining the separation point and plowing effects have been calibrated through experimental approaches, as unknown coefficients depend on the tool edge geometry, material, and process conditions.
+
+While the FEM technology has been advanced, its simulation time has become a bottleneck for incorporating errors into corrective control. Real-time thermal and load disturbance, dynamic variance, wear, and tear further complicate the prediction of cutting phenomenon and effect, especially given the existence of numerous cutting parameters. Therefore, artificial intelligence is increasingly required to correlate extensive data for the prediction and control of surface error arising from the cutting process.
+
+AI approaches incorporating key factors in MSQP
+
+As summarized in Table 
+
+1
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Tab1
+
+, tool center positioning errors and the interaction between the tool edge and workpiece materials are two key elements that affect the machining surface quality. The AI approaches, especially machine learning and deep learning methods, are basically nonlinear and powerful mapping functions to mine the connections between the inputs and outputs (Yin et al., 
+
+2021a
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR157
+
+). Therefore, most key factors, which can be directly and indirectly measured, quantified, and predicted, are refined as the model inputs for AI approaches in MSQP. As shown in Fig. 
+
+6
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Fig6
+
+, the distillation process from key factors to AI model inputs is summarized and illustrated. Various sensor signals can be collected to indirectly and directly measure the factors affecting tool center positioning errors. For instance, machine thermal deformation can be directly measured by a series of multi-point temperature sensors, while the spindle wear and feed drive ball wear can be indirectly reflected by the torque signals. Additionally, machining process effect-related variables such as tooling configuration, coolant effects, workpiece material properties, etc., can be easily quantified and directly utilized as the inputs for AI approaches. Moreover, an important machining process phenomenon between tool edge and workpiece, i.e. cutting tool wear, can be predicted by AI approaches and further employed as real-time information to construct hybrid model inputs in MSQP.
+
+Fig. 6
+
+Full size image
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Fig6
+
+Distillation from key factors to AI model inputs
+
+Therefore, in this chapter, three typical AI approaches incorporating key factors in MSQP are reviewed: MSQP with machining parameters, MSQP with sensor signals, and MSQP with hybrid information. Generally, the MSQP methods focus on analyzing sensor signals that indirectly reflect the resulting surface quality and machining parameters that directly influence the condition of the machining process. Vibration, cutting force, acoustic emission, power, and temperature are mostly monitored for MSQP. Signal processing techniques are optional for noise reduction or feature extraction (Lan & Fei, 
+
+2022
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR74
+
+). AI techniques, including machine learning and deep learning models, are required to extract relevant features and predict surface quality indicators. As for the machining parameters, cutting speed, feed rate, depth of cut, and the lubricating method are frequently considered parameters in MSQP, and their relationships to the machining quality are mapped by various AI techniques of machine learning and deep learning approaches. Moreover, hybrid information combining tool wear and expert knowledge are also explored for MSQP.
+
+MSQP with machining parameters
+
+Machining parameters such as cutting speed, feed rate, and depth of cut can directly affect the machining quality. Generally, larger feed rates and cutting depths can enhance machining efficiency but often result in a poorer surface finish. Additionally, a higher cutting speed may produce a smoother surface but significantly increase energy consumption. Therefore, numerous studies have employed AI techniques to determine the optimal combination of key machining parameters in the machining process (Chan et al., 
+
+2022
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR19
+
+; Kosarac et al., 
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR73
+
+; Ngerntong & Butdee, 
+
+2020
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR95
+
+).
+
+Benardos and Vosniakos (
+
+2002
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR12
+
+) used a feedforward artificial neural network (ANN) for the prediction of surface roughness in CNC face milling, while the factors considered in the experiment included the feed rate per tooth, the cutting speed, the depth of cut, the engagement and wear of the cutting tool, and the use of cutting fluid. Sahoo et al. (
+
+2015
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR108
+
+) achieved the surface roughness prediction via ANN, and the relation of cutting speed, feed, and depth of cut to the surface roughness was studied. Agrawal et al. (
+
+2015
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR3
+
+) leveraged the random forest (RF) algorithm to ascertain how feed, depth of cut, and spindle speed affect surface roughness and established a mathematical equation correlating these variables. Chiu and Lee (
+
+2017b
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR25
+
+) proposed a data-driven model of an adaptive neuro-fuzzy inference system for the prediction of milling accuracy and surface quality, while the model inputs are organized from CNC machining parameters. Nouhi and Pour (
+
+2021
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR97
+
+) utilized the false nearest neighbors algorithm for the surface roughness prediction. Correa et al. (
+
+2008
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR29
+
+) utilized Bayesian networks to predict surface roughness based on various machining parameters, such as cutting speed and feed rate.
+
+There are also some studies that investigate and compare the performance of various AI models in MQR. Adizue et al. (
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR2
+
+) conducted a comprehensive review of predictive quality modeling related to the ultra-precision hard-turning process. A systematic series of experiments was carried out, and the influence of cutting velocity, feed, and depth of cut on surface quality was studied. Various machine learning methods, including support vector machine (SVM), Gaussian process relation, adaptive neuro-fuzzy inference system, and ANN, are utilized for surface quality prediction and optimal parameter selection. Edwin et al. (2013) compared the performance of the radial basis function neural network and back propagation (BP) neural network in the machining quality prediction in the CNC turning process, and the results indicated more accurate predictions can be obtained by the radial basis function neural network. Serin et al. (
+
+2020
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR114
+
+) proposed a deep perceptron neural network to study the effects of cutting depth, feed, and cutting speed on surface roughness and cutting energy prediction in slot milling. Correa et al. (
+
+2009
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR28
+
+) compared Bayesian networks and ANNs for quality prediction in machining, and the results indicated that Bayesian networks exhibited several advantages over ANNs with good interpretation.
+
+MSQP with sensor signals
+
+Although cutting parameters have a straightforward influence on machined surface quality, prediction models based solely on these parameters cannot achieve online monitoring. Such models are limited to static pre-analysis and lack the ability to perceive dynamic changes in surface quality during the machining process. Consequently, most studies utilize various sensor signals, such as vibration, force, and acoustic emission signals, to develop AI models that enable real-time quality detection and monitoring capabilities (Kim et al., 
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR66
+
+).
+
+Feature engineering is an optional but effective procedure for the development of machining quality prediction models with sensor signals. Griffin et al. (
+
+2017
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR43
+
+) utilized the short-time Fourier transform to extract features from acoustic emission signals for surface roughness prediction in the micro-milling process, where classification and regression trees and neural networks are employed as prediction models. Du et al. (
+
+2021
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR37
+
+) utilized a multi perceptron neural network to predict the surface quality parameters of roughness, profile, and roundness, where the inputs are frequency features extracted from spindle vibrations and cutting forces. The results indicated that the machined workpiece quality can be accurately predicted by neural networks through the acquired sensor signals. Sangwan et al. (
+
+2015
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR110
+
+) utilized a feed-forward neural network to predict the machined surface roughness, while the model structure is optimized by a genetic algorithm. Sheng et al. (
+
+2024
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR116
+
+) proposed a multimodal data sensing and feature learning-based self-adaptive hybrid approach for machining quality prediction, where linear regression, RF, deep NN, and XGBoost were utilized as the prediction models. Abu-Mahfouz et al. (
+
+2017
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR1
+
+) utilized fast Fourier transforms and the wavelet packet analysis to build a feature set from vibration signals, and employed SVM for the surface roughness prediction in end milling. Comparative analysis with other machine learning models, including k-nearest neighbor (KNN), decision tree, and RF, indicated that SVM showed the best performance. Deep learning methods, which have superior nonlinear mapping ability, are also investigated for the prediction model construction (Wang et al., 
+
+2023a
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR135
+
+, 
+
+2023b
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR139
+
+, 
+
+2023c
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR140
+
+). Wang et al., (
+
+2021b
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR131
+
+) proposed a multitask learning method based on a deep belief network for the tool wear and surface quality predictions. Carrino et al. (
+
+2020
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR18
+
+) converted the acoustic emission signals into time–frequency images with FFT and employed the convolutional neural network (CNN) to recognize the machining quality with three levels, which are defined by the surface roughness.
+
+Another essential sensor signal in MSQP is the machined surface image (Palani & Natarajan, 
+
+2011
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR99
+
+; Rifai et al., 
+
+2019
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR104
+
+; Ross et al., 
+
+2024
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR106
+
+). Advanced imaging technologies such as optical and laser tools are utilized to capture high-resolution images of the machined surface. AI algorithms of machine learning and deep learning models are then utilized to analyze these images to detect surface defects, measure roughness, and assess texture. Chen et al. (
+
+2021
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR20
+
+) built a surface roughness prediction model with the BP neural network, where the strong correlation coefficients related to the surface roughness were constructed by extracting various feature parameters from clean images. Natarajan et al. (
+
+2012
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR94
+
+) developed a machine vision system for the measurement of end milled part surface, while the surface roughness was predicted from machining parameters and image features through an adaptive neuro-fuzzy inference system. Dutta et al. (
+
+2018
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR39
+
+) developed an SVM-based regression model to analyze the surface images of machined products, and the cutting tool condition was further obtained based on the prediction results. Besides the machine learning methods, deep learning models that have more powerful mapping and fitting abilities are utilized for MSQP with direct monitoring techniques. Nimel et al. (2023) compared the bidirectional long short term memory (LSTM) network, multilayer perceptron, and 2-D CNN for surface profile classification and correlation with process parameters, and the results indicated that 2-D CNN was significantly more accurate than other models in predicting surface profile. Bhandari and Park (
+
+2024
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR14
+
+) collected the workpiece surface images after milling and categorized them into four classes according to the surface roughness values, while a deep CNN was then developed for surface roughness class prediction. Yang et al. (
+
+2022
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR149
+
+) presented a surface roughness detection based on image inpainting and CNN, where the CNN model was established to detect the machined surface images.
+
+MSQP with hybrid information
+
+The rapid advancement of AI techniques has made it possible to develop comprehensive machining quality prediction models that incorporate both cutting parameters and sensor signals. Hence, many researchers have tried to build more robust and accurate prediction models using such hybrid information. Fertig et al. (
+
+2022
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR41
+
+) presented a comprehensive study on the prediction methods for machining quality prediction, where fifteen different geometrical elements and various sensor signals were utilized to evaluate the quality of machined workpiece. Six machine learning models, including SVM, k-nearest neighbors, multi-layer perceptron, etc., three ensemble algorithms like RF, AdaBoost classifier, etc., and four deep learning architectures are studied in their prediction experiments. The results indicated that KNN and RF reached the best performances, and four deep learning approaches provided slightly weaker but competitive performances since they didn’t need extra feature extraction work. Salgado et al. (
+
+2009
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR109
+
+) utilized least-squares SVMs to predict surface roughness in turning, while the cutting conditions, tool geometry parameters, and features extracted from the vibration signals were taken as the model inputs.
+
+In addition to the information provided by machining parameters and sensor signals, the inevitable tool wear and changes in tool states also have an indispensable influence on surface roughness during the machining process. Therefore, prediction models that consider the effects of constantly changing cutting tools have been developed to enhance accuracy and reliability. Li and Tian (
+
+2021
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR75
+
+) achieved an accurate prediction of surface roughness by utilizing static cutting parameters and dynamic tool wear values as the model inputs, while the prediction model is a least square SVM optimized by the particle swarm algorithm. Lin et al. (
+
+2020
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR84
+
+) utilized cutting parameters and vibration signals to predict the surface roughness in the milling process through the ANN. Xu et al. (
+
+2021
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR144
+
+) proposed an improved case-based reasoning method for the prediction of surface roughness and residual stress in high-speed milling, while the cutting parameters and tool wear status are severed as model inputs. Pimenov et al. (
+
+2018
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR101
+
+) utilized the internal drive power signals of a CNC machine tool to detect the tool wear, and the detected results were further considered in the prediction of surface roughness through RF.
+
+Given that machining is a process often rich with expert experience, some methods have attempted to encapsulate this domain knowledge into their models. This integration aims to develop more accurate and robust machining quality prediction models by leveraging the insights and expertise of seasoned professionals. Guo et al. (
+
+2024
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR46
+
+) utilized the BPNN to predict the tool wear value so that the tool geometry parameters were then calculated, where the surface quality was further estimated with the obtained parameters. To solve the small data problem in the brushing process, P. Wang, Zhang and et al., (
+
+2024a
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR161
+
+, 
+
+2024b
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR164
+
+) proposed a global–local multi-task spatial–temporal graph learning framework for the machining quality prediction in thin-walled part milling. The cutting force signals, as well as machining parameters, were utilized as the model inputs. The results indicated that the advanced deep learning model provided better prediction performance than conventional approaches.
+
+Discussions
+
+This chapter provides a comprehensive overview of three typical AI approaches for integrating key factors in MSQP, including: (1) MSQP with machining parameters, (2) MSQP with sensor signals, and (3) MSQP with hybrid information. Figure 
+
+7
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Fig7
+
+ illustrates a comparison of these three approaches and highlights their interrelations.
+
+Fig. 7
+
+Full size image
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Fig7
+
+Comparison of three typical AI approaches
+
+Based on the results of the literature review, MSQP with machining parameters often employs machine learning techniques, such as SVM, RF, ANN, and others, to directly map machining parameters to surface quality indicators (e.g. surface roughness). This approach is effective due to the typically small datasets associated with machining parameters, for which machine learning models are sufficiently robust to establish relationships with surface quality. The key advantage of this method is its ability to predict surface quality even for untested combinations of machining parameters, offering a valuable tool for optimizing parameter selection. However, since the parameters affecting surface quality are multifaceted and some are difficult to quantify, it is not feasible to capture all relevant parameters within the model. Consequently, the prediction performance may degrade if critical parameters are omitted.
+
+In contrast, sensor signals can provide more comprehensive information, as they directly reflect the effects of the machining parameters on the machining system. These signals, including vibrations, displacements, and torques, inherently contain detailed information about the machining process. As a result, MSQP methods using sensor signals can obtain more information than those relying solely on machining parameters, provided that high-quality features can be obtained from the collected signals. Thus, the results of the literature review indicate that the combination of feature engineering and machine learning techniques has emerged as a popular approach for predicting machining quality based on sensor data. Moreover, deep learning models, which excel in feature extraction, are increasingly being explored for this purpose. The main advantage of MSQP with sensor signals over the machining parameter-based approach lies in its capability for real-time, online monitoring of the machining process.
+
+On the other hand, advanced AI techniques facilitate the development of more robust and accurate MSQP models by integrating hybrid information, such as cutting parameters and sensor signals. Additionally, some studies incorporate factors like tool wear and tool state changes as supplementary inputs to further enhance the accuracy and reliability of these models. In general, MSQP models utilizing hybrid information inherit the strengths of both machining parameter-based and sensor signal-based approaches, whereas constructing effective models with hybrid information typically requires extensive domain knowledge. Since machining processes are often enriched with expert experience, leveraging such insights can lead to the design of more accurate and robust models. However, this approach may compromise the generalization ability of the resulting models. The findings from the literature review suggest that the development of a powerful and universal framework for MSQP model construction remains an ongoing challenge and warrants further research attention.
+
+Advanced AI approaches considering data scarcity in MSQP
+
+Although AI approaches have exhibited great potential in MSQP, developing reliable AI-driven MSQP models often requires large amounts of high-quality labeled data collected under various machining conditions. This requirement poses a significant challenge due to the inherent data scarcity in real-world machining environments. Data scarcity in MSQP arises from several factors. First, collecting data on machining processes is often time-consuming and costly. Second, each machining operation is unique due to the influence of material properties, cutting tool conditions, machine dynamics, and environmental factors, making it challenging to collect a diverse dataset that adequately represents all potential variations. Third, in many cases, the data collection process can lead to production downtime or disruptions, further complicating efforts to obtain a comprehensive dataset.
+
+In light of these challenges, TL, which stands out as an advanced AI technique, has emerged as a promising solution for addressing data scarcity in MSQP. As shown in Fig. 
+
+8
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Fig8
+
+, TL leverages knowledge gained from source tasks and applies it to new but related target tasks, significantly improving the efficiency of model training and expanding its application range (Wang, et al., 
+
+2024b
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR137
+
+). By enabling the use of pre-existing models trained on source tasks, TL can significantly reduce the amount of new data required for effective MSQP model development. Therefore, TL is particularly helpful in machining processes, where the working conditions frequently change, and collecting sufficient labeled data for every possible scenario is both costly and impractical. Given its significance, it is essential to provide a focused review on the application of TL in MSQP.
+
+Fig. 8
+
+Full size image
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR137
+
+The concept of transfer learning
+
+Typical TL techniques in MSQP
+
+According to how knowledge is transferred and adapted across the source and target domains, deep TL techniques can be categorized into four main categories: instance-based TL, feature-based TL, parameter-based TL, and adversarial-based TL (Chen et al., 
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR22
+
+; Li et al., 
+
+2022b
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR79
+
+; Zhuang et al., 
+
+2021
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR166
+
+). These categories typically reflect different aspects of TL, such as the type of knowledge being transferred (e.g. features, models) and the relationship between the source and target domains. Specifically,
+
+(1)  
+
+Instance-based TL. This method assumes that some instances in the source domain can be reused in the target domain with little or no modification. It focuses on selecting or reweighting instances from the source domain that are similar to the target domain.
+
+(2)  
+
+Feature-based TL. The goal is to find a common feature space in which the source and target domains become similar. This method either transforms the feature representations of the source and target domains to make them comparable or maps them to a new latent space.
+
+(3)  
+
+Parameter-based TL. This method transfers model parameters (such as weights in neural networks) from the source task to the target task, typically by fine-tuning the model on the target task. The assumption is that the source and target tasks share some common parameters.
+
+(4)  
+
+Adversarial-based TL. This method leverages adversarial training to reduce domain discrepancies. A common approach is to train a feature extractor in a way that the features are indistinguishable between the source and target domains. It uses adversarial training to align source and target domain distributions.
+
+These categories stand for the different techniques in which transfer learning can be applied to deep learning models. Table 
+
+2
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Tab2
+
+ gives a detailed summary of the merits, weaknesses, and typical methods/models for each category. Generally, the selection of which techniques to utilize depends on the nature of the prediction tasks and data distribution in the source and target domains. For example, domain discrepancy in machining processes is often exhibited by various working conditions and different machines. Li et al. (
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR76
+
+) proposed a utilized CNN to build a parameter-based TL method for machining quality prediction, and good prediction performance was achieved across different working conditions. Wang et al., (
+
+2023b
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR139
+
+) utilized instance-based TL techniques to establish an end-to-end TL framework for cross-machine product quality prediction. Wang et al., (
+
+2024a
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR136
+
+) proposed a multi-task dual domain adaptive deep TL method for the machining quality prediction of complex thin-walled parts, which utilized the adversarial-based TL technique. Numerical studies and CNC machining experiments were studied to demonstrate the outstanding ability of TL in cross-domain machining quality prediction. Kim et al. (
+
+2022
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR67
+
+) collected the machined images and developed a parameter-based TL method for MSQP, while the degradation of machining quality over time was taken into consideration.
+
+Table 2 Typical TL techniques
+
+Full size table
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR67
+
+TL-based surface roughness prediction
+
+Surface roughness is a crucial parameter for evaluating surface quality, as it affects the performance and reliability of machined workpieces by influencing factors such as friction, wear, lubrication, and fatigue life. Deng et al. (
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR32
+
+) proposed a parameter-based TL method based on the stack sparse autoencoder for online surface roughness classification under multiple milling conditions, achieving accurate surface roughness prediction with limited milling experiments. Liao et al. (
+
+2021
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR83
+
+) used the parameter-based TL technique to establish a machining process monitoring model, where pre-trained image classification models were retrained with images transformed from machining acoustic emission signals. Su et al. (
+
+2022
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR121
+
+) developed a surface roughness grade recognition model for milled workpieces based on deep TL, getting rid of the requirement for huge numbers of training samples and the same data distribution for training samples and testing samples. With the integration of TL and Gaussian process, Hu et al. (
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR49
+
+) achieved accurate surface roughness prediction in a condition of small data. Wang et al., (
+
+2021a
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR130
+
+) proposed a surface roughness prediction method considering the tool wear states, and a TL strategy is applied to realize surface roughness online prediction under variable cutting parameters. To avoid generating poor surface roughness from worn cutting tools, Gao et al. (
+
+2022
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR42
+
+) proposed a feature-based TL method based on the extreme learning machine, the results indicated that the TL-based model can significantly improve the prediction accuracy. Similarly, J. Li et al. (
+
+2021
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR77
+
+) developed a feature-based tool wear state prediction model to guarantee the machined surface quality. Additionally, a hybrid TL-based CNN-LSTM model, which leveraged the feature-based and parameter-based TL techniques, was established by Marei and Li (
+
+2022
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR91
+
+) for cutting tool prognostics. Zhang et al. (
+
+2018
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR162
+
+) proposed a simulated data and transfer kernel learning-based method to predict the surface roughness of the processed samples in grinding. Yi et al., (
+
+2024a
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR155
+
+) developed a grinding surface-roughness measurement method combined with simulation data and parameter-based TL, and the results indicated that the TL prediction accuracy exceeded 90%.
+
+TL-based chatter prediction
+
+Chatter, which could occur at certain combinations of machining parameters, is one of the significant issues in the machining process. Unexpected chatter could cause instability in the machining system, leading to poor surface quality with a terrible surface finish. Since collecting chatter data in actual production is time-consuming, expensive, and may damage the performance of the machining system, TL shows great potential and is widely studied in this domain. Unver and Sener (
+
+2022
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR128
+
+) provided a review of TL techniques and discussed their potential for chatter detection, and a chatter detection case via TL was provided. Deng et al. (
+
+2024
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR31
+
+) leveraged parameter-based TL techniques to construct more accurate lobe boundaries for machining parameter selection through small experimental samples. Jauhari et al. (
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR56
+
+) developed a chatter detection framework for real-time monitoring, where variational mode decomposition optimized by Bayesian algorithm, wavelet-based synchro-squeeze transform, and parameter-based TL technique using pre-trained deep convolution neural networks were combined. Yanliang Sheng (et al. 2023) developed an improved deep residual network for online milling chatter monitoring via the TL technique. Wang et al., (
+
+2024d
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR131
+
+) proposed a chatter monitoring method with autoencoders and SVM, while model-agnostic meta-learning is employed to optimize model parameters, and feature-based TL is leveraged to reduce the number of required training samples. Yesilli et al. (
+
+2020
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR154
+
+) utilized the features extracted by wavelet packet transform and ensemble empirical mode decomposition for chatter detection, and the results indicated that EEMD can outperform WPT in TL applications with an accuracy of up to 95% in turning. In their later research (Yesilli et al., 
+
+2022
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR153
+
+), the proposed feature-based TL model was extended for milling chatter detection, while more signal processing methods such as fast Fourier transform, power spectral density, and the auto-correlation function were considered. Cong et al. (
+
+2021
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR26
+
+) utilized the short-time Fourier transform to transform the collected vibration signal into a two-dimensional spectrogram and fine-tuned the Resnet with small samples to achieve chatter detection.
+
+On the other hand, as the mechanics and dynamics of milling processes have been extensively studied over the past decades (Budak & Altintas, 
+
+1998
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR17
+
+; Ko & Altintas, 
+
+2007
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR69
+
+; Ko, 
+
+2015
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR71
+
+), simulated milling signals can be efficiently generated from theoretical models under various machining conditions without the need for extensive machining experiments. This enables the possibility of training a parameter-based chatter detection TL model using simulated signals instead of experimental ones. As illustrated in Fig. 
+
+9
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Fig9
+
+, simulation signals (e.g. force, current, etc.) generated by the theoretical model are utilized to pre-train the prediction model. The trained model is then fine-tuned with actual machining signals to enhance its accuracy, allowing for the prediction of machining stability. For instance, Vashisht and Peng (
+
+2020
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR129
+
+) built a long short-term memory (LSTM) neural network through simulated current signals for chatter detection, while cutting conditions of spindle rotation speeds ranging from 1500 to 2800 RPM were tested. Postel et al. (
+
+2020
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR102
+
+) achieved machining stability predictions by utilizing simulated data to pre-train the deep neural network and then fine-tuning it with small experimental data. Experimental results indicated that five times fewer experimental samples were required to reach the same prediction accuracy. Unver and Sener (
+
+2021
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR127
+
+) proposed a parameter-based TL framework where vibration signals generated by numerical computation were used to train a CNN detection model. Since utilizing images for chatter detection may struggle with computational burden and resource requirements, Yin et al. (
+
+2023
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR158
+
+) proposed an attention-driven parameter-based TL chatter detection framework that utilized one-dimensional simulation data. Their prediction model consists of the dynamic milling process model, the double attention-driven one-dimension CNN, and the ensemble prediction strategy didn’t rely on any experimental data. The results demonstrated that the milling stability is correctly predicted by their method accurately and efficiently.
+
+Fig. 9
+
+Full size image
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#ref-CR158
+
+Parameter-based TL for chatter detection via simulation data
+
+Discussions
+
+Given that data scarcity is a prevalent challenge in MSQP, this chapter summarizes the typical TL techniques applied in MSQP and reviews recent TL-based studies focusing on surface roughness and chatter prediction. The findings indicate that parameter-based TL is the most commonly adopted approach in MSQP, where using surface images collected during machining processes to fine-tune CNN-based deep models originally developed in the computer vision domain shows satisfactory performance. Due to the limited applicability of vision-based monitoring methods in machining environments, numerous studies have also explored the employment of sensor signals to develop TL models. These models utilize adversarial-based and feature-based techniques to enhance their effectiveness. Overall, the results of the literature review validate the remarkable capability of TL in addressing data scarcity in MSQP.
+
+However, the application of these TL-based models in actual machining scenarios remains challenging. Most existing TL-based MSQP models are tailored using machining data collected in controlled laboratory settings, whereas actual production environments are significantly more complex and unpredictable. In dynamic, continuously non-stationary operational environments, collecting stationary data becomes inherently difficult. Additionally, challenges such as noise interference, missing data, and previously unseen working conditions have not been adequately addressed in current research. In this case, the effective use of non-stationary and incomplete data to train models and achieve accurate predictions requires greater attention from researchers. Simulated signals, generated using theoretical models under diverse machining conditions, present a promising tool to address issues related to missing data and unseen conditions. While some TL-based chatter detection studies have been introduced, the development of more accurate and efficient theoretical models, along with their seamless integration into TL-based model construction, remains a significant and ongoing task.
+
+Conclusion
+
+Machining surface quality prediction is a crucial and evolving topic for ensuring machining performance and reliability. Developing accurate, timely, and cost-efficient MSQP models can significantly enhance production efficiency and ensure consistent product quality. With the rapid advancement of AI, transformative solutions have emerged across various domains. This paper provides a comprehensive review of the application of AI techniques in MSQP. Based on the review, the following limitations and potential future directions for MSQP have been identified.
+
+(1)  
+
+A key challenge remains in integrating time varying tool center deviations influenced by all the discussed factors, into comprehensive cutting process models. Although individual factors have been modeled, further research is required to predict and monitor all time- and position-dependent factors for precise prediction and control of surface quality.
+
+(2)  
+
+Literature reviews indicate that AI-driven methods consistently exhibit superior performance in MSQP. However, their black-box nature and complex information mapping processes make them challenging to interpret and understand. In production environments, especially in high-value machining processes, the explainability and reliability of prediction models are crucial. As outlined in Chapter 
+
+Two key elements and multiple factors affecting the surface quality
+
+https://link.springer.com/article/10.1007/s10845-025-02571-y#Sec2
+
+, machining processes are deeply informed by expert knowledge, such as physical derivations, dynamic simulations, degradation theories, and so on. Therefore, encapsulating this expert knowledge into AI techniques to create explainable and trustworthy prediction models is an exciting and valuable area of research.
+
+(3)  
+
+While AI techniques often demonstrate superior performance compared to traditional MSQP models, they can face challenges such as significant computational burden and inefficiency, particularly for those advanced TL models. In application scenarios requiring online monitoring and timely detection, the heavy computational demand could be a non-negligible drawback, limiting the practical application of AI models. Consequently, research into model simplification without compromising performance remains both essential and promising. Furthermore, developing lightweight and accurate models paves the way for their integration into hardware implementations, such as FPGA or ASIC, which presents a compelling topic with considerable commercial potential.
+
+(4)  
+
+Although the exploration of AI techniques, particularly machine learning and deep learning methods, have drawn much attention and the development of accurate and robust AI models demonstrates promising results in the context of MSQP in recent years, the complexity and diversity of the machining process make the collection of high-quality, labeled data both challenging and costly. The scarcity of machining datasets still obstructs the further development and application of AI in the precision machining industries and AI academic community. To overcome this limitation, it is recommended that more open-source, high-quality datasets be created to accelerate the advancement of AI-driven MSQP models.
+
+(5)  
+
+Monitoring data in real machining environments accumulates over time, providing an opportunity to design effective frameworks that enable MSQP models to dynamically update with sequentially arriving data. Such frameworks hold significant potential to enhance online prediction capabilities and represent a valuable and practical area of research, which would enable engineers to proactively implement measures to ensure machining quality in real time. However, limited progress has been made in this domain, highlighting the urgent need for the development of advanced online prediction methods with performance-growing capabilities.
+
+(6)  
+
+Machining data is a high-value resource that contains extensive information about the machining process and equipment performance. Manufacturers are often hesitant to share this data due to the potential risks to intellectual property and trade secrets, limiting the development of MSQP. More advanced AI techniques like federated learning offer transformative solutions, which allow models to be trained across multiple decentralized devices without exchanging them, thereby enhancing data privacy and security. Despite its potential, there are limited studies on the application of such techniques in MSQP. Therefore, it is recommended that this topic be explored further to expand the application scope and market potential of AI techniques in the industry.
+
+Data availability
+
+Not Applicable.
+
+References
+
+Abu-Mahfouz, I., El Ariss, O., Esfakur Rahman, A. H. M., & Banerjee, A. (2017). Surface roughness prediction as a classification problem using support vector machine. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+92
+
+(1), 803–815. 
+
+https://doi.org/10.1007/s00170-017-0165-9
+
+https://doi.org/10.1007/s00170-017-0165-9
+
+Article
+
+https://doi.org/10.1007/s00170-017-0165-9
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-017-0165-9
+
+Adizue, U. L., Tura, A. D., Isaya, E. O., Farkas, B. Z., & Takács, M. (2023). Surface quality prediction by machine learning methods and process parameter optimization in ultra-precision machining of AISI D2 using CBN tool. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+129
+
+(3), 1375–1394. 
+
+https://doi.org/10.1007/s00170-023-12366-1
+
+https://doi.org/10.1007/s00170-023-12366-1
+
+Article
+
+https://doi.org/10.1007/s00170-023-12366-1
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-023-12366-1
+
+Agrawal, A., Goel, S., Rashid, W. B., & Price, M. (2015). Prediction of surface roughness during hard turning of AISI 4340 steel (69 HRC). 
+
+Applied Soft Computing,
+
+30
+
+, 279–286. 
+
+https://doi.org/10.1016/j.asoc.2015.01.059
+
+https://doi.org/10.1016/j.asoc.2015.01.059
+
+Article
+
+https://doi.org/10.1016/j.asoc.2015.01.059
+
+ Google Scholar
+
+https://doi.org/10.1016/j.asoc.2015.01.059
+
+Ai, Y., Liu, J., Ye, C., & Cheng, J. (2024a). Influence of oscillation parameters on energy distributions and dynamic behaviors during laser welding of aluminum alloy T-joints assisted with solder patch. 
+
+International Journal of Thermal Sciences,
+
+201
+
+, 108953. 
+
+https://doi.org/10.1016/j.ijthermalsci.2024.108953
+
+https://doi.org/10.1016/j.ijthermalsci.2024.108953
+
+Article
+
+https://doi.org/10.1016/j.ijthermalsci.2024.108953
+
+ Google Scholar
+
+https://doi.org/10.1016/j.ijthermalsci.2024.108953
+
+Ai, Y., Wang, Y., Han, S., & Ye, C. (2024b). Investigation of cladding layer formation in uphill wire laser additive manufacturing on inclined substrate. 
+
+Applied Thermal Engineering,
+
+247
+
+, 122919. 
+
+https://doi.org/10.1016/j.applthermaleng.2024.122919
+
+https://doi.org/10.1016/j.applthermaleng.2024.122919
+
+Article
+
+https://doi.org/10.1016/j.applthermaleng.2024.122919
+
+ Google Scholar
+
+https://doi.org/10.1016/j.applthermaleng.2024.122919
+
+Ai, Y., Ye, C., Liu, J., & Cheng, J. (2024c). Study on improvement of weld defect in oscillating laser welding of aluminum alloy T-joints assisted by solder patch. 
+
+Optics & Laser Technology,
+
+176
+
+, 110873. 
+
+https://doi.org/10.1016/j.optlastec.2024.110873
+
+https://doi.org/10.1016/j.optlastec.2024.110873
+
+Article
+
+https://doi.org/10.1016/j.optlastec.2024.110873
+
+ Google Scholar
+
+https://doi.org/10.1016/j.optlastec.2024.110873
+
+Akhavan Niaki, F., & Mears, L. (2017). A comprehensive study on the effects of tool wear on surface roughness, dimensional integrity and residual stress in turning IN718 hard-to-machine alloy. 
+
+Journal of Manufacturing Processes,
+
+30
+
+, 268–280. 
+
+https://doi.org/10.1016/j.jmapro.2017.09.016
+
+https://doi.org/10.1016/j.jmapro.2017.09.016
+
+Article
+
+https://doi.org/10.1016/j.jmapro.2017.09.016
+
+ Google Scholar
+
+https://doi.org/10.1016/j.jmapro.2017.09.016
+
+Altintas, Y., & Khoshdarregi, M. R. (2012). Contour error control of CNC machine tools with vibration avoidance. 
+
+CIRP Annals,
+
+61
+
+(1), 335–338.
+
+Article
+
+ Google Scholar
+
+Altintas, Y., Stepan, G., Budak, E., Schmitz, T., & Kilic, Z. M. (2020). Chatter stability of machining operations. 
+
+Journal of Manufacturing Science and Engineering,
+
+142
+
+(11), 110801.
+
+Article
+
+ Google Scholar
+
+Ashworth, S., Fairclough, J. P. A., Meredith, J., Takikawa, Y., & Kerrigan, K. (2022). Effects of tool coating and tool wear on the surface quality and flexural strength of slotted CFRP. 
+
+Wear,
+
+498
+
+, 204340.
+
+Article
+
+ Google Scholar
+
+Bassett, E., Köhler, J., & Denkena, B. (2012). On the honed cutting edge and its side effects during orthogonal turning operations of AISI1045 with coated WC-Co inserts. 
+
+CIRP Journal of Manufacturing Science and Technology,
+
+5
+
+(2), 108–126. 
+
+https://doi.org/10.1016/j.cirpj.2012.03.004
+
+https://doi.org/10.1016/j.cirpj.2012.03.004
+
+Article
+
+https://doi.org/10.1016/j.cirpj.2012.03.004
+
+ Google Scholar
+
+https://doi.org/10.1016/j.cirpj.2012.03.004
+
+Benardos, P. G., & Vosniakos, G. C. (2002). Prediction of surface roughness in CNC face milling using neural networks and Taguchi’s design of experiments. 
+
+Robotics and Computer-Integrated Manufacturing,
+
+18
+
+(5), 343–354. 
+
+https://doi.org/10.1016/S0736-5845(02)00005-4
+
+https://doi.org/10.1016/S0736-5845(02)00005-4
+
+Article
+
+https://doi.org/10.1016/S0736-5845(02)00005-4
+
+ Google Scholar
+
+https://doi.org/10.1016/S0736-5845(02)00005-4
+
+Benardos, P. G., & Vosniakos, G.-C. (2003). Predicting surface roughness in machining: A review. 
+
+International Journal of Machine Tools and Manufacture,
+
+43
+
+(8), 833–844.
+
+Article
+
+ Google Scholar
+
+Bhandari, B., & Park, G. (2024). Non-contact surface roughness evaluation of milling surface using CNN-deep learning models. 
+
+International Journal of Computer Integrated Manufacturing
+
+. https://www.tandfonline.com/doi/abs/
+
+https://doi.org/10.1080/0951192X.2022.2126012
+
+https://doi.org/10.1080/0951192X.2022.2126012
+
+. Accessed 24 September 2024
+
+Bose, S., Robertson, S. F., & Bandyopadhyay, A. (2018). Surface modification of biomaterials and biomedical devices using additive manufacturing. 
+
+Acta Biomaterialia,
+
+66
+
+, 6–22. 
+
+https://doi.org/10.1016/j.actbio.2017.11.003
+
+https://doi.org/10.1016/j.actbio.2017.11.003
+
+Article
+
+https://doi.org/10.1016/j.actbio.2017.11.003
+
+ Google Scholar
+
+https://doi.org/10.1016/j.actbio.2017.11.003
+
+Brandenburg, G., Bruckl, S., Dormann, J., Heinzl, J., & Schmidt, C. (2000). Comparative investigation of rotary and linear motor feed drive systems for high precision machine tools. In 
+
+6th International Workshop on Advanced Motion Control. Proceedings (Cat. No. 00TH8494)
+
+ (pp. 384–389). IEEE. 
+
+https://ieeexplore.ieee.org/abstract/document/862898/
+
+https://ieeexplore.ieee.org/abstract/document/862898/
+
+. Accessed 19 August 2024
+
+Budak, E., & Altintas¸, Y. (1998). Analytical prediction of chatter stability in milling—Part I: General formulation. 
+
+Journal of Dynamic Systems, Measurement, and Control,
+
+120
+
+(1), 22–30. 
+
+https://doi.org/10.1115/1.2801317
+
+https://doi.org/10.1115/1.2801317
+
+Article
+
+https://doi.org/10.1115/1.2801317
+
+ Google Scholar
+
+https://doi.org/10.1115/1.2801317
+
+Carrino, S., Guerne, J., Dreyer, J., Ghorbel, H., Schorderet, A., & Montavon, R. (2020). Machining quality prediction using acoustic sensors and machine learning. 
+
+Proceedings
+
+, 
+
+63
+
+(1), 31. 
+
+Chan, T.-C., Lin, H.-H., & Reddy, S. V. V. S. (2022). Prediction model of machining surface roughness for five-axis machine tool based on machine-tool structure performance. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+120
+
+(1), 237–249. 
+
+https://doi.org/10.1007/s00170-021-08634-7
+
+https://doi.org/10.1007/s00170-021-08634-7
+
+Article
+
+https://doi.org/10.1007/s00170-021-08634-7
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-021-08634-7
+
+Chen, Yin, & Ko, J. H. (2024). A review and benchmark study of tool state recognition in the CNC milling process. In 
+
+24th International Conference & Exhibition
+
+ (pp. 67–70). Presented at the EUSPEN, Dublin, IE. Accessed 22 August 2024
+
+Chen, J., Huang, R., Chen, Z., Mao, W., & Li, W. (2023). Transfer learning algorithms for bearing remaining useful life prediction: A comprehensive review from an industrial application perspective. 
+
+Mechanical Systems and Signal Processing,
+
+193
+
+, 110239. 
+
+https://doi.org/10.1016/j.ymssp.2023.110239
+
+https://doi.org/10.1016/j.ymssp.2023.110239
+
+Article
+
+https://doi.org/10.1016/j.ymssp.2023.110239
+
+ Google Scholar
+
+https://doi.org/10.1016/j.ymssp.2023.110239
+
+Chen, W., Zou, B., Li, Y., & Huang, C. (2021). A study of a rapid method for detecting the machined surface roughness. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+117
+
+(9), 3115–3127. 
+
+https://doi.org/10.1007/s00170-021-07733-9
+
+https://doi.org/10.1007/s00170-021-07733-9
+
+Article
+
+https://doi.org/10.1007/s00170-021-07733-9
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-021-07733-9
+
+Chen, Y., Lu, J., Deng, Q., Ma, J., & Liao, X. (2022). Modeling study of milling force considering tool runout at different types of radial cutting depth. 
+
+Journal of Manufacturing Processes,
+
+76
+
+, 486–503.
+
+Article
+
+ Google Scholar
+
+Chiu, H.-W., & Lee, C.-H. (2017a). Prediction of machining accuracy and surface quality for CNC machine tools using data driven approach. 
+
+Advances in Engineering Software,
+
+114
+
+, 246–257.
+
+Article
+
+ Google Scholar
+
+Chiu, H.-W., & Lee, C.-H. (2017b). Prediction of machining accuracy and surface quality for CNC machine tools using data driven approach. 
+
+Advances in Engineering Software,
+
+114
+
+, 246–257. 
+
+https://doi.org/10.1016/j.advengsoft.2017.07.008
+
+https://doi.org/10.1016/j.advengsoft.2017.07.008
+
+Article
+
+https://doi.org/10.1016/j.advengsoft.2017.07.008
+
+ Google Scholar
+
+https://doi.org/10.1016/j.advengsoft.2017.07.008
+
+Cong, J., Wang, G., Wang, F., Che, J., Yu, X., Geng, H., & Han, W. (2021). Online Milling Chatter Detection Using Deep Residual Network and Transfer Learning. In 
+
+2021 Global Reliability and Prognostics and Health Management (PHM-Nanjing)
+
+ (pp. 1–8). Presented at the 2021 Global Reliability and Prognostics and Health Management (PHM-Nanjing). 
+
+https://doi.org/10.1109/PHM-Nanjing52125.2021.9612760
+
+https://doi.org/10.1109/PHM-Nanjing52125.2021.9612760
+
+Cornelius, A., Karandikar, J., Tyler, C., & Schmitz, T. (2024). Process damping identification using bayesian learning and time domain simulation. 
+
+Journal of Manufacturing Science and Engineering
+
+. 
+
+https://doi.org/10.1115/1.4064832
+
+https://doi.org/10.1115/1.4064832
+
+Article
+
+https://doi.org/10.1115/1.4064832
+
+ Google Scholar
+
+https://doi.org/10.1115/1.4064832
+
+Correa, M., Bielza, C., de Ramirez, M., & J., & Alique, J. R. (2008). A Bayesian network model for surface roughness prediction in the machining process. 
+
+International Journal of Systems Science
+
+. 
+
+https://doi.org/10.1080/00207720802344683
+
+https://doi.org/10.1080/00207720802344683
+
+Article
+
+https://doi.org/10.1080/00207720802344683
+
+ Google Scholar
+
+https://doi.org/10.1080/00207720802344683
+
+Correa, M., Bielza, C., & Pamies-Teixeira, J. (2009). Comparison of Bayesian networks and artificial neural networks for quality detection in a machining process. 
+
+Expert Systems with Applications,
+
+36
+
+, 7270–7279. 
+
+https://doi.org/10.1016/j.eswa.2008.09.024
+
+https://doi.org/10.1016/j.eswa.2008.09.024
+
+Article
+
+https://doi.org/10.1016/j.eswa.2008.09.024
+
+ Google Scholar
+
+https://doi.org/10.1016/j.eswa.2008.09.024
+
+Dai, Y., Li, Y., Zhan, S., Li, Z., Wang, X., & Li, W. (2023). Thermal error modeling of motorized spindle considering the effect of milling head heat source. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+129
+
+(1–2), 855–870. 
+
+https://doi.org/10.1007/s00170-023-12317-w
+
+https://doi.org/10.1007/s00170-023-12317-w
+
+Article
+
+https://doi.org/10.1007/s00170-023-12317-w
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-023-12317-w
+
+Deng, C., Tang, J., Lu, S., Ma, Y., Lin, L., & Miao, J. (2024). Improved milling stability analysis for chatter-free machining parameters planning using a multi-fidelity surrogate model and transfer learning with limited experimental data. 
+
+International Journal of Production Research
+
+. https://www.tandfonline.com/doi/abs/
+
+https://doi.org/10.1080/00207543.2023.2176698
+
+https://doi.org/10.1080/00207543.2023.2176698
+
+. Accessed 4 August 2024
+
+Deng, C., Ye, B., Lu, S., He, M., & Miao, J. (2023). On-line surface roughness classification for multiple CNC milling conditions based on transfer learning and neural network. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+128
+
+(3), 1063–1076. 
+
+https://doi.org/10.1007/s00170-023-11997-8
+
+https://doi.org/10.1007/s00170-023-11997-8
+
+Article
+
+https://doi.org/10.1007/s00170-023-11997-8
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-023-11997-8
+
+Denkena, B., & Biermann, D. (2014). Cutting edge geometries. 
+
+CIRP Annals,
+
+63
+
+(2), 631–653. 
+
+https://doi.org/10.1016/j.cirp.2014.05.009
+
+https://doi.org/10.1016/j.cirp.2014.05.009
+
+Article
+
+https://doi.org/10.1016/j.cirp.2014.05.009
+
+ Google Scholar
+
+https://doi.org/10.1016/j.cirp.2014.05.009
+
+Dhas, J. E. R., Stalin, R. S., & Rajeesh, J. (2013). RBF neural network model for machining quality prediction in CNC turning process. 
+
+International Journal of Modelling, Identification and Control
+
+. https://www.inderscienceonline.com/doi/
+
+https://doi.org/10.1504/IJMIC.2013.056190
+
+https://doi.org/10.1504/IJMIC.2013.056190
+
+. Accessed 29 July 2024
+
+DIN 4760: Form deviations; concepts; classification system. Deutsches Institut Fuer Normung, e.V., 1982. (1982).
+
+Ding, S., Song, Z., Chen, Z., Wu, W., & Song, A. (2023). An efficient geometric error modelling algorithm of CNC machine tool without interference of higher-order error terms. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+126
+
+(7–8), 3353–3366. 
+
+https://doi.org/10.1007/s00170-023-11297-1
+
+https://doi.org/10.1007/s00170-023-11297-1
+
+Article
+
+https://doi.org/10.1007/s00170-023-11297-1
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-023-11297-1
+
+Du, C., Ho, C. L., & Kaminski, J. (2021). Prediction of product roughness, profile, and roundness using machine learning techniques for a hard turning process. 
+
+Advances in Manufacturing,
+
+9
+
+(2), 206–215. 
+
+https://doi.org/10.1007/s40436-021-00345-2
+
+https://doi.org/10.1007/s40436-021-00345-2
+
+Article
+
+https://doi.org/10.1007/s40436-021-00345-2
+
+ Google Scholar
+
+https://doi.org/10.1007/s40436-021-00345-2
+
+Du, X., Huang, J., Zhu, L.-M., & Ding, H. (2020). Sliding mode control with third-order contour error estimation for free-form contour following. 
+
+Precision Engineering,
+
+66
+
+, 282–294.
+
+Article
+
+ Google Scholar
+
+Dutta, S., Pal, S. K., & Sen, R. (2018). Progressive tool condition monitoring of end milling from machined surface images. 
+
+Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture,
+
+232
+
+(2), 251–266. 
+
+https://doi.org/10.1177/0954405416640417
+
+https://doi.org/10.1177/0954405416640417
+
+Article
+
+https://doi.org/10.1177/0954405416640417
+
+ Google Scholar
+
+https://doi.org/10.1177/0954405416640417
+
+Feng, J., & Liu, X.-T. (2023). Mechanism and modeling of machining process damping: A review. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+127
+
+(3–4), 1045–1069. 
+
+https://doi.org/10.1007/s00170-023-11390-5
+
+https://doi.org/10.1007/s00170-023-11390-5
+
+Article
+
+https://doi.org/10.1007/s00170-023-11390-5
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-023-11390-5
+
+Fertig, A., Weigold, M., & Chen, Y. (2022). Machine Learning based quality prediction for milling processes using internal machine tool data. 
+
+Advances in Industrial and Manufacturing Engineering,
+
+4
+
+, 100074. 
+
+https://doi.org/10.1016/j.aime.2022.100074
+
+https://doi.org/10.1016/j.aime.2022.100074
+
+Article
+
+https://doi.org/10.1016/j.aime.2022.100074
+
+ Google Scholar
+
+https://doi.org/10.1016/j.aime.2022.100074
+
+Gao, Z., Hu, Q., & Xu, X. (2022). Condition monitoring and life prediction of the turning tool based on extreme learning machine and transfer learning. 
+
+Neural Computing and Applications,
+
+34
+
+(5), 3399–3410. 
+
+https://doi.org/10.1007/s00521-021-05716-1
+
+https://doi.org/10.1007/s00521-021-05716-1
+
+Article
+
+https://doi.org/10.1007/s00521-021-05716-1
+
+ Google Scholar
+
+https://doi.org/10.1007/s00521-021-05716-1
+
+Griffin, J. M., Diaz, F., Geerling, E., Clasing, M., Ponce, V., Taylor, C., et al. (2017). Control of deviations and prediction of surface roughness from micro machining of THz waveguides using acoustic emission signals. 
+
+Mechanical Systems and Signal Processing,
+
+85
+
+, 1020–1034. 
+
+https://doi.org/10.1016/j.ymssp.2016.09.016
+
+https://doi.org/10.1016/j.ymssp.2016.09.016
+
+Article
+
+https://doi.org/10.1016/j.ymssp.2016.09.016
+
+ Google Scholar
+
+https://doi.org/10.1016/j.ymssp.2016.09.016
+
+Grzesik, W. (1996). A revised model for predicting surface roughness in turning. 
+
+Wear,
+
+194
+
+(1–2), 143–148.
+
+Article
+
+ Google Scholar
+
+Gueli, M., Ma, J., Cococcetta, N., Pearl, D., & Jahan, M. P. (2021). Experimental investigation into tool wear, cutting forces, and resulting surface finish during dry and flood coolant slot milling of Inconel 718. 
+
+Procedia Manufacturing,
+
+53
+
+, 236–245.
+
+Article
+
+ Google Scholar
+
+Guo, M., Xia, W., Wu, C., Luo, C., & Lin, Z. (2024). A surface quality prediction model considering the machine-tool-material interactions. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+131
+
+(7), 3937–3955. 
+
+https://doi.org/10.1007/s00170-024-13072-2
+
+https://doi.org/10.1007/s00170-024-13072-2
+
+Article
+
+https://doi.org/10.1007/s00170-024-13072-2
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-024-13072-2
+
+He, Y., Song, K., Dong, H., & Yan, Y. (2019). Semi-supervised defect classification of steel surface based on multi-training and generative adversarial network. 
+
+Optics and Lasers in Engineering,
+
+122
+
+, 294–302. 
+
+https://doi.org/10.1016/j.optlaseng.2019.06.020
+
+https://doi.org/10.1016/j.optlaseng.2019.06.020
+
+Article
+
+https://doi.org/10.1016/j.optlaseng.2019.06.020
+
+ Google Scholar
+
+https://doi.org/10.1016/j.optlaseng.2019.06.020
+
+Hou, J., Liu, H., Zhou, H., & Wang, Y. (2023). A new linear measurement method for the geometric error of CNC machine tools—Normal measurement method. 
+
+Measurement,
+
+222
+
+, 113610.
+
+Article
+
+ Google Scholar
+
+Hu, L., Gao, R., & Guo, Y. B. (2023). Transfer learning enhanced gaussian process model for surface roughness prediction with small data. 
+
+Manufacturing Letters,
+
+35
+
+, 1103–1108. 
+
+https://doi.org/10.1016/j.mfglet.2023.08.094
+
+https://doi.org/10.1016/j.mfglet.2023.08.094
+
+Article
+
+https://doi.org/10.1016/j.mfglet.2023.08.094
+
+ Google Scholar
+
+https://doi.org/10.1016/j.mfglet.2023.08.094
+
+Hu, Q., Chen, Y., & Yang, J. (2020). On-line contour error estimation and control for corner smoothed five-axis tool paths. 
+
+International Journal of Mechanical Sciences,
+
+171
+
+, 105377.
+
+Article
+
+ Google Scholar
+
+Huaian, Y., Xinjia, Z., Le, T., Yonglun, C., & Jie, Y. (2020). Measuring grinding surface roughness based on singular value entropy of quaternion. 
+
+Measurement Science and Technology,
+
+31
+
+(11), 115006. 
+
+https://doi.org/10.1088/1361-6501/ab9aa9
+
+https://doi.org/10.1088/1361-6501/ab9aa9
+
+Article
+
+https://doi.org/10.1088/1361-6501/ab9aa9
+
+ Google Scholar
+
+https://doi.org/10.1088/1361-6501/ab9aa9
+
+Huang, P., Zhou, J., & Xu, L. (2023). Online measurement of the elastic recovery value of machined surface in milling titanium alloy. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+124
+
+(11–12), 4297–4305. 
+
+https://doi.org/10.1007/s00170-022-09293-y
+
+https://doi.org/10.1007/s00170-022-09293-y
+
+Article
+
+https://doi.org/10.1007/s00170-022-09293-y
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-022-09293-y
+
+Huang, T., Kang, Y., Du, S., Zhang, Q., Luo, Z., Tang, Q., & Yang, K. (2022). A survey of modeling and control in ball screw feed-drive system. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+121
+
+(5), 2923–2946. 
+
+https://doi.org/10.1007/s00170-022-09506-4
+
+https://doi.org/10.1007/s00170-022-09506-4
+
+Article
+
+https://doi.org/10.1007/s00170-022-09506-4
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-022-09506-4
+
+Hue, D., Cartieri, A., & Petropoulos, I. (2024). Surface roughness effects on transonic aircraft performance: Experimental/numerical comparisons. 
+
+Aerospace Science and Technology,
+
+154
+
+, 109507. 
+
+https://doi.org/10.1016/j.ast.2024.109507
+
+https://doi.org/10.1016/j.ast.2024.109507
+
+Article
+
+https://doi.org/10.1016/j.ast.2024.109507
+
+ Google Scholar
+
+https://doi.org/10.1016/j.ast.2024.109507
+
+Iso, E. N. (1997). ISO 4287:1997 - Geometrical Product Specifications (GPS) -- Surface texture: Profile method -- Terms, definitions, and surface texture parameters. 
+
+International Organization for Standardization: Geneva, Switzerland
+
+.
+
+Jauhari, K., Rahman, A. Z., Al Huda, M., Widodo, A., & Prahasto, T. (2023). An intelligent milling chatter detection method based on VMD-synchro-squeeze wavelet and transfer learning via deep CNN with vibration signals. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+129
+
+(1), 629–657. 
+
+https://doi.org/10.1007/s00170-023-12249-5
+
+https://doi.org/10.1007/s00170-023-12249-5
+
+Article
+
+https://doi.org/10.1007/s00170-023-12249-5
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-023-12249-5
+
+Jia, P., Rong, Y., & Huang, Y. (2019). Condition monitoring of the feed drive system of a machine tool based on long-term operational modal analysis. 
+
+International Journal of Machine Tools and Manufacture,
+
+146
+
+, 103454.
+
+Article
+
+ Google Scholar
+
+Jiang, P., Jia, F., Wang, Y., & Zheng, M. (2014). Real-time quality monitoring and predicting model based on error propagation networks for multistage machining processes. 
+
+Journal of Intelligent Manufacturing,
+
+25
+
+(3), 521–538. 
+
+https://doi.org/10.1007/s10845-012-0703-0
+
+https://doi.org/10.1007/s10845-012-0703-0
+
+Article
+
+https://doi.org/10.1007/s10845-012-0703-0
+
+ Google Scholar
+
+https://doi.org/10.1007/s10845-012-0703-0
+
+Jing, X., Lv, R., Chen, Y., Tian, Y., & Li, H. (2020). Modelling and experimental analysis of the effects of run out, minimum chip thickness and elastic recovery on the cutting force in micro-end-milling. 
+
+International Journal of Mechanical Sciences,
+
+176
+
+, 105540.
+
+Article
+
+ Google Scholar
+
+Karpat, Y. (2023). Investigating elastic recovery of monocrystalline silicon during plunging experiments with chamfered diamond tools. 
+
+Precision Engineering,
+
+84
+
+, 119–135.
+
+Article
+
+ Google Scholar
+
+Karpat, Y., & Güven, C. (2024). Unraveling the complex interplay between elastic recovery, contact pressure, and friction on the flank face of the micro tools via plunging-type testing. 
+
+Precision Engineering,
+
+89
+
+, 349–364.
+
+Article
+
+ Google Scholar
+
+Khaliq, W., Zhang, C., Jamil, M., & Khan, A. M. (2020a). Tool wear, surface quality, and residual stresses analysis of micro-machined additive manufactured Ti–6Al–4V under dry and MQL conditions. 
+
+Tribology International,
+
+151
+
+, 106408.
+
+Article
+
+ Google Scholar
+
+Khaliq, W., Zhang, C., Jamil, M., & Khan, A. M. (2020b). Tool wear, surface quality, and residual stresses analysis of micro-machined additive manufactured Ti–6Al–4V under dry and MQL conditions. 
+
+Tribology International,
+
+151
+
+, 106408. 
+
+https://doi.org/10.1016/j.triboint.2020.106408
+
+https://doi.org/10.1016/j.triboint.2020.106408
+
+Article
+
+https://doi.org/10.1016/j.triboint.2020.106408
+
+ Google Scholar
+
+https://doi.org/10.1016/j.triboint.2020.106408
+
+Khorasani, A. M., Yazdi, M. R. S., & Safizadeh, M. S. (2012). Analysis of machining parameters effects on surface roughness: A review. 
+
+International Journal of Computational Materials Science and Surface Engineering,
+
+5
+
+(1), 68–84. 
+
+https://doi.org/10.1504/IJCMSSE.2012.049055
+
+https://doi.org/10.1504/IJCMSSE.2012.049055
+
+Article
+
+https://doi.org/10.1504/IJCMSSE.2012.049055
+
+ Google Scholar
+
+https://doi.org/10.1504/IJCMSSE.2012.049055
+
+Kim, H., & Okwudire, C. E. (2023). Intelligent feedrate optimization using a physics-based and data-driven digital twin. 
+
+CIRP Annals,
+
+72
+
+(1), 325–328.
+
+Article
+
+ Google Scholar
+
+Kim, J. W., Nam, J., Kim, G. Y., & Lee, S. W. (2023). Artificial Intelligence (AI)–based surface quality prediction model for Carbon Fiber Reinforced Plastics (CFRP) milling process. 
+
+International Journal of Precision Engineering and Manufacturing-Smart Technology,
+
+1
+
+(1), 35–47.
+
+Article
+
+ Google Scholar
+
+Kim, Y., Kim, T., Youn, B. D., & Ahn, S.-H. (2022). Machining quality monitoring (MQM) in laser-assisted micro-milling of glass using cutting force signals: An image-based deep transfer learning. 
+
+Journal of Intelligent Manufacturing,
+
+33
+
+(6), 1813–1828. 
+
+https://doi.org/10.1007/s10845-021-01764-5
+
+https://doi.org/10.1007/s10845-021-01764-5
+
+Article
+
+https://doi.org/10.1007/s10845-021-01764-5
+
+ Google Scholar
+
+https://doi.org/10.1007/s10845-021-01764-5
+
+Kishawy, H. A., Dumitrescu, M., Ng, E.-G., & Elbestawi, M. A. (2005). Effect of coolant strategy on tool performance, chip morphology and surface quality during high-speed machining of A356 aluminum alloy. 
+
+International Journal of Machine Tools and Manufacture,
+
+45
+
+(2), 219–227.
+
+Article
+
+ Google Scholar
+
+Ko, J. H., Lim, C. W., & Chai, Y. (2024). Dynamic machining and motion performance in state-of-the-art linear motor and ball screw-based CNC machine tools. In 
+
+24th International Conference & Exhibition
+
+ (pp. 481–484). Dublin, IE.
+
+Ko, J. H. (2015). Time domain prediction of milling stability according to cross edge radiuses and flank edge profiles. 
+
+International Journal of Machine Tools and Manufacture,
+
+89
+
+, 74–85. 
+
+https://doi.org/10.1016/j.ijmachtools.2014.11.004
+
+https://doi.org/10.1016/j.ijmachtools.2014.11.004
+
+Article
+
+https://doi.org/10.1016/j.ijmachtools.2014.11.004
+
+ Google Scholar
+
+https://doi.org/10.1016/j.ijmachtools.2014.11.004
+
+Ko, J. H., & Altintas, Y. (2007). Time domain model of plunge milling operation. 
+
+International Journal of Machine Tools and Manufacture,
+
+47
+
+(9), 1351–1361. 
+
+https://doi.org/10.1016/j.ijmachtools.2006.08.007
+
+https://doi.org/10.1016/j.ijmachtools.2006.08.007
+
+Article
+
+https://doi.org/10.1016/j.ijmachtools.2006.08.007
+
+ Google Scholar
+
+https://doi.org/10.1016/j.ijmachtools.2006.08.007
+
+Kosarac, A., Tabakovic, S., Mladjenovic, C., Zeljkovic, M., & Orasanin, G. (2023). Next-gen manufacturing: machine learning for surface roughness prediction in Ti-6Al-4V biocompatible alloy machining. 
+
+Journal of Manufacturing and Materials Processing,
+
+7
+
+(6), 202. 
+
+https://doi.org/10.3390/jmmp7060202
+
+https://doi.org/10.3390/jmmp7060202
+
+Article
+
+https://doi.org/10.3390/jmmp7060202
+
+ Google Scholar
+
+https://doi.org/10.3390/jmmp7060202
+
+Lan, C., & Fei, W. (2022). Research on machining product quality prediction based on machine learning. 
+
+Journal of Physics: Conference Series,
+
+2258
+
+(1), 012050. 
+
+https://doi.org/10.1088/1742-6596/2258/1/012050
+
+https://doi.org/10.1088/1742-6596/2258/1/012050
+
+Article
+
+https://doi.org/10.1088/1742-6596/2258/1/012050
+
+ Google Scholar
+
+https://doi.org/10.1088/1742-6596/2258/1/012050
+
+Li, B., & Tian, X. (2021). An Effective PSO-LSSVM-Based Approach for Surface Roughness Prediction in High-Speed Precision Milling. 
+
+IEEE Access
+
+, 
+
+9
+
+, 80006–80014. Presented at the IEEE Access. 
+
+https://doi.org/10.1109/ACCESS.2021.3084617
+
+https://doi.org/10.1109/ACCESS.2021.3084617
+
+Li, B.-H., Zhao, L.-P., & Yao, Y.-Y. (2023). Multiconditional machining process quality prediction using deep transfer learning network. 
+
+Advances in Manufacturing,
+
+11
+
+(2), 329–341. 
+
+https://doi.org/10.1007/s40436-022-00415-z
+
+https://doi.org/10.1007/s40436-022-00415-z
+
+Article
+
+https://doi.org/10.1007/s40436-022-00415-z
+
+ Google Scholar
+
+https://doi.org/10.1007/s40436-022-00415-z
+
+Li, J., Lu, J., Chen, C., Ma, J., & Liao, X. (2021). Tool wear state prediction based on feature-based transfer learning. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+113
+
+(11), 3283–3301. 
+
+https://doi.org/10.1007/s00170-021-06780-6
+
+https://doi.org/10.1007/s00170-021-06780-6
+
+Article
+
+https://doi.org/10.1007/s00170-021-06780-6
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-021-06780-6
+
+Li, K., Chen, M., Lin, Y., Li, Z., Jia, X., & Li, B. (2022a). A novel adversarial domain adaptation transfer learning method for tool wear state prediction. 
+
+Knowledge-Based Systems,
+
+254
+
+, 109537. 
+
+https://doi.org/10.1016/j.knosys.2022.109537
+
+https://doi.org/10.1016/j.knosys.2022.109537
+
+Article
+
+https://doi.org/10.1016/j.knosys.2022.109537
+
+ Google Scholar
+
+https://doi.org/10.1016/j.knosys.2022.109537
+
+Li, W., Huang, R., Li, J., Liao, Y., Chen, Z., He, G., et al. (2022b). A perspective survey on deep transfer learning for fault diagnosis in industrial scenarios: Theories, applications and challenges. 
+
+Mechanical Systems and Signal Processing,
+
+167
+
+, 108487. 
+
+https://doi.org/10.1016/j.ymssp.2021.108487
+
+https://doi.org/10.1016/j.ymssp.2021.108487
+
+Article
+
+https://doi.org/10.1016/j.ymssp.2021.108487
+
+ Google Scholar
+
+https://doi.org/10.1016/j.ymssp.2021.108487
+
+Li, X., Liu, X., Yue, C., Liang, S. Y., & Wang, L. (2022c). Systematic review on tool breakage monitoring techniques in machining operations. 
+
+International Journal of Machine Tools and Manufacture,
+
+176
+
+, 103882. 
+
+https://doi.org/10.1016/j.ijmachtools.2022.103882
+
+https://doi.org/10.1016/j.ijmachtools.2022.103882
+
+Article
+
+https://doi.org/10.1016/j.ijmachtools.2022.103882
+
+ Google Scholar
+
+https://doi.org/10.1016/j.ijmachtools.2022.103882
+
+Li, Z.-L., Tuysuz, O., Zhu, L.-M., & Altintas, Y. (2018). Surface form error prediction in five-axis flank milling of thin-walled parts. 
+
+International Journal of Machine Tools and Manufacture,
+
+128
+
+, 21–32.
+
+Article
+
+ Google Scholar
+
+Liao, C.-W., Lee, M.-T., & Liu, Y.-C. (2023). A thermal deformation estimation method for high precision machine tool spindles based on the convolutional neural network. 
+
+Journal of Mechanical Science and Technology,
+
+37
+
+(6), 3151–3162.
+
+Article
+
+ Google Scholar
+
+Liao, Y., Ragai, I., Huang, Z., & Kerner, S. (2021). Manufacturing process monitoring using time-frequency representation and transfer learning of deep neural networks. 
+
+Journal of Manufacturing Processes,
+
+68
+
+, 231–248. 
+
+https://doi.org/10.1016/j.jmapro.2021.05.046
+
+https://doi.org/10.1016/j.jmapro.2021.05.046
+
+Article
+
+https://doi.org/10.1016/j.jmapro.2021.05.046
+
+ Google Scholar
+
+https://doi.org/10.1016/j.jmapro.2021.05.046
+
+Lin, Y.-C., Wu, K.-D., Shih, W.-C., Hsu, P.-K., & Hung, J.-P. (2020). Prediction of surface roughness based on cutting parameters and machining vibration in end milling using regression method and artificial neural network. 
+
+Applied Sciences,
+
+10
+
+(11), 3941. 
+
+https://doi.org/10.3390/app10113941
+
+https://doi.org/10.3390/app10113941
+
+Article
+
+https://doi.org/10.3390/app10113941
+
+ Google Scholar
+
+https://doi.org/10.3390/app10113941
+
+Liu, D., Du, Y., Chai, W., Lu, C., & Cong, M. (2022). Digital Twin and Data-Driven Quality Prediction of Complex Die-Casting Manufacturing. 
+
+IEEE Transactions on Industrial Informatics
+
+, 
+
+18
+
+(11), 8119–8128. Presented at the IEEE Transactions on Industrial Informatics. 
+
+https://doi.org/10.1109/TII.2022.3168309
+
+https://doi.org/10.1109/TII.2022.3168309
+
+Liu, C., Huang, Z., Huang, S., He, Y., Yang, Z., & Tuo, J. (2023). Surface roughness prediction in ball screw whirlwind milling considering elastic-plastic deformation caused by cutting force: Modelling and verification. 
+
+Measurement,
+
+220
+
+, 113365. 
+
+https://doi.org/10.1016/j.measurement.2023.113365
+
+https://doi.org/10.1016/j.measurement.2023.113365
+
+Article
+
+https://doi.org/10.1016/j.measurement.2023.113365
+
+ Google Scholar
+
+https://doi.org/10.1016/j.measurement.2023.113365
+
+Liu, J., Ma, C., & Yuan, Q. (2024). Spindle unit thermal error modeling and compensation based on digital twin. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+132
+
+(3–4), 1525–1555. 
+
+https://doi.org/10.1007/s00170-024-13445-7
+
+https://doi.org/10.1007/s00170-024-13445-7
+
+Article
+
+https://doi.org/10.1007/s00170-024-13445-7
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-024-13445-7
+
+Lu, C. (2008). Study on prediction of surface quality in machining process. 
+
+Journal of Materials Processing Technology,
+
+205
+
+(1–3), 439–450.
+
+Article
+
+ Google Scholar
+
+Ma, S., Leng, J., Zheng, P., Chen, Z., Li, B., Li, W., et al. (2024). A digital twin-assisted deep transfer learning method towards intelligent thermal error modeling of electric spindles. 
+
+Journal of Intelligent Manufacturing
+
+. 
+
+https://doi.org/10.1007/s10845-023-02283-1
+
+https://doi.org/10.1007/s10845-023-02283-1
+
+Article
+
+https://doi.org/10.1007/s10845-023-02283-1
+
+ Google Scholar
+
+https://doi.org/10.1007/s10845-023-02283-1
+
+Mao, J., Usuki, H., Tanaka, R., Morigo, C., & Yukinari, S. (2024). Research on effect of ultra-high pressure coolant supplied from flank face in end milling of Ti-6Al-4V supported by CFD simulations. 
+
+Journal of Manufacturing Processes,
+
+118
+
+, 15–31.
+
+Article
+
+ Google Scholar
+
+Marei, M., & Li, W. (2022). Cutting tool prognostics enabled by hybrid CNN-LSTM with transfer learning. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+118
+
+(3), 817–836. 
+
+https://doi.org/10.1007/s00170-021-07784-y
+
+https://doi.org/10.1007/s00170-021-07784-y
+
+Article
+
+https://doi.org/10.1007/s00170-021-07784-y
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-021-07784-y
+
+Marei, M., Zaatari, S. E., & Li, W. (2021). Transfer learning enabled convolutional neural networks for estimating health state of cutting tools. 
+
+Robotics and Computer-Integrated Manufacturing,
+
+71
+
+, 102145. 
+
+https://doi.org/10.1016/j.rcim.2021.102145
+
+https://doi.org/10.1016/j.rcim.2021.102145
+
+Article
+
+https://doi.org/10.1016/j.rcim.2021.102145
+
+ Google Scholar
+
+https://doi.org/10.1016/j.rcim.2021.102145
+
+Maurya, S. N., Luo, W.-J., Panigrahi, B., Negi, P., & Wang, P.-T. (2024). Input attribute optimization for thermal deformation of machine-tool spindles using artificial intelligence. 
+
+Journal of Intelligent Manufacturing
+
+. 
+
+https://doi.org/10.1007/s10845-024-02350-1
+
+https://doi.org/10.1007/s10845-024-02350-1
+
+Article
+
+https://doi.org/10.1007/s10845-024-02350-1
+
+ Google Scholar
+
+https://doi.org/10.1007/s10845-024-02350-1
+
+Natarajan, U., Palani, S., & Anandampilai, B. (2012). Prediction of surface roughness in milling by machine vision using ANFIS. 
+
+Computer-Aided Design and Applications,
+
+9
+
+(3), 269–288. 
+
+https://doi.org/10.3722/cadaps.2012.269-288
+
+https://doi.org/10.3722/cadaps.2012.269-288
+
+Article
+
+https://doi.org/10.3722/cadaps.2012.269-288
+
+ Google Scholar
+
+https://doi.org/10.3722/cadaps.2012.269-288
+
+Ngerntong, S., & Butdee, S. (2020). Surface roughness prediction with chip morphology using fuzzy logic on milling machine. 
+
+Materials Today: Proceedings,
+
+26
+
+, 2357–2362. 
+
+https://doi.org/10.1016/j.matpr.2020.02.506
+
+https://doi.org/10.1016/j.matpr.2020.02.506
+
+Article
+
+https://doi.org/10.1016/j.matpr.2020.02.506
+
+ Google Scholar
+
+https://doi.org/10.1016/j.matpr.2020.02.506
+
+Ning, P., Zhao, J., Ji, S., Li, J., & Dai, H. (2024). A novel material elastic recovery model for Al6061 and oxygen free copper in micro-cutting. 
+
+Journal of Manufacturing Processes,
+
+127
+
+, 750–763.
+
+Article
+
+ Google Scholar
+
+Nouhi, S., & Pour, M. (2021). Prediction of surface roughness of various machining processes by a hybrid algorithm including time series analysis, wavelet transform and multi view embedding. 
+
+Measurement,
+
+184
+
+, 109904. 
+
+https://doi.org/10.1016/j.measurement.2021.109904
+
+https://doi.org/10.1016/j.measurement.2021.109904
+
+Article
+
+https://doi.org/10.1016/j.measurement.2021.109904
+
+ Google Scholar
+
+https://doi.org/10.1016/j.measurement.2021.109904
+
+Okafor, A. C., & Ertekin, Y. M. (2000). Derivation of machine tool error models and error compensation procedure for three axes vertical machining center using rigid body kinematics. 
+
+International Journal of Machine Tools and Manufacture,
+
+40
+
+(8), 1199–1213.
+
+Article
+
+ Google Scholar
+
+Palani, S., & Natarajan, U. (2011). Prediction of surface roughness in CNC end milling by machine vision system using artificial neural network based on 2D Fourier transform. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+54
+
+(9), 1033–1042. 
+
+https://doi.org/10.1007/s00170-010-3018-3
+
+https://doi.org/10.1007/s00170-010-3018-3
+
+Article
+
+https://doi.org/10.1007/s00170-010-3018-3
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-010-3018-3
+
+Pereira Guimarães, B. M., da Silva Fernandes, C. M., Amaral de Figueiredo, D., Pereira, C., da Silva, F. S., & Macedo Miranda, M. G. (2022). Cutting temperature measurement and prediction in machining processes: Comprehensive review and future perspectives. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+120
+
+(5), 2849–2878. 
+
+https://doi.org/10.1007/s00170-022-08957-z
+
+https://doi.org/10.1007/s00170-022-08957-z
+
+Article
+
+https://doi.org/10.1007/s00170-022-08957-z
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-022-08957-z
+
+Pimenov, DYu., Bustillo, A., & Mikolajczyk, T. (2018). Artificial intelligence for automatic prediction of required surface roughness by monitoring wear on face mill teeth. 
+
+Journal of Intelligent Manufacturing,
+
+29
+
+(5), 1045–1061. 
+
+https://doi.org/10.1007/s10845-017-1381-8
+
+https://doi.org/10.1007/s10845-017-1381-8
+
+Article
+
+https://doi.org/10.1007/s10845-017-1381-8
+
+ Google Scholar
+
+https://doi.org/10.1007/s10845-017-1381-8
+
+Postel, M., Bugdayci, B., & Wegener, K. (2020). Ensemble transfer learning for refining stability predictions in milling using experimental stability states. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+107
+
+(9), 4123–4139. 
+
+https://doi.org/10.1007/s00170-020-05322-w
+
+https://doi.org/10.1007/s00170-020-05322-w
+
+Article
+
+https://doi.org/10.1007/s00170-020-05322-w
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-020-05322-w
+
+Qiang, B., Shi, K., Liu, N., Ren, J., & Shi, Y. (2023). Integrating physics-informed recurrent Gaussian process regression into instance transfer for predicting tool wear in milling process. 
+
+Journal of Manufacturing Systems,
+
+68
+
+, 42–55. 
+
+https://doi.org/10.1016/j.jmsy.2023.02.019
+
+https://doi.org/10.1016/j.jmsy.2023.02.019
+
+Article
+
+https://doi.org/10.1016/j.jmsy.2023.02.019
+
+ Google Scholar
+
+https://doi.org/10.1016/j.jmsy.2023.02.019
+
+Rifai, A. P., Fukuda, R., & Aoyama, H. (2019). Surface roughness estimation and chatter vibration identification using vision-based deep learning. 
+
+Journal of the Japan Society for Precision Engineering,
+
+85
+
+(7), 658–666. 
+
+https://doi.org/10.2493/jjspe.85.658
+
+https://doi.org/10.2493/jjspe.85.658
+
+Article
+
+https://doi.org/10.2493/jjspe.85.658
+
+ Google Scholar
+
+https://doi.org/10.2493/jjspe.85.658
+
+Rimpault, X., Chatelain, J.-F., Klemberg-Sapieha, J. E., & Balazinski, M. (2017). Tool wear and surface quality assessment of CFRP trimming using fractal analyses of the cutting force signals. 
+
+CIRP Journal of Manufacturing Science and Technology,
+
+16
+
+, 72–80.
+
+Article
+
+ Google Scholar
+
+Ross, N. S., Shibi, C. S., Mustafa, S. M., Gupta, M. K., Korkmaz, M. E., Sharma, V. S., & Li, Z. (2023). Measuring Surface Characteristics in Sustainable Machining of Titanium Alloys Using Deep Learning-Based Image Processing. 
+
+IEEE Sensors Journal
+
+, 
+
+23
+
+(12), 13629–13639. Presented at the IEEE Sensors Journal. 
+
+https://doi.org/10.1109/JSEN.2023.3269529
+
+https://doi.org/10.1109/JSEN.2023.3269529
+
+Ross, N. S., Mashinini, P. M., Sherin Shibi, C., Kumar Gupta, M., Erdi Korkmaz, M., Krolczyk, G. M., & Sharma, V. S. (2024). A new intelligent approach of surface roughness measurement in sustainable machining of AM-316L stainless steel with deep learning models. 
+
+Measurement,
+
+230
+
+, 114515. 
+
+https://doi.org/10.1016/j.measurement.2024.114515
+
+https://doi.org/10.1016/j.measurement.2024.114515
+
+Article
+
+https://doi.org/10.1016/j.measurement.2024.114515
+
+ Google Scholar
+
+https://doi.org/10.1016/j.measurement.2024.114515
+
+Sahoo, A., Rout, A., & Das, D. (2015). Response surface and artificial neural network prediction model and optimization for surface roughness in machining. 
+
+International Journal of Industrial Engineering Computations,
+
+6
+
+(2), 229–240.
+
+Article
+
+ Google Scholar
+
+Salgado, D. R., Alonso, F. J., Cambero, I., & Marcelo, A. (2009). In-process surface roughness prediction system using cutting vibrations in turning. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+43
+
+(1), 40–51. 
+
+https://doi.org/10.1007/s00170-008-1698-8
+
+https://doi.org/10.1007/s00170-008-1698-8
+
+Article
+
+https://doi.org/10.1007/s00170-008-1698-8
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-008-1698-8
+
+Sangwan, K. S., Saxena, S., & Kant, G. (2015). Optimization of machining parameters to minimize surface roughness using integrated ANN-GA approach. 
+
+Procedia CIRP,
+
+29
+
+, 305–310. 
+
+https://doi.org/10.1016/j.procir.2015.02.002
+
+https://doi.org/10.1016/j.procir.2015.02.002
+
+Article
+
+https://doi.org/10.1016/j.procir.2015.02.002
+
+ Google Scholar
+
+https://doi.org/10.1016/j.procir.2015.02.002
+
+Sarıkaya, M., Gupta, M. K., Tomaz, I., Pimenov, D. Y., Kuntoğlu, M., Khanna, N., et al. (2021). A state-of-the-art review on tool wear and surface integrity characteristics in machining of superalloys. 
+
+CIRP Journal of Manufacturing Science and Technology,
+
+35
+
+, 624–658. 
+
+https://doi.org/10.1016/j.cirpj.2021.08.005
+
+https://doi.org/10.1016/j.cirpj.2021.08.005
+
+Article
+
+https://doi.org/10.1016/j.cirpj.2021.08.005
+
+ Google Scholar
+
+https://doi.org/10.1016/j.cirpj.2021.08.005
+
+Schlagenhauf, T., Scheurenbrand, T., Hofmann, D., & Krasnikow, O. (2023). Analysis of the visually detectable wear progress on ball screws. 
+
+CIRP Journal of Manufacturing Science and Technology,
+
+40
+
+, 1–9.
+
+Article
+
+ Google Scholar
+
+Sellmeier, V., & Denkena, B. (2012). High speed process damping in milling. 
+
+CIRP Journal of Manufacturing Science and Technology,
+
+5
+
+(1), 8–19.
+
+Article
+
+ Google Scholar
+
+Serin, G., Sener, B., Gudelek, M. U., Ozbayoglu, A. M., & Unver, H. O. (2020). Deep multi-layer perceptron based prediction of energy efficiency and surface quality for milling in the era of sustainability and big data. 
+
+Procedia Manufacturing,
+
+51
+
+, 1166–1177. 
+
+https://doi.org/10.1016/j.promfg.2020.10.164
+
+https://doi.org/10.1016/j.promfg.2020.10.164
+
+Article
+
+https://doi.org/10.1016/j.promfg.2020.10.164
+
+ Google Scholar
+
+https://doi.org/10.1016/j.promfg.2020.10.164
+
+Sheng, Yanliang, Cong, J., Wang, F., & Wang, G. (2023). Milling Chatter Monitoring based on Improved Deep Residual Network and Transfer Learning Approach*. In 
+
+2023 5th International Conference on Industrial Artificial Intelligence (IAI)
+
+ (pp. 1–6). Presented at the 2023 5th International Conference on Industrial Artificial Intelligence (IAI). 
+
+https://doi.org/10.1109/IAI59504.2023.10327560
+
+https://doi.org/10.1109/IAI59504.2023.10327560
+
+Sheng, Y., Zhang, G., Zhang, Y., Luo, M., Pang, Y., & Wang, Q. (2024). A multimodal data sensing and feature learning-based self-adaptive hybrid approach for machining quality prediction. 
+
+Advanced Engineering Informatics,
+
+59
+
+, 102324. 
+
+https://doi.org/10.1016/j.aei.2023.102324
+
+https://doi.org/10.1016/j.aei.2023.102324
+
+Article
+
+https://doi.org/10.1016/j.aei.2023.102324
+
+ Google Scholar
+
+https://doi.org/10.1016/j.aei.2023.102324
+
+Sivalingam, V., Zhou, Q., Ross, N. S., Tiwari, S., Selvam, B., Sun, J., & Gupta, M. K. (2023). Identification of tool wear and surface morphology measurements in sustainable milling of Al 6082 hybrid metal matrix composite. 
+
+Journal of Materials Research and Technology,
+
+27
+
+, 7570–7581.
+
+Article
+
+ Google Scholar
+
+Sivarupan, T., Bermingham, M., Ng, C.-H., Sun, S., & Dargusch, M. (2024). A review of the use of cryogenic coolant during machining titanium alloys. 
+
+Sustainable Materials and Technologies
+
+, e00946.
+
+Song, G., Zhang, J., Ge, Y., Zhu, K., Liu, J., Yu, L., & Sun, J. (2024). A multi-target predictive model for predicting tool wear and surface roughness. 
+
+Expert Systems with Applications,
+
+251
+
+, 123779.
+
+Article
+
+ Google Scholar
+
+Sorgato, M., Bertolini, R., & Bruschi, S. (2020). On the correlation between surface quality and tool wear in micro–milling of pure copper. 
+
+Journal of Manufacturing Processes,
+
+50
+
+, 547–560.
+
+Article
+
+ Google Scholar
+
+Su, J., Yi, H., Ling, L., Wang, S., Jiao, Y., & Niu, Y. (2022). A surface roughness grade recognition model for milled workpieces based on deep transfer learning. 
+
+Measurement Science and Technology,
+
+33
+
+(4), 045014. 
+
+https://doi.org/10.1088/1361-6501/ac3f86
+
+https://doi.org/10.1088/1361-6501/ac3f86
+
+Article
+
+https://doi.org/10.1088/1361-6501/ac3f86
+
+ Google Scholar
+
+https://doi.org/10.1088/1361-6501/ac3f86
+
+Tao, H., Fan, J., Li, T., Chen, F., & Pan, R. (2023). An approach to enhancing machining accuracy of five-axis machine tools based on a new sensitivity analysis method. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+124
+
+(7–8), 2383–2400. 
+
+https://doi.org/10.1007/s00170-022-10365-2
+
+https://doi.org/10.1007/s00170-022-10365-2
+
+Article
+
+https://doi.org/10.1007/s00170-022-10365-2
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-022-10365-2
+
+Tercan, H., & Meisen, T. (2022). Machine learning and deep learning based predictive quality in manufacturing: A systematic review. 
+
+Journal of Intelligent Manufacturing,
+
+33
+
+(7), 1879–1905. 
+
+https://doi.org/10.1007/s10845-022-01963-8
+
+https://doi.org/10.1007/s10845-022-01963-8
+
+Article
+
+https://doi.org/10.1007/s10845-022-01963-8
+
+ Google Scholar
+
+https://doi.org/10.1007/s10845-022-01963-8
+
+Tian, P., He, L., Zhou, T., Du, F., Zou, Z., Zhou, X., & Jiang, H. (2022). Effect of workpiece microstructure on tool wear behavior and surface quality during machining Inconel 718 alloy. 
+
+Tribology International,
+
+175
+
+, 107814.
+
+Article
+
+ Google Scholar
+
+Tunç, L. T., & Budak, E. (2012). Effect of cutting conditions and tool geometry on process damping in machining. 
+
+International Journal of Machine Tools and Manufacture,
+
+57
+
+, 10–19.
+
+Article
+
+ Google Scholar
+
+Tyler, C. T., & Schmitz, T. L. (2013). Analytical process damping stability prediction. 
+
+Journal of Manufacturing Processes,
+
+15
+
+(1), 69–76.
+
+Article
+
+ Google Scholar
+
+Unver, H. O., & Sener, B. (2021). A novel transfer learning framework for chatter detection using convolutional neural networks. 
+
+Journal of Intelligent Manufacturing
+
+. 
+
+https://doi.org/10.1007/s10845-021-01839-3
+
+https://doi.org/10.1007/s10845-021-01839-3
+
+Article
+
+https://doi.org/10.1007/s10845-021-01839-3
+
+ Google Scholar
+
+https://doi.org/10.1007/s10845-021-01839-3
+
+Unver, H. O., & Sener, B. (2022). Exploring the potential of transfer learning for chatter detection. 
+
+Procedia Computer Science,
+
+200
+
+, 151–159. 
+
+https://doi.org/10.1016/j.procs.2022.01.214
+
+https://doi.org/10.1016/j.procs.2022.01.214
+
+Article
+
+https://doi.org/10.1016/j.procs.2022.01.214
+
+ Google Scholar
+
+https://doi.org/10.1016/j.procs.2022.01.214
+
+Vashisht, R. K., & Peng, Q. (2020). Online chatter detection for milling operations using LSTM neural networks assisted by motor current signals of ball screw drives. 
+
+Journal of Manufacturing Science and Engineering
+
+. 
+
+https://doi.org/10.1115/1.4048001
+
+https://doi.org/10.1115/1.4048001
+
+Article
+
+https://doi.org/10.1115/1.4048001
+
+ Google Scholar
+
+https://doi.org/10.1115/1.4048001
+
+Wang, Yahui, Zheng, L., Wang, Y., Zhou, J., & Tao, F. (2021a). Transfer Learning Based Surface Roughness Prediction Integrating Tool Wear Under Variable Cutting Parameters. 
+
+https://doi.org/10.21203/rs.3.rs-955412/v1
+
+https://doi.org/10.21203/rs.3.rs-955412/v1
+
+Wang, Yongqing, Qin, B., Liu, K., Shen, M., Niu, M., & Han, L. (2021b). A New Multitask Learning Method for Tool Wear Condition and Part Surface Quality Prediction. 
+
+IEEE Transactions on Industrial Informatics
+
+, 
+
+17
+
+(9), 6023–6033. Presented at the IEEE Transactions on Industrial Informatics. 
+
+https://doi.org/10.1109/TII.2020.3040285
+
+https://doi.org/10.1109/TII.2020.3040285
+
+Wang, B., Liu, Z., Cai, Y., Luo, X., Ma, H., Song, Q., & Xiong, Z. (2021c). Advancements in material removal mechanism and surface integrity of high speed metal cutting: A review. 
+
+International Journal of Machine Tools and Manufacture,
+
+166
+
+, 103744. 
+
+https://doi.org/10.1016/j.ijmachtools.2021.103744
+
+https://doi.org/10.1016/j.ijmachtools.2021.103744
+
+Article
+
+https://doi.org/10.1016/j.ijmachtools.2021.103744
+
+ Google Scholar
+
+https://doi.org/10.1016/j.ijmachtools.2021.103744
+
+Wang, P., Qu, H., Zhang, Q., Xu, X., & Yang, S. (2023a). Production quality prediction of multistage manufacturing systems using multi-task joint deep learning. 
+
+Journal of Manufacturing Systems,
+
+70
+
+, 48–68. 
+
+https://doi.org/10.1016/j.jmsy.2023.07.002
+
+https://doi.org/10.1016/j.jmsy.2023.07.002
+
+Article
+
+https://doi.org/10.1016/j.jmsy.2023.07.002
+
+ Google Scholar
+
+https://doi.org/10.1016/j.jmsy.2023.07.002
+
+Wang, P., Tao, H., Qi, J., & Li, P. (2024a). Machining quality prediction of complex thin-walled parts using multi-task dual domain adaptive deep transfer learning. 
+
+Advanced Engineering Informatics,
+
+62
+
+, 102640. 
+
+https://doi.org/10.1016/j.aei.2024.102640
+
+https://doi.org/10.1016/j.aei.2024.102640
+
+Article
+
+https://doi.org/10.1016/j.aei.2024.102640
+
+ Google Scholar
+
+https://doi.org/10.1016/j.aei.2024.102640
+
+Wang, P., Wang, T., Yang, S., Cheng, H., Huang, P., & Zhang, Q. (2024b). Production quality prediction of cross-specification products using dynamic deep transfer learning network. 
+
+Journal of Intelligent Manufacturing,
+
+35
+
+(6), 2567–2592. 
+
+https://doi.org/10.1007/s10845-023-02153-w
+
+https://doi.org/10.1007/s10845-023-02153-w
+
+Article
+
+https://doi.org/10.1007/s10845-023-02153-w
+
+ Google Scholar
+
+https://doi.org/10.1007/s10845-023-02153-w
+
+Wang, P., Zhang, Q., Qu, H., Xu, X., & Yang, S. (2024c). Time series prediction for production quality in a machining system using spatial-temporal multi-task graph learning. 
+
+Journal of Manufacturing Systems,
+
+74
+
+, 157–179. 
+
+https://doi.org/10.1016/j.jmsy.2024.03.007
+
+https://doi.org/10.1016/j.jmsy.2024.03.007
+
+Article
+
+https://doi.org/10.1016/j.jmsy.2024.03.007
+
+ Google Scholar
+
+https://doi.org/10.1016/j.jmsy.2024.03.007
+
+Wang, W.-K., Wan, M., Zhang, W.-H., & Yang, Y. (2022). Chatter detection methods in the machining processes: A review. 
+
+Journal of Manufacturing Processes,
+
+77
+
+, 240–259.
+
+Article
+
+ Google Scholar
+
+Wang, X., Liu, L., Huang, L., Qi, Z., Tang, X., Tang, D., & Wang, Z. (2024d). Chatter monitoring method of Ti-6Al-4V thin-walled parts based on MAML optimized transfer learning. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+133
+
+(7), 3647–3662. 
+
+https://doi.org/10.1007/s00170-024-13932-x
+
+https://doi.org/10.1007/s00170-024-13932-x
+
+Article
+
+https://doi.org/10.1007/s00170-024-13932-x
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-024-13932-x
+
+Wang, Yu., Cui, W., Vuong, N. K., Chen, Z., Zhou, Y., & Wu, M. (2023b). Feature selection and domain adaptation for cross-machine product quality prediction. 
+
+Journal of Intelligent Manufacturing,
+
+34
+
+(4), 1573–1584. 
+
+https://doi.org/10.1007/s10845-021-01875-z
+
+https://doi.org/10.1007/s10845-021-01875-z
+
+Article
+
+https://doi.org/10.1007/s10845-021-01875-z
+
+ Google Scholar
+
+https://doi.org/10.1007/s10845-021-01875-z
+
+Wang, Y., Wu, S., Liu, X., Zhang, Y., & Wang, C. (2023c). Modeling and analysis of axial thermal error in machining space of double-swing five-axis machine tool. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+128
+
+(11–12), 5179–5194. 
+
+https://doi.org/10.1007/s00170-023-12227-x
+
+https://doi.org/10.1007/s00170-023-12227-x
+
+Article
+
+https://doi.org/10.1007/s00170-023-12227-x
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-023-12227-x
+
+Wu, H., Li, X., Sun, F., & Zhao, Y. (2022). A status review of volumetric positioning accuracy prediction theory and static accuracy design method for multi-axis CNC machine tools. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+122
+
+(5), 2139–2159.
+
+Article
+
+ Google Scholar
+
+Wu, W., Li, S., Qin, X., Fu, G., Bao, Z., Li, H., & Zhao, Q. (2024). Tool wear influence on surface roughness, burrs and cracks in milling unidirectional carbon fiber reinforced plastics (UD-CFRP). 
+
+Journal of Materials Research and Technology,
+
+30
+
+, 3052–3065.
+
+Article
+
+ Google Scholar
+
+Xiao, J., & Fan, K. (2022). Research on the digital twin for thermal characteristics of motorized spindle. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+119
+
+(7–8), 5107–5118. 
+
+https://doi.org/10.1007/s00170-021-08508-y
+
+https://doi.org/10.1007/s00170-021-08508-y
+
+Article
+
+https://doi.org/10.1007/s00170-021-08508-y
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-021-08508-y
+
+Xu, L., Huang, C., Li, C., Wang, J., Liu, H., & Wang, X. (2021). An improved case based reasoning method and its application in estimation of surface quality toward intelligent machining. 
+
+Journal of Intelligent Manufacturing,
+
+32
+
+(1), 313–327. 
+
+https://doi.org/10.1007/s10845-020-01573-2
+
+https://doi.org/10.1007/s10845-020-01573-2
+
+Article
+
+https://doi.org/10.1007/s10845-020-01573-2
+
+ Google Scholar
+
+https://doi.org/10.1007/s10845-020-01573-2
+
+Xu, W., Wei, Z., Sun, J., Wei, L., & Yu, Z. (2012). Surface quality prediction and processing parameter determination in electrochemical mechanical polishing of bearing rollers. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+63
+
+(1), 129–136. 
+
+https://doi.org/10.1007/s00170-011-3891-4
+
+https://doi.org/10.1007/s00170-011-3891-4
+
+Article
+
+https://doi.org/10.1007/s00170-011-3891-4
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-011-3891-4
+
+Yan, Z., Tao, T., Hou, R., Du, H., & Mei, X. (2020). A new modeling method for thermal errors of motorized spindle based on the variation characteristics of spindle temperature field. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+110
+
+(3–4), 989–1000. 
+
+https://doi.org/10.1007/s00170-020-05752-6
+
+https://doi.org/10.1007/s00170-020-05752-6
+
+Article
+
+https://doi.org/10.1007/s00170-020-05752-6
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-020-05752-6
+
+Yang, B., Wang, M., Liu, Z., Che, C., Zan, T., Gao, X., & Gao, P. (2023a). Tool wear process monitoring by damping behavior of cutting vibration for milling process. 
+
+Journal of Manufacturing Processes,
+
+102
+
+, 1069–1084.
+
+Article
+
+ Google Scholar
+
+Yang, H., Zheng, H., & Zhang, T. (2024). A review of artificial intelligent methods for machined surface roughness prediction. 
+
+Tribology International,
+
+199
+
+, 109935. 
+
+https://doi.org/10.1016/j.triboint.2024.109935
+
+https://doi.org/10.1016/j.triboint.2024.109935
+
+Article
+
+https://doi.org/10.1016/j.triboint.2024.109935
+
+ Google Scholar
+
+https://doi.org/10.1016/j.triboint.2024.109935
+
+Yang, J., & Altintas, Y. (2015). A generalized on-line estimation and control of five-axis contouring errors of CNC machine tools. 
+
+International Journal of Machine Tools and Manufacture,
+
+88
+
+, 9–23.
+
+Article
+
+ Google Scholar
+
+Yang, J., Zou, B., Guo, G., Chen, W., Wang, X., & Zhang, K. (2022). A study on the roughness detection for machined surface covered with chips based on deep learning. 
+
+Journal of Manufacturing Processes,
+
+84
+
+, 77–87. 
+
+https://doi.org/10.1016/j.jmapro.2022.09.061
+
+https://doi.org/10.1016/j.jmapro.2022.09.061
+
+Article
+
+https://doi.org/10.1016/j.jmapro.2022.09.061
+
+ Google Scholar
+
+https://doi.org/10.1016/j.jmapro.2022.09.061
+
+Yang, M., Yang, J., Zhu, L., & Yu, X. (2020). A novel curvature circle iterative algorithm for contour error control of multi-axis CNC machine tools. 
+
+Precision Engineering,
+
+65
+
+, 23–31.
+
+Article
+
+ Google Scholar
+
+Yang, Y., Lv, J., Xiao, Y., Feng, X., & Du, Z. (2023b). Enhanced modeling method of thermal behaviors in machine tool motorized spindles based on the mixture of thermal mechanism and machine learning. 
+
+Journal of Intelligent Manufacturing
+
+. 
+
+https://doi.org/10.1007/s10845-023-02234-w
+
+https://doi.org/10.1007/s10845-023-02234-w
+
+Article
+
+https://doi.org/10.1007/s10845-023-02234-w
+
+ Google Scholar
+
+https://doi.org/10.1007/s10845-023-02234-w
+
+Yesilli, M. C., Khasawneh, F. A., & Mann, B. P. (2022). Transfer learning for autonomous chatter detection in machining. 
+
+Journal of Manufacturing Processes,
+
+80
+
+, 1–27. 
+
+https://doi.org/10.1016/j.jmapro.2022.05.037
+
+https://doi.org/10.1016/j.jmapro.2022.05.037
+
+Article
+
+https://doi.org/10.1016/j.jmapro.2022.05.037
+
+ Google Scholar
+
+https://doi.org/10.1016/j.jmapro.2022.05.037
+
+Yesilli, M. C., Khasawneh, F. A., & Otto, A. (2020). On transfer learning for chatter detection in turning using wavelet packet transform and ensemble empirical mode decomposition. 
+
+CIRP Journal of Manufacturing Science and Technology,
+
+28
+
+, 118–135. 
+
+https://doi.org/10.1016/j.cirpj.2019.11.003
+
+https://doi.org/10.1016/j.cirpj.2019.11.003
+
+Article
+
+https://doi.org/10.1016/j.cirpj.2019.11.003
+
+ Google Scholar
+
+https://doi.org/10.1016/j.cirpj.2019.11.003
+
+Yi, H., Feng, Z., & Shu, A. (2024a). Grinding surface roughness measurement combined with simulation data and transfer learning. 
+
+Advanced Theory and Simulations,
+
+7
+
+(5), 2301100. 
+
+https://doi.org/10.1002/adts.202301100
+
+https://doi.org/10.1002/adts.202301100
+
+Article
+
+https://doi.org/10.1002/adts.202301100
+
+ Google Scholar
+
+https://doi.org/10.1002/adts.202301100
+
+Yi, H., Huang, J., Shu, A., & Song, K. (2024b). Recognition of grinding surface roughness grade based on adversarial domain adaptation under variable illumination. 
+
+Surface Topography: Metrology and Properties,
+
+12
+
+(1), 015003. 
+
+https://doi.org/10.1088/2051-672X/ad1c71
+
+https://doi.org/10.1088/2051-672X/ad1c71
+
+Article
+
+https://doi.org/10.1088/2051-672X/ad1c71
+
+ Google Scholar
+
+https://doi.org/10.1088/2051-672X/ad1c71
+
+Yin, C., Wang, Y., He, Y., Liu, L., Wang, Y., & Yue, G. (2021a). Early fault diagnosis of ball screws based on 1-D convolution neural network and orthogonal design. 
+
+Proceedings of the Institution of Mechanical Engineers, Part o: Journal of Risk and Reliability.
+
+https://doi.org/10.1177/1748006X21992886
+
+Article
+
+ Google Scholar
+
+Yin, C., Wang, Y., Ko, J. H., Lee, H. P., & Sun, Y. (2023). Attention-driven transfer learning framework for dynamic model guided time domain chatter detection. 
+
+Journal of Intelligent Manufacturing
+
+. 
+
+https://doi.org/10.1007/s10845-023-02133-0
+
+https://doi.org/10.1007/s10845-023-02133-0
+
+Article
+
+https://doi.org/10.1007/s10845-023-02133-0
+
+ Google Scholar
+
+https://doi.org/10.1007/s10845-023-02133-0
+
+Yin, C., Wang, Y., Lee, H. P., He, J., He, Y., & Sun, Y. (2021b). Robust wheel wear detection for solid carbide grinding under strong noise interference: A new approach based on improved ensemble noise-reconstructed empirical mode decomposition. 
+
+Wear,
+
+486–487
+
+, 204112. 
+
+https://doi.org/10.1016/j.wear.2021.204112
+
+https://doi.org/10.1016/j.wear.2021.204112
+
+Article
+
+https://doi.org/10.1016/j.wear.2021.204112
+
+ Google Scholar
+
+https://doi.org/10.1016/j.wear.2021.204112
+
+Yuan, X., Fan, Y., Liang, Z., Wang, S., Mao, X., Xie, X., et al. (2024). Prediction of measured surface topography with forced vibration effects. 
+
+Measurement,
+
+229
+
+, 114469. 
+
+https://doi.org/10.1016/j.measurement.2024.114469
+
+https://doi.org/10.1016/j.measurement.2024.114469
+
+Article
+
+https://doi.org/10.1016/j.measurement.2024.114469
+
+ Google Scholar
+
+https://doi.org/10.1016/j.measurement.2024.114469
+
+Zhang, C., Wang, J., Jiao, F., & Cao, Y. (2024a). Research on tool wear and surface quality in laser-assisted ultrasonic elliptical vibration cutting of cemented carbide. 
+
+Tribology International,
+
+193
+
+, 109389.
+
+Article
+
+ Google Scholar
+
+Zhang, H., Liu, J., Chen, S., & Wang, W. (2018). Novel roughness measurement for grinding surfaces using simulated data by transfer kernel learning. 
+
+Applied Soft Computing,
+
+73
+
+, 508–519. 
+
+https://doi.org/10.1016/j.asoc.2018.08.042
+
+https://doi.org/10.1016/j.asoc.2018.08.042
+
+Article
+
+https://doi.org/10.1016/j.asoc.2018.08.042
+
+ Google Scholar
+
+https://doi.org/10.1016/j.asoc.2018.08.042
+
+Zhang, P., Huang, C., Zhu, H., Wang, J., Yao, Y., & Yao, P. (2021). The research of tool wear criterion in micro cutting using the elastic recovery ratio of high-strength elastic alloy 3J33B. 
+
+The International Journal of Advanced Manufacturing Technology,
+
+114
+
+(5–6), 1767–1776. 
+
+https://doi.org/10.1007/s00170-021-06937-3
+
+https://doi.org/10.1007/s00170-021-06937-3
+
+Article
+
+https://doi.org/10.1007/s00170-021-06937-3
+
+ Google Scholar
+
+https://doi.org/10.1007/s00170-021-06937-3
+
+Zhang, S., Su, L., Gu, J., Li, K., Wu, W., & Pecht, M. (2024b). Category-level selective dual-adversarial network using significance-augmented unsupervised domain adaptation for surface defect detection. 
+
+Expert Systems with Applications,
+
+238
+
+, 121879. 
+
+https://doi.org/10.1016/j.eswa.2023.121879
+
+https://doi.org/10.1016/j.eswa.2023.121879
+
+Article
+
+https://doi.org/10.1016/j.eswa.2023.121879
+
+ Google Scholar
+
+https://doi.org/10.1016/j.eswa.2023.121879
+
+Zhao, H., Gain, A. K., Li, Z., & Zhang, L. (2023). Wear of mold surfaces: Interfacial adhesion in precision glass molding. 
+
+Wear,
+
+524–525
+
+, 204847. 
+
+https://doi.org/10.1016/j.wear.2023.204847
+
+https://doi.org/10.1016/j.wear.2023.204847
+
+Article
+
+https://doi.org/10.1016/j.wear.2023.204847
+
+ Google Scholar
+
+https://doi.org/10.1016/j.wear.2023.204847
+
+Zhuang, F., Qi, Z., Duan, K., Xi, D., Zhu, Y., Zhu, H., et al. (2021). A Comprehensive Survey on Transfer Learning. 
+
+Proceedings of the IEEE
+
+, 
+
+109
+
+(1), 43–76. Presented at the Proceedings of the IEEE. 
+
+https://doi.org/10.1109/JPROC.2020.3004555
+
+https://doi.org/10.1109/JPROC.2020.3004555
+
+Zhuo, Y., Han, Z., An, D., & Jin, H. (2021). Surface topography prediction in peripheral milling of thin-walled parts considering cutting vibration and material removal effect. 
+
+International Journal of Mechanical Sciences,
+
+211
+
+, 106797. 
+
+https://doi.org/10.1016/j.ijmecsci.2021.106797
+
+https://doi.org/10.1016/j.ijmecsci.2021.106797
+
+Article
+
+https://doi.org/10.1016/j.ijmecsci.2021.106797
+
+ Google Scholar
+
+https://doi.org/10.1016/j.ijmecsci.2021.106797
+
+Download references
+
+https://doi.org/10.1016/j.ijmecsci.2021.106797
+
+Acknowledgements
+
+The presented work is supported by the project grant 2024JMY001 from Taizhou Institute of Zhejiang University, and is partially supported by Guangdong Basic and Applied Basic Research Foundation under Grant 2023A1515110533.
+
+Funding
+
+Open access publishing enabled by City University of Hong Kong Library's agreement with Springer Nature. This article was funded by Taizhou Institute of Zhejiang University, 2024JMY001, Ko Jeong Hoon, Basic and Applied Basic Research Foundation of Guangdong Province, 2023A1515110533, Chen Yin.
+
+Author information
+
+Authors and Affiliations
+
+Taizhou Institute of Zhejiang University, 618, West Section of Shifu Avenue, Taizhou, Zhejiang, China
+
+Jeong Hoon Ko
+
+Departament of Data Science, College of Computing, City University of Hong Kong, Kowloon, Hong Kong
+
+Chen Yin
+
+Authors
+
+Jeong Hoon Ko
+
+View author publications
+
+https://link.springer.com/search?sortBy=newestFirst&contributor=Jeong%20Hoon%20Ko
+
+Search author on:
+
+PubMed
+
+https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Jeong%20Hoon%20Ko
+
+Google Scholar
+
+https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Jeong%20Hoon%20Ko
+
+Chen Yin
+
+View author publications
+
+https://link.springer.com/search?sortBy=newestFirst&contributor=Chen%20Yin
+
+Search author on:
+
+PubMed
+
+https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Chen%20Yin
+
+Google Scholar
+
+https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Chen%20Yin
+
+Corresponding author
+
+Correspondence to 
+
+Chen Yin
+
+mailto:chenyin@cityu.edu.hk
+
+.
+
+Ethics declarations
+
+Conflict of interest
+
+The authors declare that this manuscript is original, has not been published before, and is not currently being considered for publication elsewhere.
+
+Additional information
+
+Publisher's Note
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+Rights and permissions
+
+Open Access
+
+ This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit 
+
+http://creativecommons.org/licenses/by/4.0/
+
+http://creativecommons.org/licenses/by/4.0/
+
+.
+
+Reprints and permissions
+
+http://creativecommons.org/licenses/by/4.0/
+
+About this article
+
+Cite this article
+
+Ko, J.H., Yin, C. A review of artificial intelligence application for machining surface quality prediction: from key factors to model development. 
+
+J Intell Manuf
+
+37
+
+, 775–798 (2026). https://doi.org/10.1007/s10845-025-02571-y
+
+Download citation
+
+Received :  01 October 2024
+
+Accepted :  09 January 2025
+
+Published :  10 February 2025
+
+Version of record :  10 February 2025
+
+Issue date :  February 2026
+
+DOI :  https://doi.org/10.1007/s10845-025-02571-y
+
+Share this article
+
+Anyone you share the following link with will be able to read this content:
+
+Sorry, a shareable link is not currently available for this article.
+
+ Provided by the Springer Nature SharedIt content-sharing initiative 
+
+Keywords
+
+Machining process
+
+Surface quality
+
+Sensor
+
+Artificial intelligence
+
+Transfer learning
+
+Advertisement
+
+Navigation
+
+ Find a journal 
+
+ Publish with us 
+
+ Track your research 
+
+Your US state privacy rights
+
+Accessibility statement
+
+Terms and conditions
+
+Privacy policy
+
+Help and support
+
+Legal notice
+
+Cancel contracts here
+
+64.233.172.101  
+
+Not affiliated
+
+© 2026 Springer Nature

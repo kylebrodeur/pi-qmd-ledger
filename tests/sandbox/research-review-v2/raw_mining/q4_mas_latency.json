@@ -1,0 +1,110 @@
+{
+  "value": {
+    "answer": "The **\"Observation-Execution Gap\"** is the temporal mismatch between the state of the robot when sensory data is captured (observation latency), the time it takes for a control policy to process that data and predict an action (inference latency), and the delay before the command is physically carried out by the hardware (execution latency) [1-3]. \n\nWhile fast, low-latency tabletop research robots can often implicitly mitigate this gap, industrial robotic arms operate with slower closed-loop dynamics, high inertia, long-reach kinematics, and high-level, buffered control interfaces with limited update rates [3-5]. Because of these hardware constraints, the observation-execution gap becomes a dominant system-level challenge [4]. If an AI agent issues commands without explicitly accounting for these delays, it results in the robot executing **\"stale actions\"**—movements based on outdated positional or environmental data [2, 3]. During contact-rich manufacturing tasks, such as delicate assembly or machining, these delayed or poorly timed actions directly translate into **force overshoot, machine jamming, motion discontinuities, and highly unstable physical interactions** [2, 3, 6, 7].\n\n**The Mechanism of Latency-Aware Execution**\nTo prevent these catastrophic physical failures, systems cannot rely on \"blocking execution\" (which pauses the system to wait for inference, causing massive idle time) or \"naive asynchronous execution\" (which blindly streams commands concurrently, causing dangerous force spikes) [8, 9]. Instead, they employ a **latency-aware execution strategy** that operates at the boundary between the AI policy interface and the robot controller [9, 10]. \n\nThe specific mechanism works as follows:\n*   **Timestamping and Buffering:** The AI policy outputs a sequence of predicted actions over a finite future horizon [10]. Instead of executing these immediately, the system converts them into a continuous-time action sequence by assigning them execution timestamps based on the policy's nominal execution period, and stores them in a buffer [11, 12].\n*   **Calculating the Target Execution Time:** During every command update cycle, the execution module queries the current time and explicitly adds the offline-estimated hardware execution latency (which accounts for communication delays, controller-side buffering, and internal actuator response) to determine the exact \"target execution timestamp\" [12-14]. \n*   **Interpolation and Discarding Stale Actions:** The system then looks at the buffer and retrieves the action corresponding to that specific target timestamp, using linear interpolation if the target time falls between two buffered actions [9, 12]. Crucially, any buffered actions with intended execution times that precede this target timestamp are considered stale and are automatically discarded [9, 12]. \n*   **Receding-Horizon Updates:** When a new AI inference prediction becomes available, it replaces the contents of the buffer with a newly timestamped action sequence, ensuring the buffer always reflects the most recent feasible future actions without retroactively altering commands that should have already been executed [12].\n\n**How it Prevents Force Overshoot and Machine Jamming**\nLatency-aware execution prevents force overshoot by ensuring that executed commands are always **temporally consistent with the robot's actual physical state** [15, 16]. During critical contact phases, naive execution methods cause force spikes because they act on delayed information, essentially commanding the robot to push into an object it has already made contact with [7]. By explicitly scheduling actions based on their temporal feasibility and automatically discarding stale actions from the command buffer, latency-aware execution allows the robot to maintain smooth, compliant physical motion and stable interaction without having to revert to slow, conservative blocking behaviors [9, 15, 16].",
+    "conversation_id": "f08689ec-b203-4ccd-afa6-6c47117542d8",
+    "sources_used": [
+      "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+      "280dabc1-180f-44cf-9d08-97872187b33e"
+    ],
+    "citations": {
+      "1": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+      "2": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+      "3": "280dabc1-180f-44cf-9d08-97872187b33e",
+      "4": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+      "5": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+      "6": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+      "7": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+      "8": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+      "9": "280dabc1-180f-44cf-9d08-97872187b33e",
+      "10": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+      "11": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+      "12": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+      "13": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+      "14": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+      "15": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+      "16": "420fba01-8aa8-42a6-8fb3-cb1411b44d52"
+    },
+    "references": [
+      {
+        "source_id": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+        "citation_number": 1,
+        "cited_text": "3.1.1 Latency sources Report issue for preceding element Learning-based robotic systems operating on physical hardware are subject to multiple sources of delay. We distinguish three latency components that jointly affect closed-loop behavior (Fig. 1 ): Report issue for preceding element • Observation latency is the delay between a physical event at the robot or in the environment and the availability of the corresponding sensor measurement to the computing system. This includes sensor exposure time, onboard processing, communication delays, and middleware buffering. Report issue for preceding element • Inference latency is the time required for a control policy to process observations and produce action prediction. This depends on the policy architecture, input dimensionality, and available computational resources. Report issue for preceding element • Execution latency is the delay between issuing a command to the robot controller and the resulting physical motion. This includes communication delays, command buffering, internal controller dynamics, and actuator response. Report issue for preceding element"
+      },
+      {
+        "source_id": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+        "citation_number": 2,
+        "cited_text": "These delays constitute the observation–execution gap , defined as the temporal mismatch between the robot state represented by the observations used for inference and the robot state at the time when the corresponding actions are physically executed. If unaccounted for, this gap can lead to stale or poorly timed actions, resulting in idle behavior, overshoot, discontinuities, or unstable contact interactions Black et al. [ 2025 ], Chi et al. [ 2024b ] . Report issue for preceding element 3.1.2 Policy interface"
+      },
+      {
+        "source_id": "280dabc1-180f-44cf-9d08-97872187b33e",
+        "citation_number": 3,
+        "cited_text": "Advanced Robotics and Distributed Manufacturing Systems **1. The Observation-Execution Gap and Latency-Aware Execution** * **The Bottleneck:** Industrial robotic arms operate differently than fast, low-latency tabletop research robots. They rely on high-level, buffered control interfaces and feature slower closed-loop dynamics, which introduces a severe \"observation-execution gap\" composed of sensing, inference, and execution latencies [1, 2]. * **The Risk:** If an AI agent commands a robot without accounting for these exact delays, it issues \"stale actions.\" In contact-rich manufacturing tasks, these poorly timed actions directly translate into force overshoot, machine jamming, or unstable physical interactions [2, 3]."
+      },
+      {
+        "source_id": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+        "citation_number": 4,
+        "cited_text": "Report issue for preceding element The industrial robotic arms commonly used in construction operate under observation–execution gaps that are substantially larger than those in high-frequency, low-latency tabletop platforms. They typically expose only safety-certified, high-level control interfaces with limited update rates, while exhibiting slower closed-loop response due to high inertia, long-reach kinematics, nonlinear coupled dynamics, and conservative controller gains imposed by safety constraints Kommey et al. [ 2025 ], Delgado and Oyedele [ 2022 ] . As a result, the observation–execution gap becomes a dominant systems-level challenge rather than a secondary implementation concern, significantly increasing sensitivity to stale actions and making precise temporal alignment among sensing, inference, and execution essential for smooth, reliable policy execution and for enabling reproducible learning-based workflows. While learning-based methods have been demonstrated on industrial robotic arms Liu et al. [ 2022 ], Chu et al. [ 2025 ] , they generally assume tightly integrated, low-latency execution pipelines and therefore do not explicitly treat the observation–execution gap as a core system-level consideration."
+      },
+      {
+        "source_id": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+        "citation_number": 5,
+        "cited_text": "Report issue for preceding element 2.3 Robot learning on industrial robots Report issue for preceding element Many visuomotor policy learning methods, including those based on action chunking and asynchronous policy execution, are typically applied to tabletop robotic platforms with low-level, high-frequency control loops, fast system dynamics, and relatively direct access to motion commands, enabling reproducible execution under well-controlled timing assumptions George and Farimani [ 2023 ], Mete et al. [ 2024 ], Chi et al. [ 2024a ], Zhao et al. [ 2025 ] . Industrial robotic arms, by contrast, are commonly accessed through safety-certified, high-level control interfaces with limited update rates, conservative controller gains, and restricted compliance, and they exhibit slower closed-loop response due to high inertia, long-reach kinematics, and nonlinear coupled dynamics Delgado and Oyedele [ 2022 ], Kommey et al. [ 2025 ] . These characteristics fundamentally shape how sensing and control are integrated in factory environments, where workflows often rely on offline programming, teach-pendant operation, or supervisory control rather than continuous closed-loop adaptation Zafar et al. [ 2024 ] . Under these conditions, the observation–execution latency becomes substantially more pronounced than in high-frequency systems, and delayed or stale actions can significantly degrade closed-loop performance. As a result, the observation–execution gap emerges as a dominant systems-level constraint, making precise temporal alignment among sensing, inference, and execution essential for smooth, reliable policy execution and for enabling reproducible learning-based workflows on industrial robotic platforms."
+      },
+      {
+        "source_id": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+        "citation_number": 6,
+        "cited_text": "Report issue for preceding element In contact-rich assembly, delayed or poorly timed actions can directly translate into force overshoot, jamming, or unstable interaction, making execution timing a critical system-level concern rather than a secondary control detail. These effects are exacerbated when robotic systems are accessed through high-level, buffered control interfaces, as is typical for industrial robotic arms. Since industrial robotic arms play a central role in large-scale robotic assembly in construction due to their high payload capacity and long reach Apolinarska [ 2018 ], Adel [ 2020 ], Lauer et al. [ 2023 ] , the following sections motivate a closer examination of the challenges that arise when applying modern robot learning methods to these systems."
+      },
+      {
+        "source_id": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+        "citation_number": 7,
+        "cited_text": "Figure 13: Comparison of motion smoothness between the demonstration reference (Ref.), Blocking Execution (BE), Naive Asynchronous Execution (NAE), and Latency-Aware Execution (LAE) strategies at various inference latencies (IL). Report issue for preceding element Naive asynchronous execution minimizes idle time and yields the shortest task durations across all latency settings (Table 1 ). However, it frequently departs from the demonstration reference, exhibiting overshoot, elevated contact forces, and increased force variability. These effects are especially pronounced during contact initiation and sliding, where delayed or poorly timed actions lead to force spikes and oscillatory interaction behavior (Figs. 15 , 12 )."
+      },
+      {
+        "source_id": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+        "citation_number": 8,
+        "cited_text": "Report issue for preceding element 3.4.1 Baseline execution strategies Report issue for preceding element To contextualize the role of latency-aware action scheduling, we consider two commonly used execution strategies as baselines: Report issue for preceding element • Blocking execution : Policy inference and execution are serialized (also referred to as naive synchronous inference Black et al. [ 2025 ] ). Command updates are paused while inference is performed, after which a fixed number of predicted actions are executed. This strategy avoids executing stale actions but introduces idle time proportional to inference latency. Report issue for preceding element • Naive asynchronous execution : Policy inference and execution run concurrently, and predicted actions are streamed to the robot controller as soon as they become available, without compensating for inference delay or execution latency. This strategy minimizes idle time but may execute actions outside their intended temporal context. Report issue for preceding element"
+      },
+      {
+        "source_id": "280dabc1-180f-44cf-9d08-97872187b33e",
+        "citation_number": 9,
+        "cited_text": "* **Latency-Aware Execution Mitigation:** To solve this, systems must abandon \"blocking execution\" (which halts the system and causes high idle time) and \"naive asynchronous execution\" (which blindly streams commands and causes force spikes) [4-6]. Instead, a **latency-aware execution strategy** explicitly schedules finite-horizon, policy-predicted actions based on their temporal feasibility [1, 7]. It calculates the estimated hardware delay, discards stale actions from the buffer, and interpolates the exact command needed at the execution timestamp, preserving smooth, compliant physical motion [7-9]."
+      },
+      {
+        "source_id": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+        "citation_number": 10,
+        "cited_text": "Report issue for preceding element The execution strategy schedules policy-predicted actions based on their feasibility under the observation–execution gap. Rather than modifying the policy architecture or training procedure, the strategy operates at the boundary between the policy interface and the industrial robot controller, explicitly accounting for execution latency when selecting commands to send. Policy outputs are treated as timestamped action sequences defined over a finite action prediction horizon T p T_{p} (Section 3.1.2 ). These actions are stored in a buffer indexed by their intended execution time. Inference runs asynchronously with respect to command execution and may update the buffer at irregular intervals."
+      },
+      {
+        "source_id": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+        "citation_number": 11,
+        "cited_text": "Report issue for preceding element When a policy is evaluated, the input observation is associated with a continuous-time timestamp τ obs \\tau_{\\mathrm{obs}} . The policy output { 𝐚 t + 1 , 𝐚 t + 2 , … , 𝐚 t + T p } {\\mathbf{a} {t+1},\\mathbf{a} {t+2},\\dots,\\mathbf{a} {t+T {p}}} , originally indexed in discrete timesteps, is converted into a continuous-time action sequence by assigning execution timestamps based on the nominal policy execution period Δ  τ \\Delta\\tau . Specifically, each predicted action 𝐚 t + i \\mathbf{a}_{t+i} is assigned the timestamp:"
+      },
+      {
+        "source_id": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+        "citation_number": 12,
+        "cited_text": "Report issue for preceding element 𝐚  ( τ obs + i  Δ  τ ) , i = 1 , … , T p \\mathbf{a}(\\tau_{\\mathrm{obs}}+i,\\Delta\\tau),\\quad i=1,\\dots,T_{p} (13) This conversion maps the policy's discrete prediction horizon into a time-indexed action sequence aligned with the execution clock of the control interface. At each command update cycle, the execution module queries the current time and computes the target execution timestamp by adding the estimated execution latency of the robot controller (Section 3.3.1 ). The action corresponding to this target timestamp is then retrieved from the buffer. If the target timestamp lies between two buffered actions, the executed command is obtained via linear interpolation. The resulting action is sent to the robot controller at the current update cycle. Actions in the buffer whose intended execution times precede the current target timestamp are considered stale and discarded. When a new policy inference result becomes available, it replaces the contents of the buffer with a newly timestamped action sequence. This receding-horizon update rule ensures that the buffer always reflects the most recent feasible future actions without retroactively altering commands that should already have been executed."
+      },
+      {
+        "source_id": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+        "citation_number": 13,
+        "cited_text": "Report issue for preceding element 3.3.1 Proprioception Report issue for preceding element The robot kinematic state is obtained via the controller's external feedback interface (EGM) at a nominal update rate of about 83 Hz \\mathrm{Hz} (12 ms \\mathrm{ms} cycle time). Each feedback message includes a timestamped Cartesian pose of the TCP, consisting of position and orientation. TCP poses from the robot controller are represented as 7D vectors (3D position and 4D unit quaternion). To avoid discontinuities associated with quaternions, TCP poses are mapped to a 9D representation using a continuous 6D rotation parameterization Zhou et al. [ 2019 ] . This representation enables standard vector-space operations required for normalization, regression, and differencing. Actions are represented in the same 9D space as relative pose offsets with respect to the observed TCP pose. During execution, a target pose is obtained by adding the predicted action vector to the current 9D pose representation and converting the resulting rotation back to a valid element of SO  ( 3 ) \\mathrm{SO}(3) via Gram–Schmidt Zhou et al. [ 2019 ] . This projection step enforces orthonormality before converting the rotation back to a unit quaternion for transmission to the robot controller."
+      },
+      {
+        "source_id": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+        "citation_number": 14,
+        "cited_text": "Report issue for preceding element Execution latency is estimated offline using trajectory alignment. The robotic arm is commanded to follow a time-indexed, constant-velocity Cartesian trajectory, and timestamped pose feedback is recorded. Execution latency is estimated by fitting linear models to the commanded and tracked trajectories and computing the relative time shift. In our experimental platform, the execution latency was approximately 225 ms \\mathrm{ms} . This estimate is used by the execution strategy to schedule action commands sufficiently in advance of their intended execution time (Section 3.4 )."
+      },
+      {
+        "source_id": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+        "citation_number": 15,
+        "cited_text": "Report issue for preceding element Latency-aware execution achieves a balance between these extremes. By discarding infeasible predictions and aligning remaining actions to the robot's execution timeline, it enables concurrent inference and execution while preserving smooth motion and compliant interaction. Across all inference latencies, force and motion smoothness metrics remain closest to the demonstration baseline (Figs. 12 , 13 ), and task durations remain stable and comparable to the demonstration reference (Table 1 ). Task progression under latency-aware execution also closely follows the demonstration distribution across all latency settings (Figs. 9 – 11 )."
+      },
+      {
+        "source_id": "420fba01-8aa8-42a6-8fb3-cb1411b44d52",
+        "citation_number": 16,
+        "cited_text": "Report issue for preceding element The impact of execution scheduling is most pronounced during contact phases, where executing stale or poorly timed actions leads to force overshoot and oscillatory behavior. Explicit time-aligned scheduling mitigates these effects by ensuring that executed actions remain temporally consistent with the robot's physical state, without reverting to conservative, blocking behavior. These results demonstrate that latency-aware execution is a critical system-level mechanism for maintaining stable interaction on industrial robotic arms with buffered control interfaces."
+      }
+    ]
+  }
+}

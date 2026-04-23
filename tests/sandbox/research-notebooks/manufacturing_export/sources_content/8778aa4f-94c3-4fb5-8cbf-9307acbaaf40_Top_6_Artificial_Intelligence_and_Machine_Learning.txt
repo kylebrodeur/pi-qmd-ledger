@@ -1,0 +1,629 @@
+Top 6 Artificial Intelligence and Machine Learning Tools - ASME
+
+Menu
+
+ASME
+
+https://www.asme.org/
+
+The American Society of Mechanical Engineers
+
+ASME Foundation
+
+https://www.asmefoundation.org/
+
+Sections & Divisions
+
+https://www.asme.org/get-involved/groups-sections-and-technical-divisions
+
+Programs
+
+https://www.asme.org/asme-programs
+
+Sign In/Create Account
+
+https://www.asme.org/sign-in?ReturnUrl=/topics-resources/content/6-ai-and-machine-learning-tools-for-engineers
+
+Cart 0
+
+https://www.asme.org/cart
+
+Search
+
+https://www.asme.org/topics-resources/content/6-ai-and-machine-learning-tools-for-engineers
+
+Menu
+
+About ASME
+
+https://www.asme.org/About-ASME
+
+Codes & Standards
+
+https://www.asme.org/Codes-Standards
+
+Certification & Accreditation
+
+https://www.asme.org/certification-accreditation
+
+Learning & Development
+
+https://www.asme.org/learning-development
+
+Publications & Submissions
+
+https://www.asme.org/Publications-Submissions
+
+Conferences & Events
+
+https://www.asme.org/conferences-events
+
+ASME Membership
+
+https://www.asme.org/membership
+
+Topics & Resources
+
+https://www.asme.org/Topics-Resources
+
+Get Involved
+
+https://www.asme.org/Get-Involved
+
+Government Relations
+
+https://www.asme.org/about-asme/governance
+
+6 AI and Machine Learning Tools for Engineers
+
+Print
+
+https://www.asme.org/topics-resources/content/6-ai-and-machine-learning-tools-for-engineers
+
+Topics & Resources
+
+https://www.asme.org/Topics-Resources
+
+Content
+
+https://www.asme.org/Topics-Resources/Content
+
+6 AI and Machine Learning Tools for Engineers
+
+6 AI and Machine Learning Tools for Engineers
+
+Share on LinkedIn
+
+https://www.linkedin.com/shareArticle?mini=true&url=https://www.asme.org/topics-resources/content/6-ai-and-machine-learning-tools-for-engineers&title=6+AI+and+Machine+Learning+Tools+for+Engineers+
+
+ 
+
+Share on Twitter
+
+https://twitter.com/intent/tweet?url=https://www.asme.org/topics-resources/content/6-ai-and-machine-learning-tools-for-engineers&text=6+AI+and+Machine+Learning+Tools+for+Engineers++via+%40ASMEdotorg
+
+ 
+
+Share on Facebook
+
+http://facebook.com/sharer.php?u=https://www.asme.org/topics-resources/content/6-ai-and-machine-learning-tools-for-engineers
+
+ 
+
+Share via email
+
+mailto:?&subject=6+AI+and+Machine+Learning+Tools+for+Engineers+&body=https://www.asme.org/topics-resources/content/6-ai-and-machine-learning-tools-for-engineers
+
+ 
+
+ 
+
+Digital technologies are quickly becoming an integral component in almost every area of engineering.
+
+Date Updated: October 31, 2024
+
+Mechanical engineers are familiar with artificial intelligence (AI) through their use of CAD on generative design projects and simulation software in their work with computational fluid dynamics.
+
+But AI, machine learning, and other related digital technologies are quickly becoming an integral component in almost every area of engineering as companies automate manual processes and enable machines to perform tasks previously performed by humans.
+
+Companies incorporating these technologies cover a wide range of industries, including aerospace, robotics, defense, manufacturing, power, autonomous vehicles, and construction, to name a few. And many of them are hungry for engineers familiar with or willing to learn different facets of AI in areas including design, analysis, data analytics, bioinspired systems, intelligent automation, fault estimation, material synthesis, and factory automation.
+
+Watch Video:
+
+ 
+
+The Use of AI in Medical Diagnostics and Therapeutics
+
+https://www.asme.org/topics-resources/content/video-the-use-of-artificial-intelligence-in-medical-diagnostics-and-therapuetics
+
+The advancement of these technologies is similar to the evolution of mechanical engineers, who now take on multidisciplinary roles to handle tasks once associated with more specialized fields. Many universities now have courses or even full-blown AI degrees to help young engineers looking to make themselves more marketable or career engineers seeking new skills for a different position.
+
+ 
+
+Penn State, for one, is incorporating programming and data science classes into its architectural and materials engineering degrees. “In five to 10 years, it will just be one of those skills that if you didn't learn it, you're going to have to learn it on your own,” said Rebecca Napolitano, an assistant professor of architectural engineering who's spearheading the program. “And that's hopefully what we can prevent here with our engineers.”
+
+Here is a short list of some of the most popular and highly ranked tools and software platforms widely used for AI development and design. Many of them offer free trials for hands-on exploration. YouTube and other instructional video sites also have plenty of tutorials to help bring any engineer interested in this new world up to speed.
+
+1. Python
+
+If you're going to explore any AI tool, the Python programming language is the one. Python is stable, flexible and fairly easy to use, making it the hands-down favorite for AI, machine learning, data analytics, and visualization projects and applications. It can take as little as a week to learn, is backed by a huge support community, and has more free tutorials than you can count. This is the programming language used in most engineering programming, data science, and AI courses.
+
+Test Your Knowledge in this Quiz:
+
+ 
+
+What Is AI?
+
+https://www.asme.org/topics-resources/content/quiz-what-is-ai
+
+Python may be king for now, but Penn State's Napolitano urges her students to keep an open mind. Like any hot technology, Python could eventually fade away or be replaced by something new. Learning how to learn, how logic works and how systems flow together protects engineers against any obsolescence, especially their own, she said.
+
+2. TensorFlow
+
+TensorFlow, developed by Google engineers, is a free open-source library for the development and training of ML models, deep neural networks research (an ML technology that uses algorithms inspired by the structure and function of the brain to provide machines with intelligence), and a variety of other areas. It's also included in the Google AI platform.
+
+3. Google AI Platform
+
+The Swiss Army knife of AI development tools, Google AI products include Vertex AI, an ML platform to build, deploy, and scale AI models; AutoML, designed to use Vertex's features to save time training ML models; and AI building blocks to add sight, language, conversation and structured data to applications.
+
+4. Amazon Web Services
+
+Another feature-rich platform, AWS SageMaker ML services includes 12 tools to help developers and data scientists and engineers build, train, and deploy ML models at scale.
+
+Recommended for You:
+
+ 
+
+Building Robot Brawn with AI Brains
+
+https://www.asme.org/topics-resources/content/building-robot-brawn-with-a-i-brains
+
+5. IBM Watson
+
+Through its deep industry ties and history of technology development, IBM understands how engineers of all disciplines use AI to analyze data, understand what data adds value, and to automate time consuming processes. As part of its Watson suite of AI applications, Watson Studio is designed to help developers, data scientists, engineers, and others to speed up deep learning workflows and to easily build, train, and deploy models.
+
+6. Microsoft Copilot
+
+Microsoft already offers Azure AI—a portfolio of AI services designed for developers and data scientists to build and deploy their own AI solutions. Recently, Microsoft launched an AI pair-programming system called GitHub Copilot in collaboration with OpenAI. Copilot, which is now available in preview as a Visual Studio Code extension, is an AI tool that helps developers to write better code in many programming languages.
+
+Jeff O'Heir is a science and technology writer based in Hutington, N.Y.
+
+ 
+
+ 
+
+Digital technologies are quickly becoming an integral component in almost every area of engineering.
+
+Date Published:
+
+Oct 13, 2021
+
+Author:
+
+Jeff O'Heir
+
+Tags:
+
+Advanced Manufacturing
+
+https://www.asme.org/Topics-Resources/Content?topic=advanced-manufacturing
+
+Drafting, Modeling, and Model Validation
+
+https://www.asme.org/Topics-Resources/Content?topic=drafting-modeling-and-model-validation
+
+Robotics
+
+https://www.asme.org/Topics-Resources/Content?topic=robotics
+
+Technology and Society
+
+https://www.asme.org/Topics-Resources/Content?topic=technology-and-society
+
+Related Content
+
+Article Nov 1, 2024 Artificial Intelligence and DEI Author Thomas Costabile
+
+https://www.asme.org/Topics-Resources/Society-News/Letters-Official-Statements/Artificial-Intelligence-and-DEI
+
+Mar 31, 2023 Career Workbook: How (Exactly) to Highlight Your Future-Ready Soft Skills When Job Searching
+
+https://www.asme.org/Topics-Resources/Content/Career-Workbook-How-(Exactly)-to-Highlight-Your-Future-Ready-Soft-Skills-When-Job-Searching
+
+Article Feb 8, 2021 Engineers Learn to Work with AI Author Kayt Sukel Artificial intelligence is reshaping many popular design and process optimization tools. How can mechanical engineers harness these new algorithms to enhance their skills?
+
+https://www.asme.org/Topics-Resources/Content/Engineers-Learn-to-Work-with-AI
+
+Article Apr 2, 2026 Ultra-Fine 3D Printing with a Mosquito's Mouth Author Alexandra Frost Additive Manufacturing Collection A nature-inspired solution merges the feeding tube of a mosquito with a 3D printer that can achieve a surprising resolution.
+
+https://www.asme.org/Topics-Resources/Content/Ultra-Fine-3D-Printing-with-a-Mosquito%E2%80%99s-Mouth
+
+Skip Footer
+
+https://www.asme.org/topics-resources/content/6-ai-and-machine-learning-tools-for-engineers#footerbottom
+
+About ASME
+
+https://www.asme.org/about-asme
+
+Media Inquiries
+
+https://www.asme.org/about-asme/media-inquiries
+
+Contact Us
+
+https://www.asme.org/about-asme/contact-us
+
+Careers at ASME
+
+https://www.asme.org/about-asme/careers-at-asme
+
+Advertising & Sponsorships
+
+https://www.asme.org/getmedia/993949cc-432e-47f7-9a9d-6c7a6e8cdbe1/2026-me-media-planner_asme.pdf
+
+Codes & Standards
+
+https://www.asme.org/codes-standards
+
+Find Codes & Standards
+
+https://www.asme.org/codes-standards/find-codes-standards
+
+About Standards
+
+https://www.asme.org/codes-standards/about-standards
+
+C&S Connect
+
+https://cstools.asme.org/
+
+ASME on LinkedIn
+
+https://www.linkedin.com/company/asme/
+
+ 
+
+ASME on Twitter
+
+https://twitter.com/asmedotorg
+
+ 
+
+ASME on Facebook
+
+https://www.facebook.com/ASME.org/
+
+ 
+
+ASME on Instagram
+
+https://www.instagram.com/asmedotorg/
+
+Certification & Accreditation
+
+https://www.asme.org/certification-accreditation
+
+Start a Certificate Application
+
+https://www.asme.org/certification-accreditation/asme-certification-process/to-start-a-certificate-application
+
+Find a Certified Company
+
+https://www.asme.org/certification-accreditation/resources-and-events/locate-asme-certified-companies
+
+CA Connect
+
+https://caconnect.asme.org/
+
+Resources & Events
+
+https://www.asme.org/certification-accreditation/resources-and-events
+
+Learning & Development
+
+https://www.asme.org/learning-development
+
+Find Courses
+
+https://www.asme.org/learning-development/find-course
+
+Corporate & Government Training
+
+https://www.asme.org/learning-development/corporate-training
+
+Learning Hub Login
+
+https://elearning.asme.org/
+
+Publications & Submissions
+
+https://www.asme.org/publications-submissions
+
+Find Books
+
+https://www.asme.org/publications-submissions/books
+
+Find Journals
+
+https://www.asme.org/publications-submissions/journals
+
+Find Proceedings
+
+https://www.asme.org/publications-submissions/proceedings
+
+Digital Collection
+
+https://asmedigitalcollection.asme.org/
+
+Conferences & Events
+
+https://www.asme.org/conferences-events
+
+Event Calendar
+
+https://www.asme.org/conferences-events/events
+
+Event Search
+
+https://www.asme.org/conferences-events/event-search
+
+Competitions
+
+https://www.asme.org/conferences-events/competitions
+
+Topics & Resources
+
+https://www.asme.org/topics-resources
+
+Find Content
+
+https://www.asme.org/topics-resources/content
+
+Society News
+
+https://www.asme.org/topics-resources/society-news
+
+ASME Membership
+
+https://www.asme.org/membership
+
+Why Become a Member
+
+https://www.asme.org/membership/Why-Become-a-Member
+
+How to Join
+
+https://www.asme.org/membership/how-to-join
+
+Renew Membership
+
+https://www.asme.org/membership/renew-membership
+
+Access Your Benefits
+
+https://www.asme.org/membership/membership-benefits
+
+The ASME Store
+
+https://asmestore.merchorders.com/
+
+ASME on LinkedIn
+
+https://www.linkedin.com/company/asme/
+
+ 
+
+ASME on Twitter
+
+https://twitter.com/asmedotorg
+
+ 
+
+ASME on Facebook
+
+https://www.facebook.com/ASME.org/
+
+ 
+
+ASME on Instagram
+
+https://www.instagram.com/asmedotorg/
+
+About ASME
+
+About ASME
+
+https://www.asme.org/about-asme
+
+Media Inquiries
+
+https://www.asme.org/about-asme/media-inquiries
+
+Contact Us
+
+https://www.asme.org/about-asme/contact-us
+
+Careers at ASME
+
+https://www.asme.org/about-asme/careers-at-asme
+
+Advertising & Sponsorships
+
+https://www.asme.org/getmedia/993949cc-432e-47f7-9a9d-6c7a6e8cdbe1/2026-me-media-planner_asme.pdf
+
+Codes & Standards
+
+Codes & Standards
+
+https://www.asme.org/codes-standards
+
+Find Codes & Standards
+
+https://www.asme.org/codes-standards/find-codes-standards
+
+About Standards
+
+https://www.asme.org/codes-standards/about-standards
+
+C&S Connect
+
+https://cstools.asme.org/
+
+Certification & Accreditation
+
+Certification & Accreditation
+
+https://www.asme.org/certification-accreditation
+
+Start a Certificate Application
+
+https://www.asme.org/certification-accreditation/asme-certification-process/to-start-a-certificate-application
+
+Find a Certified Company
+
+https://www.asme.org/certification-accreditation/resources-and-events/locate-asme-certified-companies
+
+CA Connect
+
+https://caconnect.asme.org/
+
+Resources & Events
+
+https://www.asme.org/certification-accreditation/resources-and-events
+
+Learning & Development
+
+Learning & Development
+
+https://www.asme.org/learning-development
+
+Find Courses
+
+https://www.asme.org/learning-development/find-course
+
+Corporate & Government Training
+
+https://www.asme.org/learning-development/corporate-training
+
+Learning Hub Login
+
+https://elearning.asme.org/
+
+Publications & Submissions
+
+Publications & Submissions
+
+https://www.asme.org/publications-submissions
+
+Find Books
+
+https://www.asme.org/publications-submissions/books
+
+Find Journals
+
+https://www.asme.org/publications-submissions/journals
+
+Find Proceedings
+
+https://www.asme.org/publications-submissions/proceedings
+
+Digital Collection
+
+https://asmedigitalcollection.asme.org/
+
+Conferences & Events
+
+Conferences & Events
+
+https://www.asme.org/conferences-events
+
+Event Calendar
+
+https://www.asme.org/conferences-events/events
+
+Event Search
+
+https://www.asme.org/conferences-events/event-search
+
+Competitions
+
+https://www.asme.org/conferences-events/competitions
+
+Topics & Resources
+
+Topics & Resources
+
+https://www.asme.org/topics-resources
+
+Find Content
+
+https://www.asme.org/topics-resources/content
+
+Society News
+
+https://www.asme.org/topics-resources/society-news
+
+ASME Membership
+
+ASME Membership
+
+https://www.asme.org/membership
+
+Why Become a Member
+
+https://www.asme.org/membership/Why-Become-a-Member
+
+How to Join
+
+https://www.asme.org/membership/how-to-join
+
+Renew Membership
+
+https://www.asme.org/membership/renew-membership
+
+Access Your Benefits
+
+https://www.asme.org/membership/membership-benefits
+
+The ASME Store
+
+https://asmestore.merchorders.com/
+
+Terms of Use
+
+https://www.asme.org/terms-of-use
+
+ 
+
+Privacy and Security Statement
+
+https://www.asme.org/privacy-and-security-statement
+
+ 
+
+Communication Preferences
+
+https://preferences.asme.org/
+
+Sales Policy
+
+https://www.asme.org/sales-policy
+
+ 
+
+Sitemap
+
+https://www.asme.org/sitemap
+
+ ©2026 The American Society of Mechanical Engineers. All rights reserved.
+
+©2026 The American Society of Mechanical Engineers. All rights reserved.
+
+ 
+
+PageAssist Discover your personalization options
+
+ 
+
+ 

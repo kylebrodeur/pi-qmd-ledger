@@ -1,0 +1,107 @@
+⭐ 9970	livekit/agents	A framework for building realtime voice AI agents 🤖🎙️📹 
+⭐ 981	goat-sdk/goat	The leading agentic finance toolkit for AI agents
+⭐ 9759	microsoft/magentic-ui	A research prototype of a human-centered web agent
+⭐ 9513	getlago/lago	Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics
+⭐ 9174	microsoft/agent-framework	A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.
+⭐ 86564	browser-use/browser-use	🌐 Make websites accessible for AI agents. Automate tasks online with ease.
+⭐ 8565	vectorize-io/hindsight	Hindsight: Agent Memory That  Learns
+⭐ 7631	VoltAgent/voltagent	AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework
+⭐ 7631	VoltAgent/voltagent	AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework
+⭐ 7631	VoltAgent/voltagent	AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework
+⭐ 726	rapidaai/voice-ai	Rapida is an open-source, end-to-end voice AI orchestration platform for building real-time conversational voice agents with audio streaming, STT, TTS, VAD, multi-channel integration, agent state management, and observability.
+⭐ 625	patoles/agent-flow	Real-time visualization of Claude Code agent orchestration — see your agents think, branch, and coordinate as they work.
+⭐ 6235	katanemo/plano	Plano is an AI-native proxy and data plane for agentic apps — with built-in orchestration, safety, observability, and smart LLM routing so you stay focused on your agents core logic.
+⭐ 5	lsj5031/PiSwarm	
+⭐ 59632	bytedance/deer-flow	An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.
+⭐ 59632	bytedance/deer-flow	An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.
+⭐ 57926	Mintplex-Labs/anything-llm	The all-in-one AI productivity accelerator. On device and privacy first with no annoying setup or configuration.
+⭐ 57926	Mintplex-Labs/anything-llm	The all-in-one AI productivity accelerator. On device and privacy first with no annoying setup or configuration.
+⭐ 56837	microsoft/autogen	A programming framework for agentic AI
+⭐ 52362	mem0ai/mem0	Universal memory layer for AI Agents
+⭐ 52362	mem0ai/mem0	Universal memory layer for AI Agents
+⭐ 52244	ComposioHQ/awesome-claude-skills	A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
+⭐ 52126	666ghj/MiroFish	A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物
+⭐ 51666	FlowiseAI/Flowise	Build AI Agents, Visually
+⭐ 4	bazilicum/GraphLTM	Turn any LLM into a self-extending knowledge agent powered by a graph-structured memory - complete with PDF-to-graph ingestion, budget-aware optimisation, and dual-engine orchestration.
+⭐ 49720	code-yeongyu/oh-my-openagent	omo; the best agent harness - previously oh-my-opencode
+⭐ 48675	TauricResearch/TradingAgents	TradingAgents: Multi-Agents LLM Financial Trading Framework
+⭐ 485	SethGammon/Citadel	Agent orchestration harness for Claude Code. Four-tier routing (/do), campaign persistence across sessions, parallel agents in isolated worktrees, discovery relay between waves, lifecycle hooks, circuit breaker, and 6 production-quality skills. From solo developer to institutional scale.
+⭐ 4713	cloudflare/agents	Build and deploy AI Agents on Cloudflare 
+⭐ 46438	thedotmack/claude-mem	A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.
+⭐ 46438	thedotmack/claude-mem	A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.
+⭐ 4424	ragapp/ragapp	The easiest way to use Agentic RAG in any enterprise
+⭐ 431	theredsix/agent-browser-protocol	Deterministic browser automation. Works out of the box with Claude/Codex/OpenCode
+⭐ 4268	max-sixty/worktrunk	Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows
+⭐ 4224	mongodb-developer/GenAI-Showcase	GenAI Cookbook
+⭐ 420300	public-apis/public-apis	A collective list of free APIs
+⭐ 4186	JoshuaC215/agent-service-toolkit	Full toolkit for running an AI agent service built with LangGraph, FastAPI and Streamlit
+⭐ 40032	aaif-goose/goose	an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
+⭐ 3	jongirard/pi-grove	Plan-aware agent orchestration for Pi. Grove reads a structured markdown plan, parses it into work streams with dependencies, and orchestrates parallel AI agents to execute them — all monitored through a real-time web dashboard.
+⭐ 3916	entireio/cli	Entire is a new developer platform that hooks into your git workflow to capture AI agent sessions on every push, unifying your code with its context and reasoning.
+⭐ 38	tintinweb/pi-tasks	A pi extension that brings Claude Code-style task tracking and coordination to pi. Track multi-step work with structured tasks, dependency management, and a persistent visual widget.
+⭐ 38	monk1337/clicodelog	Browse & Inspect CLI agents : Claude Code, Codex, Gemini CLI code & conversation history
+⭐ 38926	mindsdb/mindsdb	Query Engine for AI Analytics: Build self-reasoning agents across all your live data
+⭐ 38711	NousResearch/hermes-agent	The agent that grows with you
+⭐ 37561	hesreallyhim/awesome-claude-code	A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic
+⭐ 35874	veggiemonk/awesome-docker	:whale: A curated list of Docker resources and projects
+⭐ 33	ifiokjr/oh-pi	One-click setup for pi-coding-agent — extensions, themes, prompts, skills, and ant-colony swarm. Like oh-my-zsh for pi.
+⭐ 33689	ItzCrazyKns/Vane	Vane is an AI-powered answering engine.
+⭐ 30	brain-tree-dev/brain-tree-os	Open source brain viewer and project management for AI agents. Give your AI a brain.
+⭐ 30087	CopilotKit/CopilotKit	The Frontend Stack for Agents & Generative UI. React + Angular.  Makers of the AG-UI Protocol
+⭐ 2	kylebrodeur/universal-agent-context	Universal context system for AI agents: discover, translate, and manage agent skills across formats. Includes MCP server, CLI, and Python library.
+⭐ 2	kylebrodeur/universal-agent-context	Universal context system for AI agents: discover, translate, and manage agent skills across formats. Includes MCP server, CLI, and Python library.
+⭐ 2809	batrachianai/toad	A unified interface for AI in your terminal.
+⭐ 2783	docker/docker-agent	AI Agent Builder and Runtime by Docker Engineering
+⭐ 276	JosefAlbers/pvm	Phi-3.5 for Mac: Locally-run Vision and Language Models for Apple Silicon
+⭐ 27628	simstudioai/sim	Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.
+⭐ 27628	simstudioai/sim	Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.
+⭐ 2669	RunMaestro/Maestro	Agent Orchestration Command Center
+⭐ 26420	Yeachan-Heo/oh-my-claudecode	Teams-first Multi-agent orchestration for Claude Code
+⭐ 2633	decodingai-magazine/second-brain-ai-assistant-course	Learn to build your Second Brain AI assistant with LLMs, agents, RAG, fine-tuning, LLMOps and AI systems techniques.
+⭐ 25672	dapr/dapr	Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration.
+⭐ 24660	getzep/graphiti	Build Real-Time Knowledge Graphs for AI Agents
+⭐ 237	ThibautMelen/agentic-ai-systems	🐔 Agentic systems explained with chickens. Workflows, agents & orchestration made simple. Mermaid diagrams included
+⭐ 2074	run-llama/llama_deploy	Deploy your agentic worfklows to production
+⭐ 2074	run-llama/llama_deploy	Deploy your agentic worfklows to production
+⭐ 1	kylebrodeur/wordpress-agent-kit	WordPress-focused AGENTS.md + Agent Skills starter kit for AI coding agents.
+⭐ 1	kylebrodeur/wordpress-agent-kit	WordPress-focused AGENTS.md + Agent Skills starter kit for AI coding agents.
+⭐ 1	kylebrodeur/ux-collab	Visual-first UI/UX collaboration for AI agents — browser automation, screenshot comparison, wireframes, design tokens, and the 8-step design loop.
+⭐ 1880	plastic-labs/honcho	 Memory library for building stateful agents
+⭐ 1845	bradygaster/squad	Squad: AI agent teams for any project
+⭐ 18340	OthmanAdi/planning-with-files	Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.
+⭐ 18081	screenpipe/screenpipe	Run agents that work for you based on what you do. AI finally knows what you are doing
+⭐ 17877	emcie-co/parlant	The conversational control layer for customer-facing AI agents - Parlant is a context-engineering framework optimized for controlling customer interactions.
+⭐ 1698	onecli/onecli	Open-source credential vault, give your AI agents access to services without exposing keys.
+⭐ 1679	starpig1129/DATAGEN	DATAGEN: AI-driven multi-agent research assistant automating hypothesis generation, data analysis, and report writing. 
+⭐ 16629	camel-ai/camel	🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org
+⭐ 16442	alibaba/page-agent	JavaScript in-page GUI agent. Control web interfaces with natural language.
+⭐ 16243	OptimalBits/bull	Premium Queue package for handling distributed jobs and messages in NodeJS.
+⭐ 15046	topoteretes/cognee	Knowledge Engine for AI Agent Memory in 6 lines of code
+⭐ 147161	affaan-m/everything-claude-code	The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+⭐ 146710	langflow-ai/langflow	Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
+⭐ 14547	n8n-io/self-hosted-ai-starter-kit	The Self-hosted AI Starter Kit is an open-source template that quickly sets up a local AI environment. Curated by n8n, it provides essential tools for creating secure, self-hosted AI workflows.
+⭐ 1427	durable-streams/durable-streams	The data primitive for the agent loop.
+⭐ 1400	covibes/zeroshot	Your autonomous engineering team in a CLI. Point Zeroshot at an issue, walk away, and return to production-grade code. Supports Claude Code, OpenAI Codex, OpenCode, and Gemini CLI.
+⭐ 1400	covibes/zeroshot	Your autonomous engineering team in a CLI. Point Zeroshot at an issue, walk away, and return to production-grade code. Supports Claude Code, OpenAI Codex, OpenCode, and Gemini CLI.
+⭐ 1400	covibes/zeroshot	Your autonomous engineering team in a CLI. Point Zeroshot at an issue, walk away, and return to production-grade code. Supports Claude Code, OpenAI Codex, OpenCode, and Gemini CLI.
+⭐ 13728	gastownhall/gastown	Gas Town - multi-agent workspace manager
+⭐ 13702	MODSetter/SurfSense	An open source, privacy focused alternative to NotebookLM for teams with no data limit's. Join our Discord: https://discord.gg/ejRNvftDp9
+⭐ 13489	eigent-ai/eigent	Eigent: The Open Source Cowork Desktop to Unlock Your Exceptional Productivity. Local and Free Alternative to Claude Cowork.
+⭐ 132836	langchain-ai/langchain	The agent engineering platform
+⭐ 132836	langchain-ai/langchain	The agent engineering platform
+⭐ 132836	langchain-ai/langchain	The agent engineering platform
+⭐ 12878	ag-ui-protocol/ag-ui	AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.
+⭐ 12381	neuml/txtai	💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows
+⭐ 1230	cloudflare/agents-starter	A starter kit for building ai agents on Cloudflare
+⭐ 116	YuxingLu613/KARMA	Leveraging Multi-Agent LLMs for Automated Knowledge Graph Enrichment
+⭐ 11628	e2b-dev/E2B	Open-source, secure environment with real-world tools for enterprise-grade agents.
+⭐ 113	aira-security/mcp-armor	MCP Armor continuously secures and monitors Model Context Protocol operations through static and dynamic scans, revealing hidden risks in agent-to-tool communications.
+⭐ 1130	HITsz-TMG/AIGC-Claw	Your First AIGC Coworker. Chat an Idea. Get a Film. 🦞
+⭐ 1088	vercel-labs/workflow-builder-template	Visual AI workflow automation platform
+⭐ 10790	simular-ai/Agent-S	Agent S: an open agentic framework that uses computers like a human
+⭐ 10790	simular-ai/Agent-S	Agent S: an open agentic framework that uses computers like a human
+⭐ 106118	firecrawl/firecrawl	🔥 The Web Data API for AI - Power AI agents with clean web data
+⭐ 104844	Shubhamsaboo/awesome-llm-apps	Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.
+⭐ 1032	DeepMyst/Mysti	AI coding dream team of agents for VS Code. Claude Code + openai Codex collaborate in brainstorm mode, debate solutions, and synthesize the best approach for your code.
+⭐ 1032	DeepMyst/Mysti	AI coding dream team of agents for VS Code. Claude Code + openai Codex collaborate in brainstorm mode, debate solutions, and synthesize the best approach for your code.
+⭐ 100647	google-gemini/gemini-cli	An open-source AI agent that brings the power of Gemini directly into your terminal.

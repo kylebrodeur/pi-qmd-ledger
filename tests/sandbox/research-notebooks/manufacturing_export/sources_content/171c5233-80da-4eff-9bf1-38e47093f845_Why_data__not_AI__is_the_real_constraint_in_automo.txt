@@ -1,0 +1,679 @@
+Smart factory AI in automotive: why data architecture, not algorithms, limits production scalability
+
+Jump to main content
+
+https://www.automotivemanufacturingsolutions.com/smart-factory/why-data-not-ai-is-the-real-constraint-in-automotive-production/2640596#main
+
+Search
+
+Events
+
+https://www.automotivemanufacturingsolutions.com/events
+
+Livestreams
+
+https://www.automotivemanufacturingsolutions.com/livestreams
+
+Magazines
+
+https://www.automotivemanufacturingsolutions.com/magazines
+
+Reports
+
+https://www.automotivemanufacturingsolutions.com/reports
+
+Whitepapers
+
+https://www.automotivemanufacturingsolutions.com/whitepapers
+
+Video & Audio
+
+Videos
+
+https://www.automotivemanufacturingsolutions.com/videos
+
+Event highlights
+
+https://www.automotivemanufacturingsolutions.com/event-highlights
+
+Topics
+
+Smart Factory
+
+https://www.automotivemanufacturingsolutions.com/smart-factory
+
+Automation
+
+https://www.automotivemanufacturingsolutions.com/automation
+
+Electrification
+
+https://www.automotivemanufacturingsolutions.com/electrification
+
+Sustainability
+
+https://www.automotivemanufacturingsolutions.com/sustainability
+
+Digitalisation
+
+https://www.automotivemanufacturingsolutions.com/digitalisation
+
+News and Analysis
+
+News
+
+https://www.automotivemanufacturingsolutions.com/news
+
+Features
+
+https://www.automotivemanufacturingsolutions.com/features
+
+Analysis
+
+https://www.automotivemanufacturingsolutions.com/analysis
+
+Interviews
+
+https://www.automotivemanufacturingsolutions.com/interviews
+
+Plant Function
+
+Press & Body
+
+https://www.automotivemanufacturingsolutions.com/press-and-body
+
+Paintshop
+
+https://www.automotivemanufacturingsolutions.com/paintshop
+
+Assembly
+
+https://www.automotivemanufacturingsolutions.com/assembly
+
+Logistics
+
+https://www.automotivemanufacturingsolutions.com/logistics
+
+Quality
+
+https://www.automotivemanufacturingsolutions.com/quality
+
+Powertrain
+
+https://www.automotivemanufacturingsolutions.com/powertrain
+
+Companies
+
+OEMs
+
+https://www.automotivemanufacturingsolutions.com/oems
+
+Suppliers
+
+https://www.automotivemanufacturingsolutions.com/suppliers
+
+Equipment & technology providers
+
+https://www.automotivemanufacturingsolutions.com/equipment-and-technology-providers
+
+Strategy
+
+https://www.automotivemanufacturingsolutions.com/strategy
+
+Materials
+
+https://www.automotivemanufacturingsolutions.com/materials
+
+Regions
+
+https://www.automotivemanufacturingsolutions.com/regions
+
+Partner Content
+
+https://www.automotivemanufacturingsolutions.com/partner-content
+
+Our Media Pack
+
+https://www.automotivemanufacturingsolutions.com/media-pack
+
+Login/Register
+
+https://www.automotivemanufacturingsolutions.com/myams
+
+Our Newsletter
+
+https://www.automotivemanufacturingsolutions.com/newsletters
+
+FB
+
+https://www.facebook.com/automotivemanufacturingsolutions/
+
+Linkedin
+
+https://www.linkedin.com/company/manufacturing-automotive/
+
+Twitter
+
+https://x.com/ams_magazine
+
+Youtube
+
+https://www.youtube.com/@amsmagazinechannel
+
+Events
+
+https://www.automotivemanufacturingsolutions.com/events
+
+Automotive Manufacturing North America
+
+https://automotivemanufacturingna.automotivemanufacturingsolutions.com/
+
+Automotive Wire Harness
+
+https://www.eds-conference.com/
+
+Livestreams
+
+https://www.automotivemanufacturingsolutions.com/livestreams
+
+Magazines
+
+https://www.automotivemanufacturingsolutions.com/magazines
+
+Reports
+
+https://www.automotivemanufacturingsolutions.com/reports
+
+Whitepapers
+
+https://www.automotivemanufacturingsolutions.com/whitepapers
+
+Videos
+
+https://www.automotivemanufacturingsolutions.com/videos
+
+Search
+
+Login/Register
+
+https://www.automotivemanufacturingsolutions.com/myams
+
+Topics
+
+https://www.automotivemanufacturingsolutions.com/smart-factory/why-data-not-ai-is-the-real-constraint-in-automotive-production/2640596
+
+Smart Factory
+
+https://www.automotivemanufacturingsolutions.com/smart-factory
+
+Automation
+
+https://www.automotivemanufacturingsolutions.com/automation
+
+Electrification
+
+https://www.automotivemanufacturingsolutions.com/electrification
+
+Sustainability
+
+https://www.automotivemanufacturingsolutions.com/sustainability
+
+Digitalisation
+
+https://www.automotivemanufacturingsolutions.com/digitalisation
+
+Strategy
+
+https://www.automotivemanufacturingsolutions.com/strategy
+
+Press & Body
+
+https://www.automotivemanufacturingsolutions.com/press-and-body
+
+Paintshop
+
+https://www.automotivemanufacturingsolutions.com/paintshop
+
+Assembly
+
+https://www.automotivemanufacturingsolutions.com/assembly
+
+Powertrain
+
+https://www.automotivemanufacturingsolutions.com/powertrain
+
+Home
+
+https://www.automotivemanufacturingsolutions.com/
+
+Smart Factory
+
+https://www.automotivemanufacturingsolutions.com/smart-factory
+
+Why data, not AI, is the real constraint in automotive production
+
+Advertisement
+
+The AI–Data dance
+
+ 
+
+Ilkhan Ozsevim Ilkhan Ozsevim
+
+https://www.automotivemanufacturingsolutions.com/author/642696
+
+ Ilkhan Ozsevim Deputy Editor
+
+Published 2 April 2026 - 11:39 Modified 2 April 2026 - 11:43
+
+8 min 
+
+https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.automotivemanufacturingsolutions.com%2Fsmart-factory%2Fwhy-data-not-ai-is-the-real-constraint-in-automotive-production%2F2640596
+
+ 
+
+https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.automotivemanufacturingsolutions.com%2Fsmart-factory%2Fwhy-data-not-ai-is-the-real-constraint-in-automotive-production%2F2640596
+
+ 
+
+https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.automotivemanufacturingsolutions.com%2Fsmart-factory%2Fwhy-data-not-ai-is-the-real-constraint-in-automotive-production%2F2640596
+
+ 
+
+Why data, not AI, is the real constraint in automotive production
+
+The smartest algorithm is only as good as the data beneath it AMS
+
+Automotive manufacturers are discovering that artificial intelligence does not fail on its algorithms. It fails on its foundations. The competitive battleground in smart manufacturing is shifting from model sophistication to data architecture, and most of the industry is not ready for it.
+
+Ask a manufacturer why its AI programme has not scaled, and the answer is almost never a shortcoming of the underlying technology. The defect detection model works. The quality inspection algorithm was validated in the pilot. The computer vision system performed above target precision. And yet the deployment stalled, the rollout was deferred and the initiative is, once again, described as 'promising'.
+
+The real obstruction, as a recent 
+
+AMS livestream on digitalisation and smarter automation
+
+https://www.automotivemanufacturingsolutions.com/livestreams/digitalisation-smarter-automation/2390265
+
+ made clear, lies not in the artificial intelligence itself but in the infrastructure surrounding it. More precisely, it lies in data: its quality, its architecture, its movement across networks and the degree to which it is, or is not, standardised across an organisation's production estate. For automotive manufacturers confronting the practical realities of AI deployment at scale, this is the challenge that defines the decade.
+
+The shift implied is not a minor recalibration. It represents a foundational reorientation of where manufacturing competence must now reside - away from automation engineering - and towards data architecture engineering. Those two disciplines are not the same, and the gap between them is where most AI programmes quietly expire.
+
+ 
+
+A.J. Camber VP, Head of Software Business Group Solidigm Official Linkedin Profile
+
+The algorithm is not the problem
+
+Advertisement
+
+It is worth stating this plainly, because the AI industry has spent considerable energy suggesting otherwise. The models available to manufacturers today for visual inspection, defect detection and quality monitoring are, in the main, mature and proven. Early adopters deploying Solidigm's newly launched Lucetta platform, for example, have reported achieving their first working inspection model in under two weeks, with better than 90 per cent precision. In other words, the underlying technology does not need further proof of concept. What it needs, is production-grade infrastructure to support it.
+
+A.J. Camber, VP and Head of the AI Software Business Group at Solidigm, is precise on where the breakdown most commonly occurs: “The first problem is the lack of high-quality data. The second is getting enough users involved early enough in the process, because you do not want an over-reliance on a few data scientists. For smaller or less advanced manufacturers, the thing that holds them back is that it is simply not obvious to them how AI can help, which use cases they should focus on, or where they should deploy it.”
+
+That taxonomy is worth pausing on. It describes a problem that is not primarily technical. It is operational, organisational and, at its root - architectural. The tools, in Camber's characterisation, are still largely built for developers and data scientists, which means that the engineers who understand the production process most intimately are excluded from direct interaction with the systems that are supposed to serve them. The expertise bottleneck is itself partly a product of design choices in the tooling; choices that are only now beginning to be reversed.
+
+The first problem is the lack of high-quality data. The second is getting enough users involved early enough in the process
+
+A.J. Camber, Solidigm
+
+🎬 Click here to watch the full conversation: Audi, the Manufacturing Technology Centre, Solidigm & AI
+
+https://www.automotivemanufacturingsolutions.com/livestreams/digitalisation-smarter-automation/2390265
+
+Why data quality is the real bottleneck
+
+If there is a single insight from 
+
+Audi
+
+https://www.automotivemanufacturingsolutions.com/smart-factory/audi-makes-a-quantum-leap-in-ai-for-quality/2636335
+
+'s experience of managing over 100 active AI initiatives across production and logistics that should command the attention of every digital transformation leader in the sector, it is this: the data problem does not present itself as a data problem. It presents itself as a scaling problem.
+
+ 
+
+Andreas Kühne, Program Manager for Artificial Intelligence in Production and Logistics, Audi Audi
+
+Andreas Kühne, Program Manager for Artificial Intelligence in Production and Logistics at Audi, describes the phenomenon with the authority of someone who has encountered it at every level of a large and complex manufacturing organisation. “It is easy to have a good AI idea, and most of the time it is also easy to build a prototype that demonstrates something impressive in production,” he observes.
+
+“But one of the key challenges is data. We have a great deal of data from many different assets, particularly on the shop floor. The difficulty is that you need this data to be of a certain quality, integrated and available. And in an ideal world, it must conform to a certain standard, with consistent semantics that operate across every production line and every production plant.”
+
+The consequence of failing to meet that standard is described with equal directness: “If all your data sits in individually isolated systems, you find yourself having to build a translator for the AI solution to connect with each one of them. That process takes a considerable amount of time, and it is one of the central challenges in making AI work specifically in production.”
+
+Advertisement
+
+This is the hidden cost that does not appear in AI project budgets. Each data integration is treated as a one-off engineering task rather than as a symptom of an underlying architectural deficit. The result, at scale, is an organisation - where OEM or tier - spending more resource on connecting data, than on using it. The translators multiply. The maintenance burden compounds. And the pace of new deployment slows, not because the technology is insufficient, but because the data estate is too fragmented to support it efficiently.
+
+The lesson from Audi's portfolio governance model is that this problem must be treated as a strategic priority, and not as a technical afterthought. Data standardisation is not a precondition that can be deferred until after AI has been deployed. It is a precondition for AI being deployable at all.
+
+If all your data sits in individually isolated systems, you find yourself having to build a translator for the AI solution to connect with each one of them
+
+Andreas Kühne, Audi
+
+The edge versus cloud dilemma in live production
+
+Even where data quality and integration have been addressed, a second infrastructure challenge awaits: the physical and latency constraints governing where data can be processed, and when.
+
+Computer vision
+
+https://www.automotivemanufacturingsolutions.com/smart-factory/quality-visions-ai-inspection-systems-that-learns-from-the-line/2623126
+
+ applications in automotive manufacturing generate data volumes of a magnitude that create genuine architectural problems. High-resolution cameras inspecting every component on a moving assembly line produce continuous streams of imagery that, if routed to the cloud for analysis, would impose both bandwidth costs and latency penalties that make real-time decision-making impossible.
+
+The inference that matters on the line, the determination of whether a weld is defective or a label is correctly applied, must happen at the edge. The physics of data movement allow no alternative.
+
+Solidigm's trajectory into manufacturing AI is itself a direct product of this reality. The company's origins in high-capacity solid-state storage, including drives of up to 256 terabytes, gave it an early vantage point on the data explosion accompanying the rise of industrial computer vision.
+
+Customers needed to be able to find the most useful data at the point where it was originally created and stored. Moving terabytes of data is genuinely difficult from a physics standpoint
+
+A.J. Camber, Solidigm
+
+“Our position in high-capacity storage allowed us to be among the first storage providers to observe this explosion in data volumes related to computer vision specifically,” Camber explains. “And alongside the data explosion, a clear problem statement emerged: customers needed to be able to find the most useful data at the point where it was originally created and stored. Moving terabytes of data is genuinely difficult from a physics standpoint, and that constraint shaped our entire approach.”
+
+Advertisement
+
+Lucetta is built around this constraint, enabling the annotation, data selection, model training and edge deployment pipeline to operate with minimal dependency on cloud connectivity for real-time decisions. The architecture processes as much as possible locally, reserving cloud resources for tasks, such as model training, where latency is acceptable and computational scale is beneficial.
+
+This matches, closely, with what Audi has arrived at through operational experience. Kühne describes an architecture in which the division of labour between edge and cloud is determined by use-case requirements rather than by default preference. “Infrastructure and architecture are certainly among the key aspects you must consider when scaling AI and data solutions. You need concepts and architecture that address all your needs. We have cases where we conduct the training in the cloud, but the inference must happen in real time on the line, so we need both ends.”
+
+We conduct the training in the cloud, but the inference must happen in real time on the line. You need both ends
+
+Andreas Kühne, Audi
+
+Audi has taken this further still, developing what Kühne describes as an “ 
+
+edge cloud for production
+
+https://www.automotivemanufacturingsolutions.com/smart-factory/audi-brings-artificial-intelligence-to-the-shopfloor-with-edge-4-cloud/2593961
+
+,” a hybrid model that runs on edge hardware while applying cloud-native patterns and technologies, including virtualised programmable logic controllers, to enable the scale and flexibility typically associated with cloud infrastructure at the physical proximity typically associated with on-premises deployment.
+
+It is a substantial piece of engineering, and it is the kind of investment that only makes sense for a carmaker that has accepted data infrastructure as a core competence rather than a supporting function.
+
+Standardisation as a scaling enabler
+
+The edge versus cloud decision is, ultimately, a consequence of a more fundamental choice: whether to treat each AI deployment as a bespoke project - or as an instance of a common platform. That choice has implications that ripple far beyond any individual use case.
+
+Kühne is explicit about the governance principle Audi applies to prevent architectural fragmentation. “We make sure that on the architecture side we return consistently to the same patterns, the same platforms and the same core products. We do not rebuild solutions and services that simply replicate an existing capability. That discipline is one of the two things we govern most actively, alongside data governance.”
+
+The reasoning is clear, but the discipline required to maintain it is less so. In a large organisation under constant pressure to deliver results quickly, the temptation to build a fast, isolated solution for an individual use case is always present. Each such decision is locally rational and potentially, systemically destructive. An organisation that has taken that path a hundred times has not built a scalable AI programme. It has built a maintenance liability.
+
+Businesses are there not to develop AI, but to use it as a tool. It is about ensuring that whatever you do produces outputs that actually improve the business
+
+Mike Wilson, Manufacturing Technology Centre
+
+From the supplier side, Solidigm's response to this challenge is to support established data standards and interoperability frameworks that customers already use. “We support widely adopted data formats and standards, such as 
+
+COCO for annotations and MQTT for messaging
+
+https://www.google.com/search?q=COCO+for+annotations+and+MQTT+for+messaging&rlz=1C5CHFA_enGB1185GB1185&oq=COCO+for+annotations+and+MQTT+for+messaging&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgcIARAhGKABMgcIAhAhGKABMgcIAxAhGKAB0gEHMzI0ajBqMagCCLACAfEFOuzX04YqxnE&sourceid=chrome&ie=UTF-8
+
+,” Camber notes. “Using frameworks that customers are already familiar with is the most direct way to support their governance activities without adding integration burden.”
+
+The broader implication is that standardisation is not primarily a technical discipline, but a strategic one. It requires decisions to be made centrally that could otherwise be made locally, and it requires those decisions to be defended against the persistent short-term incentive to deviate from them. The tiers and OEMs that maintain that discipline are the ones that find, over time, that each new AI deployment becomes cheaper, faster and less risky than the one before it. Those that do not find the opposite.
+
+Infrastructure as competitive advantage
+
+There is a phrase that circulates in technology strategy discussions and tends to be dismissed as jargon: “data as a competitive moat.” In the context of automotive AI deployment, it is nothing like jargon. It is, in fact, an accurate description of where durable competitive differentiation is being built.
+
+ 
+
+Mike Wilson Chief Automation Officer Manufacturing Technology Centre MTC
+
+The algorithms available to automotive manufacturers are, in most cases, not proprietary. The computer vision models used for defect detection and quality inspection are widely accessible. The generative AI tools being applied to procurement, logistics planning and process optimisation are available to any organisation willing to implement them.
+
+What is not equally accessible is the data infrastructure required to deploy those tools reliably, at scale, and across multiple production plants with consistent results. An OEM that has invested in a standardised data architecture, a coherent edge-cloud strategy and a governance model that prevents fragmentation has an advantage that a competitor cannot quickly replicate by purchasing a software licence.
+
+Because of course, the infrastructure took years to build. And the organisational discipline to maintain it took longer. And as a note in favour of experience, neither of these can really be acquired off the shelf.
+
+Mike Wilson, Chief Automation Officer at the Manufacturing Technology Centre and one of the UK's most authoritative voices on industrial automation, offers a perspective that cuts through the complexity. “All businesses are there not to develop AI, but to use it as a tool. And therefore - it is about ensuring that whatever you do produces the right outputs or actions that actually improve the business.”
+
+🎬 Watch the full conversation: Audi, TMC, Solidigm & AI
+
+https://www.automotivemanufacturingsolutions.com/livestreams/digitalisation-smarter-automation/2390265
+
+That sharp, yet highly accurate framing reorients the conversation usefully. The goal is not to build sophisticated AI systems. The goal is to build manufacturing businesses that are more productive, more consistent and more adaptable than their competitors. AI is one means to that end, and data infrastructure is the condition under which AI becomes usable at the scale required.
+
+With all this in hand, the statement offers weight: the carmakers and tiers who will lead in 
+
+smart factory
+
+https://www.automotivemanufacturingsolutions.com/smart-factory
+
+ capability over the coming decade are not necessarily those who are currently running the most advanced AI models. They are those who are building - right now - the data foundations on which those models can actually run. The 'factories of the future', therefore, despite conventional wisdom, will not be defined by the intelligence of their algorithms. They will be defined by the quality of the architecture beneath them.
+
+smart factory
+
+https://www.automotivemanufacturingsolutions.com/tag/smart%20factory
+
+ 
+
+data
+
+https://www.automotivemanufacturingsolutions.com/tag/data
+
+ 
+
+computer vision
+
+https://www.automotivemanufacturingsolutions.com/tag/computer%20vision
+
+ 
+
+audi
+
+https://www.automotivemanufacturingsolutions.com/tag/audi
+
+ 
+
+artificial intelligence
+
+https://www.automotivemanufacturingsolutions.com/tag/artificial%20intelligence
+
+ 
+
+editors pick
+
+https://www.automotivemanufacturingsolutions.com/tag/editors%20pick
+
+ 
+
+edge cloud 4 production
+
+https://www.automotivemanufacturingsolutions.com/tag/edge%20cloud%204%20production
+
+ 
+
+solidigm
+
+https://www.automotivemanufacturingsolutions.com/tag/solidigm
+
+ 
+
+electric vehicles
+
+https://www.automotivemanufacturingsolutions.com/tag/electric%20vehicles
+
+ 
+
+https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.automotivemanufacturingsolutions.com%2Fsmart-factory%2Fwhy-data-not-ai-is-the-real-constraint-in-automotive-production%2F2640596
+
+ 
+
+https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.automotivemanufacturingsolutions.com%2Fsmart-factory%2Fwhy-data-not-ai-is-the-real-constraint-in-automotive-production%2F2640596
+
+ 
+
+https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.automotivemanufacturingsolutions.com%2Fsmart-factory%2Fwhy-data-not-ai-is-the-real-constraint-in-automotive-production%2F2640596
+
+Sign up to the AMS newsletter
+
+Delivered every Tuesday. Sign up to stay informed about our content, events and the latest developments in automotive manufacturing.
+
+ 
+
+Back
+
+ 
+
+Next
+
+ 
+
+SIGN UP
+
+ 
+
+SIGN UP
+
+ 
+
+[-]
+
+Yes please
+
+, I'd like to receive invitations, offers and exclusives by email subject to our 
+
+privacy policy
+
+https://www.automotivemanufacturingsolutions.com/your-data-matters
+
+.*
+
+Thank you
+
+You have been signed up to the AMS newsletter.
+
+Follow us:
+
+Events 
+
+View more
+
+https://www.automotivemanufacturingsolutions.com/events
+
+[
+
+Automotive Wire Harness & EDS Conference Returns to Detroit in 2025
+
+](https://www.automotivemanufacturingsolutions.com/events/automotive-wire-harness-eds-conference-returns-to-detroit-in-2025/642739)
+
+[
+
+Automotive Manufacturing North America
+
+](https://www.automotivemanufacturingsolutions.com/events/automotive-manufacturing-north-america/619077)
+
+[
+
+Automobil Produktion Kongress
+
+](https://www.automotivemanufacturingsolutions.com/events/automobil-produktion-kongress/619091)
+
+ 
+
+Automotive Manufacturing Solutions (AMS) is the essential resource for automotive manufacturing professionals and suppliers globally.
+
+Join us today and access AMS's wealth of global news, insights, intelligence and content, and to make valuable connections with your peers from across the automotive industry.
+
+Register now
+
+https://www.automotivemanufacturingsolutions.com/smart-factory/why-data-not-ai-is-the-real-constraint-in-automotive-production/2640596
+
+Register FREE today Automotive Manufacturing Solutions Your free registration includes: - Weekly AMS News and twice quarterly AMS In Focus newsletters - Twice yearly magazine (digital) - Special offers Reports from key manufacturing shows - Access to the digital news archives Register
+
+Your data matters
+
+https://www.automotivemanufacturingsolutions.com/your-data-matters
+
+ | 
+
+Cookie policy
+
+https://www.automotivemanufacturingsolutions.com/cookie-policy
+
+ | 
+
+About us
+
+https://www.automotivemanufacturingsolutions.com/about-us
+
+ | 
+
+Imprint
+
+https://www.ultimamedia.com/imprint
+
+ | 
+
+Contact us
+
+https://www.automotivemanufacturingsolutions.com/contact-us
+
+ | 
+
+Privacy Settings
+
+javascript:window._sp_.gdpr.loadPrivacyManagerModal(1348811)
+
+ | 
+
+Advertising Specifications
+
+https://www.automotivemanufacturingsolutions.com/advertising-specifications
+
+LI
+
+https://www.linkedin.com/company/manufacturing-automotive/
+
+ 
+
+FB
+
+https://www.facebook.com/automotivemanufacturingsolutions/
+
+ 
+
+YT
+
+https://www.youtube.com/@amsmagazinechannel
+
+ 
+
+TWITTER
+
+https://x.com/ams_magazine
+
+(c) 2025 Automotive Manufacturing Solutions
+
+X
+
+How we process your data
+
+When you use our media, your system software may retrieve or store information in the form of cookies or other technologies from us and our up to 52 
+
+partners
+
+https://www.automotivemanufacturingsolutions.com/smart-factory/why-data-not-ai-is-the-real-constraint-in-automotive-production/2640596
+
+, for example, to ensure the desired function of the website. This information does not directly identify you. We use the information (e.g. IP address) to create ad and content profiles, to display (personalized) ads and content as well as to perform ad and content measurements and to gain insights into target groups and product developments.
+
+By clicking the "Accept All" button, you agree pursuant to § 25 Abs. 1 TDDDG as well as Art. 6 Abs. 1 lit. a GDPR that your information will be used as described in Privacy Policy. You can decide not to allow certain types of technology, unless it is (technically) absolutely necessary. You can learn more about the technology used and make your desired settings via the " 
+
+Settings
+
+https://www.automotivemanufacturingsolutions.com/smart-factory/why-data-not-ai-is-the-real-constraint-in-automotive-production/2640596
+
+" button. Blocking certain technologies may result in a degraded experience of our media.
+
+Settings
+
+Accept All
+
+Imprint
+
+https://www.ultimamedia.com/imprint
+
+Privacy Policy
+
+https://www.ultimamedia.com/data-policy

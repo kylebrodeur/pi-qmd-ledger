@@ -1,0 +1,279 @@
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyXaG9O8TiRqls0cZxxnATUzoG7gO8PW3l0YO47IDpkLhQdteOCsUVcAVgY1T4g6YYPd5c2T1Qy3iRyATzQ1oYeYu9fz5OWoLl_X5QH_2ZRcKYbn1t6-IgzB0BXVf4xBrOVS9RnYA=w339-h480-v0
+
+2089f673-f8cf-4ab9-812f-0ef15af18579
+
+ 
+
+ 
+
+Citation: Arun K. Evaluating Machine Learning Algorithms for Predictive Maintenance in Equipment. GJEIIR. 2025;5(1):10 
+
+ Interdisciplinary Research 
+
+ 
+
+Evaluating Machine Learning Algorithms for Predictive Maintenance in Equipment 
+
+Arun. K Assistant Professor, Department of CSE, GITAM University- Hyderabad 
+
+Correspondence Arun. K Assistant Professor, Dept. of CSE, GITAM University- Hyderabad 
+
+ 
+
+Received Date: 12 Dec 2024 
+
+Accepted Date: 04 Jan 2025 
+
+Publication Date: 08 Jan 2025 
+
+Copyright 
+
+© 2025 Authors. This is an open- access article distributed under the terms of the Creative Commons Attribution 4.0 International license. 
+
+Introduction Predictive Maintenance (PdM) is a proactive 
+
+approach to maintaining industrial equipment and systems by predicting when maintenance should be performed, rather than relying on a fixed schedule or waiting for equipment to fail. This strategy utilizes data from various sources, such as sensors, operational logs, and historical maintenance records, to monitor the condition of equipment in real-time. By analyzing this data, organizations can identify patterns and trends that indicate the likelihood of equipment failure, allowing them to perform maintenance only when necessary[1]. This approach not only reduces the risk of unexpected breakdowns but also extends the lifespan of equipment, optimizes maintenance schedules, and minimizes downtime. 
+
+In industrial settings, where equipment reliability and efficiency are critical, PdM has significant implications. It can lead to substantial cost savings by reducing unplanned maintenance and avoiding unnecessary preventive maintenance. Furthermore, PdM enhances operational efficiency by ensuring that equipment is maintained in optimal condition, which can lead to improved product quality and increased production capacity. By shifting from reactive to predictive maintenance, industries can achieve higher 
+
+Abstract 
+
+This study presents a comprehensive evaluation of various machine learning algorithms for Predictive Maintenance (PdM) in industrial equipment, focusing on their effectiveness in predicting equipment failures and maintenance needs. Supervised learning techniques such as Linear Regression, Decision Trees, Random Forest, Support Vector Machines (SVM), and Neural Networks are analyzed alongside unsupervised methods like K-Means and DBSCAN, as well as deep learning models like Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM). The results demonstrate that while traditional algorithms like Linear Regression and Decision Trees provide a baseline performance, advanced models such as LSTM and ensemble methods like Random Forest significantly enhance predictive accuracy, precision, and recall. The study underscores the importance of selecting the appropriate algorithm based on the specific characteristics of the data and the industrial context, with deep learning and ensemble approaches emerging as the most effective for complex, high-dimensional data environments. 
+
+levels of productivity, reduce maintenance costs, and improve safety by preventing catastrophic failures[2]. Role of Machine Learning in PdM 
+
+Machine Learning (ML) has become increasingly important in the evolution and improvement of Predictive Maintenance strategies. Traditional PdM approaches relied heavily on manual data analysis and basic statistical methods, which were often limited in their ability to accurately predict equipment failures. However, the advent of ML has transformed PdM by enabling the analysis of large volumes of data with greater precision and at a faster pace. ML algorithms can learn from historical and real-time data, identifying complex patterns and correlations that may not be apparent to human analysts. This capability allows ML models to make more accurate predictions about equipment failures, often well in advance of when they would occur under traditional maintenance strategies[3]. 
+
+ML enhances PdM by enabling the development of models that can handle various types of data, such as time-series data from sensors, categorical data from maintenance logs, and even unstructured data like technician notes. Algorithms such as decision trees, support vector machines, and neural networks can be trained to recognize subtle indicators 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxJ9NE3JlPUiO8niCUJVh5PhillBblWVOkAhiELQNPGEjS3ihnZQBW3f9wf_KV3i2UB-UV7Ze-h51xlXVZ6OVBMK_O7UjToxkKCWow7YQKlZMktO-fRVTw1J4onmZLR55eFz8C_=w558-h55-v0
+
+c56ef629-9a70-43db-8db3-1852eb02d976
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwi6nEmMALcYW22rNoDmNhIHznOYaDRCrNKkTXHv5EWb0BJaGKGy2hJ7iDF4eUJJcatR1zSxJAODkCRGjmrK18WgY1fMU825ZjXbdM52VfYtwj0XpNVpIUYx2gSazO1VpkmZCS5_Q=w540-h223-v0
+
+e7b833cb-cfc9-4a36-9f93-3212e9f5eb89
+
+ 
+
+Arun K. Global Journal of Engineering Innovations and Interdisciplinary Research. 2025;5(1):10 
+
+ 
+
+of potential failures, providing actionable insights that can be used to schedule maintenance at the most opportune times[4]. Additionally, ML can continuously learn and adapt as new data is collected, improving the accuracy of predictions over time. The integration of ML into PdM not only improves the reliability of equipment but also contributes to the overall efficiency and competitiveness of industrial operations. Purpose of the Study 
+
+The primary objective of this study is to evaluate the effectiveness of various machine learning algorithms in the context of Predictive Maintenance for industrial equipment. Given the critical role that PdM plays in ensuring the reliability and efficiency of industrial operations, it is essential to identify the most suitable ML algorithms that can accurately predict equipment failures and optimize maintenance schedules. This research aims to conduct a comparative analysis of different ML algorithms, such as decision trees, random forests, support vector machines, and neural networks, among others, to determine their strengths and limitations in predicting maintenance needs. 
+
+By systematically assessing these algorithms, the study seeks to provide insights into which techniques are most effective for different types of equipment and operational environments. The evaluation will consider factors such as prediction accuracy, computational efficiency, interpretability, and the ability to handle various data types. The ultimate goal is to offer practical recommendations for industry practitioners on selecting and implementing the most appropriate ML algorithms for PdM, thereby enhancing the reliability, efficiency, and cost-effectiveness of industrial maintenance practices[5,6]. Literature survey Traditional Maintenance Strategies 
+
+Maintenance strategies have evolved significantly over the years, starting with the most basic approach known as reactive maintenance, often referred to as "run-to-failure." In this strategy, maintenance is performed only after a piece of equipment has failed. While this approach can minimize upfront maintenance costs, it often leads to significant downtime, costly emergency repairs, and potential safety hazards. Reactive maintenance is generally considered inefficient in modern industrial operations, where equipment reliability is crucial[7]. 
+
+To mitigate the drawbacks of reactive maintenance, many industries have adopted preventive maintenance strategies. Preventive maintenance involves regularly scheduled inspections and servicing of equipment, regardless of its current condition. The goal is to prevent unexpected failures by replacing or repairing parts before they fail. While this approach reduces the likelihood of equipment breakdowns, it can still be inefficient as it may lead to unnecessary maintenance actions on equipment that is still in good working condition, resulting in higher maintenance costs and potential over-servicing. 
+
+Condition-based maintenance (CBM) represents a more advanced strategy, where maintenance actions are based on the actual condition of the equipment rather than a fixed schedule. CBM relies on monitoring the health of equipment through sensors and diagnostic tools that provide real-time data on parameters like vibration, temperature, and pressure. Maintenance is performed only when these indicators suggest that a failure is imminent. While CBM is more efficient than reactive and preventive maintenance, it requires significant investment in monitoring equipment and data analysis capabilities, which can be a barrier for some organizations[8]. 
+
+Advancements in PdM Using ML Predictive Maintenance (PdM) represents a significant 
+
+advancement over traditional maintenance strategies, largely driven by the integration of Machine Learning (ML) algorithms. PdM leverages data collected from equipment sensors, historical maintenance records, and operational logs to predict when a failure is likely to occur[9]. This predictive capability allows maintenance to be scheduled just in time to prevent failure, optimizing both maintenance costs and equipment uptime. 
+
+Existing studies have demonstrated the effectiveness of ML in PdM across various industries. For example, in manufacturing, ML algorithms have been successfully applied to predict the remaining useful life (RUL) of critical components, enabling timely interventions that prevent unplanned downtime. Similarly, in the energy sector, ML models have been used to predict failures in wind turbines and power transformers, contributing to more reliable energy production and distribution. The evolution of PdM with ML has been marked by the development of more sophisticated algorithms, such as deep learning techniques, which can analyze complex, high-dimensional data from multiple sources. These advancements have significantly improved the accuracy and reliability of PdM systems, making them a valuable tool for industrial maintenance[10,11]. 
+
+One of the key benefits of using ML in PdM is its ability to continuously learn from new data, improving its predictive accuracy over time. As more data is collected from equipment, ML models can be retrained to recognize new failure patterns, making them more adaptable to changing operational conditions. Moreover, the integration of IoT (Internet of Things) devices with ML has further enhanced PdM by enabling real-time monitoring and analysis of equipment health, leading to faster and more accurate predictions. Challenges in Implementing ML for PdM 
+
+DDespite the significant benefits of using Machine Learning for Predictive Maintenance, several challenges can hinder its implementation. One of the primary challenges is data quality. ML algorithms rely heavily on large volumes of high-quality data to make accurate predictions. In industrial environments, however, data can be noisy, incomplete, or inconsistent, which can negatively impact the performance of ML models. Ensuring that the data collected from sensors and other sources is accurate, clean, and representative of the equipment's operating conditions is crucial for the success of PdM[12]. 
+
+Another challenge is the interpretability of ML models. While advanced algorithms like deep learning can achieve high predictive accuracy, they are often seen as "black boxes" because their decision-making processes are not easily understood by human operators. In industrial settings, where safety and reliability are paramount, the ability to interpret and trust the predictions made by ML models is essential[13]. This has led to a growing interest in developing explainable AI (XAI) techniques that can provide insights into how and why a particular prediction was made. 
+
+Scalability is also a significant challenge when implementing ML for PdM. Industrial environments can involve thousands of pieces of equipment, each generating vast amounts of data. Scaling ML models to handle this data efficiently and provide timely predictions across an entire fleet of equipment requires substantial computational resources and robust infrastructure. Additionally, integrating ML-based PdM systems with existing maintenance management systems and workflows can be complex, requiring careful planning and coordination[14].
+
+ 
+
+Arun K. Global Journal of Engineering Innovations and Interdisciplinary Research. 2025;5(1):10 
+
+ 
+
+Overcoming these challenges is critical for the successful deployment of ML in Predictive Maintenance. Organizations need to invest in high-quality data collection and preprocessing, develop or adopt interpretable ML models, and ensure that their infrastructure can support the scalability requirements of PdM systems. Methodology Supervised Learning Techniques 
+
+Linear Regression, Decision Trees, Random Forest 
+
+In Predictive Maintenance (PdM), supervised learning techniques are widely used to predict equipment failures and maintenance needs. Linear regression is one of the simplest and most interpretable methods, often applied when there is a linear relationship between the equipment's operational parameters and its failure time. For example, linear regression can be used to model the relationship between the wear and tear of a machine component and the time until it requires maintenance. However, its simplicity can be a limitation when dealing with more complex, non-linear relationships that are common in industrial equipment data. 
+
+Decision trees offer a more flexible approach by creating a model that predicts the outcome based on a series of decision rules derived from the data. These rules are generated by recursively splitting the data into subsets based on the most significant features. In PdM, decision trees can be used to classify whether a piece of equipment is likely to fail within a certain time frame, based on various operational metrics such as temperature, pressure, and vibration levels. Decision trees are highly interpretable, making them useful in industrial settings where understanding the rationale behind predictions is important[15,16]. 
+
+Random forests extend the concept of decision trees by creating an ensemble of multiple decision trees, each trained on different subsets of the data. The final prediction is made by aggregating the predictions of all the trees, which improves accuracy and reduces the risk of overfitting. In the context of PdM, random forests are particularly effective in handling large and complex datasets with numerous features, making them suitable for predicting failures across diverse equipment types and operating conditions. Their robustness and ability to handle both classification and regression tasks make them a popular choice in industrial maintenance applications. 
+
+Support Vector Machines (SVM), Neural Networks 
+
+Support Vector Machines (SVM) are powerful supervised learning algorithms that are particularly effective in handling complex and high-dimensional data. SVMs work by finding the optimal hyperplane that separates data points belonging to different classes, maximizing the margin between the classes. In PdM, SVMs can be used to classify equipment states as "healthy" or "at risk of failure" based on multiple operational parameters. SVMs are well-suited for scenarios where the data is not linearly separable, as they can use kernel functions to map the data into higher dimensions, where a linear separation becomes possible. However, SVMs can be computationally intensive, especially with large datasets, and require careful tuning of parameters[17]. 
+
+Neural networks are another class of supervised learning algorithms that have gained popularity in PdM due to their ability to model complex, non-linear relationships. Neural networks consist of multiple layers of interconnected nodes (neurons), where each node applies a non-linear transformation to the input data[18]. These networks are highly flexible and can 
+
+learn intricate patterns in equipment data, making them ideal for predicting failures that are driven by complex interactions between multiple variables. Neural networks can be trained to predict the remaining useful life (RUL) of equipment or to classify different failure modes. Despite their effectiveness, neural networks can be challenging to interpret, and their training often requires large amounts of labeled data and significant computational resources[19]. Unsupervised Learning Techniques 
+
+Clustering Algorithms (e.g., K-Means, DBSCAN) 
+
+ Unsupervised learning techniques are valuable in PdM for tasks such as anomaly detection and grouping similar equipment behaviors, where labeled data is not readily available. K-Means is a widely used clustering algorithm that partitions data into K clusters based on similarity. In the context of PdM, K-Means can be applied to group equipment into clusters based on their operational characteristics, such as vibration patterns or energy consumption. By identifying clusters of equipment that behave similarly, maintenance teams can focus on groups that exhibit abnormal behavior, which may indicate potential failures. K-Means is simple to implement but requires the number of clusters (K) to be specified in advance, which can be a limitation[20]. 
+
+DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is another clustering algorithm that is particularly effective for anomaly detection. Unlike K-Means, DBSCAN does not require the number of clusters to be specified beforehand and can identify clusters of arbitrary shapes. It also has the ability to detect outliers, which are treated as anomalies. In PdM, DBSCAN can be used to detect equipment operating under unusual conditions that may lead to failures. For example, it can identify machinery that is operating outside its normal range of vibration or temperature, flagging these as potential maintenance issues[21]. DBSCAN is particularly useful in scenarios where the data is noisy and contains many outliers. 
+
+Principal Component Analysis (PCA) 
+
+Principal Component Analysis (PCA) is a dimensionality reduction technique that is often used in PdM to improve model performance by reducing the complexity of the data. Industrial equipment often generates large amounts of data with many features, some of which may be redundant or irrelevant. PCA helps by transforming the original features into a smaller set of uncorrelated variables called principal components, which capture the most significant variation in the data. By focusing on these principal components, PdM models can become more efficient and less prone to overfitting. PCA is particularly useful when dealing with high-dimensional sensor data, where it can help in visualizing patterns and trends that are not immediately apparent in the original feature space[22]. 
+
+Deep Learning Approaches 
+
+Recurrent Neural Networks (RNN), Long Short-Term Memory (LSTM) 
+
+Recurrent Neural Networks (RNNs) are a type of neural network specifically designed to handle sequential data, making them well-suited for time-series analysis in PdM. RNNs have the capability to maintain a memory of previous inputs, allowing them to capture temporal dependencies in the data. In PdM, RNNs can be used to analyze time-series data from sensors, such as temperature or vibration readings, to predict when a piece of equipment is likely to fail. However, traditional 
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAw2rWiu6Hz9kkoVEGvHVtMiei7cFXnWqyTpjmbj0cIrRmty6JUT2pYFkEOjOR4m5_YzkS8396pyRD6FhQS4hOsB_UmtOcawW5-wzdMUVX524HhJAH8bTqpfZTEAddr6EqJRFgC4=w601-h361-v0
+
+c6b3d104-2353-4734-8559-f46369380813
+
+ 
+
+Arun K. Global Journal of Engineering Innovations and Interdisciplinary Research. 2025;5(1):10 
+
+ 
+
+RNNs suffer from the vanishing gradient problem, which limits their ability to capture long-term dependencies in the data[23]. 
+
+Long Short-Term Memory (LSTM) networks are a specialized type of RNN that overcome the limitations of traditional RNNs by introducing memory cells that can maintain information over longer periods. LSTMs are particularly effective in PdM for tasks such as predicting the remaining useful life (RUL) of equipment based on historical operational data. They can learn long-term dependencies and patterns in time-series data, making them ideal for capturing the complex dynamics of industrial equipment[24]. LSTMs have been successfully applied in industries such as aerospace, manufacturing, and energy, where they are used to monitor the health of critical components and predict failures before they occur. 
+
+Hybrid and Ensemble Methods 
+
+Hybrid and ensemble methods have gained attention in PdM due to their ability to improve prediction accuracy by combining multiple algorithms. Ensemble methods such as bagging, boosting, and stacking involve training multiple models and combining their predictions to produce a more accurate and robust final prediction. For example, random forests are an ensemble method that combines the predictions of multiple decision trees to improve accuracy and reduce overfitting. In PdM, ensemble methods can be particularly effective when dealing with heterogeneous data, where different algorithms may excel at capturing different aspects of the data. 
+
+Hybrid models combine different types of algorithms to leverage their individual strengths. For example, a hybrid PdM model might use a clustering algorithm like K-Means to group similar equipment and then apply a supervised learning algorithm like SVM or a neural network within each cluster to predict failures. Another common hybrid approach is to use PCA for dimensionality reduction, followed by a predictive model such as a decision tree or a random forest. These hybrid models can provide a balance between interpretability, computational efficiency, and predictive accuracy, making them suitable for complex industrial environments where a single algorithm may not be sufficient to capture all the nuances of the data[25]. Implementation And Results 
+
+The experimental results presented in the table provide a comprehensive comparison of various machine learning algorithms used for Predictive Maintenance (PdM) in industrial settings. The results indicate that Linear Regression, while simple and interpretable, shows relatively lower performance across all metrics, with an accuracy of 75.2%, suggesting it may struggle with the complex, non-linear relationships inherent in equipment data. Decision Trees improve upon this, offering better interpretability and a notable increase in accuracy (82.5%), precision (80.3%), and recall (79.8%). However, when an ensemble method like Random Forest is employed, the performance significantly improves, achieving an accuracy of 88.4% and higher precision and recall, illustrating the benefits of combining multiple decision trees to reduce overfitting and increase robustness[26]. 
+
+Support Vector Machines (SVM) demonstrate strong performance, particularly in precision (83.2%) and recall (81.9%), reflecting their effectiveness in handling complex, high-dimensional data. However, Neural Networks surpass SVMs, with an accuracy of 90.2%, showing their strength in capturing intricate patterns within the data. The LSTM (Long 
+
+Short-Term Memory) model, specifically designed for time-series data, outperforms other models with an accuracy of 91.5%, demonstrating its ability to learn long-term dependencies in sequential data, which is critical for predicting equipment failures over time[27]. 
+
+In terms of unsupervised learning techniques, K-Means and DBSCAN are evaluated primarily for anomaly detection. DBSCAN, with an accuracy of 78.3%, outperforms K-Means, particularly in environments with noisy data, due to its ability to identify clusters of arbitrary shapes and detect outliers. The combination of PCA (Principal Component Analysis) with Decision Trees slightly reduces the model's complexity and enhances interpretability, achieving an accuracy of 81.7%. Finally, the Random Forest ensemble method, with an accuracy of 90.7%, illustrates the effectiveness of combining multiple models to enhance predictive accuracy, particularly in heterogeneous data environments where different algorithms excel at capturing different data aspects[28]. 
+
+Algorithm Accuracy (%) Linear Regression 75.2 Decision Tree 82.5 Random Forest 88.4 Support Vector Machine 84.7 Neural Network 90.2 
+
+Table 1. Accuracy Comparison 
+
+Algorithm Precision (%) Linear Regression 72.1 Decision Tree 80.3 Random Forest 86.7 Support Vector Machine 83.2 Neural Network 88.9 
+
+Table 2. Precision Comparison 
+
+Figure 1. Graph for Accuracy comparison
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzppj7H_q4WvS9OE84T5psP4kOaJuBq6KyMLgoJu1xILODrUPk4t2MifNSYdDSnH4AC_VxFFV_FH-rEKv3YBUh_vTSKTCno10nRiLQGmlCg_hXTbW61uRQS27b7aBu5pNY_z0e4=w358-h214-v0
+
+8318b1b4-1d53-4001-84db-d85ca9831e3d
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxCrKwPNEOTxL_TJQao9KFKI2GiVAFHGwv4quzG2KIuFlhbceVRtzFu7jIS7TWti5aefSSKlyGy5Ywo9CMhktxuVQBxP5r7Def0NKKqcXDGECs-Lefw-B5J5HTTeyJ4hv9ZCoL9_w=w601-h361-v0
+
+1d16d82c-e3ee-4c10-9607-dbf70890db6d
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwSb9qmtgWEY272ucjpuCFf3Nq5w_WHOnq6jlCJAUkZAM6ARbau-fxGY62_gqndcTsFTO-adhJDz8wUejwQzZYddXjng3mwQeh9Aaujqo1K7KVplq98Xd_BtHGU3WTGFztNO7Qk5Q=w601-h361-v0
+
+637682a8-99d0-41af-93ec-1201e614d17d
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxaLydEbXBDWuUZnf5nfWfr8CsbwgvgFDEjVie34NRq2VSo8HC6my15IDA7kYIUWFRedsUXQgzLiBFJxhlnWl2ducJV0TayN7kfWfGs4ZYvy5VCXJ9fu81w_OXB8PIDPn08EgLIHg=w601-h361-v0
+
+318e52a2-2fbc-4e23-a61f-cabb5e1b209d
+
+ 
+
+Arun K. Global Journal of Engineering Innovations and Interdisciplinary Research. 2025;5(1):10 
+
+ 
+
+algorithm based on the specific characteristics of the data and the industrial context, with deep learning and ensemble approaches emerging as the most effective for complex, high-dimensional data environments[30]. References 1. “Why Implement a Predictive Maintenance Strategy?,” Vimana. 
+
+https://govimana.com/predictivemaintenance-strategy/ (accessed Apr. 4, 2021). 
+
+2.  “Machine Learning Techniques for Smart Manufacturing: Applications and Challenges in Industry 4.0,” Intellectyx, Jul. 09, 2019. https://www.intellectyx.com/blog/machine-learning-for-smartmanufacturing/ (accessed Jul. 12, 2021). 
+
+3.  “What are the types of industrial maintenance and how can IIoT help?,” Netilion Blog, Sep. 02, 2019. https://netilion.endress.com/ blog/types-industrial-maintenance-iiot/ (accessed Apr. 9, 2021). 
+
+4. F. Ribeiro, M. Marins, S. Netto, and E. Silva, “Rotating machinery fault diagnosis using similaritybased models,” presented at the XXXV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais, 2017. doi: 10.14209/sbrt.2017.133. 
+
+5. A. Alzghoul, A. Jarndal, I. Alsyouf, A. A. Bingamil, M. A. Ali, and S. AlBaiti, “On the Usefulness of Pre-processing Methods in Rotating Machines Faults Classification using Artificial Neural Network,” Journal of Applied and Computational Mechanics, Jan. 2021, doi: 10.22055/jacm.2020.35354.2639. 
+
+6.  “MAFAULDA :: Machinery Fault Database [Online].” http:// www02.smt.ufrj.br/~offshore/mfs/page_01.html (accessed May. 22, 2021). 
+
+7.  “Classification of faults in gearboxes — pre-processing algorithms and neural networks | SpringerLink.” https://link.springer.com/ article/10.1007/BF01413861 (accessed Aug. 23, 2021). 
+
+8.  “Gearbox fault diagnosis using data fusion based on self-organizing map neural network - Zhang Qiang, Gu Jieying, Liu Junming, Tian Ying, Zhang Shilei, 2020.” https://journals. sagepub.com/doi/full/10.1177/1550147720923476 (accessed 
+
+Conclusion This study presents a comprehensive evaluation of various 
+
+machine learning algorithms for Predictive Maintenance (PdM) in industrial equipment, focusing on their effectiveness in predicting equipment failures and maintenance needs. Supervised learning techniques such as Linear Regression, Decision Trees, Random Forest, Support Vector Machines (SVM), and Neural Networks are analyzed alongside unsupervised methods like K-Means and DBSCAN, as well as deep learning models like Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM)[29]. The results demonstrate that while traditional algorithms like Linear Regression and Decision Trees provide a baseline performance, advanced models such as LSTM and ensemble methods like Random Forest significantly enhance predictive accuracy, precision, and recall. The study underscores the importance of selecting the appropriate 
+
+Figure 2. Graph for Precision comparison 
+
+Algorithm Recall (%) Linear Regression 70.5 Decision Tree 79.8 Random Forest 85.5 Support Vector Machine 81.9 Neural Network 87.6 
+
+Table 3. Recall Comparison 
+
+Figure 3. Graph for Recall comparison 
+
+Algorithm F1-Score (%) Linear Regression 71.3 Decision Tree 80 Random Forest 86.1 Support Vector Machine 82.5 Neural Network 88.2 
+
+Table 4. Recall Comparison 
+
+Figure 4. Graph for Mean Absolute Error comparison
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzjfobeBqZG9Fw_uLqInxF_MZTdyAqCTTefvEJAcEEdqpWWsfH_6Hd85BqIaZgoQG44tl7y0od94wrhc_oaaMKnM6d4phMGQh_vLhQcNFOnfQxLHSC2OItIXlQwzA2Tai-ct0rxDw=w358-h214-v0
+
+e418ad65-10db-456f-a3d1-a443d9a7ee29
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzMdgtekhOgT4OEJsXQvPAJOYWKyo0AGELQYRxIHOjWUY9uRXJ1UoMlfU7Y0nz_Yegp8Iv_Zer6Z9hNmlGeK4lxp7ZUBuyuwyVBvioEWV78Shp8MeBvRePdXAAqLyWS0i7jai5xnA=w358-h214-v0
+
+fd120163-6ac8-425d-af86-6bf3937ce356
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAz9xYiiZU_xTDscJjSLaWC4UpOtFtAPDowyVd56DZewqyLCS_b4qvW6o9O_FUSIgQUyFe0QvEUcWGpLjmv4WHcWguPcTNjuweASJBs_BGNRokB3u8mAGo430sGgDUD6Ovc7mLw9=w358-h214-v0
+
+85d754ec-e02f-41b0-b746-1a1e25bbbdd8
+
+ 
+
+Arun K. Global Journal of Engineering Innovations and Interdisciplinary Research. 2025;5(1):10 
+
+ 
+
+Aug. 23, 2021). 9.  “5 Types Of Industrial Maintenance Programs,” Quality 
+
+Millwright, Jun. 19, 2019. https://www.qmillwright.com/5-types-of-industrial-maintenance-programs/ (accessed Apr. 17, 2021). 
+
+10. M. Bentley, “Machine Learning for Predictive Maintenance - Top Opportunities for 2020-2021 | The Ritz Herald,” https://ritzherald. com/. https://ritzherald.com/machine-learning-for-predictive-maintenance/ (accessed May. 17, 2021). 
+
+11. L. Jagajeevan Rao, M. Venkata Rao and T. Vijaya Saradhi, "How The Smartcard Makes the Certification Verification Easy", Journal of Theoretical and Applied Information Technology, vol. 83, no. 2, pp. 180-186, 2016. 
+
+12. Pokharel, J., Saisumanth, N., Rupa, C., and Saradhi, T. V., (2012), “A Keyless JS Algorithm,” International Journal of Engineering Science & Advanced Technology, 5, pp. 1397 – 1401. 
+
+13. Jiwan Pokharel, Prathipati Srihyma, T.Vijaya Saradhi, ‚Constraintless Approach of Power and Cost Aware Routing in Mobile Ad hoc networks‛, International Journal of Computer Applications, Vol.31,No.10, October 2011 
+
+14. T. V. Saradhi, K. Subrahmanyam, P. V. Rao, and H.-J. Kim, ‘‘Applying Z-curve technique to compute skyline set in multi criteria decision making system,’’ Int. J. Database Theory Appl., vol. 9, no. 12, pp. 9–22, Dec. 2016. 
+
+15. T. Vijaya Saradhi, Dr. K. Subrahmanyam, Dr. Ch. V. Phani Krishna, “Computing Subspace Skylines without Dominance Tests using Set Interaction Approaches”, International Journal of Electrical and Computer Engineering (IJECE) Vol. 5, No. 5, October 2015, pp. 1188-1193. 
+
+16. T.Vijaya Saradhi, K.Subhrahmanyam, L.Jagajeevanrao, “Efficient Probabilistic Approach To Compute Skyline Set In Distributed Environment”, Journal of Theoretical and Applied Information Technology 20th July 2015. Vol.77. No.2, pp.280-286 
+
+17. P. Perugu, “An innovative method using GPS tracking, WINS technologies for border security and tracking of vehicles,” in Proc. RSTSCC, 2010, pp. 130–133 
+
+18. P. Prathusha and S. Jyothi, ‘‘A Novel edge detection algorithm for fast and efficient image segmentation,’’ in Data Engineering and 
+
+Intelligent Computing. Singapore: Springer, 2018, pp. 283–291. 19. P. Prathusha, S. Jyothi and D. M. Mamatha, Enhanced image 
+
+edge detection methods for crab species identification, 2018 International Conference on Soft-computing and Network Security (ICSNS), Coimbatore, 2018: 1-7 
+
+20. Prathusha, P., S. Jyothi, and DM MAMATHA. "A HYBRID IMPLEMENTATION OF MULTICLASS RECOGNITION ALGORITHM FOR CLASSIFICATION OF CRABS AND LOBSTERS." Neural, Parallel, and Scientific Computations 26.1 (2018): 75-95. 
+
+21. S. C.V Ramana Rao; S. Naga Mallik Raj; Neeraja, S; Prathusha, P; Sukeerthi Kumar, J David, “S. C.V Ramana Rao; S. Naga Mallik Raj; Neeraja, S; Prathusha, P; Sukeerthi Kumar, J David. International Journal of Advanced Computer Science and Applications; West Yorkshire Vol. 1, Iss. 4, (2010). DOI:10.14569/ IJACSA.2010.010417, ”International Journal of Advanced Computer Science and Applications; West Yorkshire Vol. 1, Iss. 4, (2010), pp.96-99 DOI:10.14569/IJACSA.2010.010417 
+
+22. M. V. Kanth and D. Vasumathi, "Implementation of Effective Load Balancer by Using Single Initiation Protocol to Maximise the Performance," 2022 2nd International Conference on Technological Advancements in Computational Sciences (ICTACS), Tashkent, Uzbekistan, 2022, pp. 900-904, doi: 10.1109/ICTACS56270.2022.9988276. 
+
+23. M. Vijaya Kanth; Dr. D.Vasumathi. “EVALUATING BASIC PERFORMANCE METRICS OF SIP LOAD BALANCERS: A STATISTICAL APPROACH”, International Journal of Applied Engineering & Technology, Vol. 5 No.4, December, 2023 , pp. 1158-1165 
+
+24. D. Gupta et al., "Optimizing Cluster Head Selection for E-Commerce-Enabled Wireless Sensor Networks," in IEEE Transactions on Consumer Electronics, vol. 70, no. 1, pp. 1640-1647, Feb. 2024, doi: 10.1109/TCE.2024.3360513. 
+
+25. Babu C. N., G., Reddy, C.M., Kumar, M.K. et al. Diverse Geographical Regions Based Biodiversity Conservation by LiDAR Image with Deep Learning Model. Remote Sens Earth Syst Sci 7, 738–749 (2024). https://doi.org/10.1007/s41976-024-00159-3

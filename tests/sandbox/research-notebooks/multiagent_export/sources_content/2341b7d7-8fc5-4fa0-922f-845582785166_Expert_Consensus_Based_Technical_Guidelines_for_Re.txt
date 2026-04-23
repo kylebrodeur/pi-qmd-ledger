@@ -1,0 +1,2545 @@
+Expert Consensus‐Based Technical Guidelines for Remote Robotic‐Assisted Surgery and Procedures - PMC
+
+Skip to main content
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#main-content
+
+ 
+
+An official website of the United States government
+
+Here's how you know
+
+Here's how you know
+
+ 
+
+Official websites use .gov
+
+A 
+
+.gov
+
+ website belongs to an official government organization in the United States.
+
+ 
+
+Secure .gov websites use HTTPS
+
+A 
+
+lock
+
+ ( Locked padlock icon ) or 
+
+https://
+
+ means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.
+
+ 
+
+Search
+
+ 
+
+Log in
+
+ 
+
+ 
+
+Dashboard
+
+https://www.ncbi.nlm.nih.gov/myncbi/
+
+Publications
+
+https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/
+
+Account settings
+
+https://www.ncbi.nlm.nih.gov/account/settings/
+
+Log out
+
+Search… Search NCBI
+
+Primary site navigation
+
+ 
+
+Search
+
+ 
+
+Logged in as:
+
+Dashboard
+
+https://www.ncbi.nlm.nih.gov/myncbi/
+
+Publications
+
+https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/
+
+Account settings
+
+https://www.ncbi.nlm.nih.gov/account/settings/
+
+Log in 
+
+https://pmc.ncbi.nlm.nih.gov/
+
+ 
+
+ 
+
+Search PMC Full-Text Archive
+
+Search in PMC
+
+ 
+
+Journal List
+
+https://pmc.ncbi.nlm.nih.gov/journals/
+
+User Guide
+
+https://pmc.ncbi.nlm.nih.gov/about/userguide/
+
+ View on publisher site
+
+ Download PDF
+
+ Add to Collections
+
+ Cite
+
+ Permalink
+
+PERMALINK
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/
+
+ 
+
+ Copy
+
+ 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with, the contents by NLM or the National Institutes of Health.
+
+Learn more: 
+
+PMC Disclaimer
+
+https://pmc.ncbi.nlm.nih.gov/about/disclaimer/
+
+ | 
+
+PMC Copyright Notice
+
+https://pmc.ncbi.nlm.nih.gov/about/copyright/
+
+ 
+
+World J Surg
+
+. 2025 Jun 28;49(7):1708–1721. doi: 
+
+10.1002/wjs.12653
+
+https://doi.org/10.1002/wjs.12653
+
+Search in PMC
+
+https://pmc.ncbi.nlm.nih.gov/search/?term="World%20J%20Surg"[jour]
+
+Search in PubMed
+
+https://pubmed.ncbi.nlm.nih.gov/?term="World%20J%20Surg"[jour]
+
+View in NLM Catalog
+
+https://www.ncbi.nlm.nih.gov/nlmcatalog?term="World%20J%20Surg"[Title%20Abbreviation]
+
+Add to search
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/?term=%22World%20J%20Surg%22[jour]
+
+Expert Consensus‐Based Technical Guidelines for Remote Robotic‐Assisted Surgery and Procedures
+
+Yulun Wang
+
+https://pubmed.ncbi.nlm.nih.gov/?term="Wang%20Y"[Author]
+
+Yulun Wang
+
+ 
+
+1
+
+Sovato, Santa Barbara, California, USA
+
+Find articles by 
+
+Yulun Wang
+
+https://pubmed.ncbi.nlm.nih.gov/?term="Wang%20Y"[Author]
+
+ 
+
+1
+
+, 
+
+Martin Buehler
+
+https://pubmed.ncbi.nlm.nih.gov/?term="Buehler%20M"[Author]
+
+Martin Buehler
+
+ 
+
+2
+
+Johnson & Johnson, Santa Clara, California, USA
+
+Find articles by 
+
+Martin Buehler
+
+https://pubmed.ncbi.nlm.nih.gov/?term="Buehler%20M"[Author]
+
+ 
+
+2
+
+, 
+
+Shane Farritor
+
+https://pubmed.ncbi.nlm.nih.gov/?term="Farritor%20S"[Author]
+
+Shane Farritor
+
+ 
+
+3
+
+Virtual Incision, Lincoln, Nebraska, USA 
+
+ 
+
+4
+
+Mechanical and Materials Engineering, College of Engineering, University of Nebraska, Lincoln, Nebraska, USA
+
+Find articles by 
+
+Shane Farritor
+
+https://pubmed.ncbi.nlm.nih.gov/?term="Farritor%20S"[Author]
+
+ 
+
+3,
+
+ 
+
+4
+
+, 
+
+Yuman Fong
+
+https://pubmed.ncbi.nlm.nih.gov/?term="Fong%20Y"[Author]
+
+Yuman Fong
+
+ 
+
+5
+
+Department of Surgery, City of Hope, Duarte, California, USA
+
+Find articles by 
+
+Yuman Fong
+
+https://pubmed.ncbi.nlm.nih.gov/?term="Fong%20Y"[Author]
+
+ 
+
+5
+
+, 
+
+Mike Kijewski
+
+https://pubmed.ncbi.nlm.nih.gov/?term="Kijewski%20M"[Author]
+
+Mike Kijewski
+
+ 
+
+6
+
+MedCrypt, Solana Beach, California, USA
+
+Find articles by 
+
+Mike Kijewski
+
+https://pubmed.ncbi.nlm.nih.gov/?term="Kijewski%20M"[Author]
+
+ 
+
+6
+
+, 
+
+Brian Miller
+
+https://pubmed.ncbi.nlm.nih.gov/?term="Miller%20B"[Author]
+
+Brian Miller
+
+ 
+
+7
+
+Intuitive Surgical, Sunnyvale, California, USA
+
+Find articles by 
+
+Brian Miller
+
+https://pubmed.ncbi.nlm.nih.gov/?term="Miller%20B"[Author]
+
+ 
+
+7
+
+, 
+
+Bill Peine
+
+https://pubmed.ncbi.nlm.nih.gov/?term="Peine%20B"[Author]
+
+Bill Peine
+
+ 
+
+8
+
+Medtronic, Ashland, Massachusetts, USA
+
+Find articles by 
+
+Bill Peine
+
+https://pubmed.ncbi.nlm.nih.gov/?term="Peine%20B"[Author]
+
+ 
+
+8
+
+, 
+
+Blair Whitney
+
+https://pubmed.ncbi.nlm.nih.gov/?term="Whitney%20B"[Author]
+
+Blair Whitney
+
+ 
+
+1
+
+Sovato, Santa Barbara, California, USA
+
+Find articles by 
+
+Blair Whitney
+
+https://pubmed.ncbi.nlm.nih.gov/?term="Whitney%20B"[Author]
+
+ 
+
+1
+
+, 
+
+Mike Yramategui
+
+https://pubmed.ncbi.nlm.nih.gov/?term="Yramategui%20M"[Author]
+
+Mike Yramategui
+
+ 
+
+7
+
+Intuitive Surgical, Sunnyvale, California, USA
+
+Find articles by 
+
+Mike Yramategui
+
+https://pubmed.ncbi.nlm.nih.gov/?term="Yramategui%20M"[Author]
+
+ 
+
+7
+
+, 
+
+Jordana Bernard
+
+https://pubmed.ncbi.nlm.nih.gov/?term="Bernard%20J"[Author]
+
+Jordana Bernard
+
+ 
+
+1
+
+Sovato, Santa Barbara, California, USA
+
+Find articles by 
+
+Jordana Bernard
+
+https://pubmed.ncbi.nlm.nih.gov/?term="Bernard%20J"[Author]
+
+ 
+
+1,
+
+ 
+
+✉
+
+Author information
+
+Article notes
+
+Copyright and License information 
+
+ 
+
+1
+
+Sovato, Santa Barbara, California, USA 
+
+ 
+
+2
+
+Johnson & Johnson, Santa Clara, California, USA 
+
+ 
+
+3
+
+Virtual Incision, Lincoln, Nebraska, USA 
+
+ 
+
+4
+
+Mechanical and Materials Engineering, College of Engineering, University of Nebraska, Lincoln, Nebraska, USA 
+
+ 
+
+5
+
+Department of Surgery, City of Hope, Duarte, California, USA 
+
+ 
+
+6
+
+MedCrypt, Solana Beach, California, USA 
+
+ 
+
+7
+
+Intuitive Surgical, Sunnyvale, California, USA 
+
+ 
+
+8
+
+Medtronic, Ashland, Massachusetts, USA 
+
+*
+
+Correspondence:
+
+ Jordana Bernard, ( jbernard@sovato.com) 
+
+✉
+
+Corresponding author.
+
+Received 2025 May 30; Accepted 2025 May 31; Issue date 2025 Jul.
+
+© 2025 The Author(s). 
+
+World Journal of Surgery
+
+ published by John Wiley & Sons Ltd on behalf of International Society of Surgery/Société Internationale de Chirurgie (ISS/SIC).
+
+This is an open access article under the terms of the 
+
+http://creativecommons.org/licenses/by/4.0/
+
+https://creativecommons.org/licenses/by/4.0/
+
+ License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.
+
+PMC Copyright notice
+
+https://pmc.ncbi.nlm.nih.gov/about/copyright/
+
+PMCID: PMC12282566 PMID: 
+
+40581740
+
+https://pubmed.ncbi.nlm.nih.gov/40581740/
+
+ABSTRACT
+
+Remote robotic‐assisted surgery and procedures offer significant potential to enhance access to surgical expertise, optimize patient outcomes, improve healthcare efficiency, reduce costs, and increase patient and provider satisfaction, aligning with the quintuple aim. By mitigating geographic barriers, addressing surgical deserts, and reducing travel burdens for surgeons, patients, and their families, remote robotic‐assisted surgery and procedures can substantially expand access to high‐quality health care. The safe and effective implementation of remote procedures depends on the availability of robust, surgical‐grade networks, reliable connectivity, and comprehensive cybersecurity measures to protect patient data. Seamless integration among remote‐enabled robotic system interfaces, telepresence technologies, and facility‐level infrastructure is essential to ensure operational reliability and procedural success. These technical guidelines define the fundamental technical requirements to support the design, implementation, and scaling of safe, effective, and interoperable remote robotic‐assisted surgical and procedural programs. As the field evolves, guidelines will be updated to reflect technological advancements, specifications, and emerging best practices. Complementary clinical and operational practice guidelines will work synergistically with technical guidelines to support the global expansion and market adoption of remote programs.
+
+Keywords:
+
+ healthcare telecommunications, latency, network structure, remote robotic procedure, remote robotic surgery, remote surgery, telementoring, telepresence, telesurgery
+
+Remote robotic‐assisted surgery and procedures offer significant potential to enhance access to surgical expertise, optimize patient outcomes, improve healthcare efficiency, reduce costs, and increase patient and provider satisfaction, aligning with the quintuple aim. By mitigating geographic barriers, addressing surgical deserts, and reducing travel burdens for surgeons, patients, and their families, remote robotic‐assisted surgery and procedures can substantially expand access to high‐quality health care.
+
+ 
+
+1. Introduction
+
+1.1. The Challenge of Surgical and Procedural Access
+
+Access to surgical care remains one of the most pressing yet unsolved public health challenges. Surgical deserts—regions lacking adequate access to surgical care—are a well‐documented global issue that affects both developed and developing countries. Today, over half of the global population lives without sufficient surgical access [ 
+
+1
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0001
+
+]. Even in the most advanced healthcare systems and affluent countries, access to high‐quality surgical care remains deeply inequitable, with approximately 24% of the population in high‐income countries lacking adequate surgical access [ 
+
+2
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0002
+
+].
+
+In the United States, a country viewed as a leader in healthcare innovation, over one‐third of counties lack access to a single surgeon. This crisis is projected to worsen with an estimated shortage of up to 30,200 surgeons across all specialties by 2034 [ 
+
+3
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0003
+
+]. Although surgical expertise is often concentrated in urban centers, patients in both rural and remote areas face overwhelming barriers to care.
+
+Multiple factors, including a shortage of skilled surgeons and interventionalists, geographic barriers, rising healthcare costs, and financial pressures on healthcare providers, drive limited access to quality surgical care. The implications of inadequate surgical access are far‐reaching: patients are left with limited, or often, no options for essential procedures, leading to costly and time‐consuming travel, delayed care, or substandard surgeries and postoperative treatment. In the developed world, these barriers drive surgical delays, create capacity bottlenecks at high‐volume hospitals, and force patients to travel long distances. In developing countries, the challenges are even more pronounced—many regions lack even the most basic surgical infrastructure.
+
+1.2. Impact of Remote Procedures
+
+remote robotic‐assisted surgery and procedures (“Remote Procedures”) represent one of the most promising advancements in modern medicine. By enabling a surgeon to operate on a patient from virtually anywhere via a remote‐enabled robotic system and high‐speed network, remote procedures have the potential to redefine surgical access by erasing geographic barriers and increasing surgical efficiencies worldwide.
+
+Although this concept is novel in its modern implementation, its foundations are not new. In 2001, the groundbreaking Lindbergh Operation demonstrated feasibility and safety with a transatlantic remote procedure [ 
+
+4
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0004
+
+]. In this surgery, surgeons located in New York performed a remote robot‐assisted laparoscopic cholecystectomy on a 68‐year‐old woman in Strasbourg. The operation was successfully carried out across more than 14,000 km using a dedicated fiber‐optic communications network between the sites. Subsequently, in 2003, surgeons in Ontario, Canada, performed 22 remote robot‐assisted laparoscopic procedures between St. Joseph's Healthcare Hamilton, a teaching hospital affiliated with McMaster University, and North Bay General Hospital, a community hospital located 400 km away. These operations were facilitated using an Internet protocol virtual private network [ 
+
+5
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0005
+
+]. Despite these early successes, further projects were abandoned in the mid‐2000s due to high network costs, latency challenges, a lack of societal readiness, and the halted development of remote‐enabled surgical robotics. Over the past 2 decades, significant advancements in robotic‐assisted technology, telemedicine, and telecommunications, particularly the expansion of high‐speed, lower‐cost networks, and reduced latency, have reignited the potential of remote procedures as a scalable model of care [ 
+
+6
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0006
+
+, 
+
+7
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0007
+
+, 
+
+8
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0008
+
+].
+
+Telemedicine has become a standard component of healthcare delivery and is typically used for consultations, even when the patient is close to their provider, as it is an effective delivery modality for both the provider and the patient. This serves as a model for remote surgery and procedures, demonstrating that geographical distance, both near and far, should not be a barrier to accessing surgical expertise.
+
+In developed countries, remote procedures will help alleviate the growing surgeon and workforce shortage, strengthen regional hospital networks, alleviate financial strain, and create access to care for underserved communities. Remote procedures will also contribute to broader healthcare objectives, including progress toward the Quintuple Aim—a framework guiding healthcare transformation through five key pillars: (1) improved patient experience, (2) better outcomes, (3) cost efficiency, (4) clinician well‐being, and (5) health equity [ 
+
+9
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0009
+
+]. Remote procedure programs will drive efficiency by increasing a physician's surgical capacity, optimizing operating room utilization through load balancing, and bringing the skills of specialists to where they are needed most. For example, enabling specialists to provide remote procedures across a healthcare system or group of hospitals will help small and mid‐sized hospitals stay viable, expand patient choice, and lower costs. Beyond expanding access, remote procedures foster global collaboration, enabling physicians to share expertise, mentor colleagues, and provide advanced hands‐on surgical training.
+
+The ripple effect in developing nations will be profound. By setting a global precedent for safe, effective, and scalable remote procedures, this innovation paves the way for expansion into underresourced regions, delivering world‐class expertise to areas where surgical care is otherwise lacking and/or nonexistent. Furthermore, following global efforts to enhance healthcare safety through technology, the World Health Organization's Global Plan of Action for Patient Safety 2021–2030 explicitly recommends investing in the digitization of end‐user health care services, such as telemedicine and telediagnosis, as a key strategy to reduce preventable harm and promote safer care delivery systems [ 
+
+10
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0010
+
+].
+
+1.3. Value of Industry Guidelines
+
+As healthcare rapidly embraces this transformative technology, establishing comprehensive technical guidelines is critical to ensuring patient safety and maintaining universal quality. Recognizing this need, a working group of industry leaders was formed to develop technical guidelines to inform the design and implementation of remote‐enabled robotic systems. This initiative followed industry‐recognized guidelines development processes, including consensus‐driven collaboration, broad stakeholder engagement with technical and clinical subject matter experts, and an extensive literature review.
+
+Although primarily technical in scope, these guidelines have far‐reaching implications for the entire remote procedures ecosystem, including patient care, operational workflows, and industry alignment. By establishing clear technical guidelines, this initiative aims to support the safe and effective expansion of remote procedure programs, providing a structured framework that plays a crucial role in shaping the future of surgical care worldwide. The ultimate goal is to democratize worldwide access to safe, high‐quality, interoperable, and scalable surgical and procedural care.
+
+1.4. Applying the Guidelines
+
+The resulting 
+
+Remote Robotic‐Assisted Surgery and Procedures Technical Guidelines
+
+ define critical requirements for surgical‐grade network characteristics, cybersecurity, system interfaces, telepresence, and facility‐level considerations. The document also outlines additional key design and implementation requirements for remote‐enabled robotic systems as well as cybersecurity best practices. These guidelines do not define specifications (e.g., network latency, jitter, and bandwidth allocation) as these parameters vary based on the use case and other factors. Additionally, these specifications will be validated through the development process for defined use cases.
+
+As remote procedures continue to evolve, these guidelines will be updated accordingly to reflect technological advancements and emerging best practices. In addition, a range of clinical, operational, and ethical considerations must be addressed to ensure patient safety and support the broader adoption of remote procedures. Complementary practice guidelines, covering issues, such as liability, licensure, credentialing, and safety protocols, will align with the technical guidelines, working together to support the safe and effective expansion of remote programs [ 
+
+11
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0011
+
+, 
+
+12
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0012
+
+, 
+
+13
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0013
+
+].
+
+1.5. Intended Audience
+
+These 
+
+Technical Guidelines
+
+ are intended for all stakeholders involved in designing, developing, or implementing remote‐enabled robotic systems, including the following groups:
+
+Medical device manufacturers and robotic companies
+
+Telecommunications and infrastructure providers
+
+Technology and cybersecurity professionals
+
+Healthcare organizations, hospital administrators, IT, and other professionals
+
+Healthcare providers and clinical teams
+
+Research and academic institutions
+
+Healthcare regulators
+
+2. Scope
+
+The Expert Consensus‐Based Technical Guidelines for Remote Surgery and Procedures
+
+ provide a framework of fundamental technical requirements to support the design and implementation of safe, effective, interoperable, and scalable remote‐enabled robotic systems. These guidelines require collaboration among ecosystem stakeholders and should be considered in combination with other factors that contribute to safety that are beyond the scope of these guidelines.
+
+The technical guidelines address these key components specific to remote procedures (e.g., robotic‐assisted surgery [RAS] and interventional delivery systems) as shown in Figure 
+
+1
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-fig-0001
+
+:
+
+Operational requirements for the surgical‐grade network.
+
+Cybersecurity requirements for the surgical‐grade network and remote‐enabled robotic systems.
+
+Requirements for system interfaces to operate over the surgical‐grade network.
+
+Requirements for telepresence in the remote physician site and the patient site procedure room.
+
+Facility‐level requirements for both the remote physician site and the patient site.
+
+FIGURE 1.
+
+Open in a new tab
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/figure/wjs12653-fig-0001/
+
+Key components addressed in technical guidelines.
+
+The technical guidelines apply across various clinical settings (e.g., operating rooms and procedure rooms) and use cases with instrument control by the remote physician (e.g., remote minimally invasive surgery, remote tele‐mentoring, remote endoscopy, remote endovascular, remote interventions, and other diagnostic procedures).
+
+The guidelines specify various levels of requirements using the following terminology:
+
+“shall” indicates a requirement
+
+“should” indicates a recommendation
+
+“may” indicates a permission
+
+The guidelines do not address:
+
+Clinical personnel, clinical practice guidelines, or procedure scheduling systems.
+
+Remote procedures that do not involve tele‐manipulation of interventional, surgical, or diagnostic tools.
+
+Scenarios where the surgical robot operates autonomously without direct input or control by a remote operator.
+
+Broader digital health features, AI integration, or cloud connectivity beyond the immediate needs of remote robotic‐assisted surgery and procedures.
+
+3. Terms, Definitions, and Abbreviations
+
+3.1. Terms and Definitions
+
+For this document, the following terms and definitions apply:
+
+Authorized Model or Configuration
+
+: This refers to the authorized remote‐enabled robotic system that is permitted to connect over the surgical‐grade network. The system is defined and monitored by the robot manufacturer.
+
+Bandwidth
+
+: The maximum rate of data transfer achievable over a given medium.
+
+Globally Unique Identifier
+
+: An identifier assigned to each device on the surgical‐grade network, formatted following special conventions to support uniqueness within an organization and across all organizations, creating identifiers such as a Media Access Control address, globally unique identifiers defined in Request For Comments 9562, or other types of globally unique identifiers.
+
+Host:
+
+ A computer, device, or other endpoint that is connected to and utilizes a given network.
+
+Internet Protocol:
+
+ A protocol designed for interconnected packet‐switched networks, providing for transmitting data blocks (datagrams) from source to destination using fixed‐length addresses and handling fragmentation/reassembly if necessary.
+
+Interoperability
+
+: The ability of two or more systems or components to exchange information and to use the information that has been exchanged.
+
+Jitter
+
+: This refers to the inconsistency or variation in the time it takes for data packets to reach their destination.
+
+Latency
+
+: The time measurement between when a source transmits data and the destination receives the data.
+
+Multipoint Capability:
+
+ Refers to a network that has two or more hosts and allows communication between any combination of hosts.
+
+Network Operations Team
+
+: This refers to a team that monitors the surgical‐grade network, assesses traffic flow and capacity of all surgical‐grade network paths, and may be alerted to issues. This team receives and monitors requests, scheduled or in the moment, to ensure that all requested sessions have the required bandwidth to complete sessions without constraints.
+
+Network Performance Log
+
+: This refers to a record of data collected by the surgical‐grade network related to the its operational behavior, intended to provide a detailed picture of the surgical‐grade network's functioning.
+
+Network Latency:
+
+ The time measurement between when a source transmits data over a network and when the source receives a response or acknowledgment from the destination over the network. This is round‐trip time (across the network and back).
+
+Non‐Well‐Known Ports
+
+: A Transmission Control Protocol or User Datagram Protocol port greater than 1023 and less than or equal to 65,535.
+
+Other Related Devices
+
+: Devices required for a procedure, such as imaging equipment, monitoring equipment, and other devices, that transmit data over the surgical‐grade network during the session.
+
+Patient Site
+
+: The location or room of the patient undergoing a remote procedure.
+
+Patient Site Care Team
+
+: The care team at the patient site supporting the remote procedure (e.g., nurses, operating room technicians, anesthesiologists, clinical engineers, and other physicians).
+
+Peak Load Bandwidth
+
+: This is the maximum amount of bandwidth that a surgical‐grade network leg is expected to support at any given time, considering the combined bandwidth requirements of all projected active sessions.
+
+Path Maximum Transmission Unit Discovery:
+
+ A standardized technique in computer networking for determining the maximum transmission unit size on the network path.
+
+Real‐Time Network Communications
+
+: This refers to network communications (e.g., not control loops) where information is transmitted and received with minimal network latency.
+
+Remote Physician
+
+: The physician in a different location from the patient and care team.
+
+Remote Physician Site
+
+: The location where the physician is participating in the remote procedure.
+
+Remote Robotic‐Assisted Surgery or Procedure
+
+: A clinical procedure, including surgery and interventional procedures, in which a physician uses a remote‐enabled robotic system and surgical‐grade network to perform a procedure on a patient in a different location. Also known as “remote surgery,” “remote procedure,” “telesurgery,” and/or “tele‐interventions.”
+
+Remote‐Enabled Robotic System
+
+: This refers to the entire system used for remote procedures, including the robotic system at the patient site, the physician's console at the remote physician site, and any hardware or software, required to enable a safe and effective procedure over a surgical‐grade network connection.
+
+Requested Session
+
+: A single requested instance of a remote procedure that is performed using a surgical‐grade network—authorized remote‐enabled robotic system, with defined bandwidth requirements, and an expected time duration to ensure required bandwidth is available for the session.
+
+Session
+
+: This refers to a single instance of a remote procedure performed using a remote‐enabled robotic system, encompassing the time from when the connection is established to when it is terminated.
+
+Session Log
+
+: This refers to a record of data related to a specific remote procedure session intended to capture a comprehensive view of the session, including both surgical‐grade network and remote‐enabled robotic system performance.
+
+Surgical‐Grade Network
+
+: A managed network with high reliability, robust security, and guaranteed quality of service, which supports the requirements of remote procedures as outlined in these guidelines.
+
+Surgical‐Grade Network System Interface
+
+: Refers to the interfaces between the remote‐enabled robotic system and the surgical‐grade network to implement connection and communication between the robotic system(s) at patient site(s) and physician's console(s) at the remote location(s).
+
+Telepresence
+
+: Refers to the use of audio–video technologies to create a virtual presence of the remote physician at the patient site.
+
+Teleoperation Latency:
+
+ The time between when the remote surgeon moves the input device to when that surgeon sees motion of the instrument on their monitor showing the video from the patient site robotic system.
+
+Use Case
+
+: This refers to any remote procedure with control of the remote‐enabled robotic system by a remote physician, such as remote minimally invasive surgery, remote endoscopy, remote endovascular procedures, remote interventions, other remote diagnostic procedures, or tele‐mentoring with instrument control.
+
+3.2. Abbreviations
+
+AAMI
+
+Association for the Advancement of Medical Instrumentation
+
+CoS
+
+Class of Service
+
+DAST
+
+Dynamic Application Security Testing
+
+DDoS
+
+Distributed Denial‐of‐Service
+
+FDA
+
+Food and Drug Administration
+
+FIPS
+
+Federal Information Processing Standard
+
+GDPR
+
+General Data Protection Regulation
+
+GUID
+
+Globally Unique Identifier
+
+HIPAA
+
+Health Insurance Portability and Accountability Act
+
+HTTP
+
+Hypertext Transfer Protocol
+
+ID
+
+Identifier
+
+IEC
+
+International Electrotechnical Commission
+
+IEEE
+
+The Institute of Electrical and Electronics Engineers
+
+IETF
+
+Internet Engineering Task Force
+
+IMDRF
+
+International Medical Device Regulatory Forum
+
+IP
+
+Internet Protocol
+
+ISO
+
+International Organization for Standardization
+
+LAN
+
+Local Area Network
+
+MAC
+
+Media Access Control
+
+MDR
+
+Medical Device Regulation (European Union)
+
+NIST
+
+National Institutes of Standards and Technology
+
+PMTUD
+
+Path Maximum Transmission Unit Discovery
+
+QoS
+
+Quality of Service
+
+RAS
+
+Robotic‐Assisted Surgery
+
+RFC
+
+Request For Comments
+
+SAST
+
+Static Application Security Testing
+
+SBOM
+
+Software Bill of Materials
+
+SSH
+
+Secure Shell
+
+TCP
+
+Transmission Control Protocol
+
+TLS
+
+Transport Layer Security
+
+UDP
+
+User Datagram Protocol
+
+WAN
+
+Wide Area Network
+
+Open in a new tab
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/table/jats-table-wrap-1/
+
+4. Existing Standards Applicable to Remote Procedures
+
+This section addresses existing standards relevant to remote procedures, providing a foundation for ensuring patient safety, cybersecurity, and regulatory compliance. It details key standards and provides examples across various categories, including communication and interoperability, cybersecurity and data protection, medical device quality and risk management, medical device software lifecycle, and medical device usability [ 
+
+14
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0014
+
+]. Section 
+
+5.2.1
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-sec-0340
+
+ provides additional details related to relevant cybersecurity regulations, guidance, and frameworks.
+
+Remote procedures and related operations should adhere to applicable local and global standards to ensure patient safety, cybersecurity, and regulatory compliance as required.
+
+Local and global standards that may be applicable to remote procedures include, but are not limited to, the standards listed in Table 
+
+1
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-tbl-0001
+
+.
+
+TABLE 1.
+
+Examples of existing standards that may be applicable to remote procedures.
+
+Category
+
+Standard
+
+Region
+
+Communication and interoperability
+
+IEEE/UL 2933:2024
+
+Global
+
+Cybersecurity and data protection
+
+ISO/IEC 27001:2022+A1:2024
+
+Global
+
+^^
+
+ISO/IEC 19790:2012
+
+Global
+
+^^
+
+ISO/IEC 24759:2017
+
+Global
+
+^^
+
+ISO 80001‐1
+
+Global
+
+^^
+
+IEC 81001‐5‐1:2021
+
+Global
+
+^^
+
+IEC 62443‐3‐2
+
+Global
+
+^^
+
+IEC 62443‐3‐1
+
+Global
+
+^^
+
+IEC 62443‐4‐1:2018
+
+Global
+
+^^
+
+IEC 62443‐4‐2:2019
+
+Global
+
+^^
+
+UL 2900‐1:2023
+
+Global
+
+^^
+
+UL 2900‐2‐1:2023
+
+Global
+
+^^
+
+NIST 800‐53
+
+US
+
+^^
+
+AAMI SW96:2023
+
+Global
+
+Medical device safety, quality, and risk management
+
+ISO 13485:2016
+
+Global
+
+^^
+
+UL 2800‐1:2022
+
+Global
+
+^^
+
+ISO 14971:2019
+
+Global
+
+^^
+
+IEC 80001‐1:2021
+
+Global
+
+^^
+
+IEC 80601‐2‐77:2019
+
+Global
+
+Medical device software lifecycle
+
+IEC 62304:2006+A1:2015
+
+Global
+
+Medical device usability
+
+IEC 62366‐1:2015+A1:2020
+
+Global
+
+Open in a new tab
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/table/wjs12653-tbl-0001/
+
+5. Technical Guidelines for Remote Procedures
+
+This section outlines the technical guidelines for the surgical‐grade network, cybersecurity, remote‐enabled robotic system interfaces, telepresence capabilities, and facility‐level requirements for both the remote physician site and patient site to ensure the safe and effective implementation of remote procedure programs.
+
+5.1. Surgical‐Grade Network Characteristics
+
+This section outlines the network requirements for safe and effective remote procedures, emphasizing the need for a surgical‐grade network to ensure reliability and maximize uptime. Key characteristics, such as low network latency, minimal jitter, minimal to no packet loss, low error rates, and guaranteed bandwidth, are essential for seamless operation and preventing delays that could compromise patient safety [ 
+
+15
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0015
+
+, 
+
+16
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0016
+
+, 
+
+17
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0017
+
+]. Additionally, these guidelines highlight the importance of secure communication and data protection to maintain confidentiality and integrity throughout remote procedures [ 
+
+18
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0018
+
+].
+
+5.1.1. General Surgical‐Grade Network
+
+5.1.1.1. Reliable
+
+A surgical‐grade network has the highest level of specifications and shall be optimized for use in remote procedures to ensure reliability, minimize loss of service, and maximize uptime.
+
+The surgical‐grade network shall deliver the specified uptime required for the use case.
+
+To maximize uptime, the surgical‐grade network shall implement one or more of the following high availability measures:
+
+Redundancy with backup systems at various levels (e.g., hardware, connectivity, and power) to prevent single points of failure;
+
+Failover mechanisms that automatically switch to backup systems or alternative routes without noticeable delays or service interruptions;
+
+Disparate paths to ensure multiple, independent surgical‐grade network routes are available for communication;
+
+Software defined surgical‐grade network packet duplication, sending identical data packets via multiple routes to minimize the risk of packet loss during transmission;
+
+Other high availability measures.
+
+5.1.1.2. Multipoint Capability
+
+The surgical‐grade network shall allow for multipoint capability, such that any given remote physician console can connect to one of multiple patient site robots as deemed necessary by the facilities.
+
+The surgical‐grade network shall implement industry‐standard authentication and authorization mechanisms for all users, remote‐enabled robotic systems, and other required connected devices to ensure secure communication and prevent unauthorized access.
+
+The surgical‐grade network shall ensure isolation of communications across each site or session, such that there is no interaction of data between separate sites or sessions.
+
+The surgical‐grade network may be able to accommodate other related devices or other network services required for the session.
+
+5.1.1.3. Bidirectionality
+
+The surgical‐grade network should deliver consistent, simultaneous, and comparable bandwidth in both directions between the remote physician site and patient site to ensure control and feedback of critical data based on the use case session requirements.
+
+5.1.1.4. Encryption
+
+The surgical‐grade network traffic shall be encrypted in transit.
+
+Sensitive data shall be encrypted at rest.
+
+5.1.1.5. Session Performance Guarantees
+
+When supporting multiple simultaneous sessions, the surgical‐grade network shall maintain the performance and bandwidth of each session.
+
+The surgical‐grade network shall be capable of receiving a request to allocate specific bandwidth for a designated block of time and may respond if additional bandwidth is available.
+
+The surgical‐grade network shall allocate necessary bandwidth for a session if the requested bandwidth is available. If the requested session is allocated, the total bandwidth required shall be available until the session is ended.
+
+The surgical‐grade network shall notify the requestor of the status of the bandwidth allocation.
+
+5.1.2. Quality of Service
+
+5.1.2.1. Network Latency
+
+The surgical‐grade network shall provide an indication of network latency to the remote‐enabled robotic system regularly.
+
+The surgical‐grade network shall contribute no more than the specified amount of network latency for the use case.
+
+The surgical‐grade network shall regularly monitor and report network latency metrics to the remote‐enabled robotic system.
+
+5.1.2.2. j itter
+
+The surgical‐grade network shall provide an indication of jitter to the remote‐enabled robotic system regularly.
+
+The surgical‐grade network shall contribute no more than the specified amount of jitter for the use case.
+
+The surgical‐grade network shall regularly monitor and report jitter statistics to the remote‐enabled robotic system.
+
+5.1.2.3. Packet Loss
+
+The surgical‐grade network shall provide an indication of packet loss to the remote‐enabled robotic system regularly.
+
+The surgical‐grade network shall contribute no more than the specified amount of packet loss for the use case.
+
+The surgical‐grade network shall regularly monitor and report packet loss metrics to the remote‐enabled robotic system.
+
+5.1.3. Bandwidth
+
+5.1.3.1. Sufficient
+
+The surgical‐grade network shall guarantee consistent specified bandwidth to carry remote‐enabled robotic system traffic and other required device traffic for authorized sessions.
+
+The surgical‐grade network may employ methods, such as QoS/CoS, to maintain consistent bandwidth for any given session.
+
+The surgical‐grade network shall provide sufficient capacity for all scheduled sessions, even if conditions require network traffic to switch to an alternative path to reach the intended destination.
+
+5.1.3.2. Scalable
+
+The surgical‐grade network shall be capable of receiving and responding to requests from the remote‐enabled robotic system for additional bandwidth during an active session while simultaneously supporting multiple sessions.
+
+The bandwidth capacity of the surgical‐grade network shall be capable of accommodating the total peak load bandwidth forecast at any given time.
+
+The surgical‐grade network should have a reserved percentage of capacity above and beyond the peak load bandwidth to ensure that unforeseen spikes in utilization and higher than average growth and adoption rates can be accommodated appropriately.
+
+5.1.4. Protocol
+
+The surgical‐grade network shall use internet protocol (IP) as its primary transport protocol and adapt as internet protocols evolve.
+
+The surgical‐grade network shall use Ethernet (IEEE 802.3) for Layer 2 communications to connect the surgical‐grade network system interface to the remote‐enabled robotic system.
+
+5.1.5. Management
+
+5.1.5.1. Visibility
+
+The surgical‐grade network shall track and collect network operational statistics.
+
+The surgical‐grade network shall include operational statistics for network latency, jitter, packet loss, and bandwidth.
+
+The surgical‐grade network should collect and track other operational statistics and metrics such as bandwidth utilization (e.g., used for specific sessions and devices), device access and authorization, and other session metrics.
+
+5.1.5.2. Real‐Time Status
+
+The surgical‐grade network shall convey appropriate real‐time operational status and changes in network conditions to the remote‐enabled robotic system, the remote physician site, patient site care teams, and the network operations team to ensure ongoing safety and security of the remote procedure.
+
+Recipients of real‐time surgical‐grade network status updates should interpret the information and respond accordingly.
+
+The surgical‐grade network shall deliver updates at a specified frequency, ensuring that recipients can respond effectively.
+
+5.1.5.3. Reporting
+
+The surgical‐grade network shall collect required network operational statistics and provide access to these records on a query basis to the remote‐enabled robotic system manufacturer, remote physician site, patient site care teams, and network operations team.
+
+Reported surgical‐grade network operational statistics may include network latency, jitter, bandwidth utilization, redundancy status, and packet loss.
+
+Remote session logs shall be recorded, retained as required, and accessible to authorized parties.
+
+5.1.5.4. Operational Control
+
+The surgical‐grade network shall effectively manage bandwidth and network traffic while proactively anticipating network utilization to ensure consistency and optimal performance of the session.
+
+5.2. Cybersecurity
+
+This section addresses cybersecurity requirements for remote procedures, emphasizing compliance with existing regulations, guidance, and frameworks while addressing unique cybersecurity risks (as e.g., through the exposure to third party and/or public networks) introduced by remote procedures [ 
+
+19
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0019
+
+, 
+
+20
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0020
+
+, 
+
+21
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0021
+
+, 
+
+22
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0022
+
+, 
+
+23
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0023
+
+]. Rather than relying solely on traditional cybersecurity best practices, this approach identifies cybersecurity gaps and suggests applicable security practices to be considered when a procedure is performed remotely. Beyond reducing the risk of security compromise, these guidelines also prioritize maintaining patient confidence by mitigating concerns about the safety of remote procedures. Best practices from organizations, such as the FDA and NIST are referenced, ensuring a comprehensive and adaptable approach to cybersecurity in remote procedures. See related Sections 
+
+4
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-sec-0110
+
+ for cybersecurity standards and (Appendix 
+
+A2
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-sec-0700
+
+) for a list of general threats that a remote‐enabled robotic system should defend against to address and reduce risks associated with the data and systems used in remote procedures.
+
+5.2.1. Existing Cybersecurity Regulations, Guidance, and Frameworks
+
+Existing cybersecurity regulations shall be followed as applicable.
+
+Existing cybersecurity guidance and frameworks should be followed as applicable.
+
+Cybersecurity regulations, guidance, and frameworks that may be applicable to remote procedures include, but are not limited to, the following examples shown in Table 
+
+2
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-tbl-0002
+
+.
+
+TABLE 2.
+
+Examples of existing cybersecurity regulations, guidance, and frameworks that may be applicable to remote procedures (see Table 
+
+1
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-tbl-0001
+
+ for cybersecurity standards).
+
+Category
+
+Regulations, guidance, and frameworks
+
+Regional market approval
+
+FDA Cybersecurity in Medical Devices: Quality System Considerations and Content of Premarket Submissions (2023)
+
+^^
+
+FDA Postmarket Management of Cybersecurity in Medical Devices (2016)
+
+^^
+
+FDA 21 CFR Part 820
+
+^^
+
+HIPAA 45 CFR Part 160, Part 164
+
+^^
+
+EU GDPR
+
+^^
+
+EU MDR
+
+Global development
+
+IMDR/CYBER WG/N70FINAL:2023
+
+^^
+
+NIST SP 800‐131A Rev. 2 (2019)
+
+^^
+
+IETF TLS 1.3 Protocol
+
+^^
+
+ISO/IEEE 11073‐40101:2022
+
+^^
+
+ISO/IEEE 11073‐40102:2022
+
+^^
+
+FIPS 140‐3
+
+Premarket risk
+
+FDA CFR 820.50
+
+^^
+
+AAMI TIR 57:2016
+
+Cybersecurity
+
+AAMI TIR 97:2019
+
+^^
+
+NIST 800‐161r1
+
+^^
+
+IETF TLS 1.3 Protocol
+
+Open in a new tab
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/table/wjs12653-tbl-0002/
+
+5.2.2. Guidelines for Cybersecurity
+
+5.2.2.1. Introduction of a Third‐Party Surgical‐Grade Network Provider
+
+The remote‐enabled robotic system manufacturer shall design the remote‐enabled robotic system for defense in depth and assume the surgical‐grade network infrastructure between the remote physician console and the patient site robot is hostile and may, at any given time, experience compromise or disruption.
+
+The remote‐enabled robotic system manufacturer shall implement the necessary security controls to ensure the confidentiality, integrity, and availability of data traveling between the remote physician console and the patient site robot.
+
+The remote‐enabled robotic system manufacturer shall integrate failsafe mechanisms and safety controls to protect the patient, users, property, and the environment from harm.
+
+The surgical‐grade network provider shall implement the required security and operational controls to ensure that network performance, uptime, and QoS metrics required for remote procedures are not adversely impacted by either malicious actors or systemic failures. These controls shall address:
+
+Confidentiality protections (e.g., segregation of all remote‐enabled robotic system sessions);
+
+Integrity protections (e.g., using Message Authentication Codes to verify that the data has not been altered during transmission);
+
+Availability (e.g., protection against and response to DDoS attacks, bandwidth congestion, and infrastructure failures);
+
+Performance and Reliability (e.g., network latency minimization, jitter control, and real‐time failover);
+
+Disaster Recovery and Business Continuity (e.g., redundancy, geo‐distributed backups, and rapid recovery).
+
+5.2.2.2. Multitenant Nature of the Surgical‐Grade Network
+
+The remote‐enabled robotic system shall employ best practices to mutually authenticate connections and communications between its remote‐enabled robotic subsystems to prevent unintended communications.
+
+The remote‐enabled robotic system manufacturer and the surgical‐grade network shall implement end‐to‐end encryption between all network nodes.
+
+The remote‐enabled robotic system shall implement end‐to‐end encryption between all endpoints on the surgical‐grade network.
+
+The remote‐enabled robotic system shall employ encrypted protocols from the remote physician site console and patient site robot to any and all external network services.
+
+The remote‐enabled robotic system manufacturer should implement additional data privacy protections to protect personal and sensitive data, considering that hospital‐based security controls commonly implemented to keep data private may not be present on the third‐party providers' surgical‐grade network.
+
+The remote‐enabled robotic system manufacturer, and where applicable the surgical‐grade network provider, shall ensure that steps are taken to isolate each site/system/user's infrastructure and equipment, including the remote‐enabled robotic system from untrusted connections by other systems or unauthorized access by other users.
+
+5.2.2.3. Lack of Physical Proximity Between the Surgeon and Patient
+
+The remote‐enabled robotic system manufacturer, in coordination with the surgical‐grade network provider, shall implement security controls that ensure the correct components (e.g., remote physician console and patient site remote‐enabled robot) are being paired.
+
+The remote‐enabled robotic system manufacturer may make use of a shared “ session key” that is communicated between the remote physician and the patient‐site team and shared “out of band” (e.g., an alpha and/or numeric code that needs to be verbally communicated between the parties). The correct session key shall be required to initiate communication between the remote physician console and the patient site robots.
+
+5.2.2.4. Potential Introduction of Adverse Effects Through Security Controls
+
+The remote‐enabled robotic system's security controls shall be evaluated to ensure that they do not lead to an uncontrolled or undesired change in system behavior (e.g., undesirable additional teleoperation latency, jitter, or worst‐case unexpected movement).
+
+The remote‐enabled robotic system manufacturer's design shall include measures to reduce the risk of security failures as well as mechanisms for handling errors and exceptions. Any failures shall be addressed through fail‐safe features, ensuring that they do not cause undesirable system behavior or disrupt an ongoing procedure.
+
+5.2.2.5. Robust and Secure Surgical‐Grade Network Operations
+
+The network operations team should evaluate industry best practices for cybersecurity, including but not limited to the following:
+
+Implement surgical‐grade network security tools to aid with the detection (e.g., NDR, Network Detection and Response or NIDS, Network Intrusion Detection System) as well as Security Incident and Event Monitoring (SIEM) to collectively enable the timely detection, analysis, and response to anomalous traffic and events;
+
+Implement surgical‐grade network and security log retention capability to meet regulatory and operational requirements;
+
+Implement node‐level security protections such as Endpoint Detection and Response (EDR) or equivalent protections;
+
+Implement a policy and procedure for risks related to supply‐chain, subcontractor, and third party partners/vendors;
+
+Conduct regular cybersecurity penetration testing, preferably through a well‐recognized neutral third party testing provider;
+
+Conduct regular vulnerability scanning and monitoring of the network and connected infrastructure;
+
+Develop and maintain an asset database and incident response policy and plan;
+
+Implement a regular and recurring security review process that addresses logs and events, changes to asset database(s), access provisioning including changes/adds/deletes/stale‐records, and least‐privilege requirements.
+
+5.3. Remote‐Enabled Robotic System Interfaces
+
+This section addresses the critical interfaces between the remote‐enabled robotic system and the surgical‐grade network, which are essential for safe and effective remote procedures. It outlines the necessary functions required for connectivity and operation, ensuring reliable communication, secure operation, and efficient management of remote robotic procedures. See related Section (Appendix 
+
+A1
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-sec-0690
+
+) for a list of other remote‐enabled robotic system considerations.
+
+5.3.1. Functions for Remote‐Enabled Robotic Systems to Connect and Operate Over a Surgical‐Grade Network
+
+5.3.1.1. Device ID and System Information
+
+Each device connected to the surgical‐grade network shall have a guid that is communicated to the network for connectivity management and security.
+
+All guids shall be cryptographically protected and verifiable through strong cryptographic algorithms.
+
+5.3.1.2. Data Encryption, Decryption
+
+remote‐enabled robotic system traffic shall be encrypted at the application layer. (Refer to Section 
+
+5.2.2.2
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-sec-0370
+
+.)
+
+5.3.1.3. Data Packetization
+
+Each device connected to the surgical‐grade network shall be able to interface with a standard layer 1–3 network and support pmtud to prevent fragmentation and optimize data transfer.
+
+5.3.1.4. Ports
+
+Proprietary communication protocols shall use nonwell‐known ports.
+
+Standard communication protocols shall use standard ports.
+
+5.3.1.5. Protocols
+
+Each device application should communicate using either the TCP or UDP protocol.
+
+Devices should use standard security communication protocols and avoid protocols that are considered insecure (e.g., use SSH instead of Telnet, HTTPS instead of HTTP, and TLS 1.2/1.3 with strong cipher suites instead of TLS 1.1).
+
+Device applications shall use protocols that can be forwarded across a layer‐3 IP network.
+
+5.3.1.6. Routing and IP Addressing
+
+The surgical‐grade network interface for each device shall have a unique IP address for each LAN within a specified remote‐enabled robotic system.
+
+5.3.1.7. Ability to React to Changes in Surgical‐Grade Network Conditions
+
+The remote‐enabled robotic system shall notify users of appropriate status changes in surgical‐grade network conditions.
+
+The remote‐enabled robotic system and users shall interpret and respond appropriately to status changes in surgical‐grade network conditions to ensure safety.
+
+5.3.1.8. Device Surgical‐Grade Network Authentication
+
+Connected devices shall authenticate to the surgical‐grade network using industry‐recognized standard authentication methods.
+
+5.3.1.9. Session Start‐Up Sequence
+
+A surgical‐grade network connection to initiate a session shall only be established if the remote‐enabled robotic system indicates that the surgical‐grade network QoS requirements can be met for the use case.
+
+The remote physician site console and the patient site robot may power up independently and asynchronously.
+
+5.3.1.10. Session End Sequence
+
+The remote‐enabled robotic system shall notify the surgical‐grade network when the session has been completed, and the surgical‐grade network shall acknowledge receipt of the notification.
+
+5.3.1.11. Disconnected Session
+
+If the surgical‐grade network stops detecting communication between the remote physician console and the patient site robots, the network shall notify the remote‐enabled robotic system that no robot‐system communication is being detected and the remote‐enabled robotic system should end the session.
+
+5.3.1.12. Remote‐Enabled Robotic System Onboarding
+
+The remote‐enabled robotic system manufacturer shall authorize specific models or configurations of remote‐enabled robotic systems, including the bandwidth requirements of that configuration, to connect over the surgical‐grade network.
+
+The healthcare system shall authorize specific remote‐enabled robotic system devices of an authorized model or configuration to connect with each other over the surgical‐grade network.
+
+The specific authorized models or configurations of remote‐enabled robotic system devices shall be communicated to the surgical‐grade network.
+
+5.3.1.13. Remote‐Enabled Robotic System Offboarding
+
+remote‐enabled robotic system operators may deauthorize a specific model or configuration of a remote‐enabled robotic system from operating over the surgical‐grade network.
+
+All specific remote‐enabled robotic system devices in a de‐ authorized model or configuration shall be deauthorized from operating over the surgical‐grade network.
+
+The healthcare system may deauthorize a specific model or configuration of a remote‐enabled robotic system from operating over the surgical‐grade network.
+
+The specific models or configurations of deauthorized remote‐enabled robotic system devices shall be communicated to the surgical‐grade network.
+
+5.3.2. Required Data Exchange for Remote‐Enabled Robotic Systems to Operate Over a Surgical‐Grade Network
+
+5.3.2.1. Surgical‐Grade Network Status and Health
+
+The surgical‐grade network shall supply the remote‐enabled robotic system and other components with performance status and health statistics to ensure confidence in performance and facilitate risk assessment.
+
+5.3.2.2. Fleet Status
+
+The remote‐enabled robotic system and other required devices shall report performance status and health statistics to the surgical‐grade network to enable readiness for the planned session.
+
+5.3.2.3. Session Logs
+
+network performance logs for each session shall be recorded, retained as required, and accessible to authorized parties for forensic analysis, troubleshooting, and other purposes.
+
+5.4. Telepresence
+
+This section addresses the critical role of telepresence in remote procedures. It emphasizes the necessity of high‐quality real‐time network communications consisting of two‐way video and audio between the remote physician site and the patient site procedure room. These requirements are essential for maintaining situational awareness, ensuring patient safety, and facilitating a seamless workflow when the remote physician and patient are physically separated [ 
+
+24
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0024
+
+].
+
+5.4.1. Video in Remote Physician Site and Patient Site Procedure Rooms
+
+The remote physician site shall have an adequate view of the patient, other participants, and critical monitors and displays at the patient site via telepresence to ensure safety and facilitate seamless workflow.
+
+The room‐to‐room video connection between the remote physician site and the patient site procedure room shall be transmitted over a surgical‐grade network or a network of equivalent reliability as defined in Section 
+
+5.1.1.1
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-sec-0150
+
+.
+
+The remote physician site should have the capability to access multiple room views as needed for the use case.
+
+The remote physician site should have the pan, tilt, and zoom capabilities for optimal visualization of the patient site monitors and displays as needed per the use case.
+
+Participants in the patient site procedure room should have an adequate view of the remote physician.
+
+The remote physician and care team members may be notified if the room‐to‐room video connection is lost during a session.
+
+5.4.2. Audio in Remote Physician Site and Patient Site Procedure Rooms
+
+The remote physician site shall have the capability of real‐time network communications consisting of two‐way audio, with participants in the patient site procedure room to maintain situational awareness, ensure safety, and facilitate seamless workflow.
+
+The remote physician site shall be able to hear critical equipment sounds, including electrocautery signal settings, activation indicators, and fault alerts, within the required timeframe.
+
+Audio communications between the remote physician site and patient site participants shall be transmitted over a surgical‐grade network or a network of equivalent reliability as defined in Section 
+
+5.1.1.1
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-sec-0150
+
+The remote physician and care team members shall be notified if audio communication is lost during a session.
+
+5.5. Remote Physician Site and Patient Site Facilities
+
+The remote physician site and patient site shall ensure the remote‐enabled robotic system is authorized for clinical use in remote procedures by the relevant authority (e.g., the FDA).
+
+The remote physician site and patient site shall comply with all applicable federal, state, and international laws, regulations, guidelines, and standards.
+
+The remote physician site and patient site shall establish comprehensive plans and policies for information privacy and security compliance in remote procedures and ensure that contracts or agreements for remote procedure support include specific security controls for information security management.
+
+The remote physician site and patient site shall have access to appropriately trained and qualified technical support personnel (e.g., clinical engineers) with knowledge and skills in the maintenance and management of remote‐enabled robotic systems and remote procedures (e.g., network troubleshooting and fail‐safe drills).
+
+The remote physician site and patient site shall ensure proper performance validation testing and maintenance of the remote‐enabled robotic system infrastructure in accordance with relevant policies and procedures of the relevant governing organizations, manufacturer guidelines, and other industry best practices to ensure the remote‐enabled robotic system remains safe, effective, and compliant with regulatory requirements.
+
+The remote physician site and patient site shall ensure the appropriate surgical‐grade network infrastructure required for the remote procedure.
+
+The patient site for a remote procedure shall meet the same space requirements as local procedures and comply with all relevant standards and regulations to ensure safety, sterility, and functionality of the surgical environment.
+
+The remote physician site shall be a dedicated space equipped with adequate power, ensuring safety, privacy, and comfort.
+
+Author Contributions
+
+Yulun Wang:
+
+ conceptualization, writing – original draft, writing – review and editing. 
+
+Martin Buehler:
+
+ writing – review and editing. 
+
+Shane Farritor:
+
+ writing – review and editing. 
+
+Yuman Fong:
+
+ writing – review and editing. 
+
+Mike Kijewski:
+
+ writing – review and editing. 
+
+Brian Miller:
+
+ writing – review and editing. 
+
+Bill Peine:
+
+ writing – review and editing. 
+
+Blair Whitney:
+
+ conceptualization, writing – original draft, writing – review and editing. 
+
+Mike Yramategui:
+
+ writing – review and editing. 
+
+Jordana Bernard:
+
+ conceptualization, writing – original draft, writing – review and editing, project administration.
+
+Conflicts of Interest
+
+Yulun Wang declares Teladoc Fellow, Cottage Health Board Member, World Telehealth Initiative Chairman and Cofounder, stock options Sovato; Martin Buehler declares stock options Johnson & Johnson; Shane Farritor declares stock and patents Virtual Incision; Yuman Fong declares scientific consultant for Medtronic, Johnson & Johnson, and Imugene, receives royalties from Merck and Imugene, and owns patents for CF33‐OVs and CF33‐CD19t licensed to Imugene LTD; Mike Kijewski declares none; Brian Miller declares stock options Intuitive Surgical; Bill Peine declares stock, stock options, patents, and grant funding from Office of Naval Research, Grant 14143260, SC 1000020614, “Advanced Tele‐Robotic Surgery for Combat Casualty Care;” Blair Whitney declares stock options Sovato; Mike Yramategui declares stock options Intuitive Surgical; and Jordana Bernard declares stock options Sovato.
+
+Acknowledgments
+
+The authors gratefully acknowledge the following individuals for their invaluable contributions to the development of the technical guidelines: 
+
+Contributors
+
+: Russell Berger, Vice President, Product Security and Network Operations, Intuitive Surgical; Seth Carmody, VP Regulatory Strategy, MedCrypt; Phil Dang, Senior Director, Head of Product Security, Information Security and Risk Management, Johnson & Johnson MedTech; Dustin Eastman, Director of Product Security, Technical Fellow R&D, Systems Center of Excellence, Product Security, Medtronic; Dennis Fowler, CMO, Sovato; Brian Gaither, Director, Network Engineering, Sovato; Sheng Lu, Staff Engineer, Virtual Incision; Austin Miller, Cybersecurity Intern, Sovato; Cynthia H. Perazzo, CEO and Co‐Founder, Sovato; Marc Tibbitts, Senior Technical Project Manager, Sovato; Walter Martín Villalba, Founder & CEO, C13 Security; Axel Wirth, Chief Security Strategist, MedCrypt; and James Wright, Head of Technical Programs, Sovato. 
+
+Content Reviewers (no payment or
+
+ 
+
+support provided)
+
+: Erik Bond, VP, Enterprise Architecture, Northwell Health; Christophe Chautems, CTO and Cofounder Nanoflex Robotics; Jaesoon Choi, CEO, LN Robotics, Professor of Biomedical Engineering, Asan Medical Center/University of Ulsan College of Medicine; Joseph Cutrell, Director of Strategy and Innovation in the Global Business Division, AT&T; Christopher Difiglia, Director, Enterprise Communications, Northwell Health; Sara Dodd, Staff Design Control Engineer & Group Lead, CMR Surgical; Dieter Flubacher, Software Development, Nanoflex Robotics; Antonello Forgione, General Director, IRCAD France, Hôpitaux Universitaires de Strasbourg; Brian Korrow, Senior Director, Infrastructure Services and Management, Northwell Health; Robert Nockowitz, Senior Director, Infrastructure Services and Management—CCIE Emeritus #15410, Northwell Health; Riccardo Oliva, IRCAD France; Gynecologic Oncology Unit, Fondazione Policlinico Universitario A. Gemelli IRCCS, Università Cattolica del Sacro Cuore; Paul Pak, AVP, Infrastructure Services and Management, Northwell Health; Thomas Parent, CIO, IRCAD France; Vip Patel, Medical Director, Global Robotics Institute, Advent Health Celebration, Medical Director, Advent Health Cancer Institute Urologic Oncology Program, Professor of Urology, University of Central Florida School of Medicine, Clinical Associate Professor of Urology Nova Southeastern University; Alice Segato, Medical Robotics Engineer, Nanoflex Robotics; Chetan Sharma, Founder and CEO, Chetan Sharma Consulting; Hongjun Sun, Product R&D Director, Shanghai Microport Medbot (Group); and Kuang Zhao, Senior Operations Manager, CSA Group.
+
+Appendix A.
+
+A1. Other Remote‐Enabled Robotic System Considerations
+
+This section outlines additional technical design and implementation considerations for remote‐enabled robotic systems to ensure the safety and effectiveness of remote procedures beyond the core guidelines discussed in previous sections. These considerations highlight important factors for adapting existing robotic systems to function remotely and address specific challenges introduced by network‐dependent operations.
+
+Ensuring teleoperation latency, which will vary by remote‐enabled robotic system and distance between the remote physician site and patient site, is acceptable for a given use case.
+
+Ensuring the remote‐enabled robotic system can tolerate (per the SLA of the surgical‐grade network) surgical‐grade network properties, such as network latency, jitter, and packet loss. Ensuring the remote‐enabled robotic system can reestablish a connection after a session timeout. Designing system acknowledgments, such as heartbeats and command statuses, to prevent timeouts given the teleoperation latency. Testing the system at maximum teleoperation latency to confirm the system's ability to handle potential timeouts effectively.
+
+Ensuring that the remote‐enabled robotic system can adjust parameters based on dynamic surgical‐grade network conditions. Adaptability to changing surgical‐grade network conditions while maintaining performance. The remote‐enabled robotic system notifying the remote physician of degrading surgical‐grade network conditions that may affect performance.
+
+Ensuring the start‐up sequence of the remote‐enabled robotic system accounts for the separation between the remote console and the rest of the system. Designing the remote console and the patient site robot to boot up independently, ensuring seamless operation despite their physical separation. Integrating this independent startup process into the system's design to accommodate surgical‐grade network constraints and maintain functionality.
+
+Utilizing a low‐loss low‐ latency codec for endoscopic video or imaging, as it serves as the primary feedback mechanism for remote procedures. This approach preserves high‐quality visuals, ensuring that video quality is indistinguishable from that of same‐room imaging.
+
+Ensuring energy source control remains reliable and tolerant of communication degradation and failures. Implementing a fail‐safe design and clear indications of the device status and settings to enable effective awareness for the remote user.
+
+Ensuring patient site clinicians have the capability of halting the remote site physician's control of the remote‐enabled robot when necessary, serving as a critical safety mechanism.
+
+Allowing both the remote physician site and patient site to pause or temporarily interrupt instrument control during the procedure when necessary, enhancing overall safety.
+
+Ensuring a safe, seamless, and definitive transition of control between a remote console and another console.
+
+The remote‐enabled robotic system manufacturer ensures controls and visible warnings are implemented to prevent physical injury when the patient site staff enter the movement safety zone of articulating components during a remote procedure.
+
+The remote‐enabled robotic system manufacturer implements a method for the patient site staff to quickly pause remote movement control, bidirectional audio–video; and terminate a remote session without automatic remote reconnection.
+
+A2. General Threats a Remote‐Enabled Robotic System Should Defend Against
+
+In addition to the cybersecurity gaps covered in Section 
+
+5.2
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-sec-0330
+
+, developers of remote‐enabled robotic systems should adhere to established best practices for identifying, enumerating, and defining requirements for cybersecurity risks. Specifically, threat modeling must be performed to analyze and mitigate risks associated with both the overall remote‐enabled robotic system architecture and its individual components [ 
+
+25
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0025
+
+, 
+
+26
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bib-0026
+
+]. Additionally, the following key security practices address and reduce risks to the confidentiality, integrity, and availability of the data and systems, regardless of their remote capabilities:
+
+Compliance with generally accepted security requirements and security engineering best practices.
+
+Implementation of plans and processes for cybersecurity premarket and postmarket risk management, including identification, communication, and mitigation of new risks as well as securing and distributing software updates and patches.
+
+Follow generally recognized security principles (e.g., Secure by Design, Secure by Default, Least Privilege, and Defense in Depth).
+
+Follow best practices for software security review and analysis, including threat modeling, attack surface analysis, software composition analysis, code review, and SBOM vulnerability analysis.
+
+Follow best practices for software testing, including robustness testing, static application security testing (SAST), dynamic application security testing (DAST), boundary value analysis, fuzz testing, vulnerability scanning, and penetration testing.
+
+Provide evidence of testing at the respective integration stages and for the total system, including traceability of security requirements and identified risks to test results.
+
+Formalize and document any decisions regarding risks resulting from identified vulnerabilities that could not be or were not mitigated.
+
+Formalize and document any security trade‐off decisions (e.g., security vs. safety, security vs. usability, and security vs. features).
+
+Provide documentary evidence supporting the above security practices.
+
+User instructions and diagrams pertaining to cybersecurity, such as secure installation and integration, surgical‐grade network requirements, security infrastructure requirements, and security incident response handling. Remote procedures, by definition, introduce a data path that sends command and control data for remote‐enabled robotic systems outside the hospital network. This data path introduces the potential for heightened risks. Some related threats to consider include:
+
+Attacks on external surgical‐grade network infrastructure, impeding the availability and real‐time capabilities of these systems.
+
+A man‐in‐the‐middle attack on an external data center.
+
+Compromise of personal or sensitive data as it leaves the hospital's network.
+
+Networks used for remote procedures should be designed with threats, such as these in mind, and built with mitigation strategies to anticipate these risks.
+
+(See Section 
+
+5.2
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-sec-0330
+
+ for cybersecurity guidelines and requirements for remote procedures).
+
+Funding:
+
+ The authors received no specific funding for this work.
+
+Data Availability Statement
+
+The authors have nothing to report.
+
+References
+
+Meara J. G., Leather A. J. M., Hagander L., et al., “Global Surgery 2030: Evidence and Solutions for Achieving Health, Welfare, and Economic Development,” Lancet 386, no. 9993 (2015): 569–624, 10.1016/s0140-6736(15)60160-x. [ 
+
+DOI
+
+https://doi.org/10.1016/s0140-6736(15)60160-x
+
+] [ 
+
+PubMed
+
+https://pubmed.ncbi.nlm.nih.gov/25924834/
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?journal=Lancet&title=Global%20Surgery%202030:%20Evidence%20and%20Solutions%20for%20Achieving%20Health,%20Welfare,%20and%20Economic%20Development&author=J.%20G.%20Meara&author=A.%20J.%20M.%20Leather&author=L.%20Hagander&volume=386&issue=9993&publication_year=2015&pages=569-624&pmid=25924834&doi=10.1016/s0140-6736(15)60160-x&
+
+]
+
+Uribe‐Leitz T., Esquivel M. M., Garland N. Y., Staudenmayer K. L., Spain D. A., and Weiser T. G., “Surgical Deserts in California: An Analysis of Access to Surgical Care,” Journal of Surgical Research 223 (2018): 102–108, 10.1016/j.jss.2017.10.014. [ 
+
+DOI
+
+https://doi.org/10.1016/j.jss.2017.10.014
+
+] [ 
+
+PubMed
+
+https://pubmed.ncbi.nlm.nih.gov/29433860/
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?journal=Journal%20of%20Surgical%20Research&title=Surgical%20Deserts%20in%20California:%20An%20Analysis%20of%20Access%20to%20Surgical%20Care&author=T.%20Uribe%E2%80%90Leitz&author=M.%20M.%20Esquivel&author=N.%20Y.%20Garland&author=K.%20L.%20Staudenmayer&author=D.%20A.%20Spain&volume=223&publication_year=2018&pages=102-108&pmid=29433860&doi=10.1016/j.jss.2017.10.014&
+
+]
+
+Taylor K. K., Ibrahim A. M., and Scott J. W., “A Proposed Framework for Measuring Access to Surgical Care in the United States,” JAMA Surgery 157, no. 12 (2022): 1075–1077, 10.1001/jamasurg.2022.3184. [ 
+
+DOI
+
+https://doi.org/10.1001/jamasurg.2022.3184
+
+] [ 
+
+PubMed
+
+https://pubmed.ncbi.nlm.nih.gov/36129695/
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?journal=JAMA%20Surgery&title=A%20Proposed%20Framework%20for%20Measuring%20Access%20to%20Surgical%20Care%20in%20the%20United%20States&author=K.%20K.%20Taylor&author=A.%20M.%20Ibrahim&author=J.%20W.%20Scott&volume=157&issue=12&publication_year=2022&pages=1075-1077&pmid=36129695&doi=10.1001/jamasurg.2022.3184&
+
+]
+
+Marescaux J., Leroy J., Rubino F., et al., “Transcontinental Robot‐Assisted Remote Telesurgery: Feasibility and Potential Applications,” Annals of Surgery 235, no. 4 (2002): 487–492, 10.1097/00000658-200204000-00005. [ 
+
+DOI
+
+https://doi.org/10.1097/00000658-200204000-00005
+
+] [ 
+
+PMC free article
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC1422462/
+
+] [ 
+
+PubMed
+
+https://pubmed.ncbi.nlm.nih.gov/11923603/
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?journal=Annals%20of%20Surgery&title=Transcontinental%20Robot%E2%80%90Assisted%20Remote%20Telesurgery:%20Feasibility%20and%20Potential%20Applications&author=J.%20Marescaux&author=J.%20Leroy&author=F.%20Rubino&volume=235&issue=4&publication_year=2002&pages=487-492&pmid=11923603&doi=10.1097/00000658-200204000-00005&
+
+]
+
+Anvari M., “Remote Telepresence Surgery: The Canadian Experience,” Surgical Endoscopy 21, no. 4 (2007): 537–541, 10.1007/s00464-006-9040-8. [ 
+
+DOI
+
+https://doi.org/10.1007/s00464-006-9040-8
+
+] [ 
+
+PubMed
+
+https://pubmed.ncbi.nlm.nih.gov/17279304/
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?journal=Surgical%20Endoscopy&title=Remote%20Telepresence%20Surgery:%20The%20Canadian%20Experience&author=M.%20Anvari&volume=21&issue=4&publication_year=2007&pages=537-541&pmid=17279304&doi=10.1007/s00464-006-9040-8&
+
+]
+
+Barba P., Stramiello J., Funk E. K., Richter F., Yip M. C., and Orosco R. K., “Remote Telesurgery in Humans: A Systematic Review,” Surgical Endoscopy 36, no. 5 (2022): 2771–2777, 10.1007/s00464-022-09074-4. [ 
+
+DOI
+
+https://doi.org/10.1007/s00464-022-09074-4
+
+] [ 
+
+PMC free article
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9923406/
+
+] [ 
+
+PubMed
+
+https://pubmed.ncbi.nlm.nih.gov/35246740/
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?journal=Surgical%20Endoscopy&title=Remote%20Telesurgery%20in%20Humans:%20A%20Systematic%20Review&author=P.%20Barba&author=J.%20Stramiello&author=E.%20K.%20Funk&author=F.%20Richter&author=M.%20C.%20Yip&volume=36&issue=5&publication_year=2022&pages=2771-2777&pmid=35246740&doi=10.1007/s00464-022-09074-4&
+
+]
+
+Georgiou K. E., Georgiou E., Satava R. M., “5G Use in Healthcare: The Future Is Present.” Journal of the Society of Laparoendoscopic Surgeons 25, no. 4 (2021): e2021.00064, 10.4293/jsls.2021.00064. [ 
+
+DOI
+
+https://doi.org/10.4293/jsls.2021.00064
+
+] [ 
+
+PMC free article
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8764898/
+
+] [ 
+
+PubMed
+
+https://pubmed.ncbi.nlm.nih.gov/35087266/
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?journal=Journal%20of%20the%20Society%20of%20Laparoendoscopic%20Surgeons&title=5G%20Use%20in%20Healthcare:%20The%20Future%20Is%20Present&author=K.%20E.%20Georgiou&author=E.%20Georgiou&author=R.%20M.%20Satava&volume=25&issue=4&publication_year=2021&pages=e2021.00064&pmid=35087266&doi=10.4293/jsls.2021.00064&
+
+]
+
+Reddy S. K., Saikali S., Gamal A., et al., “Telesurgery a Systematic Literature Review and Future Directions,” Annals of Surgery (2024). [ 
+
+DOI
+
+https://doi.org/10.1097/SLA.0000000000006570
+
+] [ 
+
+PubMed
+
+https://pubmed.ncbi.nlm.nih.gov/39435556/
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?journal=Annals%20of%20Surgery&title=Telesurgery%20a%20Systematic%20Literature%20Review%20and%20Future%20Directions&author=S.%20K.%20Reddy&author=S.%20Saikali&author=A.%20Gamal&publication_year=2024&pmid=39435556&doi=10.1097/SLA.0000000000006570&
+
+]
+
+Itchhaporia D., “The Evolution of the Quintuple Aim: Health Equity, Health Outcomes, and the Economy,” Journal of the American College of Cardiology 78, no. 22 (2021): 2262–2264, 10.1016/j.jacc.2021.10.018. [ 
+
+DOI
+
+https://doi.org/10.1016/j.jacc.2021.10.018
+
+] [ 
+
+PMC free article
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8608191/
+
+] [ 
+
+PubMed
+
+https://pubmed.ncbi.nlm.nih.gov/34823665/
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?journal=Journal%20of%20the%20American%20College%20of%20Cardiology&title=The%20Evolution%20of%20the%20Quintuple%20Aim:%20Health%20Equity,%20Health%20Outcomes,%20and%20the%20Economy&author=D.%20Itchhaporia&volume=78&issue=22&publication_year=2021&pages=2262-2264&pmid=34823665&doi=10.1016/j.jacc.2021.10.018&
+
+]
+
+World Health Organization , Global Patient Safety Action Plan 2021–2030: Towards Eliminating Avoidable Harm in Health Care (May 2025), 
+
+https://www.who.int/publications/i/item/9789240032705
+
+https://www.who.int/publications/i/item/9789240032705
+
+.
+
+Patel V., Saikali S., Moschovas M. C., et al., “Technical and Ethical Considerations in Telesurgery,” Journal of Robotic Surgery 18, no. 1 (2024): 40, 10.1007/s11701-023-01797-3. [ 
+
+DOI
+
+https://doi.org/10.1007/s11701-023-01797-3
+
+] [ 
+
+PubMed
+
+https://pubmed.ncbi.nlm.nih.gov/38231309/
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?journal=Journal%20of%20Robotic%20Surgery&title=Technical%20and%20Ethical%20Considerations%20in%20Telesurgery&author=V.%20Patel&author=S.%20Saikali&author=M.%20C.%20Moschovas&volume=18&issue=1&publication_year=2024&pages=40&pmid=38231309&doi=10.1007/s11701-023-01797-3&
+
+]
+
+Mori M., Hirano S., Hakamada K., et al., “Clinical Practice Guidelines for Telesurgery 2022: Committee for the Promotion of Remote Surgery Implementation, Japan Surgical Society,” Surgery Today 54, no. 8 (2024): 817–828, 10.1007/s00595-024-02863-5. [ 
+
+DOI
+
+https://doi.org/10.1007/s00595-024-02863-5
+
+] [ 
+
+PMC free article
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11266380/
+
+] [ 
+
+PubMed
+
+https://pubmed.ncbi.nlm.nih.gov/38829562/
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?journal=Surgery%20Today&title=Clinical%20Practice%20Guidelines%20for%20Telesurgery%202022:%20Committee%20for%20the%20Promotion%20of%20Remote%20Surgery%20Implementation,%20Japan%20Surgical%20Society&author=M.%20Mori&author=S.%20Hirano&author=K.%20Hakamada&volume=54&issue=8&publication_year=2024&pages=817-828&pmid=38829562&doi=10.1007/s00595-024-02863-5&
+
+]
+
+Rocco B., Moschovas M. C., Saikali S., Gaia G., Patel V., and Sighinolfi M. C., “Insights From Telesurgery Expert Conference on Recent Clinical Experience and Current Status of Remote Surgery,” Journal of Robotic Surgery 18, no. 1 (2024): 240, 10.1007/s11701-024-01984-w. [ 
+
+DOI
+
+https://doi.org/10.1007/s11701-024-01984-w
+
+] [ 
+
+PMC free article
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11150305/
+
+] [ 
+
+PubMed
+
+https://pubmed.ncbi.nlm.nih.gov/38833111/
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?journal=Journal%20of%20Robotic%20Surgery&title=Insights%20From%20Telesurgery%20Expert%20Conference%20on%20Recent%20Clinical%20Experience%20and%20Current%20Status%20of%20Remote%20Surgery&author=B.%20Rocco&author=M.%20C.%20Moschovas&author=S.%20Saikali&author=G.%20Gaia&author=V.%20Patel&volume=18&issue=1&publication_year=2024&pages=240&pmid=38833111&doi=10.1007/s11701-024-01984-w&
+
+]
+
+National Insitute of Standards and Technology (NIST 800‐53: Cybersecurity Framework (CSF) 2.0, U.S. Department of Commerce, May 2025), 10.6028/NIST.CSWP.29. [ 
+
+DOI
+
+https://doi.org/10.6028/NIST.CSWP.29
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=National%20Insitute%20of%20Standards%20and%20Technology&publication_year=2025&
+
+]
+
+Xu S., Perez M., Yang K., Perrenot C., Felblinger J., and Hubert J., “Determination of the Latency Effects on Surgical Performance and the Acceptable Latency Levels in Telesurgery Using the dV‐Trainer((R)) Simulator,” Surgical Endoscopy 28, no. 9 (2014): 2569–2576, 10.1007/s00464-014-3504-z. [ 
+
+DOI
+
+https://doi.org/10.1007/s00464-014-3504-z
+
+] [ 
+
+PubMed
+
+https://pubmed.ncbi.nlm.nih.gov/24671353/
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?journal=Surgical%20Endoscopy&title=Determination%20of%20the%20Latency%20Effects%20on%20Surgical%20Performance%20and%20the%20Acceptable%20Latency%20Levels%20in%20Telesurgery%20Using%20the%20dV%E2%80%90Trainer((R))%20Simulator&author=S.%20Xu&author=M.%20Perez&author=K.%20Yang&author=C.%20Perrenot&author=J.%20Felblinger&volume=28&issue=9&publication_year=2014&pages=2569-2576&pmid=24671353&doi=10.1007/s00464-014-3504-z&
+
+]
+
+Morohashi H., Hakamada K., Kanno T., et al., “Construction of Redundant Communications to Enhance Safety Against Communication Interruptions During Robotic Remote Surgery,” Scientific Reports 13, no. 1 (2023): 10831, 10.1038/s41598-023-37730-9. [ 
+
+DOI
+
+https://doi.org/10.1038/s41598-023-37730-9
+
+] [ 
+
+PMC free article
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10319872/
+
+] [ 
+
+PubMed
+
+https://pubmed.ncbi.nlm.nih.gov/37402741/
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?journal=Scientific%20Reports&title=Construction%20of%20Redundant%20Communications%20to%20Enhance%20Safety%20Against%20Communication%20Interruptions%20During%20Robotic%20Remote%20Surgery&author=H.%20Morohashi&author=K.%20Hakamada&author=T.%20Kanno&volume=13&issue=1&publication_year=2023&pages=10831&pmid=37402741&doi=10.1038/s41598-023-37730-9&
+
+]
+
+Nankaku A., Tokunaga M., Yonezawa H., et al., “Maximum Acceptable Communication Delay for the Realization of Telesurgery,” PLoS One 17, no. 10 (2022): e0274328, 10.1371/journal.pone.0274328. [ 
+
+DOI
+
+https://doi.org/10.1371/journal.pone.0274328
+
+] [ 
+
+PMC free article
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9536636/
+
+] [ 
+
+PubMed
+
+https://pubmed.ncbi.nlm.nih.gov/36201429/
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?journal=PLoS%20One&title=Maximum%20Acceptable%20Communication%20Delay%20for%20the%20Realization%20of%20Telesurgery&author=A.%20Nankaku&author=M.%20Tokunaga&author=H.%20Yonezawa&volume=17&issue=10&publication_year=2022&pages=e0274328&pmid=36201429&doi=10.1371/journal.pone.0274328&
+
+]
+
+Kaur K., Garg S., Kaddoum G., et al., “Secure Authentication and Key Agreement Protocol for Tactile Internet‐Based Tele‐Surgery Ecosystem ICC 2020 – 2020,” IEEE International Conference on Communications (2020): 1–6. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?journal=IEEE%20International%20Conference%20on%20Communications&title=Secure%20Authentication%20and%20Key%20Agreement%20Protocol%20for%20Tactile%20Internet%E2%80%90Based%20Tele%E2%80%90Surgery%20Ecosystem%20ICC%202020%20%E2%80%93%202020&author=K.%20Kaur&author=S.%20Garg&author=G.%20Kaddoum&publication_year=2020&pages=1-6&
+
+]
+
+U.S. Department of Health and Human Services Food and Drug Administration , Postmarket Management of Cybersecurity in Medical Devices Guidance for Industry and Food and Drug Administration Staff (May 2023), 
+
+https://www.fda.gov/media/95862/download
+
+https://www.fda.gov/media/95862/download
+
+.
+
+U.S. Department of Health and Human Services Food and Drug Administration , Cybersecurity in Medical Devices: Quality System Considerations and Content of Premarket Submissions Guidance for Industry and Food and Drug Administration Staff (2016), 
+
+https://www.fda.gov/media/119933/download
+
+https://www.fda.gov/media/119933/download
+
+.
+
+Barker E. and Roginsky A., Technology NIoSa 2019 Transitioning the Use of Cryptographic Algorithms and Key Lengths (May 2025), 10.6028/NIST.SP.800-131Ar2. [ 
+
+DOI
+
+https://doi.org/10.6028/NIST.SP.800-131Ar2
+
+]
+
+Boyens J., Smith A., Bartol N., et al., Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations (2022), 10.6028/NIST.SP.800-161r1. [ 
+
+DOI
+
+https://doi.org/10.6028/NIST.SP.800-161r1
+
+]
+
+Corporation T. M., Playbook Threat Modeling Medical Devices (2021), 
+
+https://www.mitre.org/sites/default/files/2021‐11/Playbook‐for‐Threat‐Modeling‐Medical‐Devices.pdf
+
+https://www.mitre.org/sites/default/files/2021-11/Playbook-for-Threat-Modeling-Medical-Devices.pdf
+
+.
+
+Collins J. W., Ghazi A., Stoyanov D., et al., “Utilising an Accelerated Delphi Process to Develop Guidance and Protocols for Telepresence Applications in Remote Robotic Surgery Training,” European Urology Open Science 22 (2020): 23–33, 10.1016/j.euros.2020.09.005. [ 
+
+DOI
+
+https://doi.org/10.1016/j.euros.2020.09.005
+
+] [ 
+
+PMC free article
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8317899/
+
+] [ 
+
+PubMed
+
+https://pubmed.ncbi.nlm.nih.gov/34337475/
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?journal=European%20Urology%20Open%20Science&title=Utilising%20an%20Accelerated%20Delphi%20Process%20to%20Develop%20Guidance%20and%20Protocols%20for%20Telepresence%20Applications%20in%20Remote%20Robotic%20Surgery%20Training&author=J.%20W.%20Collins&author=A.%20Ghazi&author=D.%20Stoyanov&volume=22&publication_year=2020&pages=23-33&pmid=34337475&doi=10.1016/j.euros.2020.09.005&
+
+]
+
+Bonaci T., Herron J., Yusuf T., et al., “To Make a Robot Secure: An Experimental Analysis of Cyber Security Threats Against Teleoperated Surgical Robots,” arXiv:1504.04339 (May 2015). [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?journal=arXiv:1504.04339&title=To%20Make%20a%20Robot%20Secure:%20An%20Experimental%20Analysis%20of%20Cyber%20Security%20Threats%20Against%20Teleoperated%20Surgical%20Robots&author=T.%20Bonaci&author=J.%20Herron&author=T.%20Yusuf&publication_year=2015&
+
+]
+
+Iqbal S., Farooq S., Shahzad K., Malik A. W., Hamayun M. M., and Hasan O., “SecureSurgiNET: A Framework for Ensuring Security in Telesurgery,” International Journal of Distributed Sensor Networks 15, no. 9 (2019): 1550147719873811, 10.1177/1550147719873811. [ 
+
+DOI
+
+https://doi.org/10.1177/1550147719873811
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?journal=International%20Journal%20of%20Distributed%20Sensor%20Networks&title=SecureSurgiNET:%20A%20Framework%20for%20Ensuring%20Security%20in%20Telesurgery&author=S.%20Iqbal&author=S.%20Farooq&author=K.%20Shahzad&author=A.%20W.%20Malik&author=M.%20M.%20Hamayun&volume=15&issue=9&publication_year=2019&pages=1550147719873811&doi=10.1177/1550147719873811&
+
+]
+
+Associated Data
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+
+Data Availability Statement
+
+The authors have nothing to report.
+
+Articles from World Journal of Surgery are provided here courtesy of 
+
+Wiley
+
+ 
+
+ACTIONS
+
+ View on publisher site
+
+https://doi.org/10.1002/wjs.12653
+
+ PDF (586.9 KB)
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/pdf/WJS-49-1708.pdf
+
+ Cite
+
+ Collections
+
+ Permalink
+
+PERMALINK
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/
+
+ 
+
+ Copy
+
+RESOURCES
+
+Similar articles
+
+Cited by other articles
+
+Links to NCBI Databases
+
+On this page
+
+ABSTRACT
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#abstract1
+
+1. Introduction
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-sec-0010
+
+2. Scope
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-sec-0070
+
+3. Terms, Definitions, and Abbreviations
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-sec-0080
+
+4. Existing Standards Applicable to Remote Procedures
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-sec-0110
+
+5. Technical Guidelines for Remote Procedures
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-sec-0120
+
+Author Contributions
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-sec-0640
+
+Conflicts of Interest
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-sec-0660
+
+Acknowledgments
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-sec-0650
+
+Appendix A.
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-app-0001
+
+Data Availability Statement
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-sec-0680
+
+References
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#wjs12653-bibl-0001
+
+Associated Data
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/#_ad93_
+
+Cite
+
+ Copy
+
+ Download .nbib .nbib
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/
+
+Format: AMA APA MLA NLM
+
+Add to Collections
+
+[-] new
+
+Create a new collection
+
+ 
+
+[x] existing
+
+Add to an existing collection
+
+Name your collection *
+
+Choose a collection
+
+Unable to load your collection due to an error
+
+Please try again
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12282566/
+
+Add Cancel
+
+Follow NCBI
+
+NCBI on X (formerly known as Twitter)
+
+https://twitter.com/ncbi
+
+ 
+
+NCBI on Facebook
+
+https://www.facebook.com/ncbi.nlm
+
+ 
+
+NCBI on LinkedIn
+
+https://www.linkedin.com/company/ncbinlm
+
+ 
+
+NCBI on GitHub
+
+https://github.com/ncbi
+
+ 
+
+NCBI RSS feed
+
+https://ncbiinsights.ncbi.nlm.nih.gov/
+
+Connect with NLM
+
+NLM on X (formerly known as Twitter)
+
+https://twitter.com/nlm_nih
+
+ 
+
+NLM on Facebook
+
+https://www.facebook.com/nationallibraryofmedicine
+
+ 
+
+NLM on YouTube
+
+https://www.youtube.com/user/NLMNIH
+
+[National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,            -77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!            4d-77.0988323)
+
+Web Policies
+
+https://www.nlm.nih.gov/web_policies.html
+
+FOIA
+
+https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office
+
+HHS Vulnerability Disclosure
+
+https://www.hhs.gov/vulnerability-disclosure-policy/index.html
+
+Help
+
+https://support.nlm.nih.gov/?pagename=cloudpmc-viewer%3Apmc%3Aarticle%3Ajournal
+
+Accessibility
+
+https://www.nlm.nih.gov/accessibility.html
+
+Careers
+
+https://www.nlm.nih.gov/careers/careers.html
+
+NLM
+
+https://www.nlm.nih.gov/
+
+NIH
+
+https://www.nih.gov/
+
+HHS
+
+https://www.hhs.gov/
+
+USA.gov
+
+https://www.usa.gov/
+
+ 
+
+Back to Top
+
+ 
+
+ 

@@ -1,0 +1,1379 @@
+Generative AI and Foundation Models in Advanced Manufacturing
+
+ 
+
+ 
+
+https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+
+Consent
+
+https://www.a-star.edu.sg/simtech/kto/masterclasses/generative-ai-and-foundation-models-in-advanced-manufacturing
+
+Details
+
+https://www.a-star.edu.sg/simtech/kto/masterclasses/generative-ai-and-foundation-models-in-advanced-manufacturing
+
+[#IABV2SETTINGS#]
+
+https://www.a-star.edu.sg/simtech/kto/masterclasses/generative-ai-and-foundation-models-in-advanced-manufacturing
+
+About
+
+https://www.a-star.edu.sg/simtech/kto/masterclasses/generative-ai-and-foundation-models-in-advanced-manufacturing
+
+This website uses cookies
+
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you've provided to them or that they've collected from your use of their services.
+
+[#GPC_BANNER_ICON#]
+
+[#GPC_TOAST_TEXT#]
+
+Consent Selection
+
+Necessary
+
+ 
+
+[x]
+
+Preferences
+
+ 
+
+[-]
+
+Statistics
+
+ 
+
+[-]
+
+Marketing
+
+ 
+
+[-]
+
+Show details
+
+https://www.a-star.edu.sg/simtech/kto/masterclasses/generative-ai-and-foundation-models-in-advanced-manufacturing
+
+Details
+
+Necessary 1
+
+ 
+
+[x]  Necessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the website. The website cannot function properly without these cookies.
+
+www.a-star.edu.sg 1
+
+https://www.a-star.edu.sg/simtech/kto/masterclasses/generative-ai-and-foundation-models-in-advanced-manufacturing
+
+ 
+
+CookieConsent
+
+ Stores the user's cookie consent state for the current domain 
+
+Maximum Storage Duration
+
+: 1 year 
+
+Type
+
+: HTTP Cookie
+
+Preferences 0
+
+ 
+
+[-]  Preference cookies enable a website to remember information that changes the way the website behaves or looks, like your preferred language or the region that you are in. We do not use cookies of this type.
+
+Statistics 0
+
+ 
+
+[-]  Statistic cookies help website owners to understand how visitors interact with websites by collecting and reporting information anonymously. We do not use cookies of this type.
+
+Marketing 0
+
+ 
+
+[-]  Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third party advertisers. We do not use cookies of this type.
+
+Unclassified 0 Unclassified cookies are cookies that we are in the process of classifying, together with the providers of individual cookies. We do not use cookies of this type.
+
+Cross-domain consent[#BULK_CONSENT_DOMAINS_COUNT#]
+
+https://www.a-star.edu.sg/simtech/kto/masterclasses/generative-ai-and-foundation-models-in-advanced-manufacturing
+
+ [#BULK_CONSENT_TITLE#]
+
+List of domains your consent applies to: [#BULK_CONSENT_DOMAINS#]
+
+Cookie declaration last updated on 3/24/26 by 
+
+Cookiebot
+
+https://www.cookiebot.com/
+
+[#IABV2_TITLE#]
+
+[#IABV2_BODY_INTRO#]
+
+[#IABV2_BODY_LEGITIMATE_INTEREST_INTRO#]
+
+[#IABV2_BODY_PREFERENCE_INTRO#]
+
+[#IABV2_LABEL_PURPOSES#]
+
+[#IABV2_BODY_PURPOSES_INTRO#]
+
+[#IABV2_BODY_PURPOSES#]
+
+[#IABV2_LABEL_FEATURES#]
+
+[#IABV2_BODY_FEATURES_INTRO#]
+
+[#IABV2_BODY_FEATURES#]
+
+[#IABV2_LABEL_PARTNERS#]
+
+[#IABV2_BODY_PARTNERS_INTRO#]
+
+[#IABV2_BODY_PARTNERS#]
+
+About
+
+Cookies are small text files that can be used by websites to make a user's experience more efficient.
+
+The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies we need your permission.
+
+This site uses different types of cookies. Some cookies are placed by third party services that appear on our pages.
+
+You can at any time change or withdraw your consent from the Cookie Declaration on our website.
+
+Learn more about who we are, how you can contact us and how we process personal data in our Privacy Policy.
+
+Please state your consent ID and date when you contact us regarding your consent.
+
+ 
+
+[-]
+
+Do not sell or share my personal information
+
+Allow all Customize
+
+Allow selection Deny
+
+About A*STAR SIMTech
+
+https://www.a-star.edu.sg/simtech/about-us
+
+Overview
+
+https://www.a-star.edu.sg/simtech/about-us/about-us
+
+Management
+
+https://www.a-star.edu.sg/simtech/about-us/management
+
+Research
+
+https://www.a-star.edu.sg/simtech/research
+
+4 R&D Themes
+
+https://www.a-star.edu.sg/simtech/research/overview
+
+Autonomous Manufacturing
+
+https://www.a-star.edu.sg/simtech/research/AAD
+
+Next-Gen Manufacturing Processes
+
+https://www.a-star.edu.sg/simtech/research/MPD
+
+Resilient Value Chain
+
+https://www.a-star.edu.sg/simtech/research/MSD
+
+Net Zero Manufacturing
+
+https://www.a-star.edu.sg/simtech/research/SLED
+
+Research Collaborations
+
+https://www.a-star.edu.sg/simtech/research/research-collaborations
+
+Industry
+
+https://www.a-star.edu.sg/simtech/industry
+
+Working with Us
+
+https://www.a-star.edu.sg/simtech/industry/working-with-simtech
+
+Industry Collaborations
+
+https://www.a-star.edu.sg/simtech/industry/industry-collaborations
+
+Collaborative Industry Development
+
+https://www.a-star.edu.sg/simtech/industry/consortia
+
+Technology Licensing
+
+https://www.a-star.edu.sg/simtech/industry/technology-licensing
+
+Technology Upgrade
+
+https://www.a-star.edu.sg/simtech/industry/technology-upgrade
+
+Industry Pillars
+
+https://www.a-star.edu.sg/simtech/industry-pillars
+
+Aerospace Pillar
+
+https://www.a-star.edu.sg/simtech/industry-pillars/aerospace-pillar
+
+Biomedical Manufacturing & FMCG Pillar
+
+https://www.a-star.edu.sg/simtech/industry-pillars/biomedical-manufacturing-fmcg-pillar
+
+Energy Pillar
+
+https://www.a-star.edu.sg/simtech/industry-pillars/energy-pillar
+
+Semiconductor Equipment & Factory Solutions Pillar
+
+https://www.a-star.edu.sg/simtech/industry-pillars/semiconductor-equipment-factory-solutions-pillar
+
+Innovation Factory
+
+https://www.a-star.edu.sg/simtech/about-IF
+
+Overview
+
+https://www.a-star.edu.sg/simtech/about-IF/overview
+
+History
+
+https://www.a-star.edu.sg/simtech/about-IF/overview/history
+
+Services
+
+https://www.a-star.edu.sg/simtech/about-IF/services
+
+Our Work
+
+https://www.a-star.edu.sg/simtech/about-IF/our-work
+
+Our Team
+
+https://www.a-star.edu.sg/simtech/about-IF/our-team
+
+Contact IF
+
+https://www.a-star.edu.sg/simtech/about-IF/contact-if
+
+More+
+
+https://www.a-star.edu.sg/simtech/kto/masterclasses/generative-ai-and-foundation-models-in-advanced-manufacturing
+
+Additive Innovation Centre (AIC)
+
+https://www.a-star.edu.sg/simtech/AIC
+
+About AIC
+
+https://www.a-star.edu.sg/simtech/AIC/about-aic
+
+Integrated End-to-End AM Solutions
+
+https://www.a-star.edu.sg/simtech/AIC/integrated-end-to-end-am-solutions
+
+Pilot Batch Production
+
+https://www.a-star.edu.sg/simtech/AIC/pilot-batch-production
+
+Technologies
+
+https://www.a-star.edu.sg/simtech/AIC/technologies
+
+Events
+
+https://www.a-star.edu.sg/simtech/AIC/events
+
+Highlights
+
+https://www.a-star.edu.sg/simtech/AIC/highlights
+
+Contact AIC
+
+https://www.a-star.edu.sg/simtech/AIC/contact-aic
+
+Model Factory at A*STAR SIMTech
+
+https://www.a-star.edu.sg/simtech/model-factory-at-simtech
+
+Overview
+
+https://www.a-star.edu.sg/simtech/model-factory-at-simtech/overview
+
+Key Features
+
+https://www.a-star.edu.sg/simtech/model-factory-at-simtech/key-features
+
+Research
+
+https://www.a-star.edu.sg/simtech/model-factory-at-simtech/research
+
+Technology
+
+https://www.a-star.edu.sg/simtech/model-factory-at-simtech/technology
+
+Learning
+
+https://www.a-star.edu.sg/simtech/model-factory-at-simtech/learning
+
+Partners
+
+https://www.a-star.edu.sg/simtech/model-factory-at-simtech/partners
+
+Visits/Contacts
+
+https://www.a-star.edu.sg/simtech/model-factory-at-simtech/visits-contacts
+
+Knowledge Transfer Office (KTO)
+
+https://www.a-star.edu.sg/simtech/kto
+
+About KTO
+
+https://www.a-star.edu.sg/simtech/kto/about-kto
+
+Courses by Skills
+
+https://www.a-star.edu.sg/simtech/kto/courses-by-skills
+
+Advanced Manufacturing Processes
+
+https://www.a-star.edu.sg/simtech/kto/courses-by-skills/advanced-manufacturing-processes
+
+Digital Manufacturing and Supply Chain
+
+https://www.a-star.edu.sg/simtech/kto/courses-by-skills/digital-manufacturing-and-supply-chain
+
+Sustainable Manufacturing
+
+https://www.a-star.edu.sg/simtech/kto/courses-by-skills/sustainable-manufacturing
+
+MedTech Manufacturing
+
+https://www.a-star.edu.sg/simtech/kto/courses-by-skills/medtech-manufacturing
+
+Strategic Planning and Project Management
+
+https://www.a-star.edu.sg/simtech/kto/courses-by-skills/strategic-planning-and-project-management
+
+Manufacturing Automation and Robotics
+
+https://www.a-star.edu.sg/simtech/kto/courses-by-skills/manufacturing-automation-and-robotics
+
+Course Directory
+
+https://www.a-star.edu.sg/simtech/kto/course-directory
+
+SkillsFuture Career Transition Programme
+
+https://www.a-star.edu.sg/simtech/kto/skillsfuture-career-transition-programme
+
+MasterClasses
+
+https://www.a-star.edu.sg/simtech/kto/masterclasses
+
+Enterprise Transformation Project (ETP) With Mentorship Support Grant (MSG)
+
+https://www.a-star.edu.sg/simtech/kto/etp-with-msg
+
+Course Registration Form for Public Classes
+
+https://www.a-star.edu.sg/simtech/kto/register-for-course
+
+Customised Courses Request Service
+
+https://www.a-star.edu.sg/simtech/kto/customised-courses-request
+
+Schedules Viewer
+
+https://www.a-star.edu.sg/simtech/kto/course-schedules
+
+Training Venues
+
+https://www.a-star.edu.sg/simtech/kto/training-venues
+
+eAttendance (via Singpass)
+
+https://www.a-star.edu.sg/simtech/kto/eattendance
+
+Collaterals
+
+https://www.a-star.edu.sg/simtech/kto/collaterals
+
+News & Events
+
+https://www.a-star.edu.sg/simtech/news-events
+
+Press Releases
+
+https://www.a-star.edu.sg/simtech/news-events/press-releases
+
+Industry Updates
+
+https://www.a-star.edu.sg/simtech/news-events/industry-updates
+
+SIMTech Manufacturing Matters
+
+https://www.a-star.edu.sg/simtech/news-events/SIMTech-Manufacturing-Matters
+
+Manufacturing Matters
+
+https://www.a-star.edu.sg/simtech/news-events/manufacturing-matters
+
+SIMTech 30th Anniversary
+
+https://www.a-star.edu.sg/simtech/news-events/30YA
+
+Events
+
+https://www.a-star.edu.sg/simtech/news-events/events
+
+Students
+
+https://www.a-star.edu.sg/simtech/students
+
+Contact Us
+
+https://www.a-star.edu.sg/simtech/contact-us
+
+Home
+
+https://www.a-star.edu.sg/
+
+A*STAR SIMTech
+
+https://www.a-star.edu.sg/simtech/home
+
+Knowledge Transfer Office (KTO)
+
+https://www.a-star.edu.sg/simtech/kto
+
+MasterClasses
+
+https://www.a-star.edu.sg/simtech/kto/masterclasses
+
+Generative AI and Foundation Models in Advanced Manufacturing
+
+https://www.a-star.edu.sg/simtech/kto/masterclasses/generative-ai-and-foundation-models-in-advanced-manufacturing
+
+ 
+
+A*STAR SIMTech
+
+https://www.a-star.edu.sg/simtech/home
+
+About A*STAR SIMTech
+
+https://www.a-star.edu.sg/simtech/about-us
+
+Overview
+
+https://www.a-star.edu.sg/simtech/about-us/about-us
+
+Management
+
+https://www.a-star.edu.sg/simtech/about-us/management
+
+Research
+
+https://www.a-star.edu.sg/simtech/research
+
+4 R&D Themes
+
+https://www.a-star.edu.sg/simtech/research/overview
+
+Autonomous Manufacturing
+
+https://www.a-star.edu.sg/simtech/research/AAD
+
+Next-Gen Manufacturing Processes
+
+https://www.a-star.edu.sg/simtech/research/MPD
+
+Resilient Value Chain
+
+https://www.a-star.edu.sg/simtech/research/MSD
+
+Net Zero Manufacturing
+
+https://www.a-star.edu.sg/simtech/research/SLED
+
+Research Collaborations
+
+https://www.a-star.edu.sg/simtech/research/research-collaborations
+
+Industry
+
+https://www.a-star.edu.sg/simtech/industry
+
+Working with Us
+
+https://www.a-star.edu.sg/simtech/industry/working-with-simtech
+
+Industry Collaborations
+
+https://www.a-star.edu.sg/simtech/industry/industry-collaborations
+
+Collaborative Industry Development
+
+https://www.a-star.edu.sg/simtech/industry/consortia
+
+Technology Licensing
+
+https://www.a-star.edu.sg/simtech/industry/technology-licensing
+
+Technology Upgrade
+
+https://www.a-star.edu.sg/simtech/industry/technology-upgrade
+
+Industry Pillars
+
+https://www.a-star.edu.sg/simtech/industry-pillars
+
+Aerospace Pillar
+
+https://www.a-star.edu.sg/simtech/industry-pillars/aerospace-pillar
+
+Biomedical Manufacturing & FMCG Pillar
+
+https://www.a-star.edu.sg/simtech/industry-pillars/biomedical-manufacturing-fmcg-pillar
+
+Energy Pillar
+
+https://www.a-star.edu.sg/simtech/industry-pillars/energy-pillar
+
+Semiconductor Equipment & Factory Solutions Pillar
+
+https://www.a-star.edu.sg/simtech/industry-pillars/semiconductor-equipment-factory-solutions-pillar
+
+Innovation Factory
+
+https://www.a-star.edu.sg/simtech/about-IF
+
+Overview
+
+https://www.a-star.edu.sg/simtech/about-IF/overview
+
+History
+
+https://www.a-star.edu.sg/simtech/about-IF/overview/history
+
+Services
+
+https://www.a-star.edu.sg/simtech/about-IF/services
+
+Our Work
+
+https://www.a-star.edu.sg/simtech/about-IF/our-work
+
+Our Team
+
+https://www.a-star.edu.sg/simtech/about-IF/our-team
+
+Contact IF
+
+https://www.a-star.edu.sg/simtech/about-IF/contact-if
+
+Additive Innovation Centre (AIC)
+
+https://www.a-star.edu.sg/simtech/AIC
+
+About AIC
+
+https://www.a-star.edu.sg/simtech/AIC/about-aic
+
+Integrated End-to-End AM Solutions
+
+https://www.a-star.edu.sg/simtech/AIC/integrated-end-to-end-am-solutions
+
+Pilot Batch Production
+
+https://www.a-star.edu.sg/simtech/AIC/pilot-batch-production
+
+Technologies
+
+https://www.a-star.edu.sg/simtech/AIC/technologies
+
+Events
+
+https://www.a-star.edu.sg/simtech/AIC/events
+
+Highlights
+
+https://www.a-star.edu.sg/simtech/AIC/highlights
+
+Contact AIC
+
+https://www.a-star.edu.sg/simtech/AIC/contact-aic
+
+Model Factory at A*STAR SIMTech
+
+https://www.a-star.edu.sg/simtech/model-factory-at-simtech
+
+Overview
+
+https://www.a-star.edu.sg/simtech/model-factory-at-simtech/overview
+
+Key Features
+
+https://www.a-star.edu.sg/simtech/model-factory-at-simtech/key-features
+
+Research
+
+https://www.a-star.edu.sg/simtech/model-factory-at-simtech/research
+
+Technology
+
+https://www.a-star.edu.sg/simtech/model-factory-at-simtech/technology
+
+Learning
+
+https://www.a-star.edu.sg/simtech/model-factory-at-simtech/learning
+
+Partners
+
+https://www.a-star.edu.sg/simtech/model-factory-at-simtech/partners
+
+Visits/Contacts
+
+https://www.a-star.edu.sg/simtech/model-factory-at-simtech/visits-contacts
+
+Knowledge Transfer Office (KTO)
+
+https://www.a-star.edu.sg/simtech/kto
+
+About KTO
+
+https://www.a-star.edu.sg/simtech/kto/about-kto
+
+Courses by Skills
+
+https://www.a-star.edu.sg/simtech/kto/courses-by-skills
+
+Advanced Manufacturing Processes
+
+https://www.a-star.edu.sg/simtech/kto/courses-by-skills/advanced-manufacturing-processes
+
+Digital Manufacturing and Supply Chain
+
+https://www.a-star.edu.sg/simtech/kto/courses-by-skills/digital-manufacturing-and-supply-chain
+
+Sustainable Manufacturing
+
+https://www.a-star.edu.sg/simtech/kto/courses-by-skills/sustainable-manufacturing
+
+MedTech Manufacturing
+
+https://www.a-star.edu.sg/simtech/kto/courses-by-skills/medtech-manufacturing
+
+Strategic Planning and Project Management
+
+https://www.a-star.edu.sg/simtech/kto/courses-by-skills/strategic-planning-and-project-management
+
+Manufacturing Automation and Robotics
+
+https://www.a-star.edu.sg/simtech/kto/courses-by-skills/manufacturing-automation-and-robotics
+
+Course Directory
+
+https://www.a-star.edu.sg/simtech/kto/course-directory
+
+SkillsFuture Career Transition Programme
+
+https://www.a-star.edu.sg/simtech/kto/skillsfuture-career-transition-programme
+
+MasterClasses
+
+https://www.a-star.edu.sg/simtech/kto/masterclasses
+
+Enterprise Transformation Project (ETP) With Mentorship Support Grant (MSG)
+
+https://www.a-star.edu.sg/simtech/kto/etp-with-msg
+
+Course Registration Form for Public Classes
+
+https://www.a-star.edu.sg/simtech/kto/register-for-course
+
+Customised Courses Request Service
+
+https://www.a-star.edu.sg/simtech/kto/customised-courses-request
+
+Schedules Viewer
+
+https://www.a-star.edu.sg/simtech/kto/course-schedules
+
+Training Venues
+
+https://www.a-star.edu.sg/simtech/kto/training-venues
+
+eAttendance (via Singpass)
+
+https://www.a-star.edu.sg/simtech/kto/eattendance
+
+Collaterals
+
+https://www.a-star.edu.sg/simtech/kto/collaterals
+
+News & Events
+
+https://www.a-star.edu.sg/simtech/news-events
+
+Press Releases
+
+https://www.a-star.edu.sg/simtech/news-events/press-releases
+
+Industry Updates
+
+https://www.a-star.edu.sg/simtech/news-events/industry-updates
+
+SIMTech Manufacturing Matters
+
+https://www.a-star.edu.sg/simtech/news-events/SIMTech-Manufacturing-Matters
+
+Manufacturing Matters
+
+https://www.a-star.edu.sg/simtech/news-events/manufacturing-matters
+
+SIMTech 30th Anniversary
+
+https://www.a-star.edu.sg/simtech/news-events/30YA
+
+Events
+
+https://www.a-star.edu.sg/simtech/news-events/events
+
+Students
+
+https://www.a-star.edu.sg/simtech/students
+
+Contact Us
+
+https://www.a-star.edu.sg/simtech/contact-us
+
+Connect With KTO
+
+https://www.facebook.com/KTOSingapore/
+
+ 
+
+https://www.linkedin.com/company/ktosingapore
+
+ 
+
+https://www.instagram.com/ktosingapore/
+
+ 
+
+mailto:KTO-enquiry@a-star.edu.sg
+
+ 
+
+Generative AI and Foundation Models in Advanced Manufacturing (20 hours)
+
+Masterclass In Generative AI For Robust Shopfloor
+
+This masterclass is co-organised with 
+
+A*STAR Institute for Infocomm Research (I²R)
+
+https://www.a-star.edu.sg/i2r/home
+
+.
+
+This programme is in collaboration with the 
+
+Sectoral AI Centre of Excellence for Manufacturing (AIMfg)
+
+https://www.a-star.edu.sg/simtech/kto/AI-Curated_Courses
+
+.
+
+Introduction
+
+The rise of Generative AI is revolutionising industries, and this masterclass offers a deep dive into how these cutting-edge technologies can transform the Manufacturing sector. Tailored for small and medium-sized enterprises (SMEs) and industry leaders, this workshop moves beyond generic applications like ChatGPT, focusing on real-world implementations of Generative AI for factory-specific solutions.
+
+Designed to address the unique needs of the local Manufacturing industry, the masterclass covers critical areas such as Quality Assurance, Predictive Maintenance, and Industrial Automation. Participants will learn from domain experts about practical use cases, current limitations, and the transformative potential of Gen-AI in Manufacturing.
+
+The hands-on sessions will demonstrate how to harness open-source Gen-AI tools, create custom AI models using proprietary data, and explore the future of AI-driven manufacturing.
+
+Through demonstrations, tutorials, and group workshops, attendees will gain practical insights and collaborative experience, equipping them to drive innovation and enhance productivity within their organisations.
+
+Why This MasterClass
+
+Tailored AI Solutions for Unique Needs
+
+Customisation is Key:
+
+ Understand the critical importance of adapting generative AI models to meet the specific needs and data environments of small and medium-sized enterprises (SMEs). Learn how to create solutions that integrate seamlessly with your existing systems, ensuring alignment with your unique scale, resources, and operational requirements.
+
+Bridging the Gap Between Research and Industry
+
+From Theory to Practise:
+
+ Explore how cutting-edge academic research can be translated into practical, scalable solutions for manufacturing challenges. Gain insights on moving generative AI from proof-of-concept to deployment, addressing real-world issues like defect detection, predictive maintenance, and production line optimisation.
+
+Hands-On Learning Experience
+
+Practical Applications:
+
+ Engage in interactive workshops that guide you through the customisation process, providing hands-on experience in developing AI models tailored for your business needs.
+
+Industry-Specific Insights
+
+Targeted Solutions for Manufacturing:
+
+ Delve into the unique challenges faced by SMEs in the manufacturing sector and discover how generative AI can provide targeted solutions that enhance efficiency and reduce costs.
+
+Networking with Experts and Peers
+
+Build Connections:
+
+ Connect with industry leaders, researchers, and fellow SMEs, fostering collaborations that can lead to innovative AI implementations and shared learning.
+
+Future-Proofing Your Business
+
+Stay Competitive:
+
+ Equip your organisation with the knowledge to leverage AI effectively, ensuring you remain competitive in an increasingly digital landscape.
+
+By attending this masterclass, you'll gain the skills and insights needed to harness the power of generative AI, driving meaningful improvements in your operations and setting your business up for long-term success. Don't miss this opportunity to customise AI solutions that work for you!
+
+Who Should Attend
+
+This masterclass is specifically designed for CEOs, CTOs, technical leaders, engineering managers, supervisors, product managers, system designers, design engineers, R&D engineers, application engineers, sales engineers, inspection and vision technicians, and new hires from various manufacturing sectors.
+
+Highlights from Apr 2025 Intake
+
+What Our Trainees Say
+
+Previous
+
+ 
+
+The masterclass explored many forefront AI technologies that can be used in manufacturing environments. Some use cases and demos help provide a deeper understanding of the technology.
+
+Mr Leong Ti Xean,
+
+Participant from Aug 2025 intake
+
+ 
+
+During this masterclass, members from A*STAR shared their extensive experiences in AI research and applications. I am eager to explore some of the AI solutions and applications that have been implemented in our real-world environment.
+
+Mr Eng Chin Jack,
+
+Participant from Aug 2025 intake
+
+Next
+
+Programme Agenda
+
+Programme Agenda
+
+Day 1 Activities
+
+Overview of Generative AI and Foundation Models for Advanced Manufacturing
+
+Time Series Foundation Model for Predictive Maintenance
+
+State-of-the-art time series foundation model anomaly detection, fault diagnostic, remaining useful life prediction
+
+Leveraging foundation models for manufacturing
+
+Day 2 Activities
+
+Collaborative AI for Enhanced Human-Centric Services
+
+Human-AI collaboration for automated visual inspection
+
+Gen AI for knowledge capture and transfer in manufacturing
+
+Leveraging Gen AI and AR for assistance and training
+
+Day 3 Activities
+
+Emerging Gen-AI for Industrial Automation and Robotic Systems
+
+State-of-the-art robotics foundational models
+
+Robotics mapping, Indoor localisation and learning in Simulation
+
+Upon Completion of This MasterClass
+
+Upon Completion
+
+Participants will be awarded with a 
+
+Certificate of Attendance (COA)
+
+ by SIMTech and/or ARTC if they achieve 
+
+at least 75% course attendance
+
+.
+
+Full and Nett Course Fees
+
+Full Course Fee
+
+The full course fee for this course is ** $2,000** before funding and prevailing GST.
+
+Nett Course Fee
+
+International Participants
+
+Singapore Citizens aged 39 years and below, Singapore Permanent Residents and LTVP+ Holders
+
+Employer-sponsored and self-sponsored Singapore Citizens aged 40 years and above (MCES) ²
+
+SME-sponsored local employees (i.e Singapore Citizens, Singapore Permanent Residents and LTVP+ Holders) (ETSS) ¹
+
+$2,180
+
+$654
+
+$254
+
+$254
+
+All fees are inclusive of GST 9%.
+
+Remarks
+
+Participants may not be eligible for subsidies if they have already attended a MasterClass under the same title.
+
+Please note that fees and funding amount are subject to change.
+
+Long Term Visit Pass Plus (LTVP+) Holders
+
+The LTVP+ scheme applies to lawful foreign spouses of Singapore Citizens with (i) at least one Singapore Citizen child or are expecting one from the marriage, or at least three years of marriage, and (ii) where the Singapore Citizen sponsor is able to support the family.
+
+All LTVP+ holders can be identified with their green visit pass cards, with the word 'PLUS' printed on the back of the card.
+
+Enhanced Training Support For Small & Medium Enterprise (SMES) Scheme (ETSS)
+
+The ¹ 
+
+Enhanced Training Support for Small & Medium Enterprises (SMEs) scheme (ETSS)
+
+https://www.tpgateway.gov.sg/training-grants/training-grants-from-government-agencies/enhanced-training-support-for-smes
+
+ is for 
+
+company-sponsored participants who are subject to the eligibility criteria
+
+ shown below:
+
+SMEs that meet all of the following eligibility criteria:
+
+Registered or incorporated in Singapore
+
+Employment size of not more than 200 or with annual sales turnover of not more than $100 million
+
+SME-sponsored Trainees:
+
+Must be Singapore Citizens or Singapore Permanent Residents.
+
+Courses have to be fully paid for by the employer.
+
+Trainee is not a full-time national serviceman.
+
+Further Info: This scheme is intended for all organisations, including non-business entities not registered with ACRA e.g. VWOs, societies, etc. Only ministries, statutory boards, and other government agencies are NOT eligible under Enhanced Training Support for SMEs Scheme. Sole proprietorships which meet all of the above criteria are also eligible.
+
+SkillsFuture Mid-Career Enhanced Subsidy (MCES)
+
+The ² 
+
+SkillsFuture Mid-Career Enhanced Subsidy (MCES)
+
+https://www.tpgateway.gov.sg/training-grants/training-grants-from-government-agencies/skillsfuture-mid-career-enhanced-subsidy
+
+ is meant for 
+
+employer-sponsored and self-sponsored Singapore Citizens aged 40 years old and above
+
+.
+
+SkillsFuture Credit
+
+All** Singaporeans aged 25 years old and above** are eligible for 
+
+SkillsFuture Credit ( Opening SkillsFuture Credit)
+
+https://www.tpgateway.gov.sg/training-grants/training-grants-from-government-agencies/skillsfuture-credit
+
+ , which can be used to offset course fees ( 
+
+for self-sponsored registrations only
+
+).
+
+For more information on the SkillsFuture funding schemes you are eligible for, please visit 
+
+www.skillsfuture.gov.sg
+
+https://www.skillsfuture.gov.sg/
+
+How Course Fees are Calculated
+
+| 
+
+TYPE
+
+ | 
+
+CATEGORY OF INDIVIDUALS
+
+ ||||
+
+ 
+
+| ^^ | 
+
+International Participants
+
+ | 
+
+Singapore Citizens aged 39 years and below, Singapore Permanent Residents and LTVP+ Holders
+
+ | 
+
+Employer-sponsored and self-sponsored Singapore Citizens aged 40 years and above
+
+ | 
+
+SME-sponsored local employees (i.e Singapore Citizens, Singapore Permanent Residents and LTVP+ Holders)
+
+ |
+
+ 
+
+| ^^ | 
+
+FUNDING SOURCE
+
+ ||||
+
+ 
+
+| ^^ | 
+
+Not applicable for SkillsFuture Funding
+
+ | 
+
+SkillsFuture Funding (Baseline)
+
+ | 
+
+SkillsFuture Mid-career Enhanced Subsidy (MCES) ²
+
+ | 
+
+SkillsFuture Enhanced Training Support for SMEs (ETSS) ¹
+
+ |
+
+ 
+
+| --- | --- | --- | --- | --- |
+
+ 
+
+| 
+
+Full Course Fee
+
+ | $2,000 | $2,000 | $2,000 | $2,000 |
+
+ 
+
+| 
+
+SkillsFuture Funding
+
+ | Not Applicable | ($1,400) | ($1,800) | ($1,800) |
+
+ 
+
+| 
+
+Nett Course Fee
+
+ | $2,000 | $600 | $200 | $200 |
+
+ 
+
+| 
+
+GST 9%
+
+ | $180 | $54* | $54* | $54* |
+
+ 
+
+| 
+
+Total Nett Course Fee Payable to Training Provider
+
+ | 
+
+$2,180
+
+ | 
+
+$654
+
+ | 
+
+$254
+
+ | 
+
+$254
+
+ |
+
+Based on 30% of Full Course Fee
+
+About The Trainers
+
+Dr Jamie Ng Suat Ling, Senior Principal Scientist, A*STAR I²R
+
+https://www.a-star.edu.sg/home
+
+ 
+
+Dr Albertus Hendrawan Adiwahono, Principal Scientist, A*STAR I²R
+
+https://www.a-star.edu.sg/home
+
+Dr Jamie Ng Suat Ling
+
+close
+
+Dr Jamie Ng Suat Ling
+
+ is a Senior Principal Scientist and Head of the Advanced & Sustainable Manufacturing Division at A*STAR I²R. She leads projects in AI, analytics, automation, connectivity, and cybersecurity for manufacturing and aerospace, including predictive maintenance, IIoT for Industry 4.0, and robotics. As the Programme Lead for the Smart Automated Aircraft Visual Inspection System (SAAVIS), she focuses on automating defect detection in large structures like aircraft. Dr Ng holds a PhD in Human Factors Engineering, an MSc in Smart Product Design, and a BEng in Mechanical Engineering from Nanyang Technological University.. She has several patents and has received the Tan Kah Kee Young Inventors' Award and the IES Prestigious Engineering Award 2023.
+
+Close
+
+Dr Albertus Hendrawan Adiwahono
+
+close
+
+Dr Albertus Hendrawan Adiwahono
+
+ is a Principal Scientist and Mobility Unit Leader in the Robotics and Autonomous Systems Division at A*STAR I²R. He leads the development of various robotics prototypes and technology software stacks referred to as I²R Navigation Stack (Navstack). I²R Navstack has been licenced to private companies and has been the core technology to various robotics platforms selected by Singapore government agencies for its robustness and cutting-edge capabilities for operation in actual dynamic environments. Dr Albertus holds a PhD in Mechanical Engineering from the National University of Singapore, with an M.Eng and B.Eng in Electrical Engineering from Bandung Institute of Technology, Indonesia. Notable robots and awards received include the MATAR security robot (International GovInsider Innovation Awards 2018 and MTI Firefly Silver Award 2021), SAAVIS aircraft inspection robot (IES Prestigious Engineering Awards 2023), and ASLAN humanoid robot (champion of RoboCup 2010: Robot Soccer World Cup).
+
+Close
+
+Contact Us
+
+For technical and general enquiries, please contact:
+
+Dr LIM Cheng Leong
+
+,
+
+Email: 
+
+lim_cheng_leong@a-star.edu.sg
+
+mailto:lim_cheng_leong@a-star.edu.sg
+
+Registration
+
+Sign up now
+
+https://www.a-star.edu.sg/simtech/kto/course-registration-form
+
+Please register for this course through our online form: 
+
+Course Registration Form for Public Classes
+
+https://www.a-star.edu.sg/simtech/kto/course-registration-form
+
+.
+
+For the first question, please select 
+
+"MasterClasses".
+
+Applicants will be placed on our waiting list if the course does not have an upcoming scheduled intake.
+
+When the next intake is confirmed, a confirmation email with payment information will be sent to applicants to finalise their participation.
+
+Collateral
+
+Download brochure
+
+https://online.pubhtml5.com/zlck/czix/
+
+ 
+
+Schedule
+
+MasterClass Programme
+
+Skills Course Reference Number
+
+Next Intake(s)' Training Period
+
+ (Click on the dates to view their schedules)
+
+Registration Status
+
+- Generative AI and Foundation Models in Advanced Manufacturing (20 hours) ~ Co-organised with A*STAR Institute for Infocomm Research (I²R) 
+
+(MasterClass In Generative AI for Robust Shopfloor)
+
+TGS-2024046336
+
+The schedule for the next intake is still in the planning stage. 
+
+https://online.pubhtml5.com/zlck/kasg/
+
+Note: A
+
+STAR SIMTech and A
+
+STAR ARTC reserve the right to change the class/schedule/course fee or any details about the course without prior notice to the participants.
+
+Announcement:
+
+From 1 Oct 2023, attendance-taking for SkillsFuture Singapore (SSG)'s funded courses must be done digitally via the Singpass App. More information may be viewed 
+
+here
+
+https://www.a-star.edu.sg/simtech/kto/eattendance
+
+.
+
+Participants will be provided with digital course materials when attending our courses. Please note that printed copies will not be available.
+
+Sessions
+
+ 
+
+: Full day
+
+ 
+
+: Morning
+
+ 
+
+: Afternoon
+
+ 
+
+: Evening
+
+Quick Link
+
+View the list of 
+
+MasterClasses and other programmes
+
+https://www.a-star.edu.sg/simtech/kto/masterclasses
+
+ offered by A
+
+STAR SIMTech and A
+
+STAR ARTC.
+
+A*STAR celebrates International Women's Day
+
+From groundbreaking discoveries to cutting-edge research, our researchers are empowering the next generation of female science, technology, engineering and mathematics (STEM) leaders.
+
+Get inspired by our #WomeninSTEM
+
+Close
+
+Agency for Science, Technology and Research (A*STAR)
+
+Partner with us
+
+https://www.a-star.edu.sg/enterprise
+
+ 
+
+Career
+
+https://www.a-star.edu.sg/career
+
+ 
+
+Contact Us
+
+https://www.a-star.edu.sg/contact-us
+
+ 
+
+Whistleblowing
+
+https://www.a-star.edu.sg/contact-us/whistleblowing
+
+ 
+
+https://www.facebook.com/astarsg/
+
+ 
+
+https://www.linkedin.com/company/astarsg/
+
+ 
+
+https://www.instagram.com/astarsg/
+
+ 
+
+https://www.youtube.com/channel/UCcyl37Tw2p4eGnvpuPRFbzQ
+
+ 
+
+https://www.tiktok.com/@astarsg
+
+Report Vulnerability
+
+https://www.tech.gov.sg/report_vulnerability
+
+Privacy Statement
+
+https://www.a-star.edu.sg/privacy-statement
+
+Terms & Conditions
+
+https://www.a-star.edu.sg/terms-and-conditions
+
+© 2026, Agency for Science, Technology and Research (A*STAR).
+
+Last updated 14 Jan 2026

@@ -1,0 +1,9731 @@
+A Robust 3D Active Learning Framework Based on Multi-Metric Voting for Fast Electromagnetic Field Reconstruction with Sparse Sampling
+
+Loading web-font Gyre-Pagella/Normal/Regular
+
+Next Article in Journal
+
+An Active Common-Mode Voltage Compensation Method for Three-Phase Induction Motor Drives
+
+https://www.mdpi.com/2079-9292/15/7/1435
+
+Next Article in Special Issue
+
+Hybrid Evolutionary Optimization of Coupling-Corrected Equivalent Sources for Anechoic Replication of Outdoor Electromagnetic Fields
+
+https://www.mdpi.com/2079-9292/15/7/1436
+
+Previous Article in Journal
+
+Research on Maximum Efficiency Tracking in Wireless Power Transfer Systems Based on Seven-Level Inverter
+
+https://www.mdpi.com/2079-9292/15/7/1433
+
+Journals
+
+Active Journals
+
+https://www.mdpi.com/about/journals
+
+ 
+
+Find a Journal
+
+https://www.mdpi.com/about/journalfinder
+
+ 
+
+Journal Proposal
+
+https://www.mdpi.com/about/journals/proposal
+
+ 
+
+Proceedings Series
+
+https://www.mdpi.com/about/proceedings
+
+[
+
+Topics
+
+](https://www.mdpi.com/topics)
+
+Information
+
+For Authors
+
+https://www.mdpi.com/authors
+
+ 
+
+For Reviewers
+
+https://www.mdpi.com/reviewers
+
+ 
+
+For Editors
+
+https://www.mdpi.com/editors
+
+ 
+
+For Librarians
+
+https://www.mdpi.com/librarians
+
+ 
+
+For Publishers
+
+https://www.mdpi.com/publishing_services
+
+ 
+
+For Societies
+
+https://www.mdpi.com/societies
+
+ 
+
+For Conference Organizers
+
+https://www.mdpi.com/conference_organizers
+
+Open Access Policy
+
+https://www.mdpi.com/openaccess
+
+ 
+
+Institutional Open Access Program
+
+https://www.mdpi.com/ioap
+
+ 
+
+Special Issues Guidelines
+
+https://www.mdpi.com/special_issues_guidelines
+
+ 
+
+Editorial Process
+
+https://www.mdpi.com/editorial_process
+
+ 
+
+Research and Publication Ethics
+
+https://www.mdpi.com/ethics
+
+ 
+
+Article Processing Charges
+
+https://www.mdpi.com/apc
+
+ 
+
+Awards
+
+https://www.mdpi.com/awards
+
+ 
+
+Testimonials
+
+https://www.mdpi.com/testimonials
+
+[
+
+Author Services
+
+](https://www.mdpi.com/authors/english)
+
+Initiatives
+
+Sciforum
+
+https://sciforum.net/
+
+ 
+
+MDPI Books
+
+https://www.mdpi.com/books
+
+ 
+
+Preprints.org
+
+https://www.preprints.org/
+
+ 
+
+Scilit
+
+https://www.scilit.com/
+
+ 
+
+SciProfiles
+
+https://sciprofiles.com/
+
+ 
+
+Encyclopedia
+
+https://encyclopedia.pub/
+
+ 
+
+JAMS
+
+https://jams.pub/
+
+ 
+
+Proceedings Series
+
+https://www.mdpi.com/about/proceedings
+
+About
+
+Overview
+
+https://www.mdpi.com/about
+
+ 
+
+Contact
+
+https://www.mdpi.com/about/contact
+
+ 
+
+Careers
+
+https://careers.mdpi.com/
+
+ 
+
+News
+
+https://www.mdpi.com/about/announcements
+
+ 
+
+Press
+
+https://www.mdpi.com/about/press
+
+ 
+
+Blog
+
+http://blog.mdpi.com/
+
+Sign In / Sign Up
+
+https://www.mdpi.com/user/login
+
+Notice
+
+You can make submissions to other journals 
+
+here
+
+https://susy.mdpi.com/user/manuscripts/upload
+
+.
+
+clear
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Notice
+
+You are accessing a machine-readable page. In order to be human-readable, please install an RSS reader.
+
+Continue
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+ 
+
+Cancel
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+clear
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+All articles published by MDPI are made immediately available worldwide under an open access license. No special permission is required to reuse all or part of the article published by MDPI, including figures and tables. For articles published under an open access Creative Common CC BY license, any part of the article may be reused without permission provided that the original article is clearly cited. For more information, please refer to 
+
+https://www.mdpi.com/openaccess
+
+https://www.mdpi.com/openaccess
+
+.
+
+Feature papers represent the most advanced research with significant potential for high impact in the field. A Feature Paper should be a substantial original Article that involves several techniques or approaches, provides an outlook for future research directions and describes possible research applications.
+
+Feature papers are submitted upon individual invitation or recommendation by the scientific editors and must receive positive feedback from the reviewers.
+
+Editor's Choice articles are based on recommendations by the scientific editors of MDPI journals from around the world. Editors select a small number of articles recently published in the journal that they believe will be particularly interesting to readers, or important in the respective research area. The aim is to provide a snapshot of some of the most exciting work published in the various research areas of the journal.
+
+Original Submission Date Received: .
+
+You seem to have javascript disabled. Please note that many of the page functionalities won't work as expected without javascript enabled. 
+
+clear
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+ 
+
+zoom_out_map
+
+https://www.mdpi.com/toggle_desktop_layout_cookie
+
+ 
+
+search
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+ 
+
+menu
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+ 
+
+Journals
+
+https://www.mdpi.com/about/journals
+
+Active Journals
+
+https://www.mdpi.com/about/journals
+
+Find a Journal
+
+https://www.mdpi.com/about/journalfinder
+
+Journal Proposal
+
+https://www.mdpi.com/about/journals/proposal
+
+Proceedings Series
+
+https://www.mdpi.com/about/proceedings
+
+Topics
+
+https://www.mdpi.com/topics
+
+Information
+
+https://www.mdpi.com/authors
+
+For Authors
+
+https://www.mdpi.com/authors
+
+For Reviewers
+
+https://www.mdpi.com/reviewers
+
+For Editors
+
+https://www.mdpi.com/editors
+
+For Librarians
+
+https://www.mdpi.com/librarians
+
+For Publishers
+
+https://www.mdpi.com/publishing_services
+
+For Societies
+
+https://www.mdpi.com/societies
+
+For Conference Organizers
+
+https://www.mdpi.com/conference_organizers
+
+Open Access Policy
+
+https://www.mdpi.com/openaccess
+
+Institutional Open Access Program
+
+https://www.mdpi.com/ioap
+
+Special Issues Guidelines
+
+https://www.mdpi.com/special_issues_guidelines
+
+Editorial Process
+
+https://www.mdpi.com/editorial_process
+
+Research and Publication Ethics
+
+https://www.mdpi.com/ethics
+
+Article Processing Charges
+
+https://www.mdpi.com/apc
+
+Awards
+
+https://www.mdpi.com/awards
+
+Testimonials
+
+https://www.mdpi.com/testimonials
+
+Author Services
+
+https://www.mdpi.com/authors/english
+
+Initiatives
+
+https://www.mdpi.com/about/initiatives
+
+Sciforum
+
+https://sciforum.net/
+
+MDPI Books
+
+https://www.mdpi.com/books
+
+Preprints.org
+
+https://www.preprints.org/
+
+Scilit
+
+https://www.scilit.com/
+
+SciProfiles
+
+https://sciprofiles.com/
+
+Encyclopedia
+
+https://encyclopedia.pub/
+
+JAMS
+
+https://jams.pub/
+
+Proceedings Series
+
+https://www.mdpi.com/about/proceedings
+
+About
+
+https://www.mdpi.com/about
+
+Overview
+
+https://www.mdpi.com/about
+
+Contact
+
+https://www.mdpi.com/about/contact
+
+Careers
+
+https://careers.mdpi.com/
+
+News
+
+https://www.mdpi.com/about/announcements
+
+Press
+
+https://www.mdpi.com/about/press
+
+Blog
+
+http://blog.mdpi.com/
+
+Sign In / Sign Up
+
+https://www.mdpi.com/user/login
+
+ 
+
+Submit
+
+https://susy.mdpi.com/user/manuscripts/upload?journal=electronics
+
+Search for Articles:
+
+Title / Keyword
+
+Author / Affiliation / Email
+
+Journal
+
+All Journals
+
+Accounting and Auditing
+
+Acoustics
+
+Acta Microbiologica Hellenica (AMH)
+
+Actuators
+
+Adhesives
+
+Administrative Sciences
+
+Adolescents
+
+Advances in Respiratory Medicine (ARM)
+
+Aerobiology
+
+Aerospace
+
+Agriculture
+
+AgriEngineering
+
+Agrochemicals
+
+Agronomy
+
+AI
+
+AI Chemistry
+
+AI for Engineering
+
+AI in Education
+
+AI in Medicine
+
+AI Materials
+
+AI Sensors
+
+Air
+
+Algorithms
+
+Allergies
+
+Alloys
+
+Analog
+
+Analytica
+
+Analytics
+
+Anatomia
+
+Anesthesia Research
+
+Animals
+
+Antibiotics
+
+Antibodies
+
+Antioxidants
+
+Applied Biosciences
+
+Applied Mechanics
+
+Applied Microbiology
+
+Applied Nano
+
+Applied Sciences
+
+Applied System Innovation (ASI)
+
+AppliedChem
+
+AppliedMath
+
+AppliedPhys
+
+Aquaculture Journal
+
+Architecture
+
+Arthropoda
+
+Arts
+
+Astronautics
+
+Astronomy
+
+Atmosphere
+
+Atoms
+
+Audiology Research
+
+Automation
+
+Axioms
+
+Bacteria
+
+Batteries
+
+Behavioral Sciences
+
+Beverages
+
+Big Data and Cognitive Computing (BDCC)
+
+BioChem
+
+Bioengineering
+
+Biologics
+
+Biology
+
+Biology and Life Sciences Forum
+
+Biomass
+
+Biomechanics
+
+BioMed
+
+Biomedicines
+
+BioMedInformatics
+
+Biomimetics
+
+Biomolecules
+
+Biophysica
+
+Bioresources and Bioproducts
+
+Biosensors
+
+Biosphere
+
+BioTech
+
+Birds
+
+Blockchains
+
+Brain Sciences
+
+Buildings
+
+Businesses
+
+C (Journal of Carbon Research)
+
+Cancers
+
+Cardiogenetics
+
+Cardiovascular Medicine
+
+Catalysts
+
+Cells
+
+Ceramics
+
+Challenges
+
+ChemEngineering
+
+Chemistry
+
+Chemistry Proceedings
+
+Chemosensors
+
+Children
+
+Chips
+
+CivilEng
+
+Clean Technologies (Clean Technol.)
+
+Climate
+
+Clinical and Translational Neuroscience (CTN)
+
+Clinical Bioenergetics
+
+Clinics and Practice
+
+Clocks & Sleep
+
+Coasts
+
+Coatings
+
+Colloids and Interfaces
+
+Colorants
+
+Commodities
+
+Complexities
+
+Complications
+
+Compounds
+
+Computation
+
+Computer Sciences & Mathematics Forum
+
+Computers
+
+Condensed Matter
+
+Conservation
+
+Construction Materials
+
+Corrosion and Materials Degradation (CMD)
+
+Cosmetics
+
+COVID
+
+Craniomaxillofacial Trauma & Reconstruction (CMTR)
+
+Crops
+
+Cryo
+
+Cryptography
+
+Crystals
+
+Culture
+
+Current Issues in Molecular Biology (CIMB)
+
+Current Oncology
+
+Dairy
+
+Data
+
+Dentistry Journal
+
+Dermato
+
+Dermatopathology
+
+Designs
+
+Diabetology
+
+Diagnostics
+
+Dietetics
+
+Digital
+
+Disabilities
+
+Diseases
+
+Diversity
+
+DNA
+
+Drones
+
+Drugs and Drug Candidates (DDC)
+
+Dynamics
+
+Earth
+
+Ecologies
+
+Econometrics
+
+Economies
+
+Education Sciences
+
+Electricity
+
+Electrochem
+
+Electronic Materials
+
+Electronics
+
+Emergency Care and Medicine
+
+Encyclopedia
+
+Endocrines
+
+Energies
+
+Energy Storage and Applications (ESA)
+
+Eng
+
+Engineering Proceedings
+
+Entropic and Disordered Matter (EDM)
+
+Entropy
+
+Environmental and Earth Sciences Proceedings
+
+Environmental Remediation
+
+Environments
+
+Epidemiologia
+
+Epigenomes
+
+European Burn Journal (EBJ)
+
+European Journal of Investigation in Health, Psychology and Education (EJIHPE)
+
+Family Sciences
+
+Fermentation
+
+Fibers
+
+FinTech
+
+Fire
+
+Fishes
+
+Fluids
+
+Foods
+
+Forecasting
+
+Forensic Sciences
+
+Forests
+
+Fossil Studies
+
+Foundations
+
+Fractal and Fractional (Fractal Fract)
+
+Fuels
+
+Future
+
+Future Internet
+
+Future Pharmacology
+
+Future Transportation
+
+Galaxies
+
+Games
+
+Gases
+
+Gastroenterology Insights
+
+Gastrointestinal Disorders
+
+Gastronomy
+
+Gels
+
+Genealogy
+
+Genes
+
+Geographies
+
+GeoHazards
+
+Geomatics
+
+Geometry
+
+Geosciences
+
+Geotechnics
+
+Geriatrics
+
+Germs
+
+Glacies
+
+Gout, Urate, and Crystal Deposition Disease (GUCDD)
+
+Grasses
+
+Green
+
+Green Health
+
+Hardware
+
+Healthcare
+
+Hearts
+
+Hemato
+
+Hematology Reports
+
+Heritage
+
+Histories
+
+Horticulturae
+
+Hospitals
+
+Humanities
+
+Humans
+
+Hydrobiology
+
+Hydrogen
+
+Hydrology
+
+Hydropower
+
+Hygiene
+
+Immuno
+
+Industries
+
+Infectious Disease Reports
+
+Informatics
+
+Information
+
+Infrastructures
+
+Inorganics
+
+Insects
+
+Instruments
+
+Intelligent Infrastructure and Construction
+
+International Journal of Cognitive Sciences (IJCS)
+
+International Journal of Environmental Medicine (IJEM)
+
+International Journal of Environmental Research and Public Health (IJERPH)
+
+International Journal of Financial Studies (IJFS)
+
+International Journal of Molecular Sciences (IJMS)
+
+International Journal of Neonatal Screening (IJNS)
+
+International Journal of Orofacial Myology and Myofunctional Therapy (IJOM)
+
+International Journal of Plant Biology (IJPB)
+
+International Journal of Topology
+
+International Journal of Translational Medicine (IJTM)
+
+International Journal of Turbomachinery, Propulsion and Power (IJTPP)
+
+International Medical Education (IME)
+
+Inventions
+
+IoT
+
+ISPRS International Journal of Geo-Information (IJGI)
+
+J
+
+Journal of Aesthetic Medicine (J. Aesthetic Med.)
+
+Journal of Ageing and Longevity (JAL)
+
+Journal of CardioRenal Medicine (JCRM)
+
+Journal of Cardiovascular Development and Disease (JCDD)
+
+Journal of Clinical & Translational Ophthalmology (JCTO)
+
+Journal of Clinical Medicine (JCM)
+
+Journal of Composites Science (J. Compos. Sci.)
+
+Journal of Cybersecurity and Privacy (JCP)
+
+Journal of Dementia and Alzheimer's Disease (JDAD)
+
+Journal of Developmental Biology (JDB)
+
+Journal of Experimental and Theoretical Analyses (JETA)
+
+Journal of Eye Movement Research (JEMR)
+
+Journal of Functional Biomaterials (JFB)
+
+Journal of Functional Morphology and Kinesiology (JFMK)
+
+Journal of Fungi (JoF)
+
+Journal of Genome Biotechnology and Genetics (JGBG)
+
+Journal of Gerontology and Geriatrics (JGG)
+
+Journal of Imaging (J. Imaging)
+
+Journal of Innovation
+
+Journal of Intelligence (J. Intell.)
+
+Journal of Interdisciplinary Research Applied to Medicine (JDReAM)
+
+Journal of Low Power Electronics and Applications (JLPEA)
+
+Journal of Manufacturing and Materials Processing (JMMP)
+
+Journal of Marine Science and Engineering (JMSE)
+
+Journal of Market Access & Health Policy (JMAHP)
+
+Journal of Mind and Medical Sciences (JMMS)
+
+Journal of Molecular Pathology (JMP)
+
+Journal of Nanotheranostics (JNT)
+
+Journal of Nuclear Engineering (JNE)
+
+Journal of Otorhinolaryngology, Hearing and Balance Medicine (JOHBM)
+
+Journal of Parks
+
+Journal of Personalized Medicine (JPM)
+
+Journal of Pharmaceutical and BioTech Industry (JPBI)
+
+Journal of Phytomedicine
+
+Journal of Respiration (JoR)
+
+Journal of Risk and Financial Management (JRFM)
+
+Journal of Sensor and Actuator Networks (JSAN)
+
+Journal of Superintelligence
+
+Journal of the American Podiatric Medical Association (JAPMA)
+
+Journal of the Oman Medical Association (JOMA)
+
+Journal of Theoretical and Applied Electronic Commerce Research (JTAER)
+
+Journal of Vascular Diseases (JVD)
+
+Journal of Xenobiotics (JoX)
+
+Journal of Zoological and Botanical Gardens (JZBG)
+
+Journalism and Media
+
+Kidney and Dialysis
+
+Kinases and Phosphatases
+
+Knowledge
+
+LabMed
+
+Laboratories
+
+Land
+
+Languages
+
+Laws
+
+Life
+
+Lights
+
+Limnological Review
+
+Lipidology
+
+Liquids
+
+Literature
+
+Livers
+
+Logics
+
+Logistics
+
+Low-Altitude Economy
+
+Lubricants
+
+Lymphatics
+
+Machine Learning and Knowledge Extraction (MAKE)
+
+Machines
+
+Macromol
+
+Magnetism
+
+Magnetochemistry
+
+Marine Drugs
+
+Materials
+
+Materials Proceedings
+
+Mathematical and Computational Applications (MCA)
+
+Mathematics
+
+Medical Sciences
+
+Medical Sciences Forum
+
+Medicina
+
+Medicines
+
+Membranes
+
+Merits
+
+Metabolites
+
+Metals
+
+Meteorology
+
+Methane
+
+Methods and Protocols (MPs)
+
+Metrics
+
+Metrology
+
+Micro
+
+Microbiology Research
+
+Microelectronics
+
+Micromachines
+
+Microorganisms
+
+Microplastics
+
+Microwave
+
+Minerals
+
+Mining
+
+Modelling
+
+Modern Mathematical Physics
+
+Molbank
+
+Molecules
+
+Multimedia
+
+Multimodal Technologies and Interaction (MTI)
+
+Muscles
+
+Nanoenergy Advances
+
+Nanomanufacturing
+
+Nanomaterials
+
+NDT
+
+Network
+
+Neuroglia
+
+Neuroimaging
+
+Neurology International
+
+NeuroSci
+
+Nitrogen
+
+Non-Coding RNA (ncRNA)
+
+Nursing Reports
+
+Nutraceuticals
+
+Nutrients
+
+Obesities
+
+Occupational Health
+
+Oceans
+
+Onco
+
+Optics
+
+Oral
+
+Organics
+
+Organoids
+
+Osteology
+
+Oxygen
+
+Pandemics
+
+Parasitologia
+
+Particles
+
+Pathogens
+
+Pathophysiology
+
+Peace Studies
+
+Pediatric Reports
+
+Pets
+
+Pharmaceuticals
+
+Pharmaceutics
+
+Pharmacoepidemiology
+
+Pharmacy
+
+Philosophies
+
+Photochem
+
+Photonics
+
+Phycology
+
+Physchem
+
+Physical Sciences Forum
+
+Physics
+
+Physiologia
+
+Plants
+
+Plasma
+
+Platforms
+
+Pollutants
+
+Polymers
+
+Polysaccharides
+
+Populations
+
+Poultry
+
+Powders
+
+Precision Oncology
+
+Primary and Hospital Care (PHC)
+
+Proceedings
+
+Processes
+
+Prosthesis
+
+Proteomes
+
+Psychiatry International
+
+Psychoactives
+
+Psychology International
+
+Publications
+
+Purification
+
+Quantum Beam Science (QuBS)
+
+Quantum Reports
+
+Quaternary
+
+Radiation
+
+Reactions
+
+Real Estate
+
+Receptors
+
+Recycling
+
+Regional Science and Environmental Economics (RSEE)
+
+Religions
+
+Remote Sensing
+
+Reports
+
+Reproductive Medicine (Reprod. Med.)
+
+Resources
+
+Rheumato
+
+Risks
+
+Robotics
+
+Romanian Journal of Preventive Medicine (RJPM)
+
+Ruminants
+
+Safety
+
+Sci
+
+Scientia Pharmaceutica (Sci. Pharm.)
+
+Sclerosis
+
+Seeds
+
+Semiconductors and Heterogeneous Integration
+
+Sensors
+
+Separations
+
+Sexes
+
+Signals
+
+Sinusitis
+
+Smart Cities
+
+Social Sciences
+
+Société Internationale d'Urologie Journal (SIUJ)
+
+Societies
+
+Software
+
+Soil Systems
+
+Solar
+
+Solids
+
+Spectroscopy Journal
+
+Sports
+
+Standards
+
+Stats
+
+Stratigraphy and Sedimentology
+
+Stresses
+
+Surfaces
+
+Surgeries
+
+Surgical Techniques Development
+
+Sustainability
+
+Sustainable Chemistry
+
+Swiss Archives of Neurology, Psychiatry and Psychotherapy (SANPP)
+
+Symmetry
+
+SynBio
+
+Systems
+
+Targets
+
+Taxonomy
+
+Technologies
+
+Telecom
+
+Textiles
+
+Thalassemia Reports
+
+Theoretical and Applied Ergonomics
+
+Therapeutics
+
+Thermo
+
+Time and Space
+
+Tomography
+
+Tourism and Hospitality
+
+Toxics
+
+Toxins
+
+Transplantology
+
+Trauma Care
+
+Trends in Higher Education
+
+Trends in Public Health
+
+Tropical Medicine and Infectious Disease (TropicalMed)
+
+Universe
+
+Urban Science
+
+Uro
+
+Vaccines
+
+Vehicles
+
+Venereology
+
+Veterinary Sciences
+
+Vibration
+
+Virtual Worlds
+
+Viruses
+
+Vision
+
+Waste
+
+Water
+
+Wild
+
+Wind
+
+Women
+
+World
+
+World Electric Vehicle Journal (WEVJ)
+
+Youth
+
+Zoonotic Diseases
+
+Electronics
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Article Type
+
+All Article Types
+
+Article
+
+Review
+
+Communication
+
+Editorial
+
+Abstract
+
+Book Review
+
+Brief Communication
+
+Brief Report
+
+Case Report
+
+Clinicopathological Challenge
+
+Comment
+
+Commentary
+
+Concept Paper
+
+Conference Report
+
+Correction
+
+Creative
+
+Data Descriptor
+
+Discussion
+
+Entry
+
+Essay
+
+Expression of Concern
+
+Extended Abstract
+
+Field Guide
+
+Giants in Urology
+
+Guidelines
+
+Hypothesis
+
+Interesting Images
+
+Letter
+
+New Book Received
+
+Obituary
+
+Opinion
+
+Patent Summary
+
+Perspective
+
+Proceeding Paper
+
+Project Report
+
+Protocol
+
+Registered Report
+
+Reply
+
+Retraction
+
+Short Note
+
+Study Protocol
+
+Systematic Review
+
+Technical Note
+
+Tutorial
+
+Urology around the World
+
+Viewpoint
+
+All Article Types
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+ 
+
+Search
+
+Advanced Search
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Section
+
+All Sections
+
+Artificial Intelligence
+
+Artificial Intelligence Circuits and Systems (AICAS)
+
+Bioelectronics
+
+Circuit and Signal Processing
+
+Computer Science & Engineering
+
+Electrical and Autonomous Vehicles
+
+Electronic Materials, Devices and Applications
+
+Electronic Multimedia
+
+Industrial Electronics
+
+Microelectronics
+
+Microwave and Wireless Communications
+
+Networks
+
+Optoelectronics
+
+Power Electronics
+
+Quantum Electronics
+
+Semiconductor Devices
+
+Systems & Control Engineering
+
+General
+
+All Sections
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Special Issue
+
+All Special Issues
+
+Additively Manufactured Flexible RF Structures for Next Generation of Wireless Applications
+
+Advanced Electronic and Photonic Devices from the International Conference on Next-Generation Electronics & Photonics (INGEP 2024)
+
+Advanced in Flexible Electronics and Applications
+
+Advancements in Communication and Sensing Systems through Machine Learning
+
+Advances and Applications in Blockchain Technology
+
+Advances and Development in Image Processing and Pattern Recognition
+
+Advances in Cloud and Distributed System Applications
+
+Advances in Electronics Technology
+
+Advances in Electronics Technology—Selected Papers From the 6th International Conference on Electronics Technology (ICET)
+
+Advances in Electronics, Communication, and Automation
+
+Advances in High-Efficiency AI-Enabled Edge Computing for Distributed Networking Systems
+
+Advances in the Modeling and Simulation of Technical Systems Using Modelica
+
+Advances of Electronics Research from Zhejiang University
+
+Advances on Electronics for Harsh Environments
+
+Application of Computer Vision and Pattern Recognition
+
+Application of Microgrids in Power System
+
+Artificial Intelligence for Virtual, Mixed, and Augmented Reality Content and Interaction
+
+Assistive Technology: Advances, Applications and Challenges
+
+Celebrating the 200th Anniversary of the University of Manchester—Electrical and Electronic Engineering
+
+Celebrating the 85th Anniversary of Beijing Institute of Technology—Electronic Science and Technology
+
+Channeling a Characteristics-Driven New Paradigm for Wireless Communication Security
+
+Converging Platform Technologies: Collaborative Innovations and Future Directions
+
+Digital Intelligence Technology and Applications, 2nd Edition
+
+Electronic Applications and Research in Environmental Protection and Environmental Technology
+
+Emerging Technologies in Intelligent Software Methodologies, Tools, and Techniques (Selected Papers from SoMeT 2023)
+
+Feature Papers
+
+Feature Review Papers in Electronics
+
+Flexible and Wearable Electronics: Design and Applications
+
+Flexible Devices and Optoelectronics Technologies
+
+Flexible Electronics: Sensors, Energy and Health
+
+Fluidic Type Strain/Pressure Sensors for Wearable Electronics and Robotics Applications
+
+Front-End Electronics for Radiation Detectors
+
+Hardware and Software Co-Design in Intelligent Systems
+
+Instrumentation, Noise, Reliability
+
+Intelligent Mobile Robotic Systems: Decision, Planning and Control, 2nd Edition
+
+Intelligent Resource Allocation Methods for Next Generation Wireless Cellular Systems
+
+Interactive, Mobile and Wearable Technologies
+
+Internet of Things (IoT) and Wearable Devices Applications in Healthcare and Disaster Healthcare
+
+Internet of Vehicles (IoV)
+
+IoT Applications for Renewable Energy Management and Control, 2nd Edition
+
+Latest Developments in LED Drivers
+
+LTCC for Space, Imaging, Telecommunication, and Medical Applications
+
+Machine Vision and 3D Sensing in Smart Agriculture
+
+Micro- and Nanotechnology of Wide Bandgap Semiconductors
+
+Microwave/ Millimeter-Wave Devices and MMICs
+
+Multi-Modal Biometrics for Surveillance and Digital Evidence Processing in Smart Cities
+
+Multimodal Data Fusion and Computational Optimization for Intelligent Perception, 2nd Edition
+
+Multimodal Fusion and Its Application
+
+Multimodal Remote Sensing for Wildfires
+
+Nano-materials Based 3D Electronics
+
+Neuromorphic Devices and Brain-Inspired Intelligent Systems: Applications and Prospects
+
+New CMOS Devices and Their Applications
+
+New Insights and Techniques for Neural Networks
+
+New Research in IoT and Applications on Sustainable Smart Farming and Agriculture
+
+Next-Generation Sensing, Computing, and System Engineering for Large-Scale Connected and Automated Vehicle and Transportation: Celebrating the 70th Anniversary of Nanjing University of Aeronautics and Astronautics
+
+Printed and Flexible Electronics
+
+Pulsed Magnetic Fields and Its Applications
+
+Quantum Computation and Its Applications
+
+Recent Advances in Intelligent Systems
+
+Recent Advances in IoT/Blockchain Security and Privacy
+
+Recent Developments and Emerging Trends in Computational Imaging
+
+Recent Developments in Object Tracking and Computer Vision
+
+Second Quantum Revolution: Sensing, Computing, and Transmitting
+
+Selected Paper from Best PhD Thesis Award
+
+Selected Papers from the 2024 International Conference on Science and Engineering of Electronics (ICSEE'2024)
+
+Selected Papers from the Asia Pacific Conference of the Prognostics and Health Management Society 2021
+
+Selected Papers from Young Researchers in Flexible Electronics
+
+Signal Processing and Analysis of Electrical Circuit
+
+Simultaneous Localization and Mapping (SLAM) of Mobile Robots
+
+State-of-the-Art Electronics and Informatics in Australia
+
+State-of-the-Art Electronics in the USA
+
+Stretchable and Wearable Electronics
+
+Techniques and Advances in Human Activity Recognition
+
+The Explainable AI Revolution: From Black Boxes to Transparent Insights
+
+Towards a Sustainable Future: Addressing AI and Big Data, Energy, Climate, and Public Healthcare Challenges
+
+VLSI Architecture Design for Digital Signal Processing
+
+Wearable and Flexible Integrated Sensors
+
+Wearable and Flexible Sensors in Health Monitoring and Diagnosis
+
+Wearable Sensors Applied in Artificial Perception
+
+Wearable Sensors for Human Position, Attitude and Motion Tracking
+
+What Is the Future of Edge AI Accelerators? Emerging Algorithms, System Architectures, Circuit Implementations and Applications
+
+Women in Electronics
+
+Young Investigators in Electronics
+
+All Special Issues
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Volume
+
+ 
+
+15
+
+Issue
+
+ 
+
+7
+
+Number
+
+Page
+
+Logical Operator Operator
+
+AND
+
+OR
+
+Search Text
+
+Search Type
+
+All fields
+
+Title
+
+Abstract
+
+Keywords
+
+Authors
+
+Affiliations
+
+Doi
+
+Full Text
+
+References
+
+add_circle_outline
+
+remove_circle_outline
+
+ 
+
+Search
+
+Journals
+
+https://www.mdpi.com/about/journals
+
+Electronics
+
+https://www.mdpi.com/journal/electronics
+
+Volume 15
+
+https://www.mdpi.com/2079-9292/15
+
+Issue 7
+
+https://www.mdpi.com/2079-9292/15/7
+
+10.3390/electronics15071434
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Submit to this Journal
+
+https://susy.mdpi.com/user/manuscripts/upload?form%5Bjournal_id%5D%3D127
+
+ 
+
+Review for this Journal
+
+https://susy.mdpi.com/volunteer/journals/review
+
+ 
+
+Propose a Special Issue
+
+https://www.mdpi.com/journalproposal/sendproposalspecialissue/electronics
+
+► ▼ Article Menu
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Article Menu
+
+Academic Editor
+
+https://www.mdpi.com/2079-9292/15/7/1434#academic_editors
+
+ 
+
+Massimiliano Pieraccini
+
+https://sciprofiles.com/profile/313100?utm_source=mdpi.com&utm_medium=website&utm_campaign=avatar_name
+
+Recommended Articles
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Related Info Link
+
+https://www.mdpi.com/2079-9292/15/7/1434#related
+
+Google Scholar
+
+http://scholar.google.com/scholar?q=A%20Robust%203D%20Active%20Learning%20Framework%20Based%20on%20Multi-Metric%20Voting%20for%20Fast%20Electromagnetic%20Field%20Reconstruction%20with%20Sparse%20Sampling
+
+More by Authors Links
+
+https://www.mdpi.com/2079-9292/15/7/1434#authors
+
+on DOAJ
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Hu, Y.
+
+http://doaj.org/search/articles?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22%5C%22Yidi%20Hu%5C%22%22%2C%22default_operator%22%3A%22AND%22%2C%22default_field%22%3A%22bibjson.author.name%22%7D%7D%7D
+
+Wang, K.
+
+http://doaj.org/search/articles?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22%5C%22Kuiyuan%20Wang%5C%22%22%2C%22default_operator%22%3A%22AND%22%2C%22default_field%22%3A%22bibjson.author.name%22%7D%7D%7D
+
+Qi, Y.
+
+http://doaj.org/search/articles?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22%5C%22Yujie%20Qi%5C%22%22%2C%22default_operator%22%3A%22AND%22%2C%22default_field%22%3A%22bibjson.author.name%22%7D%7D%7D
+
+Deng, J.
+
+http://doaj.org/search/articles?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22%5C%22Jiewen%20Deng%5C%22%22%2C%22default_operator%22%3A%22AND%22%2C%22default_field%22%3A%22bibjson.author.name%22%7D%7D%7D
+
+Zhang, K.
+
+http://doaj.org/search/articles?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22%5C%22Kai%20Zhang%5C%22%22%2C%22default_operator%22%3A%22AND%22%2C%22default_field%22%3A%22bibjson.author.name%22%7D%7D%7D
+
+Tang, Z.
+
+http://doaj.org/search/articles?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22%5C%22Zhi%20Tang%5C%22%22%2C%22default_operator%22%3A%22AND%22%2C%22default_field%22%3A%22bibjson.author.name%22%7D%7D%7D
+
+Zhang, L.
+
+http://doaj.org/search/articles?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22%5C%22Lei%20Zhang%5C%22%22%2C%22default_operator%22%3A%22AND%22%2C%22default_field%22%3A%22bibjson.author.name%22%7D%7D%7D
+
+Li, T.
+
+http://doaj.org/search/articles?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22%5C%22Tianwu%20Li%5C%22%22%2C%22default_operator%22%3A%22AND%22%2C%22default_field%22%3A%22bibjson.author.name%22%7D%7D%7D
+
+on Google Scholar
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Hu, Y.
+
+http://scholar.google.com/scholar?q=Yidi%20Hu
+
+Wang, K.
+
+http://scholar.google.com/scholar?q=Kuiyuan%20Wang
+
+Qi, Y.
+
+http://scholar.google.com/scholar?q=Yujie%20Qi
+
+Deng, J.
+
+http://scholar.google.com/scholar?q=Jiewen%20Deng
+
+Zhang, K.
+
+http://scholar.google.com/scholar?q=Kai%20Zhang
+
+Tang, Z.
+
+http://scholar.google.com/scholar?q=Zhi%20Tang
+
+Zhang, L.
+
+http://scholar.google.com/scholar?q=Lei%20Zhang
+
+Li, T.
+
+http://scholar.google.com/scholar?q=Tianwu%20Li
+
+on PubMed
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Hu, Y.
+
+http://www.pubmed.gov/?cmd=Search&term=Yidi%20Hu
+
+Wang, K.
+
+http://www.pubmed.gov/?cmd=Search&term=Kuiyuan%20Wang
+
+Qi, Y.
+
+http://www.pubmed.gov/?cmd=Search&term=Yujie%20Qi
+
+Deng, J.
+
+http://www.pubmed.gov/?cmd=Search&term=Jiewen%20Deng
+
+Zhang, K.
+
+http://www.pubmed.gov/?cmd=Search&term=Kai%20Zhang
+
+Tang, Z.
+
+http://www.pubmed.gov/?cmd=Search&term=Zhi%20Tang
+
+Zhang, L.
+
+http://www.pubmed.gov/?cmd=Search&term=Lei%20Zhang
+
+Li, T.
+
+http://www.pubmed.gov/?cmd=Search&term=Tianwu%20Li
+
+Article Views 191
+
+https://www.mdpi.com/2079-9292/15/7/1434#metrics
+
+Table of Contents
+
+https://www.mdpi.com/2079-9292/15/7/1434#table_of_contents
+
+Abstract
+
+https://www.mdpi.com/2079-9292/15/7/1434#html-abstract
+
+Introduction
+
+https://www.mdpi.com/2079-9292/15/7/1434#sec1-electronics-15-01434
+
+Basic Concepts
+
+https://www.mdpi.com/2079-9292/15/7/1434#sec2-electronics-15-01434
+
+Proposed Method
+
+https://www.mdpi.com/2079-9292/15/7/1434#sec3-electronics-15-01434
+
+Experimental Setup
+
+https://www.mdpi.com/2079-9292/15/7/1434#sec4-electronics-15-01434
+
+The Results of 2D Scenarios
+
+https://www.mdpi.com/2079-9292/15/7/1434#sec5-electronics-15-01434
+
+The Results of 3D Scenarios
+
+https://www.mdpi.com/2079-9292/15/7/1434#sec6-electronics-15-01434
+
+Conclusions
+
+https://www.mdpi.com/2079-9292/15/7/1434#sec7-electronics-15-01434
+
+Author Contributions
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Funding
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Data Availability Statement
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Conflicts of Interest
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+References
+
+https://www.mdpi.com/2079-9292/15/7/1434#html-references_list
+
+Altmetric 
+
+share Share
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+ 
+
+announcement Help
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+ 
+
+format_quote Cite
+
+javascript:void(0);
+
+ 
+
+question_answer Discuss in SciProfiles
+
+https://sciprofiles.com/discussion-groups/public/10.3390/electronics15071434?utm_source=mpdi.com&utm_medium=publication&utm_campaign=discuss_in_sciprofiles
+
+Need Help?
+
+Support
+
+Find support for a specific problem in the support section of our website.
+
+Get Support
+
+https://www.mdpi.com/about/contactform
+
+Feedback
+
+Please let us know what you think of our products and services.
+
+Give Feedback
+
+https://www.mdpi.com/feedback/send
+
+Information
+
+Visit our dedicated information section to learn more about MDPI.
+
+Get Information
+
+https://www.mdpi.com/authors
+
+clear
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+JSmol Viewer
+
+clear
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+first_page
+
+Download PDF
+
+https://www.mdpi.com/2079-9292/15/7/1434/pdf?version=1774866861
+
+settings
+
+Order Article Reprints
+
+https://www.mdpi.com/2079-9292/15/7/1434/reprints
+
+Font Type:
+
+Arial
+
+ 
+
+Georgia
+
+ 
+
+Verdana
+
+Font Size:
+
+Aa Aa Aa
+
+Line Spacing:
+
+
+
+ 
+
+
+
+ 
+
+
+
+Column Width:
+
+
+
+ 
+
+
+
+ 
+
+
+
+Background:
+
+Open Access Article
+
+A Robust 3D Active Learning Framework Based on Multi-Metric Voting for Fast Electromagnetic Field Reconstruction with Sparse Sampling
+
+by
+
+Yidi Hu
+
+ 
+
+Yidi Hu
+
+SciProfiles
+
+https://sciprofiles.com/profile/author/K2pWSjhpaFVzdzR4c2pidGVIK2J1WnNJdW9qVk13eHNaMysyRWVDSWg2MD0=?utm_source=mdpi.com&utm_medium=website&utm_campaign=avatar_name
+
+ 
+
+Scilit
+
+https://scilit.com/scholars?q=Yidi%20Hu
+
+ 
+
+Preprints.org
+
+https://www.preprints.org/search?condition_blocks=[{%22value%22:%22Yidi+Hu%22,%22type%22:%22author%22,%22operator%22:null}]&sort_field=relevance&sort_dir=desc&page=1&exact_match=true
+
+ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?q=Yidi+Hu
+
+ 
+
+1
+
+ 
+
+mailto:huyidi@cac.avic.com
+
+,
+
+Kuiyuan Wang
+
+ 
+
+Kuiyuan Wang
+
+SciProfiles
+
+https://sciprofiles.com/profile/author/YXpkZFdzZG5ScHRwUnpNSFo5eFRCakVNSjFhTXpPVzhzSjBTUnpybjQ0cz0=?utm_source=mdpi.com&utm_medium=website&utm_campaign=avatar_name
+
+ 
+
+Scilit
+
+https://scilit.com/scholars?q=Kuiyuan%20Wang
+
+ 
+
+Preprints.org
+
+https://www.preprints.org/search?condition_blocks=[{%22value%22:%22Kuiyuan+Wang%22,%22type%22:%22author%22,%22operator%22:null}]&sort_field=relevance&sort_dir=desc&page=1&exact_match=true
+
+ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?q=Kuiyuan+Wang
+
+ 
+
+2
+
+ 
+
+mailto:22560055@zju.edu.cn
+
+,
+
+Yujie Qi
+
+ 
+
+Yujie Qi
+
+SciProfiles
+
+https://sciprofiles.com/profile/author/NWhCU1JEWWRCR21ZcXBuU1JNTTUvSVYvNDE0d0xzMkd3aE54cjVYRnNPYz0=?utm_source=mdpi.com&utm_medium=website&utm_campaign=avatar_name
+
+ 
+
+Scilit
+
+https://scilit.com/scholars?q=Yujie%20Qi
+
+ 
+
+Preprints.org
+
+https://www.preprints.org/search?condition_blocks=[{%22value%22:%22Yujie+Qi%22,%22type%22:%22author%22,%22operator%22:null}]&sort_field=relevance&sort_dir=desc&page=1&exact_match=true
+
+ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?q=Yujie+Qi
+
+ 
+
+2
+
+ 
+
+mailto:22571039@zju.edu.cn
+
+,
+
+Jiewen Deng
+
+ 
+
+Jiewen Deng
+
+SciProfiles
+
+https://sciprofiles.com/profile/author/YkNLVXNhNUxTUlJ1RWtTMkR4RkZ6TkxtZTlGa214eHdmSDlkMzU3Uk1MWT0=?utm_source=mdpi.com&utm_medium=website&utm_campaign=avatar_name
+
+ 
+
+Scilit
+
+https://scilit.com/scholars?q=Jiewen%20Deng
+
+ 
+
+Preprints.org
+
+https://www.preprints.org/search?condition_blocks=[{%22value%22:%22Jiewen+Deng%22,%22type%22:%22author%22,%22operator%22:null}]&sort_field=relevance&sort_dir=desc&page=1&exact_match=true
+
+ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?q=Jiewen+Deng
+
+ 
+
+1
+
+ 
+
+mailto:dengjiewen@cac.avic.com
+
+,
+
+Kai Zhang
+
+ 
+
+Kai Zhang
+
+SciProfiles
+
+https://sciprofiles.com/profile/author/NmhUQ245dFg0QytualJVN1JDbzZiZzRzclB3R2pQanJ6QVFiWHhNOHQ3OD0=?utm_source=mdpi.com&utm_medium=website&utm_campaign=avatar_name
+
+ 
+
+Scilit
+
+https://scilit.com/scholars?q=Kai%20Zhang
+
+ 
+
+Preprints.org
+
+https://www.preprints.org/search?condition_blocks=[{%22value%22:%22Kai+Zhang%22,%22type%22:%22author%22,%22operator%22:null}]&sort_field=relevance&sort_dir=desc&page=1&exact_match=true
+
+ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?q=Kai+Zhang
+
+ 
+
+1
+
+ 
+
+mailto:zhangkai@cac.avic.com
+
+,
+
+Zhi Tang
+
+ 
+
+Zhi Tang
+
+SciProfiles
+
+https://sciprofiles.com/profile/author/dmtZRkVpcW1rcDlzbFB5NVJySzNTNDRNVVZOOEdjUXNQSGoydUhQME0wTT0=?utm_source=mdpi.com&utm_medium=website&utm_campaign=avatar_name
+
+ 
+
+Scilit
+
+https://scilit.com/scholars?q=Zhi%20Tang
+
+ 
+
+Preprints.org
+
+https://www.preprints.org/search?condition_blocks=[{%22value%22:%22Zhi+Tang%22,%22type%22:%22author%22,%22operator%22:null}]&sort_field=relevance&sort_dir=desc&page=1&exact_match=true
+
+ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?q=Zhi+Tang
+
+ 
+
+1
+
+ 
+
+mailto:tangzhi@cac.avic.com
+
+,
+
+Lei Zhang
+
+ 
+
+Lei Zhang
+
+SciProfiles
+
+https://sciprofiles.com/profile/author/Z1FxUlZaRVRDUDZZMnpaYld2Y3c3K0thUDdoejY1NjFNWFM0UXgrYjV6ST0=?utm_source=mdpi.com&utm_medium=website&utm_campaign=avatar_name
+
+ 
+
+Scilit
+
+https://scilit.com/scholars?q=Lei%20Zhang
+
+ 
+
+Preprints.org
+
+https://www.preprints.org/search?condition_blocks=[{%22value%22:%22Lei+Zhang%22,%22type%22:%22author%22,%22operator%22:null}]&sort_field=relevance&sort_dir=desc&page=1&exact_match=true
+
+ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?q=Lei+Zhang
+
+ 
+
+1
+
+ 
+
+mailto:zhanglei@cac.avic.com
+
+and
+
+Tianwu Li
+
+ 
+
+Tianwu Li
+
+SciProfiles
+
+https://sciprofiles.com/profile/5093730?utm_source=mdpi.com&utm_medium=website&utm_campaign=avatar_name
+
+ 
+
+Scilit
+
+https://scilit.com/scholars?q=Tianwu%20Li
+
+ 
+
+Preprints.org
+
+https://www.preprints.org/search?condition_blocks=[{%22value%22:%22Tianwu+Li%22,%22type%22:%22author%22,%22operator%22:null}]&sort_field=relevance&sort_dir=desc&page=1&exact_match=true
+
+ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?q=Tianwu+Li
+
+ 
+
+2,3,*
+
+ 
+
+mailto:litianwu@zju.edu.cn
+
+ 
+
+1
+
+Chengdu Aircraft Industrial (Group) Co., Ltd., Chengdu 610091, China 
+
+2
+
+College of Information Science and Electronic Engineering, Zhejiang University, Hangzhou 310027, China 
+
+3
+
+Jinhua Institute of Zhejiang University, Jinhua 321037, China 
+
+*
+
+Author to whom correspondence should be addressed.
+
+Electronics
+
+ 
+
+2026
+
+, 
+
+15
+
+(7), 1434; 
+
+https://doi.org/10.3390/electronics15071434
+
+https://doi.org/10.3390/electronics15071434
+
+Submission received: 8 February 2026 / Revised: 6 March 2026 / Accepted: 13 March 2026 / Published: 30 March 2026
+
+(This article belongs to the Special Issue 
+
+Advanced Research in Electromagnetic Compatibility Techniques for Electronic Systems
+
+https://www.mdpi.com/journal/electronics/special_issues/GNLGDA6267
+
+)
+
+Download keyboard_arrow_down
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Download PDF
+
+https://www.mdpi.com/2079-9292/15/7/1434/pdf?version=1774866861
+
+Download PDF with Cover
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Download XML
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Download Epub
+
+https://www.mdpi.com/2079-9292/15/7/1434/epub
+
+Browse Figures
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+ 
+
+https://pub.mdpi-res.com/electronics/electronics-15-01434/article_deploy/html/images/electronics-15-01434-g001.png?1774867067
+
+ 
+
+https://pub.mdpi-res.com/electronics/electronics-15-01434/article_deploy/html/images/electronics-15-01434-g002.png?1774867068
+
+ 
+
+https://pub.mdpi-res.com/electronics/electronics-15-01434/article_deploy/html/images/electronics-15-01434-g003.png?1774867069
+
+ 
+
+https://pub.mdpi-res.com/electronics/electronics-15-01434/article_deploy/html/images/electronics-15-01434-g004.png?1774867070
+
+ 
+
+https://pub.mdpi-res.com/electronics/electronics-15-01434/article_deploy/html/images/electronics-15-01434-g005.png?1774867072
+
+ 
+
+https://pub.mdpi-res.com/electronics/electronics-15-01434/article_deploy/html/images/electronics-15-01434-g006.png?1774867074
+
+ 
+
+https://pub.mdpi-res.com/electronics/electronics-15-01434/article_deploy/html/images/electronics-15-01434-g007.png?1774867075
+
+ 
+
+https://pub.mdpi-res.com/electronics/electronics-15-01434/article_deploy/html/images/electronics-15-01434-g008.png?1774867076
+
+ 
+
+https://pub.mdpi-res.com/electronics/electronics-15-01434/article_deploy/html/images/electronics-15-01434-g009.png?1774867078
+
+Versions Notes
+
+https://www.mdpi.com/2079-9292/15/7/1434/notes
+
+Article Views
+
+https://www.mdpi.com/2079-9292/15/7/1434#metrics
+
+Citations -
+
+https://www.mdpi.com/2079-9292/15/7/1434#metrics
+
+Abstract
+
+To mitigate the high measurement costs in electromagnetic compatibility (EMC) assessment, this paper proposes a robust active learning framework for fast 3D field reconstruction with sparse sampling. A novel “Four-Vote” query criterion is proposed to guide intelligent sample selection, which integrates Shannon entropy, committee variance, spatial density, and clustering-based representativeness, all derived from a heterogeneous radial basis function (RBF) committee. Furthermore, an adaptive polynomial degree adjustment mechanism is implemented to ensure stability in data-scarce 3D environments. Validated through full-wave HFSS simulations, the proposed method significantly outperforms traditional sampling strategies in both 2D and 3D scenarios, achieving high-fidelity field reconstruction with minimal sampling points. This framework provides an efficient solution for rapid spatial field mapping and EMC fault diagnosis in practical engineering scenarios.
+
+Keywords:
+
+electromagnetic compatibility
+
+https://www.mdpi.com/search?q=electromagnetic+compatibility
+
+; 
+
+field reconstruction
+
+https://www.mdpi.com/search?q=field+reconstruction
+
+; 
+
+sparse sampling
+
+https://www.mdpi.com/search?q=sparse+sampling
+
+; 
+
+active learning
+
+https://www.mdpi.com/search?q=active+learning
+
+; 
+
+RBF committee mechanism
+
+https://www.mdpi.com/search?q=RBF+committee+mechanism
+
+; 
+
+Four-Vote criterion
+
+https://www.mdpi.com/search?q=Four-Vote+criterion
+
+1. Introduction
+
+In high-speed electronic system design, electromagnetic compatibility (EMC) assessment and spatial electromagnetic field characterization are critical yet cost-intensive bottlenecks, which limit the development of not only traditional electromagnetic interference (EMI) mapping but also performance characterization for emerging intelligent electronic systems. Recently, the convergence of electromagnetics with artificial intelligence [ 
+
+1
+
+https://www.mdpi.com/2079-9292/15/7/1434#B1-electronics-15-01434
+
+, 
+
+2
+
+https://www.mdpi.com/2079-9292/15/7/1434#B2-electronics-15-01434
+
+, 
+
+3
+
+https://www.mdpi.com/2079-9292/15/7/1434#B3-electronics-15-01434
+
+] and information metasurfaces [ 
+
+4
+
+https://www.mdpi.com/2079-9292/15/7/1434#B4-electronics-15-01434
+
+] has introduced new complexities in field distribution, demanding more efficient diagnosis techniques [ 
+
+5
+
+https://www.mdpi.com/2079-9292/15/7/1434#B5-electronics-15-01434
+
+]. As highlighted in recent studies on field distribution mapping, traditional measurement protocols often impose significant burdens in terms of time and hardware costs. While sequential spatial adaptive sampling (SSAS) [ 
+
+6
+
+https://www.mdpi.com/2079-9292/15/7/1434#B6-electronics-15-01434
+
+] has improved efficiency, the “curse of dimensionality” in 3D space makes exhaustive scanning increasingly unsustainable. In industrial EMC assessment practice, full-point 3D near-field scanning for PCB-level high-speed electronic systems usually takes 24 h to complete (including equipment calibration, point-by-point scanning, data transmission, and preliminary analysis), which seriously restricts the efficiency of product EMC fault diagnosis and design optimization. The sparse sampling-based rapid field reconstruction method has become the core demand of industrial EMC testing, as it can significantly shorten the test time while maintaining high-fidelity field characterization. The proposed “Four-Vote” method in this work reduces the total data acquisition time by more than 75% compared with traditional full-point scanning, shortening the 3D near-field scanning process from 24 h to less than 6 h, which fully meets the demand for rapid EMC diagnosis in industrial production lines. The method proposed in this work is fully compatible with the existing commercial near-field scanning systems, and can be directly embedded into the standard EMC assessment workflow without additional hardware modification.
+
+Consequently, sparse sampling strategies have become a dominant research focus. Approaches range from dual sparse sampling [ 
+
+7
+
+https://www.mdpi.com/2079-9292/15/7/1434#B7-electronics-15-01434
+
+, 
+
+8
+
+https://www.mdpi.com/2079-9292/15/7/1434#B8-electronics-15-01434
+
+] to array diagnosis from small measurement sets using compressed sensing [ 
+
+9
+
+https://www.mdpi.com/2079-9292/15/7/1434#B9-electronics-15-01434
+
+]. While Compressed Sensing (CS) has been widely explored, it often remains dependent on signal sparsity or specific physical priors. More recently, data-driven approaches such as Physics-Informed Gaussian Process Regression [ 
+
+10
+
+https://www.mdpi.com/2079-9292/15/7/1434#B10-electronics-15-01434
+
+, 
+
+11
+
+https://www.mdpi.com/2079-9292/15/7/1434#B11-electronics-15-01434
+
+], GPR-based EMI prediction [ 
+
+12
+
+https://www.mdpi.com/2079-9292/15/7/1434#B12-electronics-15-01434
+
+], and Physics-Informed Neural Networks (PINNs) [ 
+
+13
+
+https://www.mdpi.com/2079-9292/15/7/1434#B13-electronics-15-01434
+
+, 
+
+14
+
+https://www.mdpi.com/2079-9292/15/7/1434#B14-electronics-15-01434
+
+] have demonstrated high-fidelity recovery. However, these data-driven methods generally require substantial computational resources or pre-training on large datasets, making them unsuitable for rapid cold-start EMC diagnosis with limited prior information.
+
+Alternatively, Active Learning (AL) offers intelligent sample querying and has shown potential to achieve robust reconstruction with significantly less data. Recent overviews indicate that AL is becoming a key enabler for efficient near-field scanning [ 
+
+15
+
+https://www.mdpi.com/2079-9292/15/7/1434#B15-electronics-15-01434
+
+]. For example, recent studies have successfully applied AL to visualize conductive coupling paths [ 
+
+16
+
+https://www.mdpi.com/2079-9292/15/7/1434#B16-electronics-15-01434
+
+] and established automated stopping criteria to optimize scanning efficiency [ 
+
+17
+
+https://www.mdpi.com/2079-9292/15/7/1434#B17-electronics-15-01434
+
+]. However, traditional AL methods, particularly those relying solely on simple variance-based uncertainty, often exhibit severe instability when transitioning to 3D volumetric field reconstruction tasks. Further, existing multi-criteria AL methods, which have been widely explored in recent years, still have three core limitations that restrict their application in practical EMC field reconstruction scenarios. First, most existing multi-criteria AL frameworks are designed with a primary focus on uncertainty-based local exploitation, while lacking an effective global spatial exploration mechanism, leading to poor cold-start performance and a high risk of converging to local optima in 3D sparse sampling regimes. Second, the multi-metric fusion strategies of existing methods are mostly heuristic, without explicit theoretical analysis of the complementarity between different metrics, resulting in redundant information between criteria and unstable sampling performance across different scenarios. Third, existing multi-criteria AL methods are mostly developed for 2D classification or regression tasks, lacking targeted optimization for the numerical stability of 3D volumetric interpolation, and frequently suffer from matrix ill-conditioning and interpolation divergence when the number of samples is extremely limited.
+
+To address these fundamental limitations of existing multi-criteria AL methods in 3D electromagnetic field reconstruction, this paper proposes a robust 3D active learning framework centered on a novel “Four-Vote” mechanism, with a complete theoretical design framework and targeted numerical stability optimization. Instead of relying on a single uncertainty metric or heuristic multi-metric fusion, we establish a three-layer theoretical design principle for the proposed multi-criteria AL framework: (1) dual-view uncertainty quantification principle, which uses entropy and variance metrics to assess the model's epistemic uncertainty from both relative distribution and absolute dispersion of committee predictions, ensuring the comprehensiveness of uncertainty assessment; (2) exploration–exploitation balance principle, which introduces spatial density metric to ensure global spatial coverage while prioritizing high-uncertainty regions, avoiding local optima; (3) information gain maximization principle, which uses clustering-based representativeness metric to eliminate redundant sampling, maximizing the information gain of each sample. On this basis, we further introduce an adaptive polynomial degree adjustment mechanism to guarantee the numerical stability of the method in 3D sparse sampling scenarios. Validated on high-fidelity full-wave HFSS simulation datasets, the proposed framework exhibits superior robustness and convergence speed compared with both traditional single-criterion AL and state-of-the-art multi-criteria AL methods, reducing the total data acquisition time by approximately 75% compared to random sampling strategies, while maintaining high reconstruction fidelity.
+
+2. Basic Concepts
+
+2.1. Soft Voting Mechanism
+
+Ensemble learning enhances predictive robustness by combining multiple learners, a principle well-established in data mining. Unlike hard voting (majority rule), soft voting aggregates continuous confidence scores or probabilities from base models. Mathematically, the decision is weighted by the confidence of each member: y ^ = arg max ∑ w i P i . In this work, we extend this classic soft voting framework to the active learning strategy for regression-based electromagnetic field reconstruction. Instead of voting on discrete classification labels, our system weights four complementary scoring metrics (entropy, variance, spatial density, and representativeness) to generate a comprehensive value assessment for each candidate sampling point, which prevents any single metric from blindly dominating the sampling decision process.
+
+In this work, the soft voting mechanism is further extended to the uncertainty quantification (UQ) of regression tasks for electromagnetic field reconstruction. Unlike classification tasks with explicit probabilistic outputs, regression tasks based on the RBF committee lack native probability distributions to describe model disagreement. To address this, we map the absolute outputs of committee members to a normalized pseudo-probability space, which aligns with the core logic of soft voting: the greater the dispersion of the absolute magnitude of each committee member's prediction for the same candidate point, the higher the information disorder of the output distribution, and the stronger the epistemic uncertainty caused by insufficient model training in this region. This mapping establishes a direct connection between the voting-based disagreement measure and uncertainty quantification, laying a theoretical foundation for the Shannon entropy-based uncertainty metric designed subsequently.
+
+2.2. Query-by-Committee (QBC)
+
+Traditional uncertainty sampling often relies on a single model's bias. Query-by-Committee (QBC) overcomes this by maintaining a committee of diverse hypotheses trained on the same labeled data. The core principle is “disagreement as information”: if committee members generate widely diverging predictions for an unlabeled point, the model is highly uncertain in that region. We utilize this disagreement to efficiently prune the version space. This aligns with batch-mode active learning principles, where considering expected model change can further optimize regression tasks [ 
+
+18
+
+https://www.mdpi.com/2079-9292/15/7/1434#B18-electronics-15-01434
+
+].
+
+2.3. Radial Basis Function (RBF) Interpolation
+
+RBF interpolation is employed as the core reconstruction engine. Recent studies have demonstrated that optimising RBF parameters or employing hidden node interconnection schemes can significantly enhance field reconstruction [ 
+
+19
+
+https://www.mdpi.com/2079-9292/15/7/1434#B19-electronics-15-01434
+
+] and array modeling [ 
+
+20
+
+https://www.mdpi.com/2079-9292/15/7/1434#B20-electronics-15-01434
+
+]. Furthermore, integrating clustering strategies into RBF training has been shown to improve learning stability in deep architectures [ 
+
+21
+
+https://www.mdpi.com/2079-9292/15/7/1434#B21-electronics-15-01434
+
+]. The approximation function s ( x ) is constructed as a linear combination of radially symmetric kernels and a polynomial tail:
+
+s ( x ) = ∑ i = 1 N λ i ϕ ( ∥ x − x i ∥ ) + ∑ j = 1 M γ j p j ( x ) ,
+
+(1)
+
+where N is the number of sampled points, x i represents the center coordinates, and ϕ (
+
+· ) is the kernel function determined by the Euclidean distance ∥ x − x i ∥ . The polynomial term ∑ γ j p j ( x ) helps model global trends and ensures the solvability of the interpolation matrix. This hybrid structure of radial kernels and polynomial augmentation enables high-fidelity field reconstruction even under strictly constrained sampling budgets, which is the core foundation of our sparse sampling framework.
+
+3. Proposed Method
+
+3.1. Algorithm Overview
+
+To address the challenges of high measurement costs and long acquisition times in 3D electromagnetic field characterization, we propose a closed-loop Active Learning (AL) framework based on a “Four-Vote” mechanism. The complete procedural logic is formalized in Algorithm 1 and visually summarized in 
+
+Figure 1
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f001
+
+. The framework operates iteratively to maximize information gain while minimizing the total number of physical measurements required. The framework is initialized with a fixed random seed of 42 for full reproducibility, where 20 initial samples are randomly selected without replacement from the measurement space to form the initial observed dataset L, and the iterative sampling process adopts a fixed batch size of 5 samples per cycle, with a total sampling budget of 100 samples (including the initial set) as the termination condition for the iteration. The workflow of the framework consists of four distinct phases within each iterative cycle. First, the algorithm generates a complete set of candidate points U from the continuous 3D measurement space. A heterogeneous RBF committee with a fixed size of 4 is then trained on the currently observed dataset L = ( x i , y i ) i = 1 N to simultaneously complete electromagnetic field reconstruction and multi-view uncertainty quantification, and the committee is designed with explicit heterogeneity in kernel functions to ensure diverse and complementary predictive behaviors among members: the four committee members adopt linear, cubic, thin-plate spline, and quintic RBF kernels respectively, covering both low-order smooth interpolation kernels and high-order kernels that can capture fine-grained spatial variations of the electromagnetic field. The committee size is fixed to 4 based on a dual balance of uncertainty quantification comprehensiveness and computational efficiency: a size smaller than 4 would lead to insufficient diversity of committee predictions, making the subsequent uncertainty assessment (e.g., entropy and variance calculation) one-sided and unable to fully reflect the model's epistemic uncertainty in 3D field reconstruction; a size larger than 4 would introduce redundant RBF kernel calculations, leading to a significant increase in computational overhead for each iteration of the active learning framework, which is inconsistent with the demand for fast iterative sampling in practical EMC diagnosis scenarios. In addition, the fixed size of 4 is also verified to be the optimal choice through preliminary experimental tests on the electromagnetic field dataset, which can achieve the best trade-off between the reliability of committee-based uncertainty assessment and the real-time performance of the algorithm. The polynomial degree of the RBF interpolators is adjusted adaptively throughout the iteration, with thresholds derived from the full-rank condition of 3D polynomial basis functions: it is set to 0 when the size of the observed dataset L is less than 4 samples, set to 1 when the sample count is between 4 and 9, and set to 2 when the sample count reaches 10 or higher, ensuring numerical stability and avoiding ill-conditioned interpolation matrices in the data-scarce cold-start phase, while balancing fitting capacity and generalization performance as the sample size increases. Subsequently, each candidate x ∈ U is evaluated using four distinct metrics: entropy, committee variance, spatial density, and a clustering-based representative utility score ( V r e p ). The four metrics form a theoretically complementary system: the entropy and variance metrics jointly quantify the model's epistemic uncertainty from two complementary perspectives, avoiding the one-sidedness of single uncertainty assessment; the spatial density metric ensures global spatial exploration, compensating for the tendency of uncertainty metrics to fall into local optima; the representativeness metric further optimizes the diversity of selected samples, eliminating redundant sampling in high-uncertainty regions and maximizing the information gain of each batch of samples. This multi-criteria system fundamentally overcomes the limitations of existing multi-criteria AL methods, achieving a stable balance between exploration and exploitation in 3D sparse sampling scenarios. Finally, the candidates are ranked based on a composite score derived from these metrics, and the top-ranked batch is selected for physical measurement. All continuous metrics are unified to the [ 0 , 1 ] range via a consistent min–max normalization strategy, with a 1 × 10 − 9 numerical stability term added to avoid division-by-zero errors, and the composite score is calculated by summing the normalized entropy, variance, spatial density scores and the representative utility score with equal weights for each metric. Finally, the candidates are ranked based on a composite score derived from these metrics, and the top-ranked batch is selected for physical measurement.
+
+ 
+
+Algorithm 1:
+
+ Robust 3D Active Learning with Four-Vote Mechanism
+
+ 
+
+ 
+
+Figure 1.
+
+ Closed-Loop Active Learning Framework for 3D EM Field Characterization.
+
+This iterative process ensures that the model progressively refines its understanding of the electromagnetic field, prioritizing regions with high uncertainty or sparse coverage. After reaching the pre-defined sampling budget, a final RBF interpolator with a cubic kernel and polynomial degree of 1 is trained on the complete observed dataset to generate the full 3D electromagnetic field reconstruction.
+
+3.2. The Four Scoring Metrics
+
+The core of the proposed method is the “Four-Vote” strategy, which quantifies the value of a candidate point using four complementary metrics.
+
+3.2.1. Information Entropy ( V e n t )
+
+Epistemic uncertainty in active learning for regression tasks originates from the lack of training data in specific regions, which is directly reflected in the prediction inconsistency among members of the heterogeneous RBF committee. For regression tasks without native probabilistic outputs, the core of effective uncertainty quantification is to construct a statistically interpretable metric to measure this inter-model inconsistency. Compared with single-model uncertainty metrics, the committee-based entropy metric can more comprehensively capture the overall disagreement of the model ensemble, avoiding the bias caused by the single-model structure.
+
+To quantify the information disorder within the committee's predictions, we treat the absolute outputs of the M = 4 committee members as a normalized pseudo-probability distribution, aligning with the broader principles of uncertainty quantification in regression tasks [ 
+
+22
+
+https://www.mdpi.com/2079-9292/15/7/1434#B22-electronics-15-01434
+
+]. For a candidate point x , the probability p k associated with the k-th model is given by p k = | y ( k ) ( x ) | / ∑ j = 1 M | y ( j ) ( x ) | . The Shannon entropy is then calculated using:
+
+V e n t ( x ) = − ∑ k = 1 M p k log ( p k + ϵ ) ,
+
+(2)
+
+where ϵ is a small constant to prevent numerical errors.
+
+The rationality of this entropy definition for epistemic uncertainty quantification is supported by three core theoretical bases. The pseudo-probability constructed by normalizing the absolute output of the committee members follows the same weighted aggregation logic as the soft voting mechanism that underpins the overall framework. When the predictions of committee members are highly consistent, the resulting pseudo-probability distribution is heavily concentrated, corresponding to a low entropy value and weak epistemic uncertainty of the model in this region; conversely, when predictions are highly discrete across the committee, the pseudo-probability distribution tends toward uniformity, yielding a high entropy value that directly signals the model's inability to form a consistent judgment on the field magnitude, and thus, strong epistemic uncertainty. Beyond its alignment with the core voting framework, this entropy definition also offers critical complementarity with the committee variance metric ( V v a r ) adopted in this work. Unlike the variance metric, which quantifies the absolute dispersion of prediction values, the entropy metric focuses on the relative disorder of the prediction distribution across individual committee members. For regions with sharp field gradients, for example, variance may appear high due to the large absolute magnitude of the field itself, even when the relative proportion of predictions from each committee member remains consistent, a scenario that would result in low entropy. This key distinction enables the entropy metric to identify regions where the model holds essential cognitive disagreement on the underlying field distribution, rather than simply regions with large field fluctuations, forming an effective and necessary complement to the variance metric within the multi-criteria framework. Finally, the proposed entropy metric exhibits unique adaptability to the sparse sampling scenarios that define electromagnetic field reconstruction tasks. In the cold start stage of active learning, where training data is extremely limited, the prediction bias of any single committee member may be substantial; the entropy metric, which is derived from the full distribution of outputs across multiple committee members, offers stronger robustness to outlier predictions from individual models, and can more stably identify high-uncertainty regions compared to single-model UQ metrics that are more vulnerable to sparse data bias.
+
+When evaluated against standard uncertainty quantification alternatives for regression tasks, the proposed entropy metric further demonstrates distinct adaptability and advantages tailored to the specific scenario of this work. The mainstream standard UQ approach, Gaussian Process Regression (GPR)-based posterior variance, relies heavily on the Gaussian assumption of the underlying data distribution, and carries prohibitively high computational complexity when applied to the 3D large-scale candidate space used in this work. By contrast, the proposed entropy metric is fully non-parametric, requires no prior distribution assumptions, and incurs significantly lower computational overhead, making it far more suitable for the fast iterative cycles required by the active learning framework. For single-model Monte Carlo Dropout (MCDO) UQ, another widely used alternative, the method requires repeated forward inference of the model to generate uncertainty estimates, a structure that is difficult to adapt to the RBF interpolation models at the core of this work. The proposed entropy metric, by contrast, is derived directly from the outputs of the heterogeneous RBF committee, making it naturally compatible with the Query-by-Committee (QBC) active learning framework, and allowing it to be calculated synchronously during the model training stage with no additional inference steps required. Even when compared to other committee-based UQ methods such as the simple maximum–minimum discrepancy of committee outputs, the proposed entropy metric offers meaningful improvements: the maximum–minimum approach focuses exclusively on the extreme values of committee predictions, and cannot capture the full distribution characteristics of the committee's outputs, while the entropy metric fully describes the information disorder of the entire ensemble model's predictions, and exhibits a stronger correlation with actual reconstruction error, a relationship that is further verified in the subsequent ablation study. Taken together, these theoretical foundations and comparative advantages demonstrate that high entropy indicates significant essential disagreement among committee members regarding the relative distribution law of the field, rather than just the fluctuation of the absolute value of the field, thus reliably signaling high epistemic uncertainty in the region.
+
+It should be noted that this entropy metric has certain limitations in the extremely sparse cold start stage (the number of initial samples N < 10 ). At this stage, the training data is severely insufficient, the prediction bias of each member of the RBF committee is large, and the noise in the output is high, which may lead to the entropy metric cannot accurately reflect the real epistemic uncertainty. To mitigate this limitation, we integrate the sample density metric ( V d e n ) in the composite scoring function, which guides the algorithm to give priority to global spatial exploration in the cold start stage.
+
+3.2.2. Committee Variance ( V v a r )
+
+This metric directly measures the dispersion of the committee's predictions. It serves as a robust indicator of model instability, particularly in regions with sharp field gradients. It is defined as the variance of the predictions { y ( 1 ) , … , y ( M ) } :
+
+V v a r ( x ) = 1 M ∑ k = 1 M y ( k ) ( x ) − y ¯ ( x ) 2 ,
+
+(3)
+
+where y ¯ ( x ) is the mean prediction of the committee.
+
+3.2.3. Sample Density ( V d e n )
+
+To ensure global exploration and prevent the algorithm from over-exploiting a single high-error region, we introduce a density metric based on the k-Nearest Neighbors ( k-NN) algorithm. This metric inversely relates to the density of existing samples around candidate x :
+
+V d e n ( x ) = 1 k ∑ x j ∈ N k ( x ) ∥ x − x j ∥ − 1 .
+
+(4)
+
+By weighting this metric, the algorithm is encouraged to select points in “void” regions where no measurements have yet been taken.
+
+3.2.4. Representative Utility ( V r e p )
+
+To avoid redundant sampling in regions where the committee uniformly exhibits high variance, we introduce the Representative Utility metric. While variance identifies where the error is high, it does not distinguish between redundant points within the same error peak.
+
+This metric applies Weighted K-Means clustering to the subset of candidates with the highest variance. The algorithm identifies cluster centers that spatially represent the aggregate uncertainty of a region. The utility function is defined as an indicator pointing to these centroids:
+
+V r e p ( x ) = I ( x ∈ C c e n t e r s )
+
+· max x ′ ∈ Cluster ( x ) V v a r ( x ′ ) ,
+
+(5)
+
+where C c e n t e r s is the set of weighted centroids. This ensures that the selected batch captures distinct error features (Diversity) rather than over-sampling a single location.
+
+3.3. Composite Scoring Function
+
+Following the preceding series of calculations, the value components for all unknown/test points have been obtained. The final step involves performing a weighted average on these value components. The composite score function J ( x ) is defined as:
+
+J ( x ) = w 1
+
+· V e n t ( x ) + w 2
+
+· V v a r ( x ) + w 3
+
+· V d e n ( x ) + w 4
+
+· V r e p ( x ) ,
+
+(6)
+
+where w 1 , w 2 , w 3 , w 4 are hyperparameters determining the relative importance of each metric. In this work, uniform equal weights (1, 1, 1, 1) are adopted for the four normalized metrics in the composite scoring function, and this setting is justified by three core theoretical and practical considerations that fully align with the design principles of the Four-Vote framework. First, the four metrics form a complementary system with distinct functional positioning across the entire iterative sampling process: the entropy and variance metrics dominate the local exploitation of high-uncertainty regions in the middle and late stages of iteration, while the spatial density metric drives global spatial exploration in the cold-start phase, and the representativeness metric ensures the spatial diversity of selected samples throughout the entire cycle. Uniform weights avoid artificial bias towards any single stage or functional objective, ensuring the algorithm maintains stable and balanced performance from the cold-start phase to the convergence phase, without the risk of over-exploitation leading to local optima or over-exploration leading to low sampling efficiency. Second, from the perspective of practical EMC engineering applications, the core requirement of field reconstruction is to simultaneously achieve accurate localization of high-field hotspots and complete coverage of the full spatial range, with no prior knowledge to determine which metric should be prioritized in different test scenarios. Uniform weights provide a robust and unbiased parameter setting that is applicable to different field distribution scenarios, without the need for scenario-specific weight tuning, which greatly improves the generalization performance and engineering practicability of the proposed method. Third, in the sparse sampling regime that defines this work, there is insufficient labeled data to optimize non-uniform weights through cross-validation, and the introduction of learnable non-uniform weights will bring a high risk of overfitting to the limited initial samples. The uniform weight setting eliminates the need for additional parameter optimization, maintains the simplicity and robustness of the algorithm, and avoids overfitting caused by weight tuning in data-scarce scenarios.
+
+3.4. Spatial Extension and Adaptive Logic
+
+Extending to 3D volumetric reconstruction generalizes the input space to Ω ⊂ R 3 , where spatial distances are computed via the standard Euclidean norm. The candidate sampling pool is generated using a 3D meshgrid with consistent indexing, and the Euclidean distance metric x i − x j for RBF kernel calculation is computed over the 3D coordinate space. Notably, the extension to 3D space introduces stricter requirements for the numerical stability of RBF interpolation, as the number of polynomial basis terms increases nonlinearly with the polynomial degree in high-dimensional space, which exacerbates the risk of ill-conditioned interpolation matrices under sparse sampling.
+
+The theoretical basis of this mechanism is rooted in the solvability condition and numerical stability of the augmented RBF interpolation matrix, which is formally analyzed as follows. The RBF interpolation model adopted in this work is constructed as a linear combination of radially symmetric kernels and a polynomial augmentation term, where the polynomial term ensures the solvability of the interpolation matrix and captures the global trend of the electromagnetic field. For 3D spatial interpolation tasks, the number of independent basis terms of a full polynomial with degree d follows the closed-form expression:
+
+M = ( d + 1 ) ( d + 2 ) ( d + 3 ) 6
+
+(7)
+
+where M denotes the total count of linearly independent polynomial basis functions in 3D Euclidean space. Specifically, a 0-degree (constant) polynomial has M = 1 basis term, a 1-degree (linear) polynomial has M = 4 basis terms, and a 2-degree (quadratic) polynomial has M = 10 basis terms in this 3D scenario. In this work, we limit the maximum polynomial degree to d = 2 and do not adopt higher-degree polynomials, which is a deliberate choice based on both physical priors of electromagnetic fields and practical considerations of sparse active learning scenarios. First, from the perspective of electromagnetic physics, the spatial distribution of electromagnetic fields in typical EMC assessment scenarios is inherently smooth and continuous, governed by Maxwell's equations. A quadratic polynomial ( d = 2 ) is already sufficient to capture the dominant global trends and main spatial variations of the field, such as linear gradients and quadratic curvature near field edges or hotspots, while higher-degree polynomials ( d ≥ 3 ) would introduce unnecessary complexity without meaningful improvement in fitting the true physical field distribution. Second, from the perspective of sparse active learning, the number of polynomial basis terms increases cubically with the degree d (e.g., d = 3 would require M = 20 basis terms), which would not only significantly increase the computational complexity of matrix inversion in each iteration but also introduce a high risk of overfitting to measurement noise under the strict sampling budget constraint. Finally, even with sufficient samples, higher-degree polynomial basis functions tend to exhibit severe multicollinearity in 3D space, which would still lead to an ill-conditioned interpolation matrix and degrade numerical stability, despite satisfying the full-rank condition N ≥ M . For these reasons, limiting the maximum polynomial degree to d = 2 achieves the optimal trade-off between fitting capacity, numerical stability, and computational efficiency for the target 3D electromagnetic field reconstruction task.
+
+To guarantee the column full-rank property of the polynomial augmentation matrix and avoid rank deficiency of the overall augmented interpolation matrix, the number of available sampled points N must be no less than the number of polynomial basis terms M. When N < M , the polynomial design matrix becomes column rank-deficient, which triggers an exponential increase in the condition number of the overall interpolation matrix. A severely ill-conditioned matrix will introduce significant numerical errors in the least-squares solution process, and even lead to irreversible divergence of the interpolation results. In contrast, when N ≥ M , the polynomial component maintains column full-rank, the condition number of the interpolation matrix is reduced by multiple orders of magnitude, and the numerical stability of the interpolation solution is substantially improved.
+
+Based on the conditioning analysis above and the minimum sample size requirement for full-rank polynomial basis in 3D space, we design the dynamic degree adjustment function, which adaptively sets the polynomial degree d according to the current number of labeled samples N:
+
+d ( N ) = 0 , if N < 4 1 , if 4 ≤ N < 10 2 , if N ≥ 10 .
+
+(8)
+
+This adaptive logic acts as a numerically stable regularization strategy: it strictly avoids rank deficiency and ill-conditioning of the interpolation matrix in the data-scarce cold-start phase of active learning while maximizing the global fitting capacity of the RBF model as the number of samples increases, effectively preventing both numerical divergence and overfitting.
+
+The proposed framework has natural scalability for large-scale 3D spatial scenarios. The core computational overhead of the method mainly comes from the RBF interpolation of the heterogeneous committee and the four-metric scoring calculation, which has a linear correlation with the size of the candidate pool, and will not cause exponential computational explosion with the expansion of the 3D spatial scale. Meanwhile, the adaptive polynomial degree control mechanism can still effectively avoid the ill-conditioning of the interpolation matrix in large-scale 3D sparse sampling scenarios, ensuring the numerical stability of the algorithm in the cold-start phase. The core multi-metric voting strategy is dimensionally universal, and its logic of balancing exploration and exploitation is not limited by the size of the spatial grid, which means the method can be directly extended to large-scale 3D field reconstruction tasks that match the actual engineering EMC testing range.
+
+4. Experimental Setup
+
+We validated the framework using HFSS simulations of a C-shaped microstrip line at 50 MHz ( 
+
+Figure 2
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f002
+
+), employing radiation boundaries to mimic free-space conditions and eliminate boundary reflections. Following full-wave simulation completion, we discretised and sampled electric field data at specific heights or within spatial volumes, constructing the following three datasets with distinct dimensionality and sparsity characteristics to comprehensively evaluate algorithm performance:
+
+ 
+
+Figure 2.
+
+ C-shape microstrip simulation example.
+
+1.
+
+Large-scale 2D ( 61 × 61 ): Comprising 3721 points, this high-resolution set serves as the “ground truth” to analyze convergence in data-rich conditions.
+
+2.
+
+Small-scale 2D ( 11 × 11 ): With only 121 points, this set represents “extremely sparse” scenarios to test robustness under constrained budgets.
+
+3.
+
+3D Synthetic Dataset ( 5 × 5 × 5 ): This 125-point volumetric set validates the generalisation capability and effectiveness against the “curse of dimensionality” in 3D space.
+
+To objectively evaluate the performance of the proposed Four-Vote active learning strategy, we selected two representative sampling strategies as comparative benchmarks. One is random sampling, the other is QWE sampling [ 
+
+23
+
+https://www.mdpi.com/2079-9292/15/7/1434#B23-electronics-15-01434
+
+], a machine-learning-based batch selection method which employs representative utility and diversity assessment mechanisms for point selection.
+
+This study adopts Mean Squared Error (MSE) and Root Mean Squared Error (RMSE) as core evaluation metrics. Mean Squared Error (MSE) and Root Mean Squared Error (RMSE) are defined as:
+
+MSE = 1 N t e s t ∑ i = 1 N t e s t ( y i − y ^ i ) 2 , RMSE = MSE ,
+
+(9)
+
+where N t e s t denotes the number of samples in the test set, y i represents the actual field strength value from the HFSS simulation, and y ^ i denotes the predicted value reconstructed by the RBF model. RMSE is selected as the primary metric due to its shared units with the original electromagnetic field data (e.g., V/m), enabling an intuitive reflection of the average deviation of reconstructed field strength relative to the true distribution. In practical EMC assessment, a lower RMSE indicates that the reconstruction model can more accurately locate field hotspots and reproduce the fine-grained details of the field distribution, thereby providing a reliable basis for subsequent EMC design optimization.
+
+5. The Results of 2D Scenarios
+
+5.1. Results on the 61 × 61 Dataset
+
+To assess learning efficiency in a dense candidate space, we conducted reconstruction experiments on the high-resolution 61 × 61 dataset (3721 candidate points) derived from the simulation data. We compared three sampling strategies: (1) Random Sampling, (2) QWE-based Sampling [ 
+
+23
+
+https://www.mdpi.com/2079-9292/15/7/1434#B23-electronics-15-01434
+
+] (from previous literature), and (3) the proposed Voting-based Sampling.
+
+The convergence of the Root Mean Squared Error (RMSE) with respect to the number of acquired samples is illustrated in 
+
+Figure 3
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f003
+
+ a. The curves reveal distinct performance tiers. Both the QWE-based and the proposed Voting-based strategies significantly outperform Random Sampling. While random sampling shows a slow, linear error reduction trend, the two active learning methods exhibit a steep initial error decline, achieving the same reconstruction accuracy with approximately 40% fewer samples. This result confirms that guiding sampling through uncertainty and representativeness assessment is critical for efficient electromagnetic field characterization.
+
+ 
+
+Figure 3.
+
+ RMSE convergence comparison: ( 
+
+a
+
+) On the large-scale dataset ( 61 × 61 ), active learning achieves fast convergence. ( 
+
+b
+
+) On the small-scale dataset ( 11 × 11 ), the proposed method shows superior stability in the cold-start phase compared to QWE and random sampling.
+
+This large-scale 2D experimental result also provides a strong support for the generalization performance of the proposed method in large-scale 3D scenarios. The core of the proposed method is the multi-metric voting sampling strategy, which focuses on the information gain of each sampling point and the numerical stability of the reconstruction model, and its core logic is completely consistent between 2D and 3D spaces. The excellent convergence performance and reconstruction accuracy achieved in the 61 × 61 large-scale 2D scenario (3721 candidate points, 30 times the size of the 5 × 5 × 5 3D dataset) fully verify that the proposed method will not degrade in performance with the expansion of the spatial scale and candidate pool capacity, and has excellent adaptability to large-scale spatial field reconstruction tasks. For large-scale 3D volumetric reconstruction tasks, the time efficiency advantage of the proposed method is more significant: as shown in 
+
+Table 1
+
+https://www.mdpi.com/2079-9292/15/7/1434#table_body_display_electronics-15-01434-t001
+
+, for a 20 × 20 × 20 3D grid, the proposed method reduces the scanning time by 74% compared with traditional full-point scanning, and by 36% compared with the state-of-the-art QWE method.
+
+Table 1.
+
+ Comparison of Sampling Efficiency and Time Cost between Different Methods.
+
+ 
+
+Comparing the two active learning strategies, the QWE method, as a representative mainstream multi-criteria AL method for electromagnetic field reconstruction, occasionally exhibits convergence plateaus due to its reliance on single variance-based uncertainty assessment and lack of effective global exploration mechanism, which is consistent with the core limitations of existing multi-criteria AL methods we summarized. In contrast, the proposed Four-Vote mechanism, by integrating the dual-view uncertainty metrics, spatial density metric and representativeness metric, maintains a stable and continuous downward error trajectory throughout the entire sampling process.
+
+5.2. Field Reconstruction Visualization
+
+To deeply understand the decision-making logic of the proposed algorithm, we first visualize the intermediate state of the active learning process. As shown in 
+
+Figure 4
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f004
+
+, the algorithm exhibits intelligent “exploration and exploitation” behavior. The Acquisition Score Map ( 
+
+Figure 4
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f004
+
+ b) generated by the “Four-Vote” mechanism shows a high correlation with the actual Error Distribution ( 
+
+Figure 4
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f004
+
+ c). Consequently, the samples in the next batch (represented by red stars in 
+
+Figure 4
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f004
+
+ d) are precisely located in the regions with the largest reconstruction errors, validating the effectiveness of the proposed query strategy.
+
+ 
+
+Figure 4.
+
+ Visualization of the active learning decision process at Iteration 10: ( 
+
+a
+
+) The current reconstructed field based on observed samples. ( 
+
+b
+
+) The composite score map derived from the Four-Vote mechanism, highlighting high-value regions. ( 
+
+c
+
+) The absolute error distribution relative to the ground truth. ( 
+
+d
+
+) The selection strategy for the next batch (red stars) overlaid on the existing samples (black dots), showing the algorithm's tendency to explore high-error areas.
+
+Qualitative analysis of the final reconstructed electromagnetic field intensity maps further validates the superiority of the proposed method. 
+
+Figure 5
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f005
+
+ presents the visual comparison on the large-scale dataset ( 61 × 61 ). The maps generated via Random Sampling ( 
+
+Figure 5
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f005
+
+ e) suffer from noticeable spatial artifacts, characterized by blurred transitions and aliasing in high-frequency regions. While QWE sampling ( 
+
+Figure 5
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f005
+
+ f) improves the resolution, it still exhibits minor distortions due to redundant sampling in cluster centers. In contrast, the reconstruction produced by the Voting-based method ( 
+
+Figure 5
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f005
+
+ g) exhibits the highest fidelity to the ground-truth field distribution ( 
+
+Figure 5
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f005
+
+ a). Specifically, the proposed method successfully captures local field variations, such as the sharp gradients and hotspots associated with the edges of the C-shaped microstrip structure.
+
+ 
+
+Figure 5.
+
+ Visual comparison of sampling strategies and their reconstruction performance on a large-scale dataset ( 61 × 61 ): ( 
+
+a
+
+) Ground truth field magnitude; ( 
+
+b
+
+) random sampling distribution; ( 
+
+c
+
+) QWE sampling distribution; ( 
+
+d
+
+) proposed voting-based sampling distribution. Reconstructed fields using ( 
+
+e
+
+) random sampling, ( 
+
+f
+
+) QWE sampling, and ( 
+
+g
+
+) the proposed voting strategy.
+
+5.3. Robustness Evaluation on the 11 × 11 Dataset
+
+To evaluate algorithmic robustness under extreme data scarcity, we conducted experiments on the coarse 11 × 11 dataset (121 candidate points).
+
+To quantify the convergence advantage in data-scarce regimes, 
+
+Figure 3
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f003
+
+ b presents the RMSE descent curves for the small-scale dataset. Unlike the large-scale scenario, the “cold-start” phase here is critical as the algorithm has minimal initial information.
+
+The proposed Four-Vote method (green curve) demonstrates the steepest initial descent, effectively identifying the most informative points within the first few iterations. As shown in the graph, it stabilizes at a low RMSE level significantly faster than the comparative methods. In contrast, Random sampling (orange curve) exhibits a slow, linear improvement, indicating its inefficiency in capturing the field's structure without guidance. QWE sampling (blue curve), while better than random, shows instability and slower convergence compared to the proposed method. This quantitative result confirms that the multi-metric voting mechanism successfully mitigates the risk of poor initialization in limited-budget scenarios and overcomes the error fluctuation problem of QWE method.
+
+Figure 6
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f006
+
+ illustrates the reconstruction performance in this regime, simulating “cold-start” scenarios where the available candidate pool is severely restricted.
+
+ 
+
+Figure 6.
+
+ Visual comparison of sampling strategies and reconstruction performance under extreme sparsity on a small-scale dataset ( 11 × 11 ): ( 
+
+a
+
+) Ground truth field magnitude; ( 
+
+b
+
+) random sampling distribution; ( 
+
+c
+
+) QWE sampling distribution; ( 
+
+d
+
+) proposed voting-based sampling distribution; Reconstructed fields using ( 
+
+e
+
+) random sampling, ( 
+
+f
+
+) QWE sampling, and ( 
+
+g
+
+) the proposed voting strategy.
+
+Under these conditions, the limitations of traditional methods become apparent. As observed in 
+
+Figure 6
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f006
+
+ c the QWE-based sampling strategy suffers from “mode collapse”, where selected centroids cluster redundantly around a single high-variance peak, leaving other critical regions unsampled. Consequently, its reconstruction ( 
+
+Figure 6
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f006
+
+ f) fails to recover the complete C-shape structure. Random sampling ( 
+
+Figure 6
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f006
+
+ e) similarly fails to capture the main field pattern due to the lack of guidance.
+
+Conversely, the proposed Voting-based method ( 
+
+Figure 6
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f006
+
+ d) maintains robustness through the explicit incorporation of the Sample Density metric ( V d e n ). By utilizing nearest-neighbor distances to penalize candidates in the vicinity of existing samples, the Voting mechanism forces the algorithm to explore the spatial domain even when the candidate pool is sparse. The resulting reconstruction ( 
+
+Figure 6
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f006
+
+ g) preserves the structural integrity of the field, demonstrating superior stability in data-scarce environments.
+
+6. The Results of 3D Scenarios
+
+Extending the evaluation to the volumetric domain, this section analyzes the performance of the proposed method on the 3D dataset.
+
+6.1. Volumetric Field Reconstruction Analysis
+
+The extension to 3D space introduces the “curse of dimensionality”, making the selection of sampling points critical. 
+
+Figure 7
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f007
+
+ visualizes the volumetric reconstruction (exemplified by the Z = 3 slice). To visualize the volumetric accuracy, we analyze 2D cross-sectional error profiles and 1D line extracts. The error analysis in one dimension here represents how the error varies with the x-coordinate with fixed y and z.
+
+ 
+
+Figure 7.
+
+ Comparative results for 3D volumetric reconstruction (axial slice (Z = 3)). Results for (Z = 1) and (Z = 5) show similar trends and are omitted for brevity. From left to right: ( 
+
+a
+
+) Ground-truth field; ( 
+
+b
+
+) Selected sampling points distribution showing adaptive depth exploration; ( 
+
+c
+
+) Reconstructed field via the proposed voting-based method; ( 
+
+d
+
+) Absolute error map.
+
+As seen in the second column of 
+
+Figure 7
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f007
+
+, the proposed algorithm dynamically adjusts the sampling distribution according to the field complexity at different heights. The reconstruction results (third column) show excellent agreement with the ground truth (first column) across all slices. The absolute error maps (fourth column) confirm that the error magnitudes are kept at a negligible level (mostly dark blue), even with a limited sampling budget. This indicates that the adaptive polynomial degree control strategy effectively prevents numerical divergence in 3D sparse interpolation. To further quantify the practical value of the proposed method in rapid EMC diagnosis, we compare the sampling efficiency and time cost of different methods in typical industrial and experimental scenarios, as shown in 
+
+Table 1
+
+https://www.mdpi.com/2079-9292/15/7/1434#table_body_display_electronics-15-01434-t001
+
+.
+
+From 
+
+Table 1
+
+https://www.mdpi.com/2079-9292/15/7/1434#table_body_display_electronics-15-01434-t001
+
+, it can be seen that for the same reconstruction accuracy, the proposed four-vote method outperforms QWE in terms of sampling efficiency in all test scenarios: in the small 3D mesh ( 5 × 5 × 5 ) used in our experiments, compared with the traditional full-point scanning, the actual scanning time was shortened by 32.5%; in the large 3D mesh ( 20 × 20 × 20 ), the saved time reached 74%; and in the PCB-level industrial electromagnetic compatibility test scenario, the total test time was shortened from 24 h to 6 h, saving 75%, which fully demonstrates the significant advantages of the proposed method in rapid electromagnetic compatibility diagnosis. It is worth noting that the time calculation is based on the actual scanning speed of 2 min per point of the mainstream commercial near-field scanning system, which is completely consistent with the actual working conditions of industrial electromagnetic compatibility testing.
+
+6.2. Quantitative 1D Profile Comparison
+
+To further quantify the local reconstruction accuracy, we extracted a 1D line profile along the x-axis at a specific spatial location ( y = 5 , z = 5 ). As shown in 
+
+Figure 8
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f008
+
+, the reconstruction curve generated by the proposed Voting method (red line) adheres closely to the Ground Truth (black line), accurately capturing the peak magnitude and the rolling off characteristics. In contrast, the Random sampling method (blue dashed line) exhibits significant deviation, particularly in the high-field region. This comparison quantitatively confirms that the proposed multi-metric voting mechanism significantly enhances the local prediction accuracy in high-dimensional spaces.
+
+ 
+
+Figure 8.
+
+ 1D Line Profile Comparison at ( y = 5 , z = 5 ) . The proposed method (red line) adheres closely to the ground truth (black line), accurately capturing the peak magnitude, while random sampling (blue dashed line) exhibits significant deviation.
+
+6.3. Component Analysis: An Ablation Study on Scoring Metrics
+
+To strictly define the “value” of each metric within the proposed “Four-Vote” mechanism, we conducted an ablation study across both data regimes, as visualized in 
+
+Figure 9
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f009
+
+.
+
+ 
+
+Figure 9.
+
+ Ablation study of the scoring metrics: ( 
+
+a
+
+) In the data-scarce regime, the composite Four-Vote method (red) stabilizes the cold-start phase where single metrics like entropy (orange) fail; ( 
+
+b
+
+) In the large-scale regime, the method balances the early exploration of density (blue) with the late-stage exploitation of variance (green) for optimal convergence.
+
+In the data-scarce cold-start scenario ( 5 × 5 × 5 , 
+
+Figure 9
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f009
+
+ a), individual single metrics exhibit significant limitations. The information entropy metric (orange line) is unreliable under high model noise in the early iteration phase, even performing worse than random sampling, while the committee variance metric (green line) suffers from numerical instability and frequently converges to local optima. In contrast, the composite Four-Vote method (red) stabilizes this volatility. By integrating multiple views, it smooths out individual metric biases, achieving the steepest descent in the critical early phase (10–25 samples).
+
+In the large-scale regime ( 10 × 10 × 10 , 
+
+Figure 9
+
+https://www.mdpi.com/2079-9292/15/7/1434#fig_body_display_electronics-15-01434-f009
+
+ b), the analysis highlights the necessity of balancing Exploration and Exploitation. The Sample Density metric (blue) acts as an efficient “Explorer,” rapidly reducing error in the initial phase by filling spatial voids, but it quickly plateaus as it lacks the capability to refine high-gradient details. Conversely, Variance (green) acts as an “Exploiter,” lagging in initial global search but excelling at late-stage fine-tuning. The proposed Four-Vote mechanism synergizes these complementary forces, utilizing Density for fast global coverage and Variance for local sharpening, thereby maintaining a convergence trajectory consistently superior to any single metric.
+
+To further verify the rationality of the uniform weight setting, we conducted a theoretical sensitivity analysis based on the ablation experiment results of individual metrics, which clarifies the impact of weight deviation on the algorithm's overall performance. The ablation experiment results show that any single metric alone cannot achieve stable and efficient convergence across the entire sampling process: the single entropy metric fails in the cold-start phase due to high model noise, the single variance metric frequently falls into local optima, the single density metric has slow convergence speed due to excessive global exploration, and the single representativeness metric cannot effectively locate high-uncertainty regions. These results indicate that over-weighting any single metric will lead to the algorithm inheriting the inherent limitations of that metric, resulting in performance degradation in specific stages of the iteration. The uniform weight setting fully integrates the advantages of all four complementary metrics, while mitigating the limitations of each individual metric through equal fusion, achieving the optimal trade-off between cold-start stability, convergence speed and final reconstruction accuracy. In addition, from the perspective of engineering application, the uniform weight setting avoids the need for scenario-specific weight tuning, which greatly improves the robustness and generalization performance of the algorithm in different EMC test scenarios, making it more suitable for practical industrial applications compared with non-uniform weight settings that require complex parameter optimization.
+
+7. Conclusions
+
+This paper proposes a robust Four-Vote active learning framework for efficient 3D electromagnetic field reconstruction with sparse sampling, which addresses the three core limitations of existing multi-criteria AL methods in this field. By establishing a theoretically complete multi-criteria framework with dual-view uncertainty quantification, explicit exploration–exploitation balance and information gain maximization, and integrating it with an adaptive polynomial degree adjustment strategy derived from numerical conditioning analysis, the proposed method effectively mitigates cold-start instability and the curse of dimensionality in 3D volumetric field reconstruction. Compared with state-of-the-art multi-criteria AL methods, the proposed framework achieves significant improvements in convergence speed, reconstruction accuracy and numerical robustness, which is verified by both 2D and 3D simulation experiments.
+
+Despite the superior performance of the proposed framework, it still has some limitations to be addressed in future work. First, the current framework is validated on HFSS simulation datasets, and its performance in real-world near-field scanning scenarios with measurement noise and environmental interference needs to be further verified with actual measurement data. Second, the current uniform weight setting, while ensuring generalization performance, cannot dynamically adjust the weight of each metric according to the iteration stage and field distribution characteristics; future work will explore a stage-adaptive weight adjustment strategy to further improve the sampling efficiency. Third, the current framework is designed for single-frequency steady-state field reconstruction, and future research will extend the “Four-Vote” mechanism to time-domain and broadband electromagnetic field reconstruction scenarios, to further expand its application scope in EMC assessment and fault diagnosis.
+
+Author Contributions
+
+Conceptualization, Y.H. and T.L.; methodology, Y.H., K.W. and Y.Q.; software, Y.H., K.W. and Y.Q.; validation, J.D., K.Z. and Z.T.; formal analysis, Y.H. and L.Z.; investigation, Y.H., J.D. and K.Z.; resources, L.Z. and T.L.; data curation, Y.H. and Z.T.; writing—original draft preparation, Y.H.; writing—review and editing, K.W. and T.L.; visualization, Y.H. and Y.Q.; supervision, L.Z. and T.L.; project administration, T.L.; funding acquisition, T.L. All authors have read and agreed to the published version of the manuscript.
+
+Funding
+
+This work was supported in part by Zhejiang Provincial Natural Science Foundation of China under Grant LJHSQY26F010001 and Grant LHZSD25F010001; and in part by Jinhua Municipal Major Science and Technology Project of China under Grant 2026-1-023.
+
+Data Availability Statement
+
+The data used to verify the algorithm are from HFSS, and the model, which has been shown in 
+
+Section 4
+
+https://www.mdpi.com/2079-9292/15/7/1434#sec4-electronics-15-01434
+
+, is a C-type microstrip designed by the author. The algorithm does not depend on the HFSS simulation model, so the simulation model can be replaced to ensure the accuracy of the data.
+
+Conflicts of Interest
+
+Authors Yidi Hu, Jiewen Deng, Kai Zhang, Zhi Tang and Lei Zhang were employed by the company Chengdu Aircraft Industrial (Group) Co., Ltd. The remaining authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+
+References
+
+Li, D.; Chen, W.; Ma, H.; Ahmed, M.; Tao, T.; Gu, Z.; Li, E.-P. An electromagnetic perspective of artificial intelligence neuromorphic chips. Electromagn. Sci. 
+
+2023
+
+, 1, 0030151. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=An+electromagnetic+perspective+of+artificial+intelligence+neuromorphic+chips&author=Li,+D.&author=Chen,+W.&author=Ma,+H.&author=Ahmed,+M.&author=Tao,+T.&author=Gu,+Z.&author=Li,+E.-P.&publication_year=2023&journal=Electromagn.+Sci.&volume=1&pages=0030151&doi=10.23919/emsci.2023.0015
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.23919/emsci.2023.0015
+
+]
+
+Attiya, A.M.; Salam, T. Deep learning: A new era in electromagnetics (review article). In 2025 42nd National Radio Science Conference (NRSC); IEEE: New York, NY, USA, 2025; Volume 1, pp. 1–8. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Deep+learning:+A+new+era+in+electromagnetics+(review+article)&author=Attiya,+A.M.&author=Salam,+T.&publication_year=2025&pages=1%E2%80%938
+
+]
+
+Wei, Z.; Chen, X. Deep-learning schemes for full-wave nonlinear inverse scattering problems. IEEE Trans. Geosci. Remote Sens. 
+
+2019
+
+, 57, 1849–1860. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Deep-learning+schemes+for+full-wave+nonlinear+inverse+scattering+problems&author=Wei,+Z.&author=Chen,+X.&publication_year=2019&journal=IEEE+Trans.+Geosci.+Remote+Sens.&volume=57&pages=1849%E2%80%931860&doi=10.1109/TGRS.2018.2869221
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/TGRS.2018.2869221
+
+]
+
+Cui, T.J.; Liu, S.; Zhang, L. Information metamaterials and metasurfaces. J. Mater. Chem. C 
+
+2017
+
+, 5, 3644–3668. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Information+metamaterials+and+metasurfaces&author=Cui,+T.J.&author=Liu,+S.&author=Zhang,+L.&publication_year=2017&journal=J.+Mater.+Chem.+C&volume=5&pages=3644%E2%80%933668&doi=10.1039/C7TC00548B
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1039/C7TC00548B
+
+]
+
+Yao, H.M.; Jiang, L.; Sha, W.E.I. Source reconstruction method based on machine learning algorithms. In 2019 Joint International Symposium on Electromagnetic Compatibility (EMC Sapporo/APEMC); IEEE: New York, NY, USA, 2019; pp. 774–777. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Source+reconstruction+method+based+on+machine+learning+algorithms&author=Yao,+H.M.&author=Jiang,+L.&author=Sha,+W.E.I.&publication_year=2019&pages=774%E2%80%93777
+
+]
+
+Serpaud, S.; Boyer, A.; Ben-Dhia, S.; Coccetti, F. Fast and accurate near-field measurement method using sequential spatial adaptive sampling (SSAS) algorithm. IEEE Trans. Electromagn. Compat. 
+
+2021
+
+, 63, 858–869. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Fast+and+accurate+near-field+measurement+method+using+sequential+spatial+adaptive+sampling+(SSAS)+algorithm&author=Serpaud,+S.&author=Boyer,+A.&author=Ben-Dhia,+S.&author=Coccetti,+F.&publication_year=2021&journal=IEEE+Trans.+Electromagn.+Compat.&volume=63&pages=858%E2%80%93869&doi=10.1109/TEMC.2020.3025547
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/TEMC.2020.3025547
+
+]
+
+Zhang, Y.; Ma, L.; Jiang, L.; Gao, S. Time-resolved electromagnetic near-field scanning: Dual sparse sampling in time and space. IEEE Trans. Electromagn. Compat. 
+
+2024
+
+, 66, 928–938. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Time-resolved+electromagnetic+near-field+scanning:+Dual+sparse+sampling+in+time+and+space&author=Zhang,+Y.&author=Ma,+L.&author=Jiang,+L.&author=Gao,+S.&publication_year=2024&journal=IEEE+Trans.+Electromagn.+Compat.&volume=66&pages=928%E2%80%93938&doi=10.1109/TEMC.2024.3381980
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/TEMC.2024.3381980
+
+]
+
+Zhang, L.; Wang, T.; Liu, Y.; Kong, M.; Wu, X.-L. Comparative study on sparse and recovery algorithms for antenna measurement by compressed sensing. Prog. Electromagn. Res. M 
+
+2019
+
+, 81, 149–158. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Comparative+study+on+sparse+and+recovery+algorithms+for+antenna+measurement+by+compressed+sensing&author=Zhang,+L.&author=Wang,+T.&author=Liu,+Y.&author=Kong,+M.&author=Wu,+X.-L.&publication_year=2019&journal=Prog.+Electromagn.+Res.+M&volume=81&pages=149%E2%80%93158&doi=10.2528/PIERM19041803
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.2528/PIERM19041803
+
+]
+
+Migliore, M.D. A compressed sensing approach for array diagnosis from a small set of near-field measurements. IEEE Trans. Antennas Propag. 
+
+2011
+
+, 59, 2127–2133. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=A+compressed+sensing+approach+for+array+diagnosis+from+a+small+set+of+near-field+measurements&author=Migliore,+M.D.&publication_year=2011&journal=IEEE+Trans.+Antennas+Propag.&volume=59&pages=2127%E2%80%932133&doi=10.1109/TAP.2011.2144556
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/TAP.2011.2144556
+
+]
+
+Pförtner, M.; Steinwart, I.; Hennig, P.; Wenger, J. Physics-informed Gaussian process regression generalizes linear PDE solvers. arXiv 
+
+2024
+
+, arXiv:2212.12474. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Physics-informed+Gaussian+process+regression+generalizes+linear+PDE+solvers&author=Pf%C3%B6rtner,+M.&author=Steinwart,+I.&author=Hennig,+P.&author=Wenger,+J.&publication_year=2024&journal=arXiv&doi=10.48550/arXiv.2212.12474
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.48550/arXiv.2212.12474
+
+]
+
+Monopoli, T.; Wu, X.; Pignari, S.A.; Wolf, J.; Grassi, F. Efficient electromagnetic near-field scanning using physics-informed Gaussian process regression. IEEE Access 
+
+2025
+
+, 13, 191781–191794. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Efficient+electromagnetic+near-field+scanning+using+physics-informed+Gaussian+process+regression&author=Monopoli,+T.&author=Wu,+X.&author=Pignari,+S.A.&author=Wolf,+J.&author=Grassi,+F.&publication_year=2025&journal=IEEE+Access&volume=13&pages=191781%E2%80%93191794&doi=10.1109/ACCESS.2025.3629347
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/ACCESS.2025.3629347
+
+]
+
+Zhang, D.; Zhao, M.; Cheng, E.; Chen, Y. GPR-based EMI prediction for UAV's dynamic datalink. IEEE Trans. Electromagn. Compat. 
+
+2021
+
+, 63, 19–29. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=GPR-based+EMI+prediction+for+UAV%E2%80%99s+dynamic+datalink&author=Zhang,+D.&author=Zhao,+M.&author=Cheng,+E.&author=Chen,+Y.&publication_year=2021&journal=IEEE+Trans.+Electromagn.+Compat.&volume=63&pages=19%E2%80%9329
+
+]
+
+Guo, Z.; Nguyen, B.; Sabariego, R.V. Physics-informed neural network for solving 1-D nonlinear time-domain magneto-quasi-static problems. IEEE Trans. Magn. 
+
+2025
+
+, 61, 7200709. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Physics-informed+neural+network+for+solving+1-D+nonlinear+time-domain+magneto-quasi-static+problems&author=Guo,+Z.&author=Nguyen,+B.&author=Sabariego,+R.V.&publication_year=2025&journal=IEEE+Trans.+Magn.&volume=61&pages=7200709&doi=10.1109/TMAG.2025.3553236
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/TMAG.2025.3553236
+
+]
+
+Han, J.-H.; Park, J.-H.; Song, S.-M.; Hong, S.-K. Electromagnetic field analysis using physics informed neural network considering eddy current. In 2024 IEEE 21st Biennial Conference on Electromagnetic Field Computation (CEFC); IEEE: New York, NY, USA, 2024; pp. 1–2. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Electromagnetic+field+analysis+using+physics+informed+neural+network+considering+eddy+current&author=Han,+J.-H.&author=Park,+J.-H.&author=Song,+S.-M.&author=Hong,+S.-K.&publication_year=2024&pages=1%E2%80%932
+
+]
+
+Zhang, L.; Li, E.-P. Active machine learning for adaptive and efficient sparse near-field scanning: An overview. IEEE Electromagn. Compat. Mag. 
+
+2025
+
+, 14, 67–75. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Active+machine+learning+for+adaptive+and+efficient+sparse+near-field+scanning:+An+overview&author=Zhang,+L.&author=Li,+E.-P.&publication_year=2025&journal=IEEE+Electromagn.+Compat.+Mag.&volume=14&pages=67%E2%80%9375&doi=10.1109/MEMC.2025.11134160
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/MEMC.2025.11134160
+
+]
+
+Zhang, L.; Xie, Y.; Feng, Y.-R.; Ma, H.; Guo, J.; Li, Y.; Li, D.; Li, E.-P. Active-learning-based sparse near-field scanning with time-domain current measurement for conductive coupling path visualization. IEEE Trans. Instrum. Meas. 
+
+2024
+
+, 73, 2508308. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Active-learning-based+sparse+near-field+scanning+with+time-domain+current+measurement+for+conductive+coupling+path+visualization&author=Zhang,+L.&author=Xie,+Y.&author=Feng,+Y.-R.&author=Ma,+H.&author=Guo,+J.&author=Li,+Y.&author=Li,+D.&author=Li,+E.-P.&publication_year=2024&journal=IEEE+Trans.+Instrum.+Meas.&volume=73&pages=2508308&doi=10.1109/TIM.2024.3363792
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/TIM.2024.3363792
+
+]
+
+Xie, Y.; Zhang, L.; Li, D.; Li, E.-P. Automated stopping criterion for sparse near-field scanning with active machine learning. IEEE Trans. Instrum. Meas. 
+
+2025
+
+, 74, 2532808. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Automated+stopping+criterion+for+sparse+near-field+scanning+with+active+machine+learning&author=Xie,+Y.&author=Zhang,+L.&author=Li,+D.&author=Li,+E.-P.&publication_year=2025&journal=IEEE+Trans.+Instrum.+Meas.&volume=74&pages=2532808&doi=10.1109/tim.2025.3575984
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/tim.2025.3575984
+
+]
+
+Cai, W.; Zhang, M.; Zhang, Y. Batch mode active learning for regression with expected model change. IEEE Trans. Neural Netw. Learn. Syst. 
+
+2017
+
+, 28, 1668–1681. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Batch+mode+active+learning+for+regression+with+expected+model+change&author=Cai,+W.&author=Zhang,+M.&author=Zhang,+Y.&publication_year=2017&journal=IEEE+Trans.+Neural+Netw.+Learn.+Syst.&volume=28&pages=1668%E2%80%931681&doi=10.1109/TNNLS.2016.2542184
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/TNNLS.2016.2542184
+
+]
+
+Liang, Y.; Duan, P.; Liu, J.; Wang, M.; Zhang, J. Study on the space field reconstruction method of the radial basis function of electromagnetic radiation under optimal parameters. Electromagn. Biol. Med. 
+
+2024
+
+, 43, 19–30. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Study+on+the+space+field+reconstruction+method+of+the+radial+basis+function+of+electromagnetic+radiation+under+optimal+parameters&author=Liang,+Y.&author=Duan,+P.&author=Liu,+J.&author=Wang,+M.&author=Zhang,+J.&publication_year=2024&journal=Electromagn.+Biol.+Med.&volume=43&pages=19%E2%80%9330&doi=10.1080/15368378.2024.2308118&pmid=38278143
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1080/15368378.2024.2308118
+
+] [ 
+
+PubMed
+
+https://www.ncbi.nlm.nih.gov/pubmed/38278143
+
+]
+
+Xiao, L.-Y.; Shao, W.; Jin, F.-L.; Wang, B.-Z.; Liu, Q.H. Radial basis function neural network with hidden node interconnection scheme for thinned array modeling. IEEE Antennas Wirel. Propag. Lett. 
+
+2020
+
+, 19, 2418–2422. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Radial+basis+function+neural+network+with+hidden+node+interconnection+scheme+for+thinned+array+modeling&author=Xiao,+L.-Y.&author=Shao,+W.&author=Jin,+F.-L.&author=Wang,+B.-Z.&author=Liu,+Q.H.&publication_year=2020&journal=IEEE+Antennas+Wirel.+Propag.+Lett.&volume=19&pages=2418%E2%80%932422&doi=10.1109/LAWP.2020.3034481
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/LAWP.2020.3034481
+
+]
+
+Azpurua, M.A.; Ramos, K.D. A comparison of spatial interpolation methods for estimation of average electromagnetic field magnitude. Prog. Electromagn. Res. M 
+
+2010
+
+, 14, 135–145. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=A+comparison+of+spatial+interpolation+methods+for+estimation+of+average+electromagnetic+field+magnitude&author=Azpurua,+M.A.&author=Ramos,+K.D.&publication_year=2010&journal=Prog.+Electromagn.+Res.+M&volume=14&pages=135%E2%80%93145&doi=10.2528/PIERM10083103
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.2528/PIERM10083103
+
+]
+
+Li, J.; Wang, H. Gaussian process regression for uncertainty quantification: An introductory tutorial. arXiv 
+
+2025
+
+, arXiv:2502.03090. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Gaussian+process+regression+for+uncertainty+quantification:+An+introductory+tutorial&author=Li,+J.&author=Wang,+H.&publication_year=2025&journal=arXiv&doi=10.48550/arXiv.2502.03090
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.48550/arXiv.2502.03090
+
+]
+
+Zhang, L.; Feng, Y.-R.; Pu, B.; Cai, X.-D.; Li, D.; Wei, X.-C.; Mutnury, B.; Fan, J.; Chen, H.; Drewniak, J.L.; et al. A novel machine-learning-based batch selection method in sparse near-field scanning. IEEE Trans. Microw. Theory Tech. 
+
+2022
+
+, 70, 5019–5028. [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=A+novel+machine-learning-based+batch+selection+method+in+sparse+near-field+scanning&author=Zhang,+L.&author=Feng,+Y.-R.&author=Pu,+B.&author=Cai,+X.-D.&author=Li,+D.&author=Wei,+X.-C.&author=Mutnury,+B.&author=Fan,+J.&author=Chen,+H.&author=Drewniak,+J.L.&author=et+al.&publication_year=2022&journal=IEEE+Trans.+Microw.+Theory+Tech.&volume=70&pages=5019%E2%80%935028&doi=10.1109/TMTT.2022.3205909
+
+] [ 
+
+CrossRef
+
+https://doi.org/10.1109/TMTT.2022.3205909
+
+]
+
+Figure 1.
+
+ Closed-Loop Active Learning Framework for 3D EM Field Characterization.
+
+Figure 2.
+
+ C-shape microstrip simulation example.
+
+Figure 3.
+
+ RMSE convergence comparison: ( 
+
+a
+
+) On the large-scale dataset ( 61 × 61 ), active learning achieves fast convergence. ( 
+
+b
+
+) On the small-scale dataset ( 11 × 11 ), the proposed method shows superior stability in the cold-start phase compared to QWE and random sampling.
+
+Figure 4.
+
+ Visualization of the active learning decision process at Iteration 10: ( 
+
+a
+
+) The current reconstructed field based on observed samples. ( 
+
+b
+
+) The composite score map derived from the Four-Vote mechanism, highlighting high-value regions. ( 
+
+c
+
+) The absolute error distribution relative to the ground truth. ( 
+
+d
+
+) The selection strategy for the next batch (red stars) overlaid on the existing samples (black dots), showing the algorithm's tendency to explore high-error areas.
+
+Figure 5.
+
+ Visual comparison of sampling strategies and their reconstruction performance on a large-scale dataset ( 61 × 61 ): ( 
+
+a
+
+) Ground truth field magnitude; ( 
+
+b
+
+) random sampling distribution; ( 
+
+c
+
+) QWE sampling distribution; ( 
+
+d
+
+) proposed voting-based sampling distribution. Reconstructed fields using ( 
+
+e
+
+) random sampling, ( 
+
+f
+
+) QWE sampling, and ( 
+
+g
+
+) the proposed voting strategy.
+
+Figure 6.
+
+ Visual comparison of sampling strategies and reconstruction performance under extreme sparsity on a small-scale dataset ( 11 × 11 ): ( 
+
+a
+
+) Ground truth field magnitude; ( 
+
+b
+
+) random sampling distribution; ( 
+
+c
+
+) QWE sampling distribution; ( 
+
+d
+
+) proposed voting-based sampling distribution; Reconstructed fields using ( 
+
+e
+
+) random sampling, ( 
+
+f
+
+) QWE sampling, and ( 
+
+g
+
+) the proposed voting strategy.
+
+Figure 7.
+
+ Comparative results for 3D volumetric reconstruction (axial slice (Z = 3)). Results for (Z = 1) and (Z = 5) show similar trends and are omitted for brevity. From left to right: ( 
+
+a
+
+) Ground-truth field; ( 
+
+b
+
+) Selected sampling points distribution showing adaptive depth exploration; ( 
+
+c
+
+) Reconstructed field via the proposed voting-based method; ( 
+
+d
+
+) Absolute error map.
+
+Figure 8.
+
+ 1D Line Profile Comparison at ( y = 5 , z = 5 ) . The proposed method (red line) adheres closely to the ground truth (black line), accurately capturing the peak magnitude, while random sampling (blue dashed line) exhibits significant deviation.
+
+Figure 9.
+
+ Ablation study of the scoring metrics: ( 
+
+a
+
+) In the data-scarce regime, the composite Four-Vote method (red) stabilizes the cold-start phase where single metrics like entropy (orange) fail; ( 
+
+b
+
+) In the large-scale regime, the method balances the early exploration of density (blue) with the late-stage exploitation of variance (green) for optimal convergence.
+
+Table 1.
+
+ Comparison of Sampling Efficiency and Time Cost between Different Methods.
+
+Test Scenario
+
+Sampling Method
+
+Number of Sampling Points
+
+Scanning Time 
+
+1
+
+Time Saving vs. Traditional
+
+Small-Scale 3D Grid ( 5 × 5 × 5 , 125 candidate points) 
+
+2
+
+Traditional Full-Point Scanning
+
+125
+
+4.0 h
+
+0%
+
+^^
+
+QWE Sampling [ 
+
+23
+
+https://www.mdpi.com/2079-9292/15/7/1434#B23-electronics-15-01434
+
+]
+
+110
+
+3.5 h
+
+10%
+
+^^
+
+Proposed Four-Vote Method
+
+100
+
+3.3 h
+
+14%
+
+Large-Scale 3D Grid ( 20 × 20 × 20 , 8000 candidate points) 
+
+3
+
+Traditional Full-Point Scanning
+
+8000
+
+266.7 h
+
+0%
+
+^^
+
+QWE Sampling [ 
+
+23
+
+https://www.mdpi.com/2079-9292/15/7/1434#B23-electronics-15-01434
+
+]
+
+3200
+
+106.7 h
+
+59%
+
+^^
+
+Proposed Four-Vote Method
+
+2000
+
+66.7 h
+
+74%
+
+PCB-Level Industrial EMC Testing ( 30 × 30 × 10 , 9000 candidate points) 
+
+3
+
+Traditional Full-Point Scanning
+
+9000
+
+300.0 h
+
+0%
+
+^^
+
+QWE Sampling [ 
+
+23
+
+https://www.mdpi.com/2079-9292/15/7/1434#B23-electronics-15-01434
+
+]
+
+3600
+
+120.0 h
+
+58%
+
+^^
+
+Proposed Four-Vote Method
+
+2250
+
+75.0 h
+
+73%
+
+Excluding calibration time. Calculated based on 2 min per point for commercial near-field scanning systems (industry standard). 
+
+2
+
+ Data from measured experimentsin this work. 
+
+3
+
+ Data from theoretical extrapolation: Based on the sampling efficiency ratio verified in small-scale experiments (Proposed method reduces sampling points by 75% vs. traditional, 40% vs. QWE), combined with the linear correlation between scanning time and number of sampling points. Calibration and post-processing time: 1 h for small-scale grids, 4 h for large-scale grids, 8 h for industrial scenarios (refer to commercial EMC testing workflow).
+
+Disclaimer/Publisher's Note:
+
+ The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+© 2026 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the 
+
+Creative Commons Attribution (CC BY) license
+
+https://creativecommons.org/licenses/by/4.0/
+
+.
+
+Share and Cite
+
+mailto:?&subject=From%20MDPI%3A%20%22A%20Robust%203D%20Active%20Learning%20Framework%20Based%20on%20Multi-Metric%20Voting%20for%20Fast%20Electromagnetic%20Field%20Reconstruction%20with%20Sparse%20Sampling"&body=https://www.mdpi.com/3818836%3A%0A%0AA%20Robust%203D%20Active%20Learning%20Framework%20Based%20on%20Multi-Metric%20Voting%20for%20Fast%20Electromagnetic%20Field%20Reconstruction%20with%20Sparse%20Sampling%0A%0AAbstract%3A%20To%20mitigate%20the%20high%20measurement%20costs%20in%20electromagnetic%20compatibility%20%28EMC%29%20assessment%2C%20this%20paper%20proposes%20a%20robust%20active%20learning%20framework%20for%20fast%203D%20field%20reconstruction%20with%20sparse%20sampling.%20A%20novel%20%26ldquo%3BFour-Vote%26rdquo%3B%20query%20criterion%20is%20proposed%20to%20guide%20intelligent%20sample%20selection%2C%20which%20integrates%20Shannon%20entropy%2C%20committee%20variance%2C%20spatial%20density%2C%20and%20clustering-based%20representativeness%2C%20all%20derived%20from%20a%20heterogeneous%20radial%20basis%20function%20%28RBF%29%20committee.%20Furthermore%2C%20an%20adaptive%20polynomial%20degree%20adjustment%20mechanism%20is%20implemented%20to%20ensure%20stability%20in%20data-scarce%203D%20environments.%20Validated%20through%20full-wave%20HFSS%20simulations%2C%20the%20proposed%20method%20significantly%20outperforms%20traditional%20sampling%20strategies%20in%20both%202D%20and%203D%20scenarios%2C%20achieving%20high-fidelity%20field%20reconstruction%20with%20minimal%20sampling%20points.%20This%20framework%20provides%20an%20efficient%20solution%20for%20rapid%20spatial%20field%20mapping%20and%20EMC%20fault%20diagnosis%20in%20practical%20engineering%20scenarios.
+
+ 
+
+https://x.com/intent/tweet?text=A+Robust+3D+Active+Learning+Framework+Based+on+Multi-Metric+Voting+for+Fast+Electromagnetic+Field+Reconstruction+with+Sparse+Sampling&hashtags=mdpielectronics&url=https%3A%2F%2Fwww.mdpi.com%2F3818836&via=electronicsMDPI
+
+ 
+
+http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.mdpi.com%2F3818836&title=A%20Robust%203D%20Active%20Learning%20Framework%20Based%20on%20Multi-Metric%20Voting%20for%20Fast%20Electromagnetic%20Field%20Reconstruction%20with%20Sparse%20Sampling%26source%3Dhttps%3A%2F%2Fwww.mdpi.com%26summary%3DTo%20mitigate%20the%20high%20measurement%20costs%20in%20electromagnetic%20compatibility%20%28EMC%29%20assessment%2C%20this%20paper%20proposes%20a%20robust%20active%20learning%20framework%20for%20fast%203D%20field%20reconstruction%20with%20sparse%20sampling.%20A%20novel%20%E2%80%9CFour-Vote%E2%80%9D%20query%20criterion%20is%20proposed%20%5B...%5D
+
+ 
+
+http://www.facebook.com/sharer.php?u=https://www.mdpi.com/3818836
+
+ 
+
+javascript:void(0);
+
+ 
+
+http://www.reddit.com/submit?url=https://www.mdpi.com/3818836
+
+ 
+
+http://www.mendeley.com/import/?url=https://www.mdpi.com/3818836
+
+MDPI and ACS Style
+
+Hu, Y.; Wang, K.; Qi, Y.; Deng, J.; Zhang, K.; Tang, Z.; Zhang, L.; Li, T. A Robust 3D Active Learning Framework Based on Multi-Metric Voting for Fast Electromagnetic Field Reconstruction with Sparse Sampling. 
+
+Electronics
+
+ 
+
+2026
+
+, 
+
+15
+
+, 1434. https://doi.org/10.3390/electronics15071434
+
+AMA Style
+
+Hu Y, Wang K, Qi Y, Deng J, Zhang K, Tang Z, Zhang L, Li T. A Robust 3D Active Learning Framework Based on Multi-Metric Voting for Fast Electromagnetic Field Reconstruction with Sparse Sampling. 
+
+Electronics
+
+. 2026; 15(7):1434. https://doi.org/10.3390/electronics15071434
+
+Chicago/Turabian Style
+
+Hu, Yidi, Kuiyuan Wang, Yujie Qi, Jiewen Deng, Kai Zhang, Zhi Tang, Lei Zhang, and Tianwu Li. 2026. "A Robust 3D Active Learning Framework Based on Multi-Metric Voting for Fast Electromagnetic Field Reconstruction with Sparse Sampling" 
+
+Electronics
+
+ 15, no. 7: 1434. https://doi.org/10.3390/electronics15071434
+
+APA Style
+
+Hu, Y., Wang, K., Qi, Y., Deng, J., Zhang, K., Tang, Z., Zhang, L., & Li, T. (2026). A Robust 3D Active Learning Framework Based on Multi-Metric Voting for Fast Electromagnetic Field Reconstruction with Sparse Sampling. 
+
+Electronics
+
+, 
+
+15
+
+(7), 1434. https://doi.org/10.3390/electronics15071434
+
+Note that from the first issue of 2016, this journal uses article numbers instead of page numbers. See further details 
+
+here
+
+https://www.mdpi.com/about/announcements/784
+
+.
+
+Article Metrics
+
+Yes
+
+Citations
+
+No citations were found for this article, but you may check on 
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=A+Robust+3D+Active+Learning+Framework+Based+on+Multi-Metric+Voting+for+Fast+Electromagnetic+Field+Reconstruction+with+Sparse+Sampling&volume=15&doi=10.3390%2Felectronics15071434&journal=Electronics&publication_year=2026&author=Yidi+Hu&author=Kuiyuan+Wang&author=Yujie+Qi&author=Jiewen+Deng&author=Kai+Zhang&author=Zhi+Tang&author=Lei+Zhang&author=Tianwu+Li
+
+No
+
+Article Access Statistics
+
+Created with Highcharts 4.0.4 Article access statistics Article Views 30. Mar 31. Mar 1. Apr 2. Apr 3. Apr 4. Apr 5. Apr 6. Apr 0 50 100 150 200 250
+
+For more information on the journal statistics, click 
+
+here
+
+https://www.mdpi.com/journal/electronics/stats
+
+.
+
+Multiple requests from the same IP address are counted as one view.
+
+Zoom
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+ | 
+
+Orient
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+ | 
+
+As Lines
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+ | 
+
+As Sticks
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+ | 
+
+As Cartoon
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+ | 
+
+As Surface
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+ | 
+
+Previous Scene
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+ | 
+
+Next Scene
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Cite
+
+Export citation file: 
+
+BibTeX
+
+javascript:window.document.forms['export-bibtex'].submit()
+
+ | 
+
+EndNote
+
+javascript:window.document.forms['export-endnote'].submit()
+
+ | 
+
+RIS
+
+javascript:window.document.forms['export-ris'].submit()
+
+MDPI and ACS Style
+
+Hu, Y.; Wang, K.; Qi, Y.; Deng, J.; Zhang, K.; Tang, Z.; Zhang, L.; Li, T. A Robust 3D Active Learning Framework Based on Multi-Metric Voting for Fast Electromagnetic Field Reconstruction with Sparse Sampling. 
+
+Electronics
+
+ 
+
+2026
+
+, 
+
+15
+
+, 1434. https://doi.org/10.3390/electronics15071434
+
+AMA Style
+
+Hu Y, Wang K, Qi Y, Deng J, Zhang K, Tang Z, Zhang L, Li T. A Robust 3D Active Learning Framework Based on Multi-Metric Voting for Fast Electromagnetic Field Reconstruction with Sparse Sampling. 
+
+Electronics
+
+. 2026; 15(7):1434. https://doi.org/10.3390/electronics15071434
+
+Chicago/Turabian Style
+
+Hu, Yidi, Kuiyuan Wang, Yujie Qi, Jiewen Deng, Kai Zhang, Zhi Tang, Lei Zhang, and Tianwu Li. 2026. "A Robust 3D Active Learning Framework Based on Multi-Metric Voting for Fast Electromagnetic Field Reconstruction with Sparse Sampling" 
+
+Electronics
+
+ 15, no. 7: 1434. https://doi.org/10.3390/electronics15071434
+
+APA Style
+
+Hu, Y., Wang, K., Qi, Y., Deng, J., Zhang, K., Tang, Z., Zhang, L., & Li, T. (2026). A Robust 3D Active Learning Framework Based on Multi-Metric Voting for Fast Electromagnetic Field Reconstruction with Sparse Sampling. 
+
+Electronics
+
+, 
+
+15
+
+(7), 1434. https://doi.org/10.3390/electronics15071434
+
+Note that from the first issue of 2016, this journal uses article numbers instead of page numbers. See further details 
+
+here
+
+https://www.mdpi.com/about/announcements/784
+
+.
+
+clear
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Electronics
+
+, EISSN 2079-9292, Published by MDPI
+
+RSS
+
+https://www.mdpi.com/rss/journal/electronics
+
+ 
+
+Content Alert
+
+https://www.mdpi.com/journal/electronics/toc-alert
+
+Further Information
+
+Article Processing Charges
+
+https://www.mdpi.com/apc
+
+ 
+
+Pay an Invoice
+
+https://www.mdpi.com/about/payment
+
+ 
+
+Open Access Policy
+
+https://www.mdpi.com/openaccess
+
+ 
+
+Contact MDPI
+
+https://www.mdpi.com/about/contact
+
+ 
+
+Jobs at MDPI
+
+https://careers.mdpi.com/
+
+Guidelines
+
+For Authors
+
+https://www.mdpi.com/authors
+
+ 
+
+For Reviewers
+
+https://www.mdpi.com/reviewers
+
+ 
+
+For Editors
+
+https://www.mdpi.com/editors
+
+ 
+
+For Librarians
+
+https://www.mdpi.com/librarians
+
+ 
+
+For Publishers
+
+https://www.mdpi.com/publishing_services
+
+ 
+
+For Societies
+
+https://www.mdpi.com/societies
+
+ 
+
+For Conference Organizers
+
+https://www.mdpi.com/conference_organizers
+
+MDPI Initiatives
+
+Sciforum
+
+https://sciforum.net/
+
+ 
+
+MDPI Books
+
+https://www.mdpi.com/books
+
+ 
+
+Preprints.org
+
+https://www.preprints.org/
+
+ 
+
+Scilit
+
+https://www.scilit.com/
+
+ 
+
+SciProfiles
+
+https://sciprofiles.com?utm_source=mpdi.com&utm_medium=bottom_menu&utm_campaign=initiative
+
+ 
+
+Encyclopedia
+
+https://encyclopedia.pub/
+
+ 
+
+JAMS
+
+https://jams.pub/
+
+ 
+
+Proceedings Series
+
+https://www.mdpi.com/about/proceedings
+
+Follow MDPI
+
+LinkedIn
+
+https://www.linkedin.com/company/mdpi
+
+ 
+
+Facebook
+
+https://www.facebook.com/MDPIOpenAccessPublishing
+
+ 
+
+X
+
+https://x.com/MDPIOpenAccess
+
+ 
+
+Subscribe to receive issue release notifications and newsletters from MDPI journals
+
+Accounting and Auditing
+
+Acoustics
+
+Acta Microbiologica Hellenica
+
+Actuators
+
+Adhesives
+
+Administrative Sciences
+
+Adolescents
+
+Advances in Respiratory Medicine
+
+Aerobiology
+
+Aerospace
+
+Agriculture
+
+AgriEngineering
+
+Agrochemicals
+
+Agronomy
+
+AI
+
+AI Chemistry
+
+AI for Engineering
+
+AI in Education
+
+AI in Medicine
+
+AI Materials
+
+AI Sensors
+
+Air
+
+Algorithms
+
+Allergies
+
+Alloys
+
+Analog
+
+Analytica
+
+Analytics
+
+Anatomia
+
+Anesthesia Research
+
+Animals
+
+Antibiotics
+
+Antibodies
+
+Antioxidants
+
+Applied Biosciences
+
+Applied Mechanics
+
+Applied Microbiology
+
+Applied Nano
+
+Applied Sciences
+
+Applied System Innovation
+
+AppliedChem
+
+AppliedMath
+
+AppliedPhys
+
+Aquaculture Journal
+
+Architecture
+
+Arthropoda
+
+Arts
+
+Astronautics
+
+Astronomy
+
+Atmosphere
+
+Atoms
+
+Audiology Research
+
+Automation
+
+Axioms
+
+Bacteria
+
+Batteries
+
+Behavioral Sciences
+
+Beverages
+
+Big Data and Cognitive Computing
+
+BioChem
+
+Bioengineering
+
+Biologics
+
+Biology
+
+Biology and Life Sciences Forum
+
+Biomass
+
+Biomechanics
+
+BioMed
+
+Biomedicines
+
+BioMedInformatics
+
+Biomimetics
+
+Biomolecules
+
+Biophysica
+
+Bioresources and Bioproducts
+
+Biosensors
+
+Biosphere
+
+BioTech
+
+Birds
+
+Blockchains
+
+Brain Sciences
+
+Buildings
+
+Businesses
+
+C
+
+Cancers
+
+Cardiogenetics
+
+Cardiovascular Medicine
+
+Catalysts
+
+Cells
+
+Ceramics
+
+Challenges
+
+ChemEngineering
+
+Chemistry
+
+Chemistry Proceedings
+
+Chemosensors
+
+Children
+
+Chips
+
+CivilEng
+
+Clean Technologies
+
+Climate
+
+Clinical and Translational Neuroscience
+
+Clinical Bioenergetics
+
+Clinics and Practice
+
+Clocks & Sleep
+
+Coasts
+
+Coatings
+
+Colloids and Interfaces
+
+Colorants
+
+Commodities
+
+Complexities
+
+Complications
+
+Compounds
+
+Computation
+
+Computer Sciences & Mathematics Forum
+
+Computers
+
+Condensed Matter
+
+Conservation
+
+Construction Materials
+
+Corrosion and Materials Degradation
+
+Cosmetics
+
+COVID
+
+Craniomaxillofacial Trauma & Reconstruction
+
+Crops
+
+Cryo
+
+Cryptography
+
+Crystals
+
+Culture
+
+Current Issues in Molecular Biology
+
+Current Oncology
+
+Dairy
+
+Data
+
+Dentistry Journal
+
+Dermato
+
+Dermatopathology
+
+Designs
+
+Diabetology
+
+Diagnostics
+
+Dietetics
+
+Digital
+
+Disabilities
+
+Diseases
+
+Diversity
+
+DNA
+
+Drones
+
+Drugs and Drug Candidates
+
+Dynamics
+
+Earth
+
+Ecologies
+
+Econometrics
+
+Economies
+
+Education Sciences
+
+Electricity
+
+Electrochem
+
+Electronic Materials
+
+Electronics
+
+Emergency Care and Medicine
+
+Encyclopedia
+
+Endocrines
+
+Energies
+
+Energy Storage and Applications
+
+Eng
+
+Engineering Proceedings
+
+Entropic and Disordered Matter
+
+Entropy
+
+Environmental and Earth Sciences Proceedings
+
+Environmental Remediation
+
+Environments
+
+Epidemiologia
+
+Epigenomes
+
+European Burn Journal
+
+European Journal of Investigation in Health, Psychology and Education
+
+Family Sciences
+
+Fermentation
+
+Fibers
+
+FinTech
+
+Fire
+
+Fishes
+
+Fluids
+
+Foods
+
+Forecasting
+
+Forensic Sciences
+
+Forests
+
+Fossil Studies
+
+Foundations
+
+Fractal and Fractional
+
+Fuels
+
+Future
+
+Future Internet
+
+Future Pharmacology
+
+Future Transportation
+
+Galaxies
+
+Games
+
+Gases
+
+Gastroenterology Insights
+
+Gastrointestinal Disorders
+
+Gastronomy
+
+Gels
+
+Genealogy
+
+Genes
+
+Geographies
+
+GeoHazards
+
+Geomatics
+
+Geometry
+
+Geosciences
+
+Geotechnics
+
+Geriatrics
+
+Germs
+
+Glacies
+
+Gout, Urate, and Crystal Deposition Disease
+
+Grasses
+
+Green
+
+Green Health
+
+Hardware
+
+Healthcare
+
+Hearts
+
+Hemato
+
+Hematology Reports
+
+Heritage
+
+Histories
+
+Horticulturae
+
+Hospitals
+
+Humanities
+
+Humans
+
+Hydrobiology
+
+Hydrogen
+
+Hydrology
+
+Hydropower
+
+Hygiene
+
+Immuno
+
+Industries
+
+Infectious Disease Reports
+
+Informatics
+
+Information
+
+Infrastructures
+
+Inorganics
+
+Insects
+
+Instruments
+
+Intelligent Infrastructure and Construction
+
+International Journal of Cognitive Sciences
+
+International Journal of Environmental Medicine
+
+International Journal of Environmental Research and Public Health
+
+International Journal of Financial Studies
+
+International Journal of Molecular Sciences
+
+International Journal of Neonatal Screening
+
+International Journal of Orofacial Myology and Myofunctional Therapy
+
+International Journal of Plant Biology
+
+International Journal of Topology
+
+International Journal of Translational Medicine
+
+International Journal of Turbomachinery, Propulsion and Power
+
+International Medical Education
+
+Inventions
+
+IoT
+
+ISPRS International Journal of Geo-Information
+
+J
+
+Journal of Aesthetic Medicine
+
+Journal of Ageing and Longevity
+
+Journal of CardioRenal Medicine
+
+Journal of Cardiovascular Development and Disease
+
+Journal of Clinical & Translational Ophthalmology
+
+Journal of Clinical Medicine
+
+Journal of Composites Science
+
+Journal of Cybersecurity and Privacy
+
+Journal of Dementia and Alzheimer's Disease
+
+Journal of Developmental Biology
+
+Journal of Experimental and Theoretical Analyses
+
+Journal of Eye Movement Research
+
+Journal of Functional Biomaterials
+
+Journal of Functional Morphology and Kinesiology
+
+Journal of Fungi
+
+Journal of Genome Biotechnology and Genetics
+
+Journal of Gerontology and Geriatrics
+
+Journal of Imaging
+
+Journal of Innovation
+
+Journal of Intelligence
+
+Journal of Interdisciplinary Research Applied to Medicine
+
+Journal of Low Power Electronics and Applications
+
+Journal of Manufacturing and Materials Processing
+
+Journal of Marine Science and Engineering
+
+Journal of Market Access & Health Policy
+
+Journal of Mind and Medical Sciences
+
+Journal of Molecular Pathology
+
+Journal of Nanotheranostics
+
+Journal of Nuclear Engineering
+
+Journal of Otorhinolaryngology, Hearing and Balance Medicine
+
+Journal of Parks
+
+Journal of Personalized Medicine
+
+Journal of Pharmaceutical and BioTech Industry
+
+Journal of Phytomedicine
+
+Journal of Respiration
+
+Journal of Risk and Financial Management
+
+Journal of Sensor and Actuator Networks
+
+Journal of Superintelligence
+
+Journal of the American Podiatric Medical Association
+
+Journal of the Oman Medical Association
+
+Journal of Theoretical and Applied Electronic Commerce Research
+
+Journal of Vascular Diseases
+
+Journal of Xenobiotics
+
+Journal of Zoological and Botanical Gardens
+
+Journalism and Media
+
+Kidney and Dialysis
+
+Kinases and Phosphatases
+
+Knowledge
+
+LabMed
+
+Laboratories
+
+Land
+
+Languages
+
+Laws
+
+Life
+
+Lights
+
+Limnological Review
+
+Lipidology
+
+Liquids
+
+Literature
+
+Livers
+
+Logics
+
+Logistics
+
+Low-Altitude Economy
+
+Lubricants
+
+Lymphatics
+
+Machine Learning and Knowledge Extraction
+
+Machines
+
+Macromol
+
+Magnetism
+
+Magnetochemistry
+
+Marine Drugs
+
+Materials
+
+Materials Proceedings
+
+Mathematical and Computational Applications
+
+Mathematics
+
+Medical Sciences
+
+Medical Sciences Forum
+
+Medicina
+
+Medicines
+
+Membranes
+
+Merits
+
+Metabolites
+
+Metals
+
+Meteorology
+
+Methane
+
+Methods and Protocols
+
+Metrics
+
+Metrology
+
+Micro
+
+Microbiology Research
+
+Microelectronics
+
+Micromachines
+
+Microorganisms
+
+Microplastics
+
+Microwave
+
+Minerals
+
+Mining
+
+Modelling
+
+Modern Mathematical Physics
+
+Molbank
+
+Molecules
+
+Multimedia
+
+Multimodal Technologies and Interaction
+
+Muscles
+
+Nanoenergy Advances
+
+Nanomanufacturing
+
+Nanomaterials
+
+NDT
+
+Network
+
+Neuroglia
+
+Neuroimaging
+
+Neurology International
+
+NeuroSci
+
+Nitrogen
+
+Non-Coding RNA
+
+Nursing Reports
+
+Nutraceuticals
+
+Nutrients
+
+Obesities
+
+Occupational Health
+
+Oceans
+
+Onco
+
+Optics
+
+Oral
+
+Organics
+
+Organoids
+
+Osteology
+
+Oxygen
+
+Pandemics
+
+Parasitologia
+
+Particles
+
+Pathogens
+
+Pathophysiology
+
+Peace Studies
+
+Pediatric Reports
+
+Pets
+
+Pharmaceuticals
+
+Pharmaceutics
+
+Pharmacoepidemiology
+
+Pharmacy
+
+Philosophies
+
+Photochem
+
+Photonics
+
+Phycology
+
+Physchem
+
+Physical Sciences Forum
+
+Physics
+
+Physiologia
+
+Plants
+
+Plasma
+
+Platforms
+
+Pollutants
+
+Polymers
+
+Polysaccharides
+
+Populations
+
+Poultry
+
+Powders
+
+Precision Oncology
+
+Primary and Hospital Care
+
+Proceedings
+
+Processes
+
+Prosthesis
+
+Proteomes
+
+Psychiatry International
+
+Psychoactives
+
+Psychology International
+
+Publications
+
+Purification
+
+Quantum Beam Science
+
+Quantum Reports
+
+Quaternary
+
+Radiation
+
+Reactions
+
+Real Estate
+
+Receptors
+
+Recycling
+
+Regional Science and Environmental Economics
+
+Religions
+
+Remote Sensing
+
+Reports
+
+Reproductive Medicine
+
+Resources
+
+Rheumato
+
+Risks
+
+Robotics
+
+Romanian Journal of Preventive Medicine
+
+Ruminants
+
+Safety
+
+Sci
+
+Scientia Pharmaceutica
+
+Sclerosis
+
+Seeds
+
+Semiconductors and Heterogeneous Integration
+
+Sensors
+
+Separations
+
+Sexes
+
+Signals
+
+Sinusitis
+
+Smart Cities
+
+Social Sciences
+
+Société Internationale d'Urologie Journal
+
+Societies
+
+Software
+
+Soil Systems
+
+Solar
+
+Solids
+
+Spectroscopy Journal
+
+Sports
+
+Standards
+
+Stats
+
+Stratigraphy and Sedimentology
+
+Stresses
+
+Surfaces
+
+Surgeries
+
+Surgical Techniques Development
+
+Sustainability
+
+Sustainable Chemistry
+
+Swiss Archives of Neurology, Psychiatry and Psychotherapy
+
+Symmetry
+
+SynBio
+
+Systems
+
+Targets
+
+Taxonomy
+
+Technologies
+
+Telecom
+
+Textiles
+
+Thalassemia Reports
+
+Theoretical and Applied Ergonomics
+
+Therapeutics
+
+Thermo
+
+Time and Space
+
+Tomography
+
+Tourism and Hospitality
+
+Toxics
+
+Toxins
+
+Transplantology
+
+Trauma Care
+
+Trends in Higher Education
+
+Trends in Public Health
+
+Tropical Medicine and Infectious Disease
+
+Universe
+
+Urban Science
+
+Uro
+
+Vaccines
+
+Vehicles
+
+Venereology
+
+Veterinary Sciences
+
+Vibration
+
+Virtual Worlds
+
+Viruses
+
+Vision
+
+Waste
+
+Water
+
+Wild
+
+Wind
+
+Women
+
+World
+
+World Electric Vehicle Journal
+
+Youth
+
+Zoonotic Diseases
+
+Select options
+
+[-] accountaudit
+
+ 
+
+Accounting and Auditing
+
+ 
+
+[-] acoustics
+
+ 
+
+Acoustics
+
+ 
+
+[-] amh
+
+ 
+
+Acta Microbiologica Hellenica
+
+ 
+
+[-] actuators
+
+ 
+
+Actuators
+
+ 
+
+[-] adhesives
+
+ 
+
+Adhesives
+
+ 
+
+[-] admsci
+
+ 
+
+Administrative Sciences
+
+ 
+
+[-] adolescents
+
+ 
+
+Adolescents
+
+ 
+
+[-] arm
+
+ 
+
+Advances in Respiratory Medicine
+
+ 
+
+[-] aerobiology
+
+ 
+
+Aerobiology
+
+ 
+
+[-] aerospace
+
+ 
+
+Aerospace
+
+ 
+
+[-] agriculture
+
+ 
+
+Agriculture
+
+ 
+
+[-] agriengineering
+
+ 
+
+AgriEngineering
+
+ 
+
+[-] agrochemicals
+
+ 
+
+Agrochemicals
+
+ 
+
+[-] agronomy
+
+ 
+
+Agronomy
+
+ 
+
+[-] ai
+
+ 
+
+AI
+
+ 
+
+[-] aichem
+
+ 
+
+AI Chemistry
+
+ 
+
+[-] aieng
+
+ 
+
+AI for Engineering
+
+ 
+
+[-] aieduc
+
+ 
+
+AI in Education
+
+ 
+
+[-] aimed
+
+ 
+
+AI in Medicine
+
+ 
+
+[-] aimater
+
+ 
+
+AI Materials
+
+ 
+
+[-] aisens
+
+ 
+
+AI Sensors
+
+ 
+
+[-] air
+
+ 
+
+Air
+
+ 
+
+[-] algorithms
+
+ 
+
+Algorithms
+
+ 
+
+[-] allergies
+
+ 
+
+Allergies
+
+ 
+
+[-] alloys
+
+ 
+
+Alloys
+
+ 
+
+[-] analog
+
+ 
+
+Analog
+
+ 
+
+[-] analytica
+
+ 
+
+Analytica
+
+ 
+
+[-] analytics
+
+ 
+
+Analytics
+
+ 
+
+[-] anatomia
+
+ 
+
+Anatomia
+
+ 
+
+[-] anesthres
+
+ 
+
+Anesthesia Research
+
+ 
+
+[-] animals
+
+ 
+
+Animals
+
+ 
+
+[-] antibiotics
+
+ 
+
+Antibiotics
+
+ 
+
+[-] antibodies
+
+ 
+
+Antibodies
+
+ 
+
+[-] antioxidants
+
+ 
+
+Antioxidants
+
+ 
+
+[-] applbiosci
+
+ 
+
+Applied Biosciences
+
+ 
+
+[-] applmech
+
+ 
+
+Applied Mechanics
+
+ 
+
+[-] applmicrobiol
+
+ 
+
+Applied Microbiology
+
+ 
+
+[-] applnano
+
+ 
+
+Applied Nano
+
+ 
+
+[-] applsci
+
+ 
+
+Applied Sciences
+
+ 
+
+[-] asi
+
+ 
+
+Applied System Innovation
+
+ 
+
+[-] appliedchem
+
+ 
+
+AppliedChem
+
+ 
+
+[-] appliedmath
+
+ 
+
+AppliedMath
+
+ 
+
+[-] appliedphys
+
+ 
+
+AppliedPhys
+
+ 
+
+[-] aquacj
+
+ 
+
+Aquaculture Journal
+
+ 
+
+[-] architecture
+
+ 
+
+Architecture
+
+ 
+
+[-] arthropoda
+
+ 
+
+Arthropoda
+
+ 
+
+[-] arts
+
+ 
+
+Arts
+
+ 
+
+[-] astronautics
+
+ 
+
+Astronautics
+
+ 
+
+[-] astronomy
+
+ 
+
+Astronomy
+
+ 
+
+[-] atmosphere
+
+ 
+
+Atmosphere
+
+ 
+
+[-] atoms
+
+ 
+
+Atoms
+
+ 
+
+[-] audiolres
+
+ 
+
+Audiology Research
+
+ 
+
+[-] automation
+
+ 
+
+Automation
+
+ 
+
+[-] axioms
+
+ 
+
+Axioms
+
+ 
+
+[-] bacteria
+
+ 
+
+Bacteria
+
+ 
+
+[-] batteries
+
+ 
+
+Batteries
+
+ 
+
+[-] behavsci
+
+ 
+
+Behavioral Sciences
+
+ 
+
+[-] beverages
+
+ 
+
+Beverages
+
+ 
+
+[-] BDCC
+
+ 
+
+Big Data and Cognitive Computing
+
+ 
+
+[-] biochem
+
+ 
+
+BioChem
+
+ 
+
+[-] bioengineering
+
+ 
+
+Bioengineering
+
+ 
+
+[-] biologics
+
+ 
+
+Biologics
+
+ 
+
+[-] biology
+
+ 
+
+Biology
+
+ 
+
+[-] blsf
+
+ 
+
+Biology and Life Sciences Forum
+
+ 
+
+[-] biomass
+
+ 
+
+Biomass
+
+ 
+
+[-] biomechanics
+
+ 
+
+Biomechanics
+
+ 
+
+[-] biomed
+
+ 
+
+BioMed
+
+ 
+
+[-] biomedicines
+
+ 
+
+Biomedicines
+
+ 
+
+[-] biomedinformatics
+
+ 
+
+BioMedInformatics
+
+ 
+
+[-] biomimetics
+
+ 
+
+Biomimetics
+
+ 
+
+[-] biomolecules
+
+ 
+
+Biomolecules
+
+ 
+
+[-] biophysica
+
+ 
+
+Biophysica
+
+ 
+
+[-] bioresourbioprod
+
+ 
+
+Bioresources and Bioproducts
+
+ 
+
+[-] biosensors
+
+ 
+
+Biosensors
+
+ 
+
+[-] biosphere
+
+ 
+
+Biosphere
+
+ 
+
+[-] biotech
+
+ 
+
+BioTech
+
+ 
+
+[-] birds
+
+ 
+
+Birds
+
+ 
+
+[-] blockchains
+
+ 
+
+Blockchains
+
+ 
+
+[-] brainsci
+
+ 
+
+Brain Sciences
+
+ 
+
+[-] buildings
+
+ 
+
+Buildings
+
+ 
+
+[-] businesses
+
+ 
+
+Businesses
+
+ 
+
+[-] carbon
+
+ 
+
+C
+
+ 
+
+[-] cancers
+
+ 
+
+Cancers
+
+ 
+
+[-] cardiogenetics
+
+ 
+
+Cardiogenetics
+
+ 
+
+[-] cardiovascmed
+
+ 
+
+Cardiovascular Medicine
+
+ 
+
+[-] catalysts
+
+ 
+
+Catalysts
+
+ 
+
+[-] cells
+
+ 
+
+Cells
+
+ 
+
+[-] ceramics
+
+ 
+
+Ceramics
+
+ 
+
+[-] challenges
+
+ 
+
+Challenges
+
+ 
+
+[-] ChemEngineering
+
+ 
+
+ChemEngineering
+
+ 
+
+[-] chemistry
+
+ 
+
+Chemistry
+
+ 
+
+[-] chemproc
+
+ 
+
+Chemistry Proceedings
+
+ 
+
+[-] chemosensors
+
+ 
+
+Chemosensors
+
+ 
+
+[-] children
+
+ 
+
+Children
+
+ 
+
+[-] chips
+
+ 
+
+Chips
+
+ 
+
+[-] civileng
+
+ 
+
+CivilEng
+
+ 
+
+[-] cleantechnol
+
+ 
+
+Clean Technologies
+
+ 
+
+[-] climate
+
+ 
+
+Climate
+
+ 
+
+[-] ctn
+
+ 
+
+Clinical and Translational Neuroscience
+
+ 
+
+[-] clinbioenerg
+
+ 
+
+Clinical Bioenergetics
+
+ 
+
+[-] clinpract
+
+ 
+
+Clinics and Practice
+
+ 
+
+[-] clockssleep
+
+ 
+
+Clocks & Sleep
+
+ 
+
+[-] coasts
+
+ 
+
+Coasts
+
+ 
+
+[-] coatings
+
+ 
+
+Coatings
+
+ 
+
+[-] colloids
+
+ 
+
+Colloids and Interfaces
+
+ 
+
+[-] colorants
+
+ 
+
+Colorants
+
+ 
+
+[-] commodities
+
+ 
+
+Commodities
+
+ 
+
+[-] complexities
+
+ 
+
+Complexities
+
+ 
+
+[-] complications
+
+ 
+
+Complications
+
+ 
+
+[-] compounds
+
+ 
+
+Compounds
+
+ 
+
+[-] computation
+
+ 
+
+Computation
+
+ 
+
+[-] csmf
+
+ 
+
+Computer Sciences & Mathematics Forum
+
+ 
+
+[-] computers
+
+ 
+
+Computers
+
+ 
+
+[-] condensedmatter
+
+ 
+
+Condensed Matter
+
+ 
+
+[-] conservation
+
+ 
+
+Conservation
+
+ 
+
+[-] constrmater
+
+ 
+
+Construction Materials
+
+ 
+
+[-] cmd
+
+ 
+
+Corrosion and Materials Degradation
+
+ 
+
+[-] cosmetics
+
+ 
+
+Cosmetics
+
+ 
+
+[-] covid
+
+ 
+
+COVID
+
+ 
+
+[-] cmtr
+
+ 
+
+Craniomaxillofacial Trauma & Reconstruction
+
+ 
+
+[-] crops
+
+ 
+
+Crops
+
+ 
+
+[-] cryo
+
+ 
+
+Cryo
+
+ 
+
+[-] cryptography
+
+ 
+
+Cryptography
+
+ 
+
+[-] crystals
+
+ 
+
+Crystals
+
+ 
+
+[-] culture
+
+ 
+
+Culture
+
+ 
+
+[-] cimb
+
+ 
+
+Current Issues in Molecular Biology
+
+ 
+
+[-] curroncol
+
+ 
+
+Current Oncology
+
+ 
+
+[-] dairy
+
+ 
+
+Dairy
+
+ 
+
+[-] data
+
+ 
+
+Data
+
+ 
+
+[-] dentistry
+
+ 
+
+Dentistry Journal
+
+ 
+
+[-] dermato
+
+ 
+
+Dermato
+
+ 
+
+[-] dermatopathology
+
+ 
+
+Dermatopathology
+
+ 
+
+[-] designs
+
+ 
+
+Designs
+
+ 
+
+[-] diabetology
+
+ 
+
+Diabetology
+
+ 
+
+[-] diagnostics
+
+ 
+
+Diagnostics
+
+ 
+
+[-] dietetics
+
+ 
+
+Dietetics
+
+ 
+
+[-] digital
+
+ 
+
+Digital
+
+ 
+
+[-] disabilities
+
+ 
+
+Disabilities
+
+ 
+
+[-] diseases
+
+ 
+
+Diseases
+
+ 
+
+[-] diversity
+
+ 
+
+Diversity
+
+ 
+
+[-] dna
+
+ 
+
+DNA
+
+ 
+
+[-] drones
+
+ 
+
+Drones
+
+ 
+
+[-] ddc
+
+ 
+
+Drugs and Drug Candidates
+
+ 
+
+[-] dynamics
+
+ 
+
+Dynamics
+
+ 
+
+[-] earth
+
+ 
+
+Earth
+
+ 
+
+[-] ecologies
+
+ 
+
+Ecologies
+
+ 
+
+[-] econometrics
+
+ 
+
+Econometrics
+
+ 
+
+[-] economies
+
+ 
+
+Economies
+
+ 
+
+[-] education
+
+ 
+
+Education Sciences
+
+ 
+
+[-] electricity
+
+ 
+
+Electricity
+
+ 
+
+[-] electrochem
+
+ 
+
+Electrochem
+
+ 
+
+[-] electronicmat
+
+ 
+
+Electronic Materials
+
+ 
+
+[-] electronics
+
+ 
+
+Electronics
+
+ 
+
+[-] ecm
+
+ 
+
+Emergency Care and Medicine
+
+ 
+
+[-] encyclopedia
+
+ 
+
+Encyclopedia
+
+ 
+
+[-] endocrines
+
+ 
+
+Endocrines
+
+ 
+
+[-] energies
+
+ 
+
+Energies
+
+ 
+
+[-] esa
+
+ 
+
+Energy Storage and Applications
+
+ 
+
+[-] eng
+
+ 
+
+Eng
+
+ 
+
+[-] engproc
+
+ 
+
+Engineering Proceedings
+
+ 
+
+[-] edm
+
+ 
+
+Entropic and Disordered Matter
+
+ 
+
+[-] entropy
+
+ 
+
+Entropy
+
+ 
+
+[-] eesp
+
+ 
+
+Environmental and Earth Sciences Proceedings
+
+ 
+
+[-] environremediat
+
+ 
+
+Environmental Remediation
+
+ 
+
+[-] environments
+
+ 
+
+Environments
+
+ 
+
+[-] epidemiologia
+
+ 
+
+Epidemiologia
+
+ 
+
+[-] epigenomes
+
+ 
+
+Epigenomes
+
+ 
+
+[-] ebj
+
+ 
+
+European Burn Journal
+
+ 
+
+[-] ejihpe
+
+ 
+
+European Journal of Investigation in Health, Psychology and Education
+
+ 
+
+[-] famsci
+
+ 
+
+Family Sciences
+
+ 
+
+[-] fermentation
+
+ 
+
+Fermentation
+
+ 
+
+[-] fibers
+
+ 
+
+Fibers
+
+ 
+
+[-] fintech
+
+ 
+
+FinTech
+
+ 
+
+[-] fire
+
+ 
+
+Fire
+
+ 
+
+[-] fishes
+
+ 
+
+Fishes
+
+ 
+
+[-] fluids
+
+ 
+
+Fluids
+
+ 
+
+[-] foods
+
+ 
+
+Foods
+
+ 
+
+[-] forecasting
+
+ 
+
+Forecasting
+
+ 
+
+[-] forensicsci
+
+ 
+
+Forensic Sciences
+
+ 
+
+[-] forests
+
+ 
+
+Forests
+
+ 
+
+[-] fossstud
+
+ 
+
+Fossil Studies
+
+ 
+
+[-] foundations
+
+ 
+
+Foundations
+
+ 
+
+[-] fractalfract
+
+ 
+
+Fractal and Fractional
+
+ 
+
+[-] fuels
+
+ 
+
+Fuels
+
+ 
+
+[-] future
+
+ 
+
+Future
+
+ 
+
+[-] futureinternet
+
+ 
+
+Future Internet
+
+ 
+
+[-] futurepharmacol
+
+ 
+
+Future Pharmacology
+
+ 
+
+[-] futuretransp
+
+ 
+
+Future Transportation
+
+ 
+
+[-] galaxies
+
+ 
+
+Galaxies
+
+ 
+
+[-] games
+
+ 
+
+Games
+
+ 
+
+[-] gases
+
+ 
+
+Gases
+
+ 
+
+[-] gastroent
+
+ 
+
+Gastroenterology Insights
+
+ 
+
+[-] gastrointestdisord
+
+ 
+
+Gastrointestinal Disorders
+
+ 
+
+[-] gastronomy
+
+ 
+
+Gastronomy
+
+ 
+
+[-] gels
+
+ 
+
+Gels
+
+ 
+
+[-] genealogy
+
+ 
+
+Genealogy
+
+ 
+
+[-] genes
+
+ 
+
+Genes
+
+ 
+
+[-] geographies
+
+ 
+
+Geographies
+
+ 
+
+[-] geohazards
+
+ 
+
+GeoHazards
+
+ 
+
+[-] geomatics
+
+ 
+
+Geomatics
+
+ 
+
+[-] geometry
+
+ 
+
+Geometry
+
+ 
+
+[-] geosciences
+
+ 
+
+Geosciences
+
+ 
+
+[-] geotechnics
+
+ 
+
+Geotechnics
+
+ 
+
+[-] geriatrics
+
+ 
+
+Geriatrics
+
+ 
+
+[-] germs
+
+ 
+
+Germs
+
+ 
+
+[-] glacies
+
+ 
+
+Glacies
+
+ 
+
+[-] gucdd
+
+ 
+
+Gout, Urate, and Crystal Deposition Disease
+
+ 
+
+[-] grasses
+
+ 
+
+Grasses
+
+ 
+
+[-] green
+
+ 
+
+Green
+
+ 
+
+[-] greenhealth
+
+ 
+
+Green Health
+
+ 
+
+[-] hardware
+
+ 
+
+Hardware
+
+ 
+
+[-] healthcare
+
+ 
+
+Healthcare
+
+ 
+
+[-] hearts
+
+ 
+
+Hearts
+
+ 
+
+[-] hemato
+
+ 
+
+Hemato
+
+ 
+
+[-] hematolrep
+
+ 
+
+Hematology Reports
+
+ 
+
+[-] heritage
+
+ 
+
+Heritage
+
+ 
+
+[-] histories
+
+ 
+
+Histories
+
+ 
+
+[-] horticulturae
+
+ 
+
+Horticulturae
+
+ 
+
+[-] hospitals
+
+ 
+
+Hospitals
+
+ 
+
+[-] humanities
+
+ 
+
+Humanities
+
+ 
+
+[-] humans
+
+ 
+
+Humans
+
+ 
+
+[-] hydrobiology
+
+ 
+
+Hydrobiology
+
+ 
+
+[-] hydrogen
+
+ 
+
+Hydrogen
+
+ 
+
+[-] hydrology
+
+ 
+
+Hydrology
+
+ 
+
+[-] hydropower
+
+ 
+
+Hydropower
+
+ 
+
+[-] hygiene
+
+ 
+
+Hygiene
+
+ 
+
+[-] immuno
+
+ 
+
+Immuno
+
+ 
+
+[-] industries
+
+ 
+
+Industries
+
+ 
+
+[-] idr
+
+ 
+
+Infectious Disease Reports
+
+ 
+
+[-] informatics
+
+ 
+
+Informatics
+
+ 
+
+[-] information
+
+ 
+
+Information
+
+ 
+
+[-] infrastructures
+
+ 
+
+Infrastructures
+
+ 
+
+[-] inorganics
+
+ 
+
+Inorganics
+
+ 
+
+[-] insects
+
+ 
+
+Insects
+
+ 
+
+[-] instruments
+
+ 
+
+Instruments
+
+ 
+
+[-] iic
+
+ 
+
+Intelligent Infrastructure and Construction
+
+ 
+
+[-] ijcs
+
+ 
+
+International Journal of Cognitive Sciences
+
+ 
+
+[-] ijem
+
+ 
+
+International Journal of Environmental Medicine
+
+ 
+
+[-] ijerph
+
+ 
+
+International Journal of Environmental Research and Public Health
+
+ 
+
+[-] ijfs
+
+ 
+
+International Journal of Financial Studies
+
+ 
+
+[-] ijms
+
+ 
+
+International Journal of Molecular Sciences
+
+ 
+
+[-] IJNS
+
+ 
+
+International Journal of Neonatal Screening
+
+ 
+
+[-] ijom
+
+ 
+
+International Journal of Orofacial Myology and Myofunctional Therapy
+
+ 
+
+[-] ijpb
+
+ 
+
+International Journal of Plant Biology
+
+ 
+
+[-] ijt
+
+ 
+
+International Journal of Topology
+
+ 
+
+[-] ijtm
+
+ 
+
+International Journal of Translational Medicine
+
+ 
+
+[-] ijtpp
+
+ 
+
+International Journal of Turbomachinery, Propulsion and Power
+
+ 
+
+[-] ime
+
+ 
+
+International Medical Education
+
+ 
+
+[-] inventions
+
+ 
+
+Inventions
+
+ 
+
+[-] IoT
+
+ 
+
+IoT
+
+ 
+
+[-] ijgi
+
+ 
+
+ISPRS International Journal of Geo-Information
+
+ 
+
+[-] J
+
+ 
+
+J
+
+ 
+
+[-] jaestheticmed
+
+ 
+
+Journal of Aesthetic Medicine
+
+ 
+
+[-] jal
+
+ 
+
+Journal of Ageing and Longevity
+
+ 
+
+[-] jcrm
+
+ 
+
+Journal of CardioRenal Medicine
+
+ 
+
+[-] jcdd
+
+ 
+
+Journal of Cardiovascular Development and Disease
+
+ 
+
+[-] jcto
+
+ 
+
+Journal of Clinical & Translational Ophthalmology
+
+ 
+
+[-] jcm
+
+ 
+
+Journal of Clinical Medicine
+
+ 
+
+[-] jcs
+
+ 
+
+Journal of Composites Science
+
+ 
+
+[-] jcp
+
+ 
+
+Journal of Cybersecurity and Privacy
+
+ 
+
+[-] jdad
+
+ 
+
+Journal of Dementia and Alzheimer's Disease
+
+ 
+
+[-] jdb
+
+ 
+
+Journal of Developmental Biology
+
+ 
+
+[-] jeta
+
+ 
+
+Journal of Experimental and Theoretical Analyses
+
+ 
+
+[-] jemr
+
+ 
+
+Journal of Eye Movement Research
+
+ 
+
+[-] jfb
+
+ 
+
+Journal of Functional Biomaterials
+
+ 
+
+[-] jfmk
+
+ 
+
+Journal of Functional Morphology and Kinesiology
+
+ 
+
+[-] jof
+
+ 
+
+Journal of Fungi
+
+ 
+
+[-] jgbg
+
+ 
+
+Journal of Genome Biotechnology and Genetics
+
+ 
+
+[-] jgg
+
+ 
+
+Journal of Gerontology and Geriatrics
+
+ 
+
+[-] jimaging
+
+ 
+
+Journal of Imaging
+
+ 
+
+[-] joi
+
+ 
+
+Journal of Innovation
+
+ 
+
+[-] jintelligence
+
+ 
+
+Journal of Intelligence
+
+ 
+
+[-] jdream
+
+ 
+
+Journal of Interdisciplinary Research Applied to Medicine
+
+ 
+
+[-] jlpea
+
+ 
+
+Journal of Low Power Electronics and Applications
+
+ 
+
+[-] jmmp
+
+ 
+
+Journal of Manufacturing and Materials Processing
+
+ 
+
+[-] jmse
+
+ 
+
+Journal of Marine Science and Engineering
+
+ 
+
+[-] jmahp
+
+ 
+
+Journal of Market Access & Health Policy
+
+ 
+
+[-] jmms
+
+ 
+
+Journal of Mind and Medical Sciences
+
+ 
+
+[-] jmp
+
+ 
+
+Journal of Molecular Pathology
+
+ 
+
+[-] jnt
+
+ 
+
+Journal of Nanotheranostics
+
+ 
+
+[-] jne
+
+ 
+
+Journal of Nuclear Engineering
+
+ 
+
+[-] ohbm
+
+ 
+
+Journal of Otorhinolaryngology, Hearing and Balance Medicine
+
+ 
+
+[-] jop
+
+ 
+
+Journal of Parks
+
+ 
+
+[-] jpm
+
+ 
+
+Journal of Personalized Medicine
+
+ 
+
+[-] jpbi
+
+ 
+
+Journal of Pharmaceutical and BioTech Industry
+
+ 
+
+[-] jphytomed
+
+ 
+
+Journal of Phytomedicine
+
+ 
+
+[-] jor
+
+ 
+
+Journal of Respiration
+
+ 
+
+[-] jrfm
+
+ 
+
+Journal of Risk and Financial Management
+
+ 
+
+[-] jsan
+
+ 
+
+Journal of Sensor and Actuator Networks
+
+ 
+
+[-] superintelligence
+
+ 
+
+Journal of Superintelligence
+
+ 
+
+[-] japma
+
+ 
+
+Journal of the American Podiatric Medical Association
+
+ 
+
+[-] joma
+
+ 
+
+Journal of the Oman Medical Association
+
+ 
+
+[-] jtaer
+
+ 
+
+Journal of Theoretical and Applied Electronic Commerce Research
+
+ 
+
+[-] jvd
+
+ 
+
+Journal of Vascular Diseases
+
+ 
+
+[-] jox
+
+ 
+
+Journal of Xenobiotics
+
+ 
+
+[-] jzbg
+
+ 
+
+Journal of Zoological and Botanical Gardens
+
+ 
+
+[-] journalmedia
+
+ 
+
+Journalism and Media
+
+ 
+
+[-] kidneydial
+
+ 
+
+Kidney and Dialysis
+
+ 
+
+[-] kinasesphosphatases
+
+ 
+
+Kinases and Phosphatases
+
+ 
+
+[-] knowledge
+
+ 
+
+Knowledge
+
+ 
+
+[-] labmed
+
+ 
+
+LabMed
+
+ 
+
+[-] laboratories
+
+ 
+
+Laboratories
+
+ 
+
+[-] land
+
+ 
+
+Land
+
+ 
+
+[-] languages
+
+ 
+
+Languages
+
+ 
+
+[-] laws
+
+ 
+
+Laws
+
+ 
+
+[-] life
+
+ 
+
+Life
+
+ 
+
+[-] lights
+
+ 
+
+Lights
+
+ 
+
+[-] limnolrev
+
+ 
+
+Limnological Review
+
+ 
+
+[-] lipidology
+
+ 
+
+Lipidology
+
+ 
+
+[-] liquids
+
+ 
+
+Liquids
+
+ 
+
+[-] literature
+
+ 
+
+Literature
+
+ 
+
+[-] livers
+
+ 
+
+Livers
+
+ 
+
+[-] logics
+
+ 
+
+Logics
+
+ 
+
+[-] logistics
+
+ 
+
+Logistics
+
+ 
+
+[-] lae
+
+ 
+
+Low-Altitude Economy
+
+ 
+
+[-] lubricants
+
+ 
+
+Lubricants
+
+ 
+
+[-] lymphatics
+
+ 
+
+Lymphatics
+
+ 
+
+[-] make
+
+ 
+
+Machine Learning and Knowledge Extraction
+
+ 
+
+[-] machines
+
+ 
+
+Machines
+
+ 
+
+[-] macromol
+
+ 
+
+Macromol
+
+ 
+
+[-] magnetism
+
+ 
+
+Magnetism
+
+ 
+
+[-] magnetochemistry
+
+ 
+
+Magnetochemistry
+
+ 
+
+[-] marinedrugs
+
+ 
+
+Marine Drugs
+
+ 
+
+[-] materials
+
+ 
+
+Materials
+
+ 
+
+[-] materproc
+
+ 
+
+Materials Proceedings
+
+ 
+
+[-] mca
+
+ 
+
+Mathematical and Computational Applications
+
+ 
+
+[-] mathematics
+
+ 
+
+Mathematics
+
+ 
+
+[-] medsci
+
+ 
+
+Medical Sciences
+
+ 
+
+[-] msf
+
+ 
+
+Medical Sciences Forum
+
+ 
+
+[-] medicina
+
+ 
+
+Medicina
+
+ 
+
+[-] medicines
+
+ 
+
+Medicines
+
+ 
+
+[-] membranes
+
+ 
+
+Membranes
+
+ 
+
+[-] merits
+
+ 
+
+Merits
+
+ 
+
+[-] metabolites
+
+ 
+
+Metabolites
+
+ 
+
+[-] metals
+
+ 
+
+Metals
+
+ 
+
+[-] meteorology
+
+ 
+
+Meteorology
+
+ 
+
+[-] methane
+
+ 
+
+Methane
+
+ 
+
+[-] mps
+
+ 
+
+Methods and Protocols
+
+ 
+
+[-] metrics
+
+ 
+
+Metrics
+
+ 
+
+[-] metrology
+
+ 
+
+Metrology
+
+ 
+
+[-] micro
+
+ 
+
+Micro
+
+ 
+
+[-] microbiolres
+
+ 
+
+Microbiology Research
+
+ 
+
+[-] microelectronics
+
+ 
+
+Microelectronics
+
+ 
+
+[-] micromachines
+
+ 
+
+Micromachines
+
+ 
+
+[-] microorganisms
+
+ 
+
+Microorganisms
+
+ 
+
+[-] microplastics
+
+ 
+
+Microplastics
+
+ 
+
+[-] microwave
+
+ 
+
+Microwave
+
+ 
+
+[-] minerals
+
+ 
+
+Minerals
+
+ 
+
+[-] mining
+
+ 
+
+Mining
+
+ 
+
+[-] modelling
+
+ 
+
+Modelling
+
+ 
+
+[-] mmphys
+
+ 
+
+Modern Mathematical Physics
+
+ 
+
+[-] molbank
+
+ 
+
+Molbank
+
+ 
+
+[-] molecules
+
+ 
+
+Molecules
+
+ 
+
+[-] multimedia
+
+ 
+
+Multimedia
+
+ 
+
+[-] mti
+
+ 
+
+Multimodal Technologies and Interaction
+
+ 
+
+[-] muscles
+
+ 
+
+Muscles
+
+ 
+
+[-] nanoenergyadv
+
+ 
+
+Nanoenergy Advances
+
+ 
+
+[-] nanomanufacturing
+
+ 
+
+Nanomanufacturing
+
+ 
+
+[-] nanomaterials
+
+ 
+
+Nanomaterials
+
+ 
+
+[-] ndt
+
+ 
+
+NDT
+
+ 
+
+[-] network
+
+ 
+
+Network
+
+ 
+
+[-] neuroglia
+
+ 
+
+Neuroglia
+
+ 
+
+[-] neuroimaging
+
+ 
+
+Neuroimaging
+
+ 
+
+[-] neurolint
+
+ 
+
+Neurology International
+
+ 
+
+[-] neurosci
+
+ 
+
+NeuroSci
+
+ 
+
+[-] nitrogen
+
+ 
+
+Nitrogen
+
+ 
+
+[-] ncrna
+
+ 
+
+Non-Coding RNA
+
+ 
+
+[-] nursrep
+
+ 
+
+Nursing Reports
+
+ 
+
+[-] nutraceuticals
+
+ 
+
+Nutraceuticals
+
+ 
+
+[-] nutrients
+
+ 
+
+Nutrients
+
+ 
+
+[-] obesities
+
+ 
+
+Obesities
+
+ 
+
+[-] occuphealth
+
+ 
+
+Occupational Health
+
+ 
+
+[-] oceans
+
+ 
+
+Oceans
+
+ 
+
+[-] onco
+
+ 
+
+Onco
+
+ 
+
+[-] optics
+
+ 
+
+Optics
+
+ 
+
+[-] oral
+
+ 
+
+Oral
+
+ 
+
+[-] organics
+
+ 
+
+Organics
+
+ 
+
+[-] organoids
+
+ 
+
+Organoids
+
+ 
+
+[-] osteology
+
+ 
+
+Osteology
+
+ 
+
+[-] oxygen
+
+ 
+
+Oxygen
+
+ 
+
+[-] pandemics
+
+ 
+
+Pandemics
+
+ 
+
+[-] parasitologia
+
+ 
+
+Parasitologia
+
+ 
+
+[-] particles
+
+ 
+
+Particles
+
+ 
+
+[-] pathogens
+
+ 
+
+Pathogens
+
+ 
+
+[-] pathophysiology
+
+ 
+
+Pathophysiology
+
+ 
+
+[-] peacestud
+
+ 
+
+Peace Studies
+
+ 
+
+[-] pediatrrep
+
+ 
+
+Pediatric Reports
+
+ 
+
+[-] pets
+
+ 
+
+Pets
+
+ 
+
+[-] pharmaceuticals
+
+ 
+
+Pharmaceuticals
+
+ 
+
+[-] pharmaceutics
+
+ 
+
+Pharmaceutics
+
+ 
+
+[-] pharmacoepidemiology
+
+ 
+
+Pharmacoepidemiology
+
+ 
+
+[-] pharmacy
+
+ 
+
+Pharmacy
+
+ 
+
+[-] philosophies
+
+ 
+
+Philosophies
+
+ 
+
+[-] photochem
+
+ 
+
+Photochem
+
+ 
+
+[-] photonics
+
+ 
+
+Photonics
+
+ 
+
+[-] phycology
+
+ 
+
+Phycology
+
+ 
+
+[-] physchem
+
+ 
+
+Physchem
+
+ 
+
+[-] psf
+
+ 
+
+Physical Sciences Forum
+
+ 
+
+[-] physics
+
+ 
+
+Physics
+
+ 
+
+[-] physiologia
+
+ 
+
+Physiologia
+
+ 
+
+[-] plants
+
+ 
+
+Plants
+
+ 
+
+[-] plasma
+
+ 
+
+Plasma
+
+ 
+
+[-] platforms
+
+ 
+
+Platforms
+
+ 
+
+[-] pollutants
+
+ 
+
+Pollutants
+
+ 
+
+[-] polymers
+
+ 
+
+Polymers
+
+ 
+
+[-] polysaccharides
+
+ 
+
+Polysaccharides
+
+ 
+
+[-] populations
+
+ 
+
+Populations
+
+ 
+
+[-] poultry
+
+ 
+
+Poultry
+
+ 
+
+[-] powders
+
+ 
+
+Powders
+
+ 
+
+[-] precisoncol
+
+ 
+
+Precision Oncology
+
+ 
+
+[-] phc
+
+ 
+
+Primary and Hospital Care
+
+ 
+
+[-] proceedings
+
+ 
+
+Proceedings
+
+ 
+
+[-] processes
+
+ 
+
+Processes
+
+ 
+
+[-] prosthesis
+
+ 
+
+Prosthesis
+
+ 
+
+[-] proteomes
+
+ 
+
+Proteomes
+
+ 
+
+[-] psychiatryint
+
+ 
+
+Psychiatry International
+
+ 
+
+[-] psychoactives
+
+ 
+
+Psychoactives
+
+ 
+
+[-] psycholint
+
+ 
+
+Psychology International
+
+ 
+
+[-] publications
+
+ 
+
+Publications
+
+ 
+
+[-] purification
+
+ 
+
+Purification
+
+ 
+
+[-] qubs
+
+ 
+
+Quantum Beam Science
+
+ 
+
+[-] quantumrep
+
+ 
+
+Quantum Reports
+
+ 
+
+[-] quaternary
+
+ 
+
+Quaternary
+
+ 
+
+[-] radiation
+
+ 
+
+Radiation
+
+ 
+
+[-] reactions
+
+ 
+
+Reactions
+
+ 
+
+[-] realestate
+
+ 
+
+Real Estate
+
+ 
+
+[-] receptors
+
+ 
+
+Receptors
+
+ 
+
+[-] recycling
+
+ 
+
+Recycling
+
+ 
+
+[-] rsee
+
+ 
+
+Regional Science and Environmental Economics
+
+ 
+
+[-] religions
+
+ 
+
+Religions
+
+ 
+
+[-] remotesensing
+
+ 
+
+Remote Sensing
+
+ 
+
+[-] reports
+
+ 
+
+Reports
+
+ 
+
+[-] reprodmed
+
+ 
+
+Reproductive Medicine
+
+ 
+
+[-] resources
+
+ 
+
+Resources
+
+ 
+
+[-] rheumato
+
+ 
+
+Rheumato
+
+ 
+
+[-] risks
+
+ 
+
+Risks
+
+ 
+
+[-] robotics
+
+ 
+
+Robotics
+
+ 
+
+[-] rjpm
+
+ 
+
+Romanian Journal of Preventive Medicine
+
+ 
+
+[-] ruminants
+
+ 
+
+Ruminants
+
+ 
+
+[-] safety
+
+ 
+
+Safety
+
+ 
+
+[-] sci
+
+ 
+
+Sci
+
+ 
+
+[-] scipharm
+
+ 
+
+Scientia Pharmaceutica
+
+ 
+
+[-] sclerosis
+
+ 
+
+Sclerosis
+
+ 
+
+[-] seeds
+
+ 
+
+Seeds
+
+ 
+
+[-] shi
+
+ 
+
+Semiconductors and Heterogeneous Integration
+
+ 
+
+[-] sensors
+
+ 
+
+Sensors
+
+ 
+
+[-] separations
+
+ 
+
+Separations
+
+ 
+
+[-] sexes
+
+ 
+
+Sexes
+
+ 
+
+[-] signals
+
+ 
+
+Signals
+
+ 
+
+[-] sinusitis
+
+ 
+
+Sinusitis
+
+ 
+
+[-] smartcities
+
+ 
+
+Smart Cities
+
+ 
+
+[-] socsci
+
+ 
+
+Social Sciences
+
+ 
+
+[-] siuj
+
+ 
+
+Société Internationale d'Urologie Journal
+
+ 
+
+[-] societies
+
+ 
+
+Societies
+
+ 
+
+[-] software
+
+ 
+
+Software
+
+ 
+
+[-] soilsystems
+
+ 
+
+Soil Systems
+
+ 
+
+[-] solar
+
+ 
+
+Solar
+
+ 
+
+[-] solids
+
+ 
+
+Solids
+
+ 
+
+[-] spectroscj
+
+ 
+
+Spectroscopy Journal
+
+ 
+
+[-] sports
+
+ 
+
+Sports
+
+ 
+
+[-] standards
+
+ 
+
+Standards
+
+ 
+
+[-] stats
+
+ 
+
+Stats
+
+ 
+
+[-] stratsediment
+
+ 
+
+Stratigraphy and Sedimentology
+
+ 
+
+[-] stresses
+
+ 
+
+Stresses
+
+ 
+
+[-] surfaces
+
+ 
+
+Surfaces
+
+ 
+
+[-] surgeries
+
+ 
+
+Surgeries
+
+ 
+
+[-] std
+
+ 
+
+Surgical Techniques Development
+
+ 
+
+[-] sustainability
+
+ 
+
+Sustainability
+
+ 
+
+[-] suschem
+
+ 
+
+Sustainable Chemistry
+
+ 
+
+[-] sanpp
+
+ 
+
+Swiss Archives of Neurology, Psychiatry and Psychotherapy
+
+ 
+
+[-] symmetry
+
+ 
+
+Symmetry
+
+ 
+
+[-] synbio
+
+ 
+
+SynBio
+
+ 
+
+[-] systems
+
+ 
+
+Systems
+
+ 
+
+[-] targets
+
+ 
+
+Targets
+
+ 
+
+[-] taxonomy
+
+ 
+
+Taxonomy
+
+ 
+
+[-] technologies
+
+ 
+
+Technologies
+
+ 
+
+[-] telecom
+
+ 
+
+Telecom
+
+ 
+
+[-] textiles
+
+ 
+
+Textiles
+
+ 
+
+[-] thalassrep
+
+ 
+
+Thalassemia Reports
+
+ 
+
+[-] tae
+
+ 
+
+Theoretical and Applied Ergonomics
+
+ 
+
+[-] therapeutics
+
+ 
+
+Therapeutics
+
+ 
+
+[-] thermo
+
+ 
+
+Thermo
+
+ 
+
+[-] timespace
+
+ 
+
+Time and Space
+
+ 
+
+[-] tomography
+
+ 
+
+Tomography
+
+ 
+
+[-] tourismhosp
+
+ 
+
+Tourism and Hospitality
+
+ 
+
+[-] toxics
+
+ 
+
+Toxics
+
+ 
+
+[-] toxins
+
+ 
+
+Toxins
+
+ 
+
+[-] transplantology
+
+ 
+
+Transplantology
+
+ 
+
+[-] traumacare
+
+ 
+
+Trauma Care
+
+ 
+
+[-] higheredu
+
+ 
+
+Trends in Higher Education
+
+ 
+
+[-] tph
+
+ 
+
+Trends in Public Health
+
+ 
+
+[-] tropicalmed
+
+ 
+
+Tropical Medicine and Infectious Disease
+
+ 
+
+[-] universe
+
+ 
+
+Universe
+
+ 
+
+[-] urbansci
+
+ 
+
+Urban Science
+
+ 
+
+[-] uro
+
+ 
+
+Uro
+
+ 
+
+[-] vaccines
+
+ 
+
+Vaccines
+
+ 
+
+[-] vehicles
+
+ 
+
+Vehicles
+
+ 
+
+[-] venereology
+
+ 
+
+Venereology
+
+ 
+
+[-] vetsci
+
+ 
+
+Veterinary Sciences
+
+ 
+
+[-] vibration
+
+ 
+
+Vibration
+
+ 
+
+[-] virtualworlds
+
+ 
+
+Virtual Worlds
+
+ 
+
+[-] viruses
+
+ 
+
+Viruses
+
+ 
+
+[-] vision
+
+ 
+
+Vision
+
+ 
+
+[-] waste
+
+ 
+
+Waste
+
+ 
+
+[-] water
+
+ 
+
+Water
+
+ 
+
+[-] wild
+
+ 
+
+Wild
+
+ 
+
+[-] wind
+
+ 
+
+Wind
+
+ 
+
+[-] women
+
+ 
+
+Women
+
+ 
+
+[-] world
+
+ 
+
+World
+
+ 
+
+[-] wevj
+
+ 
+
+World Electric Vehicle Journal
+
+ 
+
+[-] youth
+
+ 
+
+Youth
+
+ 
+
+[-] zoonoticdis
+
+ 
+
+Zoonotic Diseases
+
+Subscribe
+
+© 1996-2026 MDPI (Basel, Switzerland) unless otherwise stated
+
+Disclaimer
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Disclaimer/Publisher's Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+Terms and Conditions
+
+https://www.mdpi.com/about/terms-and-conditions
+
+ 
+
+Privacy Policy
+
+https://www.mdpi.com/about/privacy
+
+We use cookies on our website to ensure you get the best experience.
+
+Read more about our cookies 
+
+here
+
+https://www.mdpi.com/about/privacy
+
+.
+
+Accept
+
+https://www.mdpi.com/accept_cookies
+
+Share Link
+
+mailto:?&subject=From%20MDPI%3A%20%22A%20Robust%203D%20Active%20Learning%20Framework%20Based%20on%20Multi-Metric%20Voting%20for%20Fast%20Electromagnetic%20Field%20Reconstruction%20with%20Sparse%20Sampling"&body=https://www.mdpi.com/3818836%3A%0A%0AA%20Robust%203D%20Active%20Learning%20Framework%20Based%20on%20Multi-Metric%20Voting%20for%20Fast%20Electromagnetic%20Field%20Reconstruction%20with%20Sparse%20SamplingTo%20mitigate%20the%20high%20measurement%20costs%20in%20electromagnetic%20compatibility%20%28EMC%29%20assessment%2C%20this%20paper%20proposes%20a%20robust%20active%20learning%20framework%20for%20fast%203D%20field%20reconstruction%20with%20sparse%20sampling.%20A%20novel%20%E2%80%9CFour-Vote%E2%80%9D%20query%20criterion%20is%20proposed%20to%20guide%20intelligent%20sample%20selection%2C%20which%20integrates%20Shannon%20entropy%2C%20committee%20variance%2C%20spatial%20density%2C%20and%20clustering-based%20representativeness%2C%20all%20derived%20from%20a%20heterogeneous%20radial%20basis%20function%20%28RBF%29%20committee.%20Furthermore%2C%20an%20adaptive%20polynomial%20degree%20adjustment%20mechanism%20is%20implemented%20to%20ensure%20stability%20in%20data-scarce%203D%20environments.%20Validated%20through%20full-wave%20HFSS%20simulations%2C%20the%20proposed%20method%20significantly%20outperforms%20traditional%20sampling%20strategies%20in%20both%202D%20and%203D%20scenarios%2C%20achieving%20high-fidelity%20field%20reconstruction%20with%20minimal%20sampling%20points.%20This%20framework%20provides%20an%20efficient%20solution%20for%20rapid%20spatial%20field%20mapping%20and%20EMC%20fault%20diagnosis%20in%20practical%20engineering%20scenarios.
+
+ 
+
+https://x.com/intent/tweet?text=A+Robust+3D+Active+Learning+Framework+Based+on+Multi-Metric+Voting+for+Fast+Electromagnetic+Field+Reconstruction+with+Sparse+Sampling&hashtags=mdpielectronics&url=https%3A%2F%2Fwww.mdpi.com%2F3818836&via=electronicsMDPI
+
+ 
+
+http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.mdpi.com%2F3818836&title=A%20Robust%203D%20Active%20Learning%20Framework%20Based%20on%20Multi-Metric%20Voting%20for%20Fast%20Electromagnetic%20Field%20Reconstruction%20with%20Sparse%20Sampling%26source%3Dhttps%3A%2F%2Fwww.mdpi.com%26summary%3DTo%20mitigate%20the%20high%20measurement%20costs%20in%20electromagnetic%20compatibility%20%28EMC%29%20assessment%2C%20this%20paper%20proposes%20a%20robust%20active%20learning%20framework%20for%20fast%203D%20field%20reconstruction%20with%20sparse%20sampling.%20A%20novel%20%E2%80%9CFour-Vote%E2%80%9D%20query%20criterion%20is%20proposed%20%5B...%5D
+
+ 
+
+http://www.facebook.com/sharer.php?u=https://www.mdpi.com/3818836
+
+ 
+
+javascript:void(0);
+
+ 
+
+http://www.reddit.com/submit?url=https://www.mdpi.com/3818836
+
+ 
+
+http://www.mendeley.com/import/?url=https://www.mdpi.com/3818836
+
+ 
+
+http://www.citeulike.org/posturl?url=https://www.mdpi.com/3818836
+
+ 
+
+https://www.mdpi.com/3818836
+
+Copy
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+clear
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Share
+
+https://www.mdpi.com/3818836
+
+clear
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Back to Top Top
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+All MDPI websites use third-party website tracking technologies to provide and continually improve our services. I agree and may revoke or change my consent at any time with effect for the future. 
+
+https://www.mdpi.com/about/privacy
+
+ 
+
+https://www.mdpi.com/about/terms-and-conditions
+
+More Information
+
+https://www.mdpi.com/2079-9292/15/7/1434
+
+Accept All
+
+Deny
+
+Powered by Usercentrics Consent Management
+
+https://www.usercentrics.com/consent-management-platform-powered-by-usercentrics/?utm_source=banner_uc&utm_medium=referral&utm_content=v3

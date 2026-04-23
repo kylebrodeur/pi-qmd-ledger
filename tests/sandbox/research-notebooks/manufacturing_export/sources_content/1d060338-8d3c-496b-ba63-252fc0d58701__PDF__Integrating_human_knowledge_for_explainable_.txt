@@ -1,0 +1,4683 @@
+(PDF) Integrating human knowledge for explainable AI
+
+Article PDF Available
+
+Integrating human knowledge for explainable AI
+
+October 2025
+
+Machine Learning
+
+https://www.researchgate.net/journal/Machine-Learning-1573-0565
+
+ 114(11)
+
+DOI: 
+
+10.1007/s10994-025-06879-x
+
+https://doi.org/10.1007/s10994-025-06879-x?urlappend=%3Futm_source%3Dresearchgate.net%26utm_medium%3Darticle
+
+License
+
+CC BY 4.0
+
+https://www.researchgate.net/deref/https%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby%2F4.0%2F
+
+Authors:
+
+Eleonora Cappuccio
+
+https://www.researchgate.net/profile/Eleonora-Cappuccio
+
+Italian National Research Council
+
+https://www.researchgate.net/institution/Italian-National-Research-Council
+
+Bahavathy Kathirgamanathan
+
+https://www.researchgate.net/profile/Bahavathy-Kathirgamanathan
+
+University College Dublin
+
+https://www.researchgate.net/institution/University_College_Dublin
+
+Salvatore Rinzivillo
+
+https://www.researchgate.net/profile/Salvatore-Rinzivillo
+
+Italian National Research Council
+
+https://www.researchgate.net/institution/Italian-National-Research-Council
+
+Gennady Andrienko
+
+https://www.researchgate.net/profile/Gennady-Andrienko
+
+Fraunhofer Institute for Intelligent Analysis and Information Systems
+
+https://www.researchgate.net/institution/Fraunhofer-Institute-for-Intelligent-Analysis-and-Information-Systems
+
+Show all 5 authors
+
+https://www.researchgate.net/
+
+ 
+
+Hide
+
+https://www.researchgate.net/
+
+Download full-text PDF
+
+https://www.researchgate.net/journal/Machine-Learning-1573-0565/publication/396515788_Integrating_human_knowledge_for_explainable_AI/links/68f0555ff3032e2b4be97de5/Integrating-human-knowledge-for-explainable-AI.pdf
+
+ 
+
+Read full-text
+
+https://www.researchgate.net/publication/396515788_Integrating_human_knowledge_for_explainable_AI#read
+
+Download full-text PDF
+
+https://www.researchgate.net/journal/Machine-Learning-1573-0565/publication/396515788_Integrating_human_knowledge_for_explainable_AI/links/68f0555ff3032e2b4be97de5/Integrating-human-knowledge-for-explainable-AI.pdf
+
+Read full-text
+
+https://www.researchgate.net/publication/396515788_Integrating_human_knowledge_for_explainable_AI#read
+
+Download citation
+
+https://www.researchgate.net/publication/396515788_Integrating_human_knowledge_for_explainable_AI/citation/download
+
+Copy link Link copied
+
+Read full-text
+
+https://www.researchgate.net/publication/396515788_Integrating_human_knowledge_for_explainable_AI#read
+
+Download citation
+
+https://www.researchgate.net/publication/396515788_Integrating_human_knowledge_for_explainable_AI/citation/download
+
+Copy link Link copied
+
+Citations (1)
+
+https://www.researchgate.net/publication/396515788_Integrating_human_knowledge_for_explainable_AI#citations
+
+References (44)
+
+https://www.researchgate.net/publication/396515788_Integrating_human_knowledge_for_explainable_AI#references
+
+Figures (16)
+
+https://www.researchgate.net/publication/396515788_Integrating_human_knowledge_for_explainable_AI#figures
+
+Abstract and Figures
+
+This paper presents a methodology for integrating human expert knowledge into machine learning (ML) workflows to improve both model interpretability and the quality of explanations produced by explainable AI (XAI) techniques. We strive to enhance standard ML and XAI pipelines without modifying underlying algorithms, focusing instead on embedding domain knowledge at two stages: (1) during model development through expert-guided data structuring and feature engineering, and (2) during explanation generation via domain-aware synthetic neighbourhoods. Visual analytics is used to support experts in transforming raw data into semantically richer representations. We validate the methodology in two case studies: predicting COVID-19 incidence and classifying vessel movement patterns. The studies demonstrated improved alignment of models with expert reasoning and better quality of synthetic neighbourhoods. We also explore using large language models (LLMs) to assist experts in developing domain-compliant data generators. Our findings highlight both the benefits and limitations of existing XAI methods and point to a research direction for addressing these gaps.
+
+Integrating human expertise into the ML pipeline. Knowledge is embedded through data structuring and realistic neighbourhood generation, supporting model interpretability and explanation plausibility …
+
+https://www.researchgate.net/figure/Integrating-human-expertise-into-the-ML-pipeline-Knowledge-is-embedded-through-data_fig1_396515788
+
+Visualisation of weekly episodes derived from time series of COVID-19 incidence and population mobility in provinces of Spain. The horizontal dimension represents time, the rows correspond to the provinces, and the cells represent the episodes coloured by the levels of disease incidence (left, from green for low to red for high) and mobility (right, from red for very low to blue for normal) …
+
+https://www.researchgate.net/figure/Visualisation-of-weekly-episodes-derived-from-time-series-of-COVID-19-incidence-and_fig2_396515788
+
+Visual representation of temporal contexts of four selected examples of pandemic events from different classes by disease incidence. The columns of the matrices correspond to the weeks from -6 to -1 preceding the events. Each row corresponds to one level of either COVID-19 (top 4 rows) or mobility (lower 4 rows). The filled cells signify which levels of COVID-19 and mobility were attained before the events started. The colours of the filled rectangles reflect the classes (levels) of the represented events …
+
+https://www.researchgate.net/figure/Visual-representation-of-temporal-contexts-of-four-selected-examples-of-pandemic-events_fig3_396515788
+
+Comparison of different versions of the pandemic level model by visual inspection of the distributions of model errors over time (horizontal dimension) and provinces (vertical dimension). The events are represented by horizontal bars with model errors encoded by the colours. Shades of blue and red signify, respectively, under and over-estimation of the pandemic event level; the darkness is proportional to the difference between the predicted and actual levels …
+
+https://www.researchgate.net/figure/Comparison-of-different-versions-of-the-pandemic-level-model-by-visual-inspection-of-the_fig4_396515788
+
+ +11
+
+https://www.researchgate.net/figure/On-the-left-The-COVID-19-and-Mobility-transition-matrices-used-as-constraints-to_fig5_396515788
+
+On the left: The COVID-19 and Mobility transition matrices used as constraints to generate neighbourhoods. On the right: Bipartite graphs with the probabilities for COVID-19 (Left) and Mobility (Right) state transitions. The thickness of each arc is proportional to the probability of the transition …
+
+https://www.researchgate.net/figure/On-the-left-The-COVID-19-and-Mobility-transition-matrices-used-as-constraints-to_fig5_396515788
+
+Figures - available from: Machine Learning
+
+This content is subject to copyright. 
+
+Terms and conditions
+
+https://go.nature.com/2Saqenj
+
+ apply.
+
+ 
+
+Discover the world's research
+
+25+ million members
+
+160+ million publication pages
+
+2.3+ billion citations
+
+Join for free
+
+https://www.researchgate.net/signup.SignUp.html
+
+Publisher Full-text 1
+
+Access to this full-text is provided by Springer.
+
+Learn more
+
+https://help.researchgate.net/hc/en-us/articles/24012471222545-Journals-on-ResearchGate#publisherfulltexts
+
+Content available from Machine Learning
+
+This content is subject to copyright. 
+
+Terms and conditions
+
+https://go.nature.com/2Saqenj
+
+ apply.
+
+Received: 3 April 2025 / Revised: 7 July 2025 / Accepted: 25 August 2025 /
+
+Published online: 15 October 2025
+
+© The Author(s) 2025
+
+Editors: Riccardo Guidotti, Anna Monreale, Dino Pedreschi.
+
+Extended author information available on the last page of the article
+
+Integrating human knowledge for explainable AI
+
+EleonoraCappuccio 1 · BahavathyKathirgamanathan 2 · Salva toreRinzivillo 1 ·
+
+GennadyAndrienko 2,3 · NataliaAndrienko 2,3
+
+Machine Learning (2025) 114:250
+
+https://doi.org/10.1007/s10994-025-06879-x
+
+Abstract
+
+This paper presents a methodology for integrating human expert knowledge into machine
+
+learning (ML) workows to improve both model interpretability and the quality of expla-
+
+nations produced by explainable AI (XAI) techniques. We strive to enhance standard ML
+
+and XAI pipelines without modifying underlying algorithms, focusing instead on embed-
+
+ding domain knowledge at two stages: (1) during model development through expert-
+
+guided data structuring and feature engineering, and (2) during explanation generation via
+
+domain-aware synthetic neighbourhoods. V isual analytics is used to support experts in
+
+transforming raw data into semantically richer representations. We validate the methodol-
+
+ogy in two case studies: predicting COVID-19 incidence and classifying vessel movement
+
+patterns. The studies demonstrated improved alignment of models with expert reasoning
+
+and better quality of synthetic neighbourhoods. We also explore using large language
+
+models (LLMs) to assist experts in developing domain-compliant data generators. Our
+
+ndings highlight both the benets and limitations of existing XAI methods and point to
+
+a research direction for addressing these gaps.
+
+Keywords Knowledge-guided explainable AI (XAI) · V isual analytics · T rustworthy AI
+
+1 Introduction
+
+Explainable AI (XAI) systems often produce explanations that, while technically accurate,
+
+fail to align with domain experts' understanding and reasoning processes (Liao & V arshney,
+
+2021; Abdul et al., 2018). This misalignment occurs because conventional machine learning
+
+(ML) and XAI approaches lack systematic mechanisms for incorporating domain expertise,
+
+relying instead solely on data-driven methods that often fail to capture meaningful domain
+
+concepts and relationships (von Rueden et al., 2023).
+
+1 3
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+W e hypothesize that systematic integration of domain knowledge can make ML models
+
+more understandable to humans by ensuring that both model behaviour and explanations
+
+align with expert mental models (Simkute et al., 2022; Kulesza et al., 2013). However,
+
+achieving this integration remains a critical challenge. While there exist some approaches
+
+to incorporating knowledge, e.g., physics-informed neural networks (Raissi et al., 2019) or
+
+domain-constrained architectures (Muralidhar et al., 2018), they require customized algo-
+
+rithms and substantial manual engineering, limiting their applicability in general-purpose
+
+ML pipelines.
+
+This paper addresses the following research question: How can domain expert knowl-
+
+edge be incorporated into both ML models and their explanations without modifying exist-
+
+ing, widely used ML and XAI algorithms?
+
+W e tackle this question by addressing two technical challenges. First, standard ML pipe-
+
+lines rely on statistical feature extraction from raw data and do not reect how experts
+
+conceptualize data structures. For instance, time series data are typically processed as
+
+sequences of points, whereas experts often interpret them through higher-level episodes
+
+or patterns. We argue that the standard ML workow Raw Data
+
+→
+
+Automated Fea-
+
+ture Extraction
+
+→
+
+Model Training should be enhanced with expert-guided data
+
+structuring: Raw Data
+
+→
+
+Expert Knowledge Integration
+
+→
+
+Structured
+
+Representations
+
+→
+
+Model Training.
+
+Second, many XAI methods work by creating synthetic neighbours around a data point
+
+to understand how the model behaves in that local area (Guidotti et al., 2019b; Adadi & Ber-
+
+rada, 2018). However, these synthetic examples often violate domain-specic constraints,
+
+resulting in implausible or misleading explanations. W e propose to modify the current XAI
+
+approach Query Instance
+
+→
+
+Random Synthetic Neighbours
+
+→
+
+Model
+
+Predictions
+
+→
+
+Explanations by embedding domain knowledge into neighbour-
+
+hood generation: Query Instance
+
+→
+
+Domain-Aware Synthetic Neighbours
+
+→
+
+Model Predictions
+
+→
+
+Realistic Explanations. The resulting explana-
+
+tions are expected to be logically consistent with expert knowledge.
+
+In summary, our proposed framework (outlined in Section 3 following the review of
+
+related work in Section 2) incorporates domain knowledge at two stages: (1) through
+
+visual analytics-supported data structuring and feature engineering during model develop-
+
+ment (Section 3.1), and (2) through domain-constrained neighbourhood generation during
+
+explanation (Section 3.2). This approach enables domain experts to meaningfully shape the
+
+model and its interpretability, while remaining compatible with standard, widely used ML
+
+and XAI tools.
+
+W e validate the framework through two case studies (Section 4): COVID-19 incidence
+
+prediction (Section 4.1) and vessel movement pattern recognition (Section 4.2). Results are
+
+evaluated and discussed in Section 6.
+
+Additionally, we explore the use of lar ge language models (LLMs) as collaborative agents
+
+in this process (Section 5). Our experiments show that LLMs can acquire domain knowl-
+
+edge through interactive prompting and apply it to generate realistic, constraint-respecting
+
+synthetic data. In Section 6.2.2, we discuss the potential for extending this capability to
+
+enhance explanations generated by algorithmic XAI methods. Section 7 concludes the paper
+
+and outlines directions for future research.
+
+1 3
+
+250 Page 2 of 39
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+2 Related work
+
+W e review related work in three interconnected areas: incorporating expert knowledge into
+
+ML models, integrating prior knowledge in explanations, and interactive ML as a founda-
+
+tion for human-AI collaboration.
+
+2.1 Incorporating expert knowledge in ML development
+
+Informed machine learning (von Rueden et al., 2023; Karpatne et al., 2017) aims to inte-
+
+grate prior knowledge into model training through formalized structures such as logic rules
+
+or physical equations. Knowledge graphs (KGs) have emerged as a powerful approach to
+
+embed structured domain knowledge into machine learning workows. By representing
+
+entities, relations, and domain constraints, KGs can improve model interpretability and sup-
+
+port tasks such as feature extraction, concept inference, and information retrieval, making
+
+them particularly relevant in explainable AI systems (Rajabi & Etminani, 2024). However,
+
+most KG-based approaches assume that such a graph is already available. In many practical
+
+domains, this is not the case. Creating a KG from scratch requires the elicitation of expert
+
+knowledge, followed by formalization into machine-interpretable structures. This process
+
+typically demands signicant eort from skilled knowledge engineers (Kidd, 1987). As past
+
+experiences with development of expert systems (Buchanan et al., 2006) have shown, this
+
+bottleneck often limits the deployment of knowledge-intensive AI systems in practice.
+
+Instead of requiring formal knowledge engineering beforehand, we propose a human-in-
+
+the-loop workow in which domain experts directly shape and test their knowledge through
+
+feature engineering. W e support this process with interactive visual analytics tools that help
+
+experts formulate meaningful features, inspect their impact on model behaviour, and itera-
+
+tively rene their representations. In this way, we lower the barrier to incorporating expert
+
+knowledge into the machine learning pipeline without requiring formal ontology design or
+
+structured knowledge encoding.
+
+Visual analytics oers a range of tools for knowledge-driven data structuring. Existing
+
+V A systems have demonstrated the value of expert interaction in model development work-
+
+ows, for instance, via interactive feature selection, hyperparameter tuning, or comparative
+
+model assessment (Sacha et al., 2019; Endert et al., 2017; Lu et al., 2017; Wang et al.,
+
+2024). However, most focus on supporting user feedback rather than capturing tacit domain
+
+expertise for downstream explainability. Earlier work on conceptual model development
+
+through V A (Giabbanelli & Jackson, 2015; Zhao et al., 2018) shares our goal of knowledge
+
+externalization but lacks direct connections to ML contexts.
+
+Our work builds on these foundations by enabling experts to encode domain semantics
+
+through data representations and by evaluating model behaviour iteratively, thereby prepar-
+
+ing a basis for human-aligned explanations without altering the learning process itself.
+
+2.2 Incorporating domain knowledge into XAI methods
+
+A wide range of local explainable AI (XAI) techniques have been developed. Widely used
+
+are feature attribution methods, such as LIME (Ribeiro et al., 2016) and SHAP (Lundberg
+
+& Lee, 2017), which quantify the contribution of each feature to a specic prediction. How-
+
+ever, feature attribution scores are limited in their ability to convey semantic structure or
+
+1 3
+
+Page 3 of 39 250
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+domain-relevant logic. A list of feature weights does not tell the user how features interact
+
+or why a prediction was made.
+
+In contrast, explanation methods based on rules or decision trees, such as ANCHOR
+
+(Ribeiro et al., 2018) and LORE (Guidotti et al., 2019a), oer richer semantics through
+
+IF-THEN statements that express local decision logic. These structures better align with
+
+how humans conceptualize categories. ANCHOR produces high-precision rules focused on
+
+suciency conditions, but often omits broader feature context, making its explanations
+
+potentially brittle. LORE learns a local surrogate decision tree that captures both primary
+
+and alternative outcomes by generating a synthetic neighbourhood through controlled
+
+perturbation.
+
+Although widely used for their model-agnostic nature, such post-hoc methods often over-
+
+look domain-specic feature relationships, resulting in implausible or misleading explana-
+
+tions. W e address this by constraining the perturbation process using domain-aware instance
+
+generators, thereby improving plausibility without modifying the XAI method itself. W e
+
+build on LORE due to its extensible architecture, which supports externally dened neigh-
+
+bourhood generation, which is an essential capability for integrating domain knowledge into
+
+explanation.
+
+Domain knowledge could, in principle, also be integrated into the rule extraction process
+
+of ANCHOR by enforcing such constraints during the growth of explanation rules. However,
+
+this would likely require a substantial re-implementation of the algorithm, along with opti-
+
+mizations to its rule induction mechanism. Similarly to LORE, LIME could also benet from
+
+a custom neighbourhood generation process that integrates domain knowledge. However,
+
+implementing such functionality would require extending or re-engineering the library, as
+
+its current design does not natively support this level of customization.
+
+In addition to improving the generation of explanations, we also focus on how they are
+
+presented and validated by users. V isual analytics (V A) supports this by enabling interactive
+
+exploration of explanation structures and helping users relate model behaviour to domain
+
+knowledge. For example, systems like RuleMatrix (Ming et al., 2019) and explAIner (Spin-
+
+ner et al., 2020) allow users to inspect and manipulate explanation rules, while others facili-
+
+tate exploration of instance clusters, latent spaces (Hohman et al., 2019), and model errors
+
+(Cheng et al., 2021). V A enhances cognitive alignment by contextualizing explanations and
+
+supporting iterative renement, making it a natural complement to rule-based explanation
+
+methods.
+
+2.3 Interactive machine learning and human-AI alignment
+
+Our methodology aligns with principles of explanatory interactive machine learning (IML),
+
+where human input is integrated iteratively not only during training but also during explana-
+
+tion renement. Teso and Kersting ( 2019) formalize this approach, showing how explana-
+
+tory feedback can guide models toward more interpretable behaviour. Bhattacharya et al.
+
+( 2024) extend this line of work by combining multifaceted explanations and data trans-
+
+formations within interactive V A environments closely matching our dual-loop interaction
+
+pattern.
+
+Moreover, Schramowski et al. ( 2020) demonstrate that expert feedback on explanations
+
+can steer models away from spurious correlations, reinforcing the importance of incorporat-
+
+ing domain knowledge during both training and explanation. These studies empirically vali-
+
+1 3
+
+250 Page 4 of 39
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+date the broader intuition behind our approach: explanation is not just a post-hoc step but
+
+part of an iterative human-AI dialogue. Our framework applies the principles of explanatory
+
+IML while preserving the modularity of standard ML and XAI pipelines.
+
+Table 1 summarizes the related work and highlights the specic limitations our approach
+
+addresses.
+
+3 Methods
+
+Figure 1 illustrates the proposed pipeline for integration of human expert knowledge in
+
+ML and XAI: (1) during the ML process, domain knowledge is used to prepare appropriate
+
+training data and rene the model; (2) in the explanation phase, this knowledge is further
+
+leveraged to ensure explanations align with user perspectives.
+
+3.1 Incorporating human knowledge in models
+
+As stated earlier, we propose a human-in-the-loop workow where domain experts incorpo-
+
+rate their knowledge into ML through feature engineering, supported by interactive interfaces
+
+and visual representations. While feature engineering is a standard part of ML workows
+
+Fig. 1 Integrating human
+
+expertise into the ML pipeline.
+
+Knowledge is embedded through
+
+data structuring and realistic
+
+neighbourhood generation, sup-
+
+porting model interpretability
+
+and explanation plausibility
+
+Approach Focus Limitations ad-
+
+dressed by our work
+
+Informed ML von Rueden
+
+et al., ( 2023)
+
+Formal knowl-
+
+edge integration
+
+Requires structured
+
+prior knowledge
+
+V A for ML Sacha et al.,
+
+( 2019); Endert et al.,
+
+( 2017)
+
+Interactive model
+
+renement
+
+Limited support
+
+for knowledge
+
+encoding
+
+XAI methods (e.g., LIME,
+
+SHAP, ANCHOR)
+
+Instance-level
+
+explanations
+
+Synthetic data may
+
+violate domain
+
+constraints
+
+LORE Guidotti et al.,
+
+( 2019a)
+
+Rule-based local
+
+modeling
+
+Lacks expert-driven
+
+neighborhood
+
+control
+
+Explanatory IML T eso &
+
+Kersting, ( 2019); Bhat-
+
+tacharya et al., ( 2024)
+
+Iterative explana-
+
+tion renement
+
+Our work applies
+
+this in model-
+
+agnostic, V A-driven
+
+settings
+
+Table 1 Comparison of related
+
+approaches to our framework
+
+1 3
+
+Page 5 of 39 250
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+(Dong & Liu, 2018), our contribution lies in oering UI components and visualization tech-
+
+niques that enable experts to (a) apply and manage domain-informed data transformations,
+
+(b) assess the representational adequacy of engineered features for the modelling task, and
+
+(c) explore and compare model outputs across iterations to identify and address perfor-
+
+mance issues. The framework is organized around a set of modular operations:
+
+Step 1: Data abstraction – dening analytical units
+
+Raw data often consist of elementary observations tied to individual objects, timestamps,
+
+or locations. The rst step is to dene higher-level units of analysis suitable for the model-
+
+ling task, e.g., grouping time points into intervals, spatial points into regions, or individuals
+
+into groups. The framework provides interactive interfaces to congure such aggregations
+
+and view their eects on the data distribution (see, for example, Andrienko et al. ( 2016,
+
+2023)).
+
+Step 2: Context encoding
+
+Many predictive tasks depend not only on the internal properties of a unit but also on the
+
+context in which the unit occurs. Experts can dene context windows, e.g., preceding time
+
+intervals, neighbouring regions, or connected nodes of a network, and derive features that
+
+summarise relevant surrounding conditions. Our tools support this through parametrised
+
+transformations and visual representations allowing users to inspect the relevance and infor-
+
+mativeness of contextual features (e.g., Peng et al. ( 2025)).
+
+Step 3: Synoptic feature construction
+
+To capture the internal structure or dynamics of a unit, the system provides functions
+
+for computing statistical summaries, trends, variation measures, or custom aggregates. For
+
+example, experts can summarise speed variations over a time interval or density distribu-
+
+tions within a region. V isualisations help users to verify whether the derived features align
+
+with domain-relevant behaviour patterns (e.g., Andrienko et al. ( 2024)).
+
+Step 4: Iterative model renement
+
+After model training, experts can compare predictions across model versions using side-
+
+by-side views and performance overlays. This feedback loop allows users to detect where
+
+features are insucient or misleading, and return to previous steps to rene transformations
+
+or add new features.
+
+This iterative process allows domain knowledge to shape the model indirectly through
+
+improved data representation. Rather than encoding knowledge explicitly in rules or ontolo-
+
+gies, experts interactively rene how data are structured, contextualised, and summarised
+
+to better capture relevant behaviour patterns. Our framework supports this process through
+
+interfaces drsigned for expert-guided data transformation and responsive visual feedback.
+
+Many of these tools have been introduced in our prior work. Some papers are cited above,
+
+but a comprehensive overview is beyond the scope of this paper. Instead, we focus on two
+
+case studies where temporal abstraction was used to craft meaningful features for interpre-
+
+table model development.
+
+3.2 Incorporating human knowledge in explanations
+
+In our work, we focus on generating local explanations telling how a model obtains a spe-
+
+cic prediction for a given instance. W e build on the rule-based explanation method LORE
+
+(LOcal Rule-based Explanation) (Guidotti et al., 2019a), which approximates the model's
+
+1 3
+
+250 Page 6 of 39
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+decision boundary in the local neighbourhood of the instance via a transparent surrogate
+
+model. The explanation takes the form of logical rules:
+
+(1) a factual rule, which identies the key factors leading to the prediction, and
+
+(2) a set of counterfactual rules describing minimal changes in feature values that would
+
+alter the prediction.
+
+Both rule types are represented as logical conjunctions in the antecedent with a predicted
+
+class as the consequent. Counterfactual rules are particularly aligned with human reasoning
+
+styles, as they provide contrastive examples encouraging the users to explore alternative
+
+scenarios that could arise by adjusting input features. Presentation of counterfactual rules
+
+is widely recognised in human-centred XAI research (Miller, 2019; Riveiro & Thill, 2021).
+
+Explanations are more eective when they reference concepts familiar to the user. By
+
+relying on features engineered through expert-driven abstraction and contextualisation (see
+
+Section 3.1), we expect that our explanations align closely with domain knowledge and thus
+
+can be well understood by users.
+
+Neighbourhood generation in LORE
+
+To derive local rules, LORE generates a synthetic neighbourhood around the instance
+
+of interest. These synthetic instances are created by perturbing feature values and then
+
+querying the black-box model to obtain predictions. The resulting labelled instances serve
+
+as training data for a transparent surrogate model (e.g., a decision tree), which learns to
+
+approximate the black-box model's local decision boundary.
+
+Neighbourhood generation in LORE uses a genetic algorithm with the following steps:
+
+(1) Initialization: A seed population is formed by replicating the input instance x.
+
+(2) Mutation and Crossover: At each generation, feature values are randomly modied
+
+(mutation) or recombined from pairs of instances (crossover).
+
+(3) Selection: Individuals with the highest tness are selected for the next generation. Fit-
+
+ness is computed based on (a) feature similarity (closeness to x in input space) and (b)
+
+target similarity (closeness in predicted class).
+
+(4) Dual Objective Optimization: Two sub-populations are evolved separately:
+
+●
+
+Instances similar to x with the same predicted class.
+
+●
+
+Instances similar to x with a dierent class.
+
+These sub-populations are merged to form the local training dataset for the surrogate
+
+model. Incorporating human knowledge via constraints
+
+To ensure that generated explanations are meaningful to domain experts, we extend LORE
+
+with domain knowledge through neighbourhood constraints, guiding the synthetic data gen-
+
+eration process:
+
+●
+
+Hard Constraints: Following the data abstraction and contextualization steps, the
+
+synthetic instances need to adhere to the same structural properties. Hard constraints
+
+represent these properties. Any synthetic instance violating these constraints (e.g., tem-
+
+poral orderings) is discarded.
+
+1 3
+
+Page 7 of 39 250
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+●
+
+Soft Constraints: These constraints serve as guidance for the generation process, pro-
+
+viding weights and priorities for the features. For example, if a feature is considered
+
+more important by the expert, it will be more likely to be altered in the synthetic in-
+
+stances.
+
+This constraint-driven extension allows the generated neighbourhood to better align with
+
+the expert's mental model and domain expectations.
+
+Alternative neighbourhood generators
+
+To assess the eect of constraint-driven generation, we compare against two alternative
+
+generators:
+
+●
+
+Random Generator: A baseline implemented in the LORE Python library that perturbs
+
+features independently within their value ranges until the neighbourhood reaches the
+
+desired size.
+
+●
+
+kNN Generator: A new baseline introduced by us, which selects the k nearest neigh-
+
+bours from the original training set based on feature distance. This method does not
+
+generate synthetic data but instead reuses existing instances. It is applicable only when
+
+suitable labelled data (e.g., the model training data) are available.
+
+4 Case studies
+
+To evaluate the practical utility and generalizability of our proposed methodology, we con-
+
+ducted two case studies in distinct domains: (1) prediction of COVID-19 incidence level
+
+changes using temporal context features derived from prior disease trends and mobility
+
+data, and (2) classication of vessel movement patterns based on trajectory features. The
+
+case studies serve three primary purposes: (1) to demonstrate how expert knowledge can be
+
+integrated into the ML pipeline through visual analytics-supported data preparation and syn-
+
+thetic neighbourhood generation, (2) to assess the impact of knowledge-informed instance
+
+generation on explanation quality, and (3) to reveal possible limitations of our approach.
+
+Importantly, we conduct these investigations without modifying the core ML or XAI algo-
+
+rithms, thereby revealing how much improvement can be achieved within existing frame-
+
+works by embedding domain knowledge at the data and representation levels.
+
+For both case studies, we employed Random Forest as our classication method due to
+
+its robust performance characteristics and practical advantages. This ensemble technique
+
+combines multiple decision trees to deliver high accuracy while eciently capturing com-
+
+plex non-linear relationships and feature interactions. However, our framework is general
+
+and can be applied with any ML method.
+
+4.1 Case study 1: COVID-19 and population mobility in Spanish provinces
+
+This case study uses data collected in Spain during the COVID-19 pandemic to predict
+
+upcoming COVID-19 incidence levels based on trends in disease and population mobility in
+
+preceding weeks. The dataset includes daily counts of COVID-19 cases and intra-provincial
+
+mobility across 52 provinces over 64 weeks, derived from open sources (Ponce-de Leon et
+
+al., 2021a, b, c, d).
+
+1 3
+
+250 Page 8 of 39
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+4.1.1 Incorporating domain knowledge in model development
+
+Step 1: Data abstraction – dening analytical units
+
+Raw daily time series were smoothed with a 7-day moving average to reduce noise and
+
+weekly cyclicity. The smoothed data were segmented into weekly episodes, which were
+
+categorized into four ordinal levels for COVID-19 severity (c1 to c4) and mobility (m1 to
+
+m4). Consecutive episodes with the same level were grouped into events dened as coherent
+
+intervals of high or low incidence or mobility (Fig. 2).
+
+Step 2: Context encoding
+
+Each COVID-19 event was assigned a temporal context dened by the COVID-19 and
+
+mobility levels over the six preceding weeks. This window length was chosen based on epi-
+
+demiological reasoning: the eects of mobility changes on disease incidence typically man-
+
+ifest with a delay of about three weeks, corresponding to the incubation period and reporting
+
+lag. An additional three weeks were included to capture trends and make directional changes
+
+in incidence or mobility more detectable. The resulting context encodes short-term temporal
+
+dynamics relevant for predicting the severity of upcoming COVID-19 events (Fig. 3).
+
+Step 3: Synoptic feature construction
+
+The context window was converted into 12 categorical features (6 weeks
+
+×
+
+2 variables),
+
+describing the sequence of COVID-19 and mobility levels. An additional continuous fea-
+
+ture, “days since pandemic onset”, was added to account for broader temporal eects.
+
+Step 4: Iterative model renement
+
+A random forest classier was trained to predict the level (c1–c4) of each COVID-19
+
+event from its context. Visual analytics was used to inspect model predictions, identify
+
+temporal or regional misclassications, and guide renement. Through human-in-the-loop
+
+iteration, we introduced targeted improvements:
+
+●
+
+Temporal and spatial decomposition (e.g., isolating early pandemic phases, separating
+
+island provinces)
+
+●
+
+Filtering outliers and non-representative periods
+
+●
+
+Model comparison via visualization of misclassication patterns across time and prov-
+
+inces (Fig. 4)
+
+Fig. 2 Visualisation of weekly episodes derived from time series of COVID-19 incidence and popula-
+
+tion mobility in provinces of Spain. The horizontal dimension represents time, the rows correspond to
+
+the provinces, and the cells represent the episodes coloured by the levels of disease incidence (left, from
+
+green for low to red for high) and mobility (right, from red for very low to blue for normal)
+
+1 3
+
+Page 9 of 39 250
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+This process allowed domain experts to iteratively inject knowledge into both data represen-
+
+tation and model structure, improving both interpretability and performance beyond what
+
+could be achieved with raw data and automatic learning alone.
+
+4.1.2 Incorporating domain knowledge into neighbourhood generation
+
+During the data preparation phase, we identied internal constraints and relationships within
+
+our data that could not be captured by traditional neighbourhood generators. These included
+
+time-related patterns and the prevalence of gradual rather than abrupt changes over time. W e
+
+developed a customized neighbourhood generator designed to account for these dependen-
+
+cies and constraints. Each event record comprises three sections: (1) attribute describing
+
+Fig. 4 Comparison of dierent versions of the pandemic level model by visual inspection of the distribu-
+
+tions of model errors over time (horizontal dimension) and provinces (vertical dimension). The events are
+
+represented by horizontal bars with model errors encoded by the colours. Shades of blue and red signify,
+
+respectively, under and over-estimation of the pandemic event level; the darkness is proportional to the
+
+dierence between the predicted and actual levels
+
+Fig. 3 Visual representation of temporal contexts of four selected examples of pandemic events from
+
+dierent classes by disease incidence. The columns of the matrices correspond to the weeks from -6 to
+
+-1 preceding the events. Each row corresponds to one level of either COVID-19 (top 4 rows) or mobility
+
+(lower 4 rows). The lled cells signify which levels of COVID-19 and mobility were attained before the
+
+events started. The colours of the lled rectangles reect the classes (levels) of the represented events
+
+1 3
+
+250 Page 10 of 39
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+temporal positioning, (2) epidemic severity classes for COVID-19, and (3) mobility inten-
+
+sity classes. While the legacy neighbourhood generator used in LORE randomly selects fea-
+
+ture values to perturb within a predened radius, we want to restrict this perturbation based
+
+on the internal properties of our data, ensuring that feature values for COVID-19 and mobil-
+
+ity remain consistent with domain-specic constraints. For example, abrupt transitions from
+
+a low epidemic level to the maximum level are avoided, as are inconsistencies like abrupt
+
+level drops in sequences of high-incidence epidemic classes. W ithin the LORE pipeline, this
+
+neighbourhood generation step is where domain-specic rules can be incorporated.
+
+W e dened a set of soft constraints to guide the perturbation process, ensuring that gen-
+
+erated data remain realistic and domain-consistent. Our approach is based on the observa-
+
+tion that COVID-19 and mobility levels from previous weeks strongly inuence subsequent
+
+levels. For instance, a high epidemic level is more likely to persist or transition to another
+
+high level in the following week. T o capture these dependencies, we modelled transitions
+
+using probability distributions derived from training data. These transitions are encoded in a
+
+transition matrix that governs how feature values change over time. Specically, we dene
+
+a
+
+5 × 5
+
+matrix A, where each element
+
+a i,j
+
+represents the probability of transitioning from
+
+state
+
+s i
+
+to state
+
+s j
+
+. Figure 5 illustrates examples of these matrices for COVID-19 and mobil-
+
+ity features, highlighting dierences in transition patterns. Bipartite graphs further visualize
+
+weighted transition probabilities, oering an intuitive representation of these relationships.
+
+W e exclude class 0 (missing or undened values) to ensure valid record generation.
+
+To estimate the transition probabilities, we trained a Bayesian network on the real-world
+
+data. This network models dependencies between consecutive weeks as a directed graph,
+
+where each state inuences the next (e.g.,
+
+P( week n=
+
+s
+
+l| week n− 1=
+
+s
+
+k)
+
+, with l and k
+
+representing COVID-19 or mobility levels). Conditional probabilities were averaged across
+
+weeks to obtain stable transition probabilities for each level pair. The resulting transition
+
+matrices serve as the basis for perturbations, preserving domain knowledge and generating
+
+consistent neighbourhoods.
+
+This approach is computationally ecient: since transitions rely on precomputed prob-
+
+abilities stored in index-based data structures, perturbation lookup operates in constant time,
+
+regardless of the number of generated instances. This ensures that the method integrates
+
+seamlessly with the legacy algorithm without increasing its computational complexity. The
+
+quality of the generated neighbourhoods is evaluated in Section 6.
+
+Fig. 5 On the left: The COVID-19 and Mobility transition matrices used as constraints to generate
+
+neighbourhoods. On the right: Bipartite graphs with the probabilities for COVID-19 (Left) and Mobil-
+
+ity (Right) state transitions. The thickness of each arc is proportional to the probability of the transition
+
+1 3
+
+Page 11 of 39 250
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+4.2 Case study 2: vessel movement pattern recognition
+
+This case study addresses the classication of short vessel trajectory segments into six types
+
+of movement behaviour: 1 - straight movement, 2 - curved movement, 3 - trawling, 4 -
+
+port-connected (entering or exiting a port), 5 - near port (manoeuvring near a port), and
+
+6 - anchored. The dataset comprises trajectories of 71 shing vessels operating north-west
+
+of France between October 1, 2015, and March 31, 2016, sourced from an openly available
+
+repository 1. The six movement types are illustrated in Fig. 6.
+
+4.2.1 Incorporating domain knowledge in model development
+
+Step 1: Data abstraction – dening analytical units
+
+The raw vessel trajectories were segmented into overlapping 3-hour episodes with a
+
+1-hour shift between consecutive segments. This window length balances temporal context
+
+and segment resolution: three hours is typically sucient to capture operational patterns
+
+such as trawling or anchoring. Overlaps ensure that important patterns are not lost at seg-
+
+ment boundaries, enabling better continuity and behavioural interpretation. Each episode
+
+becomes a single data instance for subsequent classication.
+
+Step 2: Context encoding
+
+The key contextual factor in this domain is proximity to port, as it strongly inuences
+
+vessel behaviour. T o incorporate this context, the minimum and maximum distance from the
+
+nearest port were computed for each episode using an external dataset of port coordinates.
+
+1 https://zenodo.org/records/1167595
+
+Fig. 6 V isually supported preparation of data for recognition of vessel movement patterns. Upper row,
+
+from left to right: 1) UMAP projection of episodes based on the generated features; 2) complete original
+
+trajectories; 3) episodes of straight movement; 4) episodes of curved movement. Lower row, from left to
+
+right: 5) trawling; 6) port-connected; 7) near port; 8) anchored
+
+1 3
+
+250 Page 12 of 39
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+These two features – Log10MinDistPort (log-transformed) and MaxDistPort – cap-
+
+ture whether the vessel is performing port-related manoeuvres or operating farther oshore.
+
+Step 3: Synoptic feature construction
+
+W e generated 7 synoptic features characterising the vessel movement during the lifetime
+
+of each episode. They summarize speed distribution, movement direction, and trajectory
+
+complexity:
+
+●
+
+SpeedMinimum, SpeedQ1, SpeedMedian, SpeedQ3: Statistics of speed
+
+smoothed over a 5-minute window, representing the distribution from minimum to up-
+
+per quartile.
+
+●
+
+Log10Curvature: Logarithm of the curvature of the vessel's distance-from-start
+
+time series, computed as the ratio between the sum of absolute consecutive changes
+
+and the amplitude of values. A value close to 1 indicates straight-line movement; higher
+
+values indicate loops or turns.
+
+●
+
+DistStartTrendAngle: Angle of the tted linear trend to the distance-from-start
+
+time series, capturing the directional tendency of movement away from the starting
+
+point.
+
+●
+
+Log10DistStartTrendDevAmplitude: Logarithm of the amplitude of devia-
+
+tions from the tted trend line, quantifying local path tortuosity or zigzagging.
+
+Logarithmic transformations were applied to features with skewed distributions (namely
+
+curvature, deviation amplitude, and minimum port distance) to improve separability and
+
+model performance.
+
+Log10Curvature and Log10DistStartTrendDevAmplitude jointly describe
+
+the shape complexity of a movement episode: the former reects global movement geom-
+
+etry, while the latter captures local irregularities. Together, they support ne-grained dis-
+
+crimination between behaviours such as steady outward navigation, trawling, and in-place
+
+manoeuvring.
+
+Feature eectiveness was evaluated using dimensionality reduction (UMAP; see Fig. 6,
+
+top left), which revealed distinct clusters of movement patterns. These clusters were exam-
+
+ined through interactive map-based visualization, and representative episodes were labelled
+
+by domain experts.
+
+Step 4: Iterative model renement
+
+The process of feature design and evaluation was iterative: a k-nearest neighbours (kNN)
+
+classier was used as a rapid probe to assess the discriminative power of evolving feature
+
+sets. When results were inconclusive, new features were designed or rened to enhance
+
+behavioural distinction. After achieving good results with kNN, a random forest classier
+
+was trained using 5-fold cross-validation with a xed random seed (0) to ensure reproduc-
+
+ibility. The nal model achieved 98% accuracy, conrming that the constructed synoptic
+
+and contextual features were sucient to accurately distinguish movement patterns without
+
+additional post-hoc tuning.
+
+The process of dening movement episodes and feature engineering in this case study is
+
+described in more detail in our earlier publication (Andrienko et al., 2024).
+
+1 3
+
+Page 13 of 39 250
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+4.2.2 Incorporating domain knowledge into neighbourhood generation
+
+Following the feature engineering described in the previous section, we dene two sets of
+
+constraints to guide the neighbourhood generation process:
+
+●
+
+Hard Constraints: the speed features should be consistent with the internal dependen-
+
+cies. We discard or correct those instances that do not satisfy these internal consisten-
+
+cies.
+
+●
+
+Soft Constraints: W e introduce a preferential selection of features to be perturbed based
+
+on their importance for each target class. DT-based generator
+
+This generator designs a mechanism to select the features to be perturbed based on a set of
+
+domain-specic relationships among the feature values. Since these relationships are too
+
+complex to be expressed through a set of precise statements by the expert, we introduce a
+
+method based on decision trees (DT) by leveraging the knowledge embedded in the train-
+
+ing data. For each class c, we construct a DT to distinguish instances of this class from
+
+all others. The training is performed on a modied version of the training dataset, where
+
+instances belonging to class c are labelled as positive examples (1), while all others as
+
+negative examples (0). The resulting tree serves as a representation of the relationships that
+
+discriminate class c from the rest.
+
+Given the forest of DTs, when an instance x is processed, it is rst classied by the
+
+black box model. The predicted class determines the appropriate binary DT in the for-
+
+est, which is then used to classify x and retrieve the decision rules along its classication
+
+path. Figure 7 provides a schematic representation of this process. The features involved
+
+in the decision path are prioritized for perturbation to generate the neighbourhood. In the
+
+toy example shown in Fig. 7, the three attributes used by the tree are given a higher prob-
+
+ability of being perturbed. This selective perturbation process is used to incorporate the
+
+soft constraints into the perturbation process. The set of hard constraints ensures the
+
+correct relationships between the values of the speed features, namely: SpeedMinimum
+
+≤
+
+SpeedQ1
+
+≤
+
+SpeedMedian
+
+≤
+
+SpeedQ3. Features not selected by the binary DT s can
+
+still be perturbed with a lower probability. The computational cost of this selective perturba-
+
+tion process remains comparable to the baseline random generator, with a slight one-time
+
+overhead due to training the forest of DTs. The process involves a single classication by a
+
+DT, followed by selective perturbation of the identied features.
+
+Genetic optimization of DT-based generator
+
+Fig. 7 Example of a forest of decision trees (DT) used to dene the probability of perturbation of relevant
+
+features for an instance. Given an input instance x, classied as 'Class 1' (Left), the corresponding deci-
+
+sion tree provides the features that contribute to its classication. These features, highlighted in red, are
+
+then used to perturb x
+
+1 3
+
+250 Page 14 of 39
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+W e improved our DT-based generator using a genetic optimization process to improve
+
+performance. While retaining the tness functions from LORE, we introduced custom muta-
+
+tion and crossover operators. During the genetic optimization, the operation of mutation
+
+and crossover are limited by the same set of hard constraints and soft constraints as the
+
+DT-based generator. The genetic optimization improves the generation of opposite classes
+
+and the quality of the generated neighbourhoods.
+
+5 LLM-suppor ted generation of synthetic neighbours
+
+Domain experts may struggle to incorporate their specialised knowledge into synthetic data
+
+generation without support from skilled data engineers. We have investigated how lar ge
+
+language models (LLMs) can bridge this gap by enabling non-technical domain experts
+
+to collaboratively create, rene, and validate synthetic data generation methods. Through
+
+this approach, LLMs serve as intelligent intermediaries that translate domain expertise into
+
+actionable data generation processes, making synthetic data creation easier and more e-
+
+cient for experts.
+
+5.1 COVID-19 and mobility: an experiment with ChatGPT
+
+W e conducted an experiment with using GPT-4 Turbo (ChatGPT-4o) for generating syn-
+
+thetic neighbourhoods in a COVID-19 and mobility prediction task. Here we provide a brief
+
+summary. A more detailed description is available in Appendix A.
+
+Through an iterative dialogue with the LLM, we specied requirements for the genera-
+
+tor, emphasizing the need for both randomness and domain consistency. The LLM produced
+
+Python code that integrated key domain knowledge in the form of transition probabilities
+
+between COVID-19 and mobility levels. After assessing the rst result, the LLM was fur-
+
+ther requested to increase the diversity of the generated instances to ensure predictions to
+
+cover all target classes.
+
+The nal Python code was tested using 15 real input instances. For each, 100 synthetic
+
+neighbours were generated. These were evaluated using the predictive model and visualised
+
+using UMAP, which produced a 2D projection of the instances according to their similarity.
+
+Visualisations revealed that synthetic neighbours clustered around their original instances
+
+while also exhibiting sucient diversity to yield varied model predictions. This conrmed
+
+the generator's ability to produce plausible and informative data variations.
+
+The experiment was judged successful, showing the potential of LLMs to act as interac-
+
+tive coding assistants for building data generators guided by expert knowledge. However,
+
+some challenges were revealed. Translating informal domain insights into precise prompts
+
+often required reformulation. The generated code needed validation and debugging. These
+
+tasks demand coding skills, which domain experts may lack. Visual analytics proved helpful
+
+for evaluating neighbourhood quality, but further tools are needed to assess the realism of
+
+feature combinations more systematically.
+
+1 3
+
+Page 15 of 39 250
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+5.2 Vessel activities: an experiment with Google Gemini
+
+For the vessel movement case study, we conducted an experiment using Google Gemini
+
+version 2.5 Flash. Using a textual prompt describing domain-specic constraints and fea-
+
+ture characteristics, the LLM generated a Python implementation with methods to produce
+
+class-targeted, constraint-compliant synthetic neighbours. The generator integrates expert
+
+knowledge into the perturbation process through the following mechanisms:
+
+●
+
+Feature-constrained perturbation: Feature values are perturbed within reasonable ranges
+
+while preserving known structural relationships:
+
+– Speed statistics ( SpeedMinimum, SpeedQ1, SpeedMedian, SpeedQ3) must
+
+maintain ascending order and remain within the empirical upper bound (22.0 knots).
+
+– Curvature-related features such as Log10Curvature, DistStartTrendA-
+
+ngle, and Log10DistStartTrendDevAmplitude are constrained to lie
+
+within historically observed ranges.
+
+– A domain rule is enforced: high speed cannot co-occur with high curvature.
+
+– Speed- and distance-related features are kept within valid, non-negative domains,
+
+while Log10MinDistPort is kept above a known minimum of
+
+− 3. 05
+
+.
+
+●
+
+Class-tendency-guided generation: The generator strives to produce synthetic instances
+
+biased toward each of the six behaviour classes. For example, instances simulating "an-
+
+chored" behaviour are generated with very low speed and high curvature. This mecha-
+
+nism supports counterfactual exploration and class separation analysis.
+
+●
+
+Balanced neighbourhood construction: For a given input instance, the generator pro-
+
+duces a user-specied number of synthetic neighbours. It balances the output across all
+
+six class tendencies, ensuring that the resulting neighbourhood exhibits class diversity.
+
+A more detailed description, including evaluation of generated synthetic instances by means
+
+of visual analytics techniques, is available in Appendix B.
+
+This experiment again illustrates that LLMs can translate high-level expert instructions
+
+into executable, constraint-aware code for synthetic data generation. Similar to the COVID-
+
+19 case study, the generated neighbourhood supports downstream tasks such as explanation
+
+generation and model testing. Both experiments demonstrate the high potential of LLMs
+
+in supporting human-in-the-loop model testing and explanation by enabling domain-aware
+
+synthetic data generation.
+
+6 Evaluation and discussion
+
+The evaluation of our proposed methodology is structured into two parts. First, we compare
+
+the properties of synthetic neighborhoods generated by standard domain-agnostic methods
+
+with those produced by our domain-informed approaches. The comparison is guided by
+
+three key criteria: realism, locality, and diversity. Our primary research question in this part
+
+is whether the incorporation of domain knowledge leads to the generation of higher-quality
+
+synthetic data.
+
+1 3
+
+250 Page 16 of 39
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+In the second part of the evaluation, we assess the explanatory rules generated using
+
+synthetic neighbourhoods created by dierent methods. Our initial hypothesis was that
+
+higher-quality synthetic data would enable the derivation of more accurate, meaningful, and
+
+trustworthy explanations. However, as we discuss later, this hypothesis was not conrmed.
+
+The observed limitations point to more fundamental deciencies in current algorithmic XAI
+
+techniques that derive explanations purely from data.
+
+6.1 Evaluation of synthetic neighbourhoods
+
+To evaluate the impact of the proposed methodology, we conducted comparative assess-
+
+ments of the outcomes of dierent generators for the two use cases. The goal was to com-
+
+pare each generator's performance in terms of alignment with the expert' s ground truth.
+
+As a reference, we used the respective training data of both domains based on the intuition
+
+that if the generated neighbourhoods aligned with expert knowledge, they should also align
+
+with the training data distribution. Consequently, the derived explanation rules would be
+
+consistent with both.
+
+W e apply two methods of comparison. (1) Analytical comparison, where we used a
+
+combination of measures to assess the locality, compactness, and plausibility of the pro-
+
+duced instances.
+
+(2) V isualization-based qualitative comparison of features, comparing for each neigh-
+
+bourhood generator the marginal distribution of features of the synthetic instances with the
+
+training data. This comparison has the goal to assess how much the generated instances
+
+are consistent with the domain knowledge and how each generator is able to diversify the
+
+feature values.
+
+Analytical comparison
+
+Neighbourhood generators are designed to produce a set of points as perturbation of a
+
+given instance x, with two primary objectives: (i) ensuring that the generated points exhibit
+
+realistic values, i.e., that they are likely to belong to the original training distribution; and
+
+(ii) maintaining proximity between the generated instances and x.
+
+To quantitatively assess the compactness criterion, we use the measure as dened in
+
+Guidotti et al. ( 2019a), that we named instance distance, computed as the average distance
+
+of all generated instances from the original instance x. Formally:
+
+D
+
+( x, N )=
+
+1
+
+|
+
+N
+
+| ∑
+
+z
+
+i ∈
+
+N
+
+d( x, z i)
+
+,
+
+where
+
+d( x, z i)
+
+is the distance between the original instance x and each generated instance
+
+z i
+
+in the neighbourhood N. In our implementation, we use the Euclidean distance for this
+
+measure, although the choice of distance metric is congurable.
+
+To evaluate the realism of the generated neighbourhoods, we use the Ener gy Distance
+
+(Székely & Rizzo, 2013) and Maximum Mean Discrepancy (MMD) (Gretton et al., 2012),
+
+which are commonly employed to compare distributions. The Energy Distance is a sta-
+
+tistical metric that quanties the discrepancy between two probability distributions, while
+
+MMD measures the distance between the means of two distributions in a reproducing kernel
+
+Hilbert space. Both metrics provide insight into how well the generated neighbourhoods
+
+resemble the training data distribution.
+
+1 3
+
+Page 17 of 39 250
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+W e compared the neighbourhoods produced by each generator to the training data distri-
+
+bution. For each instance x, we generated a neighbourhood N of size
+
+n= 2000
+
+using each
+
+generator. This process was repeated multiple times, and for each repetition and each gen-
+
+erator, we computed the aforementioned metrics. In all cases, the tests consistently rejected
+
+the null hypothesis that the distributions of the generated neighbourhoods and the training
+
+data are the same ( p-value
+
+< 0. 001
+
+).
+
+Table 2 summarizes the results of the analytical comparison for the Vessel case study.
+
+Among the evaluated generators, the Custom and Custom Genetic generators achieved the
+
+lowest instance distance, indicating that they are able to produce compact neighbourhoods
+
+that are close to the original instance. The LLM generator also performed well, producing a
+
+compact neighbourhood and the lowest divergence across the Energy and MMD measures,
+
+indicating that it successfully captured the training data distribution. The Genetic, Custom
+
+Genetic, and Custom generators have comparable distributions. The Random generator, as
+
+expected, produced the largest instance distance, indicating that it generated data that is very
+
+spread out. The Baseline generator, which simply extracts instances from the training data,
+
+achieved the lowest Energy distance and it does not produce MMD, as the two distributions
+
+are identical. In summary, the Custom and LLM generators yielded the best results, dem-
+
+onstrating their ecacy in capturing internal data characteristics. This also demonstrates
+
+that the constraints dened by the LLM were eective in producing a generator that match
+
+the requirements of the domain. From a computational perspective, the LLM generator was
+
+the most ecient. The Custom generator, while slightly slower, is the generator that best
+
+balances performance and output quality. The Custom Genetic generator, while producing
+
+the most compact neighbourhoods, was signicantly slower due to the genetic optimization
+
+process.
+
+Table 3 summarizes the results of the analytical comparison for the COVID-19 and
+
+mobility case study. Since the majority of the features of this dataset are categorical, poten-
+
+tial perturbations are limited. This generates a similar performance across all generators,
+
+in particular for the Instance distance measure. Given the limited variability of the fea-
+
+ture space there is no a clear winning generator. For this reason, the analytical comparison
+
+provides only a partial view of the performance of the generators. In the next section, we
+
+complement this analysis with a qualitative comparison of the feature distributions of the
+
+generated neighbourhoods.
+
+Visualization-based qualitative comparison of feature distributions
+
+To better understand the quality of the generated neighbourhoods, we conducted a quali-
+
+tative comparison of the feature distributions of the synthetic instances produced by each
+
+generator. W e implemented a visual-based dashboard that provides a comprehensive over-
+
+view of the generated neighbourhoods. For each feature and for each generator, we display
+
+Table 2 Vessel movements: Comparison of neighborhood methods across Instance distance, Energy, MMD,
+
+and Time (mean ± standard deviation)
+
+Generator Instance distance Energy MMD Time (s)
+
+Random
+
+1400 ± 12. 0031
+
+8990 ± 13. 7530
+
+0178 ± 0. 0014
+
+0358 ± 0. 0042
+
+Baseline
+
+6637 ± 4. 8497
+
+0910 ± 0. 0000
+
+N/A
+
+0024 ± 0. 0001
+
+Custom
+
+2196 ± 0. 2118
+
+5748 ± 0. 0430
+
+0399 ± 0. 0004
+
+5345 ± 0. 1702
+
+Genetic
+
+0275 ± 4. 0885
+
+9352 ± 0. 1566
+
+0575 ± 0. 0009
+
+4913 ± 0. 2668
+
+Custom genetic
+
+2714 ± 0. 9461
+
+0236 ± 0. 6921
+
+0587 ± 0. 0053
+
+7897 ± 0. 7902
+
+LLM
+
+9267 ± 1. 5013
+
+1266 ± 0. 0198
+
+0083 ± 0. 0002
+
+0500 ± 0. 0021
+
+1 3
+
+250 Page 18 of 39
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+a row of histograms with the marginal distribution of the feature values. This allows us to
+
+visually assess how well the generators are capable of capturing the internal structure of
+
+the domain. All the distributions are directly compared with the training data distribution,
+
+which serves as a reference for the expected feature values.
+
+The visualization starts from an instance x. For example the charts in Figure 8 show the
+
+distributions of the features for a specic instance of the T rawling class from the V essel data-
+
+set. The instance has the following feature values: SpeedMinimum=0.91, SpeedQ1=2.37,
+
+SpeedMedian=2.49, SpeedQ3=2.78, Log10DistanceStartShapeCurvature=0.39, Distan-
+
+ceStartTr endAngle=-0.01, LogDistStartTr endDevAmplitude=0.70, MaxDistPort=27.55,
+
+LogMinDistPort=1.30.
+
+The columns on the right show the distribution of the training data. However, the genera-
+
+tors aim to produce local instances. Thus, it is important to consider the distribution of the
+
+Baseline generator, which contains elements of the original training data restricted to the
+
+local neighbourhood of the instance x.
+
+W e observe that the Random generator produces a distribution very dierent from the
+
+training data, as it samples randomly from the entire feature space. In contrast, all other
+
+generators produce instances that remain closer to the training data distribution. Starting
+
+from the distribution of classes in each neighbourhood, we can observe that the Random
+
+generator produces instances across all possible classes. The Custom, Genetic, and Custom
+
+Genetic generators focus on a limited number of classes near x. The LLM generator pro-
+
+duces a broader distribution of classes, designed to diversify the neighbourhoods.
+
+The speed-related features ( SpeedMinimum, SpeedQ1, SpeedMedian, and SpeedQ3)
+
+show that customized generators reproduce internal relationships and constraints eec-
+
+tively. The Custom, Genetic, and Custom Genetic generators generate narrow value ranges,
+
+whereas the LLM generator produces distributions closer to the training data.
+
+Similarly, for shape-based features ( Log10DistanceStartShapeCurvatur e, DistanceStart-
+
+Tr endAngle, and LogDistStartTr endDevAmplitude), the LLM generator mimics the local
+
+distribution of the Baseline data eectively. For port proximity features ( MaxDistPort and
+
+LogMinDistPort), the Custom, Custom Genetic, and Genetic generators focus on the local
+
+neighbourhood of x, while the LLM generator explores a wider feature space.
+
+Figure 9 shows the dashboard for the COVID-19 and mobility case study. The instance
+
+x used to generate the neighbourhoods has the following feature values: week6_covid=c3,
+
+week5_covid=c3, week4_covid=c3, week3_covid=c3, week2_covid=c2, week6_mobility=c4,
+
+week5_mobility=c3, week4_mobility=c4, week3_mobility=c4, week2_mobility=c3, week1_
+
+mobility=c4, week_passed=63. The Random generator produces instances with feature
+
+Table 3 COVID-19 and mobility
+
+Generator Instance distance Energy MMD Time
+
+Random
+
+2837 ± 0. 1386
+
+3761 ± 0. 0375
+
+0052 ± 0. 0003
+
+3078 ± 0. 0400
+
+Baseline
+
+2837 ± 0. 1386
+
+0000 ± 0. 0000
+
+N/A
+
+0002 ± 0. 0000
+
+Custom
+
+5898 ± 0. 0760
+
+7483 ± 0. 0187
+
+0203 ± 0. 0003
+
+0482 ± 0. 0039
+
+Genetic
+
+7421 ± 0. 0567
+
+2248 ± 0. 0500
+
+0336 ± 0. 0005
+
+2679 ± 0. 3779
+
+Custom
+
+genetic
+
+8902 ± 0. 0929
+
+3411 ± 0. 0647
+
+0391 ± 0. 0004
+
+5833 ± 1. 0018
+
+GPT
+
+4904 ± 0. 0657
+
+0216 ± 0. 0204
+
+0253 ± 0. 0004
+
+4225 ± 0. 0440
+
+Compar ison of generat or varia nts across I nstanc e distanc e, Energy, MMD, a nd Time (mean ± sta ndard
+
+deviation)
+
+1 3
+
+Page 19 of 39 250
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+values uniformly distributed across the entire feature space, resulting in a set of data distri-
+
+butions that do not align with the training data. In contrast, the Custom and GPT generators
+
+produce instances that are very close to each other, reecting the constraints imposed by
+
+the domain knowledge. They are characterize by a narrow range of feature values. The two
+
+Fig. 8 A visual dashboard for the comparison and exploration of neighbourhoods generated around an
+
+instance x for the vessels dataset
+
+1 3
+
+250 Page 20 of 39
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+Fig. 9 A visual dashboard for the comparison and exploration of neighbourhoods generated around an
+
+instance x for the COVID dataset
+
+1 3
+
+Page 21 of 39 250
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+generators based on genetic optimization ( Genetic and Custom Genetic) produce instances
+
+whose feature values are even more narrowly distributed. Given the size of the neighbor-
+
+hoods, the Baseline generator is limited in the number of instances available in the training
+
+data, thus producing a smaller number of instances.
+
+In summary, the analytical comparison conrms that the domain-informed genera-
+
+tors outperform standard methods in terms of locality and compactness. The measures of
+
+instance distance, Energy, and MMD indicate that the domain-informed generators produce
+
+neighbourhoods that are closer to the original instance and more aligned with the training
+
+data distribution. The qualitative comparison through visualizations further supports these
+
+ndings, showing that the domain-informed generators produce instances that are more
+
+realistic and diverse, while also preserving the internal structure of the domain. The custom-
+
+ized generators and those based on LLMs balance performance and output quality.
+
+6.2 Evaluation of the rules
+
+To assess the eectiveness of dierent synthetic neighbourhood generators for producing
+
+interpretable explanations, we extracted factual and counterfactual rules using several meth-
+
+ods and displayed them side-by-side for expert evaluation. The rules were presented in a tex-
+
+tual format to allow for direct comparison of their structure, complexity, and interpretability.
+
+Figure 10 shows example rule sets for a specic instance from the vessel movement data-
+
+set (previously shown in Figure 8). The rule sets, each generated using a dierent method,
+
+reveal several insights:
+
+●
+
+The Baseline T raining generator, which samples from the training dataset, often produc-
+
+es verbose rules with many predicates. This is likely due to the inclusion of non-local
+
+instances in large neighbourhoods, causing the local surrogate to resemble the global
+
+model and weakening its local explanatory power.
+
+●
+
+The Custom generator yields more concise rules by restricting perturbations based on
+
+expert-dened constraints. The surrogate model, inuenced by a forest of decision
+
+trees, favours features that are semantically meaningful and better aligned with domain
+
+knowledge.
+
+●
+
+The Genetic Custom generator behaves similarly to the Custom generator but introduces
+
+more diverse counterfactuals. The use of genetic optimization allows the search to ex-
+
+plore a broader portion of the feature space while maintaining constraints.
+
+●
+
+The Genetic generator, though unconstrained, occasionally produces compact rules re-
+
+sembling those from the Custom generator, but lacks domain grounding.
+
+Figure 11 shows the rules extracted for the COVID-19 case study. As in the vessel example,
+
+the Custom and GPT generators produce the most concise and semantically focused rules.
+
+This conciseness results directly from the domain constraints embedded in the instance gen-
+
+eration process. In contrast, the generic generators tend to yield rules with longer predicate
+
+lists and limited interpretability.
+
+1 3
+
+250 Page 22 of 39
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+6.2.1 Limitations of current rule-based XAI methods
+
+Despite these observations, our study ultimately reveals a fundamental limitation: the over-
+
+all quality of the extracted rules across all generators is often inadequate for interpretability.
+
+For example, a rule such as: “if week2_covid
+
+=
+
+c3 and week6_covid
+
+=
+
+c4 then class_
+
+label = c3” fails to oer an exhaustive explanation of the model' s behaviour involving
+
+all the relevant features. The logical link between the premises and conclusion may not be
+
+aligned with human reasoning about temporal dynamics or causality in epidemiological
+
+data.
+
+This issue likely stems from how rule-based XAI methods like LORE operate. These
+
+methods assume independence among features and aim to identify minimal discriminative
+
+predicates to separate classes locally. As a result, they prioritise compactness over semantic
+
+coherence and are unable to leverage the complex interdependencies embedded in synthetic
+
+instances created by domain-informed generators.
+
+As a further investigation, we computed the statistics of the decision trees used to extract
+
+the rules. Table 4 summarizes some of the key structural characteristics of the decision trees
+
+generated by each method when generating the explanations for the vessel movement data-
+
+set presented in Fig. 10. We can observe that the Baseline and Random generators produce
+
+more complex trees, with a larger depth and diameter. The Genetic generator also produces
+
+a tree with a complex structure. The two customized models ( Custom and LLM) produce
+
+Fig. 10 Comparison of factual and counterfactual rules extracted from dierent generators for the V essels
+
+model. The class labels correspond to: 1 - Straight, 2 - Curved, 3 - Trawling, 4 - Port-Connected, 5 - Near
+
+Port, 6 - Anchored
+
+1 3
+
+Page 23 of 39 250
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+more compact tree. This is reected also in the complexity of the rules extracted for expla-
+
+nations. The Custom_Genetic generator combines the benets of the Custom generator and
+
+the optimization of the Genetic generator.
+
+Table 5 presents the statistics of the decision trees used to extract the rules for the
+
+COVID-19 case study presented in Fig. 11. In this case, we observe a similar pattern as
+
+in the previous case study. The Baseline and Random generators produce more complex
+
+trees, while the customized generators yield trees with a more compact structure. On one
+
+side, the compactness of the surrogate models is benecial for interpretability, as it leads to
+
+simpler rules that may be easier to perceive. On the other side, the use of a small number of
+
+features may limit the ability of the surrogate model to capture the complexity of the domain
+
+relationships.
+
+Table 4 Comparison of decision tree statistics across the geneators for the vessel movement dataset. Leaf
+
+depth is reported as mean ± standard deviation
+
+Tree # Leaves Max depth Leaf depth Diameter # Features used
+
+Random 153 17
+
+09 ± 2. 99
+
+34 9
+
+Baseline 59 14
+
+25 ± 2. 72
+
+19 9
+
+Custom 3 2
+
+67 ± 0. 47
+
+3 2
+
+Genetic 39 11
+
+79 ± 2. 29
+
+15 9
+
+Custom genetic 6 4
+
+00 ± 1. 00
+
+5 4
+
+LLM 5 3
+
+40 ± 0. 49
+
+5 3
+
+Explanations
+
+rando
+
+m
+
+Rule
+
+IF
+
+Week2_Covid !=
+
+c3
+
+Week2_Covid !=
+
+c1
+
+Week2_Covid =
+
+c2
+
+Days_passed >
+
+440.43
+
+Week3_Covid !=
+
+c4
+
+Week5_Covid !=
+
+c4
+
+Week3_Mobility !=
+
+m1
+
+Week5_Mobility !=
+
+m1
+
+Week5_Mobility =
+
+m3
+
+THEN
+
+Class_label = c2
+
+Counterrules
+
+custom
+
+Rule
+
+IF
+
+Week2_Covid !=
+
+c3
+
+Days_passed >
+
+416.50
+
+Week1_Mobility =
+
+m4
+
+Week6_Mobility !=
+
+m1
+
+Week3_Covid !=
+
+c2
+
+Week6_Mobility !=
+
+m2
+
+Week2_Covid !=
+
+c4
+
+Week3_Mobility !=
+
+m3
+
+THEN
+
+Class_label = c2
+
+Counterrules
+
+IF
+
+Week2_Covid !=
+
+genetic
+
+Rule
+
+IF
+
+Days_passed >
+
+412.65
+
+Week2_Covid !=
+
+c3
+
+Week2_Covid !=
+
+c4
+
+Week1_Mobility =
+
+m4
+
+Week6_Mobility =
+
+m4
+
+Week4_Covid !=
+
+c1
+
+Week6_Covid !=
+
+c4
+
+Week5_Covid !=
+
+c1
+
+THEN
+
+Class_label = c2
+
+Counterrules
+
+IF
+
+Days_passed >
+
+custom_genetic
+
+Rule
+
+IF
+
+Week2_Covid != c4
+
+Days_passed >
+
+430.50
+
+Week2_Covid != c3
+
+Week1_Mobility = m4
+
+Week3_Mobility != m2
+
+Week6_Mobility != m1
+
+THEN
+
+Class_label = c2
+
+Counterrules
+
+IF
+
+Week2_Covid != c4
+
+Days_passed >
+
+437.50
+
+Week2_Covid != c3
+
+Week1_Mobility != m4
+
+Week3_Mobility != m4
+
+THEN
+
+Class_label = c3
+
+gpt
+
+Rule
+
+IF
+
+We ek2_Covid !=
+
+c3
+
+We ek5_Covid !=
+
+c4
+
+We ek1_Mobility =
+
+m4
+
+We ek6_Mobility !=
+
+m1
+
+Days_passed >
+
+423.50
+
+We ek3_Covid !=
+
+c2
+
+We ek3_Mobility !=
+
+m3
+
+We ek2_Covid !=
+
+c4
+
+We ek6_Mobility !=
+
+m2
+
+We ek6_Covid !=
+
+c4
+
+THEN
+
+Class_label = c2
+
+baseline
+
+Rule
+
+IF
+
+We ek2_Covid !=
+
+c3
+
+Days_passed >
+
+395.50
+
+We ek2_Covid !=
+
+c1
+
+We ek3_Covid =
+
+c3
+
+We
+
+ek3_Mobility !=
+
+m3
+
+THEN
+
+Class_label = c2
+
+Counterrules
+
+IF
+
+We ek2_Covid !=
+
+c3
+
+Days_passed >
+
+395.50
+
+We ek2_Covid !=
+
+c1
+
+We ek3_Covid !=
+
+Fig. 11 Comparison between factual and counterfactual rules extracted from dierent generators for the
+
+COVID-19 model. The labels c1–c4 represent the scale from the lowest to the highest level of COVID-19
+
+incidence
+
+1 3
+
+250 Page 24 of 39
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+W e conclude that current instance-based explanation methods are limited by their purely
+
+data-driven nature. While they may be eective for binary decisions in domains with low
+
+feature complexity (e.g., credit approval), they fall short when applied to temporally struc-
+
+tured or semantically rich domains such as the ones studied here.
+
+Rather than viewing this as a shortcoming of our approach, we frame it as an important
+
+nding: embedding domain knowledge into synthetic data generation is a necessary
+
+but insucient condition for producing human-aligned explanations. The gap lies in
+
+the explanation algorithms themselves, which must evolve to reect domain structure and
+
+inter-feature relationships more explicitly.
+
+6.2.2 To ward LLM-enhanced explanation generation
+
+Given the limitations of current rule-based XAI methods, we see promising opportunities
+
+for incorporating LLMs into the explanation process. Our experiments demonstrated that
+
+LLMs are capable of acquiring and operationalising domain knowledge through iterative
+
+interactions with human experts. This capability suggests that LLMs could serve not only
+
+as tools for generating synthetic data but also as intelligent agents for producing or rening
+
+explanations that are aligned with expert understanding.
+
+A promising direction is the integration of LLMs with outputs from algorithmic XAI
+
+methods such as LORE or SHAP. Rather than replacing these methods, LLMs could inter-
+
+pret, validate, and enrich the explanations by combining model outputs with previously
+
+learned domain knowledge. For example, an LLM could take a rule or feature attribution
+
+generated by an XAI algorithm and augment it with additional context, constraints, or
+
+causal relationships derived from earlier conversations with a domain expert. This hybrid
+
+reasoning process could transform low-level, data-driven outputs into more coherent and
+
+cognitively aligned justications.
+
+In this way, LLMs oer the potential to bridge the gap between statistical patterns iden-
+
+tied by models and the structured, semantically meaningful knowledge used by human
+
+decision-makers.
+
+In light of our ndings, we return to the central question posed in the introduction:
+
+how can domain knowledge be incorporated into both model development and explana-
+
+tion generation without modifying existing ML or XAI algorithms? Our work demonstrates
+
+that while knowledge-aware data preparation and neighbourhood generation signicantly
+
+improve the realism and interpretability of inputs, current XAI methods often fall short in
+
+extracting meaningful, human-aligned explanations. This gap suggests that LLMs, given
+
+Table 5 Comparison of decision tree statistics across the generators for the COVID-19 and mobility dataset
+
+Tree #Leaves Max Depth Leaf Depth Diameter #Features Used
+
+Random 136 15
+
+54 ± 2. 63
+
+28 9
+
+Baseline 60 13
+
+20 ± 2. 76
+
+18 9
+
+Custom 2 1
+
+00 ± 0. 00
+
+2 1
+
+Genetic 36 12
+
+97 ± 2. 80
+
+16 8
+
+Custom genetic 3 2
+
+67 ± 0. 47
+
+3 2
+
+GPT 5 3
+
+40 ± 0. 49
+
+5 3
+
+Leaf dep th is repor ted as mea n ± standa rd deviatio n
+
+1 3
+
+Page 25 of 39 250
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+their ability to absorb and reuse domain knowledge acquired through expert interaction,
+
+may serve as the critical missing layer.
+
+7 Conclusion and future work
+
+In this work, we proposed a methodology for integrating human knowledge into machine
+
+learning (ML) workows to enhance both model interpretability and performance. By incor-
+
+porating expert insight through visual analytics and domain-driven data transformations, we
+
+enabled more semantically meaningful representations that align with expert reasoning. Our
+
+dual approach targets two critical stages: the construction of interpretable models through
+
+thoughtful data preparation and feature engineering, and the generation of explanation-sup-
+
+porting synthetic neighborhoods that adhere to domain constraints.
+
+W e validated our approach in two real-world case studies - predicting COVID-19
+
+dynamics and identifying vessel movement patterns, demonstrating its applicability to dif-
+
+ferent types of data. Through these case studies, we showed that domain-aware neighbour-
+
+hood generation yields synthetic instances that better reect the structure of the real data
+
+and expert expectations. Using quantitative and qualitative evaluation, we conrmed that
+
+knowledge-guided instance generation produces neighbourhoods with improved locality,
+
+realism, and diversity.
+
+However, our ndings also reveal a critical limitation of current algorithmic explanation
+
+techniques such as LORE. Despite improvements in neighbourhood quality, the generated
+
+explanations often remain logically unconvincing or inconsistent with human reasoning.
+
+This exposes a gap between domain-aware data generation and purely data-driven explana-
+
+tion methods. W e ar gue that existing XAI frameworks lack the capacity to represent feature
+
+interdependencies or temporal semantics required for meaningful explanations in complex
+
+domains.
+
+This limitation points to a new research direction: the integration of large language mod-
+
+els (LLMs) not only in data generation but also in explanation generation. Our experiments
+
+show that LLMs can understand and operationalise domain constraints; thus, they could be
+
+further leveraged to rene or augment explanations produced by standard XAI methods.
+
+By enabling semantically rich, context-aware justications, LLMs may help bridge the gap
+
+between model logic and human mental models.
+
+In future work, we aim to extend this methodology in several directions. First, scal-
+
+ing the approach to higher-dimensional feature spaces while preserving interpretability is
+
+essential for broader applicability. Second, exploring generative modelling techniques, such
+
+as GANs or reinforcement learning, could further enhance the diversity and delity of syn-
+
+thetic neighbourhoods. Third, longitudinal user studies could provide deeper insights into
+
+how domain experts interact with and benet from knowledge-driven explanations. Finally,
+
+hybrid systems integrating LLMs into the explanation pipeline open possibilities for rule
+
+synthesis, feature relevance analysis, and interactive renement of models.
+
+By addressing these directions, we aim to further strengthen the integration of human
+
+knowledge into AI systems, advancing not only their accuracy and robustness but also their
+
+transparency and alignment with human understanding.
+
+1 3
+
+250 Page 26 of 39
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+Appendix A: Using an LLM (ChatGPT) for synthetic neighbourhood
+
+generation in the COVID-19 and mobility case study
+
+W e performed this experiment using ChatGPT-4 Turbo (model GPT-4o) and focusing on
+
+COVID-19 and mobility applications. We aimed to explore a scenario where a domain
+
+expert communicates with an LLM, transferring relevant domain-specic knowledge. The
+
+LLM creates and renes the code of a neighbourhood generator, demonstrates examples
+
+of its outcomes, and incorporates expert feedback iteratively. This experiment sought to
+
+answer the following questions: How realistic is this scenario? What challenges must be
+
+addressed to make it eective?
+
+Prompting the LLM
+
+Initial prompt (omitting the data examples)
+
+W e developed a machine learning model to predict future levels of pandemic incidence
+
+(COVID-19) based on historical disease and mobility data. The dataset used for model-
+
+ling covered daily counts of new COVID-19 cases and trips within 52 geographic regions,
+
+normalized by population size. The data were aggregated into weekly intervals spanning
+
+64 weeks from February 2020 to May 2021, excluding the rst six weeks due to signicant
+
+dierences in pandemic patterns during the initial outbreak phase.
+
+The aggregated data were discretized into four levels for disease incidence and four lev-
+
+els for mobility, where lower levels of mobility indicated more severe restrictions, whereas
+
+higher levels of disease incidence indicated higher disease spread. For each prediction, we
+
+used a temporal context consisting of disease levels from weeks -6 to -2 and mobility levels
+
+from weeks -6 to -1 relative to the target event, along with a temporal variable representing
+
+the number of days since the pandemic began.
+
+The modelling task focused on capturing the interdependencies between disease inci-
+
+dence and mobility levels. Increases in disease incidence typically led to reduced mobility
+
+through restrictions, which subsequently contributed to a delayed decline in disease levels.
+
+Conversely, relaxed mobility restrictions often resulted in increased disease incidence after
+
+a delay of one to three weeks.
+
+To test the model' s robustness and explore its behavior under varying conditions, we
+
+want to generate synthetic data instances in the neighbourhood of a given real data instance.
+
+These synthetic instances should be created by perturbing the original feature values while
+
+adhering to observed transition probabilities for both disease and mobility levels. The gen-
+
+erated data should reect realistic temporal dynamics and interdependencies.
+
+The goal of the synthetic data generation is to investigate how variations in input features
+
+inuenced the model's predictions for the next level of pandemic incidence. By generating
+
+a suciently diverse neighbourhood, we aim to ensure that the model produces predictions
+
+across all possible levels of pandemic incidence, thereby enhancing the interpretability and
+
+reliability of the predictions.
+
+Renement
+
+After assessing the rst result, the LLM was given the following request: “ Y ou need to
+
+introduce some randomness in the generation, but keep consistency between the values of
+
+the features according to the transition frequencies. The neighbourhood should be su-
+
+ciently diverse to obtain at least 15 instances of each class after applying the model”.
+
+1 3
+
+Page 27 of 39 250
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+Domain Knowledge Involved in the Synthetic Neighbourhood Generator
+
+Below is the LLM-generated description of the domain knowledge incorporated in the
+
+neighbourhood generator. It demonstrates the degree of the LLM' s “understanding” of the
+
+domain.
+
+The synthetic neighbourhood generator incorporated the following domain knowledge to
+
+ensure the generation of realistic and meaningful data instances:
+
+●
+
+Temporal Dynamics: The relationships between time-dependent variables, such as
+
+COVID-19 levels and mobility levels, follow observable transition probabilities. These
+
+transitions reect real-world temporal changes, e.g., how mobility levels shift over
+
+weeks or how COVID-19 levels evolve. Transition frequencies for each variable were
+
+constructed based on historical data, capturing the likelihood of transitions between
+
+specic states.
+
+●
+
+Feature Interdependencies: Temporal features such as "Weeks_passed" and "Days_
+
+passed" are interrelated, with consistent calculations ensuring the generated instances
+
+remain plausible (e.g., "Days_passed" = "W eeks_passed"
+
+×
+
+7).
+
+●
+
+Realism in V ariations: V ariations in feature values (e.g., changes in past-week COV-
+
+ID-19 and mobility levels) must align with the underlying transition frequencies. This
+
+ensures that generated synthetic instances resemble realistic scenarios rather than ran-
+
+dom deviations.
+
+●
+
+Diversity and Coverage: Generating synthetic neighbours involves balancing proximity
+
+to the original instance with sucient diversity to explore less common but plausible
+
+scenarios, thereby enriching the dataset and improving class coverage.
+
+●
+
+Categorical-to-Numerical Mapping: To facilitate downstream processing, categorical
+
+values for COVID-19 and mobility levels are systematically mapped to numerical rep-
+
+resentations while maintaining interpretability.This domain knowledge was iteratively
+
+incorporated into the code, ensuring the synthetic neighbours adhered to realistic transi-
+
+tions, captured temporal and spatial patterns, and reected meaningful diversity.
+
+Assessment of the results
+
+A Python script was developed to take multiple input instances from a specied le and
+
+generate a given number of synthetic neighbours for each instance. The results are stored
+
+in two output les: one containing categorical feature values and the other with their cor-
+
+responding numeric representations. Below, we detail the process of testing the code and
+
+evaluating its performance.
+
+Using a dataset of real data, 15 input instances were randomly selected, each represent-
+
+ing a unique combination of conditions. For each instance, 100 synthetic neighbours were
+
+generated. Both original and synthetic instances, represented numerically, were processed
+
+through a predictive model that assigned class labels reecting dierent COVID-19 levels.
+
+To evaluate the eectiveness of the synthetic neighbourhood generator, we created a visu-
+
+alization in the form of a 2D map, where points are positioned based on their similarity
+
+in the high-dimensional feature space. To derive the 2D positions, we applied the UMAP
+
+algorithm, which preserves both local and global data structures.
+
+The resulting visualization is shown in Fig. 12. Larger circles represent the original
+
+instances, while smaller rectangles correspond to the synthetic neighbours. The symbols
+
+1 3
+
+250 Page 28 of 39
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+are colour-coded according to their predicted classes, allowing for an overall assessment
+
+of class distributions. Original instances are further marked with black hollow circles for
+
+better identication.
+
+For more detailed analysis, lters can be applied to the set of the displayed instances to
+
+focus on dierent subsets. Fig. 13 shows the neighbours of the original instances grouped
+
+by classes c1, c2, c3, and c4, consisting of 2, 3, 5, and 5 original instances, respectively.
+
+Similarly, Fig. 14 illustrates the distributions of synthetic neighbours for four selected origi-
+
+nal instances from dierent classes. These visualizations enable domain experts to assess
+
+both the alignment of synthetic neighbours with their respective original instances and the
+
+diversity of their predicted classes.
+
+The visualizations reveal that the synthetic neighbours generally cluster around their
+
+respective original instances, as expected. However, scattered neighbours are also present,
+
+contributing to the desired diversity. Importantly, the generator produces instances diverse
+
+enough to be classied into dierent categories by the model. While obtaining model predic-
+
+tions is not a part of the synthetic neighbourhood generation code, this post-generation step
+
+eectively demonstrates the utility of the synthetic data for testing and model evaluation.
+
+Fig. 12 Original and synthetic instances obtained with the help of ChatGPT for the COVID-19 and mobil-
+
+ity case study are represented as points on a map. The points are placed according to instance similarity.
+
+The colours correspond to the predicted classes. The square symbols represent the synthetic instances.
+
+Larger circles represent the 15 original instances for which the synthetic neighbours were generated.
+
+These instances are additionally marked by black hollow circles
+
+1 3
+
+Page 29 of 39 250
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+Fig. 14 Distributions of synthetic instances generated for 4 selected original instances
+
+Fig. 13 Distributions of synthetic instances generated for the original instances with the actual classes c1
+
+(2 instances), c2 (3 instances), c3 (5 instances), and c4 (5 instances)
+
+1 3
+
+250 Page 30 of 39
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+Conclusion
+
+This experiment demonstrated the feasibility of using an LLM to generate synthetic neigh-
+
+bourhoods that balance randomness with domain-consistent variations. The approach can
+
+potentially be adapted to other domains with temporal or sequential data. However, several
+
+challenges were identied:
+
+●
+
+Complexity in Translating Domain Knowledge: LLMs require clear, well-thought-out
+
+inputs to eectively encode complex domain rules. Informal descriptions may need
+
+reformulation by experts for accurate implementation.
+
+●
+
+V alidation and Debugging: The LLM-generated code can occasionally deviate from the
+
+intended logic or contain errors, requiring careful validation and iterative renements.
+
+These tasks require coding expertise, which domain experts may not possess. Hence,
+
+there is a need for tools that bridge this skill gap.
+
+●
+
+Visualization as a Feedback Tool: Visualization was instrumental in assessing the dis-
+
+tribution and diversity of synthetic instances. However, additional visualizations are
+
+needed to evaluate the realism of the generated feature value combinations.Overall,
+
+while using LLMs for synthetic data generation shows signicant promise, achieving
+
+seamless collaboration with domain experts will require advances in visualization, vali-
+
+dation, and communication tools.
+
+Appendix B: Using an LLM (Google Gemini) for synthetic
+
+neighbourhood generation in the vessel movement case study
+
+For the vessel movement case study, we made an experiment with Google Gemini version
+
+2.5 Flash.
+
+Prompting the LLM
+
+The following prompt was submitted to the LLM: I need to create a Python program for
+
+generation of synthetic data instances in the neighbourhood of a given instance. The pur-
+
+pose is to generate local explanations of predictions produced by a model that recognises
+
+patterns of vessel movements based on 9 features. Input data for the model consist of values
+
+of numeric attributes characterizing segments of vessel trajectories. The model utilizes nine
+
+features describing vessel speed characteristics, trajectory shape, and proximity to ports.
+
+Logarithmic transformation was applied to features with highly skewed value distributions
+
+in the training data.
+
+●
+
+Speed statistics: SpeedMinimum, SpeedQ1, SpeedMedian, SpeedQ3. These fea-
+
+tures represent the speed distribution, from minimum observed speed to quartile-based
+
+spread.
+
+●
+
+Log10Curvature: The logarithm of the curvature of the time series of the vessel's
+
+distance from the starting point. The curvature is computed as the ratio between the sum
+
+of absolute consecutive changes in the time series and the amplitude of values. A value
+
+close to 1 indicates nearly straight movement, while higher values indicate the presence
+
+1 3
+
+Page 31 of 39 250
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+of turns.
+
+●
+
+DistStartTrendAngle: The angle of the linear trend tted to the time series of
+
+the vessel's distance from its starting point. A higher angle indicates a stronger trend
+
+of moving away, while a lower angle suggests slower movement or a return toward the
+
+starting position.
+
+●
+
+Log10DistStartTrendDevAmplitude: The logarithm of the amplitude of de-
+
+viations from the trend line of the distance to the starting point. It quanties path tortu-
+
+osity, reecting how much the vessel's movement deviates from a straight-line trend.
+
+Higher values indicate more erratic or zigzagging movement.
+
+●
+
+Port proximity: MaxDistPort, Log10MinDistPort. These features represent
+
+the maximum and (log-transformed) minimum distance from the nearest port, which
+
+are useful for recognizing anchoring and port manoeuvring. Log10Curvature and
+
+Log10DistStartTrendDevAmplitude jointly describe the shape complexity of
+
+a trajectory segment. Log10Curvature captures global movement characteristics,
+
+while path tortuosity reects local zigzagging. T ogether, they help distinguish between
+
+steady outward movement, looping, and in-place manoeuvring.
+
+The features are used to classify movement behaviours in trajectory segments (epi-
+
+sodes) to one of the six classes: 1) straight movement; 2) curved movement; 3) trawling; 4)
+
+port-connected (entering or exiting a port); 5) near port (manoeuvring in port vicinity); 6)
+
+anchored. Each data instance describes one episode by the 9 features listed above.
+
+The Python program needs, for a given instance with a true or predicted class label,
+
+perturb the feature values and thereby create a specied number of synthetic instances that
+
+are likely to be classied as belonging to each of the 6 classes, including the class of the
+
+given instance. It is desirable to keep balance between the numbers of instances of each
+
+class, although it is not known in advance how the model will classify them. It is desirable
+
+to achieve the class variety by making small changes of the feature values.
+
+The synthetic instances must be realistic, i.e., satisfying certain constraints:
+
+●
+
+Numeric relationships between the speed values: SpeedMinimum
+
+≤
+
+SpeedQ1
+
+≤
+
+SpeedMedian
+
+≤
+
+SpeedQ3
+
+●
+
+Realistic SpeedQ3: should be not much higher that the maximum occurring in the
+
+training data, which is 22.
+
+●
+
+High speed cannot be achieved during curvy movements.
+
+●
+
+The range of DistStartTrendAngle in the training data was
+
+[− 0. 24, 0. 36]
+
+; the
+
+values in synthetic data should not be far beyond.
+
+●
+
+The same applies to Log10Curvature [0, 2.25] and Log10DistStartTrend-
+
+DevAmplitude
+
+[− 2. 8, 1. 8]
+
+.
+
+●
+
+The smallest value of Log10MinDistPort was
+
+− 3. 05
+
+.Here are some examples of
+
+instances of dierent classes: ...
+
+Input instances for the Python program look like these but do not include the eld “Class”
+
+with string values.
+
+1 3
+
+250 Page 32 of 39
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+LLM' s response
+
+I will create a Python program that generates synthetic data instances based on a given ves-
+
+sel movement instance. This program will perturb the feature values of the input instance,
+
+aiming to create new instances that are likely to represent dierent vessel behaviors, while
+
+adhering to realistic constraints.
+
+The program will account for:
+
+●
+
+Nine key features: SpeedMinimum, SpeedQ1, SpeedMedian, SpeedQ3, Log-
+
+10Curvature, DistStartTrendAngle, Log10DistStartTrendDevAm-
+
+plitude, MaxDistPort, and Log10MinDistPort.
+
+●
+
+Realistic constraints: Including relationships between speed quartiles, maximum speed
+
+limits, the interplay between speed and curvature, and specic ranges for angular and
+
+curvature-related features, as well as port proximity.
+
+●
+
+Tar geted perturbations: Although we don't have the actual classication model, the
+
+program will apply perturbations strategically to generate instances that align with the
+
+characteristics of each of the six movement classes (straight, curved, trawling, port-
+
+connected, near port, anchored). This approach increases the likelihood of creating di-
+
+verse synthetic data that could be classied into dierent categories by a real model.The
+
+output will be a list of dictionaries, where each dictionary represents a synthetic data
+
+instance with its 9 feature values.
+
+Here is the Python program: ...
+
+The code was suciently good right from the beginning; only very minor changes in
+
+data input and output were further requested.
+
+Result
+
+The LLM described the resulting program as follows: The provided Python program is
+
+designed for the generation of synthetic data instances, primarily to facilitate local expla-
+
+nations of predictions made by a vessel movement pattern recognition model. This model
+
+operates on nine numerical features characterizing segments of vessel trajectories. The syn-
+
+thetic data generation process ensures that the newly created instances are both diverse and
+
+realistic, adhering to specic physical and contextual constraints.
+
+The nine features utilized by the model and, consequently, by this generator are: Speed-
+
+Minimum, SpeedQ1, SpeedMedian, SpeedQ3 (describing speed distribution); Log-
+
+10Curvature (logarithm of trajectory curvature); DistStartTrendAngle (angle
+
+of distance trend from start); Log10DistStartTrendDevAmplitude (logarithm of
+
+deviation amplitude from trend); MaxDistPort, and Log10MinDistPort (maximum
+
+and log-transformed minimum distance from the nearest port). Features like Log10Cur-
+
+vature and Log10DistStartTrendDevAmplitude are critical for capturing tra-
+
+jectory shape complexity, distinguishing between global movement and local tortuosity.
+
+The core of the synthetic data generation lies within the SyntheticDataGenera-
+
+tor class. For a given input instance, the program generates a specied number of synthetic
+
+neighbors. This process involves perturbing the feature values of the original instance using
+
+a controllable perturbation_scale. A key aspect is the strategic application of these
+
+1 3
+
+Page 33 of 39 250
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+perturbations to create instances that tend towards one of six predened vessel movement
+
+classes: straight movement, curved movement, trawling, port-connected, near port, and
+
+anchored. This class-tendency-driven perturbation aims to achieve a balanced variety of
+
+synthetic instances across all classes, even without direct access to the classication model.
+
+Crucially, the program enforces a comprehensive set of realistic constraints to ensure the
+
+generated data remains plausible:
+
+●
+
+Speed Quartile Ordering:
+
+SpeedMinimum ≤ SpeedQ1 ≤ SpeedMedian ≤ SpeedQ3
+
+is
+
+strictly maintained.
+
+●
+
+Maximum Speed: SpeedQ3 is capped at 22.0, reecting observed training data limits.
+
+●
+
+Speed-Curvature Interaction: High speeds are made incompatible with high curvature
+
+values; if both occur, speed is reduced or curvature adjusted.
+
+●
+
+Feature Ranges: DistStartTrendAngle, Log10Curvature, and Log10Dist-
+
+StartTrendDevAmplitude are clamped within their empirically derived training
+
+data ranges (e.g., Log10Curvature between 0.0 and 2.25).
+
+●
+
+Port Proximity Minimum: Log10MinDistPort is constrained to be no less than
+
+− 3. 05
+
+.
+
+●
+
+Non-negativity: All speed values and MaxDistPort are ensured to be non-
+
+negative.These constraints are applied after initial perturbations to correct any unrealis-
+
+tic values, thus enhancing the delity of the synthetic dataset.
+
+The workow integrates seamlessly with CSV le operations. The generate_and_
+
+save_synthetic_data_from_csv function facilitates batch processing: it reads
+
+original, labeled instances from an input CSV le, systematically generates N synthetic
+
+neighbors for each original instance (where N is congurable), and then compiles all gen-
+
+erated instances into a single dataset. This consolidated synthetic dataset, devoid of class
+
+labels, is then written to a new output CSV le, ready for subsequent analysis or use in model
+
+interpretability frameworks. This entire process provides a robust method for expanding
+
+datasets with realistic variations, particularly valuable for exploring model behavior in the
+
+vicinity of specic data points.
+
+Evaluation of the program performance
+
+To evaluate the performance of the LLM-generated synthetic data generator, we selected
+
+120 example instances from the training data, i.e., 20 instances per class across the six
+
+behaviour categories. For each original instance, the generator produced 100 synthetic
+
+neighbours, resulting in a total of 12,000 synthetic instances. These were passed through
+
+the trained pattern classication model to obtain predicted class labels. The resulting dis-
+
+tribution of predicted classes was as follows: class 1 – 712 instances, class 2 – 1434, class
+
+3 – 1776, class 4 – 2016, class 5 – 3756, and class 6 – 2306.
+
+The labelled synthetic instances were analysed using visual analytics tools. Unlike the
+
+COVID-19 case study, where feature values were categorical, this case involved numeri-
+
+cal features, necessitating dierent visualization techniques. Specically, we used parallel
+
+coordinates plots (PCPs), where each axis represents a feature and each line corresponds to
+
+a data instance, connecting its values across all features.
+
+1 3
+
+250 Page 34 of 39
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+Figure 15 shows the comparison between the original and synthetic data. The left panel
+
+presents the 120 real instances, while the right panel displays the 12,000 synthetic neigh-
+
+bours generated by the LLM-based program. While the plots reveal the overall feature space
+
+coverage, the high density of overplotted lines makes it dicult to distinguish patterns
+
+among individual classes.
+
+Fig. 16 Screenshots of the PCP display show the distributions of the feature values separately for each
+
+class: 1) red - straight movement; 2) blue - curved movement; 3) green - trawling; 4) purple - port-
+
+connected; 5) orange - near port; 6) yellow - anchored
+
+Fig. 15 Representation of instances on a parallel coordinates plot with parallel coordinate axes represent-
+
+ing the features. Left: Real instances. Right: Synthetic neighbours of the real instances
+
+1 3
+
+Page 35 of 39 250
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+To better explore class-specic characteristics, we applied interactive ltering to isolate
+
+and visualize subsets of synthetic instances by their predicted classes. Figure 16 shows the
+
+distributions of feature values for each predicted class separately. This view allowed us to
+
+compare and assess whether the synthetic instances reect the expected behaviour patterns
+
+of each class.
+
+The visualizations conrm two important qualities of the generated synthetic neighbour-
+
+hoods. First, the synthetic instances remain close to their original sources in the feature
+
+space, demonstrating good locality. Second, they exhibit sucient diversity: feature values
+
+vary across meaningful ranges while respecting domain constraints. This suggests that the
+
+generator successfully balances locality and variation.
+
+Overall, the experiment demonstrates that the LLM-generated code can produce high-
+
+quality, domain-consistent synthetic data. The resulting neighbourhoods support model
+
+interpretation and evaluation by providing diverse yet plausible variations of real instances.
+
+Author contributions E.C. and S.R. prepared Figures 1, 5–8, A1, B2, and B3, and contributed to writing Sec-
+
+tion 3.2. B.K., G.A., and N.A. prepared Figures 2–4, C4, D5–7, and E8–9, and contributed to writing Section
+
+3.1. All authors contributed to the development of the remaining sections of the manuscript, as well as to the
+
+writing and critical review of the entire work.
+
+Funding Open access funding provided by Consiglio Nazionale Delle Ricerche (CNR) within the CRUI-
+
+CARE Agreement. This work was supported by Federal Ministry of Education and Research of Germany
+
+and the state of North-Rhine Westphalia as part of the Lamarr Institute for Machine Learning and Articial
+
+Intelligence (Lamarr22B), by EU in projects SoBigData++ (grant agreement no. 871042) and CREXDAT A
+
+(grant agreement no. 101092749), NextGenerationEU programme under the funding schemes PNRR-PE-AI
+
+scheme (M4C2, investment 1.3, line on AI) F AIR (Future Articial Intelligence Research), and TANGO
+
+project, grant agreement no. 101120763.
+
+Data availability Data link is provided within the manuscript. Both datasets used are open access.
+
+Declarations
+
+Conict of interest The authors declare no competing interests.
+
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License,
+
+which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as
+
+you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons
+
+licence, and indicate if changes were made. The images or other third party material in this article are
+
+included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material.
+
+If material is not included in the article's Creative Commons licence and your intended use is not permitted
+
+by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the
+
+copyright holder. T o view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+
+References
+
+Abdul, A. M., V ermeulen, J., Wang, D., Lim, B. Y., & Kankanhalli, M. S. (2018). Trends and trajectories for
+
+explainable, accountable and intelligible systems: An HCI research agenda. ACM. h t t p s : / / d o i . o r g / 1 0 . 1
+
+1 4 5 / 3 1 7 3 5 7 4 . 3 1 7 4 1 5 6
+
+Adadi, A., & Berrada, M. (2018). Peeking inside the black-box: A survey on explainable articial intelligence
+
+(XAI). IEEE Access. https://doi.org/10.1109/ACCESS.2018.2870052
+
+1 3
+
+250 Page 36 of 39
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+Andrienko, N., Andrienko, G., Artikis, A., Mantenoglou, P., & Rinzivillo, S. (2024). Human-in-the-loop:
+
+Visual analytics for building models recognising behavioural patterns in time series. IEEE Computer
+
+Graphics and Applications. https://doi.org/10.1109/MCG.2024.3379851
+
+Andrienko, N., Andrienko, G., & Rinzivillo, S. (2016). Leveraging spatial abstraction in trac analysis and
+
+forecasting with visual analytics. Information Systems, 57, 172–194. h t t p s : / / d o i . o r g / 1 0 . 1 0 1 6 / j . i s . 2 0 1 5
+
+. 0 8 . 0 0 7
+
+Andrienko, N., Andrienko, G., & Shirato, G. (2023). Episodes and topics in multivariate temporal data, 42(6),
+
+Article e14926. https://doi.org/10.11 11/cgf.14926
+
+Bhattacharya, A., V erbert, K., et al. (2024). Exmos: Explanatory model steering through multifaceted expla-
+
+nations and data congurations. In: Proceedings of the CHI Conference on Human Factors in Comput-
+
+ing Systems. ACM. https://doi.or g/10.1145/3544548.3581135
+
+Buchanan, B.G., Davis, R., & Feigenbaum, E.A. (2006). Expert systems: A perspective from computer sci-
+
+ence. The Cambridge handbook of expertise and expert performance pp. 87–103.
+
+Cheng, F., Ming, Y., & Qu, H. (2021). DECE: decision explorer with counterfactual explanations for machine
+
+learning models. IEEE. https://doi.org/10.1109/TVCG.2020.3030342
+
+Dong, G., & Liu, H. (2018). Feature engineering for machine learning and data analytics. CRC Press. h t t p s :
+
+/ / d o i . o r g / 1 0 . 1 2 0 1 / 9 7 8 1 3 1 5 1 8 1 0 8 0
+
+Endert, A., Ribarsky, W., T urkay, C., Wong, B. W., Nabney, I., Blanco, I. D., & Rossi, F. (2017). The state of
+
+the art in integrating machine learning into visual analytics. Computer Graphics Forum. h t t p s : / / d o i . o r
+
+g / 1 0 . 1 1 1 1 / c g f . 1 3 0 9 2
+
+Giabbanelli, P. J., & Jackson, P. J. (2015). Using visual analytics to support the integration of expert knowl-
+
+edge in the design of medical models and simulations. Procedia Computer Science. h t t p s : / / d o i . o r g / 1 0 .
+
+1 0 1 6 / j . p r o c s . 2 0 1 5 . 0 5 . 1 9 5
+
+Gretton, A., Borgwardt, K. M., Rasch, M. J., Schölkopf, B., & Smola, A. (2012). A kernel two-sample test.
+
+Journal of Machine Learning Research, 13(25), 723–773.
+
+Guidotti, R., Monreale, A., Giannotti, F., Pedreschi, D., Ruggieri, S., & Turini, F. (2019). Factual and coun-
+
+terfactual explanations for black box decision making. IEEE Intelligent System h t t p s : / / d o i . o r g / 1 0 . 1 1 0 9
+
+/ M I S . 2 0 1 9 . 2 9 5 7 2 2 3
+
+Guidotti, R., Monreale, A., Ruggieri, S., T urini, F., Giannotti, F., & Pedreschi, D. (2019). A survey of methods
+
+for explaining black box models. ACM Computer Survery https://doi.org/10.1145/3236009
+
+Hohman, F., Kahng, M., Pienta, R. S., & Chau, D. H. (2019). V isual analytics in deep learning: An interroga-
+
+tive survey for the next frontiers. IEEE Transactions on V isualization and Computer Graphics h t t p s : / / d
+
+o i . o r g / 1 0 . 1 1 0 9 / T V C G . 2 0 1 8 . 2 8 4 3 3 6 9
+
+Karpatne, A., Atluri, G., Faghmous, J. H., Steinbach, M. S., Banerjee, A., Ganguly, A. R., Shekhar, S., Sama-
+
+tova, N. F., & Kumar, V. (2017). Theory-guided data science: A new paradigm for scientic discovery
+
+from data. IEEE Transactions on Knowledge and Data Engineering h t t p s : / / d o i . o r g / 1 0 . 1 1 0 9 / T K D E . 2 0
+
+1 7 . 2 7 2 0 1 6 8
+
+Kidd, A.L. (ed.). (1987). Knowledge Acquisition for Expert Systems: A Practical Handbook. Springer, New
+
+Y ork, NY. https://doi.org/10.1007/978-1-4613-1823-1
+
+Kulesza, T., Stumpf, S., Burnett, M. M., Y ang, S., Kwan, I., & Wong, W. (2013). T oo much, too little, or just
+
+right? ways explanations impact end users' mental models. IEEE Computer Society. h t t p s : / / d o i . o r g / 1 0 .
+
+1 1 0 9 / V L H C C . 2 0 1 3 . 6 6 4 5 2 3 5
+
+Ponce-de Leon, M., del Valle, J., Fernandez, J. M., Bernardo, M., Cirillo, D., Sanchez-Valle, J., Smith, M.,
+
+Capella-Gutierrez, S., Gullón, T., & V alencia, A. (2021). COVID-19 Flow-Maps an open geographic
+
+information system on COVID-19 and human mobility for Spain. Scientic Data. h t t p s : / / d o i . o r g / 1 0 . 1
+
+0 3 8 / s 4 1 5 9 7 - 0 2 1 - 0 1 0 9 3 - 5
+
+Ponce-de Leon, M., del Valle, J., Fernández, J.M., Bernardo, M., Cirillo, D., Sanchez-V alle, J., Smith,
+
+M., Capella-Gutierrez, S., Gullón, T., & Valencia, A. (2021). COVID19 Flow-Maps daily cases
+
+reports. https://doi.org/10.5281/zenodo.5217386
+
+Ponce-de Leon, M., del V alle, J., Fernández, J.M., Bernardo, M., Cirillo, D., Sanchez-Valle, J., Smith, M.,
+
+Capella-Gutierrez, S., Gullón, T., & V alencia, A. (2021). COVID19 Flow-Maps daily-mobility for
+
+Spain. https://doi.org/10.5281/zenodo.5539411
+
+Ponce-de Leon, M., del V alle, J., Fernández, J.M., Bernardo, M., Cirillo, D., Sanchez-Valle, J., Smith, M.,
+
+Capella-Gutierrez, S., Gullón, T., & V alencia, A. (2021). COVID19 Flow-Maps population data. h t t p s :
+
+/ / d o i . o r g / 1 0 . 5 2 8 1 / z e n o d o . 5 2 2 6 3 5 1
+
+Liao, Q.V., & Varshney, K.R. (2021). Human-centered explainable AI (XAI): from algorithms to user experi-
+
+ences. CoRR arxiv:2110.10790
+
+1 3
+
+Page 37 of 39 250
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+Lu, Y., Garcia, R., Hansen, B., Gleicher, M., & Maciejewski, R. (2017). The state-of-the-art in predictive
+
+visual analytics. Computer Graphics Forum. https://doi.org/10.11 11/cgf.13210
+
+Lundberg, S. M., & Lee, S. I. (2017). A unied approach to interpreting model predictions. Red Hook, NY,
+
+USA: NIPS'17, Curran Associates Inc.
+
+Miller, T. (2019). Explanation in articial intelligence: Insights from the social sciences. Articail Intelli-
+
+gence https://doi.org/10.1016/J.ARTINT.2018.07.007
+
+Ming, Y., Qu, H., & Bertini, E. (2019). Rulematrix: Visualizing and understanding classiers with rules. IEEE
+
+Transactions on V isualization and Computer Graphics, https://doi.org/10.1109/TVCG.2018.2864812
+
+Muralidhar, N., Islam, M.R., Marwah, M., Karpatne, A., & Ramakrishnan, N. (2018). Incorporating prior
+
+domain knowledge into deep neural networks. In: 2018 IEEE International Conference on Big Data
+
+(Big Data). pp. 36–45. https://doi.org/10.1109/BigData.2018.8621955
+
+Peng, L., Lin, Z., Andrienko, N., Andrienko, G., & Chen, S. (2025). Contextualized visual analytics for mul-
+
+tivariate events. Visual Informatics, 9(2), Article 100234. https://doi.org/10.1016/j.visinf.2025.100234
+
+Raissi, M., Perdikaris, P., & Karniadakis, G. (2019). Physics-informed neural networks: A deep learning
+
+framework for solving forward and inverse problems involving nonlinear partial dierential equations.
+
+Journal of Computational Physics. https://doi.org/10.1016/j.jcp.2018.10.045
+
+Rajabi, E., & Etminani, K. (2024). Knowledge-graph-based explainable AI: A systematic review. Journal of
+
+Information Science https://doi.org/10.1177/01655515221 112844
+
+Ribeiro, M. T., Singh, S., & Guestrin, C. (2016). “Why Should I Trust Y ou?”: Explaining the Predictions of
+
+Any Classier. ACM. https://doi.org/10.1 145/2939672.2939778
+
+Ribeiro, M.T., Singh, S., & Guestrin, C. (2018). Anchors: High-precision model-agnostic explanations. In:
+
+McIlraith, S.A., W einberger, K.Q. (eds.) Proc. of the Thirty-Second AAAI Conference on Articial Intel-
+
+ligence. AAAI Press. https://doi.or g/10.1609/AAAI.V32I1.11491
+
+Riveiro, M., & Thill, S. (2021). “that's (not) the output I expected!” on the role of end user expectations in creat-
+
+ing explanations of AI systems. Articail Intelligence. https://doi.org/10.1016/J.AR TINT.2021.103507
+
+von Rueden, L., Mayer, S., Beckh, K., Georgiev, B., Giesselbach, S., Heese, R., Kirsch, B., Pfrommer, J.,
+
+Pick, A., Ramamurthy, R., Walczak, M., Garcke, J., Bauckhage, C., & Schuecker, J. (2023). Informed
+
+machine learning – a taxonomy and survey of integrating prior knowledge into learning systems. IEEE
+
+Transactions on Knowledge and Data Engineering. https://doi.org/10.1 109/TKDE.2021.3079836
+
+Sacha, D., Kraus, M., Keim, D. A., & Chen, M. (2019). V is4ml: An ontology for visual analytics assisted
+
+machine learning. IEEE Transactions on V isualization and Computer Graphics. h t t p s : / / d o i . o r g / 1 0 . 1 1 0
+
+9 / T V C G . 2 0 1 8 . 2 8 6 4 8 3 8
+
+Schramowski, P., Stammer, W., Teso, S., Brugger, A., Herbert, F., Shao, X., Luigs, L., & Kersting, K. (2020).
+
+Making deep neural networks right for the right scientic reasons by interacting with their explanations.
+
+Nature Machine Intelligence, 2(8), 476–486. https://doi.org/10.1038/s42256-020-0212-3
+
+Simkute, A., Surana, A., Luger, E., Evans, M., & Jones, R. (2022). XAI for learning: Narrowing down the
+
+digital divide between “new” and “old” experts. ACM. https://doi.org/10.1145/3547522.3547678
+
+Spinner, T., Schlegel, U., Schäfer, H., & El-Assady, M. (2020). explAIner: A visual analytics framework
+
+for interactive and explainable machine learning. IEEE Transactions on V isualization and Computer
+
+Graphics. https://doi.org/10.1109/TVCG.2019.2934629
+
+Székely, G. J., & Rizzo, M. L. (2013). Energy statistics: A class of statistics based on distances. Journal of
+
+Statistical Planning and Inference, 143(8), 1249–1272. https: //d oi. or g/10 . 1016 /j.j sp i.20 13.03.018 h    t t p s  :
+
+/ / w w  w . s c i  e n c  e d  i r  e c t  . c o m   / s c i e  n c e  / a  r  t i c l  e / p i  i / S 0 3 7 8 3 7 5 8 1 3 0 0 0 6 3 3.
+
+Teso, S., & Kersting, K. (2019). Explanatory interactive machine learning. In: Proceedings of the 2019
+
+AAAI/ACM Conference on AI, Ethics, and Society. pp. 239–245. ACM. h t t p s : / / d o i . o r g / 1 0 . 1 1 4 5 / 3 3 0
+
+6 6 1 8 . 3 3 1 4 2 9 3
+
+Wang, J., Liu, S., & Zhang, W. (2024). V isual analytics for machine learning: A data perspective survey. IEEE
+
+Transactions on V isualization and Computer Graphics. https://doi.org/10.1109/TVCG.2024.3357065
+
+Zhao, J., Glueck, M., Isenberg, P., Chevalier, F., & Khan, A. (2018). Supporting hando in asynchronous
+
+collaborative sensemaking using knowledge-transfer graphs. IEEE Transactions on V isualization and
+
+Computer Graphics. https://doi.org/10.1109/TVCG.2017.2745279
+
+Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and
+
+institutional aliations.
+
+1 3
+
+250 Page 38 of 39
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+Machine Learning (2025) 114:250
+
+Authors and Aliations
+
+EleonoraCappuccio 1 · BahavathyKathirgamanathan 2 · Salva toreRinzivillo 1 ·
+
+GennadyAndrienko 2,3 · NataliaAndrienko 2,3
+
+ Eleonora Cappuccio
+
+eleonora.cappuccio@cnr.it
+
+Bahavathy Kathirgamanathan
+
+bahavathy.kathirgamanathan@iais.fraunhofer.de
+
+Salvatore Rinzivillo
+
+salvatore.rinzivillo@cnr.it
+
+Gennady Andrienko
+
+gennady.andrienko@iais.fraunhofer.de
+
+Natalia Andrienko
+
+natalia.andrienko@iais.fraunhofer.de
+
+1 Institute of Information Science and Technologies “Alessandro Faedo”, CNR, Via Moruzzi 1,
+
+56124 Pisa, Italy
+
+2 KD - Knowledge Discovery, Fraunhofer Institute IAIS, Schloss Birlinghoven,
+
+53757 Sankt Augustin, NR W, Germany
+
+3 School of Science and Technology, City St George's, University of London,
+
+Northampton Sq., London EC1V 0HB, UK
+
+1 3
+
+Page 39 of 39 250
+
+Content courtesy of Springer Nature, terms of use apply. Rights reserved.
+
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+Terms and Conditions
+
+Springer Nature journal content, brought to you courtesy of Springer Nature Customer Service Center
+
+GmbH (“Springer Nature”).
+
+Springer Nature supports a reasonable amount of sharing of research papers by authors, subscribers
+
+and authorised users (“Users”), for small-scale personal, non-commercial use provided that all
+
+copyright, trade and service marks and other proprietary notices are maintained. By accessing,
+
+sharing, receiving or otherwise using the Springer Nature journal content you agree to these terms of
+
+use (“Terms”). For these purposes, Springer Nature considers academic use (by researchers and
+
+students) to be non-commercial.
+
+These Terms are supplementary and will apply in addition to any applicable website terms and
+
+conditions, a relevant site licence or a personal subscription. These Terms will prevail over any
+
+conflict or ambiguity with regards to the relevant terms, a site licence or a personal subscription (to
+
+the extent of the conflict or ambiguity only). For Creative Commons-licensed articles, the terms of
+
+the Creative Commons license used will apply.
+
+We collect and use personal data to provide access to the Springer Nature journal content. We may
+
+also use these personal data internally within ResearchGate and Springer Nature and as agreed share
+
+it, in an anonymised way, for purposes of tracking, analysis and reporting. We will not otherwise
+
+disclose your personal data outside the ResearchGate or the Springer Nature group of companies
+
+unless we have your permission as detailed in the Privacy Policy.
+
+While Users may use the Springer Nature journal content for small scale, personal non-commercial
+
+use, it is important to note that Users may not:
+
+use such content for the purpose of providing other users with access on a regular or large scale
+
+basis or as a means to circumvent access control;
+
+use such content where to do so would be considered a criminal or statutory offence in any
+
+jurisdiction, or gives rise to civil liability, or is otherwise unlawful;
+
+falsely or misleadingly imply or suggest endorsement, approval , sponsorship, or association
+
+unless explicitly agreed to by Springer Nature in writing;
+
+use bots or other automated methods to access the content or redirect messages
+
+override any security feature or exclusionary protocol; or
+
+share the content in order to create substitute for Springer Nature products or services or a
+
+systematic database of Springer Nature journal content.
+
+In line with the restriction against commercial use, Springer Nature does not permit the creation of a
+
+product or service that creates revenue, royalties, rent or income from our content or its inclusion as
+
+part of a paid for service or for other commercial gain. Springer Nature journal content cannot be
+
+used for inter-library loans and librarians may not upload Springer Nature journal content on a large
+
+scale into their, or any other, institutional repository.
+
+These terms of use are reviewed regularly and may be amended at any time. Springer Nature is not
+
+obligated to publish any information or content on this website and may remove it or features or
+
+functionality at our sole discretion, at any time with or without notice. Springer Nature may revoke
+
+this licence to you at any time and remove access to any copies of the Springer Nature journal content
+
+which have been saved.
+
+To the fullest extent permitted by law, Springer Nature makes no warranties, representations or
+
+guarantees to Users, either express or implied with respect to the Springer nature journal content and
+
+all parties disclaim and waive any implied warranties or warranties imposed by law, including
+
+merchantability or fitness for any particular purpose.
+
+Please note that these rights do not automatically extend to content, data or other material published
+
+by Springer Nature that may be licensed from third parties.
+
+If you would like to use or distribute our Springer Nature journal content to a wider audience or on a
+
+regular basis or in any other manner not expressly permitted by these Terms, please contact Springer
+
+Nature at
+
+onlineservice@springernature.com 
+
+https://www.researchgate.net/deref/mailto%3Aonlineservice%40springernature.com
+
+Citations (1)
+
+References (44)
+
+... The growing adoption of machine learning (ML) methods has enabled the extraction of complex multivariate patterns from high-dimensional tabular data and has facilitated a shift from rigid threshold-based rules to adaptive, data-driven decision-making mechanisms [6][7][8]. Personalized modeling strategies allow decision boundaries to be adjusted according to individual characteristics, thereby increasing robustness in heterogeneous and imbalanced data environments 
+
+[9,
+
+ 10]. However, many existing machine learning-based studies treat thresholds or reference limits as fixed labels rather than integral components of the modeling process....
+
+A Hybrid Ensemble Framework for Rare Event Detection in Large-Scale Tabular Data
+
+https://www.researchgate.net/publication/401436631_A_Hybrid_Ensemble_Framework_for_Rare_Event_Detection_in_Large-Scale_Tabular_Data
+
+Article
+
+Full-text available
+
+Mar 2026
+
+Natalya Maxutova
+
+https://www.researchgate.net/scientific-contributions/Natalya-Maxutova-2298881839
+
+Akmaral Kassymova
+
+https://www.researchgate.net/scientific-contributions/Akmaral-Kassymova-2211049171
+
+Kuanysh Kadirkulov
+
+https://www.researchgate.net/scientific-contributions/Kuanysh-Kadirkulov-2193260727
+
+Zhanat Kenzhebayeva
+
+https://www.researchgate.net/scientific-contributions/Zhanat-Kenzhebayeva-2257563845
+
+Rare event detection in large tabular data remains a computationally challenging problem due to class imbalance, heterogeneous feature distributions, and unstable thresholds. Traditional machine learning approaches based on individual models and fixed thresholds often exhibit limited robustness and reproducibility in such settings. This paper proposes a hybrid ensemble framework for rare event detection that integrates heterogeneous machine learning models through threshold-aware probabilistic aggregation. The framework combines gradient-boosted decision trees, regularized linear models, and neural networks, leveraging their complementary inductive biases. To ensure reproducibility and robust performance evaluation under severe class imbalance, a leaky-controlled evaluation protocol is employed, including rootwise summation, probability calibration, and validation-based threshold optimization. The proposed approach is evaluated on a large tabular dataset containing approximately 50,000 observations. Experimental results demonstrate improved rare event detection and robust generalization performance compared to individual baseline models. Explainability is achieved through Shapley Additive Explanations (SHAP)-based attribution analysis and clustering in the explanation space, enabling transparent analysis of ensemble decision-making behavior. The proposed framework represents a general-purpose computational solution for rare event detection and can be applied to a wide range of data-driven decision-making and anomaly detection problems.
+
+View
+
+https://www.researchgate.net/publication/401436631_A_Hybrid_Ensemble_Framework_for_Rare_Event_Detection_in_Large-Scale_Tabular_Data
+
+Show abstract
+
+Episodes and Topics in Multivariate Temporal Data
+
+https://www.researchgate.net/publication/373474505_Episodes_and_Topics_in_Multivariate_Temporal_Data
+
+Article
+
+Full-text available
+
+Aug 2023
+
+COMPUT GRAPH FORUM
+
+https://www.researchgate.net/journal/Computer-Graphics-Forum-1467-8659
+
+Natalia Andrienko
+
+https://www.researchgate.net/scientific-contributions/Natalia-Andrienko-8263899
+
+ Gennady Andrienko
+
+https://www.researchgate.net/profile/Gennady-Andrienko
+
+Gota Shirato
+
+https://www.researchgate.net/scientific-contributions/Gota-Shirato-2241497604
+
+The term 'episode' refers to a time interval in the development of a dynamic process or behaviour of an entity. Episode‐based data consist of a set of episodes that are described using time series of multiple attribute values. Our research problem involves analysing episode‐based data in order to understand the distribution of multi‐attribute dynamic characteristics across a set of episodes. To solve this problem, we applied an existing theoretical model and developed a general approach that involves incrementally increasing data abstraction. We instantiated this general approach in an analysis procedure in which the value variation of each attribute within an episode is represented by a combination of symbols treated as a 'word'. The variation of multiple attributes is thus represented by a combination of 'words' treated as a 'text'. In this way, the the set of episodes is transformed to a collection of text documents. Topic modelling techniques applied to this collection find groups of related (i.e. repeatedly co‐occurring) 'words', which are called 'topics'. Given that the 'words' encode variation patterns of individual attributes, the 'topics' represent patterns of joint variation of multiple attributes. In the following steps, analysts interpret the topics and examine their distribution across all episodes using interactive visualizations. We test the effectiveness of the procedure by applying it to two types of episode‐based data with distinct properties and introduce a range of generic and data type‐specific visualization techniques that can support the interpretation and exploration of topic distribution.
+
+View
+
+https://www.researchgate.net/publication/373474505_Episodes_and_Topics_in_Multivariate_Temporal_Data
+
+Show abstract
+
+Knowledge-graph-based explainable AI: A systematic review
+
+https://www.researchgate.net/publication/363836432_Knowledge-graph-based_explainable_AI_A_systematic_review
+
+Article
+
+Full-text available
+
+Sep 2022
+
+J INF SCI
+
+ Enayat Rajabi
+
+https://www.researchgate.net/profile/Enayat-Rajabi
+
+ Farzaneh Etminani
+
+https://www.researchgate.net/profile/Farzaneh-Etminani
+
+In recent years, knowledge graphs (KGs) have been widely applied in various domains for different purposes. The semantic model of KGs can represent knowledge through a hierarchical structure based on classes of entities, their properties, and their relationships. The construction of large KGs can enable the integration of heterogeneous information sources and help Artificial Intelligence (AI) systems be more explainable and interpretable. This systematic review examines a selection of recent publications to understand how KGs are currently being used in eXplainable AI systems. To achieve this goal, we design a framework and divide the use of KGs into four categories: extracting features, extracting relationships, constructing KGs, and KG reasoning. We also identify where KGs are mostly used in eXplainable AI systems (pre-model, in-model, and post-model) according to the aforementioned categories. Based on our analysis, KGs have been mainly used in pre-model XAI for feature and relation extraction. They were also utilised for inference and reasoning in post-model XAI. We found several studies that leveraged KGs to explain the XAI models in the healthcare domain.
+
+View
+
+https://www.researchgate.net/publication/363836432_Knowledge-graph-based_explainable_AI_A_systematic_review
+
+Show abstract
+
+COVID-19 Flow-Maps an open geographic information system on COVID-19 and human mobility for Spain
+
+https://www.researchgate.net/publication/356649525_COVID-19_Flow-Maps_an_open_geographic_information_system_on_COVID-19_and_human_mobility_for_Spain
+
+Article
+
+Full-text available
+
+Nov 2021
+
+ Miguel Ponce-de-Leon
+
+https://www.researchgate.net/profile/Miguel-Ponce-De-Leon-2
+
+Javier del Valle
+
+https://www.researchgate.net/scientific-contributions/Javier-del-Valle-2197597032
+
+ José María Fernández
+
+https://www.researchgate.net/profile/Jose-Fernandez-66
+
+ Alfonso Valencia
+
+https://www.researchgate.net/profile/Alfonso-Valencia-4
+
+COVID-19 is an infectious disease caused by the SARS-CoV-2 virus, which has spread all over the world leading to a global pandemic. The fast progression of COVID-19 has been mainly related to the high contagion rate of the virus and the worldwide mobility of humans. In the absence of pharmacological therapies, governments from different countries have introduced several non-pharmaceutical interventions to reduce human mobility and social contact. Several studies based on Anonymized Mobile Phone Data have been published analysing the relationship between human mobility and the spread of coronavirus. However, to our knowledge, none of these data-sets integrates cross-referenced geo-localised data on human mobility and COVID-19 cases into one all-inclusive open resource. Herein we present COVID-19 Flow-Maps, a cross-referenced Geographic Information System that integrates regularly updated time-series accounting for population mobility and daily reports of COVID-19 cases in Spain at different scales of time spatial resolution. This integrated and up-to-date data-set can be used to analyse the human dynamics to guide and support the design of more effective non-pharmaceutical interventions.
+
+View
+
+https://www.researchgate.net/publication/356649525_COVID-19_Flow-Maps_an_open_geographic_information_system_on_COVID-19_and_human_mobility_for_Spain
+
+Show abstract
+
+Informed Machine Learning - A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems
+
+https://www.researchgate.net/publication/351534159_Informed_Machine_Learning_-_A_Taxonomy_and_Survey_of_Integrating_Prior_Knowledge_into_Learning_Systems
+
+Article
+
+Full-text available
+
+May 2021
+
+ Laura von Rueden
+
+https://www.researchgate.net/profile/Laura-Von-Rueden
+
+ Sebastian Mayer
+
+https://www.researchgate.net/profile/Sebastian-Mayer-14
+
+ Katharina Beckh
+
+https://www.researchgate.net/profile/Katharina-Beckh
+
+Jannis Schuecker
+
+https://www.researchgate.net/scientific-contributions/Jannis-Schuecker-2140605858
+
+Despite its great success, machine learning can have its limits when dealing with insufficient training data. A potential solution is the additional integration of prior knowledge into the training process which leads to the notion of informed machine learning. In this paper, we present a structured overview of various approaches in this field. We provide a definition and propose a concept for informed machine learning which illustrates its building blocks and distinguishes it from conventional machine learning. We introduce a taxonomy that serves as a classification framework for informed machine learning approaches. It considers the source of knowledge, its representation, and its integration into the machine learning pipeline. Based on this taxonomy, we survey related research and describe how different knowledge representations such as algebraic equations, logic rules, or simulation results can be used in learning systems. This evaluation of numerous papers on the basis of our taxonomy uncovers key methods in the field of informed machine learning.
+
+View
+
+https://www.researchgate.net/publication/351534159_Informed_Machine_Learning_-_A_Taxonomy_and_Survey_of_Integrating_Prior_Knowledge_into_Learning_Systems
+
+Show abstract
+
+Contextualized visual analytics for multivariate events
+
+https://www.researchgate.net/publication/390093889_Contextualized_visual_analytics_for_multivariate_events
+
+Article
+
+Mar 2025
+
+Lei Peng
+
+https://www.researchgate.net/scientific-contributions/Lei-Peng-2308288232
+
+Ziyue Lin
+
+https://www.researchgate.net/scientific-contributions/Ziyue-Lin-2288305771
+
+Natalia Andrienko
+
+https://www.researchgate.net/scientific-contributions/Natalia-Andrienko-8263899
+
+Siming Chen
+
+https://www.researchgate.net/scientific-contributions/Siming-Chen-2071818018
+
+View
+
+https://www.researchgate.net/publication/390093889_Contextualized_visual_analytics_for_multivariate_events
+
+Human-in-the-Loop: Visual Analytics for Building Models Recognizing Behavioral Patterns in Time Series
+
+https://www.researchgate.net/publication/379116755_Human-in-the-Loop_Visual_Analytics_for_Building_Models_Recognising_Behavioural_Patterns_in_Time_Series
+
+Article
+
+Mar 2024
+
+IEEE COMPUT GRAPH
+
+Natalia Andrienko
+
+https://www.researchgate.net/scientific-contributions/Natalia-Andrienko-8263899
+
+ Gennady Andrienko
+
+https://www.researchgate.net/profile/Gennady-Andrienko
+
+ Alexander Artikis
+
+https://www.researchgate.net/profile/Alexander-Artikis
+
+ Salvatore Rinzivillo
+
+https://www.researchgate.net/profile/Salvatore-Rinzivillo
+
+Results of automated detection of complex patterns in temporal data, such as trajectories of moving objects, may be not good enough due to the use of strict pattern specifications derived from imprecise domain concepts. To address this challenge, we propose a novel visual analytics approach that combines expert knowledge and automated pattern detection results to construct features that effectively distinguish patterns of interest from other types of behaviour. These features are then used to create interactive visualisations enabling a human analyst to generate labelled examples for building a feature-based pattern classifier. We evaluate our approach through a case study focused on detecting trawling activities in fishing vessel trajectories, demonstrating significant improvements in pattern recognition by leveraging domain knowledge and incorporating human reasoning and feedback. Our contribution is a novel framework that integrates human expertise and analytical reasoning with ML or AI techniques, advancing the field of data analytics.
+
+View
+
+https://www.researchgate.net/publication/379116755_Human-in-the-Loop_Visual_Analytics_for_Building_Models_Recognising_Behavioural_Patterns_in_Time_Series
+
+Show abstract
+
+Visual Analytics for Machine Learning: A Data Perspective Survey
+
+https://www.researchgate.net/publication/377631981_Visual_Analytics_for_Machine_Learning_A_Data_Perspective_Survey
+
+Article
+
+Jan 2024
+
+IEEE T VIS COMPUT GR
+
+Junpeng Wang
+
+https://www.researchgate.net/scientific-contributions/Junpeng-Wang-2256401005
+
+Shixia Liu
+
+https://www.researchgate.net/scientific-contributions/Shixia-Liu-2272206588
+
+Wei Zhang
+
+https://www.researchgate.net/scientific-contributions/Wei-Zhang-2181081991
+
+The past decade has witnessed a plethora of works that leverage the power of visualization (VIS) to interpret machine learning (ML) models. The corresponding research topic, VIS4ML, keeps growing at a fast pace. To better organize the enormous works and shed light on the developing trend of VIS4ML, we provide a systematic review of these works through this survey. Since data quality greatly impacts the performance of ML models, our survey focuses specifically on summarizing VIS4ML works from the data perspective . First, we categorize the common data handled by ML models into five types, explain the unique features of each type, and highlight the corresponding ML models that are good at learning from them. Second, from the large number of VIS4ML works, we tease out six tasks that operate on these types of data (i.e., data-centric tasks) at different stages of the ML pipeline to understand, diagnose, and refine ML models. Lastly, by studying the distribution of 143 surveyed papers across the five data types, six data-centric tasks, and their intersections, we analyze the prospective research directions and envision future research trends.
+
+View
+
+https://www.researchgate.net/publication/377631981_Visual_Analytics_for_Machine_Learning_A_Data_Perspective_Survey
+
+Show abstract
+
+XAI for learning: Narrowing down the digital divide between “new” and “old” experts
+
+https://www.researchgate.net/publication/364264809_XAI_for_learning_Narrowing_down_the_digital_divide_between_new_and_old_experts
+
+Conference Paper
+
+Oct 2022
+
+ Auste Simkute
+
+https://www.researchgate.net/profile/Auste-Simkute
+
+ Aditi Surana
+
+https://www.researchgate.net/profile/Aditi-Surana
+
+ Ewa Luger
+
+https://www.researchgate.net/profile/Ewa-Luger-3
+
+Rhianne Jones
+
+https://www.researchgate.net/scientific-contributions/Rhianne-Jones-2189729164
+
+View
+
+https://www.researchgate.net/publication/364264809_XAI_for_learning_Narrowing_down_the_digital_divide_between_new_and_old_experts
+
+Anchors: High-Precision Model-Agnostic Explanations
+
+https://www.researchgate.net/publication/361521016_Anchors_High-Precision_Model-Agnostic_Explanations
+
+Article
+
+Apr 2018
+
+Marco Tulio Ribeiro
+
+https://www.researchgate.net/scientific-contributions/Marco-Tulio-Ribeiro-2112752854
+
+ Sameer Singh
+
+https://www.researchgate.net/profile/Sameer-Singh-15
+
+Carlos Guestrin
+
+https://www.researchgate.net/scientific-contributions/Carlos-Guestrin-11411000
+
+We introduce a novel model-agnostic system that explains the behavior of complex models with high-precision rules called anchors, representing local, "sufficient" conditions for predictions. We propose an algorithm to efficiently compute these explanations for any black-box model with high-probability guarantees. We demonstrate the flexibility of anchors by explaining a myriad of different models for different domains and tasks. In a user study, we show that anchors enable users to predict how a model would behave on unseen instances with less effort and higher precision, as compared to existing linear explanations or no explanations.
+
+View
+
+https://www.researchgate.net/publication/361521016_Anchors_High-Precision_Model-Agnostic_Explanations
+
+Show abstract
+
+“That's (not) the output I expected!” On the role of end user expectations in creating explanations of AI systems
+
+https://www.researchgate.net/publication/351032613_That's_not_the_output_I_expected_On_the_role_of_end_user_expectations_in_creating_explanations_of_AI_systems
+
+Article
+
+Apr 2021
+
+ARTIF INTELL
+
+ Maria Riveiro
+
+https://www.researchgate.net/profile/Maria-Riveiro
+
+Serge Thill
+
+https://www.researchgate.net/scientific-contributions/Serge-Thill-50140278
+
+Research in the social sciences has shown that expectations are an important factor in explanations as used between humans: rather than explaining the cause of an event per se, the explainer will often address other event that did not occur but that the explainee might have expected. For AI-powered systems, this finding suggests that explanation-generating systems may need to identify such end user expectations. In general, this is a challenging task, not the least because users often keep them implicit; there is thus a need to investigate the importance of such an ability. In this paper, we report an empirical study with 181 participants who were shown outputs from a text classifier system along with an explanation of why the system chose a particular class for each text. Explanations were both factual, explaining why the system produced a certain output or counterfactual, explaining why the system produced one output instead of another. Our main hypothesis was explanations should align with end user expectations; that is, a factual explanation should be given when the system's output is in line with end user expectations, and a counterfactual explanation when it is not. We find that factual explanations are indeed appropriate when expectations and output match. When they do not, neither factual nor counterfactual explanations appear appropriate, although we do find indications that our counterfactual explanations contained at least some necessary elements. Overall, this suggests that it is important for systems that create explanations of AI systems to infer what outputs the end user expected so that factual explanations can be generated at the appropriate moments. At the same time, this information is, by itself, not sufficient to also create appropriate explanations when the output and user expectations do not match. This is somewhat surprising given investigations of explanations in the social sciences, and will need more scrutiny in future studies.
+
+View
+
+https://www.researchgate.net/publication/351032613_That's_not_the_output_I_expected_On_the_role_of_end_user_expectations_in_creating_explanations_of_AI_systems
+
+Show abstract
+
+Show more
+
+Recommended publications
+
+Discover more
+
+https://www.researchgate.net/search
+
+Chapter
+
+FIPER: A Visual-Based Explanation Combining Rules and Feature Importance
+
+https://www.researchgate.net/publication/387636972_FIPER_A_Visual-Based_Explanation_Combining_Rules_and_Feature_Importance
+
+January 2025
+
+ 
+
+Eleonora Cappuccio
+
+https://www.researchgate.net/profile/Eleonora-Cappuccio
+
+ 
+
+Salvatore Rinzivillo
+
+https://www.researchgate.net/profile/Salvatore-Rinzivillo
+
+ 
+
+Daniele Fadda
+
+https://www.researchgate.net/profile/Daniele-Fadda
+
+ 
+
+Rosa Lanzilotti
+
+https://www.researchgate.net/profile/Rosa-Lanzilotti
+
+Read more
+
+https://www.researchgate.net/publication/387636972_FIPER_A_Visual-Based_Explanation_Combining_Rules_and_Feature_Importance
+
+Article
+
+Visual Analytics for Human-Centered Machine Learning
+
+https://www.researchgate.net/publication/358126498_Visual_Analytics_for_Human-Centered_Machine_Learning
+
+January 2022
+
+· IEEE Computer Graphics and Applications
+
+Natalia Andrienko
+
+https://www.researchgate.net/scientific-contributions/Natalia-Andrienko-8263899
+
+ 
+
+Gennady Andrienko
+
+https://www.researchgate.net/profile/Gennady-Andrienko
+
+ 
+
+Linara Adilova
+
+https://www.researchgate.net/profile/Linara-Adilova
+
+[...]
+
+Theresa-Marie Rhyne
+
+https://www.researchgate.net/scientific-contributions/Theresa-Marie-Rhyne-2143209081
+
+We introduce a new research area in visual analytics (VA) aiming to bridge existing gaps between methods of interactive machine learning (ML) and eXplainable Artificial Intelligence (XAI), on one side, and human minds, on the other side. The gaps are, first, a conceptual mismatch between ML/XAI outputs and human mental models and ways of reasoning, and second, a mismatch between the information 
+
+... [Show full abstract]
+
+https://www.researchgate.net/
+
+ quantity and level of detail and human capabilities to perceive and understand. A grand challenge is to adapt ML and XAI to human goals, concepts, values, and ways of thinking. Complementing the current efforts in XAI towards solving this challenge, VA can contribute by exploiting the potential of visualization as an effective way of communicating information to humans and a strong trigger of human abstractive perception and thinking. We propose a cross-disciplinary research framework and formulate research directions for VA.
+
+Read more
+
+https://www.researchgate.net/publication/358126498_Visual_Analytics_for_Human-Centered_Machine_Learning
+
+Conference Paper
+
+Demo: an Interactive Visualization Combining Rule-Based and Feature Importance Explanations
+
+https://www.researchgate.net/publication/374054652_Demo_an_Interactive_Visualization_Combining_Rule-Based_and_Feature_Importance_Explanations
+
+September 2023
+
+ 
+
+Eleonora Cappuccio
+
+https://www.researchgate.net/profile/Eleonora-Cappuccio
+
+ 
+
+Salvatore Rinzivillo
+
+https://www.researchgate.net/profile/Salvatore-Rinzivillo
+
+ 
+
+Daniele Fadda
+
+https://www.researchgate.net/profile/Daniele-Fadda
+
+ 
+
+Rosa Lanzilotti
+
+https://www.researchgate.net/profile/Rosa-Lanzilotti
+
+Read more
+
+https://www.researchgate.net/publication/374054652_Demo_an_Interactive_Visualization_Combining_Rule-Based_and_Feature_Importance_Explanations
+
+Article
+
+Full-text available
+
+Spatio-temporal visual analytics: a vision for 2020s
+
+https://www.researchgate.net/publication/342518584_Spatio-temporal_visual_analytics_a_vision_for_2020s
+
+June 2020
+
+· Journal of Spatial Information Science
+
+Natalia Andrienko
+
+https://www.researchgate.net/scientific-contributions/Natalia-Andrienko-8263899
+
+ 
+
+Gennady Andrienko
+
+https://www.researchgate.net/profile/Gennady-Andrienko
+
+Visual analytics is a research discipline that is based on acknowledging the power and the necessity of the human vision, understanding, and reasoning in data analysis and problem solving. Visual analytics develops methods, analytical workflows, and software tools for analysing data of various types, particularly, spatio-temporal data, which can describe the processes going on in the environment, 
+
+... [Show full abstract]
+
+https://www.researchgate.net/
+
+ society, and economy. We briefly overview the achievements of the visual analytics research concerning spatio-temporal data analysis and discuss the major open problems.
+
+View full-text
+
+https://www.researchgate.net/publication/342518584_Spatio-temporal_visual_analytics_a_vision_for_2020s
+
+Last Updated: 03 Dec 2025
+
+Discover the world's research
+
+Join ResearchGate to find the people and research you need to help your work.
+
+Join for free
+
+https://www.researchgate.net/signup.SignUp.html
+
+ResearchGate iOS App Get it from the App Store now.
+
+https://www.researchgate.net/go.GetApp.html?_sg=tF1TdXUkxkPi8g5-HkjOYtsx86aJ8qp0fqGsl8KvhqRYbPoY8o-ZSlnpkm3rDTguFXUilsEpMh4NWq2o8uiLpxmGQhfDHnse17FMr7zUYs0&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+Install
+
+https://www.researchgate.net/go.GetApp.html?_sg=tF1TdXUkxkPi8g5-HkjOYtsx86aJ8qp0fqGsl8KvhqRYbPoY8o-ZSlnpkm3rDTguFXUilsEpMh4NWq2o8uiLpxmGQhfDHnse17FMr7zUYs0&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+Keep up with your stats and more
+
+https://www.researchgate.net/go.GetApp.html?_sg=tF1TdXUkxkPi8g5-HkjOYtsx86aJ8qp0fqGsl8KvhqRYbPoY8o-ZSlnpkm3rDTguFXUilsEpMh4NWq2o8uiLpxmGQhfDHnse17FMr7zUYs0&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+Access scientific knowledge from anywhere
+
+https://www.researchgate.net/go.GetApp.html?_sg=tF1TdXUkxkPi8g5-HkjOYtsx86aJ8qp0fqGsl8KvhqRYbPoY8o-ZSlnpkm3rDTguFXUilsEpMh4NWq2o8uiLpxmGQhfDHnse17FMr7zUYs0&originCh=bannerStatsCopy&relativePath=publicationLoggedOut&interested=true
+
+or
+
+Discover by subject area
+
+https://www.researchgate.net/topics
+
+Recruit researchers
+
+https://www.researchgate.net/scientific-recruitment/?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=indextop
+
+Join for free
+
+https://www.researchgate.net/signup.SignUp.html?hdrsu=1&_sg%5B0%5D=RHcDb7Bsa5J0Zzxpju4N-aRDmwrlD_HOBbVqQYYQ0ckqc51JFr3d_ttclhQMC4o9VTURoZkCFRh26f8QI347GW6PgUU
+
+Login
+
+https://www.researchgate.net/
+
+ Email 
+
+Tip:
+
+ Most researchers use their institutional email address as their ResearchGate login Password 
+
+Forgot password?
+
+https://www.researchgate.net/application.LostPassword.html
+
+ 
+
+[x] yes Keep me logged in Log in or 
+
+Continue with Google
+
+https://www.researchgate.net/connector/google
+
+ Welcome back! Please log in. Email · Hint 
+
+Tip:
+
+ Most researchers use their institutional email address as their ResearchGate login Password 
+
+Forgot password?
+
+https://www.researchgate.net/application.LostPassword.html
+
+ 
+
+[x] yes Keep me logged in Log in or 
+
+Continue with Google
+
+https://www.researchgate.net/connector/google
+
+ No account? 
+
+Sign up
+
+https://www.researchgate.net/signup.SignUp.html?hdrsu=1&_sg%5B0%5D=RHcDb7Bsa5J0Zzxpju4N-aRDmwrlD_HOBbVqQYYQ0ckqc51JFr3d_ttclhQMC4o9VTURoZkCFRh26f8QI347GW6PgUU
+
+Company
+
+About us
+
+https://www.researchgate.net/about
+
+News
+
+https://www.researchgate.net/blog
+
+Careers
+
+https://www.researchgate.net/careers
+
+Support
+
+Help Center
+
+https://help.researchgate.net/?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=new-footer&utm_content=helpcenter
+
+Business solutions
+
+Advertising
+
+https://www.researchgate.net/marketing-solutions?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=new-footer&utm_content=advertising
+
+Recruiting
+
+https://www.researchgate.net/scientific-recruitment?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=new-footer&utm_content=recruiting
+
+© 2008-2026 ResearchGate GmbH. All rights reserved.
+
+Terms
+
+https://www.researchgate.net/terms-of-service
+
+Privacy
+
+https://www.researchgate.net/privacy-policy
+
+Copyright
+
+https://www.researchgate.net/ip-policy
+
+Imprint
+
+https://www.researchgate.net/imprint
+
+Consent preferences
+
+javascript:Didomi.preferences.show()
+
+ 

@@ -1,0 +1,2593 @@
+Skip to Main Content
+
+Open Menu
+
+Close
+
+Journals 
+
+Open Menu
+
+All Journals 
+
+Virtual Issues 
+
+Mechanical Engineering Magazine Select Articles 
+
+Applied Mechanics Reviews 
+
+ASCE-ASME Journal of Risk and Uncertainty in Engineering Systems, Part B: Mechanical Engineering 
+
+ASME Letters in Dynamic Systems and Control 
+
+ASME Letters in Translational Robotics 
+
+ASME Open Journal of Engineering 
+
+Journal of Applied Mechanics 
+
+Journal of Autonomous Vehicles and Systems 
+
+Journal of Biomechanical Engineering 
+
+Journal of Computational and Nonlinear Dynamics 
+
+Journal of Computing and Information Science in Engineering 
+
+Journal of Dynamic Systems, Measurement, and Control 
+
+Journal of Electrochemical Energy Conversion and Storage 
+
+Journal of Electronic Packaging 
+
+Journal of Energy Resources Technology 
+
+Journal of Energy Resources Technology, Part A: Sustainable and Renewable Energy 
+
+Journal of Energy Resources Technology, Part B: Subsurface Energy and Carbon Capture 
+
+Journal of Engineering and Science in Medical Diagnostics and Therapy 
+
+Journal of Engineering for Gas Turbines and Power 
+
+Journal of Engineering for Sustainable Buildings and Cities 
+
+Journal of Engineering Materials and Technology 
+
+Journal of Fluids Engineering 
+
+Journal of Heat and Mass Transfer 
+
+Journal of Manufacturing Science and Engineering 
+
+Journal of Mechanical Design 
+
+Journal of Mechanisms and Robotics 
+
+Journal of Medical Devices 
+
+Journal of Micro and Nano Science and Engineering 
+
+Journal of Nanotechnology in Engineering and Medicine 
+
+Journal of Nondestructive Evaluation, Diagnostics and Prognostics of Engineering Systems 
+
+Journal of Nuclear Engineering and Radiation Science 
+
+Journal of Offshore Mechanics and Arctic Engineering 
+
+Journal of Pressure Vessel Technology 
+
+Journal of Solar Energy Engineering 
+
+Journal of Thermal Science and Engineering Applications 
+
+Journal of Tribology 
+
+Journal of Turbomachinery 
+
+Journal of Verification, Validation and Uncertainty Quantification 
+
+Journal of Vibration and Acoustics 
+
+Conference Proceedings 
+
+Open Menu
+
+All Conference Proceedings 
+
+Browse by Series 
+
+Browse by Subject Category 
+
+Browse by Year 
+
+eBooks 
+
+Standards  Open External Link  
+
+Topic Collections 
+
+Resources 
+
+Open Menu
+
+About 
+
+Authors 
+
+Librarians 
+
+FAQs 
+
+Contact Us 
+
+ASME.ORG  Open External Link  
+
+Purchase  Open External Link  
+
+ Cart 
+
+ Cart 
+
+Toggle Menu
+
+Menu
+
+Submit Paper Open External Link
+
+Information for Authors Open External Link
+
+Indexing Information Open External Link
+
+Permissions & Reprints Open External Link
+
+Announcements and Call for Papers Open External Link
+
+About Journal of Manufacturing Science and Engineering
+
+Meet the Editors
+
+Search Dropdown Menu
+
+Search
+
+Advanced Search
+
+Skip Nav Destination
+
+Article navigation  
+
+Volume 139, Issue 7  
+
+https://asmedigitalcollection.asme.org/manufacturingscience/issue/139/7
+
+ July 2017 
+
+Previous  Article
+
+https://asmedigitalcollection.asme.org/manufacturingscience/issue/139/7
+
+Next  Article
+
+Article Contents  
+
+Introduction
+
+Data-Driven Methods for Tool Wear Prediction
+
+Methodology
+
+Experimental Setup
+
+Results and Discussion
+
+Conclusions and Future Work
+
+Acknowledgment
+
+References
+
+Research-Article  
+
+ A Comparative Study on Machine Learning Algorithms for Smart Manufacturing: Tool Wear Prediction Using Random Forests 
+
+Free
+
+Dazhong Wu
+
+,   Dazhong Wu  Department of Industrial and 
+ Manufacturing Engineering, 
+ National Science Foundation 
+ Center for e-Design, 
+ Pennsylvania State University, 
+ University Park, PA 16802 
+ e-mail: 
+
+[email protected]
+
+https://asmedigitalcollection.asme.org/cdn-cgi/l/email-protection#5c38242b6e6b651c2c2f2972393829
+
+ Search for other works by this author on: 
+
+This Site
+
+https://asmedigitalcollection.asme.org/search-results?f_AllAuthors=Dazhong+Wu
+
+PubMed
+
+https://asmedigitalcollection.asme.org/search-results?f_AllAuthors=Dazhong+Wu
+
+Google Scholar
+
+https://asmedigitalcollection.asme.org/search-results?f_AllAuthors=Dazhong+Wu
+
+Connor Jennings
+
+https://asmedigitalcollection.asme.org/search-results?f_AllAuthors=Dazhong+Wu
+
+,   Connor Jennings  Department of Industrial and 
+ Manufacturing Engineering, 
+ National Science Foundation 
+ Center for e-Design, 
+ Pennsylvania State University, 
+ University Park, PA 16802 
+ e-mail: 
+
+[email protected]
+
+https://asmedigitalcollection.asme.org/cdn-cgi/l/email-protection#42212d2c2c2d30023231376c272637
+
+ Search for other works by this author on: 
+
+This Site
+
+https://asmedigitalcollection.asme.org/search-results?f_AllAuthors=Connor+Jennings
+
+PubMed
+
+https://asmedigitalcollection.asme.org/search-results?f_AllAuthors=Connor+Jennings
+
+Google Scholar
+
+https://asmedigitalcollection.asme.org/search-results?f_AllAuthors=Connor+Jennings
+
+Janis Terpenny
+
+https://asmedigitalcollection.asme.org/search-results?f_AllAuthors=Connor+Jennings
+
+,   Janis Terpenny  Department of Industrial and 
+ Manufacturing Engineering, 
+ National Science Foundation 
+ Center for e-Design, 
+ Pennsylvania State University, 
+ University Park, PA 16802 
+ e-mail: 
+
+[email protected]
+
+https://asmedigitalcollection.asme.org/cdn-cgi/l/email-protection#3b514b4f0e080a0a7b4b484e155e5f4e
+
+ Search for other works by this author on: 
+
+This Site
+
+https://asmedigitalcollection.asme.org/search-results?f_AllAuthors=Janis+Terpenny
+
+PubMed
+
+https://asmedigitalcollection.asme.org/search-results?f_AllAuthors=Janis+Terpenny
+
+Google Scholar
+
+https://asmedigitalcollection.asme.org/search-results?f_AllAuthors=Janis+Terpenny
+
+Robert X. Gao
+
+https://asmedigitalcollection.asme.org/search-results?f_AllAuthors=Janis+Terpenny
+
+,   Robert X. Gao  Department of Mechanical and 
+ Aerospace Engineering, 
+ Case Western Reserve University, 
+ Cleveland, OH 44106 
+ e-mail: 
+
+[email protected]
+
+https://asmedigitalcollection.asme.org/cdn-cgi/l/email-protection#4f3d202d2a3d3b61282e200f2c2e3c2a612a2b3a
+
+ Search for other works by this author on: 
+
+This Site
+
+https://asmedigitalcollection.asme.org/search-results?f_AllAuthors=Robert+X.+Gao
+
+PubMed
+
+https://asmedigitalcollection.asme.org/search-results?f_AllAuthors=Robert+X.+Gao
+
+Google Scholar
+
+https://asmedigitalcollection.asme.org/search-results?f_AllAuthors=Robert+X.+Gao
+
+Soundar Kumara
+
+https://asmedigitalcollection.asme.org/search-results?f_AllAuthors=Robert+X.+Gao
+
+ Soundar Kumara  Department of Industrial and 
+ Manufacturing Engineering, 
+ Pennsylvania State University, 
+ University Park, PA 16802 
+ e-mail: 
+
+[email protected]
+
+https://asmedigitalcollection.asme.org/cdn-cgi/l/email-protection#5f2c342a323e2d3e1f2f2c2a713a3b2a
+
+ Search for other works by this author on: 
+
+This Site
+
+https://asmedigitalcollection.asme.org/search-results?f_AllAuthors=Soundar+Kumara
+
+PubMed
+
+https://asmedigitalcollection.asme.org/search-results?f_AllAuthors=Soundar+Kumara
+
+Google Scholar
+
+https://asmedigitalcollection.asme.org/search-results?f_AllAuthors=Soundar+Kumara
+
+Author and Article Information 
+
+https://asmedigitalcollection.asme.org/search-results?f_AllAuthors=Soundar+Kumara
+
+ Dazhong Wu  Department of Industrial and 
+ Manufacturing Engineering, 
+ National Science Foundation 
+ Center for e-Design, 
+ Pennsylvania State University, 
+ University Park, PA 16802 
+ e-mail: 
+
+[email protected]
+
+https://asmedigitalcollection.asme.org/cdn-cgi/l/email-protection#6f0b17185d58562f1f1c1a410a0b1a
+
+ Connor Jennings  Department of Industrial and 
+ Manufacturing Engineering, 
+ National Science Foundation 
+ Center for e-Design, 
+ Pennsylvania State University, 
+ University Park, PA 16802 
+ e-mail: 
+
+[email protected]
+
+https://asmedigitalcollection.asme.org/cdn-cgi/l/email-protection#fe9d919090918cbe8e8d8bd09b9a8b
+
+ Janis Terpenny  Department of Industrial and 
+ Manufacturing Engineering, 
+ National Science Foundation 
+ Center for e-Design, 
+ Pennsylvania State University, 
+ University Park, PA 16802 
+ e-mail: 
+
+[email protected]
+
+https://asmedigitalcollection.asme.org/cdn-cgi/l/email-protection#157f656120262424556566603b707160
+
+ Robert X. Gao  Department of Mechanical and 
+ Aerospace Engineering, 
+ Case Western Reserve University, 
+ Cleveland, OH 44106 
+ e-mail: 
+
+[email protected]
+
+https://asmedigitalcollection.asme.org/cdn-cgi/l/email-protection#e4968b86819690ca83858ba487859781ca818091
+
+ Soundar Kumara  Department of Industrial and 
+ Manufacturing Engineering, 
+ Pennsylvania State University, 
+ University Park, PA 16802 
+ e-mail: 
+
+[email protected]
+
+https://asmedigitalcollection.asme.org/cdn-cgi/l/email-protection#e4978f9189859685a4949791ca818091
+
+1 Corresponding author. 
+
+Manuscript received October 25, 2016; final manuscript received March 13, 2017; published online April 18, 2017. Assoc. Editor: Laine Mears.
+
+J. Manuf. Sci. Eng
+
+. Jul 2017, 139(7): 071018 (9 pages)   Paper No:  MANU-16-1567  
+
+https://doi.org/10.1115/1.4036350
+
+https://doi.org/10.1115/1.4036350
+
+Published Online:
+
+ April 18, 2017 
+
+Article history
+
+Received:   October 25, 2016   Revised:   March 13, 2017  
+
+Split-Screen
+
+Views Icon
+
+Views  
+
+Open Menu
+
+Article contents
+
+Figures & tables
+
+Video
+
+Audio
+
+Supplementary Material
+
+Peer Review
+
+Open the 
+
+PDF  for in another window  
+
+Share Icon
+
+Share  
+
+Facebook
+
+X
+
+LinkedIn
+
+Email
+
+Cite Icon  
+
+Cite  
+
+Permissions  
+
+Search Site  
+
+Citation  
+
+Wu, D., Jennings, C., Terpenny, J., Gao, R. X., and Kumara, S. (April 18, 2017). "A Comparative Study on Machine Learning Algorithms for Smart Manufacturing: Tool Wear Prediction Using Random Forests." ASME. 
+
+J. Manuf. Sci. Eng
+
+. July 2017; 139(7): 071018. 
+
+https://doi.org/10.1115/1.4036350
+
+https://doi.org/10.1115/1.4036350
+
+Download citation file:
+
+Ris (Zotero)
+
+https://doi.org/10.1115/1.4036350
+
+Reference Manager
+
+https://doi.org/10.1115/1.4036350
+
+EasyBib
+
+https://doi.org/10.1115/1.4036350
+
+Bookends
+
+https://doi.org/10.1115/1.4036350
+
+Mendeley
+
+https://doi.org/10.1115/1.4036350
+
+Papers
+
+https://doi.org/10.1115/1.4036350
+
+EndNote
+
+https://doi.org/10.1115/1.4036350
+
+RefWorks
+
+https://doi.org/10.1115/1.4036350
+
+BibTex
+
+https://doi.org/10.1115/1.4036350
+
+ProCite
+
+https://doi.org/10.1115/1.4036350
+
+Medlars
+
+https://doi.org/10.1115/1.4036350
+
+toolbar search  
+
+Search Dropdown Menu
+
+Search
+
+javascript:;
+
+Advanced Search
+
+javascript:;
+
+Open figure viewer  
+
+Manufacturers have faced an increasing need for the development of predictive models that predict mechanical failures and the remaining useful life (RUL) of manufacturing systems or components. Classical model-based or physics-based prognostics often require an in-depth physical understanding of the system of interest to develop closed-form mathematical models. However, prior knowledge of system behavior is not always available, especially for complex manufacturing systems and processes. To complement model-based prognostics, data-driven methods have been increasingly applied to machinery prognostics and maintenance management, transforming legacy manufacturing systems into smart manufacturing systems with artificial intelligence. While previous research has demonstrated the effectiveness of data-driven methods, most of these prognostic methods are based on classical machine learning techniques, such as artificial neural networks (ANNs) and support vector regression (SVR). With the rapid advancement in artificial intelligence, various machine learning algorithms have been developed and widely applied in many engineering fields. The objective of this research is to introduce a random forests (RFs)-based prognostic method for tool wear prediction as well as compare the performance of RFs with feed-forward back propagation (FFBP) ANNs and SVR. Specifically, the performance of FFBP ANNs, SVR, and RFs are compared using an experimental data collected from 315 milling tests. Experimental results have shown that RFs can generate more accurate predictions than FFBP ANNs with a single hidden layer and SVR.
+
+Issue Section:  
+
+Research Papers
+
+https://asmedigitalcollection.asme.org/manufacturingscience/search-results?f_TocHeadingTitle=Research+Papers
+
+Keywords:  
+
+Computer-integrated manufacturing
+
+https://asmedigitalcollection.asme.org/manufacturingscience/search-results?qb={"Keywords1":"Computer-integrated+manufacturing"}
+
+,  
+
+Sensing
+
+https://asmedigitalcollection.asme.org/manufacturingscience/search-results?qb={"Keywords1":"Sensing"}
+
+,  
+
+Monitoring
+
+https://asmedigitalcollection.asme.org/manufacturingscience/search-results?qb={"Keywords1":"Monitoring"}
+
+,  
+
+Diagnostics
+
+https://asmedigitalcollection.asme.org/manufacturingscience/search-results?qb={"Keywords1":"Diagnostics"}
+
+Topics:  
+
+Algorithms
+
+https://asmedigitalcollection.asme.org/manufacturingscience/search-results?f_SemanticFilterTopics=Algorithms
+
+,  
+
+Artificial neural networks
+
+https://asmedigitalcollection.asme.org/manufacturingscience/search-results?f_SemanticFilterTopics=Artificial neural networks
+
+,  
+
+Wear
+
+https://asmedigitalcollection.asme.org/manufacturingscience/search-results?f_SemanticFilterTopics=Wear
+
+,  
+
+Machine learning
+
+https://asmedigitalcollection.asme.org/manufacturingscience/search-results?f_SemanticFilterTopics=Machine learning
+
+Introduction
+
+Smart manufacturing aims to integrate big data, advanced analytics, high-performance computing, and Industrial Internet of Things (IIoT) into traditional manufacturing systems and processes to create highly customizable products with higher quality at lower costs. As opposed to traditional factories, a smart factory utilizes interoperable information and communications technologies (ICT), intelligent automation systems, and sensor networks to monitor machinery conditions, diagnose the root cause of failures, and predict the remaining useful life (RUL) of mechanical systems or components. For example, almost all engineering systems (e.g., aerospace systems, nuclear power plants, and machine tools) are subject to mechanical failures resulting from deterioration with usage and age or abnormal operating conditions [
+
+1
+
+javascript:;
+
+–
+
+3
+
+javascript:;
+
+]. Some of the typical failure modes include excessive load, overheating, deflection, fracture, fatigue, corrosion, and wear. The degradation and failures of engineering systems or components will often incur higher costs and lower productivity due to unexpected machine downtime. In order to increase manufacturing productivity while reducing maintenance costs, it is crucial to develop and implement an intelligent maintenance strategy that allows manufacturers to determine the condition of in-service systems in order to predict when maintenance should be performed.
+
+Conventional maintenance strategies include reactive, preventive, and proactive maintenance [
+
+4
+
+javascript:;
+
+–
+
+6
+
+javascript:;
+
+]. The most basic approach to maintenance is reactive, also known as run-to-failure maintenance planning. In the reactive maintenance strategy, assets are deliberately allowed to operate until failures actually occur. The assets are maintained on an as-needed basis. One of the disadvantages of reactive maintenance is that it is difficult to anticipate the maintenance resources (e.g., manpower, tools, and replacement parts) that will be required for repairs. Preventive maintenance is often referred to as use-based maintenance. In preventive maintenance, maintenance activities are performed after a specified period of time or amount of use based on the estimated probability that the systems or components will fail in the specified time interval. Although preventive maintenance allows for more consistent and predictable maintenance schedules, more maintenance activities are needed as opposed to reactive maintenance. To improve the efficiency and effectiveness of preventive maintenance, predictive maintenance is an alternative strategy in which maintenance actions are scheduled based on equipment performance or conditions instead of time. The objective of proactive maintenance is to determine the condition of in-service equipment and ultimately to predict the time at which a system or a component will no longer meet desired functional requirements.
+
+The discipline that predicts health condition and remaining useful life (RUL) based on previous and current operating conditions is often referred to as prognostics and health management (PHM). Prognostic approaches fall into two categories: model-based and data-driven prognostics [
+
+7
+
+javascript:;
+
+–
+
+12
+
+javascript:;
+
+]. Model-based prognostics refer to approaches based on mathematical models of system behavior derived from physical laws or probability distribution. For example, model-based prognostics include methods based on Wiener and Gamma processes [
+
+13
+
+javascript:;
+
+], hidden Markov models (HMMs) [
+
+14
+
+javascript:;
+
+], Kalman filters [
+
+15
+
+javascript:;
+
+,
+
+16
+
+javascript:;
+
+], and particle filters [
+
+17
+
+javascript:;
+
+–
+
+20
+
+javascript:;
+
+]. One of the limitations of model-based prognostics is that an in-depth understanding of the underlying physical processes that lead to system failures is required. Another limitation is that it is assumed that underlying processes follow certain probability distributions, such as gamma or normal distributions. While probability density functions enable uncertainty quantification, distributional assumptions may not hold true in practice.
+
+To complement model-based prognostics, data-driven prognostics refer to approaches that build predictive models using learning algorithms and large volumes of training data. For example, classical data-driven prognostics are based on autoregressive (AR) models, multivariate adaptive regression, fuzzy set theory, ANNs, and SVR. The unique benefit of data-driven methods is that an in-depth understanding of system physical behaviors is not a prerequisite. In addition, data-driven methods do not assume any underlying probability distributions which may not be practical for real-world applications. While ANNs and SVR have been applied in the area of data-driven prognostics, little research has been conducted to evaluate the performance of other machine learning algorithms [
+
+21
+
+javascript:;
+
+]. Because RFs have the potential to handle a large number of input variables without variable selection and they do not overfit [
+
+22
+
+javascript:;
+
+–
+
+24
+
+javascript:;
+
+], we investigate the ability of RFs for the prediction of tool wear using an experimental dataset. Further, the performance of RFs is compared with that of FFBP ANNs and SVR using accuracy and training time.
+
+The main contributions of this paper include the followings:
+
+Tool wear in milling operations is predicted using RFs along with cutting force, vibration, and acoustic emission (AE) signals. Experimental results have shown that the predictive model trained by RFs is very accurate. The mean squared error (MSE) on the test tool wear data is up to 7.67. The coefficient of determination (
+
+R
+
+2
+
+) on the test tool wear data is up to 0.992. To the best of our knowledge, the random forest algorithm is applied to predict tool wear for the first time.
+
+The performances of ANNs, support vector machines (SVMs), and RFs are compared using an experimental dataset with respect to the accuracy of regression (e.g., MSE and 
+
+R
+
+2
+
+) and training time. While the training time for RFs is longer than that of ANNs and SVMs, the predictive model built by RFs is the most accurate for the application example.
+
+The remainder of the paper is organized as follows: Section 
+
+2
+
+https://asmedigitalcollection.asme.org#s2
+
+ reviews the related literature on data-driven methods for tool wear prediction. Section 
+
+3
+
+https://asmedigitalcollection.asme.org#s3
+
+ presents the methodology for tool wear prediction using ANNs, SVMs, and RFs. Section 
+
+4
+
+https://asmedigitalcollection.asme.org#s4
+
+ presents an experimental setup and the experimental dataset acquired from different types of sensors (e.g., cutting force sensor, vibration sensor, acoustic emission sensor) on a computer numerical control (CNC) milling machine. Section 
+
+5
+
+https://asmedigitalcollection.asme.org#s5
+
+ presents experimental results, demonstrates the effectiveness of the three machine learning algorithms, and compares the performance of each. Section 
+
+6
+
+https://asmedigitalcollection.asme.org#s6
+
+ provides conclusions that include a discussion of research contribution and future work.
+
+Data-Driven Methods for Tool Wear Prediction
+
+Tool wear is the most commonly observed and unavoidable phenomenon in manufacturing processes, such as drilling, milling, and turning [
+
+25
+
+javascript:;
+
+–
+
+27
+
+javascript:;
+
+]. The rate of tool wear is typically affected by process parameters (e.g., cutting speed and feed rate), cutting tool geometry, and properties of workpiece and tool materials. Taylor's equation for tool life expectancy [
+
+28
+
+javascript:;
+
+] provides an approximation of tool wear. However, with the rapid advancement of sensing technology and increasing number of sensors equipped on modern CNC machines, it is possible to predict tool wear more accurately using various measurement data. This section presents a review of data-driven methods for tool wear prediction.
+
+Schwabacher and Goebel [
+
+29
+
+javascript:;
+
+] conducted a review of data-driven methods for prognostics. The most popular data-driven approaches to prognostics include ANNs, decision trees, and SVMs in the context of systems health management. ANNs are a family of computational models based on biological neural networks which are used to estimate complex relationships between inputs and outputs. Bukkapatnam et al. [
+
+30
+
+javascript:;
+
+–
+
+32
+
+javascript:;
+
+] developed effective tool wear monitoring techniques using ANNs based on features extracted from the principles of nonlinear dynamics. Özel and Karpat [
+
+33
+
+javascript:;
+
+] presented a predictive modeling approach for surface roughness and tool wear for hard turning processes using ANNs. The inputs of the ANN model include workpiece hardness, cutting speed, feed rate, axial cutting length, and mean values of three force components. Experimental results have shown that the model trained by ANNs provides accurate predictions of surface roughness and tool flank wear. Palanisamy et al. [
+
+34
+
+javascript:;
+
+] developed a predictive model for predicting tool flank wear in end milling operations using feed-forward back propagation (FFBP) ANNs. Experimental results have shown that the predictive model based on ANNs can make accurate predictions of tool flank wear using cutting speeds, feed rates, and depth of cut. Sanjay et al. [
+
+35
+
+javascript:;
+
+] developed a model for predicting tool flank wear in drilling using ANNs. The feed rates, spindle speeds, torques, machining times, and thrust forces are used to train the ANN model. The experimental results have demonstrated that ANNs can predict tool wear accurately. Chungchoo and Saini [
+
+36
+
+javascript:;
+
+] developed an online fuzzy neural network (FNN) algorithm that estimates the average width of flank wear and maximum depth of crater wear. A modified least-square backpropagation neural network was built to estimate flank and crater wear based on cutting force and acoustic emission signals. Chen and Chen [
+
+37
+
+javascript:;
+
+] developed an in-process tool wear prediction system using ANNs for milling operations. A total of 100 experimental data were used for training the ANN model. The input variables include feed rate, depth of cut, and average peak cutting forces. The ANN model can predict tool wear with an error of 0.037 mm on average. Paul and Varadarajan [
+
+38
+
+javascript:;
+
+] introduced a multisensor fusion model to predict tool wear in turning processes using ANNs. A regression model and an ANN were developed to fuse the cutting force, cutting temperature, and vibration signals. Experimental results showed that the coefficient of determination was 0.956 for the regression model trained by the ANN. Karayel [
+
+39
+
+javascript:;
+
+] presented a neural network approach for the prediction of surface roughness in turning operations. A feed-forward back-propagation multilayer neural network was developed to train a predictive model using the data collected from 49 cutting tests. Experimental results showed that the predictive model has an average absolute error of 2.29%.
+
+Cho et al. [
+
+40
+
+javascript:;
+
+] developed an intelligent tool breakage detection system with the SVM algorithm by monitoring cutting forces and power consumption in end milling processes. Linear and polynomial kernel functions were applied in the SVM algorithm. It has been demonstrated that the predictive model built by SVMs can recognize process abnormalities in milling. Benkedjouh et al. [
+
+41
+
+javascript:;
+
+] presented a method for tool wear assessment and remaining useful life prediction using SVMs. The features were extracted from cutting force, vibration, and acoustic emission signals. The experimental results have shown that SVMs can be used to estimate the wear progression and predict RUL of cutting tools effectively. Shi and Gindy [
+
+42
+
+javascript:;
+
+] introduced a predictive modeling method by combining least squares SVMs and principal component analysis (PCA). PCA was used to extract statistical features from multiple sensor signals acquired from broaching processes. Experimental results showed that the predictive model trained by SVMs was effective to predict tool wear using the features extracted by PCA.
+
+Another data-driven method for prognostics is based on decision trees. Decision trees are a nonparametric supervised learning method used for classification and regression. The goal of decision tree learning is to create a model that predicts the value of a target variable by learning decision rules inferred from data features. A decision tree is a flowchart-like structure in which each internal node denotes a test on an attribute, each branch represents the outcome of a test, and each leaf node holds a class label. Jiaa and Dornfeld [
+
+43
+
+javascript:;
+
+] proposed a decision tree-based method for the prediction of tool flank wear in a turning operation using acoustic emission and cutting force signals. The features characterizing the AE root-mean-square and cutting force signals were extracted from both time and frequency domains. The decision tree approach was demonstrated to be able to make reliable inferences and decisions on tool wear classification. Elangovan et al. [
+
+44
+
+javascript:;
+
+] developed a decision tree-based algorithm for tool wear prediction using vibration signals. Ten-fold cross-validation was used to evaluate the accuracy of the predictive model created by the decision tree algorithm. The maximum classification accuracy was 87.5%. Arisoy and Özel [
+
+45
+
+javascript:;
+
+] investigated the effects of machining parameters on surface microhardness and microstructure such as grain size and fractions using a random forests-based predictive modeling method along with finite element simulations. Predicted microhardness profiles and grain sizes were used to understand the effects of cutting speed, tool coating, and edge radius on the surface integrity.
+
+In summary, the related work presented in this section builds on previous research to explore how the conditions of tool wear can be monitored as well as how tool wear can be predicted using predictive modeling. While earlier work focused on prediction of tool wear using ANNs, SVMs, and decision trees, this paper explores the potential of a new method, random forests, for tool wear prediction. Further, the performance of RFs is compared with that of ANNs and SVMs. Because RFs are an extension of decision trees, the performance of RFs is not compared with that of decision trees.
+
+Methodology
+
+This section presents the methodology for data-driven prognostics for tool wear prediction using ANNs, SVR, and RFs. The input of ANNs, SVR, and RFs is the following labeled training data: D = ( x i , y i )  
+
+where  x i = ( F X , F Y , F Z , V X , V Y , V Z , AE ) ⁠ ,  y i ∈ ℝ ⁠ . The description of these input data can be found in Table 
+
+1
+
+javascript:;
+
+.
+
+Table 1
+
+Signal channel and data description
+
+Signal channel Data description Channel 1 F X ⁠ : force (N) in 
+
+X
+
+ dimension Channel 2 F Y :  force (N) in 
+
+Y
+
+ dimension Channel 3 F Z ⁠ : force (N) in 
+
+Z
+
+ dimension Channel 4 V X ⁠ : vibration (g) in 
+
+X
+
+ dimension Channel 5 V Y ⁠ : vibration (g) in 
+
+Y
+
+ dimension Channel 6 V Z ⁠ : vibration (g) in 
+
+Z
+
+ dimension Channel 7 AE ⁠ : acoustic emission (V) Signal channel Data description Channel 1 F X ⁠ : force (N) in 
+
+X
+
+ dimension Channel 2 F Y :  force (N) in 
+
+Y
+
+ dimension Channel 3 F Z ⁠ : force (N) in 
+
+Z
+
+ dimension Channel 4 V X ⁠ : vibration (g) in 
+
+X
+
+ dimension Channel 5 V Y ⁠ : vibration (g) in 
+
+Y
+
+ dimension Channel 6 V Z ⁠ : vibration (g) in 
+
+Z
+
+ dimension Channel 7 AE ⁠ : acoustic emission (V)  
+
+Tool Wear Prediction Using ANNs.
+
+ANNs are a family of models inspired by biological neural networks. An ANN is defined by three types of parameters: (1) the interconnection pattern between different layers of neurons, (2) the learning process for updating the weights of the interconnections, and (3) the activation function that converts a neuron's weighted input to its output activation. Among many types of ANNs, the feed-forward neural network is the first and the most popular ANN. Back-propagation is a learning algorithm for training ANNs in conjunction with an optimization method such as gradient descent.
+
+Figure 
+
+1
+
+javascript:;
+
+ illustrates the architecture of the FFBP ANN with a single hidden layer. In this research, the ANN has three layers, including input layer  i ⁠ , hidden layer  j ⁠ , and output layer  k ⁠ . Each layer consists of one or more neurons or units, represented by the circles. The flow of information is represented by the lines between the units. The first layer has input neurons which act as buffers for distributing the extracted features (i.e.,  F i ⁠ ) from the input data (i.e.,  x i ⁠ ). The number of the neurons in the input layer is the same as that of extracted features from input variables. Each value from the input layer is duplicated and sent to all neurons in the hidden layer. The hidden layer is used to process and connect the information from the input layer to the output layer in a forward direction. Specifically, these values entering a neuron in the hidden layer are multiplied by weights  w i j ⁠ . Initial weights are randomly selected between 0 and 1. A neuron in the hidden layer sums up the weighted inputs and generates a single output. This value is the input of an activation function (sigmoid function) in the hidden layer  f h  that converts the weighted input to the output of the neuron. Similarly, the outputs of all the neurons in the hidden layer are multiplied by weights  w j k ⁠ . A neural in the output layer sums up the weighted inputs and generates a single value. An activation function in the output layer  f o  converts the weighted input to the predicted output  y k  of the ANN, which is the predicted flank wear  V B ⁠ . The output layer has only one neuron because there is only one response variable. The performance of ANNs depends on the topology or architecture of ANNs (i.e., the number of layers) and the number of neurons in each layer. However, there are no standard or well-accepted methods or rules for determining the number of hidden layers and neurons in each hidden layer. In this research, the single-hidden-layer ANNs with 2, 4, 8, 16, and 32 neurons in the hidden layer are selected. The termination criterion of the training algorithm is that training stops if the fit criterion (i.e., least squares) falls below 1.0 × 10
+
+−4
+
+.
+
+Fig. 1
+
+View large
+
+Download slide
+
+Tool wear prediction using a feed-forward back-propagation (FFBP) ANN
+
+Fig. 1
+
+View large
+
+Download slide
+
+Tool wear prediction using a feed-forward back-propagation (FFBP) ANN
+
+Close modal
+
+Tool Wear Prediction Using SVR.
+
+The original SVM for regression was developed by Vapnik and coworkers [
+
+46
+
+javascript:;
+
+,
+
+47
+
+javascript:;
+
+]. A SVM constructs a hyperplane or set of hyperplanes in a high- or infinite-dimensional space, which can be used for classification and regression.
+
+The framework of SVR for linear cases is illustrated in Fig. 
+
+2
+
+javascript:;
+
+. Formally, SVR can be formulated as a convex optimization problem
+
+Fig. 2
+
+View large
+
+Download slide
+
+Tool wear prediction using SVR
+
+Fig. 2
+
+View large
+
+Download slide
+
+Tool wear prediction using SVR
+
+Close modal
+
+Minimize             1 2 ‖ ω ‖ 2 + C ∑ i = 1 ℓ ( ξ i + ξ i * ) Subject   to       { y i − 〈 ω , x i 〉 − b ≤ ε + ξ i 〈 ω , x i 〉 + b − y i ≤ ε + ξ i * ξ i , ξ i * ≥ 0 (3.1)   where  ω ∈ χ , C = 1 ⁠ ,  ε = 0.1 ⁠ , and  ξ i , ξ i * = 0.001 ⁠ .  b  can be computed as follows: b = y i − 〈 ω , x i 〉 − ε     for   α i ∈ [ 0 , C ] b = y i − 〈 ω , x i 〉 + ε       for     α i * ∈ [ 0 , C ] (3.2)   For nonlinear SVR, the training patterns  x i  can be preprocessed by a nonlinear kernel function  k ( x , x ′ ) : = 〈 Φ ( x ) , Φ ( x ) 〉 ′ ⁠ , where  Φ ( x )  is a transformation that maps  x  to a high-dimensional space. These kernel functions need to satisfy the Mercer's theorem. Many kernels have been developed for various applications. The most popular kernels include polynomial, Gaussian radial basis function (RBF), and sigmoid. In many applications, a nonlinear kernel function provides better accuracy. According to the literature [
+
+32
+
+javascript:;
+
+,
+
+33
+
+javascript:;
+
+], the Gaussian RBF kernel is one of the most effective kernel functions used in tool wear prediction. In this research, the Gaussian RBF kernel is used to transform the input dataset  D = ( x i , y i ) ⁠ , where  x i  is the input vector and  y i  is the response variable (i.e., flank wear) into a new dataset in a high-dimensional space. The new dataset is linearly separable by a hyperplane in a higher-dimensional Euclidean space as illustrated in Fig. 
+
+2
+
+javascript:;
+
+. The slack variables  ξ i  and  ξ i *  are introduced in the instances where the constraints are infeasible. The slack variables denote the deviation from predicted values with the error of  ε = 0.1 ⁠ . The RBF kernel is  k ( x i , x j ) = exp   ( − ( ( ‖ x i − x j ‖   2 ) / 2 σ 2 ) ) ⁠ , where  σ 2 = 0.5 ⁠ . At the optimal solution, we obtain ω = ∑ i = 1 ℓ ( α i − α i * ) Φ ( x )   and   f ( x ) = ∑ i = 1 ℓ ( α i − α i * ) k ( x i , x j ) + b (3.3)  
+
+Tool Wear Prediction Using RFs.
+
+The random forest algorithm, developed by Breiman [
+
+22
+
+javascript:;
+
+,
+
+48
+
+javascript:;
+
+], is an ensemble learning method that constructs a forest of decision trees from bootstrap samples of a training dataset. Each decision tree produces a response, given a set of predictor values. In a decision tree, each internal node represents a test on an attribute, each branch represents the outcome of the test, and each leaf node represents a class label for classification or a response for regression. A decision tree in which the response is continuous is also referred to as a regression tree. In the context of tool wear prediction, each individual decision tree in a random forest is a regression tree because tool wear describes the gradual failure of cutting tools. A comprehensive tutorial on RFs can be found in Refs. [
+
+22
+
+javascript:;
+
+,
+
+48
+
+javascript:;
+
+,
+
+49
+
+javascript:;
+
+]. Some of the important concepts related to RFs, including bootstrap aggregating or bagging, slipping, and stopping criterion, are introduced in Secs. 
+
+3.3.1
+
+https://asmedigitalcollection.asme.org#s3C1
+
+–
+
+3.3.4
+
+https://asmedigitalcollection.asme.org#s3C4
+
+.
+
+Bootstrap Aggregating or Bagging.
+
+Given a training dataset  D = { ( x 1 , y 1 ) , ( x 2 , y 2 ) , … , ( x N , y N ) } ⁠ , bootstrap aggregating or bagging generates  B  new training datasets  D i  of size  N  by sampling from the original training dataset  D  with replacement.  D i  is referred to as a bootstrap sample. By sampling with replacement or bootstrapping, some observations may be repeated in each  D i ⁠ . Bagging helps reduce variance and avoid overfitting. The number of regression trees  B  is a parameter specified by users. Typically, a few hundred to several thousand trees are used in the random forest algorithm.
+
+Choosing Variables to Split On.
+
+For each of the bootstrap samples, grow an un-pruned regression tree with the following procedure: At each node, randomly sample  m  variables and choose the best split among those variables rather than choosing the best split among all predictors. This process is sometimes called “feature bagging.” The reason why a random subset of the predictors or features is selected is because the correlation of the trees in an ordinary bootstrap sample can be reduced. For regression, the default  m = p / 3 ⁠ .
+
+Splitting Criterion.
+
+Suppose that a partition is divided into  M  regions  R 1 ⁠ ,  R 2 ⁠ ,…,  R m ⁠ . The response is modeled as a constant  c m  in each region f ( x ) = ∑ m = 1 M c m I ( x ϵ R m ) (3.4)   The splitting criterion at each node is to minimize the sum of squares. Therefore, the best  c m ̂  is the average of  y i  in region  R m c m ̂ = ave ( y i | x i ϵ R m ) (3.5)   Consider a splitting variable  j  and split point  s ⁠ , and define the pair of half-planes R 1 ( j , s ) = { X | X j ≤ s }       and   R 2 ( j , s ) = { X | X j ≥ s } (3.6)   The splitting variable  j  and split point  s  should satisfy min j , s [ min c 1 ∑ x i ∈ R 1 ( j , s ) ( y i − c 1 ) 2 + min c 2 ∑ x i ∈ R 2 ( j , s ) ( y i − c 2 ) 2 ] (3.7)   For any  j  and 
+
+s
+
+, the inner minimization is solved by c 1 ̂ = ave ( y i | x i ϵ R 1 ( j , s ) )       and     c 2 ̂ = ave ( y i | x i ϵ R 2 ( j , s ) ) (3.8)  
+
+Having found the best split, the dataset is partitioned into two resulting regions and repeat the splitting process on each of the two regions. This splitting process is repeated until a predefined stopping criterion is satisfied.
+
+Stopping Criterion.
+
+Tree size is a tuning parameter governing the complexity of a model. The stopping criterion is that the splitting process proceeds until the number of records in  D i  falls below a threshold, and five is used as the threshold.
+
+After  B  such trees  { T b } 1 B  are constructed, a prediction at a new point  x  can be made by averaging the predictions from all the individual  B  regression trees on  x f ̂ r f B ( x ) = 1 B ∑ b = 1 B T b ( x ) (3.9)  
+
+The random forest algorithm [
+
+48
+
+javascript:;
+
+,
+
+49
+
+javascript:;
+
+] for regression is as follows:
+
+(1)
+
+Draw a bootstrap sample  Z  of size  N  from the training data.
+
+(2)
+
+For each bootstrap sample, construct a regression tree by splitting a node into two children nodes until the stopping criterion is satisfied.
+
+(3)
+
+Output the ensemble of trees  { T b } 1 B ⁠ .
+
+(4)
+
+Make a prediction at a new point  x  by aggregating the predictions of the  B  trees.
+
+The framework of predicting flank wear using an RF is illustrated in Fig. 
+
+3
+
+javascript:;
+
+. In this research, a random forest is constructed using  B   = 500 regression trees. Given the labeled training dataset  D = ( x i , y i ) ⁠ , a bootstrap sample of size  N = 630  is drawn from the training dataset. For each regression tree,  m = 9   ( m = ( p / 3 ) , p = 28 )  variables are selected at random from the 28 variables/features. The best variable/split-point is selected among the nine variables. A regression tree progressively splits the training dataset into two child nodes: left node (with samples <
+
+z
+
+) and right node (with samples  ≥
+
+z
+
+). A splitting variable and split point are selected by solving Eqs. 
+
+(3.7)
+
+javascript:;
+
+ and 
+
+(3.8)
+
+javascript:;
+
+. The process is applied recursively on the dataset in each child node. The splitting process stops if the number of records in a node is less than 5. An individual regression tree is built by starting at the root node of the tree, performing a sequence of tests about the predictors, and organizing the tests in a hierarchical binary tree structure as shown in Fig. 
+
+4
+
+javascript:;
+
+. After 500 regression trees are constructed, a prediction at a new point can be made by averaging the predictions from all the individual binary regression trees on this point.
+
+Fig. 3
+
+View large
+
+Download slide
+
+Tool wear prediction using an RF
+
+Fig. 3
+
+View large
+
+Download slide
+
+Tool wear prediction using an RF
+
+Close modal
+
+Fig. 4
+
+View large
+
+Download slide
+
+Binary regression tree growing process
+
+Fig. 4
+
+View large
+
+Download slide
+
+Binary regression tree growing process
+
+Close modal
+
+Experimental Setup
+
+The data used in this paper were obtained from Li et al. [
+
+50
+
+javascript:;
+
+]. Some details of the experiment are presented in this section. The experimental setup is shown in Fig. 
+
+5
+
+javascript:;
+
+.
+
+Fig. 5
+
+View large
+
+Download slide
+
+Experimental setup
+
+Fig. 5
+
+View large
+
+Download slide
+
+Experimental setup
+
+Close modal
+
+The cutter material and workpiece material used in the experiment are high-speed steel and stainless steel, respectively. The detailed description of the operating conditions in the dry milling operation can be found in Table 
+
+2
+
+javascript:;
+
+. The spindle speed of the cutter was 10,400 RPM. The feed rate was 1555 mm/min. The 
+
+Y
+
+ depth of cut (radial) was 0.125 mm. The 
+
+Z
+
+ depth of cut (axial) was 0.2 mm.
+
+Table 2
+
+Operating conditions
+
+Parameter Value Spindle speed 10,400 RPM Feed rate 1555 mm/min
+
+Y
+
+ depth of cut 0.125 mm
+
+Z
+
+ depth of cut 0.2 mm Sampling rate 50 kHz/channel Material Stainless steel Parameter Value Spindle speed 10,400 RPM Feed rate 1555 mm/min
+
+Y
+
+ depth of cut 0.125 mm
+
+Z
+
+ depth of cut 0.2 mm Sampling rate 50 kHz/channel Material Stainless steel  
+
+315 cutting tests were conducted on a three-axis high-speed CNC machine (Röders Tech RFM 760). During each cutting test, seven signal channels, including cutting force, vibration, and acoustic emission data, were monitored in real-time. The sampling rate was 50 kHz/channel. Each cutting test took about 15 s. A stationary dynamometer, mounted on the table of the CNC machine, was used to measure cutting forces in three, mutually perpendicular axes (
+
+x
+
+, 
+
+y
+
+, and 
+
+z
+
+ dimensions). Three piezo accelerometers, mounted on the workpiece, were used to measure vibration in three, mutually perpendicular axes (
+
+x
+
+, 
+
+y
+
+, and 
+
+z
+
+ dimensions). An acoustic emission (AE) sensor, mounted on the workpiece, was used to monitor a high-frequency oscillation that occurs spontaneously within metals due to crack formation or plastic deformation. Acoustic emission is caused by the release of strain energy as the microstructure of the material is rearranged. After each cutting test, the value of tool wear was measured off-line using a microscope (Leica MZ12). The total size of the condition monitoring data is about 8.67 GB.
+
+Results and Discussion
+
+In machine learning, feature extraction is an essential preprocessing step in which raw data collected from various signal channels are converted into a set of statistical features in a format supported by machine learning algorithms. The statistical features are then given as an input to a machine learning algorithm. In this experiment, the condition monitoring data were collected from (1) cutting force, (2) vibration, and (3) acoustic emission signal channels. A set of statistical features (28 features) was extracted from these signals, including maximum, median, mean, and standard deviation as listed in Table 
+
+3
+
+javascript:;
+
+.
+
+Table 3
+
+List of extracted features
+
+Cutting force (
+
+X
+
+, 
+
+Y
+
+, 
+
+Z
+
+ dimensions) Vibration (
+
+X
+
+, 
+
+Y
+
+, 
+
+Z
+
+ dimensions) Acoustic emission Max Max Max Median Median Median Mean Mean Mean Standard deviation Standard deviation Standard deviation Cutting force (
+
+X
+
+, 
+
+Y
+
+, 
+
+Z
+
+ dimensions) Vibration (
+
+X
+
+, 
+
+Y
+
+, 
+
+Z
+
+ dimensions) Acoustic emission Max Max Max Median Median Median Mean Mean Mean Standard deviation Standard deviation Standard deviation  
+
+Three predictive models were developed using ANNs, SVR, and RFs, respectively. Two-thirds (2/3) of the input data (i.e., three datasets) were selected at random for model development (training). The remainder (1/3) of the input data was used for model validation (testing). Figures 
+
+6
+
+javascript:;
+
+–
+
+8
+
+javascript:;
+
+ show the predicted against observed tool wear values with the test dataset using ANNs, SVR, and RFs, respectively. Figure 
+
+9
+
+javascript:;
+
+ shows the tool wear against time with RFs.
+
+Fig. 6
+
+View large
+
+Download slide
+
+Comparison of observed and predicted tool wear using an ANN with 16 neurons in the hidden layer (termination criterion: tolerance is equal to 1.0 × 10
+
+−4
+
+)
+
+Fig. 6
+
+View large
+
+Download slide
+
+Comparison of observed and predicted tool wear using an ANN with 16 neurons in the hidden layer (termination criterion: tolerance is equal to 1.0 × 10
+
+−4
+
+)
+
+Close modal
+
+Fig. 7
+
+View large
+
+Download slide
+
+Comparison of observed and predicted tool wear using SVR (termination criterion: slack variable or tolerance  ξ  is equal to 0.001)
+
+Fig. 7
+
+View large
+
+Download slide
+
+Comparison of observed and predicted tool wear using SVR (termination criterion: slack variable or tolerance  ξ  is equal to 0.001)
+
+Close modal
+
+Fig. 8
+
+View large
+
+Download slide
+
+Comparison of observed and predicted tool wear using RFs (termination criterion: minimum number of samples in each node is equal to 5)
+
+Fig. 8
+
+View large
+
+Download slide
+
+Comparison of observed and predicted tool wear using RFs (termination criterion: minimum number of samples in each node is equal to 5)
+
+Close modal
+
+Fig. 9
+
+View large
+
+Download slide
+
+Tool wear against time (cut) using RFs
+
+Fig. 9
+
+View large
+
+Download slide
+
+Tool wear against time (cut) using RFs
+
+Close modal
+
+In addition, the performance of the three algorithms was evaluated on the test dataset using accuracy and training time. Accuracy is measured using the  R 2  statistic, also referred to as the coefficient of determination, and mean squared error (MSE). In statistics, the coefficient of determination is defined as  R 2 = 1 − ( SSE / SST ) ⁠ , where  SSE  is the sum of the squares of residuals,  SST  is the total sum of squares. The coefficient of determination is a measure that indicates the percentage of the response variable variation that is explained by a regression model. A higher 
+
+R
+
+-squared indicates that more variability is explained by the regression model. For example, an  R 2  of 100% indicates that the regression model explains all the variability of the response data around its mean. In general, the higher the 
+
+R
+
+-squared, the better the regression model fits the data. The MSE of an estimator measures the average of the squares of the errors. The  MSE  is defined as  MSE = ( 1 / n ) ∑ i = 1 n ( y i ̂ − y i ) 2 ⁠ , where  y i ̂  is a predicted value,  y i  is an observed value, and  n  is the sample size. The ANN, SVR, and RF algorithms use between 50% and 90% of the input data for model development (training) and use the remainder for model validation (testing). Because the performance of ANNs depends on the hidden layer configuration, five ANNs with a single hidden layer but different number of neurons were tested on the training dataset. Tables 
+
+4
+
+javascript:;
+
+–
+
+8
+
+javascript:;
+
+ list the MSE, 
+
+R
+
+-squared, and training time for the ANNs with 2, 4, 8, 16, and 32 neurons. With respect to the performance of the ANN, the training time increases as the number of neurons increases. However, the increased in training time are not significant as shown in Fig. 
+
+10
+
+javascript:;
+
+. In addition, while the prediction accuracy increases as the number of neurons increases, the performance is not significantly improved by adding more than eight neurons in the hidden layer as shown in Figs. 
+
+11
+
+javascript:;
+
+ and 
+
+12
+
+javascript:;
+
+. Tables 
+
+9
+
+javascript:;
+
+ and 
+
+10
+
+javascript:;
+
+ list the MSE, 
+
+R
+
+-squared, and training time for SVR and RFs. While the training time for RFs is longer than that of ANNs and SVR, the predictive model built by RFs is the most accurate as shown in Figs. 
+
+10
+
+javascript:;
+
+–
+
+12
+
+javascript:;
+
+.
+
+Fig. 10
+
+View large
+
+Download slide
+
+Comparison of training times
+
+Fig. 10
+
+View large
+
+Download slide
+
+Comparison of training times
+
+Close modal
+
+Fig. 11
+
+View large
+
+Download slide
+
+Comparison of MSEs
+
+Fig. 11
+
+View large
+
+Download slide
+
+Comparison of MSEs
+
+Close modal
+
+Fig. 12
+
+View large
+
+Download slide
+
+Comparison of 
+
+R
+
+-squared errors
+
+Fig. 12
+
+View large
+
+Download slide
+
+Comparison of 
+
+R
+
+-squared errors
+
+Close modal
+
+Table 4
+
+Accuracy on the test data and training time for the FFBP ANN with two neurons in the hidden layer
+
+ANN (number of neurons = 2) Training size (%) MSE
+
+R
+
+2
+
+Training time (s) 50 49.790 0.951 0.049 60 45.072 0.955 0.054 70 45.626 0.956 0.055 80 47.966 0.953 0.062 90 48.743 0.955 0.056 ANN (number of neurons = 2) Training size (%) MSE
+
+R
+
+2
+
+Training time (s) 50 49.790 0.951 0.049 60 45.072 0.955 0.054 70 45.626 0.956 0.055 80 47.966 0.953 0.062 90 48.743 0.955 0.056  
+
+Table 5
+
+Accuracy on the test data and training time for the FFBP ANN with four neurons in the hidden layer
+
+ANN (number of neurons = 4) Training size (%) MSE
+
+R
+
+2
+
+Training time (s) 50 43.428 0.958 0.122 60 51.001 0.951 0.084 70 43.645 0.958 0.093 80 45.661 0.955 0.103 90 45.058 0.958 0.118 ANN (number of neurons = 4) Training size (%) MSE
+
+R
+
+2
+
+Training time (s) 50 43.428 0.958 0.122 60 51.001 0.951 0.084 70 43.645 0.958 0.093 80 45.661 0.955 0.103 90 45.058 0.958 0.118  
+
+Table 6
+
+Accuracy on the test data and training time for the FFBP ANN with eight neurons in the hidden layer
+
+ANN (number of neurons = 8) Training size (%) MSE
+
+R
+
+2
+
+Training time (s) 50 36.810 0.964 0.167 60 34.168 0.968 0.186 70 39.795 0.961 0.202 80 44.175 0.957 0.197 90 46.634 0.954 0.234 ANN (number of neurons = 8) Training size (%) MSE
+
+R
+
+2
+
+Training time (s) 50 36.810 0.964 0.167 60 34.168 0.968 0.186 70 39.795 0.961 0.202 80 44.175 0.957 0.197 90 46.634 0.954 0.234  
+
+Table 7
+
+Accuracy on the test data and training time for the FFBP ANN with 16 neurons in the hidden layer
+
+ANN (number of neurons = 16) Training size (%) MSE
+
+R
+
+2
+
+Training time (s) 50 36.337 0.964 0.394 60 41.420 0.959 0.412 70 40.138 0.960 0.468 80 42.486 0.957 0.506 90 44.056 0.957 0.566 ANN (number of neurons = 16) Training size (%) MSE
+
+R
+
+2
+
+Training time (s) 50 36.337 0.964 0.394 60 41.420 0.959 0.412 70 40.138 0.960 0.468 80 42.486 0.957 0.506 90 44.056 0.957 0.566  
+
+Table 8
+
+Accuracy on the test data and training time for the FFBP ANN with 32 neurons in the hidden layer
+
+ANN (number of neurons = 32) Training size (%) MSE
+
+R
+
+2
+
+Training time (s) 50 35.305 0.965 1.165 60 38.612 0.963 1.301 70 38.824 0.963 1.498 80 42.469 0.959 1.496 90 48.138 0.953 1.633 ANN (number of neurons = 32) Training size (%) MSE
+
+R
+
+2
+
+Training time (s) 50 35.305 0.965 1.165 60 38.612 0.963 1.301 70 38.824 0.963 1.498 80 42.469 0.959 1.496 90 48.138 0.953 1.633  
+
+Table 9
+
+Accuracy on the test data and training time for SVR with radial basis kernel
+
+SVR Training size (%) MSE
+
+R
+
+2
+
+Training time (s) 50 54.993 0.946 0.060 60 49.868 0.952 0.073 70 41.072 0.959 0.088 80 31.958 0.969 0.107 90 23.997 0.975 0.126 SVR Training size (%) MSE
+
+R
+
+2
+
+Training time (s) 50 54.993 0.946 0.060 60 49.868 0.952 0.073 70 41.072 0.959 0.088 80 31.958 0.969 0.107 90 23.997 0.975 0.126  
+
+Table 10
+
+Accuracy on the test data and training time for RFs
+
+RFs (500 trees) Training size (%) MSE
+
+R
+
+2
+
+Training time (s) 50 14.170 0.986 1.079 60 11.053 0.989 1.386 70 10.156 0.990 1.700 80 8.633 0.991 2.003 90 7.674 0.992 2.325 RFs (500 trees) Training size (%) MSE
+
+R
+
+2
+
+Training time (s) 50 14.170 0.986 1.079 60 11.053 0.989 1.386 70 10.156 0.990 1.700 80 8.633 0.991 2.003 90 7.674 0.992 2.325  
+
+Conclusions and Future Work
+
+In this paper, the prediction of tool wear in milling operations was conducted using three popular machine learning algorithms, including ANNs, SVR, and RFs. The performance of these algorithms was evaluated on the dataset collected from 315 milling tests. The performance measures include mean squared error, 
+
+R
+
+-squared, and training time. A set of statistical features was extracted from cutting forces, vibrations, and acoustic emissions. The experimental results have shown that while the training time on the particular dataset using RFs is longer than the FFBP ANNs with a single hidden layer and SVR, RFs generate more accurate predictions than the FFBP ANNs with a single hidden layer and SVR. The main contribution of this paper is twofold: (1) we demonstrated that the predictive model trained by RFs can predict tool wear in milling processes very accurately for the first time to the best of our knowledge and (2) we compared the performance of RFs with that of FFBP ANNs and SVR, as well as observed that RFs outperform FFBP ANNs and SVR for this particular application example.
+
+In the future, a comparison of the performance of SVR and RFs with that of other types of ANNs, such as recurrent neural networks and dynamic neural networks, will be conducted. In addition, our future work will focus on designing the parallel implementation of machine learning algorithms that can be applied to large-scale and real-time prognosis.
+
+Acknowledgment
+
+The research reported in this paper is partially supported by NSF under Grant Nos. IIP-1238335 and DMDII-15-14-01. Any opinions, findings, and conclusions or recommendations expressed in this paper are those of the authors and do not necessarily reflect the views of the National Science Foundation and the Digital Manufacturing and Design Innovation Institute.
+
+References
+
+1.  Swanson ,  L. ,  2001 , “ Linking Maintenance Strategies to Performance ,”  Int. J. Prod. Econ. ,  70 ( 3 ), pp.  237 – 244 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Linking%20Maintenance%20Strategies%20to%20Performance&author=L.%20Swanson&publication_year=2001&journal=Int.%20J.%20Prod.%20Econ.&volume=70&pages=237-244
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Linking%20Maintenance%20Strategies%20to%20Performance&author=L.%20Swanson&publication_year=2001&journal=Int.%20J.%20Prod.%20Econ.&volume=70&pages=237-244
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Linking%20Maintenance%20Strategies%20to%20Performance&author=L.%20Swanson&publication_year=2001&journal=Int.%20J.%20Prod.%20Econ.&volume=70&pages=237-244
+
+2.  Valdez-Flores ,  C. , and  Feldman ,  R. M. ,  1989 , “ A Survey of Preventive Maintenance Models for Stochastically Deteriorating Single-Unit Systems ,”  Nav. Res. Logist. ,  36 ( 4 ), pp.  419 – 446 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=A%20Survey%20of%20Preventive%20Maintenance%20Models%20for%20Stochastically%20Deteriorating%20Single-Unit%20Systems&author=C.%20Valdez-Flores&author=R.%20M.%20Feldman&publication_year=1989&journal=Nav.%20Res.%20Logist.&volume=36&pages=419-446
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=A%20Survey%20of%20Preventive%20Maintenance%20Models%20for%20Stochastically%20Deteriorating%20Single-Unit%20Systems&author=C.%20Valdez-Flores&author=R.%20M.%20Feldman&publication_year=1989&journal=Nav.%20Res.%20Logist.&volume=36&pages=419-446
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=A%20Survey%20of%20Preventive%20Maintenance%20Models%20for%20Stochastically%20Deteriorating%20Single-Unit%20Systems&author=C.%20Valdez-Flores&author=R.%20M.%20Feldman&publication_year=1989&journal=Nav.%20Res.%20Logist.&volume=36&pages=419-446
+
+3.  Wu ,  D. ,  Terpenny ,  J. ,  Zhang ,  L. ,  Gao ,  R. , and  Kurfess ,  T. ,  2016 , “ Fog-Enabled Architecture for Data-Driven Cyber-Manufacturing Systems ,”  ASME  Paper No. MSEC2016-8559. 4.  Lee ,  J. ,  1995 , “ Machine Performance Monitoring and Proactive Maintenance in Computer-Integrated Manufacturing: Review and Perspective ,”  Int. J. Comput. Integr. Manuf. ,  8 ( 5 ), pp.  370 – 380 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Machine%20Performance%20Monitoring%20and%20Proactive%20Maintenance%20in%20Computer-Integrated%20Manufacturing%3A%20Review%20and%20Perspective&author=J.%20Lee&publication_year=1995&journal=Int.%20J.%20Comput.%20Integr.%20Manuf.&volume=8&pages=370-380
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Machine%20Performance%20Monitoring%20and%20Proactive%20Maintenance%20in%20Computer-Integrated%20Manufacturing%3A%20Review%20and%20Perspective&author=J.%20Lee&publication_year=1995&journal=Int.%20J.%20Comput.%20Integr.%20Manuf.&volume=8&pages=370-380
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Machine%20Performance%20Monitoring%20and%20Proactive%20Maintenance%20in%20Computer-Integrated%20Manufacturing%3A%20Review%20and%20Perspective&author=J.%20Lee&publication_year=1995&journal=Int.%20J.%20Comput.%20Integr.%20Manuf.&volume=8&pages=370-380
+
+5.  Bevilacqua ,  M. , and  Braglia ,  M. ,  2000 , “ The Analytic Hierarchy Process Applied to Maintenance Strategy Selection ,”  Reliab. Eng. Syst. Saf. ,  70 ( 1 ), pp.  71 – 83 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=The%20Analytic%20Hierarchy%20Process%20Applied%20to%20Maintenance%20Strategy%20Selection&author=M.%20Bevilacqua&author=M.%20Braglia&publication_year=2000&journal=Reliab.%20Eng.%20Syst.%20Saf.&volume=70&pages=71-83
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=The%20Analytic%20Hierarchy%20Process%20Applied%20to%20Maintenance%20Strategy%20Selection&author=M.%20Bevilacqua&author=M.%20Braglia&publication_year=2000&journal=Reliab.%20Eng.%20Syst.%20Saf.&volume=70&pages=71-83
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=The%20Analytic%20Hierarchy%20Process%20Applied%20to%20Maintenance%20Strategy%20Selection&author=M.%20Bevilacqua&author=M.%20Braglia&publication_year=2000&journal=Reliab.%20Eng.%20Syst.%20Saf.&volume=70&pages=71-83
+
+6.  Suh ,  J. H. ,  Kumara ,  S. R. , and  Mysore ,  S. P. ,  1999 , “ Machinery Fault Diagnosis and Prognosis: Application of Advanced Signal Processing Techniques ,”  CIRP Ann.-Manuf. Technol. ,  48 ( 1 ), pp.  317 – 320 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Machinery%20Fault%20Diagnosis%20and%20Prognosis%3A%20Application%20of%20Advanced%20Signal%20Processing%20Techniques&author=J.%20H.%20Suh&author=S.%20R.%20Kumara&author=S.%20P.%20Mysore&publication_year=1999&journal=CIRP%20Ann.-Manuf.%20Technol.&volume=48&pages=317-320
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Machinery%20Fault%20Diagnosis%20and%20Prognosis%3A%20Application%20of%20Advanced%20Signal%20Processing%20Techniques&author=J.%20H.%20Suh&author=S.%20R.%20Kumara&author=S.%20P.%20Mysore&publication_year=1999&journal=CIRP%20Ann.-Manuf.%20Technol.&volume=48&pages=317-320
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Machinery%20Fault%20Diagnosis%20and%20Prognosis%3A%20Application%20of%20Advanced%20Signal%20Processing%20Techniques&author=J.%20H.%20Suh&author=S.%20R.%20Kumara&author=S.%20P.%20Mysore&publication_year=1999&journal=CIRP%20Ann.-Manuf.%20Technol.&volume=48&pages=317-320
+
+7.  Hu ,  C. ,  Youn ,  B. D. , and  Kim ,  T. ,  2012 , “ Semi-Supervised Learning With Co-Training for Data-Driven Prognostics ,”  IEEE Conference on Prognostics and Health Management  ( PHM ), Denver, CO, June 18–21, pp.  1 – 10 . 8.  Schwabacher ,  M. ,  2005 , “ A Survey of Data-Driven Prognostics ,”  AIAA  Paper No. 2005-7002. 9.  Byrne ,  G. ,  Dornfeld ,  D. ,  Inasaki ,  I. ,  Ketteler ,  G. ,  König ,  W. , and  Teti ,  R. ,  1995 , “ Tool Condition Monitoring (TCM)—The Status of Research and Industrial Application ,”  CIRP Ann.-Manuf. Technol. ,  44 ( 2 ), pp.  541 – 567 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Tool%20Condition%20Monitoring%20%28TCM%29%E2%80%94The%20Status%20of%20Research%20and%20Industrial%20Application&author=G.%20Byrne&author=D.%20Dornfeld&author=I.%20Inasaki&author=G.%20Ketteler&author=W.%20K%C3%B6nig&author=R.%20Teti&publication_year=1995&journal=CIRP%20Ann.-Manuf.%20Technol.&volume=44&pages=541-567
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Tool%20Condition%20Monitoring%20%28TCM%29%E2%80%94The%20Status%20of%20Research%20and%20Industrial%20Application&author=G.%20Byrne&author=D.%20Dornfeld&author=I.%20Inasaki&author=G.%20Ketteler&author=W.%20K%C3%B6nig&author=R.%20Teti&publication_year=1995&journal=CIRP%20Ann.-Manuf.%20Technol.&volume=44&pages=541-567
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Tool%20Condition%20Monitoring%20%28TCM%29%E2%80%94The%20Status%20of%20Research%20and%20Industrial%20Application&author=G.%20Byrne&author=D.%20Dornfeld&author=I.%20Inasaki&author=G.%20Ketteler&author=W.%20K%C3%B6nig&author=R.%20Teti&publication_year=1995&journal=CIRP%20Ann.-Manuf.%20Technol.&volume=44&pages=541-567
+
+10.  Teti ,  R. ,  Jemielniak ,  K. ,  O'Donnell ,  G. , and  Dornfeld ,  D. ,  2010 , “ Advanced Monitoring of Machining Operations ,”  CIRP Ann.-Manuf. Technol. ,  59 ( 2 ), pp.  717 – 739 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Advanced%20Monitoring%20of%20Machining%20Operations&author=R.%20Teti&author=K.%20Jemielniak&author=G.%20O%27Donnell&author=D.%20Dornfeld&publication_year=2010&journal=CIRP%20Ann.-Manuf.%20Technol.&volume=59&pages=717-739
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Advanced%20Monitoring%20of%20Machining%20Operations&author=R.%20Teti&author=K.%20Jemielniak&author=G.%20O%27Donnell&author=D.%20Dornfeld&publication_year=2010&journal=CIRP%20Ann.-Manuf.%20Technol.&volume=59&pages=717-739
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Advanced%20Monitoring%20of%20Machining%20Operations&author=R.%20Teti&author=K.%20Jemielniak&author=G.%20O%27Donnell&author=D.%20Dornfeld&publication_year=2010&journal=CIRP%20Ann.-Manuf.%20Technol.&volume=59&pages=717-739
+
+11.  Gao ,  R. ,  Wang ,  L. ,  Teti ,  R. ,  Dornfeld ,  D. ,  Kumara ,  S. ,  Mori ,  M. , and  Helu ,  M. ,  2015 , “ Cloud-Enabled Prognosis for Manufacturing ,”  CIRP Ann.-Manuf. Technol. ,  64 ( 2 ), pp.  749 – 772 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Cloud-Enabled%20Prognosis%20for%20Manufacturing&author=R.%20Gao&author=L.%20Wang&author=R.%20Teti&author=D.%20Dornfeld&author=S.%20Kumara&author=M.%20Mori&author=M.%20Helu&publication_year=2015&journal=CIRP%20Ann.-Manuf.%20Technol.&volume=64&pages=749-772
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Cloud-Enabled%20Prognosis%20for%20Manufacturing&author=R.%20Gao&author=L.%20Wang&author=R.%20Teti&author=D.%20Dornfeld&author=S.%20Kumara&author=M.%20Mori&author=M.%20Helu&publication_year=2015&journal=CIRP%20Ann.-Manuf.%20Technol.&volume=64&pages=749-772
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Cloud-Enabled%20Prognosis%20for%20Manufacturing&author=R.%20Gao&author=L.%20Wang&author=R.%20Teti&author=D.%20Dornfeld&author=S.%20Kumara&author=M.%20Mori&author=M.%20Helu&publication_year=2015&journal=CIRP%20Ann.-Manuf.%20Technol.&volume=64&pages=749-772
+
+12.  Daigle ,  M. J. , and  Goebel ,  K. ,  2013 , “ Model-Based Prognostics With Concurrent Damage Progression Processes ,”  IEEE Trans. Syst. Man Cybernetics: Syst. ,  43 ( 3 ), pp.  535 – 546 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Model-Based%20Prognostics%20With%20Concurrent%20Damage%20Progression%20Processes&author=M.%20J.%20Daigle&author=K.%20Goebel&publication_year=2013&journal=IEEE%20Trans.%20Syst.%20Man%20Cybernetics%3A%20Syst.&volume=43&pages=535-546
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Model-Based%20Prognostics%20With%20Concurrent%20Damage%20Progression%20Processes&author=M.%20J.%20Daigle&author=K.%20Goebel&publication_year=2013&journal=IEEE%20Trans.%20Syst.%20Man%20Cybernetics%3A%20Syst.&volume=43&pages=535-546
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Model-Based%20Prognostics%20With%20Concurrent%20Damage%20Progression%20Processes&author=M.%20J.%20Daigle&author=K.%20Goebel&publication_year=2013&journal=IEEE%20Trans.%20Syst.%20Man%20Cybernetics%3A%20Syst.&volume=43&pages=535-546
+
+13.  Si ,  X.-S. ,  Wang ,  W. ,  Hu ,  C.-H. ,  Chen ,  M.-Y. , and  Zhou ,  D.-H. ,  2013 , “ A Wiener-Process-Based Degradation Model With a Recursive Filter Algorithm for Remaining Useful Life Estimation ,”  Mech. Syst. Signal Process. ,  35 ( 1 ), pp.  219 – 237 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=A%20Wiener-Process-Based%20Degradation%20Model%20With%20a%20Recursive%20Filter%20Algorithm%20for%20Remaining%20Useful%20Life%20Estimation&author=X.-S.%20Si&author=W.%20Wang&author=C.-H.%20Hu&author=M.-Y.%20Chen&author=D.-H.%20Zhou&publication_year=2013&journal=Mech.%20Syst.%20Signal%20Process.&volume=35&pages=219-237
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=A%20Wiener-Process-Based%20Degradation%20Model%20With%20a%20Recursive%20Filter%20Algorithm%20for%20Remaining%20Useful%20Life%20Estimation&author=X.-S.%20Si&author=W.%20Wang&author=C.-H.%20Hu&author=M.-Y.%20Chen&author=D.-H.%20Zhou&publication_year=2013&journal=Mech.%20Syst.%20Signal%20Process.&volume=35&pages=219-237
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=A%20Wiener-Process-Based%20Degradation%20Model%20With%20a%20Recursive%20Filter%20Algorithm%20for%20Remaining%20Useful%20Life%20Estimation&author=X.-S.%20Si&author=W.%20Wang&author=C.-H.%20Hu&author=M.-Y.%20Chen&author=D.-H.%20Zhou&publication_year=2013&journal=Mech.%20Syst.%20Signal%20Process.&volume=35&pages=219-237
+
+14.  Dong ,  M. , and  He ,  D. ,  2007 , “ Hidden Semi-Markov Model-Based Methodology for Multi-Sensor Equipment Health Diagnosis and Prognosis ,”  Eur. J. Oper. Res. ,  178 ( 3 ), pp.  858 – 878 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Hidden%20Semi-Markov%20Model-Based%20Methodology%20for%20Multi-Sensor%20Equipment%20Health%20Diagnosis%20and%20Prognosis&author=M.%20Dong&author=D.%20He&publication_year=2007&journal=Eur.%20J.%20Oper.%20Res.&volume=178&pages=858-878
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Hidden%20Semi-Markov%20Model-Based%20Methodology%20for%20Multi-Sensor%20Equipment%20Health%20Diagnosis%20and%20Prognosis&author=M.%20Dong&author=D.%20He&publication_year=2007&journal=Eur.%20J.%20Oper.%20Res.&volume=178&pages=858-878
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Hidden%20Semi-Markov%20Model-Based%20Methodology%20for%20Multi-Sensor%20Equipment%20Health%20Diagnosis%20and%20Prognosis&author=M.%20Dong&author=D.%20He&publication_year=2007&journal=Eur.%20J.%20Oper.%20Res.&volume=178&pages=858-878
+
+15.  Saha ,  B. ,  Goebel ,  K. , and  Christophersen ,  J. ,  2009 , “ Comparison of Prognostic Algorithms for Estimating Remaining Useful Life of Batteries ,”  Trans. Inst. Meas. Control ,  31 ( 3–4 ), pp.  293 – 308 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Comparison%20of%20Prognostic%20Algorithms%20for%20Estimating%20Remaining%20Useful%20Life%20of%20Batteries&author=B.%20Saha&author=K.%20Goebel&author=J.%20Christophersen&publication_year=2009&journal=Trans.%20Inst.%20Meas.%20Control&volume=31&pages=293-308
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Comparison%20of%20Prognostic%20Algorithms%20for%20Estimating%20Remaining%20Useful%20Life%20of%20Batteries&author=B.%20Saha&author=K.%20Goebel&author=J.%20Christophersen&publication_year=2009&journal=Trans.%20Inst.%20Meas.%20Control&volume=31&pages=293-308
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Comparison%20of%20Prognostic%20Algorithms%20for%20Estimating%20Remaining%20Useful%20Life%20of%20Batteries&author=B.%20Saha&author=K.%20Goebel&author=J.%20Christophersen&publication_year=2009&journal=Trans.%20Inst.%20Meas.%20Control&volume=31&pages=293-308
+
+16.  Niaki ,  F. A. ,  Michel ,  M. , and  Mears ,  L. ,  2016 , “ State of Health Monitoring in Machining: Extended Kalman Filter for Tool Wear Assessment in Turning of IN718 Hard-to-Machine Alloy ,”  J. Manuf. Processes ,  24 (Part 2), pp.  361 – 369 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=State%20of%20Health%20Monitoring%20in%20Machining%3A%20Extended%20Kalman%20Filter%20for%20Tool%20Wear%20Assessment%20in%20Turning%20of%20IN718%20Hard-to-Machine%20Alloy&author=F.%20A.%20Niaki&author=M.%20Michel&author=L.%20Mears&publication_year=2016&journal=J.%20Manuf.%20Processes&volume=24&pages=361-369
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=State%20of%20Health%20Monitoring%20in%20Machining%3A%20Extended%20Kalman%20Filter%20for%20Tool%20Wear%20Assessment%20in%20Turning%20of%20IN718%20Hard-to-Machine%20Alloy&author=F.%20A.%20Niaki&author=M.%20Michel&author=L.%20Mears&publication_year=2016&journal=J.%20Manuf.%20Processes&volume=24&pages=361-369
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=State%20of%20Health%20Monitoring%20in%20Machining%3A%20Extended%20Kalman%20Filter%20for%20Tool%20Wear%20Assessment%20in%20Turning%20of%20IN718%20Hard-to-Machine%20Alloy&author=F.%20A.%20Niaki&author=M.%20Michel&author=L.%20Mears&publication_year=2016&journal=J.%20Manuf.%20Processes&volume=24&pages=361-369
+
+17.  Orchard ,  M. E. , and  Vachtsevanos ,  G. J. ,  2009 , “ A Particle-Filtering Approach for On-Line Fault Diagnosis and Failure Prognosis ,”  Trans. Inst. Meas. Control ,  31 ( 3–4 ), pp.  221 – 246 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=A%20Particle-Filtering%20Approach%20for%20On-Line%20Fault%20Diagnosis%20and%20Failure%20Prognosis&author=M.%20E.%20Orchard&author=G.%20J.%20Vachtsevanos&publication_year=2009&journal=Trans.%20Inst.%20Meas.%20Control&volume=31&pages=221-246
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=A%20Particle-Filtering%20Approach%20for%20On-Line%20Fault%20Diagnosis%20and%20Failure%20Prognosis&author=M.%20E.%20Orchard&author=G.%20J.%20Vachtsevanos&publication_year=2009&journal=Trans.%20Inst.%20Meas.%20Control&volume=31&pages=221-246
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=A%20Particle-Filtering%20Approach%20for%20On-Line%20Fault%20Diagnosis%20and%20Failure%20Prognosis&author=M.%20E.%20Orchard&author=G.%20J.%20Vachtsevanos&publication_year=2009&journal=Trans.%20Inst.%20Meas.%20Control&volume=31&pages=221-246
+
+18.  Wang ,  P. , and  Gao ,  R. X. ,  2015 , “ Adaptive Resampling-Based Particle Filtering for Tool Life Prediction ,”  J. Manuf. Syst. ,  37 (Part 2), pp.  528 – 534 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Adaptive%20Resampling-Based%20Particle%20Filtering%20for%20Tool%20Life%20Prediction&author=P.%20Wang&author=R.%20X.%20Gao&publication_year=2015&journal=J.%20Manuf.%20Syst.&volume=37&pages=528-534
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Adaptive%20Resampling-Based%20Particle%20Filtering%20for%20Tool%20Life%20Prediction&author=P.%20Wang&author=R.%20X.%20Gao&publication_year=2015&journal=J.%20Manuf.%20Syst.&volume=37&pages=528-534
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Adaptive%20Resampling-Based%20Particle%20Filtering%20for%20Tool%20Life%20Prediction&author=P.%20Wang&author=R.%20X.%20Gao&publication_year=2015&journal=J.%20Manuf.%20Syst.&volume=37&pages=528-534
+
+19.  Niaki ,  F. A. ,  Ulutan ,  D. , and  Mears ,  L. ,  2015 , “ Stochastic Tool Wear Assessment in Milling Difficult to Machine Alloys ,”  Int. J. Mechatronics Manuf. Syst. ,  8 ( 3–4 ), pp.  134 – 159 . 20.  Wang ,  P. , and  Gao ,  R. X. ,  2016 , “ Stochastic Tool Wear Prediction for Sustainable Manufacturing ,”  Proc. CIRP ,  48 , pp.  236 – 241 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Stochastic%20Tool%20Wear%20Prediction%20for%20Sustainable%20Manufacturing&author=P.%20Wang&author=R.%20X.%20Gao&publication_year=2016&journal=Proc.%20CIRP&volume=48&pages=236-241
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Stochastic%20Tool%20Wear%20Prediction%20for%20Sustainable%20Manufacturing&author=P.%20Wang&author=R.%20X.%20Gao&publication_year=2016&journal=Proc.%20CIRP&volume=48&pages=236-241
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Stochastic%20Tool%20Wear%20Prediction%20for%20Sustainable%20Manufacturing&author=P.%20Wang&author=R.%20X.%20Gao&publication_year=2016&journal=Proc.%20CIRP&volume=48&pages=236-241
+
+21.  Sick ,  B. ,  2002 , “ On-Line and Indirect Tool Wear Monitoring in Turning With Artificial Neural Networks: A Review of More Than a Decade of Research ,”  Mech. Syst. Signal Process. ,  16 ( 4 ), pp.  487 – 546 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=On-Line%20and%20Indirect%20Tool%20Wear%20Monitoring%20in%20Turning%20With%20Artificial%20Neural%20Networks%3A%20A%20Review%20of%20More%20Than%20a%20Decade%20of%20Research&author=B.%20Sick&publication_year=2002&journal=Mech.%20Syst.%20Signal%20Process.&volume=16&pages=487-546
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=On-Line%20and%20Indirect%20Tool%20Wear%20Monitoring%20in%20Turning%20With%20Artificial%20Neural%20Networks%3A%20A%20Review%20of%20More%20Than%20a%20Decade%20of%20Research&author=B.%20Sick&publication_year=2002&journal=Mech.%20Syst.%20Signal%20Process.&volume=16&pages=487-546
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=On-Line%20and%20Indirect%20Tool%20Wear%20Monitoring%20in%20Turning%20With%20Artificial%20Neural%20Networks%3A%20A%20Review%20of%20More%20Than%20a%20Decade%20of%20Research&author=B.%20Sick&publication_year=2002&journal=Mech.%20Syst.%20Signal%20Process.&volume=16&pages=487-546
+
+22.  Breiman ,  L. ,  2001 , “ Random Forests ,”  Mach. Learn. ,  45 ( 1 ), pp.  5 – 32 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Random%20Forests&author=L.%20Breiman&publication_year=2001&journal=Mach.%20Learn.&volume=45&pages=5-32
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Random%20Forests&author=L.%20Breiman&publication_year=2001&journal=Mach.%20Learn.&volume=45&pages=5-32
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Random%20Forests&author=L.%20Breiman&publication_year=2001&journal=Mach.%20Learn.&volume=45&pages=5-32
+
+23.  Biau ,  G. ,  2012 , “ Analysis of a Random Forests Model ,”  J. Mach. Learn. Res. ,  13 , pp.  1063 – 1095 . 24.  Verikas ,  A. ,  Gelzinis ,  A. , and  Bacauskiene ,  M. ,  2011 , “ Mining Data With Random Forests: A Survey and Results of New Tests ,”  Pattern Recognit. ,  44 ( 2 ), pp.  330 – 349 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Mining%20Data%20With%20Random%20Forests%3A%20A%20Survey%20and%20Results%20of%20New%20Tests&author=A.%20Verikas&author=A.%20Gelzinis&author=M.%20Bacauskiene&publication_year=2011&journal=Pattern%20Recognit.&volume=44&pages=330-349
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Mining%20Data%20With%20Random%20Forests%3A%20A%20Survey%20and%20Results%20of%20New%20Tests&author=A.%20Verikas&author=A.%20Gelzinis&author=M.%20Bacauskiene&publication_year=2011&journal=Pattern%20Recognit.&volume=44&pages=330-349
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Mining%20Data%20With%20Random%20Forests%3A%20A%20Survey%20and%20Results%20of%20New%20Tests&author=A.%20Verikas&author=A.%20Gelzinis&author=M.%20Bacauskiene&publication_year=2011&journal=Pattern%20Recognit.&volume=44&pages=330-349
+
+25.  Kamarthi ,  S. ,  Kumara ,  S. , and  Cohen ,  P. ,  2000 , “ Flank Wear Estimation in Turning Through Wavelet Representation of Acoustic Emission Signals ,”  ASME J. Manuf. Sci. Eng. ,  122 ( 1 ), pp.  12 – 19 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Flank%20Wear%20Estimation%20in%20Turning%20Through%20Wavelet%20Representation%20of%20Acoustic%20Emission%20Signals&author=S.%20Kamarthi&author=S.%20Kumara&author=P.%20Cohen&publication_year=2000&journal=ASME%20J.%20Manuf.%20Sci.%20Eng.&volume=122&pages=12-19
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Flank%20Wear%20Estimation%20in%20Turning%20Through%20Wavelet%20Representation%20of%20Acoustic%20Emission%20Signals&author=S.%20Kamarthi&author=S.%20Kumara&author=P.%20Cohen&publication_year=2000&journal=ASME%20J.%20Manuf.%20Sci.%20Eng.&volume=122&pages=12-19
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Flank%20Wear%20Estimation%20in%20Turning%20Through%20Wavelet%20Representation%20of%20Acoustic%20Emission%20Signals&author=S.%20Kamarthi&author=S.%20Kumara&author=P.%20Cohen&publication_year=2000&journal=ASME%20J.%20Manuf.%20Sci.%20Eng.&volume=122&pages=12-19
+
+26.  Liang ,  S. , and  Dornfeld ,  D. ,  1989 , “ Tool Wear Detection Using Time Series Analysis of Acoustic Emission ,”  J. Eng. Ind. ,  111 ( 3 ), pp.  199 – 205 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Tool%20Wear%20Detection%20Using%20Time%20Series%20Analysis%20of%20Acoustic%20Emission&author=S.%20Liang&author=D.%20Dornfeld&publication_year=1989&journal=J.%20Eng.%20Ind.&volume=111&pages=199-205
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Tool%20Wear%20Detection%20Using%20Time%20Series%20Analysis%20of%20Acoustic%20Emission&author=S.%20Liang&author=D.%20Dornfeld&publication_year=1989&journal=J.%20Eng.%20Ind.&volume=111&pages=199-205
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Tool%20Wear%20Detection%20Using%20Time%20Series%20Analysis%20of%20Acoustic%20Emission&author=S.%20Liang&author=D.%20Dornfeld&publication_year=1989&journal=J.%20Eng.%20Ind.&volume=111&pages=199-205
+
+27.  Huang ,  Y. , and  Liang ,  S. Y. ,  2004 , “ Modeling of CBN Tool Flank Wear Progression in Finish Hard Turning ,”  ASME J. Manuf. Sci. Eng. ,  126 ( 1 ), pp.  98 – 106 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Modeling%20of%20CBN%20Tool%20Flank%20Wear%20Progression%20in%20Finish%20Hard%20Turning&author=Y.%20Huang&author=S.%20Y.%20Liang&publication_year=2004&journal=ASME%20J.%20Manuf.%20Sci.%20Eng.&volume=126&pages=98-106
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Modeling%20of%20CBN%20Tool%20Flank%20Wear%20Progression%20in%20Finish%20Hard%20Turning&author=Y.%20Huang&author=S.%20Y.%20Liang&publication_year=2004&journal=ASME%20J.%20Manuf.%20Sci.%20Eng.&volume=126&pages=98-106
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Modeling%20of%20CBN%20Tool%20Flank%20Wear%20Progression%20in%20Finish%20Hard%20Turning&author=Y.%20Huang&author=S.%20Y.%20Liang&publication_year=2004&journal=ASME%20J.%20Manuf.%20Sci.%20Eng.&volume=126&pages=98-106
+
+28.  Taylor ,  F. W. ,  1907 ,  On the Art of Cutting Metals ,  ASME ,  New York . 29.  Schwabacher ,  M. , and  Goebel ,  K. ,  2007 , “ A Survey of Artificial Intelligence for Prognostics ,”  AAAI   Fall Symposium , Arlington, VA, Nov. 9–11, pp.  107 – 114 . 30.  Bukkapatnam ,  S. T. ,  Lakhtakia ,  A. , and  Kumara ,  S. R. ,  1995 , “ Analysis of Sensor Signals Shows Turning on a Lathe Exhibits Low-Dimensional Chaos ,”  Phys. Rev. E ,  52 ( 3 ), p.  2375 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Analysis%20of%20Sensor%20Signals%20Shows%20Turning%20on%20a%20Lathe%20Exhibits%20Low-Dimensional%20Chaos&author=S.%20T.%20Bukkapatnam&author=A.%20Lakhtakia&author=S.%20R.%20Kumara&publication_year=1995&journal=Phys.%20Rev.%20E&volume=52&pages=2375
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Analysis%20of%20Sensor%20Signals%20Shows%20Turning%20on%20a%20Lathe%20Exhibits%20Low-Dimensional%20Chaos&author=S.%20T.%20Bukkapatnam&author=A.%20Lakhtakia&author=S.%20R.%20Kumara&publication_year=1995&journal=Phys.%20Rev.%20E&volume=52&pages=2375
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Analysis%20of%20Sensor%20Signals%20Shows%20Turning%20on%20a%20Lathe%20Exhibits%20Low-Dimensional%20Chaos&author=S.%20T.%20Bukkapatnam&author=A.%20Lakhtakia&author=S.%20R.%20Kumara&publication_year=1995&journal=Phys.%20Rev.%20E&volume=52&pages=2375
+
+31.  Bukkapatnam ,  S. T. ,  Kumara ,  S. R. , and  Lakhtakia ,  A. ,  2000 , “ Fractal Estimation of Flank Wear in Turning ,”  ASME J. Dyn. Syst. Meas. Control ,  122 ( 1 ), pp.  89 – 94 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Fractal%20Estimation%20of%20Flank%20Wear%20in%20Turning&author=S.%20T.%20Bukkapatnam&author=S.%20R.%20Kumara&author=A.%20Lakhtakia&publication_year=2000&journal=ASME%20J.%20Dyn.%20Syst.%20Meas.%20Control&volume=122&pages=89-94
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Fractal%20Estimation%20of%20Flank%20Wear%20in%20Turning&author=S.%20T.%20Bukkapatnam&author=S.%20R.%20Kumara&author=A.%20Lakhtakia&publication_year=2000&journal=ASME%20J.%20Dyn.%20Syst.%20Meas.%20Control&volume=122&pages=89-94
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Fractal%20Estimation%20of%20Flank%20Wear%20in%20Turning&author=S.%20T.%20Bukkapatnam&author=S.%20R.%20Kumara&author=A.%20Lakhtakia&publication_year=2000&journal=ASME%20J.%20Dyn.%20Syst.%20Meas.%20Control&volume=122&pages=89-94
+
+32.  Bukkapatnam ,  S. ,  Kumara ,  S. , and  Lakhtakia ,  A. ,  1999 , “ Analysis of Acoustic Emission Signals in Machining ,”  ASME J. Manuf. Sci. Eng. ,  121 ( 4 ), pp.  568 – 576 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Analysis%20of%20Acoustic%20Emission%20Signals%20in%20Machining&author=S.%20Bukkapatnam&author=S.%20Kumara&author=A.%20Lakhtakia&publication_year=1999&journal=ASME%20J.%20Manuf.%20Sci.%20Eng.&volume=121&pages=568-576
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Analysis%20of%20Acoustic%20Emission%20Signals%20in%20Machining&author=S.%20Bukkapatnam&author=S.%20Kumara&author=A.%20Lakhtakia&publication_year=1999&journal=ASME%20J.%20Manuf.%20Sci.%20Eng.&volume=121&pages=568-576
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Analysis%20of%20Acoustic%20Emission%20Signals%20in%20Machining&author=S.%20Bukkapatnam&author=S.%20Kumara&author=A.%20Lakhtakia&publication_year=1999&journal=ASME%20J.%20Manuf.%20Sci.%20Eng.&volume=121&pages=568-576
+
+33.  Özel ,  T. , and  Karpat ,  Y. ,  2005 , “ Predictive Modeling of Surface Roughness and Tool Wear in Hard Turning Using Regression and Neural Networks ,”  Int. J. Mach. Tools Manuf. ,  45 ( 4 ), pp.  467 – 479 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Predictive%20Modeling%20of%20Surface%20Roughness%20and%20Tool%20Wear%20in%20Hard%20Turning%20Using%20Regression%20and%20Neural%20Networks&author=T.%20%C3%96zel&author=Y.%20Karpat&publication_year=2005&journal=Int.%20J.%20Mach.%20Tools%20Manuf.&volume=45&pages=467-479
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Predictive%20Modeling%20of%20Surface%20Roughness%20and%20Tool%20Wear%20in%20Hard%20Turning%20Using%20Regression%20and%20Neural%20Networks&author=T.%20%C3%96zel&author=Y.%20Karpat&publication_year=2005&journal=Int.%20J.%20Mach.%20Tools%20Manuf.&volume=45&pages=467-479
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Predictive%20Modeling%20of%20Surface%20Roughness%20and%20Tool%20Wear%20in%20Hard%20Turning%20Using%20Regression%20and%20Neural%20Networks&author=T.%20%C3%96zel&author=Y.%20Karpat&publication_year=2005&journal=Int.%20J.%20Mach.%20Tools%20Manuf.&volume=45&pages=467-479
+
+34.  Palanisamy ,  P. ,  Rajendran ,  I. , and  Shanmugasundaram ,  S. ,  2008 , “ Prediction of Tool Wear Using Regression and ANN Models in End-Milling Operation ,”  Int. J. Adv. Manuf. Technol. ,  37 ( 1–2 ), pp.  29 – 41 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Prediction%20of%20Tool%20Wear%20Using%20Regression%20and%20ANN%20Models%20in%20End-Milling%20Operation&author=P.%20Palanisamy&author=I.%20Rajendran&author=S.%20Shanmugasundaram&publication_year=2008&journal=Int.%20J.%20Adv.%20Manuf.%20Technol.&volume=37&pages=29-41
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Prediction%20of%20Tool%20Wear%20Using%20Regression%20and%20ANN%20Models%20in%20End-Milling%20Operation&author=P.%20Palanisamy&author=I.%20Rajendran&author=S.%20Shanmugasundaram&publication_year=2008&journal=Int.%20J.%20Adv.%20Manuf.%20Technol.&volume=37&pages=29-41
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Prediction%20of%20Tool%20Wear%20Using%20Regression%20and%20ANN%20Models%20in%20End-Milling%20Operation&author=P.%20Palanisamy&author=I.%20Rajendran&author=S.%20Shanmugasundaram&publication_year=2008&journal=Int.%20J.%20Adv.%20Manuf.%20Technol.&volume=37&pages=29-41
+
+35.  Sanjay ,  C. ,  Neema ,  M. , and  Chin ,  C. ,  2005 , “ Modeling of Tool Wear in Drilling by Statistical Analysis and Artificial Neural Network ,”  J. Mater. Process. Technol. ,  170 ( 3 ), pp.  494 – 500 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Modeling%20of%20Tool%20Wear%20in%20Drilling%20by%20Statistical%20Analysis%20and%20Artificial%20Neural%20Network&author=C.%20Sanjay&author=M.%20Neema&author=C.%20Chin&publication_year=2005&journal=J.%20Mater.%20Process.%20Technol.&volume=170&pages=494-500
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Modeling%20of%20Tool%20Wear%20in%20Drilling%20by%20Statistical%20Analysis%20and%20Artificial%20Neural%20Network&author=C.%20Sanjay&author=M.%20Neema&author=C.%20Chin&publication_year=2005&journal=J.%20Mater.%20Process.%20Technol.&volume=170&pages=494-500
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Modeling%20of%20Tool%20Wear%20in%20Drilling%20by%20Statistical%20Analysis%20and%20Artificial%20Neural%20Network&author=C.%20Sanjay&author=M.%20Neema&author=C.%20Chin&publication_year=2005&journal=J.%20Mater.%20Process.%20Technol.&volume=170&pages=494-500
+
+36.  Chungchoo ,  C. , and  Saini ,  D. ,  2002 , “ On-Line Tool Wear Estimation in CNC Turning Operations Using Fuzzy Neural Network Model ,”  Int. J. Mach. Tools Manuf. ,  42 ( 1 ), pp.  29 – 40 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=On-Line%20Tool%20Wear%20Estimation%20in%20CNC%20Turning%20Operations%20Using%20Fuzzy%20Neural%20Network%20Model&author=C.%20Chungchoo&author=D.%20Saini&publication_year=2002&journal=Int.%20J.%20Mach.%20Tools%20Manuf.&volume=42&pages=29-40
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=On-Line%20Tool%20Wear%20Estimation%20in%20CNC%20Turning%20Operations%20Using%20Fuzzy%20Neural%20Network%20Model&author=C.%20Chungchoo&author=D.%20Saini&publication_year=2002&journal=Int.%20J.%20Mach.%20Tools%20Manuf.&volume=42&pages=29-40
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=On-Line%20Tool%20Wear%20Estimation%20in%20CNC%20Turning%20Operations%20Using%20Fuzzy%20Neural%20Network%20Model&author=C.%20Chungchoo&author=D.%20Saini&publication_year=2002&journal=Int.%20J.%20Mach.%20Tools%20Manuf.&volume=42&pages=29-40
+
+37.  Chen ,  J. C. , and  Chen ,  J. C. ,  2005 , “ An Artificial-Neural-Networks-Based In-Process Tool Wear Prediction System in Milling Operations ,”  Int. J. Adv. Manuf. Technol. ,  25 ( 5–6 ), pp.  427 – 434 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=An%20Artificial-Neural-Networks-Based%20In-Process%20Tool%20Wear%20Prediction%20System%20in%20Milling%20Operations&author=J.%20C.%20Chen&author=J.%20C.%20Chen&publication_year=2005&journal=Int.%20J.%20Adv.%20Manuf.%20Technol.&volume=25&pages=427-434
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=An%20Artificial-Neural-Networks-Based%20In-Process%20Tool%20Wear%20Prediction%20System%20in%20Milling%20Operations&author=J.%20C.%20Chen&author=J.%20C.%20Chen&publication_year=2005&journal=Int.%20J.%20Adv.%20Manuf.%20Technol.&volume=25&pages=427-434
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=An%20Artificial-Neural-Networks-Based%20In-Process%20Tool%20Wear%20Prediction%20System%20in%20Milling%20Operations&author=J.%20C.%20Chen&author=J.%20C.%20Chen&publication_year=2005&journal=Int.%20J.%20Adv.%20Manuf.%20Technol.&volume=25&pages=427-434
+
+38.  Paul ,  P. S. , and  Varadarajan ,  A. ,  2012 , “ A Multi-Sensor Fusion Model Based on Artificial Neural Network to Predict Tool Wear During Hard Turning ,”  Proc. Inst. Mech. Eng., Part B ,  226 ( 5 ), pp.  853 – 860 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=A%20Multi-Sensor%20Fusion%20Model%20Based%20on%20Artificial%20Neural%20Network%20to%20Predict%20Tool%20Wear%20During%20Hard%20Turning&author=P.%20S.%20Paul&author=A.%20Varadarajan&publication_year=2012&journal=Proc.%20Inst.%20Mech.%20Eng.%2C%20Part%20B&volume=226&pages=853-860
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=A%20Multi-Sensor%20Fusion%20Model%20Based%20on%20Artificial%20Neural%20Network%20to%20Predict%20Tool%20Wear%20During%20Hard%20Turning&author=P.%20S.%20Paul&author=A.%20Varadarajan&publication_year=2012&journal=Proc.%20Inst.%20Mech.%20Eng.%2C%20Part%20B&volume=226&pages=853-860
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=A%20Multi-Sensor%20Fusion%20Model%20Based%20on%20Artificial%20Neural%20Network%20to%20Predict%20Tool%20Wear%20During%20Hard%20Turning&author=P.%20S.%20Paul&author=A.%20Varadarajan&publication_year=2012&journal=Proc.%20Inst.%20Mech.%20Eng.%2C%20Part%20B&volume=226&pages=853-860
+
+39.  Karayel ,  D. ,  2009 , “ Prediction and Control of Surface Roughness in CNC Lathe Using Artificial Neural Network ,”  J. Mater. Process. Technol. ,  209 ( 7 ), pp.  3125 – 3137 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Prediction%20and%20Control%20of%20Surface%20Roughness%20in%20CNC%20Lathe%20Using%20Artificial%20Neural%20Network&author=D.%20Karayel&publication_year=2009&journal=J.%20Mater.%20Process.%20Technol.&volume=209&pages=3125-3137
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Prediction%20and%20Control%20of%20Surface%20Roughness%20in%20CNC%20Lathe%20Using%20Artificial%20Neural%20Network&author=D.%20Karayel&publication_year=2009&journal=J.%20Mater.%20Process.%20Technol.&volume=209&pages=3125-3137
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Prediction%20and%20Control%20of%20Surface%20Roughness%20in%20CNC%20Lathe%20Using%20Artificial%20Neural%20Network&author=D.%20Karayel&publication_year=2009&journal=J.%20Mater.%20Process.%20Technol.&volume=209&pages=3125-3137
+
+40.  Cho ,  S. ,  Asfour ,  S. ,  Onar ,  A. , and  Kaundinya ,  N. ,  2005 , “ Tool Breakage Detection Using Support Vector Machine Learning in a Milling Process ,”  Int. J. Mach. Tools Manuf. ,  45 ( 3 ), pp.  241 – 249 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Tool%20Breakage%20Detection%20Using%20Support%20Vector%20Machine%20Learning%20in%20a%20Milling%20Process&author=S.%20Cho&author=S.%20Asfour&author=A.%20Onar&author=N.%20Kaundinya&publication_year=2005&journal=Int.%20J.%20Mach.%20Tools%20Manuf.&volume=45&pages=241-249
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Tool%20Breakage%20Detection%20Using%20Support%20Vector%20Machine%20Learning%20in%20a%20Milling%20Process&author=S.%20Cho&author=S.%20Asfour&author=A.%20Onar&author=N.%20Kaundinya&publication_year=2005&journal=Int.%20J.%20Mach.%20Tools%20Manuf.&volume=45&pages=241-249
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Tool%20Breakage%20Detection%20Using%20Support%20Vector%20Machine%20Learning%20in%20a%20Milling%20Process&author=S.%20Cho&author=S.%20Asfour&author=A.%20Onar&author=N.%20Kaundinya&publication_year=2005&journal=Int.%20J.%20Mach.%20Tools%20Manuf.&volume=45&pages=241-249
+
+41.  Benkedjouh ,  T. ,  Medjaher ,  K. ,  Zerhouni ,  N. , and  Rechak ,  S. ,  2015 , “ Health Assessment and Life Prediction of Cutting Tools Based on Support Vector Regression ,”  J. Intell. Manuf. ,  26 ( 2 ), pp.  213 – 223 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Health%20Assessment%20and%20Life%20Prediction%20of%20Cutting%20Tools%20Based%20on%20Support%20Vector%20Regression&author=T.%20Benkedjouh&author=K.%20Medjaher&author=N.%20Zerhouni&author=S.%20Rechak&publication_year=2015&journal=J.%20Intell.%20Manuf.&volume=26&pages=213-223
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Health%20Assessment%20and%20Life%20Prediction%20of%20Cutting%20Tools%20Based%20on%20Support%20Vector%20Regression&author=T.%20Benkedjouh&author=K.%20Medjaher&author=N.%20Zerhouni&author=S.%20Rechak&publication_year=2015&journal=J.%20Intell.%20Manuf.&volume=26&pages=213-223
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Health%20Assessment%20and%20Life%20Prediction%20of%20Cutting%20Tools%20Based%20on%20Support%20Vector%20Regression&author=T.%20Benkedjouh&author=K.%20Medjaher&author=N.%20Zerhouni&author=S.%20Rechak&publication_year=2015&journal=J.%20Intell.%20Manuf.&volume=26&pages=213-223
+
+42.  Shi ,  D. , and  Gindy ,  N. N. ,  2007 , “ Tool Wear Predictive Model Based on Least Squares Support Vector Machines ,”  Mech. Syst. Signal Process. ,  21 ( 4 ), pp.  1799 – 1814 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Tool%20Wear%20Predictive%20Model%20Based%20on%20Least%20Squares%20Support%20Vector%20Machines&author=D.%20Shi&author=N.%20N.%20Gindy&publication_year=2007&journal=Mech.%20Syst.%20Signal%20Process.&volume=21&pages=1799-1814
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Tool%20Wear%20Predictive%20Model%20Based%20on%20Least%20Squares%20Support%20Vector%20Machines&author=D.%20Shi&author=N.%20N.%20Gindy&publication_year=2007&journal=Mech.%20Syst.%20Signal%20Process.&volume=21&pages=1799-1814
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Tool%20Wear%20Predictive%20Model%20Based%20on%20Least%20Squares%20Support%20Vector%20Machines&author=D.%20Shi&author=N.%20N.%20Gindy&publication_year=2007&journal=Mech.%20Syst.%20Signal%20Process.&volume=21&pages=1799-1814
+
+43.  Jiaa ,  C. L. , and  Dornfeld ,  D. A. ,  1998 , “ A Self-Organizing Approach to the Prediction and Detection of Tool Wear ,”  ISA Trans. ,  37 ( 4 ), pp.  239 – 255 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=A%20Self-Organizing%20Approach%20to%20the%20Prediction%20and%20Detection%20of%20Tool%20Wear&author=C.%20L.%20Jiaa&author=D.%20A.%20Dornfeld&publication_year=1998&journal=ISA%20Trans.&volume=37&pages=239-255
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=A%20Self-Organizing%20Approach%20to%20the%20Prediction%20and%20Detection%20of%20Tool%20Wear&author=C.%20L.%20Jiaa&author=D.%20A.%20Dornfeld&publication_year=1998&journal=ISA%20Trans.&volume=37&pages=239-255
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=A%20Self-Organizing%20Approach%20to%20the%20Prediction%20and%20Detection%20of%20Tool%20Wear&author=C.%20L.%20Jiaa&author=D.%20A.%20Dornfeld&publication_year=1998&journal=ISA%20Trans.&volume=37&pages=239-255
+
+44.  Elangovan ,  M. ,  Devasenapati ,  S. B. ,  Sakthivel ,  N. , and  Ramachandran ,  K. ,  2011 , “ Evaluation of Expert System for Condition Monitoring of a Single Point Cutting Tool Using Principle Component Analysis and Decision Tree Algorithm ,”  Expert Syst. Appl. ,  38 ( 4 ), pp.  4450 – 4459 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Evaluation%20of%20Expert%20System%20for%20Condition%20Monitoring%20of%20a%20Single%20Point%20Cutting%20Tool%20Using%20Principle%20Component%20Analysis%20and%20Decision%20Tree%20Algorithm&author=M.%20Elangovan&author=S.%20B.%20Devasenapati&author=N.%20Sakthivel&author=K.%20Ramachandran&publication_year=2011&journal=Expert%20Syst.%20Appl.&volume=38&pages=4450-4459
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Evaluation%20of%20Expert%20System%20for%20Condition%20Monitoring%20of%20a%20Single%20Point%20Cutting%20Tool%20Using%20Principle%20Component%20Analysis%20and%20Decision%20Tree%20Algorithm&author=M.%20Elangovan&author=S.%20B.%20Devasenapati&author=N.%20Sakthivel&author=K.%20Ramachandran&publication_year=2011&journal=Expert%20Syst.%20Appl.&volume=38&pages=4450-4459
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Evaluation%20of%20Expert%20System%20for%20Condition%20Monitoring%20of%20a%20Single%20Point%20Cutting%20Tool%20Using%20Principle%20Component%20Analysis%20and%20Decision%20Tree%20Algorithm&author=M.%20Elangovan&author=S.%20B.%20Devasenapati&author=N.%20Sakthivel&author=K.%20Ramachandran&publication_year=2011&journal=Expert%20Syst.%20Appl.&volume=38&pages=4450-4459
+
+45.  Arisoy ,  Y. M. , and  Özel ,  T. ,  2015 , “ Machine Learning Based Predictive Modeling of Machining Induced Microhardness and Grain Size in Ti–6Al–4V Alloy ,”  Mater. Manuf. Process. ,  30 ( 4 ), pp.  425 – 433 .
+
+Google Scholar
+
+https://scholar.google.com/scholar_lookup?title=Machine%20Learning%20Based%20Predictive%20Modeling%20of%20Machining%20Induced%20Microhardness%20and%20Grain%20Size%20in%20Ti%E2%80%936Al%E2%80%934V%20Alloy&author=Y.%20M.%20Arisoy&author=T.%20%C3%96zel&publication_year=2015&journal=Mater.%20Manuf.%20Process.&volume=30&pages=425-433
+
+Crossref
+
+https://scholar.google.com/scholar_lookup?title=Machine%20Learning%20Based%20Predictive%20Modeling%20of%20Machining%20Induced%20Microhardness%20and%20Grain%20Size%20in%20Ti%E2%80%936Al%E2%80%934V%20Alloy&author=Y.%20M.%20Arisoy&author=T.%20%C3%96zel&publication_year=2015&journal=Mater.%20Manuf.%20Process.&volume=30&pages=425-433
+
+Search ADS
+
+https://scholar.google.com/scholar_lookup?title=Machine%20Learning%20Based%20Predictive%20Modeling%20of%20Machining%20Induced%20Microhardness%20and%20Grain%20Size%20in%20Ti%E2%80%936Al%E2%80%934V%20Alloy&author=Y.%20M.%20Arisoy&author=T.%20%C3%96zel&publication_year=2015&journal=Mater.%20Manuf.%20Process.&volume=30&pages=425-433
+
+46.  Cortes ,  C. , and  Vapnik ,  V. ,  1995 , “ Support-Vector Networks ,”  Mach. Learn. ,  20 ( 3 ), pp.  273 – 297 . 47.  Drucker ,  H. ,  Burges ,  C. J. ,  Kaufman ,  L. ,  Smola ,  A. , and  Vapnik ,  V. ,  1997 , “ Support Vector Regression Machines ,”  Advances in Neural Information Processing Systems , Vol.  9 , pp.  155 – 161 . 48.  Liaw ,  A. , and  Wiener ,  M. ,  2002 , “ Classification and Regression by Random Forest ,”  R News ,  2 ( 3 ), pp.  18 – 22 . 49.  Friedman ,  J. ,  Hastie ,  T. , and  Tibshirani ,  R. ,  2001 ,  The Elements of Statistical Learning, Springer Series in Statistics ,  Springer ,  Berlin . 50.  Li ,  X. ,  Lim ,  B. ,  Zhou ,  J. ,  Huang ,  S. ,  Phua ,  S. ,  Shaw ,  K. , and  Er ,  M. ,  2009 , “ Fuzzy Neural Network Modelling for Tool Wear Estimation in Dry Milling Operation ,”  Annual Conference of the Prognostics and Health Management Society  ( PHM ), San Diego, CA, Sept. 27–Oct. 1, pp.  1 – 11 .   Copyright © 2017 by ASME  
+
+34,237   Views  
+
+519
+
+https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=silverchair&SrcAuth=WosAPI&KeyUT=WOS:000401817900018&DestLinkType=CitingArticles&DestApp=WOS_CPL
+
+Web of Science  
+
+553
+
+https://asmedigitalcollection.asme.org/manufacturingscience/crossref-citedby/454654
+
+Crossref  
+
+View Metrics
+
+javascript:;
+
+×   Close Modal  
+
+javascript:;
+
+Get Email Alerts
+
+Article Activity Alert
+
+javascript:;
+
+Accepted Manuscript Alert
+
+javascript:;
+
+New Issue Alert
+
+javascript:;
+
+Close Modal  
+
+javascript:;
+
+Cited By
+
+Web Of Science (519)
+
+javascript:;
+
+Google Scholar
+
+javascript:;
+
+CrossRef (553)
+
+javascript:;
+
+Latest
+
+javascript:;
+
+Most Read
+
+javascript:;
+
+Most Cited
+
+javascript:;
+
+A Study on Microstructure Evolution, High Temperature Deformation, and Fracture Characteristics of Wire Arc Additively Manufactured Inconel 625 Alloy
+
+javascript:;
+
+J. Manuf. Sci. Eng  (June 2026)  
+
+Enhancing Heat and Mass Transfer at the Alternating Interface of Additive/Subtractive Hybrid Manufacturing Using a Variable Powder Layer Strategy
+
+https://asmedigitalcollection.asme.org/manufacturingscience/article/doi/10.1115/1.4071400/1231945/Enhancing-Heat-and-Mass-Transfer-at-the
+
+J. Manuf. Sci. Eng  (May 2026)  
+
+Tailoring Thermal and Mechanical Performance Through Multimaterial Laser Powder Directed Energy Deposition of Copper and 17-4PH Stainless Steel
+
+https://asmedigitalcollection.asme.org/manufacturingscience/article/doi/10.1115/1.4071401/1231946/Tailoring-Thermal-and-Mechanical-Performance
+
+J. Manuf. Sci. Eng  (June 2026)  
+
+Robust Melt Pool Image Analysis for Quality Management in Additive Manufacturing Using Deep Learning
+
+https://asmedigitalcollection.asme.org/manufacturingscience/article/doi/10.1115/1.4071481/1232070/Robust-Melt-Pool-Image-Analysis-for-Quality
+
+J. Manuf. Sci. Eng  
+
+Related Articles
+
+Cloud-Based Parallel Machine Learning for Tool Wear Prediction
+
+https://asmedigitalcollection.asme.org/manufacturingscience/article/doi/10.1115/1.4071481/1232070/Robust-Melt-Pool-Image-Analysis-for-Quality
+
+J. Manuf. Sci. Eng   (April,2018)  
+
+Special Issue: Data Science-Enhanced Manufacturing
+
+https://asmedigitalcollection.asme.org/manufacturingscience/article/139/10/100301/377096/Special-Issue-Data-Science-Enhanced-Manufacturing
+
+J. Manuf. Sci. Eng   (October,2017)  
+
+Small-Dataset Machine Learning for Wear Prediction of Laser Powder Bed Fusion Fabricated Steel
+
+https://asmedigitalcollection.asme.org/tribology/article/145/9/091101/1163040/Small-Dataset-Machine-Learning-for-Wear-Prediction
+
+J. Tribol   (September,2023)  
+
+Triboinformatics Approach for Friction and Wear Prediction of Al-Graphite Composites Using Machine Learning Methods
+
+https://asmedigitalcollection.asme.org/tribology/article/144/1/011701/1103663/Triboinformatics-Approach-for-Friction-and-Wear
+
+J. Tribol   (January,2022)  
+
+Related Proceedings Papers
+
+A Machine Learning Approach for Probabilistic Evaluation of Finite Element Analysis
+
+https://asmedigitalcollection.asme.org/tribology/article/144/1/011701/1103663/Triboinformatics-Approach-for-Friction-and-Wear
+
+GT2023  
+
+Exploring Efficacy of Machine Learning (Artificial Neural Networks) for Enhancing Reliability and Resilience of Thermal Energy Storage Platforms Utilizing Phase Change Materials for Sustainability and Mitigating Food-Energy-Water (FEW) Nexus
+
+https://asmedigitalcollection.asme.org/IMECE/proceedings/IMECE2023/87677/V010T11A060/1196190
+
+IMECE2023  
+
+Estimation of Cuttings Concentration and Frictional Pressure Losses During Drilling Using Data-Driven Models
+
+https://asmedigitalcollection.asme.org/OMAE/proceedings/OMAE2021/85208/V010T11A008/1121669
+
+OMAE2021  
+
+Related Chapters
+
+A Rapid Tool for Risk-Based Post-Cyclonic Integrity Assessment of Flexible Risers
+
+https://asmedigitalcollection.asme.org/OMAE/proceedings/OMAE2021/85208/V010T11A008/1121669
+
+Asset Integrity Management of Critical Infrastructure  
+
+Data-Driven Tool Condition Monitoring and Surface Roughness Prediction in CNC Machining
+
+https://asmedigitalcollection.asme.org/ebooks/book/2372/chapter/29509947/Data-Driven-Tool-Condition-Monitoring-and-Surface
+
+Data-Driven Decision Making in Advanced Manufacturing  
+
+An Algorithm Implementation about SVR Based on Spider
+
+https://asmedigitalcollection.asme.org/ebooks/book/206/chapter/39048/An-Algorithm-Implementation-about-SVR-Based-on
+
+International Symposium on Information Engineering and Electronic Commerce, 3rd (IEEC 2011)  
+
+Issues
+
+https://asmedigitalcollection.asme.org#
+
+Accepted Manuscripts
+
+https://asmedigitalcollection.asme.org#
+
+All Years
+
+https://asmedigitalcollection.asme.org#
+
+Purchase
+
+https://asmedigitalcollection.asme.org#
+
+Twitter
+
+https://asmedigitalcollection.asme.org#
+
+About the Journal
+
+https://asmedigitalcollection.asme.org#
+
+Editorial Board
+
+https://asmedigitalcollection.asme.org#
+
+Information for Authors
+
+https://asmedigitalcollection.asme.org#
+
+Call for Papers
+
+https://asmedigitalcollection.asme.org#
+
+Rights and Permission
+
+https://asmedigitalcollection.asme.org#
+
+Online ISSN  1528-8935
+
+Print ISSN  1087-1357
+
+ASME Journals
+
+About ASME Journals
+
+https://asmedigitalcollection.asme.org#
+
+Information for Authors
+
+https://asmedigitalcollection.asme.org#
+
+Submit a Paper
+
+https://asmedigitalcollection.asme.org#
+
+Call for Papers
+
+https://asmedigitalcollection.asme.org#
+
+Title History
+
+https://asmedigitalcollection.asme.org#
+
+ASME Conference Proceedings
+
+About ASME Conference Publications and Proceedings
+
+https://asmedigitalcollection.asme.org#
+
+Conference Proceedings Author Guidelines
+
+https://asmedigitalcollection.asme.org#
+
+ASME eBooks
+
+About ASME eBooks
+
+https://asmedigitalcollection.asme.org#
+
+ASME Press Advisory & Oversight Committee
+
+https://asmedigitalcollection.asme.org#
+
+Book Proposal Guidelines
+
+https://asmedigitalcollection.asme.org#
+
+Resources
+
+Contact Us
+
+https://asmedigitalcollection.asme.org#
+
+Authors
+
+https://asmedigitalcollection.asme.org#
+
+Librarians
+
+https://asmedigitalcollection.asme.org#
+
+Frequently Asked Questions
+
+https://asmedigitalcollection.asme.org#
+
+Publication Permissions & Reprints
+
+https://asmedigitalcollection.asme.org#
+
+ASME Membership
+
+https://asmedigitalcollection.asme.org#
+
+Opportunities
+
+Faculty Positions
+
+https://asmedigitalcollection.asme.org#
+
+LinkedIn
+
+Twitter
+
+Facebook
+
+ASME Instagram
+
+Accessibility
+
+https://asmedigitalcollection.asme.org#
+
+Privacy Statement
+
+https://asmedigitalcollection.asme.org#
+
+Terms of Use
+
+https://asmedigitalcollection.asme.org#
+
+Get Adobe Acrobat Reader
+
+https://asmedigitalcollection.asme.org#
+
+Copyright © 2026 The American Society of Mechanical Engineers  
+
+Close Modal
+
+Close Modal  
+
+javascript:;
+
+This Feature Is Available To Subscribers Only  
+
+Sign In
+
+javascript:;
+
+ or 
+
+Create an Account
+
+https://asmedigitalcollection.asme.org/my-account/register?siteId=1000027&returnUrl=%2fmanufacturingscience%2farticle%2f139%2f7%2f071018%2f454654%2fA-Comparative-Study-on-Machine-Learning-Algorithms

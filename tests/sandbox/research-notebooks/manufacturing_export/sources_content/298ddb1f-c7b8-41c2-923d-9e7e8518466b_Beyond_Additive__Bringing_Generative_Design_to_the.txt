@@ -1,0 +1,1171 @@
+Beyond Additive: Bringing Generative Design to the Machine Shop | Autodesk University
+
+ 
+
+https://www.autodesk.com/autodesk-university/search
+
+ 
+
+https://www.autodesk.com/autodesk-university/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025
+
+ 
+
+[
+
+](https://www.autodesk.com/autodesk-university/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025)
+
+English
+
+https://www.autodesk.com/autodesk-university/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025
+
+ 
+
+https://www.autodesk.com/autodesk-university/de/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025
+
+ [
+
+](https://www.autodesk.com/autodesk-university/de/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025)
+
+Deutsch
+
+https://www.autodesk.com/autodesk-university/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025
+
+ 
+
+https://www.autodesk.com/autodesk-university/es/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025
+
+ [
+
+](https://www.autodesk.com/autodesk-university/es/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025)
+
+Español
+
+https://www.autodesk.com/autodesk-university/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025
+
+ 
+
+https://www.autodesk.com/autodesk-university/fr/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025
+
+ [
+
+](https://www.autodesk.com/autodesk-university/fr/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025)
+
+Français
+
+https://www.autodesk.com/autodesk-university/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025
+
+ 
+
+https://www.autodesk.com/autodesk-university/ko/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025
+
+ [
+
+](https://www.autodesk.com/autodesk-university/ko/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025)
+
+한국어
+
+https://www.autodesk.com/autodesk-university/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025
+
+ 
+
+https://www.autodesk.com/autodesk-university/ja/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025
+
+ [
+
+](https://www.autodesk.com/autodesk-university/ja/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025)
+
+日本語
+
+https://www.autodesk.com/autodesk-university/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025
+
+ 
+
+https://www.autodesk.com/autodesk-university/zh-hans/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025
+
+ [
+
+](https://www.autodesk.com/autodesk-university/zh-hans/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025)
+
+简体中文
+
+https://www.autodesk.com/autodesk-university/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025
+
+Sign In
+
+Autodesk University
+
+https://www.autodesk.com/autodesk-university/
+
+AU 2026 Overview
+
+https://conferences.autodesk.com/flow/autodesk/au2026/web/page/overview
+
+Call for Proposals
+
+https://www.autodesk.com/autodesk-university/conference/call-for-proposals
+
+FAQ
+
+https://conferences.autodesk.com/flow/autodesk/au2026/web/page/faq
+
+ 
+
+https://www.autodesk.com/autodesk-university/search
+
+Submit a proposal
+
+https://conferences.autodesk.com/flow/autodesk/au2026/cfp
+
+ 
+
+ 
+
+class - AU
+
+Beyond Additive: Bringing Generative Design to the Machine Shop
+
+Haroon Waseem
+
+https://www.autodesk.com/autodesk-university/profile/TnEyR0fzl5QEkVJ%2B4%2B9D%2FWgJISeLphnR4LGIDyYWEKA%3D
+
+Share this class
+
+Comment
+
+1
+
+Search for keywords in videos, presentation slides and handouts:
+
+Overview 0 results
+
+https://www.autodesk.com/autodesk-university/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025#overview
+
+Description
+
+While generative design offers innovative, organic forms, its realization has largely been limited to prototyping via additive manufacturing. Conventional computer numerical control (CNC) Machinist, despite its advancements and suitability for mass production, has primarily focused on geometric parts, alongside making the production more efficient, autonomous, and lights out. This project investigates a paradigm shift by exploring the integration of generative design with modern CNC Machinist techniques. We'll delve into recent developments in CAM software, using Autodesk Fusion 360 software and modern CNC techniques that enable the fabrication of complex, freeform designs developed through generative algorithms. By examining a successful case study of bicycle components, current limitations, and potential applications across various industries, this presentation aims to highlight the potential of this integrated approach to bring generative design to mass manufacturing, moving beyond prototyping and into real-world applications.
+
+Key Learnings
+
+Learn how Autodesk Fusion 360 combines generative design and CAM simulation to create complex toolpaths for organic freeform designs.
+
+Discover how the Fusion 360 tools bridge the gap between generative design and modern manufacturing processes.
+
+Explore a case study to see how generative design can be integrated with advanced CNC Machinist.
+
+Learn how generative design principles optimize product innovation and efficiency in mass manufacturing.
+
+Speaker
+
+HW 
+
+Haroon Waseem
+
+https://www.autodesk.com/autodesk-university/profile/TnEyR0fzl5QEkVJ%2B4%2B9D%2FWgJISeLphnR4LGIDyYWEKA%3D
+
+ Haroon Waseem is a Product Designer and Mechanical Engineer with expertise in technical product design, prototyping, and digital manufacturing. His work explores how generative design and CNC-based workflows can accelerate development cycles and improve real-world manufacturability. A graduate of the Rhode Island School of Design, Haroon focuses on using algorithm-driven design methods to create geometry that balances performance, cost, and fabrication efficiency.
+
+Video Player is loading.
+
+Play Video
+
+Play
+
+Mute
+
+Current Time 0:00
+
+/
+
+Duration -:-
+
+Loaded: 0%
+
+Stream Type LIVE
+
+Seek to live, currently behind live LIVE
+
+Remaining Time - 0:00
+
+Transcript
+
+1x
+
+Playback Rate
+
+2x
+
+1.75x
+
+1.5x
+
+1.25x
+
+1x, selected
+
+0.75x
+
+0.5x
+
+Chapters
+
+Chapters
+
+Descriptions
+
+descriptions off, selected
+
+Captions
+
+captions settings, opens captions settings dialog
+
+captions off, selected
+
+Audio Track
+
+Quality Levels
+
+Picture-in-Picture Fullscreen
+
+This is a modal window.
+
+This video is either unavailable or not supported in this browser
+
+Error Code:
+
+ MEDIA_ERR_SRC_NOT_SUPPORTED
+
+Technical details :
+
+The media could not be loaded, either because the server or network failed or because the format is not supported.
+
+Session ID:
+
+ 2026-04-05:91c7f848cde91f055f8bda4 
+
+Player Element ID:
+
+ au-brightcove-video-6377942016112
+
+OK
+
+Close Modal Dialog
+
+Beginning of dialog window. Escape will cancel and close the window.
+
+Text Color
+
+White
+
+Black
+
+Red
+
+Green
+
+Blue
+
+Yellow
+
+Magenta
+
+Cyan
+
+Transparency
+
+Opaque
+
+Semi-Transparent
+
+Background Color
+
+Black
+
+White
+
+Red
+
+Green
+
+Blue
+
+Yellow
+
+Magenta
+
+Cyan
+
+Transparency
+
+Opaque
+
+Semi-Transparent
+
+Transparent
+
+Window Color
+
+Black
+
+White
+
+Red
+
+Green
+
+Blue
+
+Yellow
+
+Magenta
+
+Cyan
+
+Transparency
+
+Transparent
+
+Semi-Transparent
+
+Opaque
+
+Font Size
+
+50%
+
+75%
+
+100%
+
+125%
+
+150%
+
+175%
+
+200%
+
+300%
+
+400%
+
+Text Edge Style
+
+None
+
+Raised
+
+Depressed
+
+Uniform
+
+Dropshadow
+
+Font Family
+
+Proportional Sans-Serif
+
+Monospace Sans-Serif
+
+Proportional Serif
+
+Monospace Serif
+
+Casual
+
+Script
+
+Small Caps
+
+Reset restore all settings to the default values Done
+
+Close Modal Dialog
+
+End of dialog window.
+
+Close Modal Dialog
+
+This is a modal window. This modal can be closed by pressing the Escape key or activating the close button.
+
+Transcript
+
+HAROON WASEEM: Hi, everyone. Welcome to the AU 2025 Session 1618. My name is Haroon. And today, I'm going to take you guys to talk about how I have taken the project with two case studies talking about how generative design can be explored beyond just additive manufacturing techniques.
+
+My background is in mechanical engineering with a graduate degree in industrial design. I have experience in engineering design, technical design, and obtained all-- from product development cycle, from conception, all the way to product development and designing for high volume manufacturing. I recently explored a research initiative which integrates CNC manufacturing with generative design to bring generative design to the production floor in terms of a machine shop.
+
+In 2017, I saw this picture, and I could not comprehend how this was designed, let alone manufactured. It took me a while to understand how generative design actually can be brought to life. Two years ago, I started working at an architectural marine hardware company based in Rockland, Maine, and then that's where I gained access to a high level CNC manufacturing equipment, including five-axis CNC.
+
+Looking for a passion project, I landed on exploring Project Helix, which is a research-driven exploration trying to integrate generative design with CNC manufacturing. I just started to play around with my own gravel bike, took a few components out, and see if I can actually make them through generative design.
+
+Here, in this slide, you can see on the left, there is the fork. And the right, how the stem turned out to be after it was done post-processing. But let's take a step back, and then dive right into it-- into the process how it was made.
+
+So, taking out the bike stem as an exploration, I took off the one, I disassembled the bike that I had, and then started modeling the original stem that came with the bike within Fusion 360. I started simulating it with the forces that were mentioned in ISO 4210, which is a standard that ISO provides to be regulated throughout the bicycle industry on how these components need to be made.
+
+When I had the model, I had the geometry developed from the original stem, I started creating obstacles, I started creating the geometry to be preserved for generative design using fasteners that needed to be there, and handlebar, the front tube that keeps the fork together with the bike stem itself. And to understand the load cases and boundary conditions, the ISO standard 4210 helped me there to understand what kind of testing it needs to go through, what kind of forces it applies, what's the load condition, the boundary conditions.
+
+For the materials, I had an idea that I was going to make it out of 6061 aluminum-- that's what I decided to put up on. And since I had access to a five-axis CNC machine, that's what I was going to do for. Since I knew all of these constraints, now I could define my tool geometries, my minimum tools, my longest tool that I could use, all the tool projections.
+
+From there, I started programming it, which is a little bit of a challenge in itself. But I started with drilling and boring the precision part first, before starting to rough out the geometry designed by generative design itself. Here, you can see in the picture, how it started from the billet itself and how it turned out to be on the right.
+
+Moving on to the next step on how I had to start doing the subsequent operations, there was no physical change to it. However, I could hold on to it. There was no locating physical features on it, so I tried developing soft jaws to hold them rigidly enough that I can hold on to, and which for the simple three-axis operation, as you can see right here.
+
+Now, all of this gave me some confidence, how I can do the fork itself. Now, the next thing was the fork. That fork was also developed within the ISO 4210. That defines how the fork should be, what the testing it needs to go through. In the Fusion Generative side, I decided to use my front tube, which holds the frame together, with the fork and the wheel axle, and the wheel itself as the obstacle within Fusion.
+
+And then, the geometry to keep was the bearing surfaces between the front tube and the axle itself. Since I knew I was going to use CNC machining, which is a subtractive process, I could use my stock that I cut on a vertical bandsaw first, and then set it up to remove stock only, so I do not get anything that was outside that stock limitation.
+
+That did help me in a longer run. And then through different iterations-- from FEA, to load conditions, to factor of safety-- I started to get multiple revisions on the fork itself. And then through multiple iterations on the FEA part itself within Fusion simulation tab, I landed on the right most fork that you see now as the final process that I needed to be machined.
+
+Now, this was a challenge. How do I even tackle this part? Because there is no locating geometry. This does not even look like a geometric component, how will I hold it?
+
+So I sort of had a plan that I dove right into it. OK, I have the stock. Now, the inside faces, the fork itself, I started developing in two-matter halves. The inside of the fork, I started adding a few drilled and tapped holes that you can see. These posts will also help me down the line to actually locate the part in our subsequent operation.
+
+So in the next slide, let's see, we see this fixture that I had to develop to actually hold on the part where I started machining the fork from right to left in smaller chunks. In every two to three inches, I started machining them, so I have as much material as I could to hold on to make my fixturing more rigid. And then on the right side, you can also see how I started profiling milling in smaller regions. This chunk that you see in the picture was machined in one operation, and then, so on and so forth.
+
+And that's how the part looked like when it was done machining. And this is just one half. And then following this, I took on and decided to dig weld both of those pieces together. Now, the bore that I had in the center was not going to line up, because I did machine it a little under, since I knew I was going to weld it later. So I designed a tiny fixture that could hold it in the machine, and I can swing it at a 90-degree angle to machine the inside of the bore precisely at the center, so I do not get any offset when the bike turns left or right.
+
+However, this project, even small, was full of challenges and learning for me. Starting from programming, let's talk about what the challenges were. Every single operation was really long. It took really long to generate, it took really long to calculate. Now, if the operation was really long, every minor change needed the whole operation to be recalculated. If I were to rough out the whole part in one go, it will regenerate everything from scratch.
+
+So what I decided to do was break it down into smaller chunks, using sketch boundaries or model faces, or just even stock boundaries, or even height as well-- which you can define within Fusion. So what it did was, every time I had to make change a small subsection, it would not affect the other thing unless my rest machining was on, which definitely is a great tool to have. However, sometimes, if it's not necessary, I try to avoid it as much as I can because it would not affect the subsequent operations in CAM that were there.
+
+Next up comes up simulation, which became of high necessity here since it had to be visualized. These toolpaths could not just let alone be visualized by themselves, I had to rely on simulation, especially for the five-axis part that you see right here, that was necessary to approach certain features on the component itself. However, each of the simulation, then again, was also taking really long to load up, to make sure that it shows me the right stock that's left, it shows me the right tool, everything was just calculated on the project part of it.
+
+However, I found out that there were some ways that you can get along with it. It's, first of all, try reducing tolerance within the simulation preview. I reduced it to 1,000, or even 2,000 at points, where it was enough for me to understand that my part is going to turn out OK. It's not over cutting any point, it's not leaving any material that's supposed to be cut.
+
+And then what I tried to do is I tried to verify each of the operations individually. First cut, verify it, it works fine. Second cut works, it works fine. And then when I was satisfied with all of that, I started reviewing the whole thing together, the whole setup all at once. But what I found was helpful was to actually let the simulation load first before playing the whole preview.
+
+So let's dive into the next thing. The fixturing and locating part of the project was quite interesting. Any generative design component that I have designed so far just lacks any geometric elements, whatever, so to call. So I needed something to hold on to the parts rigidly to locate for subsequent operations, enough that I can do my work within the tolerances.
+
+However, you need to understand, there might be some parts that you're making that have some non-negotiable features, which you cannot edit, where you cannot add a post. But that's where it comes in that you can approach the part differently-- maybe you hold it in a different way, maybe you develop custom jobs, maybe you develop different fixtures that do not require that.
+
+However, some parts are negotiable, just like this part, where I added locating features to the part itself, machined them-- actually after the whole part of the machine. I just machined them later on in the final process, so they don't blend very well, but they do go away. And then, in subsequent post-processing, they can go away, and then they look just as machined together.
+
+Now, one more challenge that I came across was the program itself. These toolpaths were creating programs with millions of lines in them. These programs were just impossible, either It took really long to load in the control itself, or they were causing overflow in the memory buffer, so it would not even run through it. However, what I found helpful was increasing step overs, maybe you don't need the surface finish to be as good as you think it looks in the program, however. So the best way I've found was actually trying it out first, maybe increasing my tolerance, which was set to 4/10, which I did not need at that point. In this part, I did not need that, 1,000th of an inch would work just fine.
+
+Another thing that worked was dividing my main program into smaller subprograms-- maybe graphing as one subprogram, drilling and tapping all the precision work is one subprogram, and then finishing becomes one, or you can even divide that. And then calling those subprograms through a main program. That way, each program is being loaded into the control at the right point.
+
+The second thing that I did find really helpful was drip feeding a program, which means you can just feed the program through a USB in the control. That's what I tried to do, and it did work well. Now, all of these challenges made me learn a lot about the next project.
+
+But then the thing is, I kind of wanted to make it so that OK, what did I learn systematically? I know now generative design can be brought to the CNC shop, but what do I have? Do I have any numbers? I did not, that's where I started to go through for a new project, looking to see how I can have some numbers, and that's where I landed to take it on more systematic approach to optimize a motorsport component. lt could be anything.
+
+But with the help of generative design, benchmarking different alloys-- in this case, I will talk about which alloys I used, and then different manufacturing techniques as well. So let's see what this project is. It started with an idea of an off-the-shelf motorsport component, which was a rotor hat, that is a critical interface between your brake rotor and your wheel hub in performance motorsport components, and especially Formula One GT3 racing NASCAR.
+
+However, in this case, I just went by a standard dimension form with a supplier online, which supplies more performance Motorsport components. And the standard dimensions that I found was 12 holes at 8.75-inch diameter circle. And I was going to test the part against an off the shelf component, which is made out of 6061 aluminum, compared to a CNC machine component with generative design in it, machine with two different alloys, and then generative design component rotor had made out of 3D printing using direct metal laser sintering technique.
+
+So let's just dive right into the Concept 1, which was designed exactly right off the shelf, how the component of the shelf was. Instead of procuring the component itself, instead of buying off any website, I tried to make it myself so I understand how the manufacturing process goes-- what's the production effort that goes in, how much time it takes to program within CAM, and then how much actually it takes to prove it out and make sure it works. So it took me around 95 minutes to program it, and then almost 145 minutes, 2.5 hours, to machine it out of 6061 aluminum. And the way it turned out to be like almost 948 grams, a little over 2 pounds. Let's see how the process went into it.
+
+So this was a big part on itself, I started with a billet that was 10-inch square. And then I did not have any workholding to hold on to it, so I added some slots to hold in the vise to do operation one, as you can see on the left side. Since I knew that I am going to have those 12 tapped holes, which are tapped quarter-20, so I could design a fixture to do any op to based on that.
+
+So I designed a custom fixture which take your industry-standard 96-millimeter full-step pattern to be hold on to any supply that is available readily in the market. And then that helped me place the part, locate the part, correctly and rigidly enough to do op to for this.
+
+Now, this was only the concept one which you can find anywhere on the market. So moving forward to that, now was the time to design a generative design version of that. So within Fusion, first, before anything in the computer, I started working out on the calculation of brake forces. I saw what the product was designed for, the Concept 1 was designed for a car. and from there, I started working out my braking forces, and then understanding what kind of deceleration it can go through.
+
+At what speed it goes through-- once I have that, I knew my parameters were going to be. It was going to be made out of 6061 aluminum, it's going to have quarter-20 fasteners, and the other interfaces that were important-- the important geometry that needed to be there. The minimum factor of safety I chose based on standards on industries that I worked in was 3, Just because it's safe enough considering all the other parameters that can come into effect.
+
+So I designed the two interfaces-- one that goes with the brake rotor itself, the other one that goes with the wheel hub. I applied two forces on it, one rotational torque and the other one going to be a lateral force in case of a steering wheel, From there, on the right side, you can see how I applied my fasteners, my bolts, my wheel hub to be my obstacles. so the generative design could not go beyond those certain elements-- it does not interfere with them.
+
+The Fusion gave me an error that I cannot create any outcomes, because there's no clear line of sight. There's a lack of starting shape. That's the solution I found out to be. So I sort of maybe cheated the system in a way that I just used the dimensions and the model that I generated for Concept 1 for off-the-shelf component as my starting shape, which did solve the problem. And I started seeing some outcomes right off the bat.
+
+Now, as I was getting these outcomes, I started simulating them within Fusion, just changing the tabs right from generative design to there. And then what Fusion does great is it actually imports all of the forces that it was designed for, and then uses the exact same forces, exact same constraints, to help you simulate that within a few clicks.
+
+So, that defined my Concept 2, which was designed only using generative design but giving some initial parameters. It was machined out of two alloys-- 6061 aluminum, 7075 aluminum. It took me quite a lot of time to actually program it, which was around a little over four hours-- actually, maybe even 4.5 hours. But that was me trying to understand how I will actually program. It was the tool size-- how am I going to actually tackle these small pockets?
+
+The machining time was a whopping five hours for both of the sides. One side on the inside, one on the outside. The weight itself was almost half from the first one, from the first concept, 488 grams for the 6061, and a slight little bit increase for the 7075 aluminum because of the different composition of itself.
+
+Let's take a little bit of a sneak peek on how it was manufactured. Same procedure. I started using the same technique I used for Concept 1, roughed it out first, then I used a smaller endmill to go inside the pocket to rough it out. And as you can see, it was finished using a ball end mill, profiled everything out in the inside using that ball end mill. Now, since I knew that I was going to have these 12 quarter-20 tapped holes, I was going to use the same fixture I designed, so it could be done in the same manner.
+
+I just cut some corners, not literally, on this part so it does not have any cantilever forces that might affect the rigidity of my fixturing itself. And as you can see, this is how it turned out on the right. This part itself was like a little more challenging for me to understand and program, because now, there's not much to hold on to. Even though I'm holding all of these places at these 12 tab screws, it's still pretty much all of the rigidity out of the component itself, especially when you're doing HEM using Fusion.
+
+Now, Concept 3. Here, what I tried to do was I added some human element to it by adding a small lip on the inside, which does prevent any dust, any small gravel coming in the breakout in the rotor, to try and avoiding that. So now what I did was it reduced my programming time into half, almost. And then my machining time by quite a lot as well, since I could just program it in the same manner as I did the first one. And then from there on, I took it forward.
+
+My weight was reduced from the first one 622g, and then the 7075 aluminum turned out to be around 647g. However, it took me the same way I-- if you see right here, how it looks very similar to the first concept. And then on the right-hand side, it looks very similar to the second division that we did.
+
+Moving this forward, this is the final picture that I took out of it. One interesting thought that I came across with, instead of designing the third concept for 3D printing, what I tried to do was once I was done programming my Concept 3, this one right here that we just talked about, in Fusion-- when I was done programming it, I simulated the whole setup. And then in the end, Fusion gives me an option to save the stock, so I would get the exact same replica of my part. So that way, I don't need to design it from scratch, I just get the exact replica on how my part will look like after machining. And I save that stock as STL, outsource the 3D printing, since I did not have access to any metal 3D printer.
+
+But to my surprise, the weight turned out to be exactly the same as the first one, as 6061 aluminum, to the last gram. I am still looking to understand how the production effort that goes into it goes along, especially compared to the CNC machining part.
+
+But to summarize how this project went, the weight savings form Concept 2 to Concept 1 was almost 48%. The production time it took was also the double. However, for the performance element, we're still trying to understand, we're trying to partner with people other universities to see how we can actually stress test them, to fatigue test them-- not just the performance on the component itself, how the alloys make a difference, how the manufacturing techniques make a difference.
+
+Now what's, next for us is we are working with University of Maine to stress test and fatigue test these components, how the life will get affected from alloys to manufacturing techniques, how the 3D printed component holds up against CNC machine ones. And even there is a benefit of doing that, I can see the production effort does work well, especially when you can automate CNC machines. Once you have the programs, you can actually just take them, and then make even hundreds of them.
+
+This testing will give us enough data points and insights to understand our next product line, which could be in the performance bicycle industry, maybe even aftermarket components for Motorsports. We also are trying to see if we fit in with some OEM manufacturers, just like some car manufacturers starting to implement additive manufacturing techniques in their own manufacturing production line.
+
+However, this is all for today. And we are always looking to connect with people to understand. If you have something that you would want us to collaborate on, if you want to just understand, if you want to see what's next on us, please feel free to connect with us at our Instagram page on my website. Please reach out to me on LinkedIn, and I'm always happy to connect, always happy to chat for any insights, any data that you might have. And thank you so much. Have a good weekend.
+
+Downloads
+
+presentation
+
+https://static.au-uw2-prd.autodesk.com/TR1618_Beyond_Additive_-1618-Waseem-AU2025_1756500996384001GvfL.pdf
+
+Tags
+
+Product
+
+Fusion
+
+https://www.autodesk.com/autodesk-university/search?fields.product=Fusion
+
+Industries
+
+Product design and manufacturing
+
+https://www.autodesk.com/autodesk-university/search?fields.industry=Product+design+and+manufacturing
+
+Topics
+
+Manufacturing Processes
+
+https://www.autodesk.com/autodesk-university/search?query=Manufacturing+Processes
+
+ 
+
+Computer-aided Manufacturing
+
+https://www.autodesk.com/autodesk-university/search?query=Computer-aided+Manufacturing
+
+ 
+
+Generative Design
+
+https://www.autodesk.com/autodesk-university/search?query=Generative+Design
+
+ 
+
+Software Development
+
+https://www.autodesk.com/autodesk-university/search?fields.topic=Software+Development
+
+ 
+
+Subtractive Manufacturing
+
+https://www.autodesk.com/autodesk-university/search?fields.topic=Subtractive+Manufacturing
+
+ 
+
+Computational Design
+
+https://www.autodesk.com/autodesk-university/search?fields.topic=Computational+Design
+
+ 
+
+Additive Manufacturing
+
+https://www.autodesk.com/autodesk-university/search?fields.topic=Additive+Manufacturing
+
+ 
+
+CAD Management & IT
+
+https://www.autodesk.com/autodesk-university/search?fields.topic=CAD+Management+%26+IT
+
+People who like this class also liked See all classes
+
+Instructional Demo
+
+[
+
+CAM with Generative: Overview with Rob Lockwood
+
+](https://www.autodesk.com/autodesk-university/class/CAM-Generative-Overview-Rob-Lockwood-2018)
+
+Rob Lockwood
+
+https://www.autodesk.com/autodesk-university/profile/RKVTC%2B8xGvx8eMBVKT7XuA%3D%3D
+
+Industry Talk
+
+[
+
+Get Up to Speed with Automotive Manufacturing
+
+](https://www.autodesk.com/autodesk-university/class/Get-Speed-Automotive-Manufacturing-2020)
+
+Robert Walker
+
+https://www.autodesk.com/autodesk-university/profile/g3LSP6i9ijuOn6HT3wjw3g%3D%3D
+
+Hands-on Lab
+
+[
+
+Hands-on with the Newest Features of Generative Design in Fusion360 (led by creators)
+
+](https://www.autodesk.com/autodesk-university/class/Hands-Newest-Features-Generative-Design-Fusion360-led-creators-2019)
+
+Marcin Danielak
+
+https://www.autodesk.com/autodesk-university/profile/%2F0UXbHdQ3WAIfp1F4Svsag%3D%3D
+
+Instructional Demo
+
+[
+
+Fusion Manufacture: From Generative Design to Additive/Subtractive Manufacturing
+
+](https://www.autodesk.com/autodesk-university/class/Fusion-Manufacture-Generative-Design-AdditiveSubtractive-Manufacturing-2018)
+
+Tobias Klimkait,
+
+https://www.autodesk.com/autodesk-university/profile/sY%2F3vuk3uDv15aqw9W8Skw%3D%3D
+
+Andrew Sartorelli
+
+https://www.autodesk.com/autodesk-university/profile/zPUzGTJt0oz%2BY4GlX6kfFQ%3D%3D
+
+Instructional Demo
+
+[
+
+CAM with Generative: Overview with Rob Lockwood
+
+](https://www.autodesk.com/autodesk-university/class/CAM-Generative-Overview-Rob-Lockwood-2018)
+
+Rob Lockwood
+
+https://www.autodesk.com/autodesk-university/profile/RKVTC%2B8xGvx8eMBVKT7XuA%3D%3D
+
+Industry Talk
+
+[
+
+Get Up to Speed with Automotive Manufacturing
+
+](https://www.autodesk.com/autodesk-university/class/Get-Speed-Automotive-Manufacturing-2020)
+
+Robert Walker
+
+https://www.autodesk.com/autodesk-university/profile/g3LSP6i9ijuOn6HT3wjw3g%3D%3D
+
+Hands-on Lab
+
+[
+
+Hands-on with the Newest Features of Generative Design in Fusion360 (led by creators)
+
+](https://www.autodesk.com/autodesk-university/class/Hands-Newest-Features-Generative-Design-Fusion360-led-creators-2019)
+
+Marcin Danielak
+
+https://www.autodesk.com/autodesk-university/profile/%2F0UXbHdQ3WAIfp1F4Svsag%3D%3D
+
+Instructional Demo
+
+[
+
+Fusion Manufacture: From Generative Design to Additive/Subtractive Manufacturing
+
+](https://www.autodesk.com/autodesk-university/class/Fusion-Manufacture-Generative-Design-AdditiveSubtractive-Manufacturing-2018)
+
+Tobias Klimkait,
+
+https://www.autodesk.com/autodesk-university/profile/sY%2F3vuk3uDv15aqw9W8Skw%3D%3D
+
+Andrew Sartorelli
+
+https://www.autodesk.com/autodesk-university/profile/zPUzGTJt0oz%2BY4GlX6kfFQ%3D%3D
+
+Instructional Demo
+
+[
+
+CAM with Generative: Overview with Rob Lockwood
+
+](https://www.autodesk.com/autodesk-university/class/CAM-Generative-Overview-Rob-Lockwood-2018)
+
+Rob Lockwood
+
+https://www.autodesk.com/autodesk-university/profile/RKVTC%2B8xGvx8eMBVKT7XuA%3D%3D
+
+Related theater talks See all theater talks
+
+[
+
+Designing the Vehicles of the Future | Ali Shabbir](https://www.autodesk.com/autodesk-university/article/Designing-the-Vehicles-of-the-Future)
+
+About AU
+
+AU 2026 Conference
+
+https://conferences.autodesk.com/flow/autodesk/au2026/web/page/overview
+
+Sponsors
+
+https://www.autodesk.com/autodesk-university/conference/sponsors
+
+AU Advisory Council
+
+https://www.autodesk.com/autodesk-university/advisory-council
+
+AU Community Rules
+
+https://www.autodesk.com/autodesk-university/au-community-rules
+
+FAQ
+
+https://www.autodesk.com/autodesk-university/faq
+
+AU Blog
+
+https://www.autodesk.com/autodesk-university/blog
+
+Contact Us
+
+https://www.autodesk.com/autodesk-university/contact-us
+
+Learn Online
+
+Keynotes
+
+https://www.autodesk.com/autodesk-university/search?fields.contenttype=Keynote&fields.year=2024
+
+On-demand sessions
+
+https://www.autodesk.com/autodesk-university/search
+
+Architecture & Building Engineering
+
+https://www.autodesk.com/autodesk-university/architecture-building-engineering
+
+Construction
+
+https://www.autodesk.com/autodesk-university/construction
+
+Product Design & Manufacturing
+
+https://www.autodesk.com/autodesk-university/product-design-manufacturing
+
+Civil Infrastructure
+
+https://www.autodesk.com/autodesk-university/civil-infrastructure
+
+Media & Entertainment
+
+https://www.autodesk.com/autodesk-university/media-entertainment
+
+AutoCAD & General Design
+
+https://www.autodesk.com/autodesk-university/autocad-general-design
+
+Autodesk Platform Services
+
+https://www.autodesk.com/autodesk-university/aps
+
+Autodesk
+
+About
+
+https://www.autodesk.com/company
+
+Careers
+
+https://www.autodesk.com/careers
+
+Free product trials
+
+https://www.autodesk.com/store-footer-help-download?mktvar004=ilt_wwm_amer_us_nc__Footer_ShoppingWithUs_DLSoftware#download-info
+
+Buy products online
+
+https://www.autodesk.com/buy-online
+
+Support & learning
+
+https://knowledge.autodesk.com/
+
+Newsroom
+
+https://adsknews.autodesk.com/en/
+
+Follow Us
+
+LinkedIn
+
+https://www.linkedin.com/showcase/autodesk-university/
+
+X
+
+https://x.com/AutodeskU
+
+Facebook
+
+https://www.facebook.com/AutodeskUniversity
+
+Instagram
+
+https://instagram.com/autodeskuniversity/
+
+YouTube
+
+https://www.youtube.com/user/AutodeskUniversity
+
+Blog
+
+https://www.autodesk.com/autodesk-university/blog
+
+Email
+
+mailto:au.info@autodeskuniversity.com
+
+© Copyright 2026 Autodesk, Inc. All rights reserved. 
+
+Legal Notices & Trademarks
+
+https://www.autodesk.com/company/legal-notices-trademarks
+
+ | 
+
+Privacy
+
+https://www.autodesk.com/company/legal-notices-trademarks/privacy-statement
+
+Privacy Settings
+
+javascript:;
+
+ | 
+
+Do not sell or share my personal information
+
+https://www.autodesk.com/company/legal-notices-trademarks/ccpa-do-not-sell
+
+ 
+
+Cookie preferences
+
+Your privacy is important to us and so is an optimal experience. To help us customize information and build applications, we collect data about your use of this site.
+
+May we collect and use your data?
+
+Learn more about the 
+
+Third Party Services
+
+https://www.autodesk.com/autodesk-university/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025
+
+ we use and our 
+
+Privacy Statement
+
+https://www.autodesk.com/autodesk-university/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025
+
+.
+
+YES TO ALL NO TO ALL
+
+Strictly necessary – required for our site to work and to provide services to you
+
+These cookies allow us to record your preferences or login information, respond to your requests or fulfill items in your shopping cart.
+
+ 
+
+[x]
+
+YES
+
+Improve your experience – allows us to show you what is relevant to you
+
+These cookies enable us to provide enhanced functionality and personalization. They may be set by us or by third party providers whose services we use to deliver information and experiences tailored to you. If you do not allow these cookies, some or all of these services may not be available for you.
+
+ 
+
+[x]
+
+YES
+
+ 
+
+[-]
+
+NO
+
+Customize your advertising – permits us to offer targeted advertising to you
+
+These cookies collect data about you based on your activities and interests in order to show you relevant ads and to track effectiveness. By collecting this data, the ads you see will be more tailored to your interests. If you do not allow these cookies, you will experience less targeted advertising.
+
+ 
+
+[x]
+
+YES
+
+ 
+
+[-]
+
+NO
+
+CONTINUE TO SITE
+
+To change your settings later, click Privacy Settings at the bottom of any page.
+
+ 
+
+THIRD PARTY SERVICES
+
+Learn more about the Third-Party Services we use in each category, and how we use the data we collect from you online.
+
+Strictly necessary – required for our site to work and to provide services to you
+
+Qualtrics
+
+W
+
+Akamai mPulse
+
+W
+
+Digital River
+
+W
+
+Dynatrace
+
+W
+
+Khoros
+
+W
+
+Launch Darkly
+
+W
+
+New Relic
+
+W
+
+Salesforce Live Agent
+
+W
+
+Wistia
+
+W
+
+Tealium
+
+W
+
+Upsellit
+
+W
+
+CJ Affiliates
+
+W
+
+Commission Factory
+
+W
+
+Google Analytics (Strictly Necessary)
+
+W
+
+Typepad Stats
+
+W
+
+Geo Targetly
+
+W
+
+SpeedCurve
+
+W
+
+Qualified
+
+Improve your experience – allows us to show you what is relevant to you
+
+Google Optimize
+
+W
+
+ClickTale
+
+W
+
+OneSignal
+
+W
+
+Optimizely
+
+W
+
+Amplitude
+
+W
+
+Snowplow
+
+W
+
+UserVoice
+
+W
+
+Clearbit
+
+YouTube
+
+Customize your advertising – permits us to offer targeted advertising to you
+
+Adobe Analytics
+
+W
+
+Google Analytics (Web Analytics)
+
+W
+
+AdWords
+
+W
+
+Marketo
+
+W
+
+Doubleclick
+
+W
+
+HubSpot
+
+W
+
+Twitter
+
+W
+
+Facebook
+
+W
+
+LinkedIn
+
+W
+
+Yahoo! Japan
+
+W
+
+Naver
+
+W
+
+Quantcast
+
+W
+
+Call Tracking
+
+W
+
+Wunderkind
+
+W
+
+ADC Media
+
+W
+
+AgrantSEM
+
+W
+
+Bidtellect
+
+W
+
+Bing
+
+W
+
+G2Crowd
+
+W
+
+NMPI Display
+
+W
+
+VK
+
+W
+
+Adobe Target
+
+W
+
+Google Analytics (Advertising)
+
+W
+
+Trendkite
+
+W
+
+Hotjar
+
+W
+
+6 Sense
+
+W
+
+Terminus
+
+W
+
+StackAdapt
+
+W
+
+The Trade Desk
+
+W
+
+RollWorks
+
+W
+
+Are you sure you want a less customized experience?
+
+We can access your data only if you select "yes" for the categories on the previous screen. This lets us tailor our marketing so that it's more relevant for you. You can change your settings at any time by visiting our 
+
+privacy statement
+
+https://www.autodesk.com/autodesk-university/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025
+
+Review settings
+
+CONTINUE TO SITE
+
+ 
+
+Your experience. Your choice.
+
+We care about your privacy. The data we collect helps us understand how you use our products, what information you might be interested in, and what we can improve to make your engagement with Autodesk more rewarding.
+
+May we collect and use your data to tailor your experience?
+
+Explore the benefits of a customized experience by managing your 
+
+privacy settings
+
+https://www.autodesk.com/autodesk-university/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025
+
+ for this site or visit our 
+
+Privacy Statement
+
+https://www.autodesk.com/autodesk-university/class/Beyond-Additive-Bringing-Generative-Design-to-the-Machine-Shop-2025
+
+ to learn more about your options.
+
+YES Decline
+
+ 

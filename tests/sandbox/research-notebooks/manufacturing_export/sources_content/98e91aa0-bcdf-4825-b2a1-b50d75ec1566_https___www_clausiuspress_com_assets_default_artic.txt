@@ -1,0 +1,513 @@
+Case Analysis in AI Practice Courses: A Comparative 
+
+Study of Tool Wear Prediction Methods 
+
+Chunhua Feng1,a,*, Hui Ye1,b 
+
+1School of Mechanical Engineering, University of Shanghai for Science and Technology, Shanghai, 
+
+200093, China afengchunhua333@163.com, b13764729736@163.com 
+
+*Corresponding author 
+
+Keywords: AI, Tool Wear Prediction, CNN-LSTM 
+
+Abstract: Artificial intelligence is anticipated to play a crucial role in shaping the future of 
+
+education and academic research. Using a mechanical testing course as a case study, this 
+
+paper illustrates how AI can be effectively integrated into engineering education by 
+
+examining various AI methodologies through the application of tool wear prediction. In 
+
+predictive modelling, commonly used intelligent algorithms mainly come from traditional 
+
+machine learning techniques, such as support vector machines (SVM) and random forests, 
+
+as well as deep learning methods like long short-term memory (LSTM) and gated recurrent 
+
+units (GRU). Traditional models generally rely on manual feature extraction, which provides 
+
+a degree of interpretability but often falls short in capturing the dynamic characteristics of 
+
+time-series data. This study assesses the performance of several deep learning algorithms in 
+
+predicting tool wear. The CNN-LSTM hybrid model consistently outperformed other models 
+
+across all evaluation metrics. Specifically, compared to the GRU model, it reduced RMSE 
+
+by 42.07% and MAE by 52.06%, while improving R² by 4.43%. When compared to the 
+
+standalone LSTM model, the CNN-LSTM model achieved a 17.72% reduction in RMSE 
+
+and a 42.25% decrease in MAE, along with a 2.97% increase in R². These results indicate 
+
+that the CNN-LSTM architecture successfully combines CNN’s proficiency in automatic 
+
+local feature extraction with LSTM’s capacity to model long-term temporal dependencies, 
+
+thereby providing a highly effective and accurate method for tool wear prediction. 
+
+1. Introduction 
+
+At present, AI technology has been extensively integrated into higher education teaching. However, 
+
+effectively enabling students to grasp the industrial applications of AI technology remains an urgent 
+
+challenge. This paper addresses this issue by using the cutting tool—a key component that is highly 
+
+susceptible to wear during machining—as a case study to illustrate the integration of AI into both 
+
+production and education. The condition of the cutting tool directly influences machining quality, 
+
+efficiency, and cost. Particularly when machining difficult-to-cut materials, tool wear accelerates 
+
+significantly. Severe wear can lead to a sharp increase in cutting forces, vibration, and temperature, 
+
+which compromises machining accuracy and surface quality, and may even result in part rejection or 
+
+equipment damage [1]. A conservative tool change strategy typically leads to a relatively low 
+
+Journal of Artificial Intelligence Practice (2025) Clausius Scientific Press, Canada 
+
+DOI: 10.23977/jaip.2025.080315 ISSN 2371-8412 Vol. 8 Num. 3 
+
+120
+
+utilization rate of tool life, ranging from 50% to 80% [2], and increase the downtime (accounting for 
+
+more than 20%) [3]. Implementing tool condition monitoring and wear prediction enables timely tool 
+
+replacement, thereby enhancing processing efficiency and maintaining product quality. Research 
+
+indicates that the adoption of a tool condition monitoring system can reduce production costs by 10% 
+
+to 40% [4]. Consequently, achieving accurate prediction of tool wear is of considerable engineering 
+
+significance for improving both production efficiency and product quality. 
+
+Traditionally, tool wear prediction has mainly relied on manual evaluation by experienced 
+
+personnel, which often falls short in ensuring high precision. With recent technological advancements, 
+
+data-driven approaches have gained increasing prominence. However, two major challenges persist 
+
+in real-world applications. First, feature extraction is typically based on manually designed features 
+
+and domain expertise, making the process time-consuming and susceptible to subjectivity. These 
+
+manually derived features are often generic indicators that fail to effectively capture the underlying 
+
+dynamic patterns of tool wear progression, thereby limiting the model's generalization capability. 
+
+Second, tool wear is inherently a temporal process influenced by historical operational conditions. 
+
+Many conventional shallow machine learning methods or feedforward neural networks struggle to 
+
+model long-term temporal dependencies, which compromises the accuracy and reliability of wear 
+
+prediction. 
+
+To address the aforementioned challenges, this paper proposes an intelligent tool wear monitoring 
+
+method based on the CNN-LSTM algorithm. This method directly acquires the original time-series 
+
+signals generated during machining through multiple sensors. A one-dimensional convolutional 
+
+neural network (CNN) is then employed to automatically extract deep features from these signals, 
+
+eliminating the need for the labor-intensive process of traditional manual feature extraction. The 
+
+resulting feature sequences are subsequently fed into a long short-term memory network (LSTM), 
+
+which captures the temporal dependencies inherent in the tool wear process. Finally, a fully connected 
+
+layer is utilized to achieve precise prediction of the tool wear amount. By integrating the feature 
+
+extraction capability of CNN with the temporal modeling strength of LSTM, the proposed method 
+
+constructs an end-to-end intelligent monitoring framework that significantly enhances both prediction 
+
+accuracy and model robustness. 
+
+2. Intelligent Algorithm for Predicting Tool Wear 
+
+2.1 Comparison of the Advantages and Disadvantages of Prediction Algorithms 
+
+In research on tool wear prediction, the intelligent algorithms employed can generally be 
+
+categorized into two main types: traditional machine learning methods and deep learning approaches. 
+
+These categories differ significantly in terms of feature processing, model capabilities, and the 
+
+scenarios in which they are most effectively applied. 
+
+Conventional machine learning approaches, including Support Vector Machines (SVM), Random 
+
+Forests, and Gradient Boosting Trees (such as XGBoost and LightGBM), are largely dependent on 
+
+the precision of manually engineered features. These methods offer several benefits, such as a 
+
+straightforward model architecture, efficient training processes, strong generalization capabilities 
+
+even when data samples are scarce, and a high degree of interpretability. For instance, decision tree-
+
+based models can generate rankings of feature importance, offering insights into how various sensor 
+
+features influence the assessment of wear conditions. Nevertheless, these techniques often fall short 
+
+in capturing complex temporal dynamics and long-term dependencies inherent in the cutting process, 
+
+and their effectiveness is closely tied to the quality of selected features. 
+
+In contrast, deep learning approaches can automatically extract distinguishing features directly 
+
+from raw sensor data, thereby significantly reducing the need for manual feature engineering. Notably, 
+
+the LSTM network and the Gated Recurrent Unit (GRU) have become widely used for tool wear 
+
+121
+
+prediction due to their strong capability in modeling temporal dependencies. These architectures are 
+
+particularly effective in processing long sequential data, such as vibration and cutting force signals. 
+
+However, deep learning models generally require a large amount of labeled training data, involve 
+
+high computational costs, demand extensive training time, and pose challenges in hyperparameter 
+
+tuning. 
+
+In summary, traditional machine learning approaches are more appropriate for scenarios 
+
+characterized by limited data availability, low feature dimensionality, and a high demand for model 
+
+interpretability. In contrast, deep learning techniques demonstrate superior performance in processing 
+
+large-volume, high-dimensional time series data. With sufficient computational resources, these 
+
+methods can achieve more accurate forecasting results. 
+
+2.2 The Algorithm Execution Process 
+
+This paper proposes a tool wear monitoring method based on a CNN-LSTM architecture. 
+
+Flowchart of intelligent tool wear monitoring based on CNN-LSTM is shown in Fig. 1. Original 
+
+processing signals are collected through multiple sensors, and CNN is utilized to automatically extract 
+
+relevant features. Subsequently, LSTM is applied to model the temporal dependencies within the 
+
+extracted features, thereby enabling accurate prediction of the tool wear amount. By integrating the 
+
+feature extraction capability of CNN with the temporal modeling strength of LSTM, this end-to-end 
+
+framework significantly enhances both prediction accuracy and robustness. 
+
+ 
+
+Fig.1 Flowchart of Intelligent Tool Wear Monitoring Method Based on CNN-LSTM. 
+
+2.3 CNN-LSTM Methodology 
+
+In this study, the data was obtained from a dataset provided during a data competition hosted by 
+
+the PHM Society in 2010. The dataset was collected using a multi-sensor system that captured high-
+
+frequency raw signals throughout the milling process, with an initial sampling rate of up to 50 kHz. 
+
+To improve the accuracy and reliability of the subsequent analysis, a systematic preprocessing 
+
+procedure was implemented. First, unstable signal segments at the beginning and end of the cutting 
+
+process were identified and removed using the upper quartile (Q3) threshold, ensuring that only high-
+
+quality signal segments under stable cutting conditions were retained, as shown in Fig. 2. 
+
+Subsequently, to strike a balance between data volume and signal fidelity, the dataset was 
+
+downsampled at a ratio of 1:10, reducing the sampling rate to 5 kHz. This downsampling step 
+
+significantly reduced storage and computational requirements while preserving the essential 
+
+1.Multi-source signal acquisition and 
+
+preprocessing 
+
+Multi-sensor 
+
+signal data 
+
+acquisition 
+
+Multi-sensor 
+
+signal data 
+
+preprocessing 
+
+2. Automated deep feature extraction based on 
+
+1D-CNN 
+
+​​One-dimensional 
+
+convolution 
+
+operation（CNN） 
+
+​​Feature mapping and 
+
+compression 
+
+4. Tool wear prediction and evaluation 
+
+Fully connected 
+
+layer regression 
+
+prediction 
+
+Prediction result 
+
+evaluation 
+
+3. Temporal dependency modeling and sequence 
+
+transmission 
+
+Feature sequence input 
+
+to LSTM network 
+
+​​Hidden state 
+
+transmission and 
+
+updating ​ 
+
+122
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAz7uLfT1w2JbQBf_eJfBYf8RQs6kfQ9h1gSyocmlFdyqWT-Wk4vDRKZRSjL_blanURBzuKpu2RsHqBHVtbEoauVirm7x6z8hardeukf3Jq5Mxct1WRkWfvGsvK_TIZGAvMxeBDudA=w839-h271-v0
+
+53bc45e7-6029-4f2f-bcdf-ca36fc4d142b
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzVoj3VePcMPO__EkjVUxyZZnMxOH6Sv-duLUl13MG1pvM4r7YvuII4TUScyD-7F71bKUq-gyudymaUZGRbk2ixrK1ygQSWN5nqLIZbB0rIff5RyTl1OnMEGXgkztFUpkPFmmoxrA=w993-h508-v0
+
+26b0c910-ce02-4ee8-8e9c-bea143aeccd2
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxe4ShnSlGIgxTBOZ5eq_LuDXWqD14-zY9NwFL55KYdHWf-hD3wh2-ATj55_WNCGewkKTdp4pkMjNb1nlIUpjc54X5yIDz0zE-jw0O4U-xP7YhOgnmpHw7zAqhYwyj340vCw-hCBg=w1280-h353-v0
+
+eb1c9b20-c325-4c42-bf24-b2d562304dd4
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAy1WcgzJj566RBTJEVCwyY5N-oEYDfRE81z9E8EWiHiPzM6Yantc5NXYU3OmhRr4u4dMUdiVuxA488cj12xDf6ONl1sCYtoWrLsunC0dN4VchaCsqol9ztWzSMex8DGhtaROjNsvg=w1280-h352-v0
+
+c552b43f-ffd9-4522-9434-9d579fe2d46f
+
+characteristics of the original signals. 
+
+ 
+
+Fig.2 Before and after eliminating invalid data 
+
+To further enhance data quality, this study employed the Hampel filter to handle signal outliers. 
+
+Any data point exceeding a threshold defined as three times the standard deviation was replaced with 
+
+the mean value computed from a sliding window containing 1,000 adjacent points. This method 
+
+effectively eliminated impulse noise and anomalous disturbances in the cutting signal, as shown in 
+
+Fig. 3. Furthermore, wavelet packet decomposition was applied for additional noise reduction. The 
+
+signal was decomposed into eight levels using the "db8" wavelet basis function, and the soft threshold 
+
+was adaptively determined based on the median absolute deviation (MAD) criterion. This facilitated 
+
+the precise identification and suppression of noise components. The denoised signal was subsequently 
+
+reconstructed, as depicted in Fig. 4. This multi-stage preprocessing approach significantly improved 
+
+signal quality, thereby establishing a robust foundation for subsequent tool wear monitoring and 
+
+predictive modeling. 
+
+ 
+
+Fig.3 The comparison before and after removing the intermediate abnormal data 
+
+ 
+
+Fig.4 Schematic diagrams of raw data and denoised data 
+
+123
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxCXcfFmvh_9T8jD62GUss5PHpJTHNtlOlFaUcyGkyZf571AEQlZ6NcIsYBMzDPCeHK-WeQVE2_jeRNl2Nf0TWW6gtYzo3XWm5p3ceKkYTkhtCJtlYMiep3Qm9ptzXMkgndcOmhcw=w839-h258-v0
+
+2a91bd1d-aa8f-4d42-ae18-7c416b0a682b
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAyNRW4uAhAzSU3r6QDT2j3kPwbkbibJLSPboDgKHxLRDakbSJxrdfqHm_ZVzex6CQcYMIcAulkUhGg_GVGVd8XVapwjAF94RczfUtD1FzGREj3VwpWFwaS98Wu39MCtiOBY2lKD-Q=w839-h170-v0
+
+70fbf8f7-987c-43b6-8d98-dc487d143aea
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxrvDd0oFcY-3MEccOg0oPYmyjzkPaaOQzwx76FEndmhlUpKVTUtpitJUHOPzwAbbN3wOyERzU3xCqqkRiu-o12q0qL3WFNjZCAy03LO5MdUkGb8OaFrFFKTsdvcsmDb3sQUqYjsA=w839-h169-v0
+
+412ad9f6-774c-4c92-9bea-188498a333cd
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzWxM9SUNv6I0TD2hgVHjqIEUw_t8MJvLSnzlZdw90tSurdKzGRzpOYBly9DRlDXEMHluDIN3lZP6psA2Y0QrbTe2p9Ilu1bJGr-qj1HUWqW9HP3FLcmzIqMD_9igiGcWe5HRiOrw=w730-h565-v0
+
+566ff68a-2de1-45aa-b5c4-609832ad71b7
+
+The preprocessed high-quality sensing signals are fed into a deeply integrated CNN–LSTM 
+
+network architecture to enable end-to-end accurate prediction of tool wear. This process primarily 
+
+involves two core stages: 
+
+Initially, a one-dimensional convolutional neural network (1D-CNN) is employed to automatically 
+
+extract in-depth features. The preprocessed time series signal is fed into the convolutional layer, 
+
+where multiple one-dimensional convolutional kernels slide across the signal, detecting and 
+
+identifying salient features and underlying patterns within the local waveform. This process 
+
+effectively replaces traditional, expert-driven manual feature engineering. Subsequently, the pooling 
+
+layer is applied to reduce the dimensionality of the feature maps generated by the convolution. While 
+
+preserving the most critical feature information, this step also reduces the data size and enhances the 
+
+spatial invariance of the extracted features. 
+
+Subsequently, the feature sequence extracted by the Convolutional Neural Network (CNN) is fed 
+
+into the LSTM to model its temporal dependencies. Leveraging its unique gating mechanism, the 
+
+LSTM unit effectively captures long-term dependencies in the feature sequence over time and retains 
+
+key state transitions during the tool wear process. The network processes the input sequentially 
+
+through time steps, continuously updating and propagating the hidden state, ultimately producing an 
+
+output that encapsulates the temporal dynamic information of the entire sequence. This output is then 
+
+mapped to the predicted tool wear value via a fully connected layer. By integrating CNN's capability 
+
+in automatic feature extraction with LSTM's strength in modeling long-term sequential dependencies, 
+
+the hybrid CNN-LSTM model significantly enhances the accuracy and robustness of tool wear 
+
+prediction. As illustrated in Figure 5, the CNN-LSTM model's predictions closely follow the true 
+
+values, demonstrating strong tracking performance. 
+
+To comprehensively verify the actual performance of the proposed model, this paper 
+
+systematically conducts comparative experiments between the CNN-LSTM model, the GRU model, 
+
+and the LSTM model. To more objectively evaluate the prediction capabilities of each model, this 
+
+paper selects the Root Mean Square Error (RMSE) and Mean Absolute Error (MAE) as the main 
+
+evaluation indicators, which are used to quantify the deviation between the model prediction results 
+
+and the actual wear values. From the quantitative analysis results shown in Table 1, it can be seen that 
+
+the CNN-LSTM model outperforms other comparison models in the three key indicators of MAE, 
+
+RMSE, and R². The coincidence degree between its prediction results and the true measured values 
+
+is higher, which fully indicates that the model performs outstandingly in the tool wear prediction task 
+
+and has significant performance advantages. 
+
+ 
+
+Fig.5 The prediction results of the CNN-LSTM model 
+
+124
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwhB3mD7hGRxd2wRJdP8RhQGXCGRgPhs_9hleXsk_8oGKCSB9xsI4qEj1s2rF33BYdwFD5WDyXp-ZQwK505_ynXeizm2Agkg8e-fs3O5-I3G0-Ra0XAwMmH8yUGXLSzV0y9G6phZw=w839-h283-v0
+
+0fdc6e44-47b3-4e9d-aef5-792a39ca9389
+
+Table 1 Comparison of prediction results of different data-driven models 
+
+Schemes RMSE MAE R2 
+
+GRU 8.0954 5.0882 0.9128 
+
+LSTM 5.7010 4.2232 0.9257 
+
+CNN-LSTM 4.6909 2.4390 0.9532 
+
+3. Conclusion 
+
+This study employs the CNN-LSTM algorithm for intelligent monitoring of tool wear states. By 
+
+collecting raw time series data from various sensors—including vibration, cutting force, and acoustic 
+
+emission—a one-dimensional CNN is utilized to automatically extract key features, thereby 
+
+eliminating the complex and time-consuming manual feature extraction process typical of traditional 
+
+methods. The proposed model first leverages CNN to capture spatial features within the sensor signals, 
+
+followed by the application of a LSTM to model temporal dependencies in the time series, enabling 
+
+accurate characterization of tool wear trends. Experimental results demonstrate that the method 
+
+significantly outperforms traditional machine learning models in tool wear prediction, with a 
+
+maximum reduction in MAE of nearly 80%. These findings further validate the feasibility and 
+
+superiority of end-to-end deep learning approaches in tool condition monitoring, offering robust 
+
+technical support for predictive maintenance in intelligent manufacturing systems. 
+
+The application of AI technology in future tool wear prediction offers several key advantages. First, 
+
+in terms of model lightweighting and structural optimization, improvements in network architecture 
+
+and the adoption of more efficient convolutional and recurrent units can enhance generalization 
+
+ability and computational efficiency under complex working conditions. Second, regarding multi-
+
+modal sensing fusion, a deep fusion framework can be developed to integrate various signals—such 
+
+as vibration and acoustic emission—for end-to-end joint feature extraction and wear state prediction. 
+
+Finally, in terms of system integration and application promotion, combining embedded deployment 
+
+with transfer learning techniques enables the extension of this method to diverse processing scenarios 
+
+and equipment health management systems, thereby promoting the integrated innovation of 
+
+perception and decision-making systems in intelligent manufacturing.  
+
+Acknowledgements 
+
+This research is funded by the Ministry of Education industry-university cooperative education 
+
+project No. 231104429231321. 
+
+References 
+
+[1] Li B. (2012). A review of tool wear estimation using theoretical analysis and numerical simulation technologies. 
+
+International Journal of Refractory Metals and Hard Materials, 35, 143-151. 
+
+[2] Li Y, Liu C, Hua J, Gao J, Maropoulos P. (2019). A novel method for accurately monitoring and predicting tool wear 
+
+under varying cutting conditions based on meta-learning. CIRP Annals, 68(1), 487-490. 
+
+[3] Ghosh S, Naskar SK, Mandal NK. (2018). Estimation of residual life of a cutting tool used in a machining process. 
+
+MATEC Web of Conferences (Vol. 192, p. 01017). EDP Sciences. 
+
+[4] Karandikar J, McLeay T, Turner S, Schmitz T. (2015). Tool wear monitoring using naive Bayes classifiers. The 
+
+International Journal of Advanced Manufacturing Technology, 77, 1613-1626. 
+
+125

@@ -1,0 +1,1387 @@
+Learning Actionable World Models for Industrial Process Control This work is supported by Innosuisse grant 62174.1 IP-ENG “DISTRAL”.
+
+ Back to arXiv
+
+https://arxiv.org/
+
+ 
+
+https://arxiv.org/abs/2503.01411v2
+
+ 
+
+javascript:toggleColorScheme()
+
+ Back to arXiv
+
+https://arxiv.org/
+
+This is 
+
+experimental HTML
+
+ to improve accessibility. We invite you to report rendering errors. Use Alt+Y to toggle on accessible reporting links and Alt+Shift+Y to toggle off. Learn more 
+
+about this project
+
+https://info.arxiv.org/about/accessible_HTML.html
+
+ and 
+
+help improve conversions
+
+https://info.arxiv.org/help/submit_latex_best_practices.html
+
+.
+
+Why HTML?
+
+https://info.arxiv.org/about/accessible_HTML.html
+
+ 
+
+Report Issue
+
+#myForm
+
+ 
+
+Back to Abstract
+
+https://arxiv.org/abs/2503.01411v2
+
+ 
+
+Download PDF
+
+https://arxiv.org/pdf/2503.01411v2
+
+ 
+
+javascript:toggleColorScheme()
+
+Table of Contents
+
+Abstract
+
+https://arxiv.org/html/2503.01411v2#abstract
+
+I Introduction
+
+https://arxiv.org/html/2503.01411v2#S1
+
+II Background and related work
+
+https://arxiv.org/html/2503.01411v2#S2
+
+III Methodology
+
+https://arxiv.org/html/2503.01411v2#S3
+
+IV Application to injection molding
+
+https://arxiv.org/html/2503.01411v2#S4
+
+IV-A Use case
+
+https://arxiv.org/html/2503.01411v2#S4.SS1
+
+IV-B Datasets
+
+https://arxiv.org/html/2503.01411v2#S4.SS2
+
+IV-C Training details
+
+https://arxiv.org/html/2503.01411v2#S4.SS3
+
+V Experimental setup and evaluation
+
+https://arxiv.org/html/2503.01411v2#S5
+
+V-A Experiments
+
+https://arxiv.org/html/2503.01411v2#S5.SS1
+
+V-B Quantitative evaluation
+
+https://arxiv.org/html/2503.01411v2#S5.SS2
+
+VI Results
+
+https://arxiv.org/html/2503.01411v2#S6
+
+VI-A Exploring the latent space
+
+https://arxiv.org/html/2503.01411v2#S6.SS1
+
+VI-B Action prediction
+
+https://arxiv.org/html/2503.01411v2#S6.SS2
+
+VII Conclusions
+
+https://arxiv.org/html/2503.01411v2#S7
+
+References
+
+https://arxiv.org/html/2503.01411v2#bib
+
+License: CC BY 4.0
+
+https://info.arxiv.org/help/license/index.html#licenses-available
+
+arXiv:2503.01411v2 [cs.LG] 22 Apr 2025
+
+Learning Actionable World Models for Industrial Process Control 
+
+†
+
+ 
+
+†
+
+ thanks: This work is supported by Innosuisse grant 62174.1 IP-ENG “DISTRAL”.
+
+Report issue for preceding element
+
+Peng Yan12,
+
+Ahmed Abdulkadir1,
+
+Gerrit A. Schatte3,
+
+Giulia Aguzzi3,
+
+Joonsu Gha2,
+
+Nikola Pascher1,
+
+Matthias Rosenthal1,
+
+Yunlong Gao5,
+
+Benjamin F. Grewe2, and
+
+Thilo Stadelmann126 {yanp,abdk,pash,rosn,stdm}@zhaw.ch, {giulia.aguzzi,gerrit.schatte}@kistler.com, gaoyl@xmu.edu.cn, {joogha,bgrewe}@ethz.ch 1School of Engineering, Zurich University of Applied Sciences, Winterthur, Switzerland 2Institute of Neuroinformatics, ETH Zurich & University of Zurich, Zurich, Switzerland 3Kistler Instrumente AG, Winterthur, Switzerland 5Pen-Tung Sah Institute of Micro-Nano Science and Technology, Xiamen University, Xiamen, China 6Fellow, ECLT (European Centre for Living Technology, Venice, Italy) and Senior Member, IEEE
+
+Report issue for preceding element
+
+Abstract
+
+Report issue for preceding element
+
+To go from (passive) process monitoring to active process control, an effective AI system must learn about the behavior of the complex system from very limited training data, forming an ad-hoc “digital twin” with respect to process inputs and outputs that captures the consequences of actions on the process's “world”. We propose a novel methodology based on learning world models that disentangles process parameters in the learned latent representation, allowing for fine-grained control. Representation learning is driven by the latent factors influencing the processes through contrastive learning within a joint embedding predictive architecture. This makes changes in representations predictable from changes in inputs and vice versa, facilitating interpretability of key factors responsible for process variations, paving the way for effective control actions to keep the process within operational bounds. The effectiveness of our method is validated on the example of plastic injection molding, demonstrating practical relevance in proposing specific control actions for a notoriously unstable process.
+
+Report issue for preceding element
+
+Index Terms:
+
+Report issue for preceding element JEPA, contrastive learning, disentangled representations
+
+I Introduction
+
+Report issue for preceding element
+
+ 
+
+Figure 1: Overview of world model training and application for process control. 
+
+Top
+
+: World model training using recorded process signal pairs ( 𝒙 , 𝒚 𝒙 𝒚 \boldsymbol{x},\boldsymbol{y} bold_italic_x , bold_italic_y ) that have been generated in the same environment (world) but with changed control parameters (actions) 𝒂 = a 1 , … , a n 𝒂 subscript 𝑎 1 … subscript 𝑎 𝑛 \boldsymbol{a}=a_{1},...,a_{n} bold_italic_a = italic_a start_POSTSUBSCRIPT 1 end_POSTSUBSCRIPT , … , italic_a start_POSTSUBSCRIPT italic_n end_POSTSUBSCRIPT . The encoder ( E  n  c 𝐸 𝑛 𝑐 Enc italic_E italic_n italic_c ) generates latent representations ( 𝒛 𝒙 , 𝒛 𝒚 subscript 𝒛 𝒙 subscript 𝒛 𝒚 \boldsymbol{z_{x}},\boldsymbol{z_{y}} bold_italic_z start_POSTSUBSCRIPT bold_italic_x end_POSTSUBSCRIPT , bold_italic_z start_POSTSUBSCRIPT bold_italic_y end_POSTSUBSCRIPT ) used for predicting the actions 𝒂 ^ ^ 𝒂 \hat{\boldsymbol{a}} over^ start_ARG bold_italic_a end_ARG through the action prediction module ( P a subscript 𝑃 𝑎 P_{a} italic_P start_POSTSUBSCRIPT italic_a end_POSTSUBSCRIPT ). The latent predictive module ( P z subscript 𝑃 𝑧 P_{z} italic_P start_POSTSUBSCRIPT italic_z end_POSTSUBSCRIPT ) guides the learning of the latent representation by incorporating actions, ensuring the representations 𝒛 x subscript 𝒛 𝑥 \boldsymbol{z}
+
+{x} bold_italic_z start_POSTSUBSCRIPT italic_x end_POSTSUBSCRIPT and 𝒛 y subscript 𝒛 𝑦 \boldsymbol{z}
+
+{y} bold_italic_z start_POSTSUBSCRIPT italic_y end_POSTSUBSCRIPT align with the process's operational dynamics for more accurate and interpretable predictions. Detailed modeling and training is discussed in Sec. 
+
+III
+
+https://arxiv.org/html/2503.01411v2#S3
+
+. 
+
+Bottom
+
+: Application of the trained world model in real-time process control where the model predicts actions based on a reference process signal plus an observed process signal to maintain stability despite changing external conditions or influences. Report issue for preceding element
+
+Automatic process monitoring plays a central role in maintaining repeatable and stable processes with high-quality products in industrial processes [ 
+
+1
+
+https://arxiv.org/html/2503.01411v2#bib.bib1
+
+] . Commonly, the monitoring task is formulated as an anomaly detection task, as it is a priori unknown how exactly a process may deviate from normal operations [ 
+
+2
+
+https://arxiv.org/html/2503.01411v2#bib.bib2
+
+] . To then bring it back to its intended operational step once an anomaly is detected, it is necessary to identify and remove the cause of any detected anomaly. Existing approaches focus on anomaly detection [ 
+
+3
+
+https://arxiv.org/html/2503.01411v2#bib.bib3
+
+] and lack interpretability, making it difficult to identify the underlying root causes. One reason is that real-world monitored processes—such as plastic injection molding or air condition flow—often lack an analytical or simulation model of the relationship between measured process signals and control parameters (actions: physical signals, such as mold temperature adjustments, directly applied to the system, e.g., an injection molding machine, to regulate its behavior). This complicates root cause analysis for control despite reliable algorithms for anomaly detection. Thus, understanding relations between process signals and actions is crucial to transition from passive monitoring to active control.
+
+Report issue for preceding element
+
+Machine learning (ML) systems have shown large potential to predict process signal drifts or disturbances before they impact operations, potentially replacing conventional controller blocks by directly interpreting sensor values as process feedback [ 
+
+4
+
+https://arxiv.org/html/2503.01411v2#bib.bib4
+
+] . To become fully effective for process 
+
+control
+
+ in complex, dynamic processes, 
+
+world models
+
+ appear as a promising solution. Having become a branch of ML research with notable progress in recent years [ 
+
+5
+
+https://arxiv.org/html/2503.01411v2#bib.bib5
+
+, 
+
+6
+
+https://arxiv.org/html/2503.01411v2#bib.bib6
+
+, 
+
+7
+
+https://arxiv.org/html/2503.01411v2#bib.bib7
+
+] , they are typically referred to as a learned representation of the physical world, capable of predicting the consequences of various actions on the world's state [ 
+
+8
+
+https://arxiv.org/html/2503.01411v2#bib.bib8
+
+] . While many world models are built as generative models of specific environments (“world” referring to any relevant part of the environment) to serve as simulations for AI agent training (such as [ 
+
+5
+
+https://arxiv.org/html/2503.01411v2#bib.bib5
+
+, 
+
+7
+
+https://arxiv.org/html/2503.01411v2#bib.bib7
+
+] ), we are concerned here with 
+
+actionable
+
+ world models that learn consequence-aware representations of world states (process signals, e.g., time-series data) and directly output control actions (e.g., scalars).
+
+Report issue for preceding element
+
+The integration of such world models into process monitoring and control systems presents a significant opportunity to advance intelligent, adaptive, and highly efficient industrial operations. Fig. 
+
+1
+
+https://arxiv.org/html/2503.01411v2#S1.F1
+
+ illustrates our proposed approach for process control, where the world model is trained on recorded process signal pairs and their control parameters and can later be applied to a running process to bring it back to normal operation if it deviates from a reference signal. This approach enables real-time adjustments to control parameters based on incoming process signals, ensuring stability and consistency in the presence of anomalies such as noise or disturbances. That the world model's training integrates actions and states enriches the system's grasp of complex dynamics, enabling robust performance across varying operational conditions.
+
+Report issue for preceding element
+
+In this paper, we introduce a novel world model for process control, inspired by joint embedding predictive architectures (JEPAs) and contrastive learning [ 
+
+6
+
+https://arxiv.org/html/2503.01411v2#bib.bib6
+
+, 
+
+9
+
+https://arxiv.org/html/2503.01411v2#bib.bib9
+
+] . Our world model makes use of recorded process signals and corresponding actions to learn an action-aware latent representation, facilitating disentangled action prediction in the presence of many possible control parameter adjustments. Experimental results on a real-world use case from plastic injection molding control demonstrate that our world model achieves its goals with high sample efficiency (limited industrial data of only 80 samples). Our main contributions are: (a) a world model for process control, based on a novel architecture, inspired by the JEPA framework and contrastive learning, conditions the learned latent representation of the world's state on the difference in parameters evoking this state as compared to a reference state; (b) experimental validation on a real-world injection molding case, where the contrastive modeling of pressure curve pairs and corresponding machine parameters allows the model to better distinguish between subtle variations in the data, showing disentanglement for different actions in the embedding space for the first time as compared to the state of the art; (c) a novel evaluation scheme for the quality of disentanglement, based on angle and distance deviations between ground truth and predicted actions and showing the validity of our approach for real-world process control.
+
+Report issue for preceding element
+
+II Background and related work
+
+Report issue for preceding element
+
+Contrastive learning.
+
+ In this form of self-supervised learning (SSL) [ 
+
+10
+
+https://arxiv.org/html/2503.01411v2#bib.bib10
+
+] , a model is trained to bring the embeddings of a sample and a transformed version thereof close to each other, while non-corresponding samples are pushed away from each other. Early work includes Siamese networks [ 
+
+11
+
+https://arxiv.org/html/2503.01411v2#bib.bib11
+
+] . Contrastive methods have been introduced for time-series analysis, e.g., [ 
+
+12
+
+https://arxiv.org/html/2503.01411v2#bib.bib12
+
+, 
+
+13
+
+https://arxiv.org/html/2503.01411v2#bib.bib13
+
+] , including work that disentangles variant and invariant factors in a pair of observations [ 
+
+14
+
+https://arxiv.org/html/2503.01411v2#bib.bib14
+
+] .
+
+Report issue for preceding element
+
+Typically, contrastive learning relies heavily on large numbers of contrastive pairs, particularly negatives, to learn the decision boundaries [ 
+
+6
+
+https://arxiv.org/html/2503.01411v2#bib.bib6
+
+] . We take the intuition of contrastive learning by learning from process signal pairs, but inform them with the action information from the differences in the corresponding control parameters. This allows our model to better recognize and differentiate the nuanced effects of control parameters with respect to variations in the process signal. We further reduce the dependency on extensive contrastive pairs by leveraging action-aware embeddings.
+
+Report issue for preceding element
+
+Generative and world modeling.
+
+ Variational Auto-Encoders (VAEs) learn regularized low-dimensional latent representation by using a encoder-decoder architecture. Yan et al. adapt a convolutional VAE to learn a general representation of industrial time-series data, and add additional layers to predict corresponding control (machine) parameters [ 
+
+3
+
+https://arxiv.org/html/2503.01411v2#bib.bib3
+
+] . The model is good in detecting anomalies by identifying data drift. However, the learned representations cannot reliably disentangle the factors that affect the time-series. Our work aims to improve on this. Keurti et al. propose the homomorphism auto-encoder, equipped with a group representation acting on its latent space to learn internal representations of sensory information that are consistent with actions that modify it [ 
+
+15
+
+https://arxiv.org/html/2503.01411v2#bib.bib15
+
+] .
+
+Report issue for preceding element
+
+This actionable representation represents a form of world modeling. In general, world modeling approaches can be distinguished by the kind of representations they learn. Monolithic latent representations feature a single latent vector jointly representing both states and actions [ 
+
+5
+
+https://arxiv.org/html/2503.01411v2#bib.bib5
+
+, 
+
+16
+
+https://arxiv.org/html/2503.01411v2#bib.bib16
+
+, 
+
+17
+
+https://arxiv.org/html/2503.01411v2#bib.bib17
+
+, 
+
+18
+
+https://arxiv.org/html/2503.01411v2#bib.bib18
+
+, 
+
+19
+
+https://arxiv.org/html/2503.01411v2#bib.bib19
+
+] . Structured representations however can offer higher sample efficiency, out-of-distribution efficiency and interpretability. Among such approaches are those that allow compositionality with respect to spatial [ 
+
+20
+
+https://arxiv.org/html/2503.01411v2#bib.bib20
+
+] or temporal [ 
+
+21
+
+https://arxiv.org/html/2503.01411v2#bib.bib21
+
+] factors. Learning structured representations for action spaces is challenging due to the combinatorial nature of actions (one can, e.g., go 'up' and 'left' at the same time). Hence, world models often fall back on monolithic action space representations [ 
+
+22
+
+https://arxiv.org/html/2503.01411v2#bib.bib22
+
+, 
+
+23
+
+https://arxiv.org/html/2503.01411v2#bib.bib23
+
+] . We take this approach as well.
+
+Report issue for preceding element
+
+Joint embedding representation learning.
+
+ The quality of input reconstruction from a generative model does not necessarily correspond to the quality of the learned representations [ 
+
+24
+
+https://arxiv.org/html/2503.01411v2#bib.bib24
+
+] . JEPAs have emerged as a promising SSL approach for representation learning, offering an alternative to generative models: Instead of taking a loss in the reconstructed space, they predict and compute the loss in latent space, conditioned on actions. Recent self-supervised variants (I-JEPA [ 
+
+25
+
+https://arxiv.org/html/2503.01411v2#bib.bib25
+
+] and V-JEPA [ 
+
+26
+
+https://arxiv.org/html/2503.01411v2#bib.bib26
+
+] ) predict masked parts of the input, learning representations for computer vision tasks. We extend the JEPA framework by moving away from an implicit masking action ( 𝒙 → 𝒎  𝒂  𝒔  𝒌  𝒊  𝒏  𝒈 𝒚 𝒎 𝒂 𝒔 𝒌 𝒊 𝒏 𝒈 → 𝒙 𝒚 \boldsymbol{x}\xrightarrow{\boldsymbol{masking}}\boldsymbol{y} bold_italic_x start_ARROW start_OVERACCENT bold_italic_m bold_italic_a bold_italic_s bold_italic_k bold_italic_i bold_italic_n bold_italic_g end_OVERACCENT → end_ARROW bold_italic_y ) to explicitly providing arbitrary actions in a factored form ( 𝒙 → 𝒂 𝒚 𝒂 → 𝒙 𝒚 \boldsymbol{x}\xrightarrow{\boldsymbol{a}}\boldsymbol{y} bold_italic_x start_ARROW overbold_italic_a → end_ARROW bold_italic_y ), facilitating learning a rich latent representation of cause and effect economically. Thus, we extend the typical SSL framework by not being agnostic to external factors (like machine parameters).
+
+Report issue for preceding element
+
+Instead, our approach is 
+
+action-aware
+
+ self-supervised learning, combining the strengths of self-supervised feature extraction with task-specific guidance from actions (control parameters). Our world model uses them to directly guide representation learning, ensuring that the learned embeddings are actionable. This avoids the need for contrastive pairs or negative sampling strategies, reducing computational overhead and simplifying the training process. Control parameters (e.g. machine parameters in injection molding) provide explicit domain knowledge, making the representations interpretable and well-suited for process control.
+
+Report issue for preceding element
+
+Furthermore, the supervisory signal through action conditioning in our approach naturally prevents the collapse of the learned representations, eliminating the need for additional regularization techniques as otherwise common in SSL.
+
+Report issue for preceding element
+
+Disentangled representation learning for time-series.
+
+ Deep learning has been proposed to learn effective representations of the time-series data for downstream applications [ 
+
+27
+
+https://arxiv.org/html/2503.01411v2#bib.bib27
+
+, 
+
+28
+
+https://arxiv.org/html/2503.01411v2#bib.bib28
+
+, 
+
+12
+
+https://arxiv.org/html/2503.01411v2#bib.bib12
+
+, 
+
+29
+
+https://arxiv.org/html/2503.01411v2#bib.bib29
+
+] . To be useful for fine-grained process control, the learned representations must be disentangled: A low-dimensional latent representation 𝒛 = { z 1 , z 2 , … , z n } 𝒛 subscript 𝑧 1 subscript 𝑧 2 … subscript 𝑧 𝑛 \boldsymbol{z}={z_{1},z_{2},\ldots,z_{n}} bold_italic_z = { italic_z start_POSTSUBSCRIPT 1 end_POSTSUBSCRIPT , italic_z start_POSTSUBSCRIPT 2 end_POSTSUBSCRIPT , … , italic_z start_POSTSUBSCRIPT italic_n end_POSTSUBSCRIPT } is sought such that all pairs of latent variables in Z 𝑍 Z italic_Z are independent, i.e., the change of the sequential patterns in the input corresponding to variable z i subscript 𝑧 𝑖 z_{i} italic_z start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT is invariant to variable z j subscript 𝑧 𝑗 z_{j} italic_z start_POSTSUBSCRIPT italic_j end_POSTSUBSCRIPT , denoted as z i ⟂ ⟂ z j z_{i}\perp!!!\perp z_{j} italic_z start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT ⟂ ⟂ italic_z start_POSTSUBSCRIPT italic_j end_POSTSUBSCRIPT , ∀ i , j for-all 𝑖 𝑗 \forall i,j ∀ italic_i , italic_j , where i , j ∈ { 1 , 2 , … , n } 𝑖 𝑗 1 2 … 𝑛 i,j\in{1,2,\ldots,n} italic_i , italic_j ∈ { 1 , 2 , … , italic_n } and i ≠ j 𝑖 𝑗 i\neq j italic_i ≠ italic_j . The disentanglement can be extended to group disentanglement so that a group of latent variables is independent of other different groups. Most representation learning relies on unsupervised learning due to the label scarcity. However, unsupervised learning of disentangled representations is fundamentally impossible without inductive biases on both the models and the data [ 
+
+30
+
+https://arxiv.org/html/2503.01411v2#bib.bib30
+
+] . While interpretable semantic concepts often depend on the interaction of multiple factors rather than individual components, Li et al. argue that it is essential to interpret time-series data through a single latent representation in industrial applications [ 
+
+31
+
+https://arxiv.org/html/2503.01411v2#bib.bib31
+
+] . A disentangled representation can be decomposed into separate dimensions, where the change in each dimension reflects a distinctive change in the real world. Li et al. propose to learn interpretable time-series representations through encouraging high mutual information between the latent codes and the original time-series to achieve disentangled latent representations [ 
+
+31
+
+https://arxiv.org/html/2503.01411v2#bib.bib31
+
+] . Hamaguchi et al. [ 
+
+14
+
+https://arxiv.org/html/2503.01411v2#bib.bib14
+
+] use contrastive learning to learn common and specific features during representation learning. Then, only the common features are used for downstream tasks. In contrast, we address disentanglement through action-conditioned world modeling.
+
+Report issue for preceding element
+
+III Methodology
+
+Report issue for preceding element
+
+Given a dataset consisting of process signals (reference 𝒙 𝒙 \boldsymbol{x} bold_italic_x , observation 𝒚 𝒚 \boldsymbol{y} bold_italic_y ), and the corresponding actions 𝒂 = [ a 1 , a 2 , … , a n ] 𝒂 subscript 𝑎 1 subscript 𝑎 2 … subscript 𝑎 𝑛 \boldsymbol{a}=[a_{1},a_{2},...,a_{n}] bold_italic_a = [ italic_a start_POSTSUBSCRIPT 1 end_POSTSUBSCRIPT , italic_a start_POSTSUBSCRIPT 2 end_POSTSUBSCRIPT , … , italic_a start_POSTSUBSCRIPT italic_n end_POSTSUBSCRIPT ] , the objective of the modeling is to predict the action that is responsible for transforming the reference signal into the observed one. To achieve this, the machine must build a world model. We implement the world model using the deep learning architecture depicted in Fig. 
+
+2
+
+https://arxiv.org/html/2503.01411v2#S3.F2
+
+. The elements of the architecture are detailed below.
+
+Report issue for preceding element
+
+ 
+
+Figure 2: Proposed actionable world model architecture (general case; inputs for injection molding example shown, see Sec. 
+
+IV
+
+https://arxiv.org/html/2503.01411v2#S4
+
+). There are 3 3 3 3 main components in the model, encoder E  n  c 𝐸 𝑛 𝑐 Enc italic_E italic_n italic_c , latent predictor P z subscript 𝑃 𝑧 P_{z} italic_P start_POSTSUBSCRIPT italic_z end_POSTSUBSCRIPT , and action predictor P a subscript 𝑃 𝑎 P_{a} italic_P start_POSTSUBSCRIPT italic_a end_POSTSUBSCRIPT . Losses are taken in representation space and for the action prediction. Report issue for preceding element
+
+Encoder.
+
+ The two encoders with shared weights map the reference signal 𝒙 = ( x 1 , … , x n ) 𝒙 subscript 𝑥 1 … subscript 𝑥 𝑛 \boldsymbol{x}=(x_{1},\dots,x_{n}) bold_italic_x = ( italic_x start_POSTSUBSCRIPT 1 end_POSTSUBSCRIPT , … , italic_x start_POSTSUBSCRIPT italic_n end_POSTSUBSCRIPT ) and the observed signal 𝒚 = ( y 1 , … , y n ) 𝒚 subscript 𝑦 1 … subscript 𝑦 𝑛 \boldsymbol{y}=(y_{1},\dots,y_{n}) bold_italic_y = ( italic_y start_POSTSUBSCRIPT 1 end_POSTSUBSCRIPT , … , italic_y start_POSTSUBSCRIPT italic_n end_POSTSUBSCRIPT ) into latent representations 𝒛 𝒙 subscript 𝒛 𝒙 \boldsymbol{z_{x}} bold_italic_z start_POSTSUBSCRIPT bold_italic_x end_POSTSUBSCRIPT and 𝒛 𝒚 subscript 𝒛 𝒚 \boldsymbol{z_{y}} bold_italic_z start_POSTSUBSCRIPT bold_italic_y end_POSTSUBSCRIPT , respectively. 𝒛 𝒙 subscript 𝒛 𝒙 \boldsymbol{z_{x}} bold_italic_z start_POSTSUBSCRIPT bold_italic_x end_POSTSUBSCRIPT and 𝒛 𝒚 subscript 𝒛 𝒚 \boldsymbol{z_{y}} bold_italic_z start_POSTSUBSCRIPT bold_italic_y end_POSTSUBSCRIPT capture the essential features of the process signal and the process's dynamics.
+
+Report issue for preceding element
+
+Latent predictor.
+
+ The latent predictor P z subscript 𝑃 𝑧 P_{z} italic_P start_POSTSUBSCRIPT italic_z end_POSTSUBSCRIPT takes as input the concatenation of the latent representation 𝒛 𝒙 subscript 𝒛 𝒙 \boldsymbol{z_{x}} bold_italic_z start_POSTSUBSCRIPT bold_italic_x end_POSTSUBSCRIPT and the transformed action f  ( 𝒂 ) 𝑓 𝒂 f(\boldsymbol{a}) italic_f ( bold_italic_a ) . In our implementation, f  ( ⋅ ) 𝑓 ⋅ f(\cdot) italic_f ( ⋅ ) is simply the identity function.
+
+Report issue for preceding element
+
+P z subscript 𝑃 𝑧 P_{z} italic_P start_POSTSUBSCRIPT italic_z end_POSTSUBSCRIPT outputs 𝒛 ^ 𝒚 subscript bold-^ 𝒛 𝒚 \boldsymbol{\hat{z}
+
+{y}} overbold
+
+^ start_ARG bold_italic_z end_ARG start_POSTSUBSCRIPT bold_italic_y end_POSTSUBSCRIPT , the prediction of the representation 𝒛 𝒚 subscript 𝒛 𝒚 \boldsymbol{z_{y}} bold_italic_z start_POSTSUBSCRIPT bold_italic_y end_POSTSUBSCRIPT that follows from repeating the process (that led to 𝒙 𝒙 \boldsymbol{x} bold_italic_x ) after applying the change in control parameters ( 𝒂 𝒂 \boldsymbol{a} bold_italic_a ), modeling the transition between states caused by an action: 𝒙 → 𝒂 𝒚 𝒂 → 𝒙 𝒚 \boldsymbol{x}\xrightarrow{\boldsymbol{a}}\boldsymbol{y} bold_italic_x start_ARROW overbold_italic_a → end_ARROW bold_italic_y .
+
+Report issue for preceding element
+
+Action predictor.
+
+ The action predictor P a subscript 𝑃 𝑎 P_{a} italic_P start_POSTSUBSCRIPT italic_a end_POSTSUBSCRIPT takes the difference between the latent representations of the process signals ( 𝒛 𝒚 − 𝒛 𝒙 subscript 𝒛 𝒚 subscript 𝒛 𝒙 \boldsymbol{z_{y}}-\boldsymbol{z_{x}} bold_italic_z start_POSTSUBSCRIPT bold_italic_y end_POSTSUBSCRIPT - bold_italic_z start_POSTSUBSCRIPT bold_italic_x end_POSTSUBSCRIPT ) as input and predicts the corresponding control action 𝒂 ^ bold-^ 𝒂 \boldsymbol{\hat{a}} overbold_^ start_ARG bold_italic_a end_ARG that induced the observed change. Formally, this is expressed as: 𝒂 ^ = P a  ( 𝒛 𝒚 − 𝒛 𝒙 ) bold-^ 𝒂 subscript 𝑃 𝑎 subscript 𝒛 𝒚 subscript 𝒛 𝒙 \boldsymbol{{\hat{a}}}=P_{a}(\boldsymbol{z_{y}}-\boldsymbol{z_{x}}) overbold_^ start_ARG bold_italic_a end_ARG = italic_P start_POSTSUBSCRIPT italic_a end_POSTSUBSCRIPT ( bold_italic_z start_POSTSUBSCRIPT bold_italic_y end_POSTSUBSCRIPT - bold_italic_z start_POSTSUBSCRIPT bold_italic_x end_POSTSUBSCRIPT ) .
+
+Report issue for preceding element
+
+To train the model effectively and improve the disentanglement of action dimensions in the latent space, we define a loss that integrates multiple components, as depicted in Fig. 
+
+2
+
+https://arxiv.org/html/2503.01411v2#S3.F2
+
+.
+
+Report issue for preceding element
+
+Latent consistency loss.
+
+ It enforces consistency between the predicted latent representation 𝒛 ^ 𝒚 subscript bold-^ 𝒛 𝒚 \boldsymbol{\hat{z}
+
+{y}} overbold
+
+^ start_ARG bold_italic_z end_ARG start_POSTSUBSCRIPT bold_italic_y end_POSTSUBSCRIPT and the encoded representation 𝒛 𝒚 subscript 𝒛 𝒚 \boldsymbol{z_{y}} bold_italic_z start_POSTSUBSCRIPT bold_italic_y end_POSTSUBSCRIPT . This is achieved by minimizing the distance between these two representations, which can be expressed as:
+
+Report issue for preceding element
+
+L  ( 𝒛 𝒚 , 𝒛 ^ 𝒚 ) = ‖ 𝒛 𝒚 − 𝒛 ^ 𝒚 ‖ 2 𝐿 subscript 𝒛 𝒚 subscript bold-^ 𝒛 𝒚 superscript norm subscript 𝒛 𝒚 subscript bold-^ 𝒛 𝒚 2 L(\boldsymbol{z_{y}},\boldsymbol{\hat{z}
+
+{y}})=||\boldsymbol{z
+
+{y}}-% \boldsymbol{\hat{z}
+
+{y}}||^{2} italic_L ( bold_italic_z start_POSTSUBSCRIPT bold_italic_y end_POSTSUBSCRIPT , overbold
+
+^ start_ARG bold_italic_z end_ARG start_POSTSUBSCRIPT bold_italic_y end_POSTSUBSCRIPT ) = | | bold_italic_z start_POSTSUBSCRIPT bold_italic_y end_POSTSUBSCRIPT - overbold_^ start_ARG bold_italic_z end_ARG start_POSTSUBSCRIPT bold_italic_y end_POSTSUBSCRIPT | | start_POSTSUPERSCRIPT 2 end_POSTSUPERSCRIPT
+
+(1)
+
+Action prediction loss.
+
+ It penalizes the discrepancy between the predicted action 𝒂 ^ ^ 𝒂 \hat{\boldsymbol{a}} over^ start_ARG bold_italic_a end_ARG , and the action 𝒂 𝒂 \boldsymbol{a} bold_italic_a that is actually applied. This is critical for disentangling the effect of each action dimension. The loss is defined as:
+
+Report issue for preceding element
+
+L  ( 𝒂 , 𝒂 ^ ) = ‖ 𝒂 − 𝒂 ^ ‖ 2 𝐿 𝒂 ^ 𝒂 superscript norm 𝒂 ^ 𝒂 2 L(\boldsymbol{a},\hat{\boldsymbol{a}})=|\boldsymbol{a}-\hat{\boldsymbol{a}}|% ^{2} italic_L ( bold_italic_a , over^ start_ARG bold_italic_a end_ARG ) = ∥ bold_italic_a - over^ start_ARG bold_italic_a end_ARG ∥ start_POSTSUPERSCRIPT 2 end_POSTSUPERSCRIPT
+
+(2)
+
+Overall objective.
+
+ The complete loss function is a linear combination of the above components:
+
+Report issue for preceding element
+
+ℒ total = λ 1  L  ( 𝒛 y , 𝒛 ^ y ) + λ 2  L  ( 𝒂 , 𝒂 ^ ) subscript ℒ total subscript 𝜆 1 𝐿 subscript 𝒛 𝑦 subscript bold-^ 𝒛 𝑦 subscript 𝜆 2 𝐿 𝒂 ^ 𝒂 \mathcal{L}
+
+{\text{total}}=\lambda
+
+{1}L(\boldsymbol{z}
+
+{y},\boldsymbol{\hat{z}% }
+
+{y})+\lambda_{2}L(\boldsymbol{a},\hat{\boldsymbol{a}}) caligraphic_L start_POSTSUBSCRIPT total end_POSTSUBSCRIPT = italic_λ start_POSTSUBSCRIPT 1 end_POSTSUBSCRIPT italic_L ( bold_italic_z start_POSTSUBSCRIPT italic_y end_POSTSUBSCRIPT , overbold_^ start_ARG bold_italic_z end_ARG start_POSTSUBSCRIPT italic_y end_POSTSUBSCRIPT ) + italic_λ start_POSTSUBSCRIPT 2 end_POSTSUBSCRIPT italic_L ( bold_italic_a , over^ start_ARG bold_italic_a end_ARG )
+
+(3)
+
+where λ 1 subscript 𝜆 1 \lambda_{1} italic_λ start_POSTSUBSCRIPT 1 end_POSTSUBSCRIPT and λ 2 subscript 𝜆 2 \lambda_{2} italic_λ start_POSTSUBSCRIPT 2 end_POSTSUBSCRIPT are hyper-parameters that balance the contribution of each loss term.
+
+Report issue for preceding element
+
+By jointly optimizing both objectives, the model learns action-aware latent representations guided by observing combinations of action and corresponding signals. Eventually, it learns to predict the effect of a continuum of actions on the signal. This framework ensures consistency in latent space, disentangled action dimensions, and supports downstream tasks like anomaly detection and domain shift identification besides process control.
+
+Report issue for preceding element
+
+IV Application to injection molding
+
+Report issue for preceding element
+
+IV-A Use case
+
+Report issue for preceding element
+
+Plastic injection molding.
+
+ This is a widely utilized industrial process in which granular plastic is melted, injected into a mold, and cooled to produce components for various applications [ 
+
+32
+
+https://arxiv.org/html/2503.01411v2#bib.bib32
+
+] . The repetitive nature of this process makes it particularly suitable for automation, but process monitoring and control is essential to ensure high product quality. Pressure sensors installed in mold cavities collect the pressure footprint of manufactured parts over production time, providing critical insight into process and product quality while enabling detection of potential anomalies [ 
+
+33
+
+https://arxiv.org/html/2503.01411v2#bib.bib33
+
+] . Although systems exist that automatically detect such anomalies [ 
+
+34
+
+https://arxiv.org/html/2503.01411v2#bib.bib34
+
+] , identifying their root causes remains a significant challenge [ 
+
+3
+
+https://arxiv.org/html/2503.01411v2#bib.bib3
+
+] . Root causes are difficult to replicate in a controlled experimental setup. However, their effect on pressure signals can be mimicked by adjusting machine parameters, such as injection speed or holding pressure, which influence curve shape, scale and time shifting. For example, excess of plastic in a produced part that distorts its shape and reduces its quality, also known as flash defect, may appear as a pressure curve with higher peak than the original stable process, similar to the effect of increasing holding pressure [ 
+
+33
+
+https://arxiv.org/html/2503.01411v2#bib.bib33
+
+] . Therefore, predicting variations in these parameters can help technicians quickly identify potential sources of anomalies and resolve them. Full automatic process control in a closed-loop fashion is however not possible in this setting for the reason that (staying in the aforementioned example) if the model predicts that pressure needs to be reduced, the correct control action is not to reduce the pressure (adjust the machine parameter), but to clean the sensor.
+
+Report issue for preceding element
+
+World modeling.
+
+ We implement our methodology by adopting the deep learning architecture illustrated in Fig. 
+
+2
+
+https://arxiv.org/html/2503.01411v2#S3.F2
+
+ and detailed in Sec. 
+
+III
+
+https://arxiv.org/html/2503.01411v2#S3
+
+ to an injection molding use case. The observed signals are transient pressure curves (time-series). The action space represents changes in machine parameters with respect to a reference setting (vector with a scalar per parameter). It is important to note that in this framework, the world is specific to each product being produced, as the mold, the location of the sensor, and other variables impact the signal. Thus, the model must learn an ad-hoc representation of its specific world for each different production setting, based on a few observations. It may rely on transfer learning from previous productions to deal with data needs economically.
+
+Report issue for preceding element
+
+IV-B Datasets
+
+Report issue for preceding element TABLE I: Pre-training/Fine-tuning dataset characteristics
+
+Dataset
+
+N
+
+Cycle duration [s]
+
+No. of actions
+
+Action dim.
+
+D1
+
+270 270 270 270
+
+10 10 10 10
+
+27 27 27 27
+
+3 3 3 3
+
+D2
+
+270 270 270 270
+
+10 10 10 10
+
+27 27 27 27
+
+3 3 3 3
+
+D3
+
+460 460 460 460
+
+20 20 20 20
+
+23 23 23 23
+
+6 6 6 6
+
+Report issue for preceding element
+
+Data collection.
+
+ We collect pressure signals from injection molding processes, following a methodology similar to [ 
+
+3
+
+https://arxiv.org/html/2503.01411v2#bib.bib3
+
+] , using Kistler cavity pressure sensors. Details of the 3 3 3 3 datasets can be seen in Tab. 
+
+I
+
+https://arxiv.org/html/2503.01411v2#S4.T1
+
+.
+
+Report issue for preceding element
+
+Datasets D1 and D2 differ in the specific products (plastic parts) produced. Otherwise, we follow the same systematic design of experiments (DOE), in which we sparsely sample signals obtained by varying a small number of machine parameters, namely holding pressure, injection speed, and mold temperature. Specifically, we systematically set each machine parameter to one of 3 3 3 3 levels, resulting in a total of 3 3 = 27 superscript 3 3 27 3^{3}=27 3 start_POSTSUPERSCRIPT 3 end_POSTSUPERSCRIPT = 27 unique parameter combinations. We record 10 10 10 10 production cycles for each machine parameter combination after reaching a steady production state, yielding in total 27 × 10 = 270 27 10 270 27\times 10=270 27 × 10 = 270 samples in each of these two datasets. The 10 10 10 10 cycles per parameter combination are expected to yield almost similar pressure curves during stable production conditions, hence serving as a form of data augmentation of the 27 27 27 27 fundamentally different settings. An input to the model ( 𝒙 , 𝒚 , 𝒂 ) 𝒙 𝒚 𝒂 (\boldsymbol{x},\boldsymbol{y},\boldsymbol{a}) ( bold_italic_x , bold_italic_y , bold_italic_a ) consists of a reference signal 𝒙 𝒙 \boldsymbol{x} bold_italic_x , an observation 𝒚 𝒚 \boldsymbol{y} bold_italic_y , and the action 𝒂 𝒂 \boldsymbol{a} bold_italic_a (the difference between the machine parameters of the observed and the reference signal).
+
+Report issue for preceding element
+
+Fig. 
+
+3
+
+https://arxiv.org/html/2503.01411v2#S4.F3
+
+ illustrates the DOE behind D1 and D2. Visualizing the 3D structure of the resulting machine parameter space helps in comprehending the considerations behind dataset construction.
+
+Report issue for preceding element
+
+ 
+
+Figure 3: Illustration of the three-dimensional machine parameter space of D1/D2 with a normalized scale. The gray points represent 27 27 27 27 different machine parameters settings. The green and red points represent the most extreme settings in the corners of the cube (outline indicated by blue lines for clarity), in which individual parameters take on either minimal or maximal values. The pressure curves shown in the dashed rectangles show three examples of a reference signal 𝒙 𝒙 \boldsymbol{x} bold_italic_x (green) and observed signal 𝒚 𝒚 \boldsymbol{y} bold_italic_y (red) associated machine parameter setting; the arrows represent an action to transition from 𝒙 → 𝒂 𝒚 𝒂 → 𝒙 𝒚 \boldsymbol{x}\xrightarrow{\boldsymbol{a}}\boldsymbol{y} bold_italic_x start_ARROW overbold_italic_a → end_ARROW bold_italic_y . Report issue for preceding element
+
+Dataset D3 represents data from the production of a third product and includes 3 3 3 3 more machine parameters in addition to the previous 3 3 3 3 : hot runner temperature, dosing speed, and holding time. The parameters vary less systematically, resembling more a collection “in the wild” as it would happen during normal operations.
+
+Report issue for preceding element
+
+This results in a total of 46 46 46 46 different actions, with 20 20 20 20 cycles repeated per setting. By carefully analyzing the resulting pressure curves manually, we filter out 23 23 23 23 of these actions that do not result in a stable process (i.e., their 20 20 20 20 cycles vary significantly). Overall, this yields 23 × 20 = 460 23 20 460 23\times 20=460 23 × 20 = 460 pressure curves (that are primarily explained by varying the original 3 3 3 3 parameters, with the additional 3 3 3 3 playing a noise-like function for our purposes).
+
+Report issue for preceding element
+
+Data preprocessing.
+
+ The pressure time-series represent the dynamic changes in pressure over time, which are critical for understanding the process's behavior. As the original time-series data is sampled with irregular time intervals, we preprocess the data by resampling the data to a standardized format using 500 500 500 500 time points with regular intervals between 0 0 and 10 10 10 10 seconds. This interpolation ensures uniformity across all pressure curve samples. Additionally, we normalize pressure data by dividing by 1000 1000 1000 1000 , roughly rescaling the observed data to a range between 0 0 and 1 1 1 1 .
+
+Report issue for preceding element
+
+IV-C Training details
+
+Report issue for preceding element
+
+The encoder E  n  c 𝐸 𝑛 𝑐 Enc italic_E italic_n italic_c consists of 6 6 6 6 convolutional layers and 1 1 1 1 fully connected layer (FCL), outputting a 10  d 10 𝑑 10d 10 italic_d latent space. The latent predictor P z subscript 𝑃 𝑧 P_{z} italic_P start_POSTSUBSCRIPT italic_z end_POSTSUBSCRIPT consists of a single FCL, mapping 13  d 13 𝑑 13d 13 italic_d input to 10  d 10 𝑑 10d 10 italic_d output, while the action predictor P a subscript 𝑃 𝑎 P_{a} italic_P start_POSTSUBSCRIPT italic_a end_POSTSUBSCRIPT maps the 10  d 10 𝑑 10d 10 italic_d latent space into 3  d 3 𝑑 3d 3 italic_d using a single FCL with zero bias, so its weights can directly represent the relation between latent variables and actions, facilitating disentanglement analysis.
+
+Report issue for preceding element
+
+We train the world model using stochastic gradient descent with batch size 32 32 32 32 for 500 500 500 500 epochs using the Adam optimizer [ 
+
+35
+
+https://arxiv.org/html/2503.01411v2#bib.bib35
+
+] with learning rate α = 3 × 10 − 4 𝛼 3 superscript 10 4 \alpha=3\times 10^{-4} italic_α = 3 × 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT and the default settings otherwise. For fine-tuning, the model is first pre-trained for 10 10 10 10 epochs. Then, all parameters of P z subscript 𝑃 𝑧 P_{z} italic_P start_POSTSUBSCRIPT italic_z end_POSTSUBSCRIPT , P a subscript 𝑃 𝑎 P_{a} italic_P start_POSTSUBSCRIPT italic_a end_POSTSUBSCRIPT and the last layer of E  n  c 𝐸 𝑛 𝑐 Enc italic_E italic_n italic_c are fine-tuned for 500 500 500 500 epochs. The coefficients for the loss function in Eq. (4) are set as λ 1 = 1 , λ 2 = 10 formulae-sequence subscript 𝜆 1 1 subscript 𝜆 2 10 \lambda_{1}=1,\lambda_{2}=10 italic_λ start_POSTSUBSCRIPT 1 end_POSTSUBSCRIPT = 1 , italic_λ start_POSTSUBSCRIPT 2 end_POSTSUBSCRIPT = 10 , balancing the terms such that they are of roughly equal magnitude.
+
+Report issue for preceding element
+
+V Experimental setup and evaluation
+
+Report issue for preceding element
+
+V-A Experiments
+
+Report issue for preceding element
+
+We design 4 4 4 4 experiments to assess the ability of our world model to suggest process control actions in a real-world setting, trained in an economically viable fashion.
+
+Report issue for preceding element
+
+Experiment 1: Action space coverage.
+
+ The goal is to learn to what extent the world model can learn the effects of actions across 
+
+the whole
+
+ action space, based on a sparse sampling of all possible actions. We conduct this analysis individually on datasets D1 and D2 that offer a systematic coverage of the action space. We use as training data the samples corresponding with the machine parameters in the 8 8 8 8 corners of the cube of Fig. 
+
+3
+
+https://arxiv.org/html/2503.01411v2#S4.F3
+
+. Specifically, we pair each of the 8 × 10 8 10 8\times 10 8 × 10 samples with every other, resulting in 6400 6400 6400 6400 training samples. For testing, we take the remaining 19 × 10 19 10 19\times 10 19 × 10 samples (representing the inner area of the cube and thus allowing a comprehensive analysis) and pair them in turn with each sample corresponding with machine parameters from the 8 8 8 8 corners as references. This results in ( 19 × 10 ) × ( 8 × 10 ) = 15200 19 10 8 10 15200 (19\times 10)\times(8\times 10)=15200 ( 19 × 10 ) × ( 8 × 10 ) = 15200 test inputs. The use of training data in testing here does not constitute data leakage, as the references (that are used in training data) are an inherent ingredient of the world model as the observed signal that is not included in the training is used to predict the actions 
+
+in reference to 𝐱 𝐱 \boldsymbol{x} bold_italic_x
+
+ . We average over the results per individual reference vertex to calculate our evaluation metrics. Additionally, to ensure reliable results, we repeat each experiment 6 6 6 6 times with different random seeds for model initialization and finally report the mean value derived from these evaluations.
+
+Report issue for preceding element
+
+Experiment 2: Sample efficiency.
+
+ We are interested in learning the model's performance when only granted minimal training data, considering the time and cost constraints for the DOE in industry. Specifically, we adapt the training setup of Exp. 1 to use only 50 50 50 50 % of the training samples, namely, all samples with machine parameter settings corresponding to the origin and its 3 3 3 3 directly connected corners (where only one machine parameter varies). This results in ( 4 × 10 ) 2 = 1600 superscript 4 10 2 1600 (4\times 10)^{2}=1600 ( 4 × 10 ) start_POSTSUPERSCRIPT 2 end_POSTSUPERSCRIPT = 1600 training inputs when pairing each sample with any other. For evaluation, we take all remaining 23 × 10 = 230 23 10 230 23\times 10=230 23 × 10 = 230 samples not used for testing and pair them with the signals resulting from the parameters at the origin as the reference signal, resulting in ( 23 × 10 ) × ( 1 × 10 ) = 2300 23 10 1 10 2300 (23\times 10)\times(1\times 10)=2300 ( 23 × 10 ) × ( 1 × 10 ) = 2300 . Again, we repeat the evaluation 6 6 6 6 times and report the mean figures of merit.
+
+Report issue for preceding element
+
+Experiment 3: Ablation of the latent predictor P z subscript 𝑃 𝑧 P_{z} italic_P start_POSTSUBSCRIPT italic_z end_POSTSUBSCRIPT .
+
+ We assess the effect of the latent predictor P z subscript 𝑃 𝑧 P_{z} italic_P start_POSTSUBSCRIPT italic_z end_POSTSUBSCRIPT on the results by comparing the performance of two model variants: one without P z subscript 𝑃 𝑧 P_{z} italic_P start_POSTSUBSCRIPT italic_z end_POSTSUBSCRIPT (making the model effectively a direct action regressor) and one with it (identical to the model in the previous experiments). The training and test setup are identical to Exp. 1. This ablation study clarifies whether joint embedding predictive modeling is critical for learning an action-aware representation, leading to improved control.
+
+Report issue for preceding element
+
+Experiment 4: Transfer learning.
+
+ We evaluate the world model's ability, without (4.1) and with (4.2) P z subscript 𝑃 𝑧 P_{z} italic_P start_POSTSUBSCRIPT italic_z end_POSTSUBSCRIPT , to learn economically by leveraging prior knowledge.
+
+Report issue for preceding element
+
+First, we pre-train the model on dataset D3, forming training samples by pairing each signal with any other, yielding 460 2 = 211.6  k superscript 460 2 211.6 𝑘 460^{2}=211.6k 460 start_POSTSUPERSCRIPT 2 end_POSTSUPERSCRIPT = 211.6 italic_k inputs. Second, we fine-tune with the setup of Exp. 1, starting from the pre-trained model, to test adaptation from one process to another.
+
+Report issue for preceding element
+
+V-B Quantitative evaluation
+
+Report issue for preceding element
+
+We aim at evaluating model performance regarding its ability to issue correct control actions, determined by its ability to predict the actions leading from reference signal to observation. This in turn hinges on the model's ability to accurately disentangle the effects of the individual components (change of one machine parameters) of each action. We quantify this by means of three metrics, detailed below: The action direction θ 𝜃 \theta italic_θ , action magnitude d 𝑑 d italic_d , and overall prediction quality q 𝑞 q italic_q .
+
+Report issue for preceding element
+
+Action direction θ 𝜃 \theta italic_θ .
+
+ Does a predicted action point into the correct direction? We consider the ground truth and predicted action vectors 𝒂 𝒂 \boldsymbol{a} bold_italic_a and 𝒂 ^ bold-^ 𝒂 \boldsymbol{\hat{a}} overbold_^ start_ARG bold_italic_a end_ARG , and calculate the angle θ  ( 𝒂 , 𝒂 ^ ) = arccos  ( 𝒂 ⋅ 𝒂 ^ ‖ 𝒂 ‖ ⋅ ‖ 𝒂 ^ ‖ ) 𝜃 𝒂 bold-^ 𝒂 ⋅ 𝒂 bold-^ 𝒂 ⋅ norm 𝒂 norm bold-^ 𝒂 \theta(\boldsymbol{a},\boldsymbol{\hat{a}})=\arccos\left(\frac{\boldsymbol{a}% \cdot\boldsymbol{\hat{a}}}{|\boldsymbol{a}|\cdot|\boldsymbol{\hat{a}}|}\right) italic_θ ( bold_italic_a , overbold_^ start_ARG bold_italic_a end_ARG ) = roman_arccos ( divide start_ARG bold_italic_a ⋅ overbold_^ start_ARG bold_italic_a end_ARG end_ARG start_ARG ∥ bold_italic_a ∥ ⋅ ∥ overbold_^ start_ARG bold_italic_a end_ARG ∥ end_ARG ) between 𝒂 𝒂 \boldsymbol{a} bold_italic_a and 𝒂 ^ bold-^ 𝒂 \boldsymbol{\hat{a}} overbold_^ start_ARG bold_italic_a end_ARG (on a scale between 0 0 ° to 180 180 180 180 °). A smaller angle indicates better disentanglement, implying that the model can effectively represent the action's direction in the latent space.
+
+Report issue for preceding element
+
+Action magnitude d 𝑑 d italic_d .
+
+ Does a prediction accurately quantify the magnitude of the needed adjustment? This is answered by the distance between 𝒂 𝒂 \boldsymbol{a} bold_italic_a and 𝒂 ^ bold-^ 𝒂 \boldsymbol{\hat{a}} overbold_^ start_ARG bold_italic_a end_ARG . We compute the absolute distance, where smaller distances indicate more accurate predictions. Specifically, d  ( 𝒂 , 𝒂 ^ ) = ∑ i = 1 n ( a i − a ^ i ) 2 𝑑 𝒂 bold-^ 𝒂 superscript subscript 𝑖 1 𝑛 superscript subscript 𝑎 𝑖 subscript ^ 𝑎 𝑖 2 d(\boldsymbol{a},\boldsymbol{\hat{a}})=\sqrt{\sum_{i=1}^{n}(a_{i}-\hat{a}
+
+{i})% ^{2}} italic_d ( bold_italic_a , overbold
+
+^ start_ARG bold_italic_a end_ARG ) = square-root start_ARG ∑ start_POSTSUBSCRIPT italic_i = 1 end_POSTSUBSCRIPT start_POSTSUPERSCRIPT italic_n end_POSTSUPERSCRIPT ( italic_a start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT - over^ start_ARG italic_a end_ARG start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT ) start_POSTSUPERSCRIPT 2 end_POSTSUPERSCRIPT end_ARG , where n 𝑛 n italic_n denotes the dimension of the vectors.
+
+Report issue for preceding element
+
+Overall prediction quality q 𝑞 q italic_q .
+
+ We combine the angle (normalized to [0, 1]) and distance metrics into a single scalar evaluation score to provide a balanced measure of right direction (disentanglement) and magnitude. Specifically, we compute their harmonic mean as q  ( 𝒂 , 𝒂 ^ ) = 1 2  ( 1 θ  ( 𝒂 , 𝒂 ^ ) + 1 d  ( 𝒂 , 𝒂 ^ ) ) − 1 𝑞 𝒂 bold-^ 𝒂 1 2 superscript 1 𝜃 𝒂 bold-^ 𝒂 1 𝑑 𝒂 bold-^ 𝒂 1 q(\boldsymbol{a},\boldsymbol{\hat{a}})=\frac{1}{2}\left(\frac{1}{\theta(% \boldsymbol{a},\boldsymbol{\hat{a}})}+\frac{1}{d(\boldsymbol{a},\boldsymbol{% \hat{a}})}\right)^{-1} italic_q ( bold_italic_a , overbold_^ start_ARG bold_italic_a end_ARG ) = divide start_ARG 1 end_ARG start_ARG 2 end_ARG ( divide start_ARG 1 end_ARG start_ARG italic_θ ( bold_italic_a , overbold_^ start_ARG bold_italic_a end_ARG ) end_ARG + divide start_ARG 1 end_ARG start_ARG italic_d ( bold_italic_a , overbold_^ start_ARG bold_italic_a end_ARG ) end_ARG ) start_POSTSUPERSCRIPT - 1 end_POSTSUPERSCRIPT . It is well suited as it necessitates the simultaneous minimization of all criteria for good scores.
+
+Report issue for preceding element
+
+2D and 3D analysis.
+
+ Our evaluation employs complementary 2D and 3D analyses to examine the model's action prediction capabilities at different levels of complexity. We are first interested to see pairwise comparisons between any 2 2 2 2 action dimensions individually (2D) for fine-grained analysis as this shows how the latent representation responds to changes in individual machine parameters. Specifically, for action dimensions i 𝑖 i italic_i and j 𝑗 j italic_j , let 𝒂 𝒊 , 𝒋 = [ a i , a j ] subscript 𝒂 𝒊 𝒋 subscript 𝑎 𝑖 subscript 𝑎 𝑗 \boldsymbol{a_{i,j}}=[a_{i},a_{j}] bold_italic_a start_POSTSUBSCRIPT bold_italic_i bold_, bold_italic_j end_POSTSUBSCRIPT = [ italic_a start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT , italic_a start_POSTSUBSCRIPT italic_j end_POSTSUBSCRIPT ] , 𝒂 ^ 𝒊 , 𝒋 = [ a ^ i , a ^ j ] subscript bold-^ 𝒂 𝒊 𝒋 subscript ^ 𝑎 𝑖 subscript ^ 𝑎 𝑗 \boldsymbol{\hat{a}
+
+{i,j}}=[\hat{a}
+
+{i},\hat{a}
+
+{j}] overbold
+
+^ start_ARG bold_italic_a end_ARG start_POSTSUBSCRIPT bold_italic_i bold_, bold_italic_j end_POSTSUBSCRIPT = [ over^ start_ARG italic_a end_ARG start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT , over^ start_ARG italic_a end_ARG start_POSTSUBSCRIPT italic_j end_POSTSUBSCRIPT ] , and the 2D angle between them be θ  ( 𝒂 𝒊 , 𝒋 , 𝒂 ^ 𝒊 , 𝒋 ) = arccos  ( 𝒂  ( 𝒊 , 𝒋 ) ⋅ 𝒂 ^  ( 𝒊 , 𝒋 ) ‖ 𝒂  ( 𝒊 , 𝒋 ) ‖ ⋅ ‖ 𝒂 ^  ( 𝒊 , 𝒋 ) ‖ ) 𝜃 subscript 𝒂 𝒊 𝒋 subscript bold-^ 𝒂 𝒊 𝒋 ⋅ 𝒂 𝒊 𝒋 bold-^ 𝒂 𝒊 𝒋 ⋅ norm 𝒂 𝒊 𝒋 norm bold-^ 𝒂 𝒊 𝒋 \theta(\boldsymbol{a_{i,j}},\boldsymbol{\hat{a}
+
+{i,j}})=\arccos\left(\frac{% \boldsymbol{a(i,j)}\cdot\boldsymbol{\hat{a}(i,j)}}{|\boldsymbol{a(i,j)}|% \cdot|\boldsymbol{\hat{a}(i,j)}|}\right) italic_θ ( bold_italic_a start_POSTSUBSCRIPT bold_italic_i bold
+
+, bold_italic_j end_POSTSUBSCRIPT , overbold_^ start_ARG bold_italic_a end_ARG start_POSTSUBSCRIPT bold_italic_i bold_, bold_italic_j end_POSTSUBSCRIPT ) = roman_arccos ( divide start_ARG bold_italic_a bold_( bold_italic_i bold_, bold_italic_j bold_) ⋅ overbold_^ start_ARG bold_italic_a end_ARG bold_( bold_italic_i bold_, bold_italic_j bold_) end_ARG start_ARG ∥ bold_italic_a bold_( bold_italic_i bold_, bold_italic_j bold_) ∥ ⋅ ∥ overbold_^ start_ARG bold_italic_a end_ARG bold_( bold_italic_i bold_, bold_italic_j bold_) ∥ end_ARG ) . Then, we calculate the average angle over all possible 2D pairs as θ 2  D  ( 𝒂 , 𝒂 ^ ) = 1 m  ∑ i , j ∈ n , i ≠ j θ  ( 𝒂 𝒊 , 𝒋 , 𝒂 ^ 𝒊 , 𝒋 ) subscript 𝜃 2 𝐷 𝒂 bold-^ 𝒂 1 𝑚 subscript formulae-sequence 𝑖 𝑗 𝑛 𝑖 𝑗 𝜃 subscript 𝒂 𝒊 𝒋 subscript bold-^ 𝒂 𝒊 𝒋 \theta_{2D}(\boldsymbol{a},\boldsymbol{\hat{a}})=\frac{1}{m}\sum_{i,j\in n,i% \neq j}\theta(\boldsymbol{a_{i,j}},\boldsymbol{\hat{a}
+
+{i,j}}) italic_θ start_POSTSUBSCRIPT 2 italic_D end_POSTSUBSCRIPT ( bold_italic_a , overbold
+
+^ start_ARG bold_italic_a end_ARG ) = divide start_ARG 1 end_ARG start_ARG italic_m end_ARG ∑ start_POSTSUBSCRIPT italic_i , italic_j ∈ italic_n , italic_i ≠ italic_j end_POSTSUBSCRIPT italic_θ ( bold_italic_a start_POSTSUBSCRIPT bold_italic_i bold_, bold_italic_j end_POSTSUBSCRIPT , overbold_^ start_ARG bold_italic_a end_ARG start_POSTSUBSCRIPT bold_italic_i bold_, bold_italic_j end_POSTSUBSCRIPT ) , where m 𝑚 m italic_m is the total number of unique pairs (i.e., m = n  ( n − 1 ) 2 = 3 𝑚 𝑛 𝑛 1 2 3 m=\frac{n(n-1)}{2}=3 italic_m = divide start_ARG italic_n ( italic_n - 1 ) end_ARG start_ARG 2 end_ARG = 3 in our case). The resulting average angle θ 2  D subscript 𝜃 2 𝐷 \theta_{2D} italic_θ start_POSTSUBSCRIPT 2 italic_D end_POSTSUBSCRIPT serves as a measure of the model's capacity to disentangle the action dimensions. Correspondingly, 2D distances can be calculated as d  ( 𝒂 𝒊 , 𝒋 , 𝒂 ^ 𝒊 , 𝒋 ) = 1 2  [ ( a i − a ^ i ) 2 + ( a j − a ^ j ) 2 ] 𝑑 subscript 𝒂 𝒊 𝒋 subscript bold-^ 𝒂 𝒊 𝒋 1 2 delimited-[] superscript subscript 𝑎 𝑖 subscript ^ 𝑎 𝑖 2 superscript subscript 𝑎 𝑗 subscript ^ 𝑎 𝑗 2 d(\boldsymbol{a_{i,j}},\boldsymbol{\hat{a}
+
+{i,j}})=\sqrt{\frac{1}{2}[(a
+
+{i}-% \hat{a}
+
+{i})^{2}+(a
+
+{j}-\hat{a}
+
+{j})^{2}]} italic_d ( bold_italic_a start_POSTSUBSCRIPT bold_italic_i bold
+
+, bold_italic_j end_POSTSUBSCRIPT , overbold_^ start_ARG bold_italic_a end_ARG start_POSTSUBSCRIPT bold_italic_i bold_, bold_italic_j end_POSTSUBSCRIPT ) = square-root start_ARG divide start_ARG 1 end_ARG start_ARG 2 end_ARG [ ( italic_a start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT - over^ start_ARG italic_a end_ARG start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT ) start_POSTSUPERSCRIPT 2 end_POSTSUPERSCRIPT + ( italic_a start_POSTSUBSCRIPT italic_j end_POSTSUBSCRIPT - over^ start_ARG italic_a end_ARG start_POSTSUBSCRIPT italic_j end_POSTSUBSCRIPT ) start_POSTSUPERSCRIPT 2 end_POSTSUPERSCRIPT ] end_ARG and the average distance over all possible 2D pairs as d 2  D  ( 𝒂 , 𝒂 ^ ) = 1 m  ∑ i , j ∈ n , i ≠ j d  ( 𝒂 𝒊 , 𝒋 , 𝒂 ^ 𝒊 , 𝒋 ) subscript 𝑑 2 𝐷 𝒂 bold-^ 𝒂 1 𝑚 subscript formulae-sequence 𝑖 𝑗 𝑛 𝑖 𝑗 𝑑 subscript 𝒂 𝒊 𝒋 subscript bold-^ 𝒂 𝒊 𝒋 d_{2D}(\boldsymbol{a},\boldsymbol{\hat{a}})=\frac{1}{m}\sum_{i,j\in n,i\neq j}% d(\boldsymbol{a_{i,j}},\boldsymbol{\hat{a}
+
+{i,j}}) italic_d start_POSTSUBSCRIPT 2 italic_D end_POSTSUBSCRIPT ( bold_italic_a , overbold
+
+^ start_ARG bold_italic_a end_ARG ) = divide start_ARG 1 end_ARG start_ARG italic_m end_ARG ∑ start_POSTSUBSCRIPT italic_i , italic_j ∈ italic_n , italic_i ≠ italic_j end_POSTSUBSCRIPT italic_d ( bold_italic_a start_POSTSUBSCRIPT bold_italic_i bold_, bold_italic_j end_POSTSUBSCRIPT , overbold_^ start_ARG bold_italic_a end_ARG start_POSTSUBSCRIPT bold_italic_i bold_, bold_italic_j end_POSTSUBSCRIPT ) .
+
+Report issue for preceding element
+
+All 3 3 3 3 2D metrics assess the prediction quality of the individual parameter combinations and the model's performance in isolating individual parameter changes. Then, the evaluations are extended to all action dimensions simultaneously (3D), analyzing the model's ability to generalize disentanglement across the full action space. Specifically, we compute θ  ( 𝒂 , 𝒂 ^ ) 𝜃 𝒂 bold-^ 𝒂 \theta(\boldsymbol{a},\boldsymbol{\hat{a}}) italic_θ ( bold_italic_a , overbold_^ start_ARG bold_italic_a end_ARG ) , d  ( 𝒂 , 𝒂 ^ ) 𝑑 𝒂 bold-^ 𝒂 d(\boldsymbol{a},\boldsymbol{\hat{a}}) italic_d ( bold_italic_a , overbold_^ start_ARG bold_italic_a end_ARG ) and q  ( 𝒂 , 𝒂 ^ ) 𝑞 𝒂 bold-^ 𝒂 q(\boldsymbol{a},\boldsymbol{\hat{a}}) italic_q ( bold_italic_a , overbold_^ start_ARG bold_italic_a end_ARG ) by extending the vectors in 3D using the formulas from above. This provides insight on how the model handles multi-parameter changes.
+
+Report issue for preceding element
+
+VI Results
+
+Report issue for preceding element
+
+VI-A Exploring the latent space
+
+Report issue for preceding element
+
+Action-awareness in the latent representation.
+
+ The model resulting from Exp. 1 on dataset D1 is analyzed regarding properties of its learned latent space. Fig. 
+
+4
+
+https://arxiv.org/html/2503.01411v2#S6.F4
+
+ first shows (all 4 4 4 4 panels) that the differences between the actual latents ( 𝒛 𝒚 − 𝒛 𝒙 subscript 𝒛 𝒚 subscript 𝒛 𝒙 \boldsymbol{z_{y}}-\boldsymbol{z_{x}} bold_italic_z start_POSTSUBSCRIPT bold_italic_y end_POSTSUBSCRIPT - bold_italic_z start_POSTSUBSCRIPT bold_italic_x end_POSTSUBSCRIPT ) are well aligned with the same differences between the reference's latent and the prediction of the observation's latent ( 𝒛 ^ 𝒚 − 𝒛 𝒙 subscript bold-^ 𝒛 𝒚 subscript 𝒛 𝒙 \boldsymbol{\hat{z}
+
+{y}}-\boldsymbol{z
+
+{x}} overbold_^ start_ARG bold_italic_z end_ARG start_POSTSUBSCRIPT bold_italic_y end_POSTSUBSCRIPT - bold_italic_z start_POSTSUBSCRIPT bold_italic_x end_POSTSUBSCRIPT ). This demonstrates the model's ability to accurately predict activations in latent space based on actions, enabling simulation of the latent space for arbitrary actions. Moreover, the variation in specific latent dimensions with respect to different actions (all but top-left panel) highlights the interpretability of the latent space and its sensitivity to action-specific behaviors: It appears action-aware. For example, as depicted in the bottom left corner of Fig. 
+
+4
+
+https://arxiv.org/html/2503.01411v2#S6.F4
+
+, when action is only taken regarding injection speed, the 0 t  h superscript 0 𝑡 ℎ 0^{th} 0 start_POSTSUPERSCRIPT italic_t italic_h end_POSTSUPERSCRIPT , 2 n  d superscript 2 𝑛 𝑑 2^{nd} 2 start_POSTSUPERSCRIPT italic_n italic_d end_POSTSUPERSCRIPT and 9 t  h superscript 9 𝑡 ℎ 9^{th} 9 start_POSTSUPERSCRIPT italic_t italic_h end_POSTSUPERSCRIPT dimension change. On the other hand, when the mold temperature is adjusted, only the 1 s  t superscript 1 𝑠 𝑡 1^{st} 1 start_POSTSUPERSCRIPT italic_s italic_t end_POSTSUPERSCRIPT dimension is significantly affected. These effects are mutually exclusive.
+
+Report issue for preceding element
+
+Clustering in the latent space.
+
+ We map our 10 10 10 10 -dimensional latent space into 2 2 2 2 dimensions using PCA to gain perceptual insight. Fig. 
+
+5
+
+https://arxiv.org/html/2503.01411v2#S6.F5
+
+ shows how representations from Exp. 1 on dataset D1 cluster. It clearly indicates the separation of signals originating from 4 4 4 4 different machine parameter settings. Such representations can be further used for downstream tasks like anomaly detection and domain shift identification.
+
+Report issue for preceding element
+
+ 
+
+Figure 4: Visualization of 
+
+differences
+
+ between embeddings (either directly as encoded, blue; or as encoded by E  n  c 𝐸 𝑛 𝑐 Enc italic_E italic_n italic_c for 𝒙 𝒙 \boldsymbol{x} bold_italic_x and predicted by P z subscript 𝑃 𝑧 P_{z} italic_P start_POSTSUBSCRIPT italic_z end_POSTSUBSCRIPT for 𝒚 𝒚 \boldsymbol{y} bold_italic_y , orange) in the 10 10 10 10 -dimensional embedding space. The red dashed lines indicate a threshold for significantly different activity between the two embeddings. Four different signal pairs are shown: One with a no action (top left), and one each for a change only in mold temperature, injection speed or holding pressure (top right, bottom left and bottom right). Report issue for preceding element
+
+ 
+
+Figure 5: Visualization of embeddings from D1's test set for Exp. 1 in 2 2 2 2 dimensions using PCA, colored by the actions that led to the underlying signals. Red dots represent embeddings with no action taken, serving as the reference for the other signals; green, blue and purple dots are created by changing only injection speed, molding temperature or holding pressure. Report issue for preceding element
+
+VI-B Action prediction
+
+Report issue for preceding element
+
+The evaluation results of Exp. 1–4 on the experiment-specific test sets from datasets D1 and D2 are presented in Tab. 
+
+II
+
+https://arxiv.org/html/2503.01411v2#S6.T2
+
+. The experimental setup is briefly summarized in col. 2 2 2 2 (with or without P z subscript 𝑃 𝑧 P_{z} italic_P start_POSTSUBSCRIPT italic_z end_POSTSUBSCRIPT or transfer learning, number of machine parameter settings in training set). The next 3 3 3 3 columns give the final metrics for the 2D evaluations, followed by the last 3 3 3 3 columns for the 3D evaluations.
+
+Report issue for preceding element
+
+TABLE II: Evaluation of different experimental setups on experiment-specific test sets of D1 and D2
+
+| Experiment | Experimental setup | Avg. action dir. θ 𝟐  D subscript 𝜃 2 𝐷 \boldsymbol{\theta_{2D}} bold_italic_θ start_POSTSUBSCRIPT bold_2 bold_italic_D end_POSTSUBSCRIPT || Avg. action mag. d 𝟐  D subscript 𝑑 2 𝐷 \boldsymbol{d_{2D}} bold_italic_d start_POSTSUBSCRIPT bold_2 bold_italic_D end_POSTSUBSCRIPT || Avg. overall q 𝟐  D subscript 𝑞 2 𝐷 \boldsymbol{q_{2D}} bold_italic_q start_POSTSUBSCRIPT bold_2 bold_italic_D end_POSTSUBSCRIPT || Avg. action dir. θ 𝜃 \boldsymbol{\theta} bold_italic_θ || Avg. action mag. d 𝑑 \boldsymbol{d} bold_italic_d || Avg. overall q 𝑞 \boldsymbol{q} bold_italic_q ||
+
+ 
+
+| ^^ | ^^ | D1 | D2 | D1 | D2 | D1 | D2 | D1 | D2 | D1 | D2 | D1 | D2 |
+
+ 
+
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+ 
+
+| 1 (Base) | + latent predictor, - pre-training, 8 settings | 16.13 | 9.59 | 0.25 | 0.17 | 0.13 | 0.08 | 18.22 | 12.14 | 0.31 | 0.20 | 0.15 | 0.10 |
+
+ 
+
+| 2 | + latent predictor, - pre-training, 4 settings | 34.00 | 34.00 | 0.50 | 0.50 | 0.14 | 0.14 | 35.00 | 35.00 | 0.61 | 0.61 | 0.15 | 0.15 |
+
+ 
+
+| 3 | - latent predictor, - pre-training, 8 settings | 16.56 | 9.94 | 0.25 | 0.17 | 0.13 | 0.08 | 18.34 | 12.63 | 0.31 | 0.22 | 0.15 | 0.10 |
+
+ 
+
+| 4.1 | - latent predictor, + pre-training, 8 settings | 8.68 | 17.85 | 0.14 | 0.25 | 0.07 | 0.14 | 11.13 | 19.64 | 0.17 | 0.31 | 0.09 | 0.16 |
+
+ 
+
+| 4.2 | + latent predictor, + pre-training, 8 settings | 8.53 | 20.56 | 0.14 | 0.27 | 0.07 | 0.16 | 10.61 | 23.89 | 0.17 | 0.34 | 0.09 | 0.19 |
+
+Report issue for preceding element
+
+Evaluating Exp. 1–4 on D1.
+
+ The following results highlight the impact of pre-training, the latent predictor, and training setting numbers on performance. Best results are observed in Exp. 4.2 (leveraging maximum training data, transfer learning and P z subscript 𝑃 𝑧 P_{z} italic_P start_POSTSUBSCRIPT italic_z end_POSTSUBSCRIPT ), achieving the lowest 2D and 3D angle errors ( 8.53 8.53 8.53 8.53 ° and 10.61 10.61 10.61 10.61 °) and the best harmonic mean values. Pre-training (Exp. 4.2 vs. Exp. 1) significantly reduces errors by nearly a factor of two. The latent predictor further improves performance, for example, when combined with pre-training (Exp. 4.2 vs. Exp. 4.1). However, the latent predictor alone (Exp. 1 vs. Exp. 3) shows only a slight improvement ( 2 − 5 % 2 percent 5 2-5% 2 - 5 % ). Increasing the training settings (Exp. 1 vs. Exp. 2) boosts accuracy, reinforcing that more data leads to better results.
+
+Report issue for preceding element
+
+ 
+
+Figure 6: 2D pairwise parameter predictions. From left to right: Holding pressure (HP) vs injection speed (IS), HP vs mold temperature (MT), IS vs MT. Red stars represents 3 3 3 3 training settings, with the bottom left ones serving as reference parameters. Test data with actions changing IS, HP, and MT are labeled in green, purple, and orange, respectively. Hollow cycles represent ground-truth while the predicted actions are indicated by dots. Report issue for preceding element
+
+Evaluating Exp. 1–4 on D2.
+
+ Similar to D1, the model demonstrates poor performance using only 4 4 4 4 training settings (Exp. 2 vs Exp. 1), as reflected in big angle to and long distance from the ground truth. Increasing the number of settings to 8 8 8 8 improves performance significantly, showing the importance of geometric context. A slight improvement can be observed when the latent predictor is added (Exp. 3 vs Exp. 1). However, pre-training is harmful no matter if latent predictors are absent or not. For instance, Exp. 4.1 shows a degradation in average θ 𝜃 \theta italic_θ from 12.14 12.14 12.14 12.14 ° (Exp. 1) to 23.89 23.89 23.89 23.89 ° and in average d 𝑑 d italic_d from 0.20 0.20 0.20 0.20 to 0.34 0.34 0.34 0.34 . This result is understandable and aligns with the discussion in Sec. 
+
+IV-B
+
+https://arxiv.org/html/2503.01411v2#S4.SS2
+
+: The limited and noisy pre-training data is from a single source, leading to the learned representation not being generalizable to all cases, specifically when the new case is significantly different from the source domain. Then, it causes negative transfer [ 
+
+2
+
+https://arxiv.org/html/2503.01411v2#bib.bib2
+
+] . The best performance is observed in Exp. 1 with latent predictors and no pre-training, achieving the lowest errors across both 2D ( θ 2  D subscript 𝜃 2 𝐷 \theta_{2D} italic_θ start_POSTSUBSCRIPT 2 italic_D end_POSTSUBSCRIPT : 9.59 9.59 9.59 9.59 °, q 2  D subscript 𝑞 2 𝐷 q_{2D} italic_q start_POSTSUBSCRIPT 2 italic_D end_POSTSUBSCRIPT : 0.08 0.08 0.08 0.08 ) and 3D ( θ 𝜃 \theta italic_θ : 12.14 12.14 12.14 12.14 °, q 𝑞 q italic_q : 0.1 0.1 0.1 0.1 ). Overall, combining latent predictors with sufficient training settings consistently improves performance. However, pre-training is not recommended if the pre-training data significantly differs from the data of the target task.
+
+Report issue for preceding element
+
+Qualitative evaluation.
+
+ The model is designed to accurately predict the deviation of machine parameters relative to the reference, regardless of the scale. 2D pairwise qualitative results on D1 from Exp. 1 are depicted in Fig. 
+
+6
+
+https://arxiv.org/html/2503.01411v2#S6.F6
+
+, comparing predicted actions with ground truth. The figures indicate that the effect of actions regarding holding pressure and mold temperature is well isolated, as the predicted actions are close to the ground truth when these actions are taken. However, the effect of injection speed remains entangled with other parameters, indicating that its influence is not as distinctly separable. A key reason is that injection speed and holding pressure are highly correlated in reality, for example, changes in injection speed might influence the material flow which in turn affects pressure.
+
+Report issue for preceding element
+
+VII Conclusions
+
+Report issue for preceding element
+
+We proposed an actionable world model for industrial process control. It shows potential in disentangled latent representation learning and precise action prediction, improving over the state of the art over prior work [ 
+
+3
+
+https://arxiv.org/html/2503.01411v2#bib.bib3
+
+] . This is achieved by creating a novel methodology that generalizes JEPA to learn action-aware representations for arbitrary, factored actions. The results across multiple datasets highlight the importance of the latent predictor, ensuring better disentanglement and improved prediction quality of actions that can be used as process control signals. Additionally, increasing training data (linearly related to the number of settings) enhances alignment with the ground truth and optimizes model's prediction quality. However, the results also emphasize necessary caution with respect to pre-training with limited or unrelated data. In some cases, it may lead to performance degradation due to negative transfer from data that do not generalize to the case at hand.
+
+Report issue for preceding element
+
+Limitations.
+
+ The proposed method depends on the availability of machine parameters for task-specific representation learning, acting as external guiding signals for the learning. Accordingly, the method's success relies on the accuracy and reliability of the machine parameters and whether these parameters are truly indicative of the underlying process the model aims to capture. Unlike traditional SSL methods (e.g., contrastive learning or I-JEPA), which aim to learn general-purpose representations, this model is tailored to a specific domain or machine setup by incorporating a predictive module. The incorporation of specific actions (control parameters) may limit the model's ability to generalize to tasks or domains where those parameters are unavailable or differ significantly.
+
+Report issue for preceding element
+
+Future work.
+
+ The model has been applied successfully to injection molding cases with 3 3 3 3 machine parameters. Next, we want to expand this approach to include process datasets covering more machine parameters. Furthermore, it would be also interesting to expand this framework for other industrial applications. Additionally, the effectiveness of transfer learning must be investigated using diverse datasets from different sources, which can be used for downstream fine-tuning. A key challenge is the non-bijective relationship between process signals and machine parameters, as the same process signal may correspond to different parameters. On a larger scale, actionable world models that learn representations of their percepts with respect to issuing goal-driven behavior are a promising avenue for progress in many other fields of AI, from robotics to autonomous agents.
+
+Report issue for preceding element
+
+References
+
+Report issue for preceding element
+
+[1] ↑ J. Schöning, A. Riechmann, and H.-J. Pfisterer, “AI for closed-loop control systems,” in 
+
+Proc. ICMLC
+
+, 2022, pp. 318–323.
+
+[2] ↑ P. Yan, A. Abdulkadir, P.-P. Luley, M. Rosenthal, G. A. Schatte, B. F. Grewe, and T. Stadelmann, “A comprehensive survey of deep transfer learning for anomaly detection in industrial time series,” 
+
+IEEE Access
+
+, vol. 12, pp. 3768–3789, 2024.
+
+[3] ↑ P. Yan, A. Abdulkadir, G. Aguzzi, G. A. Schatte, B. F. Grewe, and T. Stadelmann, “Automated process monitoring in injection molding via representation learning and setpoint regression,” in 
+
+Proc. IEEE SDS
+
+, 2024, pp. 138–145.
+
+[4] ↑ Schatte, Gerrit A. et al., “Verfahren und Vorrichtung zur Überwachung eines zyklischen Herstellprozesses,” European Patent Request EP23 212 020.4, 2023.
+
+[5] ↑ D. Ha and J. Schmidhuber, “World models,” 
+
+arXiv preprint arXiv:1803.10122
+
+, 2018.
+
+[6] ↑ Y. LeCun, “A path towards autonomous machine intelligence version 0.9. 2, 2022-06-27,” 
+
+Open Review
+
+, vol. 62, no. 1, pp. 1–62, 2022.
+
+[7] ↑ P. Wu, A. Escontrela, D. Hafner, P. Abbeel, and K. Goldberg, “Daydreamer: World models for physical robot learning,” in 
+
+Conference on robot learning
+
+, 2023, pp. 2226–2240.
+
+[8] ↑ Q. Garrido, M. Assran, N. Ballas, A. Bardes, L. Najman, and Y. LeCun, “Learning and leveraging world models in visual representation learning,” 
+
+arXiv preprint arXiv:2403.00504
+
+, 2024.
+
+[9] ↑ P. H. Le-Khac, G. Healy, and A. F. Smeaton, “Contrastive representation learning: A framework and review,” 
+
+IEEE Access
+
+, vol. 8, pp. 193 907–193 934, 2020.
+
+[10] ↑ R. Hadsell, S. Chopra, and Y. LeCun, “Dimensionality reduction by learning an invariant mapping,” in 
+
+Proc. CVPR
+
+, 2006, pp. 1735–1742.
+
+[11] ↑ J. Bromley, I. Guyon, Y. LeCun, E. Säckinger, and R. Shah, “Signature verification using a Siamese time delay Neural Network,” in 
+
+Proc. NeurIPS
+
+, vol. 6, 1993.
+
+[12] ↑ E. Eldele, M. Ragab, Z. Chen, M. Wu, C. K. Kwoh, X. Li, and C. Guan, “Time-series representation learning via temporal and contextual contrasting,” in 
+
+Proc. IJCAI
+
+, 2021, pp. 2352–2359.
+
+[13] ↑ Y. Ozyurt, S. Feuerriegel, and C. Zhang, “Contrastive learning for unsupervised domain adaptation of time series,” in 
+
+Proc. ICLR
+
+, 2023.
+
+[14] ↑ R. Hamaguchi, K. Sakurada, and R. Nakamura, “Rare event detection usingdisentangled representation learning,” in 
+
+Proc. CVPR
+
+, 2019, pp. 9319–9327.
+
+[15] ↑ H. Keurti, H.-R. Pan, M. Besserve, B. F. Grewe, and B. Schölkopf, “Homomorphism Autoencoder–learning group structured representations from observed transitions,” in 
+
+Proc. ICML
+
+, 2023, pp. 16 190–16 215.
+
+[16] ↑ D. Hafner, J. Pasukonis, J. Ba, and T. P. Lillicrap, “Mastering diverse domains through world models,” 
+
+CoRR
+
+, vol. abs/2301.04104, 2023.
+
+[17] ↑ J. Lin, Y. Du, O. Watkins, D. Hafner, P. Abbeel, D. Klein, and A. Dragan, “Learning to model the world with language,” in 
+
+Proc. ICML
+
+, 2024.
+
+[18] ↑ J. Bruce, M. D. Dennis, A. Edwards, J. Parker-Holder, Y. Shi, E. Hughes, M. Lai, A. Mavalankar, R. Steigerwald, C. Apps 
+
+et al.
+
+, “Genie: Generative interactive environments,” in 
+
+Proc. ICML
+
+, 2024.
+
+[19] ↑ E. Alonso, A. Jelley, V. Micheli, A. Kanervisto, A. J. Storkey, T. Pearce, and F. Fleuret, “Diffusion for world modeling: Visual details matter in atari,” 
+
+Proc. NeurIPS
+
+, vol. 37, pp. 58 757–58 791, 2024.
+
+[20] ↑ O. Biza, R. Platt, J.-W. van de Meent, L. L. Wong, and T. Kipf, “Binding actions to objects in world models,” in 
+
+Proc. ICML
+
+, 2022.
+
+[21] ↑ C. Gumbsch, N. Sajid, G. Martius, and M. V. Butz, “Learning hierarchical world models with adaptive temporal abstractions from discrete latent dynamics,” in 
+
+Proc. ICLR
+
+, 2023.
+
+[22] ↑ Y. Chandak, G. Theocharous, J. Kostas, S. Jordan, and P. Thomas, “Learning action representations for reinforcement learning,” in 
+
+Proc. ICML
+
+, 2019, pp. 941–950.
+
+[23] ↑ G. Tennenholtz and S. Mannor, “The natural language of actions,” in 
+
+Proc. ICML
+
+, 2019, pp. 6196–6205.
+
+[24] ↑ X. Chen, Z. Liu, S. Xie, and K. He, “Deconstructing denoising diffusion models for self-supervised learning,” in 
+
+Proc. ICLR
+
+, 2025.
+
+[25] ↑ M. Assran, Q. Duval, I. Misra, P. Bojanowski, P. Vincent, M. Rabbat, Y. LeCun, and N. Ballas, “Self-supervised learning from images with a joint-embedding predictive architecture,” in 
+
+Proc. CVPR
+
+, 2023, pp. 15 619–15 629.
+
+[26] ↑ A. Bardes and et al., “Revisiting feature prediction for learning visual representations from video,” 
+
+TMLR
+
+, 2024.
+
+[27] ↑ Q. Ma, J. Zheng, S. Li, and G. W. Cottrell, “Learning representations for time series clustering,” in 
+
+Proc. NeurIPS
+
+, vol. 32, 2019.
+
+[28] ↑ T. Stadelmann, V. Tolkachev, B. Sick, J. Stampfli, and O. Dürr, “Beyond ImageNet: deep learning in industrial practice,” 
+
+Applied data science: lessons learned for the data-driven business
+
+, pp. 205–232, 2019.
+
+[29] ↑ P. Trirat, Y. Shin, J. Kang, Y. Nam, J. Na, M. Bae, J. Kim, B. Kim, and J.-G. Lee, “Universal time-series representation learning,” 
+
+arXiv preprint arXiv:2401.03717
+
+, 2024.
+
+[30] ↑ F. Locatello, S. Bauer, M. Lucic, G. Raetsch, S. Gelly, B. Schölkopf, and O. Bachem, “Challenging common assumptions in the unsupervised learning of disentangled representations,” in 
+
+Proc. ICML
+
+, 2019, pp. 4114–4124.
+
+[31] ↑ Y. Li, Z. Chen, D. Zha, M. Du, D. Zhang, H. Chen, and X. Hu, “Learning disentangled representations for time series,” 
+
+arXiv preprint arXiv:2105.08179
+
+, 2021.
+
+[32] ↑ P. Zhao, J. Zhang, Z. Dong, J. Huang, H. Zhou, J. Fu, and L.-S. Turng, “Intelligent injection molding on sensing, optimization, and control,” 
+
+Advances in Polymer Technology
+
+, vol. 2020, no. 1, p. 7023616, 2020.
+
+[33] ↑ R. Vaculik and M. Mützel, “Process monitoring with cavity pressure,” available online: 
+
+https://www.kistler.com/INT/en/monitoring-of-medical-device-plastic-injection-molding/C00000042
+
+https://www.kistler.com/INT/en/monitoring-of-medical-device-plastic-injection-molding/C00000042
+
+, 2020.
+
+[34] ↑ “Process monitoring and control system ComoNeo for injection molding,” available online: 
+
+https://www.kistler.com/DE/en/cp/process-monitoring-and-control-system-comoneo-5887a/P0000382
+
+https://www.kistler.com/DE/en/cp/process-monitoring-and-control-system-comoneo-5887a/P0000382
+
+, 2023.
+
+[35] ↑ D. Kingma and J. Ba, “Adam: A method for stochastic optimization,” in 
+
+Proc. ICLR
+
+, 2015.
+
+Report Issue
+
+Report GitHub Issue
+
+Title: Content selection saved. Describe the issue below: Description:
+
+Submit without GitHub Submit in GitHub
+
+Report Issue for Selection
+
+Generated by 
+
+L A T E xml
+
+https://math.nist.gov/~BMiller/LaTeXML/
+
+Instructions for reporting errors
+
+We are continuing to improve HTML versions of papers, and your feedback helps enhance accessibility and mobile support. To report errors in the HTML that will help us improve conversion and rendering, choose any of the methods listed below:
+
+Click the "Report Issue" button.
+
+Open a report feedback form via keyboard, use " 
+
+Ctrl + ?
+
+".
+
+Make a text selection and click the "Report Issue for Selection" button near your cursor.
+
+You can use Alt+Y to toggle on and Alt+Shift+Y to toggle off accessible reporting links at each section.
+
+Our team has already identified 
+
+the following issues
+
+https://github.com/arXiv/html_feedback/issues
+
+. We appreciate your time reviewing and reporting rendering errors we may not have found yet. Your efforts will help us improve the HTML versions for all readers, because disability should not be a barrier to accessing research. Thank you for your continued support in championing open access for all.
+
+Have a free development cycle? Help support accessibility at arXiv! Our collaborators at LaTeXML maintain a 
+
+list of packages that need conversion
+
+https://github.com/brucemiller/LaTeXML/wiki/Porting-LaTeX-packages-for-LaTeXML
+
+, and welcome 
+
+developer contributions
+
+https://github.com/brucemiller/LaTeXML/issues
+
+.

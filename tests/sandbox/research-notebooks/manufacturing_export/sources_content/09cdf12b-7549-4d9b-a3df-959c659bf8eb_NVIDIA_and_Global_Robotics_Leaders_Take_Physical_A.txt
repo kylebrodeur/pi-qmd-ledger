@@ -1,0 +1,1015 @@
+NVIDIA and Global Robotics Leaders Take Physical AI to the Real World | NVIDIA Newsroom 
+
+https://www.nvidia.com/en-us
+
+ 
+
+https://nvidianews.nvidia.com/search
+
+PLATFORMS
+
+ Autonomous Machines
+
+https://www.nvidia.com/en-us/autonomous-machines/
+
+ Cloud & Data Center
+
+https://www.nvidia.com/en-us/data-center/
+
+ Deep Learning & Ai
+
+https://www.nvidia.com/en-us/deep-learning-ai/
+
+ Design & Pro Visualization
+
+https://www.nvidia.com/en-us/design-visualization/
+
+ Healthcare
+
+https://www.nvidia.com/en-us/healthcare/
+
+ High Performance Computing
+
+https://www.nvidia.com/en-us/high-performance-computing/
+
+ Self-Driving Cars
+
+https://www.nvidia.com/en-us/self-driving-cars/
+
+ Gaming & Entertainment
+
+https://www.nvidia.com/en-us/geforce/
+
+other links
+
+Developers
+
+https://developer.nvidia.com/
+
+Industries
+
+https://www.nvidia.com/en-us/industries/
+
+Shop
+
+https://www.nvidia.com/en-us/shop/
+
+Drivers
+
+https://www.nvidia.com/Download/index.aspx?lang=en-us
+
+Support
+
+https://www.nvidia.com/object/support.html
+
+About NVIDIA
+
+https://www.nvidia.com/en-us/about-nvidia/
+
+View All Products
+
+https://www.nvidia.com/page/products.html
+
+GPU TECHNOLOGY CONFERENCE
+
+https://www.nvidia.com/en-us/gtc/
+
+NVIDIA Blog
+
+https://blogs.nvidia.com/
+
+Community
+
+https://www.nvidia.com/object/nvidia-communities.html
+
+Careers
+
+https://www.nvidia.com/en-us/about-nvidia/careers/
+
+TECHNOLOGIES
+
+https://www.nvidia.com/en-us/technologies/
+
+Newsroom
+
+https://nvidianews.nvidia.com/
+
+NVIDIA in Brief
+
+https://nvidianews.nvidia.com/_gallery/get_file/?file_id=62acc991b3aed36cab48537d&ir=1&file_ext=.pdf
+
+Exec Bios
+
+https://nvidianews.nvidia.com/bios
+
+NVIDIA Blog
+
+https://blogs.nvidia.com/
+
+Podcast
+
+https://blogs.nvidia.com/ai-podcast/
+
+Media Assets
+
+https://nvidianews.nvidia.com/multimedia
+
+In the News
+
+https://nvidianews.nvidia.com/in-the-news
+
+Press Contacts
+
+https://nvidianews.nvidia.com/contacts
+
+Online Press Kits
+
+https://nvidianews.nvidia.com/online-press-kit
+
+NVIDIA in Brief
+
+https://nvidianews.nvidia.com/_gallery/get_file/?file_id=62acc991b3aed36cab48537d&ir=1&file_ext=.pdf
+
+Exec Bios
+
+https://nvidianews.nvidia.com/bios
+
+NVIDIA Blog
+
+https://blogs.nvidia.com/
+
+Podcast
+
+https://blogs.nvidia.com/ai-podcast/
+
+Media Assets
+
+https://nvidianews.nvidia.com/multimedia
+
+In the News
+
+https://nvidianews.nvidia.com/in-the-news
+
+Press Contacts
+
+https://nvidianews.nvidia.com/contacts
+
+Online Press Kits
+
+https://nvidianews.nvidia.com/online-press-kit
+
+Press Release
+
+Share
+
+Tweet Twitter
+
+http://twitter.com/share?text=NVIDIA%20and%20Global%20Robotics%20Leaders%20Take%20Physical%20AI%20to%20the%20Real%20World&url=https://nvidianews.nvidia.com/news/nvidia-and-global-robotics-leaders-take-physical-ai-to-the-real-world
+
+Share LinkedIn
+
+https://www.linkedin.com/shareArticle?mini=true&url=https://nvidianews.nvidia.com/news/nvidia-and-global-robotics-leaders-take-physical-ai-to-the-real-world
+
+Share Facebook
+
+http://www.facebook.com/sharer.php?u=https://nvidianews.nvidia.com/news/nvidia-and-global-robotics-leaders-take-physical-ai-to-the-real-world
+
+[Email](mailto:?subject=NVIDIA and Global Robotics Leaders Take Physical AI to the Real World=https://nvidianews.nvidia.com/news/nvidia-and-global-robotics-leaders-take-physical-ai-to-the-real-world)
+
+NVIDIA and Global Robotics Leaders Take Physical AI to the Real World
+
+March 16, 2026
+
+News Summary:
+
+Physical AI leaders across robot brain developers, industrial, and surgical robot giants and humanoid pioneers including ABB Robotics, AGIBOT, Agility, CMR Surgical, FANUC, Figure, Hexagon Robotics, KUKA, Medtronic, Skild AI, Universal Robots, World Labs and YASKAWA are building on NVIDIA technology to develop and deploy physical AI at scale.
+
+NVIDIA unveils new NVIDIA Cosmos world models, NVIDIA Isaac simulation frameworks and NVIDIA Isaac GR00T N models to accelerate the transition to intelligent robotics.
+
+Strategic ecosystem partnerships are transforming platform integrations into real-world industrial impact, from high-precision electronics assembly and autonomous construction deployment to AI-driven automation for manufacturers of all sizes.
+
+GTC—
+
+ NVIDIA is partnering with the global robotics ecosystem — including leading robot brain developers, industrial robot giants and humanoid pioneers — to power production-scale physical AI. NVIDIA also unveiled new 
+
+NVIDIA Isaac™ simulation frameworks
+
+https://developer.nvidia.com/isaac
+
+ and new 
+
+NVIDIA Cosmos™
+
+https://www.nvidia.com/en-us/ai/cosmos/
+
+ and 
+
+NVIDIA Isaac GR00T
+
+https://developer.nvidia.com/isaac/gr00t
+
+ open models for the industry to develop, train and deploy the next generation of intelligent robots.
+
+Industry leaders building on the NVIDIA platform include 
+
+ABB Robotics
+
+https://new.abb.com/news/detail/134030/prsrl-abb-robotics-partners-with-nvidia-to-deliver-industrial-grade-physical-ai-at-scale#:~:text=ad_personalization-,ABB%20Robotics%20Partners%20with%20NVIDIA%20to%20Deliver,Grade%20Physical%20AI%20at%20Scale&text=ABB%20Robotics%20announced%20today%20it,in%20real%20world%20robotics%20applications.
+
+, AGIBOT, 
+
+Agility
+
+http://www.agilityrobotics.com/content/agility-and-ai
+
+, 
+
+FANUC
+
+https://www.fanucamerica.com/news-resources/fanuc-america-press-releases/2026/03/16/fanuc-accelerates-physical-ai-in-industrial-robotics-leveraging-nvidia-technologies
+
+, Figure, 
+
+Hexagon Robotics
+
+https://robotics.hexagon.com/industrial-autonomy-hexagon-robotics-nvidia-physical-ai
+
+, KUKA, Skild AI, 
+
+Universal Robots
+
+https://www.universal-robots.com/blog/imitation-learning-reshaping-physical-ai-industrial-environments/
+
+, World Labs and YASKAWA.
+
+“Physical AI has arrived — every industrial company will become a robotics company,” said Jensen Huang, founder and CEO of NVIDIA. “NVIDIA's full-stack platform — spanning computing, open models and software frameworks — is the foundation for the robotics industry, uniting a worldwide ecosystem to build the intelligent machines that will power the next generation of factories, logistics, transportation and infrastructure.”
+
+Validating the World's Largest Robotic Fleets
+
+As industrial robotics becomes more AI driven, manufacturers need physically accurate, high-fidelity simulation to design, test and optimize systems before deployment.
+
+With a global install base exceeding 2 million robots, FANUC, ABB Robotics, YASKAWA and KUKA are integrating 
+
+NVIDIA Omniverse
+
+https://www.nvidia.com/en-us/omniverse/
+
+ ™ libraries and NVIDIA Isaac simulation frameworks into their virtual commissioning solutions to develop and validate complex robot applications and entire production lines through physically accurate digital twins. To power advanced intelligence on the production line, the companies are integrating 
+
+NVIDIA Jetson™
+
+https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/
+
+ modules into their controllers for real-time AI inference at the edge.
+
+Building Robot Brains for Any Embodiment
+
+Robotics is evolving from task-specific machines to adaptable generalist-specialist systems that maintain the precision and reliability required for industrial-grade deployment. To achieve this, robots need humanlike reasoning and the ability to perceive, decide and act autonomously.
+
+Leading developers such as 
+
+FieldAI
+
+http://www.fieldai.com/news/fieldai-accelerates-industrial-customers-adoption-of-ai-in-collaboration-with-nvidia
+
+ and Skild AI are building generalized robot brains using NVIDIA Cosmos world models for data generation and Isaac simulation frameworks to validate policies in simulation, enabling any robot to master new tasks with minimal retraining. World Labs is using 
+
+Isaac Sim™
+
+https://developer.nvidia.com/isaac/sim
+
+ to validate its generative world models, while Generalist AI is using Cosmos to explore generating synthetic data.
+
+NVIDIA today announced Cosmos 3, the first world foundation model unifying synthetic world generation, vision reasoning and action simulation to accelerate the development of generalized robot intelligence for complex environments.
+
+Powering the Next Generation of Humanoid Robots
+
+Building 
+
+humanoid robots
+
+https://www.nvidia.com/en-us/glossary/humanoid-robot/
+
+ is one of robotics' greatest challenges. Replicating human mobility, dexterity and reasoning requires tightly integrating advanced AI, perception and real-time control into a safe, reliable and autonomous system.
+
+Leaders including 
+
+1X
+
+http://1x.tech/discover/nvidia-gtc-2026
+
+, AGIBOT, Agility, Agile Robots, Boston Dynamics, Figure, 
+
+Hexagon Robotics
+
+https://robotics.hexagon.com/industrial-autonomy-hexagon-robotics-nvidia-physical-ai
+
+, 
+
+Humanoid
+
+https://thehumanoid.ai/humanoid-brings-voice-controlled-robotic-fulfillment-powered-by-kinetiqto-life-at-nvidia-gtc/
+
+, Mentee and NEURA Robotics are building the next generation of humanoids using Cosmos world models, Isaac Sim and Isaac Lab to accelerate the development and validation of their robots.
+
+NVIDIA today introduced 
+
+Isaac Lab 3.0
+
+https://developer.nvidia.com/isaac/lab
+
+ in early access, enabling faster, large-scale robot learning on NVIDIA DGX™-class infrastructure. Built on the new 
+
+Newton physics engine
+
+https://developer.nvidia.com/newton-physics
+
+ 1.0 and the 
+
+NVIDIA PhysX
+
+https://developer.nvidia.com/physx-sdk
+
+ ® software development kit, it adds multiphysics simulation and improved support for complex, dexterous manipulation.
+
+AGIBOT, Humanoid, LG Electronics, NEURA Robotics and 
+
+Noble Machines
+
+https://www.noblemachines.ai/blog/noble-machines-and-schaeffler-collaborate-to-advance-general-purpose-robots-realism-with-newton
+
+ are also adopting NVIDIA Isaac GR00T N models to accelerate industrial deployments of their humanoids. NVIDIA announced 
+
+GR00T N1.7
+
+https://huggingface.co/nvidia/GR00T-N1.7-3B
+
+ is now available in early access with commercial licensing, bringing generalized robot skills including advanced dexterous control to production-ready robot deployments.
+
+In addition, during his GTC keynote, Huang previewed GR00T N2, a next-generation robot foundation model based on 
+
+DreamZero
+
+https://dreamzero0.github.io/
+
+ research. Built on a new world action model architecture, the model helps robots succeed at new tasks in new environments more than twice as often as leading vision language action models. Slated to be available by the end of the year, GR00T N2 currently ranks No. 1 on MolmoSpaces and RoboArena for generalist robot policies.
+
+These systems are powered by the 
+
+NVIDIA Jetson Thor™ robotic computing platform
+
+https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/
+
+, enabling developers to move from simulation training to real-world deployment with greater speed, intelligence and reliability.
+
+Expanding Physical AI to Healthcare Robotics
+
+Healthcare is a defining opportunity for physical AI but deploying autonomous systems across surgery, imaging and hospitals demands infrastructure built for the highest standards of safety and regulatory rigor.
+
+CMR Surgical is using Cosmos-H simulation to train and validate robotic intelligence for its Versius surgical system prior to clinical deployment. Johnson & Johnson MedTech is using Isaac Sim- and Cosmos-based post-training workflows to train and validate systems for the Monarch Platform for Urology. Medtronic is exploring 
+
+NVIDIA IGX Thor
+
+https://www.nvidia.com/en-us/edge-computing/products/igx/
+
+ ™ to deliver mission-critical precision and functional safety in surgical robotic systems.
+
+A Global Catalyst for Robotic Innovation
+
+By building an open and integrated platform for designing, training, testing and deploying physical AI, NVIDIA is fostering collaboration in the robotics ecosystem, essential to scale deployments in the real world.
+
+These strategic collaborations across industry leaders are already translating platform integration into real-world impact.
+
+Skild AI
+
+https://www.skild.ai/blogs/reindustrial-revolution
+
+ is partnering with ABB Robotics and Universal Robots to deploy its generalized robot intelligence across different industries and tasks. By embedding a shared intelligence layer into widely deployed industrial and collaborative systems, manufacturers can extend automation into more dynamic and variable applications without building task-specific code for every workflow. Simultaneously, Skild AI is partnering with Foxconn on high-precision assembly for NVIDIA Blackwell production lines, enabling Foxconn's AI-driven dual-arm manipulators to master the industry's most complex manufacturing tasks.
+
+Lightwheel
+
+https://lightwheel.ai/media/simready
+
+ is codeveloping and calibrating the Newton physics engine to enable Samsung's assembly robots to master intricate cable handling in simulation, delivering higher precision and faster assembly lines.
+
+PTC
+
+https://www.ptc.com/en
+
+ is 
+
+announcing a new robotics design-to-simulation workflow
+
+https://www.ptc.com/en/news/2026/ptc-announces-onshape-nvidia-isaac-sim-workflow
+
+ from its cloud-native 
+
+Onshape
+
+http://www.onshape.com/
+
+ computer-aided design (CAD) and product data management platform to NVIDIA Isaac Sim, creating a seamless CAD-to-OpenUSD bridge that will enable engineering teams like FANUC America Corporation and Fauna Robotics to design and validate their robotic systems within physically accurate digital twins.
+
+WORKR
+
+https://www.workr-labs.com/post/workr-to-show-25-hr-robotic-worker-in-action-at-nvidia-gtc-2026-booth
+
+ is integrating its AI platform with ABB Robotics industrial robots, using NVIDIA Omniverse libraries as part of its WorkrCore to train a robotic workforce that can be deployed by small- and medium-sized manufacturers in minutes, without programming knowledge.
+
+KION Group
+
+https://www.kiongroup.com/en/News-Stories/Press-Releases/
+
+, the supply chain solutions company, is working with NVIDIA and Accenture to advance autonomous warehouse solutions. Using Omniverse and a physical AI-powered digital twin and systems architecture pioneered by Accenture, KION engineers can create large-scale, physics-accurate warehouse digital twins to train and test fleets of NVIDIA Jetson-based autonomous forklifts for GXO, the world's largest pure-play contract logistics provider.
+
+Microsoft Azure
+
+https://blogs.microsoft.com/blog/2026/03/16/microsoft-at-nvidia-gtc-new-solutions-for-microsoft-foundry-azure-ai-infrastructure-and-physical-ai/
+
+ and Nebius are integrating the NVIDIA Physical AI Data Factory blueprint to enable scalable, agent-driven synthetic data generation for their developers, including FieldAI, Teradyne Robotics, 
+
+Hexagon Robotics
+
+https://robotics.hexagon.com/industrial-autonomy-hexagon-robotics-nvidia-physical-ai
+
+ on Azure, and RoboForce on Nebius. 
+
+CoreWeave
+
+https://wandb.ai/wandb_fc/nvidia-blueprint/reports/Robots-dream-in-simulation--VmlldzoxNjExNzU0NQ
+
+ is integrating NVIDIA Isaac Lab to build robot learning pipelines, while Alibaba Cloud is integrating NVIDIA's entire physical AI stack into its Platform for AI to accelerate end-to-end robotics development.
+
+Kamino, a GPU-accelerated physics simulator built by 
+
+Disney
+
+http://disneyexperiences.com/nvidia-gtc-olaf-robotic-character
+
+ on the NVIDIA Warp framework and integrated into Newton, enables the training of robot policies for Disney's Olaf and BDX Droids — allowing Olaf to learn to manage its own heat and reduce impact noise, and enabling BDX Droids to navigate complex environments. In his GTC keynote, Huang was joined by Disney's Olaf ahead of his debut at Disneyland Paris on March 29.
+
+Helping Tomorrow's Physical AI Pioneers Get Off the Ground
+
+NVIDIA is committed to ensuring that the tools for physical AI are accessible to every innovator, from early-stage startups to the global open source community.
+
+Through the NVIDIA Inception program, a global startups incubator with over 40,000 members, NVIDIA provides robotics pioneers with a dedicated entry point to NVIDIA's open physical AI stack. Inception members like Bedrock Robotics, Dexterity AI, Flexion, Lightwheel, RIVR, Standard Bots, 
+
+Vention
+
+https://vention.io/press
+
+ and World Labs get access to technical guidance and high-performance computing resources, as well as connections to key partners and customers across the robotics ecosystem.
+
+NVIDIA has also partnered with Hugging Face to integrate Isaac and GR00T into the LeRobot open source framework, connecting NVIDIA's 2 million robotics developers with Hugging Face's 13 million AI builders worldwide to accelerate the development of open source robotics.
+
+Watch the
+
+ 
+
+GTC keynote
+
+https://www.nvidia.com/gtc/keynote/
+
+ 
+
+from Huang and explore
+
+ 
+
+physical AI
+
+https://www.nvidia.com/gtc/sessions/physical-ai-days/
+
+,
+
+ 
+
+robotics
+
+https://www.nvidia.com/gtc/sessions/robotics/
+
+ 
+
+and
+
+ 
+
+vision AI
+
+https://www.nvidia.com/gtc/sessions/computer-vision-and-video-analytics/
+
+ 
+
+sessions.
+
+Featured image courtesy of ABB Robotics (top left), Skild AI (bottom left), Humanoid (top right) and Universal Robotics (bottom right).
+
+About NVIDIA
+
+NVIDIA
+
+https://www.nvidia.com/
+
+ (NASDAQ: NVDA) is the world leader in AI and accelerated computing.
+
+Certain statements in this press release including, but not limited to, statements as to: every industrial company becoming a robotics company; NVIDIA's full-stack platform—spanning computing, open models, and software frameworks uniting a worldwide ecosystem to build the intelligent machines that will power the next generation of factories, logistics, transportation, and infrastructure; the benefits, impact, performance, and availability of NVIDIA's products, services, and technologies; expectations with respect to NVIDIA's third party arrangements, including with its collaborators and partners; expectations with respect to technology developments; expectations with respect to AI and related industries; and other statements that are not historical facts are forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended, which are subject to the “safe harbor” created by those sections based on management's beliefs and assumptions and on information currently available to management and are subject to risks and uncertainties that could cause results to be materially different than expectations. Important factors that could cause actual results to differ materially include: global economic and political conditions; NVIDIA's reliance on third parties to manufacture, assemble, package and test NVIDIA's products; the impact of technological development and competition; development of new products and technologies or enhancements to NVIDIA's existing product and technologies; market acceptance of NVIDIA's products or NVIDIA's partners' products; design, manufacturing or software defects; changes in consumer preferences or demands; changes in industry standards and interfaces; unexpected loss of performance of NVIDIA's products or technologies when integrated into systems; NVIDIA's ability to realize the potential benefits of business investments or acquisitions; and changes in applicable laws and regulations, as well as other factors detailed from time to time in the most recent reports NVIDIA files with the Securities and Exchange Commission, or SEC, including, but not limited to, its annual report on Form 10-K and quarterly reports on Form 10-Q. Copies of reports filed with the SEC are posted on the company's website and are available from NVIDIA without charge. These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances.
+
+Many of the products and features described herein remain in various stages and will be offered on a when-and-if-available basis. The statements above are not intended to be, and should not be interpreted as a commitment, promise, or legal obligation, and the development, release, and timing of any features or functionalities described for our products is subject to change and remains at the sole discretion of NVIDIA. NVIDIA will have no liability for failure to deliver or delay in the delivery of any of the products, features or functions set forth herein.
+
+© 2026 NVIDIA Corporation. All rights reserved. NVIDIA, the NVIDIA logo, NVIDIA Cosmos, NVIDIA DGX, NVIDIA IGX Thor, NVIDIA Isaac, NVIDIA Isaac Sim, NVIDIA Jetson, NVIDIA Jetson Thor, NVIDIA Omniverse and PhysX are trademarks and/or registered trademarks of NVIDIA Corporation in the U.S. and other countries. Other company and product names may be trademarks of the respective companies with which they are associated. Features, pricing, availability and specifications are subject to change without notice.
+
+Media Contacts
+
+Quentin Nolibois
+
+Corporate Communications
+
+NVIDIA Corporation
+
+press@nvidia.com
+
+mailto:press@nvidia.com
+
+Downloads
+
+Download Press Release
+
+https://nvidianews.nvidia.com/_gallery/download_pdf/69b86b823d6332366cc17dcd/
+
+Download Attachments
+
+https://nvidianews.nvidia.com/_gallery/get_files?page_id=69b86b823d6332366cc17dcd&include=pdf
+
+More Images
+
+NVIDIA and Global Robotics Leaders Take Physical AI to the Real World
+
+Download / File Link
+
+https://nvidianews.nvidia.com/_gallery/get_file/?file_id=69b739943d6332360d74de39
+
+ 
+
+https://nvidianews.nvidia.com/_gallery/get_file/?file_id=69b739943d6332360d74de39
+
+NVIDIA and Global Robotics Leaders Take Physical AI to the Real World
+
+Download / File Link
+
+https://nvidianews.nvidia.com/_gallery/get_file/?file_id=69b739943d6332360d74de39
+
+ 
+
+ 
+
+https://nvidianews.nvidia.com/_gallery/get_file/?file_id=69b739943d6332360d74de39
+
+More News
+
+NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion
+
+https://nvidianews.nvidia.com/news/nvidia-ai-ecosystem-expands-as-marvell-joins-forces-through-nvlink-fusion
+
+March 31, 2026
+
+ 
+
+NVIDIA and Emerald AI Join Leading Energy Companies to Pioneer Flexible AI Factories as Grid Assets
+
+https://nvidianews.nvidia.com/news/nvidia-and-emerald-ai-join-leading-energy-companies-to-pioneer-flexible-ai-factories-as-grid-assets
+
+March 23, 2026
+
+ 
+
+NVIDIA and Global Industrial Software Giants Bring Design, Engineering and Manufacturing Into the AI Era
+
+https://nvidianews.nvidia.com/news/nvidia-and-global-industrial-software-giants-bring-design-engineering-and-manufacturing-into-the-ai-era
+
+March 16, 2026
+
+ 
+
+Hyundai Motor, Kia and NVIDIA Expand Strategic Partnership for Next-Generation Autonomous Driving Technology
+
+https://nvidianews.nvidia.com/news/hyundai-motor-kia-autonomous-driving
+
+March 16, 2026
+
+ 
+
+NVIDIA Announces Open Physical AI Data Factory Blueprint to Accelerate Robotics, Vision AI Agents and Autonomous Vehicle Development
+
+https://nvidianews.nvidia.com/news/nvidia-announces-open-physical-ai-data-factory-blueprint-to-accelerate-robotics-vision-ai-agents-and-autonomous-vehicle-development
+
+March 16, 2026
+
+About NVIDIA
+
+NVIDIA
+
+https://www.nvidia.com/
+
+ (NASDAQ: NVDA) is the world leader in AI and accelerated computing.
+
+Certain statements in this press release including, but not limited to, statements as to: every industrial company becoming a robotics company; NVIDIA's full-stack platform—spanning computing, open models, and software frameworks uniting a worldwide ecosystem to build the intelligent machines that will power the next generation of factories, logistics, transportation, and infrastructure; the benefits, impact, performance, and availability of NVIDIA's products, services, and technologies; expectations with respect to NVIDIA's third party arrangements, including with its collaborators and partners; expectations with respect to technology developments; expectations with respect to AI and related industries; and other statements that are not historical facts are forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended, which are subject to the “safe harbor” created by those sections based on management's beliefs and assumptions and on information currently available to management and are subject to risks and uncertainties that could cause results to be materially different than expectations. Important factors that could cause actual results to differ materially include: global economic and political conditions; NVIDIA's reliance on third parties to manufacture, assemble, package and test NVIDIA's products; the impact of technological development and competition; development of new products and technologies or enhancements to NVIDIA's existing product and technologies; market acceptance of NVIDIA's products or NVIDIA's partners' products; design, manufacturing or software defects; changes in consumer preferences or demands; changes in industry standards and interfaces; unexpected loss of performance of NVIDIA's products or technologies when integrated into systems; NVIDIA's ability to realize the potential benefits of business investments or acquisitions; and changes in applicable laws and regulations, as well as other factors detailed from time to time in the most recent reports NVIDIA files with the Securities and Exchange Commission, or SEC, including, but not limited to, its annual report on Form 10-K and quarterly reports on Form 10-Q. Copies of reports filed with the SEC are posted on the company's website and are available from NVIDIA without charge. These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances.
+
+Many of the products and features described herein remain in various stages and will be offered on a when-and-if-available basis. The statements above are not intended to be, and should not be interpreted as a commitment, promise, or legal obligation, and the development, release, and timing of any features or functionalities described for our products is subject to change and remains at the sole discretion of NVIDIA. NVIDIA will have no liability for failure to deliver or delay in the delivery of any of the products, features or functions set forth herein.
+
+© 2026 NVIDIA Corporation. All rights reserved. NVIDIA, the NVIDIA logo, NVIDIA Cosmos, NVIDIA DGX, NVIDIA IGX Thor, NVIDIA Isaac, NVIDIA Isaac Sim, NVIDIA Jetson, NVIDIA Jetson Thor, NVIDIA Omniverse and PhysX are trademarks and/or registered trademarks of NVIDIA Corporation in the U.S. and other countries. Other company and product names may be trademarks of the respective companies with which they are associated. Features, pricing, availability and specifications are subject to change without notice.
+
+Media Contacts
+
+Global contacts for media inquiries.
+
+All Contacts
+
+https://nvidianews.nvidia.com/contacts
+
+Stay Informed
+
+Newsroom updates delivered to your inbox.
+
+Subscribe
+
+https://nvidianews.nvidia.com/alerts
+
+Corporate Information
+
+About NVIDIA
+
+https://www.nvidia.com/en-us/about-nvidia/
+
+Corporate Overview
+
+https://www.nvidia.com/en-us/about-nvidia/ai-computing/
+
+Technologies
+
+https://www.nvidia.com/en-us/technologies/
+
+NVIDIA Research
+
+https://www.nvidia.com/en-us/research/
+
+Investors
+
+https://investor.nvidia.com/home/default.aspx
+
+Social Responsibility
+
+https://www.nvidia.com/en-us/csr/
+
+NVIDIA Foundation
+
+https://www.nvidia.com/en-us/foundation/
+
+Get Involved
+
+Forums
+
+https://www.nvidia.com/en-us/forums/
+
+Careers
+
+https://www.nvidia.com/en-us/about-nvidia/careers/
+
+Developer Home
+
+https://developer.nvidia.com/
+
+Join the Developer Program
+
+https://developer.nvidia.com/join
+
+NVIDIA Partner Network
+
+https://www.nvidia.com/en-us/about-nvidia/partners/
+
+NVIDIA Inception
+
+https://www.nvidia.com/en-us/deep-learning-ai/startups/
+
+Resources for Venture Capitalists
+
+https://www.nvidia.com/en-us/deep-learning-ai/startups/venture-capital/
+
+Venture Capital (NVentures)
+
+https://www.nventures.ai/
+
+Technical Training
+
+https://www.nvidia.com/en-us/training/
+
+Training for IT Professionals
+
+https://academy.nvidia.com/en/
+
+Professional Services for Data Science
+
+https://www.nvidia.com/en-us/ai-data-science/professional-services/
+
+News & Events
+
+Newsroom
+
+https://nvidianews.nvidia.com/
+
+NVIDIA Blog
+
+https://blogs.nvidia.com/
+
+NVIDIA Technical Blog
+
+https://developer.nvidia.com/blog/
+
+Webinars
+
+https://www.nvidia.com/en-us/about-nvidia/webinar-portal/
+
+Stay Informed
+
+https://www.nvidia.com/en-us/preferences/email-signup/
+
+Events Calendar
+
+https://www.nvidia.com/en-us/events/
+
+NVIDIA GTC
+
+https://www.nvidia.com/en-us/gtc/
+
+NVIDIA On-Demand
+
+https://www.nvidia.com/en-us/on-demand/
+
+ 
+
+Sign Up for NVIDIA News
+
+Subscribe
+
+https://www.nvidia.com/en-us/preferences/email-signup/
+
+Follow NVIDIA 
+
+https://www.facebook.com/NVIDIA
+
+ 
+
+https://twitter.com/nvidia
+
+ 
+
+https://www.linkedin.com/company/nvidia
+
+ 
+
+https://www.instagram.com/nvidia/?hl=en
+
+ 
+
+https://www.youtube.com/user/nvidia
+
+USA - United States
+
+https://www.nvidia.com/en-us/location-selector/
+
+Privacy Policy
+
+https://www.nvidia.com/en-us/about-nvidia/privacy-policy/
+
+Your Privacy Choices
+
+https://www.nvidia.com/en-us/about-nvidia/privacy-center/
+
+Terms of Service
+
+https://www.nvidia.com/en-us/about-nvidia/terms-of-service/
+
+Accessibility
+
+https://www.nvidia.com/en-us/about-nvidia/accessibility/
+
+Corporate Policies
+
+https://www.nvidia.com/en-us/about-nvidia/company-policies/
+
+Product Security
+
+https://www.nvidia.com/en-us/product-security/
+
+Contact
+
+https://www.nvidia.com/en-us/contact/
+
+Copyright © 2026 NVIDIA Corporation
+
+NVIDIA uses cookies to improve your experience on our web site. We and our third-party partners also use cookies and other tools to collect and record information you provide as well as information about your interactions with our websites for performance improvement, analytics, and to assist in marketing efforts. By continuing to use this site or by clicking one of the buttons below, you agree to the use of cookies and other tools as described in our 
+
+Privacy Policy
+
+https://www.nvidia.com/en-us/about-nvidia/privacy-policy/
+
+ and 
+
+Cookie Policy
+
+https://www.nvidia.com/en-us/about-nvidia/cookie-policy/
+
+ (subject to your settings) and accept our 
+
+Terms of Service
+
+https://www.nvidia.com/en-us/about-nvidia/terms-of-service/
+
+ (which contains important waivers). Please see our 
+
+Privacy Policy
+
+https://www.nvidia.com/en-us/about-nvidia/privacy-policy/
+
+ for more information on our privacy practices.
+
+We have detected the Global Privacy Control (GPC) signal and have opted you out of all optional cookies on this site for this browser. You can manage your cookie settings by clicking on "Manage Settings". Please see our 
+
+Cookie Policy
+
+https://www.nvidia.com/en-us/about-nvidia/cookie-policy/
+
+ for more information. To opt out of non-cookie personal information "sales" / "sharing" for targeted advertising purposes, please visit the 
+
+NVIDIA Preference Center
+
+https://www.nvidia.com/en-us/privacy-center/
+
+. Please see our 
+
+Privacy Policy
+
+https://www.nvidia.com/en-us/about-nvidia/privacy-policy/
+
+ for more information on our privacy practices.
+
+We have detected the Global Privacy Control Signal (GPC) and have opted you out of all optional cookies on this browser. You can manage your cookie settings by clicking on "Manage Settings". Please see our 
+
+Cookie Policy
+
+https://www.nvidia.com/en-us/about-nvidia/cookie-policy/
+
+ for more information. We have also opted you out of "sharing"/"sales" of personal information outside of cookies. You can manage these settings in the NVIDIA 
+
+NVIDIA Preference Center
+
+https://www.nvidia.com/en-us/privacy-center/
+
+. Please see our 
+
+Privacy Policy
+
+https://www.nvidia.com/en-us/about-nvidia/privacy-policy/
+
+ for more information.
+
+We have detected the Global Privacy Control Signal (GPC) and have opted you out of all optional cookies on this browser. You can manage your cookie settings by clicking on "Manage Settings". Please see our 
+
+Cookie Policy
+
+https://www.nvidia.com/en-us/about-nvidia/cookie-policy/
+
+ for more information. We have also opted you out of "sharing"/"sales" of personal information outside of cookies which overrides at least one of your previous settings. You can manage them in the 
+
+NVIDIA Preference Center
+
+https://www.nvidia.com/en-us/privacy-center/
+
+. Please see our 
+
+Privacy Policy
+
+https://www.nvidia.com/en-us/about-nvidia/privacy-policy/
+
+ for more information.
+
+Manage Settings
+
+Turn Off Optional Cookies Agree
+
+ 
+
+Cookie Settings
+
+We and our third-party partners (including social media, advertising, and analytics partners) use cookies and other tracking technologies to collect, store, monitor, and process certain information about you when you visit our website. The information collected might relate to you, your preferences, or your device. We use that information to make the site work, analyze performance and traffic on our website, provide a more personalized web experience, and assist in our marketing efforts.
+
+Under certain privacy laws, you have the right to direct us not to "sell" or "share" your personal information for targeted advertising. To opt-out of the "sale" and "sharing" of personal information through cookies, you must opt-out of optional cookies using the toggles below. To opt out of the "sale" and "sharing" of data collected by other means (e.g., online forms) you must also update your data sharing preferences through the 
+
+NVIDIA Preference Center
+
+https://www.nvidia.com/en-us/about-nvidia/privacy-center/
+
+.
+
+Click on the different category headings below to find out more and change the settings according to your preference. You cannot opt out of Required Cookies as they are deployed to ensure the proper functioning of our website (such as prompting the cookie banner and remembering your settings, etc.). By clicking "Save and Accept" or "Decline All" at the bottom, you consent to the use of cookies and other tools as described in our 
+
+Cookie Policy
+
+https://www.nvidia.com/en-us/about-nvidia/cookie-policy/
+
+ in accordance with your settings and accept our 
+
+Terms of Service
+
+https://www.nvidia.com/en-us/about-nvidia/terms-of-service/
+
+ (which contains important waivers). For more information about our privacy practices, please see our 
+
+Privacy Policy
+
+https://www.nvidia.com/en-us/about-nvidia/privacy-policy/
+
+.
+
+Required Cookies
+
+Always Active
+
+These cookies enable core functionality such as security, network management, and accessibility. These cookies are required for the site to function and cannot be turned off.
+
+Cookies Details
+
+Performance Cookies
+
+ 
+
+[-]
+
+Performance Cookies
+
+These cookies are used to provide quantitative measures of our website visitors, such as the number of times you visit, time on page, your mouse movements, scrolling, clicks and keystroke activity on the websites; other browsing, search, or product research behavior; and what brought you to our site. These cookies may store a unique ID so that our system will remember you when you return. Information collected with these cookies is used to measure and find ways to improve website performance.
+
+Cookies Details
+
+Personalization Cookies
+
+ 
+
+[-]
+
+Personalization Cookies
+
+These cookies collect data about how you have interacted with our website to help us improve your web experience, such as which pages you have visited. These cookies may store a unique ID so that our system will remember you when you return. They may be set by us or by third party providers whose services we have added to our pages. These cookies enable us to provide enhanced website functionality and personalization as well as make the marketing messages we send to you more relevant to your interests. If you do not allow these cookies, then some or all of these services may not function properly.
+
+Cookies Details
+
+Advertising Cookies
+
+ 
+
+[-]
+
+Advertising Cookies
+
+These cookies record your visit to our websites, the pages you have visited and the links you have followed to influence the advertisements that you see on other websites. These cookies and the information they collect may be managed by other companies, including our advertising partners, and may be used to build a profile of your interests and show you relevant advertising on other sites. We and our advertising partners will use this information to make our websites and the advertising displayed on it, more relevant to your interests.
+
+Cookies Details
+
+Cookie List
+
+Clear
+
+[-]
+
+ 
+
+checkbox label label
+
+Apply Cancel
+
+Consent Leg.Interest
+
+ 
+
+[-]
+
+checkbox label label
+
+ 
+
+[-]
+
+checkbox label label
+
+ 
+
+[-]
+
+checkbox label label
+
+Decline All Save and Accept
+
+ 
+
+ 
+
+ 

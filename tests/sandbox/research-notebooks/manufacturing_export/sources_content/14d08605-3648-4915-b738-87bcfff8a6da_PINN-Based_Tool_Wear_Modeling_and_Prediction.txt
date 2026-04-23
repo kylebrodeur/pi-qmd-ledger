@@ -1,0 +1,755 @@
+PINN-Based Tool Wear Modeling and Prediction
+
+Home
+
+https://ijettjournal.org/
+
+Articles
+
+https://ijettjournal.org/archive/ijett-v73i11p105
+
+Current Issue
+
+https://ijettjournal.org/current-issue
+
+Archives
+
+https://ijettjournal.org/archive
+
+Authors
+
+https://ijettjournal.org/archive/ijett-v73i11p105
+
+Author Guidelines
+
+https://ijettjournal.org/author-guideline
+
+Policies
+
+https://ijettjournal.org/for-authors/policies
+
+Downloads
+
+https://ijettjournal.org/for-authors/downloads
+
+Editors
+
+https://ijettjournal.org/for-editors
+
+Reviewers
+
+https://ijettjournal.org/for-reviewers
+
+International Journal of Engineering Trends and Technology
+
+Research Article | Open Access | Download PDF
+
+Volume 73 | Issue 11 | Year 2025 | Article Id. IJETT-V73I11P105 | 
+
+DOI : https://doi.org/10.14445/22315381/IJETT-V73I11P105
+
+https://doi.org/10.14445/22315381/IJETT-V73I11P105
+
+PINN-Based Tool Wear Modeling and Prediction
+
+Zhang Yanping, Kho Lee Chin, Wang Zhihan, Zhang Mingqiang and Yuan Dongfeng
+
+Received
+
+Revised
+
+Accepted
+
+Published
+
+24 Jul 2025
+
+24 Oct 2025
+
+03 Nov 2025
+
+25 Nov 2025
+
+Citation :
+
+Zhang Yanping, Kho Lee Chin, Wang Zhihan, Zhang Mingqiang and Yuan Dongfeng, "PINN-Based Tool Wear Modeling and Prediction," 
+
+International Journal of Engineering Trends and Technology (IJETT)
+
+, vol. 73, no. 11, pp. 51-63, 2025. 
+
+Crossref
+
+, 
+
+https://doi.org/10.14445/22315381/IJETT-V73I11P105
+
+https://doi.org/10.14445/22315381/IJETT-V73I11P105
+
+Abstract
+
+To address the challenges of low prediction accuracy and weak physical interpretability in tool wear modeling, this study proposes a Physics-Informed Neural Network (PINN)-based hybrid framework that integrates wear stage perception and physical prior knowledge. Four representative models-Long Short-Term Memory (LSTM), Stepwise Dual-Driven, Basquin-based PINN, and Empirical Formula-PINN (EF-PINN)-are constructed and systematically evaluated using real milling vibration datasets. The EF-PINN embeds empirical wear laws as soft physical constraints within the neural network loss function, enabling a balanced fusion of data-driven adaptability and physical interpretability. Experimental results demonstrate that EF-PINN achieves superior performance in wear trend fitting, nonlinear degradation modeling, and generalization under varying cutting conditions, significantly outperforming traditional data-driven and purely mechanism-based approaches. The main contributions of this work are: (1) Establishing a unified comparative framework for data-, hybrid-, and physics-informed models; (2) Developing an EF-PINN that bridges the gap between empirical knowledge and data-driven learning; and (3) Experimentally validating the effectiveness of integrating physical priors to enhance reliability and confidence. This study provides a new paradigm for high-precision, interpretable, and robust tool wear prediction in intelligent manufacturing.
+
+Keywords
+
+Tool Wear Prediction, PINN, LSTM, Basqui, Intelligent manufancturing.
+
+References
+
+[1] Luo Huan, Zhang Dinghua, and Luo Ming, “Tool Wear and Remaining Useful Life Estimation of Difficult-to-Machine Aerospace Alloys: A Review,” China Mechanical Engineering, vol. 32, no. 22, pp. 2647-2666, 202l.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.3969/j.issn.1004-132X.2021.22.001
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Tool+Wear+and+Remaining+Useful+Life+Estimation+of+Difficult-to-Machine+Aerospace+Alloys%3A+A+Review&btnG=
+
+] [ 
+
+Publisher Link
+
+https://d.wanfangdata.com.cn/periodical/CiFQZXJpb2RpY2FsQ0hJU29scjlTMjAyNTEwMjEwOTUwNDYSD3pnanhnYzIwMjEyMjAwMRoIMm9zdnN6aDI%253D
+
+]
+
+[2] P. Wan, Y.G. Li, and J.Q. Hua et al., “Accurate Prediction Method of Tool Wear Under Varying Cutting Conditions Based on Meta Learning and PINN,” Journal of Nanjing University of Aeronautics & Astronautics, vol. 54, no. 3, pp. 387-396, 2022.
+
+[ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Accurate+Prediction+Method+of+Tool+Wear+Under+Varying+Cutting+Conditions+Based+on+Meta+Learning+and+PINN&btnG=
+
+]
+
+[3] Y. Tian et al., “Multi-Objective Optimization of Machining Parameters Based on Tool Wear Condition,” Journal of Tianjin University (science and Technology), vol. 55, no. 2, pp. 166-173, 2022.
+
+[ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Multi-Objective+Optimization+of+Machining+Parameters+Based+on+Tool+Wear+Condition&btnG=
+
+]
+
+[4] Shi Keming et al., “A Multi Class Domain Adaptive Transfer Identification Method for Tool Wear States Under Different Processing Conditions,” China Mechanical Engineering, vol. 33, no. 15, pp. 1841-1849, 2022.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.3969/j.issn.1004-132X.2022.15.010
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=A+Multi+Class+Domain+Adaptive+Transfer+Identification+Method+For+Tool+Wear+States+Under+Different+Processing+Conditions&btnG=
+
+] [ 
+
+Publisher Link
+
+https://d.wanfangdata.com.cn/periodical/CiFQZXJpb2RpY2FsQ0hJU29scjlTMjAyNTEwMjEwOTUwNDYSD3pnanhnYzIwMjIxNTAxMBoIbzI0bDl6NW0%253D
+
+]
+
+[5] Changqing Liu et al., “A Meta-Invariant Feature Space Method for Accurate Tool Wear Prediction Under Cross Conditions,” IEEE Transactions on Industrial Informatics, vol. 18, no. 2, pp. 922-931, 2022.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.1109/TII.2021.3070109
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=A+Meta-Invariant+Feature+Space+Method+for+Accurate+Tool+Wear+Prediction+Under+Cross+Conditions&btnG=
+
+] [ 
+
+Publisher Link
+
+https://ieeexplore.ieee.org/document/9392293
+
+]
+
+[6] Yiyuan Qin et al., “A Tool Wear Monitoring Method Based on Data-Driven and Physical Output,” Robotics and Computer-Integrated Manufacturing, vol. 91, 2025.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.1016/j.rcim.2024.102820
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=A+Tool+Wear+Monitoring+Method+Based+on+Data-Driven+and+Physical+Output&btnG=
+
+] [ 
+
+Publisher Link
+
+https://www.sciencedirect.com/science/article/abs/pii/S0736584524001078?via%3Dihub
+
+]
+
+[7] Kunpeng Zhu et al., “Physics-Informed Deep Learning for Tool Wear Monitoring,” IEEE Transactions on Industrial Informatics, vol. 20, no. 1, pp. 524-533, 2024.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.1109/TII.2023.3268407
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Physics-Informed+Deep+Learning+for+Tool+Wear+Monitoring&btnG=
+
+] [ 
+
+Publisher Link
+
+https://ieeexplore.ieee.org/document/10105517
+
+]
+
+[8] Jinjiang Wang et al., “Physics Guided Neural Network for Machining Tool Wear Prediction,” Journal of Manufacturing Systems, vol. 57, pp. 298-310, 2020.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.1016/j.jmsy.2020.09.005
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Physics+Guided+Neural+Network+for+Machining+Tool+Wear+Prediction&btnG=
+
+] [ 
+
+Publisher Link
+
+https://www.sciencedirect.com/science/article/abs/pii/S0278612520301655?via%3Dihub
+
+]
+
+[9] Hao Guo, Xin Lin, and Kunpeng Zhu, “Pyramid LSTM Network for Tool Condition Monitoring,” IEEE Transactions on Instrumentation and Measurement, vol. 71, pp. 1-11, 2022.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.1109/TIM.2022.3173278
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Pyramid+LSTM+Network+for+Tool+Condition+Monitoring&btnG=
+
+] [ 
+
+Publisher Link
+
+https://ieeexplore.ieee.org/document/9770792
+
+]
+
+[10] Minghui Cheng et al., “Intelligent Tool Wear Monitoring and Multi-Step Prediction Based on Deep Learning Model,” Journal of Manufacturing Systems, vol. 62, pp. 286-300, 2022.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.1016/j.jmsy.2021.12.002
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Intelligent+Tool+Wear+Monitoring+and+Multi-Step+Prediction+Based+on+Deep+Learning+Model&btnG=
+
+] [ 
+
+Publisher Link
+
+https://www.sciencedirect.com/science/article/abs/pii/S027861252100251X?via%3Dihub
+
+]
+
+[11] Jing Zhang et al., “Remaining Life Prediction of Bearings Based on Improved IF-SCINet,” IEEE Access, vol. 12, pp. 19598-19611, 2024.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.1109/ACCESS.2024.3355978
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Remaining+Life+Prediction+of+Bearings+Based+on+Improved+IF-SCINet&btnG=
+
+] [ 
+
+Publisher Link
+
+https://ieeexplore.ieee.org/document/10409180
+
+]
+
+[12] Linli Li, and Qifei Jian, “Remaining Useful Life Prediction of Wind Turbine Main-Bearing Based on LSTM Optimized Network,” IEEE Sensors Journal, vol 24, no. 13, pp. 21143-21156, 2024.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.1109/JSEN.2024.3402660
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Remaining+Useful+Life+Prediction+of+Wind+Turbine+Main-Bearing+Based+on+LSTM+Optimized+Network&btnG=
+
+] [ 
+
+Publisher Link
+
+https://ieeexplore.ieee.org/document/10552197
+
+]
+
+[13] Dezhi Yuan et al., “The Cyber-Physical System of Machine Tool Monitoring: A Model-Driven Approach with Extended Kalman Filter Implementation,” IEEE Transactions on Industrial Informatics, vol. 19, no. 9, pp. 9576-9585, 2023.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.1109/TII.2022.3231422
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=The+Cyber-Physical+System+of+Machine+Tool+Monitoring%3A+A+Model-Driven+Approach+with+Extended+Kalman+Filter+Implementation&btnG=
+
+] [ 
+
+Publisher Link
+
+https://ieeexplore.ieee.org/document/9998107
+
+]
+
+[14] Shenshen Li et al., “Physics-Guided Deep Learning Method for Tool Condition Monitoring in Smart Machining System,” IEEE/ASME Transactions on Mechatronics, vol. 29, no. 3, pp. 2327-2337, 2024.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.1109/TMECH.2023.3311435
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Physics-Guided+Deep+Learning+Method+for+Tool+Condition+Monitoring+in+Smart+Machining+System&btnG=
+
+] [ 
+
+Publisher Link
+
+https://ieeexplore.ieee.org/document/10256253
+
+]
+
+[15] Dezhi Yuan et al., “A Physics-Assisted Online Learning Method for Tool Wear Prediction,” IEEE Transactions on Instrumentation and Measurement, vol. 72, pp. 1-11, 2023.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.1109/TIM.2023.3273683
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=A+Physics-Assisted+Online+Learning+Method+for+Tool+Wear+Prediction&btnG=
+
+] [ 
+
+Publisher Link
+
+https://ieeexplore.ieee.org/document/10121328
+
+]
+
+[16] Zepeng Liu et al., “Vibration Signal-Based Tool Condition Monitoring Using Regularized Sensor Data Modeling and Model Frequency Analysis,” IEEE Transactions on Instrumentation and Measurement, vol. 73, pp. 1-13, 2024.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.1109/TIM.2023.3343825
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Vibration+Signal-Based+Tool+Condition+Monitoring+Using+Regularized+Sensor+Data+Modeling+and+Model+Frequency+Analysis&btnG=
+
+] [ 
+
+Publisher Link
+
+https://ieeexplore.ieee.org/document/10364246
+
+]
+
+[17] Yafei Deng et al., “A Calibration-Based Hybrid Transfer Learning Framework for RUL Prediction of Rolling Bearing across Different Machines,” IEEE Transactions on Instrumentation and Measurement, vol. 72, pp. 1-15, 2023.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.1109/TIM.2023.3260283
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=A+Calibration-Based+Hybrid+Transfer+Learning+Framework+for+RUL+Prediction+of+Rolling+Bearing+Across+Different+Machines&btnG=
+
+] [ 
+
+Publisher Link
+
+https://ieeexplore.ieee.org/document/10078406
+
+]
+
+[18] Yuekai Liu et al., “Physics-Informed Scaling Evolutionary Transformer for In-Situ Tool Condition Monitoring,” IEEE/ASME Transactions on Mechatronics, vol. 29, no. 1, pp. 647-658, 2024.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.1109/TMECH.2023.3303202
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Physics-Informed+Scaling+Evolutionary+Transformer+for+In-Situ+Tool+Condition+Monitoring&btnG=
+
+] [ 
+
+Publisher Link
+
+https://ieeexplore.ieee.org/document/10283469
+
+]
+
+[19] Xiaohui Fang et al., “A Dual Knowledge Embedded Hybrid Model Based on Augmented Data and Improved Loss Function for Tool Wear Monitoring,” Robotics and Computer-Integrated Manufacturing, vol. 92, 2025.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.1016/j.rcim.2024.102901
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=A+Dual+Knowledge+Embedded+Hybrid+Model+Based+on+Augmented+Data+and+Improved+Loss+Function+for+Tool+Wear+Monitoring&btnG=
+
+] [ 
+
+Publisher Link
+
+https://www.sciencedirect.com/science/article/abs/pii/S0736584524001881?via%3Dihub
+
+]
+
+[20] Haoyuan Zhang et al., “A Review of Physics-Based, Data-Driven, and Hybrid Models for Tool Wear Monitoring,” Machines, vol. 12, no. 12, pp. 1-62, 2024.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.3390/machines12120833
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=A+Review+of+Physics-Based%2C+Data-Driven%2C+and+Hybrid+Models+for+Tool+Wear+Monitoring&btnG=
+
+] [ 
+
+Publisher Link
+
+https://www.mdpi.com/2075-1702/12/12/833
+
+]
+
+[21] Chao Gao et al., “MPINet: Multiscale Physics-Informed Network for Bearing Fault Diagnosis with Small Samples,” IEEE Transactions on Industrial Informatics, vol. 20, no. 12, pp. 14371-14380, 2024.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.1109/TII.2024.3452174
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=MPINet%3A+Multiscale+Physics-Informed+Network+for+Bearing+Fault+Diagnosis+With+Small+Samples&btnG=
+
+] [ 
+
+Publisher Link
+
+https://ieeexplore.ieee.org/document/10673781
+
+]
+
+[22] Yejin Kim, and Young-Keun Kim, “Physics-Informed Time-Frequency Fusion Network with Attention for Noise-Robust Bearing Fault Diagnosis,” IEEE Access, vol. 12, pp. 12517-12532, 2024.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.1109/ACCESS.2024.3355268
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Physics-Informed+Time-Frequency+Fusion+Network+with+Attention+for+Noise-Robust+Bearing+Fault+Diagnosis&btnG=
+
+] [ 
+
+Publisher Link
+
+https://ieeexplore.ieee.org/document/10401875
+
+]
+
+[23] Yilin Li et al., “Physics-Informed Meta Learning for Machining Tool Wear Prediction,” Journal of Manufacturing Systems, vol. 62, pp. 17-27, 2022.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.1016/j.jmsy.2021.10.013
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Physics-Informed+Meta+Learning+for+Machining+Tool+Wear+Prediction&btnG=
+
+] [ 
+
+Publisher Link
+
+https://www.sciencedirect.com/science/article/abs/pii/S027861252100220X?via%3Dihub
+
+]
+
+[24] Chen Chong et al., “A Review of Physics-guided Deep Learning Research: Progress, Challenges and Prospects,” Computer Science and Exploration (CCF Chinese Category B), 2024.
+
+[ 
+
+Publisher Link
+
+https://www.cup.edu.cn/cupai/kxyj/kydt/7d60002719c14fb9bdac48c4799ae575.htm
+
+]
+
+[25] Jiaqi Hua et al., “Physics-Informed Neural Networks with Weighted Losses by Uncertainty Evaluation for Accurate and Stable Prediction of Manufacturing Systems,” IEEE Transactions on Neural Networks and Learning Systems, vol. 35, no. 8, pp. 11064-11076, 2024.
+
+[ 
+
+CrossRef
+
+https://doi.org/10.1109/TNNLS.2023.3247163
+
+] [ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Physics-Informed+Neural+Networks+With+Weighted+Losses+by+Uncertainty+Evaluation+for+Accurate+and+Stable+Prediction+of+Manufacturing+Systems&btnG=
+
+] [ 
+
+Publisher Link
+
+https://ieeexplore.ieee.org/document/10063229
+
+]
+
+[26] Z. Sipos, “Investigation of Cutting Performance of Coated HSS Tools Made in Hungary,” NME, Miskolc Egyetem, 1986.
+
+[ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Investigation+of+Cutting+Performance+of+Coated+HSS+Tools+Made+in+Hungary&btnG=
+
+]
+
+[27] General Administration of Quality Supervision, Inspection and Quarantine of the People's Republic of China, Chem Radar, Beijing, China, Asia, 2016. [Online]. Available: https://www.chemradar.com/lawinfo/authority/31
+
+[28] X. Li et al., “Fuzzy Neural Network Modelling for Tool Wear Estimation in Dry Milling Operation,” Annual Conference of the Prognostics and Health Management Society, vol. 1, no. 1, pp. 1-11, 2009.
+
+[ 
+
+Google Scholar
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Fuzzy+Neural+Network+Modelling+for+Tool+Wear+Estimation+in+Dry+Milling+Operation&btnG=
+
+] [ 
+
+Publisher Link
+
+http://www.papers.phmsociety.org/index.php/phmconf/article/view/1403
+
+]
+
+ PDF
+
+https://ijettjournal.org/Volume-73/Issue-11/IJETT-V73I11P105.pdf
+
+Citation
+
+javascript:void(0)
+
+Abstract
+
+javascript:void(0)
+
+Keywords
+
+javascript:void(0)
+
+References
+
+javascript:void(0)
+
+Citation
+
+javascript:void(0)
+
+ 
+
+Abstract
+
+javascript:void(0)
+
+ 
+
+Keywords
+
+javascript:void(0)
+
+ 
+
+References
+
+javascript:void(0)
+
+Home
+
+https://ijettjournal.org/
+
+Authors Guidelines
+
+https://ijettjournal.org/author-guideline
+
+Paper Submission
+
+https://ijettjournal.org/paper-submission
+
+APC
+
+https://ijettjournal.org/apc
+
+Archives
+
+https://ijettjournal.org/archive
+
+Downloads
+
+https://ijettjournal.org/for-authors/downloads
+
+Open Access
+
+https://ijettjournal.org/for-authors/openaccess-author
+
+Publication Ethics
+
+https://ijettjournal.org/publication-ethics
+
+Copyrights Infringement
+
+https://ijettjournal.org/for-authors/copyrightinfringement
+
+Journals
+
+https://ijettjournal.org/ssrg-journals
+
+FAQ
+
+https://ijettjournal.org/faq
+
+Contact Us
+
+https://ijettjournal.org/contact-us
+
+Follow Us
+
+https://www.facebook.com/SeventhSenseResearchGroup
+
+ 
+
+https://www.linkedin.com/company/seventh-sense-research-group/
+
+ 
+
+https://internationaljournalssrg.org/
+
+ 
+
+https://x.com/sense_groups
+
+Copyright © 2026 
+
+Seventh Sense Research Group ®
+
+. All Rights Reserved. Designed by 
+
+Infodazz
+
+https://infodazz.org/
