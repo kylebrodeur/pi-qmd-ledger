@@ -7,6 +7,13 @@ import * as child_process from 'child_process'
 import * as fs from 'fs'
 import * as path from 'path'
 
+// Augment ExtensionContext to include toolCall for internal usage
+declare module '@mariozechner/pi-coding-agent' {
+  interface ExtensionContext {
+    toolCall: (toolName: string, args: any) => Promise<any>;
+  }
+}
+
 /* ═══════════════════════════════════════
    CONSTANTS
    ═══════════════════════════════════════ */
@@ -43,6 +50,7 @@ interface PiContextDef {
   tagPatterns?: string[]
   enhanceInjectors?: boolean
   autoEnableAcm?: boolean
+  indexContextEvents?: boolean // New toggle for indexing pi-context events
 }
 
 interface UniversalConfig {
@@ -67,6 +75,11 @@ const DEFAULT_CONFIG: UniversalConfig = {
       path: 'ledger/pending.jsonl',
       schema: 'master' as unknown as string[], // resolved at runtime
     },
+    context_events: {
+      path: 'ledger/context_events.jsonl',
+      schema: ['id', 'type', 'session_entry_id', 'content', 'timestamp', 'tags'],
+      dedupField: 'id', // Deduplicate by event ID
+    },
   },
   injectors: [
     {
@@ -88,6 +101,7 @@ const DEFAULT_CONFIG: UniversalConfig = {
       tagPatterns: [],
       enhanceInjectors: false,
       autoEnableAcm: true,
+      indexContextEvents: true, // Default to true for new feature
     },
   },
 }
@@ -132,6 +146,7 @@ function getPiContextConfig(cfg: UniversalConfig) {
     tagPatterns: [],
     enhanceInjectors: false,
     autoEnableAcm: true,
+    indexContextEvents: true,
   }
 }
 
@@ -324,6 +339,11 @@ export default function (pi: ExtensionAPI) {
               dedupField: 'fact',
             },
             pending: { path: 'ledger/pending.jsonl', schema: 'master' },
+            context_events: {
+              path: 'ledger/context_events.jsonl',
+              schema: ['id', 'type', 'session_entry_id', 'content', 'timestamp', 'tags'],
+              dedupField: 'id',
+            },
           },
           injectors: [
             {
@@ -1345,6 +1365,102 @@ export default function (pi: ExtensionAPI) {
 
     if (additions) {
       return { systemPrompt: event.systemPrompt + additions }
+    }
+  })
+
+  /* ── pi.on('turn_end'): capture pi-context events ── */
+  pi.on('turn_end', async (event, ctx: ExtensionContext) => {
+    const cfg = loadConfig(ctx.cwd)
+    const piContextCfg = getPiContextConfig(cfg)
+    const hasPiContext = hasPiContextTools(ctx)
+
+    if (!hasPiContext || !piContextCfg.enabled || !piContextCfg.indexContextEvents) {
+      return // pi-context not available, not enabled, or indexing is toggled off
+    }
+
+    try {
+      const ctxTools = (ctx as any).toolMap || {}
+      if (!ctxTools.context_log || !ctxTools.context_checkout) {
+        // Required pi-context tools not found, even if hasPiContextTools returned true
+        return
+      }
+
+      const ledgerDef = cfg.ledgers['context_events']
+      if (!ledgerDef) {
+        console.warn("[pi-qmd-ledger] 'context_events' ledger not defined in config. Cannot index pi-context events.")
+        return
+      }
+
+      // 1. Get current session history
+      const logs = await (ctxTools.context_log as any).execute?.(
+        null,
+        { limit: 100, verbose: true }, // Increased limit for better history capture
+        null,
+        null,
+        ctx
+      )
+
+      if (!logs || !logs.content || !logs.content[0]?.text) {
+        return
+      }
+      const logText = logs.content[0].text
+
+      // Simplified parsing for tags and summaries from context_log
+      const capturedEvents: any[] = []
+      const lines = logText.split('\n')
+
+      lines.forEach(line => {
+        const timestamp = new Date().toISOString() // Current time of capture
+        let event: any = null
+
+        // Capture Tags
+        const tagMatch = line.match(/^\*?\s*([0-9a-f]+)\s+\(tag:\s*([\w-]+).*\)\s*\[(AI|USER|BASH|TOOL|SUMMARY)\]\s*(.*)/i)
+        if (tagMatch) {
+          event = {
+            id: `tag-${tagMatch[1]}-${tagMatch[2]}`, // Unique ID for event
+            type: 'tag_created',
+            session_entry_id: tagMatch[1],
+            content: `Tag '${tagMatch[2]}' created at ${tagMatch[1]}`,
+            timestamp: timestamp,
+            tags: [tagMatch[2], 'pi-context'],
+            details: { tag_name: tagMatch[2], entry_id: tagMatch[1], entry_type: tagMatch[3], entry_summary: tagMatch[4].trim() }
+          }
+        }
+
+        // Capture Checkout Summaries (more robust extraction needed, this is simplified)
+        const summaryMatch = line.match(/^\*?\s*([0-9a-f]+)\s+\((ROOT|HEAD)?.*summary from (.*)\)\s*\[SUMMARY\]\s*(.*)/i)
+        if (summaryMatch) {
+            // Need to retrieve the actual summary message from the SessionManager.
+            // context_log output provides only a short version.
+            // For now, use the short version from log text.
+            event = {
+                id: `checkout-summary-${summaryMatch[1]}`,
+                type: 'checkout_summary',
+                session_entry_id: summaryMatch[1],
+                content: `Checkout summary from ${summaryMatch[3]}: ${summaryMatch[4].trim()}`,
+                timestamp: timestamp,
+                tags: ['pi-context', 'checkout', 'summary'],
+                details: { origin: summaryMatch[3], summary_message: summaryMatch[4].trim(), entry_id: summaryMatch[1] }
+            }
+        }
+
+        if (event) {
+          capturedEvents.push(event)
+        }
+      })
+
+      // Append events to ledger (using append_ledger tool internally)
+      for (const event of capturedEvents) {
+        // Using `append_ledger` via ctx.toolCall ensures deduplication if dedupField is set.
+        await ctx.toolCall('append_ledger', {
+          ledger: 'context_events',
+          mode: 'autopilot', // Use autopilot for continuous indexing
+          entry: event,
+        })
+      }
+
+    } catch (e) {
+      console.error("[pi-qmd-ledger] Error capturing pi-context events:", e)
     }
   })
 }
