@@ -3,7 +3,7 @@
     "target": "ESNext",
     "module": "ESNext",
     "outDir": "./dist",
-    "rootDir": "./",
+    "rootDir": ".",
     "strict": false,
     "noImplicitAny": false,
     "skipLibCheck": true,
@@ -11,5 +11,5 @@
     "esModuleInterop": true,
     "declaration": true
   },
-  "include": ["index.ts", "test/**/*.ts"]
+  "include": ["index.ts", "src/**/*.ts", "test/**/*.ts"]
 }
