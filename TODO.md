@@ -197,14 +197,13 @@ Expected output: 1 passing stub test.
 
 ### 📋 Upcoming
 
-**Publishing**
-- [ ] Run npm publish dry-run: `pnpm publish --dry-run`
-- [ ] Ensure `files` array in `package.json` is correct
-- [ ] Verify no secrets in tarball (`npm pack --dry-run`)
-- [ ] Publish `v0.2.0` to npm: `pnpm publish --access public`
-- [ ] Tag release on GitHub from latest main
-
-**Testing**
+**Publishing** ✅ COMPLETE
+- [x] Run npm publish dry-run: `pnpm publish --dry-run`
+- [x] Ensure `files` array in `package.json` is correct
+- [x] Verify no secrets in tarball (`npm pack --dry-run`)
+- [x] Publish `v0.2.0` to npm: `pnpm publish --access public`
+- [x] Tag release on GitHub from latest main: `git tag v0.2.0 && git push origin v0.2.0`
+- [x] Create GitHub release from tag with CHANGELOG notes
 - [ ] Restore full test suite (config CRUD, ledger append/query, dedup, injectors)
 - [ ] Add integration test using mock ExtensionAPI
 - [ ] Add test for pi-context event capture path
