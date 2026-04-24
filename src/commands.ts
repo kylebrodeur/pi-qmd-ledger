@@ -30,7 +30,7 @@ export const registerCommands = (pi: ExtensionAPI) => {
         lines.push(`\n${qmd.instructions}`)
       }
 
-      const cfgPath = findConfig(ctx.cwd)
+      const { project: cfgPath } = findConfig(ctx.cwd)
       lines.push(
         cfgPath
           ? `✅ Config: ${cfgPath}`
@@ -205,7 +205,7 @@ export const registerCommands = (pi: ExtensionAPI) => {
     ],
     handler: async (args, ctx: ExtensionContext) => {
       const enable = args.trim().toLowerCase() === 'enable'
-      const cfgPath = findConfig(ctx.cwd)
+      const { project: cfgPath } = findConfig(ctx.cwd)
 
       if (!cfgPath) {
         ctx.ui.notify('No config found. Run /qmd-init first.', 'error')
@@ -276,7 +276,7 @@ export const registerCommands = (pi: ExtensionAPI) => {
       const lines = [
         '**pi-qmd-ledger Extension Compatibility Status**',
         '',
-        `Config path: ${findConfig(ctx.cwd) || 'none'}`,
+        `Config path: project=${findConfig(ctx.cwd).project || 'none'}, global=${findConfig(ctx.cwd).global || 'none'}`,
         '',
         '--- pi-context ---',
         `Enabled: ${piContextCfg.enabled ? 'Yes' : 'No'}`,

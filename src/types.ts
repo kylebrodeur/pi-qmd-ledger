@@ -86,3 +86,39 @@ export interface QmdCheckResult {
   version?: string
   instructions?: string
 }
+
+/* ── tool input types ── */
+export interface QmdSearchInput {
+  query: string
+  limit?: number
+}
+
+export interface QueryLedgerInput {
+  ledger: string
+  query?: string
+  filters?: Record<string, string>
+}
+
+export interface AppendLedgerInput {
+  ledger: string
+  mode: 'strict' | 'gated' | 'autopilot'
+  entry: Record<string, string>
+}
+
+export interface ConfigureLedgerInput {
+  action: 'read' | 'update'
+  config?: Record<string, unknown>
+}
+
+export interface DescribeLedgerInput {
+  ledger: string
+}
+
+export interface LedgerExportInput {
+  ledger: string
+  format: 'json' | 'csv' | 'markdown'
+}
+
+export interface QmdStatusInput {
+  // no params
+}

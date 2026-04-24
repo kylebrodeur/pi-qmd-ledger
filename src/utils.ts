@@ -10,6 +10,17 @@ export const CONFIG_FILES = [
   '.pi/qmd-ledger.config.json',
 ]
 
+export const GLOBAL_CONFIG_DIR = path.join(
+  process.env.HOME || process.env.USERPROFILE || '',
+  '.pi',
+  'agent'
+)
+
+export const GLOBAL_CONFIG_PATH = path.join(
+  GLOBAL_CONFIG_DIR,
+  'qmd-ledger.config.json'
+)
+
 export const EXT_ROOT = path.join(import.meta.dirname, '..')
 
 export const resolvePath = (cwd: string, p: string): string =>
@@ -20,12 +31,90 @@ export const ensureDir = (filePath: string) => {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true })
 }
 
-export const findConfig = (cwd: string): string | undefined => {
+export const findConfig = (
+  cwd: string
+): { global?: string; project?: string } => {
+  const result: { global?: string; project?: string } = {}
+
+  if (fs.existsSync(GLOBAL_CONFIG_PATH)) {
+    result.global = GLOBAL_CONFIG_PATH
+  }
+
   for (const rel of CONFIG_FILES) {
     const fp = path.join(cwd, rel)
-    if (fs.existsSync(fp)) return fp
+    if (fs.existsSync(fp)) {
+      result.project = fp
+      break
+    }
   }
-  return undefined
+
+  return result
+}
+
+const readConfigFile = (p?: string): Partial<UniversalConfig> => {
+  if (!p) return {}
+  try {
+    return JSON.parse(fs.readFileSync(p, 'utf-8'))
+  } catch (e) {
+    console.warn(`[pi-qmd-ledger] Config parse error at ${p}: ${e}`)
+    return {}
+  }
+}
+
+const mergeConfigLayer = (
+  base: UniversalConfig,
+  layer: Partial<UniversalConfig>,
+  cwd: string
+): UniversalConfig => {
+  const merged: UniversalConfig = {
+    version: layer.version ?? base.version,
+    ledgers: {},
+    injectors: layer.injectors ?? base.injectors,
+    qmd: { ...base.qmd, ...layer.qmd },
+    extensionCompatibility: {
+      ...base.extensionCompatibility,
+      ...layer.extensionCompatibility,
+    },
+  }
+
+  const ledgersSrc = layer.ledgers ?? base.ledgers
+  const resolvedLedgers: Record<string, LedgerDef> = {}
+  for (const [name, def] of Object.entries(ledgersSrc)) {
+    const resolvedBase =
+      typeof def.schema === 'string' ? resolvedLedgers[def.schema] : undefined
+    resolvedLedgers[name] = {
+      path: resolvePath(cwd, def.path || (resolvedBase?.path ?? '')),
+      schema:
+        typeof def.schema === 'string'
+          ? (resolvedBase?.schema ?? [])
+          : def.schema,
+      dedupField: def.dedupField ?? resolvedBase?.dedupField,
+    }
+  }
+  merged.ledgers = resolvedLedgers
+
+  merged.injectors = merged.injectors.map((ij) => ({
+    ...ij,
+    artifactPath: ij.artifactPath
+      ? resolvePath(cwd, ij.artifactPath)
+      : undefined,
+  }))
+
+  return merged
+}
+
+export const loadConfig = (cwd: string): UniversalConfig => {
+  const paths = findConfig(cwd)
+  const globalCfg = readConfigFile(paths.global)
+  const projectCfg = readConfigFile(paths.project)
+
+  // Start from DEFAULT, layer global, then project
+  let merged = mergeConfigLayer(DEFAULT_CONFIG, globalCfg, cwd)
+  merged = mergeConfigLayer(merged, projectCfg, cwd)
+
+  if (process.env.QMD_BINARY) merged.qmd.binary = process.env.QMD_BINARY
+
+  return merged
 }
 
 export const hasPiContextTools = (pi: ExtensionAPI): boolean => {
@@ -38,7 +127,8 @@ export const hasPiContextTools = (pi: ExtensionAPI): boolean => {
   )
 }
 
-export const isPiContextEnabled = (cfg: UniversalConfig): boolean => cfg.extensionCompatibility?.['pi-context']?.enabled === true
+export const isPiContextEnabled = (cfg: UniversalConfig): boolean =>
+  cfg.extensionCompatibility?.['pi-context']?.enabled === true
 
 export const getPiContextConfig = (cfg: UniversalConfig) =>
   cfg.extensionCompatibility?.['pi-context'] || {
@@ -48,54 +138,6 @@ export const getPiContextConfig = (cfg: UniversalConfig) =>
     autoEnableAcm: true,
     indexContextEvents: true,
   }
-
-export const loadConfig = (cwd: string): UniversalConfig => {
-  let cfg: Partial<UniversalConfig> = {}
-  const cfgPath = findConfig(cwd)
-  if (cfgPath) {
-    try {
-      cfg = JSON.parse(fs.readFileSync(cfgPath, 'utf-8'))
-    } catch (e) {
-      console.warn(`[pi-qmd-ledger] Config parse error at ${cfgPath}: ${e}`)
-    }
-  }
-
-  const merged: UniversalConfig = {
-    version: cfg.version ?? DEFAULT_CONFIG.version,
-    ledgers: {},
-    injectors: cfg.injectors ?? DEFAULT_CONFIG.injectors,
-    qmd: { ...DEFAULT_CONFIG.qmd, ...cfg.qmd },
-    extensionCompatibility: {
-      ...DEFAULT_CONFIG.extensionCompatibility,
-      ...cfg.extensionCompatibility,
-    },
-  }
-
-  const ledgersSrc = cfg.ledgers ?? DEFAULT_CONFIG.ledgers
-  const resolvedLedgers: Record<string, LedgerDef> = {}
-  for (const [name, def] of Object.entries(ledgersSrc)) {
-    const base =
-      typeof def.schema === 'string' ? resolvedLedgers[def.schema] : undefined
-    resolvedLedgers[name] = {
-      path: resolvePath(cwd, def.path || (base?.path ?? '')),
-      schema:
-        typeof def.schema === 'string' ? (base?.schema ?? []) : def.schema,
-      dedupField: def.dedupField ?? base?.dedupField,
-    }
-  }
-  merged.ledgers = resolvedLedgers
-
-  merged.injectors = merged.injectors.map((ij) => ({
-    ...ij,
-    artifactPath: ij.artifactPath
-      ? resolvePath(cwd, ij.artifactPath)
-      : undefined,
-  }))
-
-  if (process.env.QMD_BINARY) merged.qmd.binary = process.env.QMD_BINARY
-
-  return merged
-}
 
 export const ledgerNames = (cfg: UniversalConfig): string[] =>
   Object.keys(cfg.ledgers)

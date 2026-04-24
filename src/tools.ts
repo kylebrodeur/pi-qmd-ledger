@@ -1,4 +1,4 @@
-import type { ExtensionAPI, ExtensionContext } from '@mariozechner/pi-coding-agent'
+import type { ExtensionAPI, ExtensionContext, AgentToolUpdateCallback } from '@mariozechner/pi-coding-agent'
 import { Type } from '@sinclair/typebox'
 import * as child_process from 'child_process'
 import * as fs from 'fs'
@@ -11,6 +11,14 @@ import {
   loadConfig,
   qmdInstructions,
 } from './utils.js'
+import type {
+  QmdSearchInput,
+  QueryLedgerInput,
+  AppendLedgerInput,
+  ConfigureLedgerInput,
+  DescribeLedgerInput,
+  LedgerExportInput,
+} from './types.js'
 
 export const registerTools = (pi: ExtensionAPI) => {
   /* ── qmd_search ── */
@@ -38,10 +46,10 @@ export const registerTools = (pi: ExtensionAPI) => {
       ),
     }),
     async execute(
-      _id: any,
-      params: any,
-      _signal: any,
-      _onUpdate: any,
+      _id: string,
+      params: QmdSearchInput,
+      _signal: AbortSignal | undefined,
+      _onUpdate: AgentToolUpdateCallback<unknown> | undefined,
       ctx: ExtensionContext
     ) {
       const cfg = loadConfig(ctx.cwd)
@@ -53,7 +61,7 @@ export const registerTools = (pi: ExtensionAPI) => {
           { maxBuffer: cfg.qmd.maxBuffer },
           (error, stdout, stderr) => {
             if (error) {
-              const code = (error as any).code
+              const code = (error as { code?: string }).code
               resolve({
                 content: [
                   {
@@ -105,10 +113,10 @@ export const registerTools = (pi: ExtensionAPI) => {
       ),
     }),
     async execute(
-      _id: any,
-      params: any,
-      _signal: any,
-      _onUpdate: any,
+      _id: string,
+      params: QueryLedgerInput,
+      _signal: AbortSignal | undefined,
+      _onUpdate: AgentToolUpdateCallback<unknown> | undefined,
       ctx: ExtensionContext
     ) {
       const cfg = loadConfig(ctx.cwd)
@@ -140,7 +148,7 @@ export const registerTools = (pi: ExtensionAPI) => {
         .readFileSync(def.path, 'utf-8')
         .split('\n')
         .filter(Boolean)
-      const results: any[] = []
+      const results: unknown[] = []
 
       for (const line of lines) {
         try {
@@ -205,10 +213,10 @@ export const registerTools = (pi: ExtensionAPI) => {
       }),
     }),
     async execute(
-      _id: any,
-      params: any,
-      _signal: any,
-      _onUpdate: any,
+      _id: string,
+      params: AppendLedgerInput,
+      _signal: AbortSignal | undefined,
+      _onUpdate: AgentToolUpdateCallback<unknown> | undefined,
       ctx: ExtensionContext
     ) {
       const cfg = loadConfig(ctx.cwd)
@@ -316,13 +324,13 @@ export const registerTools = (pi: ExtensionAPI) => {
       ),
     }),
     async execute(
-      _id: any,
-      params: any,
-      _signal: any,
-      _onUpdate: any,
+      _id: string,
+      params: ConfigureLedgerInput,
+      _signal: AbortSignal | undefined,
+      _onUpdate: AgentToolUpdateCallback<unknown> | undefined,
       ctx: ExtensionContext
     ) {
-      const cfgPath = findConfig(ctx.cwd) || path.join(ctx.cwd, 'pi-qmd-ledger.config.json')
+      const cfgPath = findConfig(ctx.cwd).project || path.join(ctx.cwd, 'pi-qmd-ledger.config.json')
 
       if (params.action === 'read' || !params.config) {
         const cfg = loadConfig(ctx.cwd)
@@ -332,7 +340,7 @@ export const registerTools = (pi: ExtensionAPI) => {
         }
       }
 
-      let existing: any = {}
+      let existing: Record<string, unknown> = {}
       if (fs.existsSync(cfgPath)) {
         try {
           existing = JSON.parse(fs.readFileSync(cfgPath, 'utf-8'))
@@ -368,10 +376,10 @@ export const registerTools = (pi: ExtensionAPI) => {
       ledger: Type.String({ description: 'Ledger name to inspect' }),
     }),
     async execute(
-      _id: any,
-      params: any,
-      _signal: any,
-      _onUpdate: any,
+      _id: string,
+      params: DescribeLedgerInput,
+      _signal: AbortSignal | undefined,
+      _onUpdate: AgentToolUpdateCallback<unknown> | undefined,
       ctx: ExtensionContext
     ) {
       const cfg = loadConfig(ctx.cwd)
@@ -404,8 +412,8 @@ export const registerTools = (pi: ExtensionAPI) => {
         .split('\n')
         .filter(Boolean)
       const total = lines.length
-      let first: any = null
-      let last: any = null
+      let first: unknown = null
+      let last: unknown = null
       let malformed = 0
 
       for (const line of lines) {
@@ -451,16 +459,16 @@ export const registerTools = (pi: ExtensionAPI) => {
     ],
     parameters: Type.Object({}),
     async execute(
-      _id: any,
-      _params: any,
-      _signal: any,
-      _onUpdate: any,
+      _id: string,
+      _params: Record<string, never>,
+      _signal: AbortSignal | undefined,
+      _onUpdate: AgentToolUpdateCallback<unknown> | undefined,
       ctx: ExtensionContext
     ) {
       const cfg = loadConfig(ctx.cwd)
       const lines: string[] = []
       lines.push(`pi-qmd-ledger Stats`)
-      lines.push(`Config path: ${findConfig(ctx.cwd) || '(default / none)'}`)
+      lines.push(`Config path: project=${findConfig(ctx.cwd).project || '(none)'}, global=${findConfig(ctx.cwd).global || '(none)'}`)
       lines.push(``)
 
       const qmd = checkQmd(cfg.qmd.binary || 'qmd')
@@ -526,10 +534,10 @@ export const registerTools = (pi: ExtensionAPI) => {
       ),
     }),
     async execute(
-      _id: any,
-      params: any,
-      _signal: any,
-      _onUpdate: any,
+      _id: string,
+      params: LedgerExportInput,
+      _signal: AbortSignal | undefined,
+      _onUpdate: AgentToolUpdateCallback<unknown> | undefined,
       ctx: ExtensionContext
     ) {
       const cfg = loadConfig(ctx.cwd)
@@ -562,7 +570,7 @@ export const registerTools = (pi: ExtensionAPI) => {
         .readFileSync(def.path, 'utf-8')
         .split('\n')
         .filter(Boolean)
-      const entries: any[] = []
+      const entries: unknown[] = []
       for (const line of lines) {
         try {
           entries.push(JSON.parse(line))
@@ -624,10 +632,10 @@ export const registerTools = (pi: ExtensionAPI) => {
     ],
     parameters: Type.Object({}),
     async execute(
-      _id: any,
-      _params: any,
-      _signal: any,
-      _onUpdate: any,
+      _id: string,
+      _params: Record<string, never>,
+      _signal: AbortSignal | undefined,
+      _onUpdate: AgentToolUpdateCallback<unknown> | undefined,
       _ctx: ExtensionContext
     ) {
       return new Promise<any>((resolve) => {
