@@ -4,6 +4,19 @@ All notable changes to this project follow [Semantic Versioning](https://semver.
 
 ## [Unreleased]
 
+## [0.2.0] — 2026-04-23
+
+### Added
+
+- Extension compatibility framework with pi-context integration.
+- New `context_events` ledger for capturing pi-context lifecycle events automatically.
+- New commands for extension management: `/qmd-list-extensions`, `/qmd-extension-status`, `/qmd-enable-pi-context`.
+
+### Fixed
+
+- Removed incorrect use of `(ctx as any).toolMap` and `ctx.toolCall` which do not exist on `ExtensionContext`; replaced with `pi.getAllTools()` and inline ledger append logic.
+- Changed `ctx.ui.editor` calls in command handlers to `ctx.ui.notify` for read-only output display.
+
 ## [0.1.4] — 2026-04-22
 
 ### Added
@@ -66,4 +79,5 @@ All notable changes to this project follow [Semantic Versioning](https://semver.
 - Full reference docs for config and tools
 - Comprehensive test suite with mock pi ExtensionAPI
 
-[0.1.0]: https://github.com/badlogic/pi-qmd-ledger/releases/tag/v0.1.0
+[0.2.0]: https://github.com/kylebrodeur/pi-qmd-ledger/releases/tag/v0.2.0
+[0.1.0]: https://github.com/kylebrodeur/pi-qmd-ledger/releases/tag/v0.1.0

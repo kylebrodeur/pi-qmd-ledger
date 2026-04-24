@@ -6,13 +6,10 @@ import { Type } from '@sinclair/typebox'
 import * as child_process from 'child_process'
 import * as fs from 'fs'
 import * as path from 'path'
+import { fileURLToPath } from 'url'
 
-// Augment ExtensionContext to include toolCall for internal usage
-declare module '@mariozechner/pi-coding-agent' {
-  interface ExtensionContext {
-    toolCall: (toolName: string, args: any) => Promise<any>;
-  }
-}
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 /* ═══════════════════════════════════════
    CONSTANTS
@@ -127,12 +124,13 @@ function findConfig(cwd: string): string | undefined {
 }
 
 /* ── extension detection ── */
-function hasPiContextTools(ctx: ExtensionContext): boolean {
-  const tools = (ctx as any).toolMap || {}
+function hasPiContextTools(pi: ExtensionAPI): boolean {
+  const tools = pi.getAllTools()
+  const names = new Set(tools.map((t) => t.name))
   return (
-    !!tools.context_tag &&
-    !!tools.context_log &&
-    !!tools.context_checkout
+    names.has('context_tag') &&
+    names.has('context_log') &&
+    names.has('context_checkout')
   )
 }
 
@@ -289,7 +287,7 @@ export default function (pi: ExtensionAPI) {
       }
 
       // extension compatibility
-      const hasContext = hasPiContextTools(ctx)
+      const hasContext = hasPiContextTools(pi)
       const contextCfg = getPiContextConfig(cfg)
       lines.push(`\n🧩 Extensions:`)
       lines.push(`   • pi-context: ${hasContext ? '✅' : '❌'} ${contextCfg.enabled ? 'Enabled' : 'Disabled'}`)
@@ -298,8 +296,8 @@ export default function (pi: ExtensionAPI) {
       }
 
       const msg = lines.join('\n')
-      if (ctx.hasUI) ctx.ui.editor('Ledger Setup Validation', msg)
-      return { content: [{ type: 'text', text: msg }], details: {} } as any
+      if (ctx.hasUI) ctx.ui.notify(msg, 'info')
+      return
     },
   })
 
@@ -1101,7 +1099,7 @@ export default function (pi: ExtensionAPI) {
       fs.writeFileSync(cfgPath, JSON.stringify(existing, null, 2) + '\n', 'utf-8')
 
       if (enable) {
-        const hasTools = hasPiContextTools(ctx)
+        const hasTools = hasPiContextTools(pi)
         if (hasTools) {
           ctx.ui.notify('✅ pi-context integration enabled', 'info')
         } else {
@@ -1121,7 +1119,7 @@ export default function (pi: ExtensionAPI) {
     handler: async (_args, ctx: ExtensionContext) => {
       const cfg = loadConfig(ctx.cwd)
       const piContextCfg = getPiContextConfig(cfg)
-      const hasPiContext = hasPiContextTools(ctx)
+      const hasPiContext = hasPiContextTools(pi)
 
       const lines = [
         '**Available Extension Integrations**',
@@ -1140,7 +1138,7 @@ export default function (pi: ExtensionAPI) {
       ]
 
       const msg = lines.join('\n')
-      if (ctx.hasUI) ctx.ui.editor('Extension Compatibility Status', msg)
+      if (ctx.hasUI) ctx.ui.notify(msg, 'info')
       return
     },
   })
@@ -1151,7 +1149,7 @@ export default function (pi: ExtensionAPI) {
     handler: async (_args, ctx: ExtensionContext) => {
       const cfg = loadConfig(ctx.cwd)
       const piContextCfg = getPiContextConfig(cfg)
-      const hasPiContext = hasPiContextTools(ctx)
+      const hasPiContext = hasPiContextTools(pi)
 
       const lines = [
         '**pi-qmd-ledger Extension Compatibility Status**',
@@ -1168,15 +1166,15 @@ export default function (pi: ExtensionAPI) {
         `Enhance Injectors: ${piContextCfg.enhanceInjectors ? 'Yes' : 'No'}`,
         '',
         '**Detection:**',
-        `context_tag found: ${hasPiContextTools(ctx) ? 'Yes' : 'No'}`,
-        `context_log found: ${hasPiContextTools(ctx) ? 'Yes' : 'No'}`,
-        `context_checkout found: ${hasPiContextTools(ctx) ? 'Yes' : 'No'}`,
+        `context_tag found: ${hasPiContextTools(pi) ? 'Yes' : 'No'}`,
+        `context_log found: ${hasPiContextTools(pi) ? 'Yes' : 'No'}`,
+        `context_checkout found: ${hasPiContextTools(pi) ? 'Yes' : 'No'}`,
         '',
         'To enable: /qmd-enable-pi-context enable',
       ]
 
       const msg = lines.join('\n')
-      if (ctx.hasUI) ctx.ui.editor('Extension Compatibility Status', msg)
+      if (ctx.hasUI) ctx.ui.notify(msg, 'info')
       return
     },
   })
@@ -1315,9 +1313,10 @@ export default function (pi: ExtensionAPI) {
       // 2. Hook into context tags via context_log
       if (piContextCfg.tagPatterns && piContextCfg.tagPatterns.length > 0) {
         try {
-          const ctxTools = (ctx as any).toolMap || {}
-          if (ctxTools.context_log) {
-            const logs = await (ctxTools.context_log as any).execute?.(
+          const allTools = pi.getAllTools()
+          const contextLogTool = allTools.find((t) => t.name === 'context_log')
+          if (contextLogTool) {
+            const logs = await (contextLogTool as any).execute?.(
               null,
               { limit: 100, verbose: true },
               null,
@@ -1372,16 +1371,21 @@ export default function (pi: ExtensionAPI) {
   pi.on('turn_end', async (event, ctx: ExtensionContext) => {
     const cfg = loadConfig(ctx.cwd)
     const piContextCfg = getPiContextConfig(cfg)
-    const hasPiContext = hasPiContextTools(ctx)
+    const hasPiContext = hasPiContextTools(pi)
 
     if (!hasPiContext || !piContextCfg.enabled || !piContextCfg.indexContextEvents) {
       return // pi-context not available, not enabled, or indexing is toggled off
     }
 
     try {
-      const ctxTools = (ctx as any).toolMap || {}
-      if (!ctxTools.context_log || !ctxTools.context_checkout) {
-        // Required pi-context tools not found, even if hasPiContextTools returned true
+      if (!hasPiContextTools(pi)) {
+        return
+      }
+
+      const allTools = pi.getAllTools()
+      const contextLogTool = allTools.find((t) => t.name === 'context_log')
+      const contextCheckoutTool = allTools.find((t) => t.name === 'context_checkout')
+      if (!contextLogTool || !contextCheckoutTool) {
         return
       }
 
@@ -1392,9 +1396,9 @@ export default function (pi: ExtensionAPI) {
       }
 
       // 1. Get current session history
-      const logs = await (ctxTools.context_log as any).execute?.(
+      const logs = await (contextLogTool as any).execute?.(
         null,
-        { limit: 100, verbose: true }, // Increased limit for better history capture
+        { limit: 100, verbose: true },
         null,
         null,
         ctx
@@ -1449,14 +1453,30 @@ export default function (pi: ExtensionAPI) {
         }
       })
 
-      // Append events to ledger (using append_ledger tool internally)
-      for (const event of capturedEvents) {
-        // Using `append_ledger` via ctx.toolCall ensures deduplication if dedupField is set.
-        await ctx.toolCall('append_ledger', {
-          ledger: 'context_events',
-          mode: 'autopilot', // Use autopilot for continuous indexing
-          entry: event,
-        })
+      // Append events directly to ledger (no ctx.toolCall available in event handlers)
+      if (ledgerDef) {
+        ensureDir(ledgerDef.path)
+
+        // Deduplicate by id if dedupField is set
+        let existingIds = new Set<string>()
+        if (ledgerDef.dedupField && fs.existsSync(ledgerDef.path)) {
+          const data = fs.readFileSync(ledgerDef.path, 'utf-8')
+          for (const line of data.split('\n').filter(Boolean)) {
+            try {
+              existingIds.add(JSON.parse(line)[ledgerDef.dedupField])
+            } catch {
+              /* ignore malformed */
+            }
+          }
+        }
+
+        for (const event of capturedEvents) {
+          if (ledgerDef.dedupField && existingIds.has(event[ledgerDef.dedupField])) {
+            continue
+          }
+          fs.appendFileSync(ledgerDef.path, JSON.stringify(event) + '\n')
+          if (ledgerDef.dedupField) existingIds.add(event[ledgerDef.dedupField])
+        }
       }
 
     } catch (e) {

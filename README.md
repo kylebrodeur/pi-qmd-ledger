@@ -50,13 +50,13 @@ For more details on extension integration, see [topics/EXTENSIONS.md](topics/EXT
 ### Prerequisites
 
 - **qmd** binary on PATH (prebuilt or via `cargo install qmd-cli`)
-- **Node.js** 18+
+- **Node.js** 20+ (matches `engines` in `package.json`)
 
 ### 1. Install with pi
 
 ```bash
 pi install npm:pi-qmd-ledger              # latest
-pi install npm:pi-qmd-ledger@0.1.3       # pinned
+pi install npm:pi-qmd-ledger@0.2.0       # pinned
 pi -e npm:pi-qmd-ledger                  # try without installing
 ```
 
