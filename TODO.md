@@ -20,17 +20,22 @@
 
 ```
 pi-qmd-ledger/
-├── dist/                # Compiled JS (ignore)
+├── dist/                # Compiled JS (gitignored)
 ├── skills/              # Agent skills (pi auto-discovers these)
+│   └── qmd-ledger/SKILL.md
 ├── templates/           # Config/ledger scaffolds
-│   ├── config.json      # Default config
-│   └── UCL_LEDGER.jsonl # Unstructured content ledger
-├── index.ts             # Extension entrypoint (all tools/commands)
-├── test/                # Jest-style tests (Node built-in test runner)
+│   ├── config.json
+│   └── UCL_LEDGER.jsonl
+├── topics/              # Extension integration docs
+│   └── EXTENSIONS.md
+├── index.ts             # Extension entrypoint
+├── test/                # Node built-in test runner stub
+│   └── index.test.ts
+├── .github/             # Issue/PR templates and CI
 ├── .pi/                 # Local Pi agent config
-│   └── qmd-ledger.config.json
 ├── CHANGELOG.md
-└── README.md
+├── README.md
+└── TODO.md
 ```
 
 ---
@@ -130,15 +135,9 @@ pnpm exec node -e 'console.log(JSON.parse(require("fs").readFileSync("ledger/mas
 pnpm test
 ```
 
-Expected output: 17 tests across 5 test suites, all passing.
+Expected output: 1 passing stub test.
 
-### Test Coverage
-
-- **Extension registration**: Tools, commands, events
-- **Config system**: Scaffolding, file paths, env overrides
-- **Ledger CRUD**: Append, query, dedup, export, stats
-- **Injector system**: Pattern matching, context injection
-- **Commands**: Validation, indexing, approval workflows
+> ⚠️ Legacy full test suite was removed from version control. The next priority is restoring comprehensive tests (see `## 📋 Upcoming`).
 
 ---
 
@@ -173,12 +172,14 @@ Expected output: 17 tests across 5 test suites, all passing.
 - qmd integration with fallback instructions
 - Human-in-the-loop tiers (strict/gated/autopilot)
 - Dynamic context injection via regex patterns
-- Comprehensive test suite
 - Prettier, ESLint, and typecheck configuration
 - Developer documentation and learnings
-- Architecture visualization for context injection flow (generated at /tmp/pi-visuals/pi-qmd-ledger-architecture.html)
-- **Extension compatibility framework with pi-context integration**
-- **pi-context event indexing and 'context_events' ledger**
+- Architecture visualization for context injection flow
+- Extension compatibility framework with pi-context integration
+- pi-context event indexing and 'context_events' ledger
+- **GitHub repo readiness**: Templates, CI workflow, updated README/CHANGELOG
+- **Build/test alignment**: ESM compilation, stub test suite, `__dirname` polyfill
+- **SDK compatibility review**: Removed fake `ctx.toolCall` / `(ctx as any).toolMap`, switched to `pi.getAllTools()`
 
 ### 🔄 In Progress
 
@@ -186,12 +187,30 @@ Expected output: 17 tests across 5 test suites, all passing.
 
 ### 📋 Upcoming
 
+**Publishing**
+- [ ] Run npm publish dry-run: `pnpm publish --dry-run`
+- [ ] Ensure `files` array in `package.json` is correct
+- [ ] Verify no secrets in tarball (`npm pack --dry-run`)
+- [ ] Publish `v0.2.0` to npm: `pnpm publish --access public`
+- [ ] Tag release on GitHub from latest main
+
+**Testing**
+- [ ] Restore full test suite (config CRUD, ledger append/query, dedup, injectors)
+- [ ] Add integration test using mock ExtensionAPI
+- [ ] Add test for pi-context event capture path
+- [ ] Run manual HITL test plan from TESTING.md
+
+**Code Quality**
+- [ ] Migrate from `@sinclair/typebox` to `typebox` 1.x for pi-coding-agent >=0.69.0
 - [ ] Add TypeScript parser to ESLint for `.ts` linting
-- [ ] Add `.prettierignore` for all non-code files
-- [ ] Add `.eslintrc.json` for legacy projects
-- [ ] Create a `CONTRIBUTING.md` for contributor onboarding
+- [ ] Enable `strict: true` in `tsconfig.json`
+- [ ] Reduce `any` usage in index.ts
+
+**Features**
+- [ ] Fully implement `enhanceInjectors` for pi-context integration
 - [ ] Add advanced qmd configuration (custom embeddings, custom models)
 - [ ] Add ledger migration tools for schema changes
+- [ ] Add pagination (`limit`/`offset`) to `query_ledger`
 
 ---
 
@@ -234,4 +253,4 @@ Expected output: 17 tests across 5 test suites, all passing.
 
 ---
 
-*Last updated: 2026-04-22*
+*Last updated: 2026-04-24*
