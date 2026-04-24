@@ -21,6 +21,13 @@
 ```
 pi-qmd-ledger/
 ├── dist/                # Compiled JS (gitignored)
+├── src/                 # TypeScript source modules
+│   ├── index.ts         # Extension factory (wires everything)
+│   ├── types.ts         # Interfaces, DEFAULT_CONFIG, tool inputs
+│   ├── utils.ts         # Config loading, helpers, qmd checks
+│   ├── tools.ts         # All 8 tool registrations
+│   ├── commands.ts      # All 7 command registrations
+│   └── events.ts        # Event handlers (injectors, pi-context)
 ├── skills/              # Agent skills (pi auto-discovers these)
 │   └── qmd-ledger/SKILL.md
 ├── templates/           # Config/ledger scaffolds
@@ -28,7 +35,7 @@ pi-qmd-ledger/
 │   └── UCL_LEDGER.jsonl
 ├── topics/              # Extension integration docs
 │   └── EXTENSIONS.md
-├── index.ts             # Extension entrypoint
+├── index.ts             # Root re-export (backward compat)
 ├── test/                # Node built-in test runner stub
 │   └── index.test.ts
 ├── .github/             # Issue/PR templates and CI
@@ -179,7 +186,10 @@ Expected output: 1 passing stub test.
 - pi-context event indexing and 'context_events' ledger
 - **GitHub repo readiness**: Templates, CI workflow, updated README/CHANGELOG
 - **Build/test alignment**: ESM compilation, stub test suite, `__dirname` polyfill
-- **SDK compatibility review**: Removed fake `ctx.toolCall` / `(ctx as any).toolMap`, switched to `pi.getAllTools()`
+- **pnpm overrides**: Fixed `fast-xml-parser` transitive vulnerability
+- **Modular refactor**: Split 1,486-line monolith into `src/{types,utils,tools,commands,events,index}.ts`
+- **Type safety**: Zero `any` — all tool params typed with explicit interfaces, SDK types for callbacks
+- **Global config**: `~/.pi/agent/qmd-ledger.config.json` + project config merging (global → project)
 
 ### 🔄 In Progress
 
@@ -204,9 +214,10 @@ Expected output: 1 passing stub test.
 - [ ] Migrate from `@sinclair/typebox` to `typebox` 1.x for pi-coding-agent >=0.69.0
 - [ ] Add TypeScript parser to ESLint for `.ts` linting
 - [ ] Enable `strict: true` in `tsconfig.json`
-- [ ] Reduce `any` usage in index.ts
+- [ ] Arrow-function consistency across all module exports
 
 **Features**
+- [ ] State management via `pi.appendEntry('qmd-ledger-state', ...)` for runtime state
 - [ ] Fully implement `enhanceInjectors` for pi-context integration
 - [ ] Add advanced qmd configuration (custom embeddings, custom models)
 - [ ] Add ledger migration tools for schema changes
