@@ -55,10 +55,17 @@ export const registerCommands = (pi: ExtensionAPI) => {
 
       const hasContext = hasPiContextTools(pi)
       const contextCfg = getPiContextConfig(cfg)
-      lines.push(`\n🧩 Extensions:`)
-      lines.push(`   • pi-context: ${hasContext ? '✅' : '❌'} ${contextCfg.enabled ? 'Enabled' : 'Disabled'}`)
+      const willCapture = hasContext && contextCfg.enabled
+      lines.push(`\n🧩 Extension Integrations:`)
+      lines.push(`   • pi-context:`)
+      lines.push(`       - Tools installed: ${hasContext ? '✅ Yes (context_tag, context_log, context_checkout)' : '❌ No'}`)
+      lines.push(`       - Config enabled: ${contextCfg.enabled ? '✅ Yes' : '❌ No'}`)
+      lines.push(`       - Will capture events: ${willCapture ? '✅ Yes — on next turn' : '❌ No'}`)
       if (hasContext && !contextCfg.enabled) {
-        lines.push(`     └─ Run /qmd-enable-pi-context enable to activate`)
+        lines.push(`       → Run /qmd-enable-pi-context enable to activate`)
+      }
+      if (!hasContext && contextCfg.enabled) {
+        lines.push(`       ⚠️  Config says enabled but tools missing. Install with: pi install npm:pi-context`)
       }
 
       const msg = lines.join('\n')
@@ -220,17 +227,31 @@ export const registerCommands = (pi: ExtensionAPI) => {
       }
       fs.writeFileSync(cfgPath, JSON.stringify(existing, null, 2) + '\n', 'utf-8')
 
+      const hasTools = hasPiContextTools(pi)
+      const msgLines: string[] = []
+
       if (enable) {
-        const hasTools = hasPiContextTools(pi)
         if (hasTools) {
-          ctx.ui.notify('✅ pi-context integration enabled', 'info')
+          msgLines.push('✅ pi-context integration ENABLED')
+          msgLines.push('')
+          msgLines.push('What this means:')
+          msgLines.push('  • On every turn_end, pi-context events will be captured to the context_events ledger')
+          msgLines.push('  • Tag patterns from config will trigger ledger lookups on before_agent_start')
+          msgLines.push('  • autoEnableAcm is ' + (existing.extensionCompatibility?.['pi-context']?.autoEnableAcm !== false ? 'ON' : 'OFF'))
         } else {
-          ctx.ui.notify('⚠️  pi-context enabled but tools not found', 'warning')
+          msgLines.push('⚠️  pi-context integration ENABLED in config, but pi-context tools NOT found')
+          msgLines.push('')
+          msgLines.push('To actually capture events, install the pi-context extension:')
+          msgLines.push('  pi install npm:pi-context')
+          msgLines.push('')
+          msgLines.push('After installing, run /qmd-validate to confirm tools are detected.')
         }
       } else {
-        ctx.ui.notify('pi-context integration disabled', 'info')
+        msgLines.push('pi-context integration DISABLED.')
+        msgLines.push('Context events will NOT be captured to the ledger.')
       }
 
+      ctx.ui.notify(msgLines.join('\n'), enable ? (hasTools ? 'info' : 'warning') : 'info')
       return
     },
   })
@@ -272,31 +293,37 @@ export const registerCommands = (pi: ExtensionAPI) => {
       const cfg = loadConfig(ctx.cwd)
       const piContextCfg = getPiContextConfig(cfg)
       const hasPiContext = hasPiContextTools(pi)
+      const willCapture = hasPiContext && piContextCfg.enabled
 
       const lines = [
         '**pi-qmd-ledger Extension Compatibility Status**',
         '',
-        `Config path: project=${findConfig(ctx.cwd).project || 'none'}, global=${findConfig(ctx.cwd).global || 'none'}`,
-        '',
         '--- pi-context ---',
-        `Enabled: ${piContextCfg.enabled ? 'Yes' : 'No'}`,
-        `Available: ${hasPiContext ? 'Yes' : 'No'}`,
-        `Tag Patterns:`,
+        `Status: ${willCapture ? '✅ ACTIVE' : '❌ INACTIVE'}`,
+        `  - Tools installed: ${hasPiContext ? '✅' : '❌'}`,
+        `  - Config enabled: ${piContextCfg.enabled ? '✅' : '❌'}`,
+        `  - Will capture on next turn: ${willCapture ? '✅ Yes' : '❌ No'}`,
+        '',
+        `Tag Patterns: ${piContextCfg.tagPatterns?.length || 0}`,
         ...(piContextCfg.tagPatterns?.length
-          ? piContextCfg.tagPatterns.map((p) => `  • ${p}`)
-          : ['  (none configured)']),
+          ? piContextCfg.tagPatterns.map((p) => `  • "${p}"`)
+          : ['  (none configured — no tag-based lookups triggered)']),
+        '',
         `Enhance Injectors: ${piContextCfg.enhanceInjectors ? 'Yes' : 'No'}`,
+        `autoEnableAcm: ${piContextCfg.autoEnableAcm ? 'Yes' : 'No'}`,
+        `indexContextEvents: ${piContextCfg.indexContextEvents ? 'Yes' : 'No'}`,
         '',
-        '**Detection:**',
-        `context_tag found: ${hasPiContextTools(pi) ? 'Yes' : 'No'}`,
-        `context_log found: ${hasPiContextTools(pi) ? 'Yes' : 'No'}`,
-        `context_checkout found: ${hasPiContextTools(pi) ? 'Yes' : 'No'}`,
-        '',
-        'To enable: /qmd-enable-pi-context enable',
+        willCapture
+          ? 'Context events will be captured on the next turn_end.'
+          : hasPiContext && !piContextCfg.enabled
+            ? 'Run /qmd-enable-pi-context enable to activate.'
+            : !hasPiContext && piContextCfg.enabled
+              ? '⚠️ Config says enabled but tools not found. Install pi-context extension.'
+              : 'Run /qmd-init then /qmd-enable-pi-context enable to start capturing.',
       ]
 
       const msg = lines.join('\n')
-      if (ctx.hasUI) ctx.ui.notify(msg, 'info')
+      ctx.ui.notify(msg, willCapture ? 'info' : 'warning')
       return
     },
   })

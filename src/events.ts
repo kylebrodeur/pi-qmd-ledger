@@ -64,7 +64,12 @@ export const handleBeforeAgentStart = async (
 
     // 2. pi-context integration: auto-ACM and tag-based triggers
     const piContextCfg = getPiContextConfig(cfg);
-    if (piContextCfg.enabled) {
+    if (!piContextCfg.enabled) {
+        // pi-context explicitly disabled — nothing to do
+    } else if (!hasPiContextTools(pi)) {
+        // pi-context enabled in config but tools not available — log once per turn_start
+        console.warn('[pi-qmd-ledger] pi-context enabled but tools not found. Install pi-context extension.');
+    } else {
         if (piContextCfg.autoEnableAcm) {
             pi.sendMessage(
                 {
@@ -93,6 +98,7 @@ export const handleBeforeAgentStart = async (
 
                     if (logs && logs.content && logs.content[0]?.text) {
                         const logText = logs.content[0].text;
+                        let tagInjections = 0;
 
                         for (const pattern of piContextCfg.tagPatterns) {
                             const tagRegex = new RegExp(pattern, 'i');
@@ -117,12 +123,17 @@ export const handleBeforeAgentStart = async (
 
                                                 if (hits.length > 0) {
                                                     additions += `\n\n=== pi-context tag [${tagValue}] matched ${ledgerName} ===\n${JSON.stringify(hits, null, 2)}\n`;
+                                                    tagInjections += hits.length;
                                                 }
                                             }
                                         }
                                     }
                                 }
                             }
+                        }
+
+                        if (tagInjections > 0) {
+                            ctx.ui?.notify?.(`pi-context: injected ${tagInjections} entries from matching tags`, 'info');
                         }
                     }
                 }
@@ -265,12 +276,18 @@ export const handleTurnEnd = async (
                 }
             }
 
+            let appended = 0;
             for (const event of capturedEvents) {
                 if (ledgerDef.dedupField && existingIds.has(event[ledgerDef.dedupField])) {
                     continue;
                 }
                 fs.appendFileSync(ledgerDef.path, JSON.stringify(event) + '\n');
                 if (ledgerDef.dedupField) existingIds.add(event[ledgerDef.dedupField]);
+                appended++;
+            }
+
+            if (appended > 0 && ctx.ui?.notify) {
+                ctx.ui.notify(`pi-context: captured ${appended} event(s) → ${ledgerDef.path}`, 'info');
             }
         }
     } catch (e) {
