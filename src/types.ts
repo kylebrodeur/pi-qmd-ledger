@@ -41,14 +41,14 @@ export interface UniversalConfig {
 export const DEFAULT_CONFIG: UniversalConfig = {
   version: 2,
   ledgers: {
-    master: {
-      path: 'ledger/master.jsonl',
+    main: {
+      path: 'ledger/main.jsonl',
       schema: ['id', 'domain', 'source', 'fact', 'tag', 'artifact'],
       dedupField: 'fact',
     },
     pending: {
       path: 'ledger/pending.jsonl',
-      schema: 'master' as unknown as string[],
+      schema: 'main' as unknown as string[],
     },
     context_events: {
       path: 'ledger/context_events.jsonl',
@@ -60,7 +60,7 @@ export const DEFAULT_CONFIG: UniversalConfig = {
     {
       name: 'draft-context',
       regex: 'draft\\s+(\\S+)',
-      ledger: 'master',
+      ledger: 'main',
       filterField: 'tag',
       artifactPath: 'ledger/artifact.md',
     },

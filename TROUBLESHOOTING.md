@@ -104,7 +104,7 @@ export QMD_LEDGER_CONFIG=/custom/path/config.json
 **Symptom:**
 
 ```
-Ledger "master" not found at ledger/master.jsonl. Run /qmd-init.
+Ledger "main" not found at ledger/main.jsonl. Run /qmd-init.
 ```
 
 **Fix:**

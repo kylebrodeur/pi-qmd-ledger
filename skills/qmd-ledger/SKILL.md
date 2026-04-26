@@ -42,7 +42,7 @@ Run `/qmd-init` in your project root. This scaffolds:
 ```
 pi-qmd-ledger.config.json   ← config
 ledger/
-  master.jsonl               ← main ledger
+  main.jsonl                 ← primary ledger
   pending.jsonl              ← pending review queue
 ```
 
@@ -60,8 +60,8 @@ Edit `pi-qmd-ledger.config.json`. Top-level keys:
 ### Ledger definition
 
 ```json
-"master": {
-  "path": "ledger/master.jsonl",
+"main": {
+  "path": "ledger/main.jsonl",
   "schema": ["id", "domain", "source", "fact", "tag", "artifact"],
   "dedupField": "fact"
 }
@@ -70,7 +70,7 @@ Edit `pi-qmd-ledger.config.json`. Top-level keys:
 | Key          | Description                                                       |
 | ------------ | ----------------------------------------------------------------- |
 | `path`       | File path (relative to cwd)                                       |
-| `schema`     | Ordered field names, or `"master"` to inherit from another ledger |
+| `schema`     | Ordered field names, or a string referencing another ledger to inherit its schema |
 | `dedupField` | Field checked for duplicates in autopilot mode                    |
 
 ### Injector definition
@@ -80,7 +80,7 @@ Edit `pi-qmd-ledger.config.json`. Top-level keys:
   "name": "draft-context",
   "regex": "draft\\s+(\\S+)",
   "captureGroup": 1,
-  "ledger": "master",
+  "ledger": "main",
   "filterField": "tag",
   "artifactPath": "ledger/artifact.md",
   "template": "\\n\\n=== {{injector}} [{{capture}}] ===\\n{{entries}}\\n{{artifact}}\\n"
@@ -110,7 +110,7 @@ Fuzzy semantic search across raw docs using the qmd engine.
 
 ### qmd_status
 
-Show qmd index state: collections, indexed document counts, and pending embeddings.
+Show qmd index state: collections, indexed documents, and pending embeddings.
 
 Takes no parameters. Returns the output of `qmd status` as text.
 
@@ -145,7 +145,7 @@ Read or update extension config at runtime.
 
 ### describe_ledger
 
-Introspect a named ledger: returns schema, total entry count, and sample first/last entries.
+Introspect a named ledger: returns schema, entry count, and sample first/last entries.
 
 **Parameters:**
 
@@ -171,7 +171,7 @@ Export a ledger to JSON array, CSV, or Markdown table.
 - `/qmd-init` — scaffold config + empty ledgers + artifact template
 - `/qmd-validate` — health check: qmd binary, config, all ledger paths, injectors
 - `/qmd-index [--no-embed]` — re-index all collections (BM25 full-text + embeddings)
-- `/qmd-approve [target]` — batch-review pending entries. Default target is `master`
+- `/qmd-approve [target]` — batch-review pending entries. Default target is `main`
 
 ## Workflow
 
@@ -199,7 +199,7 @@ Then build the index:
 
 ```
 append_ledger(
-  ledger="master",
+  ledger="main",
   mode="gated",
   entry={
     "id": "REQ-042",
@@ -215,12 +215,12 @@ append_ledger(
 ### 3. Approve pending queue
 
 ```
-/qmd-approve master
+/qmd-approve main
 ```
 
 ### 4. Pre-fetch in prompts
 
-If your config has `{ "regex": "draft\\s+(\\S+)", "ledger": "master", "filterField": "tag" }`, typing `draft login` will automatically inject all entries where `tag === "login"`.
+If your config has `{ "regex": "draft\\s+(\\S+)", "ledger": "main", "filterField": "tag" }`, typing `draft login` will automatically inject all entries where `tag === "login"`.
 
 ## Patterns
 

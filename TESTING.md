@@ -30,7 +30,7 @@ Agent flow:
 **Verify:**
 
 ```
-query_ledger(ledger="master", filters={tag: "auth"})
+query_ledger(ledger="main", filters={tag: "auth"})
 ```
 
 Returns the entry.
@@ -87,7 +87,7 @@ Agent flow:
 
 - Full JSON of proposed entry
 - Ledger name
-- "Approve entry for 'master'?"
+- "Approve entry for 'main'?"
 
 ---
 
@@ -107,15 +107,15 @@ Agent flow (5x):
 Human later types:
 
 ```
-/qmd-approve master
+/qmd-approve main
 ```
 
 **Verify:**
 
 - Each pending entry shows in a confirm dialog
-- Approve → moved to `master.jsonl`
+- Approve → moved to `main.jsonl`
 - Reject → stays in `pending.jsonl` (or removed)
-- Final count message: "Approved 4 → 'master'. Rejected 1."
+- Final count message: "Approved 4 → 'main'. Rejected 1."
 
 ---
 
@@ -127,14 +127,14 @@ Setup: Ensure config has:
 
 ```json
 "injectors": [
-  { "name": "draft-context", "regex": "draft\\s+(\\S+)", "ledger": "master", "filterField": "tag" }
+  { "name": "draft-context", "regex": "draft\\s+(\\S+)", "ledger": "main", "filterField": "tag" }
 ]
 ```
 
 Add an entry:
 
 ```
-append_ledger(ledger="master", mode="autopilot", entry={id:"r1", domain:"auth", source:"s1", fact:"SSO required", tag:"login", artifact:""})
+append_ledger(ledger="main", mode="autopilot", entry={id:"r1", domain:"auth", source:"s1", fact:"SSO required", tag:"login", artifact:""})
 ```
 
 Test:
@@ -179,8 +179,8 @@ qmd_search(query="deployment strategy", limit=3)
 **Goal:** Data portability.
 
 ```
-ledger_export(ledger="master", format="csv")
-ledger_export(ledger="master", format="markdown")
+ledger_export(ledger="main", format="csv")
+- Final count message: "Approved 4 → 'main'. Rejected 1."
 ```
 
 **Verify:** Files are valid CSV/Markdown with schema headers.

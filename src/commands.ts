@@ -103,12 +103,12 @@ export const registerCommands = (pi: ExtensionAPI) => {
         const tmpl = {
           version: 2,
           ledgers: {
-            master: {
-              path: 'ledger/master.jsonl',
+            main: {
+              path: 'ledger/main.jsonl',
               schema: ['id', 'domain', 'source', 'fact', 'tag', 'artifact'],
               dedupField: 'fact',
             },
-            pending: { path: 'ledger/pending.jsonl', schema: 'master' },
+            pending: { path: 'ledger/pending.jsonl', schema: 'main' },
             context_events: {
               path: 'ledger/context_events.jsonl',
               schema: ['id', 'type', 'session_entry_id', 'content', 'timestamp', 'tags'],
@@ -119,7 +119,7 @@ export const registerCommands = (pi: ExtensionAPI) => {
             {
               name: 'draft-context',
               regex: 'draft\\s+(\\S+)',
-              ledger: 'master',
+              ledger: 'main',
               filterField: 'tag',
             },
           ],
@@ -348,7 +348,7 @@ export const registerCommands = (pi: ExtensionAPI) => {
         return
       }
 
-      const targetName = args.trim() || 'master'
+      const targetName = args.trim() || 'main'
       const target = cfg.ledgers[targetName]
       if (!target) {
         ctx.ui.notify(`Unknown target ledger "${targetName}".`, 'error')

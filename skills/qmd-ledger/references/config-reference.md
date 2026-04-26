@@ -6,21 +6,21 @@
 {
   "version": 2,
   "ledgers": {
-    "master": {
-      "path": "ledger/master.jsonl",
+    "main": {
+      "path": "ledger/main.jsonl",
       "schema": ["id", "domain", "source", "fact", "tag", "artifact"],
       "dedupField": "fact"
     },
     "pending": {
       "path": "ledger/pending.jsonl",
-      "schema": "master"
+      "schema": "main"
     }
   },
   "injectors": [
     {
       "name": "default",
       "regex": "draft\\s+(\\S+)",
-      "ledger": "master",
+      "ledger": "main",
       "filterField": "tag"
     }
   ],

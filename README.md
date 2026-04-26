@@ -33,7 +33,7 @@ Universal append-only JSONL ledger with hybrid semantic search (qmd) and dynamic
        │
        ▼
 ┌─────────────────────────────────────────┐
-│  query master.jsonl where tag="login"   │
+│  query main.jsonl where tag="login"   │
 │  + inject artifact.md                   │
 └──────┬──────────────────────────────────┘
        │

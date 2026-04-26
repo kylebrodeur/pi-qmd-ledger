@@ -70,7 +70,7 @@ pnpm test      # Run all tests against dist/test/index.test.js
 pnpm prettier  # Format all files
 
 # Test a specific ledger entry manually
-pnpm exec node -e 'console.log(JSON.parse(require("fs").readFileSync("ledger/master.jsonl").split("\n")[0]))'
+pnpm exec node -e 'console.log(JSON.parse(require("fs").readFileSync("ledger/main.jsonl").split("\n")[0]))'
 ```
 
 ### Configuration
@@ -80,21 +80,21 @@ pnpm exec node -e 'console.log(JSON.parse(require("fs").readFileSync("ledger/mas
 {
   "version": 2,
   "ledgers": {
-    "master": {
-      "path": "ledger/master.jsonl",
+    "main": {
+      "path": "ledger/main.jsonl",
       "schema": ["id", "domain", "source", "fact", "tag", "artifact"],
       "dedupField": "fact"
     },
     "pending": {
       "path": "ledger/pending.jsonl",
-      "schema": "master"
+      "schema": "main"
     }
   },
   "injectors": [
     {
       "name": "draft-context",
       "regex": "draft\\s+(\\S+)",
-      "ledger": "master",
+      "ledger": "main",
       "filterField": "tag"
     }
   ],

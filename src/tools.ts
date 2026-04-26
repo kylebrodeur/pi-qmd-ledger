@@ -90,7 +90,7 @@ export const registerTools = (pi: ExtensionAPI) => {
     description:
       'Deterministic JSONL search by ledger name. Use for exact lookups and filtered retrieval.',
     promptSnippet:
-      'query_ledger(ledger="master", query="...", filters={key: "value"}) - exact ledger search.',
+      'query_ledger(ledger="main", query="...", filters={key: "value"}) - exact ledger search.',
     promptGuidelines: [
       "Use query_ledger when you already know the ledger name and need exact matches (e.g., all entries with tag='login').",
       'query does substring search across all text fields; filters does exact key-value matching.',
@@ -98,7 +98,7 @@ export const registerTools = (pi: ExtensionAPI) => {
     ],
     parameters: Type.Object({
       ledger: Type.String({
-        description: 'Ledger name to search (e.g. master, pending)',
+        description: 'Ledger name to search (e.g. main, pending)',
       }),
       query: Type.Optional(
         Type.String({
@@ -192,7 +192,7 @@ export const registerTools = (pi: ExtensionAPI) => {
     description:
       'Append an entry to a named ledger. Use autopilot for draft work; gated for review; strict for critical facts.',
     promptSnippet:
-      'append_ledger(ledger="master", mode="autopilot", entry={...}) - append a fact.',
+      'append_ledger(ledger="main", mode="autopilot", entry={...}) - append a fact.',
     promptGuidelines: [
       'Use autopilot mode for everyday notes; it deduplicates using dedupField automatically.',
       'Use gated mode when the fact needs human review (queues in pending ledger).',
@@ -367,7 +367,7 @@ export const registerTools = (pi: ExtensionAPI) => {
     description:
       'Introspect a named ledger: schema, entry count, and sample first/last entries.',
     promptSnippet:
-      'describe_ledger(ledger="master") - get schema and sample entries.',
+      'describe_ledger(ledger="main") - get schema and sample entries.',
     promptGuidelines: [
       'Call describe_ledger before append_ledger if you are unsure what fields the ledger expects.',
       'Use it to quickly check ledger health (total entries, malformed lines, schema).',
@@ -521,7 +521,7 @@ export const registerTools = (pi: ExtensionAPI) => {
     description:
       'Export a named ledger to JSON array, CSV, or Markdown table for sharing.',
     promptSnippet:
-      'ledger_export(ledger="master", format="json") - export a ledger.',
+      'ledger_export(ledger="main", format="json") - export a ledger.',
     promptGuidelines: [
       'Use ledger_export when the user wants to share, archive, or import ledger data elsewhere.',
       'If exporting to CSV or Markdown, the schema keys become column headers.',

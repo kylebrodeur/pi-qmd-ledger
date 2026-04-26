@@ -2,21 +2,21 @@
   "comment": "pi-qmd-ledger universal config. Rename this to pi-qmd-ledger.config.json or place under .pi/qmd-ledger.config.json",
   "version": 2,
   "ledgers": {
-    "master": {
-      "path": "ledger/master.jsonl",
+    "main": {
+      "path": "ledger/main.jsonl",
       "schema": ["id", "domain", "source", "fact", "tag", "artifact"],
       "dedupField": "fact"
     },
     "pending": {
       "path": "ledger/pending.jsonl",
-      "schema": "master"
+      "schema": "main"
     }
   },
   "injectors": [
     {
       "name": "draft-context",
       "regex": "draft\\s+(\\S+)",
-      "ledger": "master",
+      "ledger": "main",
       "filterField": "tag"
     }
   ],
