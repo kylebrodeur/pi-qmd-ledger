@@ -4,6 +4,12 @@ All notable changes to this project follow [Semantic Versioning](https://semver.
 
 ## [Unreleased]
 
+## [0.2.2] — 2026-04-25
+
+### Changed
+
+- Renamed default ledger key from `master` to `main` across source code, templates, documentation, and test docs. The word `master` is no longer used as a ledger identifier anywhere in the project.
+
 ## [0.2.1] — 2026-04-25
 
 ### Added
