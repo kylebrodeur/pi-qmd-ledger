@@ -4,6 +4,13 @@ All notable changes to this project follow [Semantic Versioning](https://semver.
 
 ## [Unreleased]
 
+## [0.4.0] — 2026-04-26
+
+### Added
+
+- **Interactive Configuration Wizards**: Added `/qmd-ledger-create` and `/qmd-injector-create` commands that guide users through creating new ledgers and injectors directly in the TUI without editing JSON files.
+- **Settings Dashboard**: Added `/qmd-settings` interactive menu to manage ledgers, injectors, and extension integrations visually.
+
 ## [0.3.2] — 2026-04-26
 
 ### Fixed

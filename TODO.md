@@ -1,266 +1,29 @@
-# pi-qmd-ledger Project Dashboard & TODO
+# TODO
 
-> This is the primary hub for pi-qmd-ledger development status, key knowledge, and actionable items. Check here first for any questions about setup, usage, or contributing.
+This file tracks planned enhancements to the `pi-qmd-ledger` extension, particularly focusing on improving the human-facing configuration interface (currently reliant on manual JSON editing).
 
----
+## TUI Configuration Management
 
-## 📦 What It Is
+*   **[x] Create `/qmd-settings` Interactive Dashboard**
+    *   Implement a comprehensive TUI menu (`Container` with `SelectList` and `Input` components).
+    *   Allow users to view current settings, navigate between Ledgers, Injectors, QMD, and Extension settings, and apply changes visually.
+    *   *Reference Task ID: 9*
 
-`pi-qmd-ledger` is a universal JSONL ledger extension for Pi coding agents. It provides:
+*   **[x] Create `/qmd-ledger-create` Interactive Wizard**
+    *   Prompt the user for a new Ledger name.
+    *   Prompt for the file path (defaulting to `ledger/<name>.jsonl`).
+    *   Prompt for schema fields (comma-separated list).
+    *   Prompt for an optional `dedupField`.
+    *   Automatically update the `pi-qmd-ledger.config.json` and scaffold the empty `.jsonl` file.
+    *   *Reference Task ID: 10*
 
-- **Append-only event sourcing** for facts, decisions, notes, or records
-- **Flexible schema** defined per ledger in configuration
-- **Hybrid search** through qmd (BM25 + semantic embeddings)
-- **Tiered human-in-the-loop**: strict (confirm), gated (queue), autopilot (auto + dedup)
-- **Dynamic context** injection via regex-triggered patterns
+*   **[x] Create `/qmd-injector-create` Interactive Wizard**
+    *   Guide the user through setting up a new prompt injector context trigger.
+    *   Prompt for the injector name, regex pattern, target ledger, and filter field.
+    *   Persist the new injector block to the configuration file.
+    *   *Reference Task ID: 11*
 
----
+## Long-term SDK Integrations
 
-## 🏗️ Project Structure
-
-```
-pi-qmd-ledger/
-├── dist/                # Compiled JS (gitignored)
-├── src/                 # TypeScript source modules
-│   ├── index.ts         # Extension factory (wires everything)
-│   ├── types.ts         # Interfaces, DEFAULT_CONFIG, tool inputs
-│   ├── utils.ts         # Config loading, helpers, qmd checks
-│   ├── tools.ts         # All 8 tool registrations
-│   ├── commands.ts      # All 7 command registrations
-│   └── events.ts        # Event handlers (injectors, pi-context)
-├── skills/              # Agent skills (pi auto-discovers these)
-│   └── qmd-ledger/SKILL.md
-├── templates/           # Config/ledger scaffolds
-│   ├── config.json
-│   └── UCL_LEDGER.jsonl
-├── topics/              # Extension integration docs
-│   └── EXTENSIONS.md
-├── index.ts             # Root re-export (backward compat)
-├── test/                # Node built-in test runner stub
-│   └── index.test.ts
-├── .github/             # Issue/PR templates and CI
-├── .pi/                 # Local Pi agent config
-├── CHANGELOG.md
-├── README.md
-└── TODO.md
-```
-
----
-
-## 🚀 Quick Setup & Usage
-
-### For Pi Agents (Automatic)
-
-1. Install via `pi package install pi-qmd-ledger` (when published)
-2. Edit `.pi/qmd-ledger.config.json` in your project root
-3. Run `/qmd-validate` to verify installation
-4. Run `/qmd-init` to scaffold default ledgers
-
-### For Developers
-
-```bash
-# Install dependencies
-pnpm install
-
-# Development commands
-pnpm build     # Compile TypeScript to dist/
-pnpm typecheck # typecheck only (no emit)
-pnpm lint      # ESLint (JS files only, TS needs parser setup)
-pnpm test      # Run all tests against dist/test/index.test.js
-pnpm prettier  # Format all files
-
-# Test a specific ledger entry manually
-pnpm exec node -e 'console.log(JSON.parse(require("fs").readFileSync("ledger/main.jsonl").split("\n")[0]))'
-```
-
-### Configuration
-
-```json
-// .pi/qmd-ledger.config.json (or pi-qmd-ledger.config.json)
-{
-  "version": 2,
-  "ledgers": {
-    "main": {
-      "path": "ledger/main.jsonl",
-      "schema": ["id", "domain", "source", "fact", "tag", "artifact"],
-      "dedupField": "fact"
-    },
-    "pending": {
-      "path": "ledger/pending.jsonl",
-      "schema": "main"
-    }
-  },
-  "injectors": [
-    {
-      "name": "draft-context",
-      "regex": "draft\\s+(\\S+)",
-      "ledger": "main",
-      "filterField": "tag"
-    }
-  ],
-  "qmd": {
-    "binary": "qmd",
-    "defaultLimit": 5,
-    "maxBuffer": 10485760
-  }
-}
-```
-
----
-
-## 🛠️ Tools & Commands
-
-### Commands
-
-| Command | Description |
-|---------|-------------|
-| `/qmd-validate` | Verify qmd binary, config, and ledger paths |
-| `/qmd-init` | Scaffold config, ledgers, and artifact templates |
-| `/qmd-index` | Re-index qmd collections (optionally add embeddings) |
-| `/qmd-approve` | Review pending entries and migrate to target ledger |
-
-### Tools
-
-| Tool | Purpose |
-|------|---------|
-| `qmd_search` | Fuzzy semantic search across indexed docs |
-| `query_ledger` | Exact ledger search with filters |
-| `append_ledger` | Add entries to ledgers (autopilot/gated/strict modes) |
-| `describe_ledger` | Get ledger schema, counts, and sample entries |
-| `ledger_stats` | Dashboard of all ledgers: counts, sizes, health |
-| `ledger_export` | Export to JSON, CSV, or Markdown |
-| `configure_ledger` | Read/update config at runtime |
-| `qmd_status` | Show indexing and embedding status |
-
----
-
-## 🧪 Testing & CI
-
-### Running All Tests
-
-```bash
-pnpm test
-```
-
-Expected output: 1 passing stub test.
-
-> ⚠️ Legacy full test suite was removed from version control. The next priority is restoring comprehensive tests (see `## 📋 Upcoming`).
-
----
-
-## 📚 Key Learnings & Conventions
-
-### Developer Conventions
-
-1. **Naming**: Use `qmd-*` prefix for commands to avoid collisions
-2. **Tool Registration**: Always include `promptSnippet` and `promptGuidelines`
-3. **Error Handling**: Gracefully handle missing dependencies with clear instructions
-4. **Parameters**: Name after purpose, use `any` when needed for flexibility
-5. **Async Execution**: Wrap file operations in `Promise` with `child_process.execFile`
-6. **Context Usage**: Use `ExtensionContext` for cwd and UI interactions
-7. **Schema Definition**: Use `Type.Object` and `Type.Record` from `@sinclair/typebox`
-8. **Configuration**: Load config lazily and support environment variable overrides
-9. **Testing Strategy**: Mock API with temp directories to ensure isolation
-
-### Pi Package Conventions
-
-1. **Skills Location**: Place skills in `skills/<name>/SKILL.md`
-2. **Package Structure**: Use `scripts/build`, `scripts/test`, `scripts/typecheck`
-3. **Dependencies**: Put Pi SDK in `peerDependencies` to avoid bundling
-4. **Manifest**: Define `pi.extensions` and `pi.skills` in `package.json`
-
----
-
-## 📈 Current Status
-
-### ✅ Completed
-
-- Event sourcing ledger system with flexible schemas
-- qmd integration with fallback instructions
-- Human-in-the-loop tiers (strict/gated/autopilot)
-- Dynamic context injection via regex patterns
-- Prettier, ESLint, and typecheck configuration
-- Developer documentation and learnings
-- Architecture visualization for context injection flow
-- Extension compatibility framework with pi-context integration
-- pi-context event indexing and 'context_events' ledger
-- **GitHub repo readiness**: Templates, CI workflow, updated README/CHANGELOG
-- **Build/test alignment**: ESM compilation, stub test suite, `__dirname` polyfill
-- **pnpm overrides**: Fixed `fast-xml-parser` transitive vulnerability
-- **Modular refactor**: Split 1,486-line monolith into `src/{types,utils,tools,commands,events,index}.ts`
-- **Type safety**: Zero `any` — all tool params typed with explicit interfaces, SDK types for callbacks
-- **Global config**: `~/.pi/agent/qmd-ledger.config.json` + project config merging (global → project)
-
-### 🔄 In Progress
-
-- [ ] Fully implement `enhanceInjectors` for pi-context integration
-
-### 📋 Upcoming
-
-**Publishing** ✅ COMPLETE
-- [x] Run npm publish dry-run: `pnpm publish --dry-run`
-- [x] Ensure `files` array in `package.json` is correct
-- [x] Verify no secrets in tarball (`npm pack --dry-run`)
-- [x] Publish `v0.2.0` to npm: `pnpm publish --access public`
-- [x] Tag release on GitHub from latest main: `git tag v0.2.0 && git push origin v0.2.0`
-- [x] Create GitHub release from tag with CHANGELOG notes
-- [ ] Restore full test suite (config CRUD, ledger append/query, dedup, injectors)
-- [ ] Add integration test using mock ExtensionAPI
-- [ ] Add test for pi-context event capture path
-- [ ] Run manual HITL test plan from TESTING.md
-
-**Code Quality**
-- [ ] Migrate from `@sinclair/typebox` to `typebox` 1.x for pi-coding-agent >=0.69.0
-- [ ] Add TypeScript parser to ESLint for `.ts` linting
-- [ ] Enable `strict: true` in `tsconfig.json`
-- [ ] Arrow-function consistency across all module exports
-
-**Features**
-- [ ] State management via `pi.appendEntry('qmd-ledger-state', ...)` for runtime state
-- [ ] Fully implement `enhanceInjectors` for pi-context integration
-- [ ] Add advanced qmd configuration (custom embeddings, custom models)
-- [ ] Add ledger migration tools for schema changes
-- [ ] Add pagination (`limit`/`offset`) to `query_ledger`
-
----
-
-## 🗂️ Files
-
-| File | Purpose |
-|------|---------|
-| `CHANGELOG.md` | Version history and release notes |
-| `README.md` | User-facing overview and quick start |
-| `TESTING.md` | Detailed testing documentation |
-| `TROUBLESHOOTING.md` | Common issues and resolutions |
-| `PUBLISHING.md` | npm publishing checklist |
-| `FUTURE_WORK.md` | Long-term roadmap and experiments |
-
----
-
-## 🔧 Maintenance Tasks
-
-### Version Management
-
-- **Current Version**: 0.2.0
-- **Versioning Scheme**: Semantic Versioning (MAJOR.MINOR.PATCH)
-- **Next Version**: 0.2.1 (for next minor bug fix or small enhancement)
-
-### npm Publishing Checklist
-
-- [ ] Update `version` in `package.json`
-- [ ] Add release notes to `CHANGELOG.md`
-- [ ] Tag release in Git: `git tag vX.Y.Z && git push origin --tags`
-- [ ] Run `pnpm publish` (or `npm publish` with .npmrc)
-
----
-
-## 📞 Need Help?
-
-1. Check this TODO.md first for setup and conventions
-2. Review the relevant skill file in `skills/qmd-ledger/SKILL.md`
-3. Run `/qmd-validate` to identify configuration issues
-4. Review `TROUBLESHOOTING.md` for common errors
-
----
-
-*Last updated: 2026-04-24*
+*   **[ ] Pi SDK Settings Menu Support**
+    *   If/when the Pi SDK introduces a standardized settings registry panel for extensions, map `UniversalConfig` properties to the Pi native settings panel.

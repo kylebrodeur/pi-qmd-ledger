@@ -18,6 +18,8 @@ import { setActiveLedger, getActiveLedger } from './state.js'
 import { updateActiveLedgerWidget } from './widget.js'
 import { SelectList, Text, Container } from '@mariozechner/pi-tui'
 
+import { openSettingsDashboard, createLedgerWizard, createInjectorWizard } from './settings-ui.js'
+
 export const selectActiveLedger = async (ctx: ExtensionContext) => {
   if (!ctx.hasUI) {
     // Fallback for RPC mode where there's no interactive TUI overlay
@@ -80,12 +82,36 @@ export const selectActiveLedger = async (ctx: ExtensionContext) => {
 }
 
 export const registerCommands = (pi: ExtensionAPI) => {
+  /* ── /qmd-settings ── */
+  pi.registerCommand('qmd-settings', {
+    description: 'Open the comprehensive configuration dashboard',
+    handler: async (_args, ctx: ExtensionContext) => {
+      await openSettingsDashboard(ctx)
+    },
+  })
+
   /* ── /qmd-ledger-select ── */
   pi.registerCommand('qmd-ledger-select', {
     description: 'Select the active ledger from available ledgers.',
     handler: async (_args, ctx: ExtensionContext) => {
       await selectActiveLedger(ctx)
     },
+  })
+
+  /* ── /qmd-ledger-create ── */
+  pi.registerCommand('qmd-ledger-create', {
+    description: 'Interactive wizard to create and configure a new ledger',
+    handler: async (_args, ctx: ExtensionContext) => {
+      await createLedgerWizard(ctx)
+    }
+  })
+
+  /* ── /qmd-injector-create ── */
+  pi.registerCommand('qmd-injector-create', {
+    description: 'Interactive wizard to create a new prompt injector',
+    handler: async (_args, ctx: ExtensionContext) => {
+      await createInjectorWizard(ctx)
+    }
   })
 
   /* ── /qmd-validate ── */
