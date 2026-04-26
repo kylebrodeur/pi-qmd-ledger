@@ -199,6 +199,7 @@ export const registerTools = (pi: ExtensionAPI) => {
       'Use strict mode only for the most sensitive facts requiring explicit user confirmation.',
       'Entry keys must match the ledger schema. Call describe_ledger first if unsure.',
       'When the user says "Remember: [fact]" or "Record this decision: [fact]", automatically use append_ledger to store it.',
+      'If the user asks to append without specifying a ledger, use the currently active ledger provided in the system prompt.',
     ],
     parameters: Type.Object({
       ledger: Type.String({

@@ -170,6 +170,7 @@ Export a ledger to JSON array, CSV, or Markdown table.
 
 - `/qmd-init` — scaffold config + empty ledgers + artifact template
 - `/qmd-validate` — health check: qmd binary, config, all ledger paths, injectors
+- `/qmd-ledger-select` — select the active ledger for the session (shortcut: `ctrl+l`). The active ledger is provided to the agent as context and should be used as the default target.
 - `/qmd-index [--no-embed]` — re-index all collections (BM25 full-text + embeddings)
 - `/qmd-approve [target]` — batch-review pending entries. Default target is `main`
 

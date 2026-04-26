@@ -12,9 +12,82 @@ import {
   hasPiContextTools,
   loadConfig,
   qmdInstructions,
+  ledgerNames,
 } from './utils.js'
+import { setActiveLedger, getActiveLedger } from './state.js'
+import { updateActiveLedgerWidget } from './widget.js'
+import { SelectList, Text, Container } from '@mariozechner/pi-tui'
+
+export const selectActiveLedger = async (ctx: ExtensionContext) => {
+  if (!ctx.hasUI) {
+    // Fallback for RPC mode where there's no interactive TUI overlay
+    const cfg = loadConfig(ctx.cwd)
+    const names = ledgerNames(cfg)
+    const next = names.find((n) => n !== getActiveLedger(ctx.cwd)) || names[0]
+    if (next) {
+      setActiveLedger(next)
+      updateActiveLedgerWidget(ctx)
+      ctx.ui.notify(`Active ledger set to: ${next}`, 'info')
+    }
+    return
+  }
+
+  const cfg = loadConfig(ctx.cwd)
+  const names = ledgerNames(cfg)
+  if (names.length === 0) {
+    ctx.ui.notify('No ledgers configured.', 'warning')
+    return
+  }
+
+  const items = names.map((name) => ({ label: name, value: name }))
+
+  const result = await ctx.ui.custom<string | null>(
+    (tui, theme, keybindings, done) => {
+      const container = new Container()
+      
+      container.addChild(new Text(theme.fg('accent', 'Select Active Ledger'), 1, 1))
+
+      const selectList = new SelectList(items, Math.min(items.length, 10), {
+        selectedPrefix: (t) => theme.fg('accent', t),
+        selectedText: (t) => theme.fg('accent', t),
+        description: (t) => theme.fg('muted', t),
+        scrollInfo: (t) => theme.fg('dim', t),
+        noMatch: (t) => theme.fg('warning', t),
+      })
+      selectList.onSelect = (item) => done(item.value)
+      selectList.onCancel = () => done(null)
+      container.addChild(selectList)
+
+      container.addChild(new Text(theme.fg('dim', '↑↓ navigate • enter select • esc cancel'), 1, 0))
+
+      return {
+        render: (w) => container.render(w),
+        handleInput: (data) => {
+          selectList.handleInput?.(data)
+          tui.requestRender()
+        },
+        invalidate: () => container.invalidate(),
+      }
+    },
+    { overlay: true }
+  )
+
+  if (result) {
+    setActiveLedger(result)
+    updateActiveLedgerWidget(ctx)
+    ctx.ui.notify(`Active ledger set to: ${result}`, 'info')
+  }
+}
 
 export const registerCommands = (pi: ExtensionAPI) => {
+  /* ── /qmd-ledger-select ── */
+  pi.registerCommand('qmd-ledger-select', {
+    description: 'Select the active ledger from available ledgers.',
+    handler: async (_args, ctx: ExtensionContext) => {
+      await selectActiveLedger(ctx)
+    },
+  })
+
   /* ── /qmd-validate ── */
   pi.registerCommand('qmd-validate', {
     description: 'Check qmd binary, config, and all configured ledger paths.',

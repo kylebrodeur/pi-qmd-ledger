@@ -1,6 +1,7 @@
 import type { ExtensionAPI, BeforeAgentStartEvent, TurnEndEvent, ExtensionContext } from '@mariozechner/pi-coding-agent';
 import * as fs from 'fs';
 import { ensureDir, getPiContextConfig, hasPiContextTools, loadConfig } from './utils.js';
+import { getActiveLedger } from './state.js';
 
 /**
  * Handles before_agent_start to inject ledger entries and pi-context tag matches
@@ -12,7 +13,9 @@ export const handleBeforeAgentStart = async (
     ctx: ExtensionContext
 ): Promise<{ systemPrompt?: string } | void> => {
     const cfg = loadConfig(ctx.cwd);
-    let additions = '';
+    
+    const activeLedger = getActiveLedger(ctx.cwd);
+    let additions = `\n\n[Active Ledger Context]\nThe currently active ledger is "${activeLedger}". When using append_ledger or querying ledgers, prefer this ledger as the target unless specified otherwise.\n`;
 
     // 1. Standard injector matching
     for (const ij of cfg.injectors) {
