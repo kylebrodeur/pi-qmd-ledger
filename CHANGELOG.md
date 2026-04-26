@@ -20,6 +20,24 @@ All notable changes to this project follow [Semantic Versioning](https://semver.
 
 - Extension review fixes: SKILL.md YAML frontmatter, remove stale tarballs, replace `@sinclair/typebox` with `typebox` devDependency, pin peerDependency, forward AbortSignal to child processes, fix `/qmd-init` return shape.
 
+## [0.2.3] — 2026-04-25
+
+### Fixed
+
+- pi-context enable toggle now accepts aliases (on/true/yes/1, off/false/no/0) and shows current status when run without arguments.
+- getPiContextConfig now merges stored values over full defaults, preventing silent event-handler exits when the config only contains `{ enabled: true }`.
+- /qmd-enable-pi-context writes the complete pi-context config object (not partial) and confirms persistence after writing.
+
+## [0.2.2] — 2026-04-25
+
+### Added
+
+- pi-context integration now reports its actions: captures event counts, tag injection counts, and clear enable/disable status messages.
+
+### Fixed
+
+- Extension review fixes: SKILL.md YAML frontmatter, remove stale tarballs, replace `@sinclair/typebox` with `typebox` devDependency, pin peerDependency, forward AbortSignal to child processes, fix `/qmd-init` return shape.
+
 ## [0.2.0] — 2026-04-23
 
 ### Added
