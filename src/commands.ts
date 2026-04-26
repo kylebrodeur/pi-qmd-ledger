@@ -149,11 +149,37 @@ export const registerCommands = (pi: ExtensionAPI) => {
         ...created.map((c) => `  • ${path.relative(ctx.cwd, c)}`),
         skipped.length ? `Skipped (already exist):` : '',
         ...skipped.map((s) => `  • ${path.relative(ctx.cwd, s)}`),
+        ``,
+        `💡 Tip: Tell the agent "Remember: [fact]" to auto-append to the main ledger!`,
       ]
         .filter(Boolean)
         .join('\n')
 
-      if (ctx.hasUI) ctx.ui.notify(msg, 'info')
+      if (ctx.hasUI) {
+        ctx.ui.notify(msg, 'info')
+
+        if (hasPiContextTools(pi)) {
+          const enable = await ctx.ui.confirm(
+            'Enable pi-context integration?',
+            'pi-context tools were detected. Would you like to enable the integration now to capture session context?'
+          )
+
+          if (enable) {
+            const existing = JSON.parse(fs.readFileSync(cfgDest, 'utf-8'))
+            existing.extensionCompatibility = existing.extensionCompatibility || {}
+            existing.extensionCompatibility['pi-context'] = {
+              tagPatterns: [],
+              enhanceInjectors: false,
+              autoEnableAcm: true,
+              indexContextEvents: true,
+              ...existing.extensionCompatibility['pi-context'],
+              enabled: true,
+            }
+            fs.writeFileSync(cfgDest, JSON.stringify(existing, null, 2) + '\n', 'utf-8')
+            ctx.ui.notify('✅ pi-context integration ENABLED in config', 'info')
+          }
+        }
+      }
       return
     },
   })

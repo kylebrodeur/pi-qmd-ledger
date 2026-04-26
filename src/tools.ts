@@ -198,6 +198,7 @@ export const registerTools = (pi: ExtensionAPI) => {
       'Use gated mode when the fact needs human review (queues in pending ledger).',
       'Use strict mode only for the most sensitive facts requiring explicit user confirmation.',
       'Entry keys must match the ledger schema. Call describe_ledger first if unsure.',
+      'When the user says "Remember: [fact]" or "Record this decision: [fact]", automatically use append_ledger to store it.',
     ],
     parameters: Type.Object({
       ledger: Type.String({
