@@ -4,6 +4,16 @@ All notable changes to this project follow [Semantic Versioning](https://semver.
 
 ## [Unreleased]
 
+## [0.2.1] — 2026-04-25
+
+### Added
+
+- pi-context integration now reports its actions: captures event counts, tag injection counts, and clear enable/disable status messages.
+
+### Fixed
+
+- Extension review fixes: SKILL.md YAML frontmatter, remove stale tarballs, replace `@sinclair/typebox` with `typebox` devDependency, pin peerDependency, forward AbortSignal to child processes, fix `/qmd-init` return shape.
+
 ## [0.2.0] — 2026-04-23
 
 ### Added
