@@ -4,6 +4,12 @@ All notable changes to this project follow [Semantic Versioning](https://semver.
 
 ## [Unreleased]
 
+## [0.3.2] — 2026-04-26
+
+### Fixed
+
+- Explicitly commit and bundle modified `src/index.ts` and `SKILL.md` files that were missed in the `0.3.1` release (git sync fix).
+
 ## [0.3.1] — 2026-04-26
 
 ### Fixed

@@ -20,7 +20,7 @@ export default function (pi: ExtensionAPI) {
   });
 
   /* ── register shortcut ── */
-  pi.registerShortcut('ctrl+l', {
+  pi.registerShortcut('ctrl+alt+l', {
     description: 'Select Active Ledger',
     handler: async (ctx) => {
       await selectActiveLedger(ctx)
