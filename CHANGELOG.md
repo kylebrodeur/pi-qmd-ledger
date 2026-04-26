@@ -4,13 +4,19 @@ All notable changes to this project follow [Semantic Versioning](https://semver.
 
 ## [Unreleased]
 
+## [0.3.1] — 2026-04-26
+
+### Fixed
+
+- Changed Active Ledger Selection shortcut from `ctrl+l` to `ctrl+alt+l` to fix a conflict with the built-in Model Selector shortcut.
+
 ## [0.3.0] — 2026-04-26
 
 ### Added
 
 - **Active Ledger Selection UX**: Added a session-level state manager for the active ledger, defaulting to the first available ledger.
 - **TUI Widget**: Added a persistent UI widget above the editor input to display the currently active ledger.
-- **Command & Shortcut**: Added `/qmd-ledger-select` command (bound to `ctrl+l`) that opens a TUI `SelectList` to interactively switch the active ledger.
+- **Command & Shortcut**: Added `/qmd-ledger-select` command (bound to `ctrl+alt+l`) that opens a TUI `SelectList` to interactively switch the active ledger.
 - **Agent Guidelines**: Updated the `append_ledger` tool guidelines and `before_agent_start` context injection so the LLM automatically knows and uses the active ledger as the default target.
 
 ## [0.2.2] — 2026-04-25
