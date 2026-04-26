@@ -56,8 +56,7 @@
     "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
-    "@mariozechner/pi-coding-agent": "*",
-    "@sinclair/typebox": "*"
+    "@mariozechner/pi-coding-agent": ">=0.70.0 <1.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -74,7 +73,9 @@
     "eslint-plugin-vitest": "^0.5.4",
     "globals": "^17.5.0",
     "prettier": "^3.8.3",
+    "typebox": "^1.1.0",
     "typescript": "^5.0.0",
+    "@mariozechner/pi-coding-agent": "0.70.2",
     "typescript-eslint": "^8.59.0"
   },
   "pnpm": {

@@ -1,5 +1,5 @@
 import type { ExtensionAPI, ExtensionContext, AgentToolUpdateCallback } from '@mariozechner/pi-coding-agent'
-import { Type } from '@sinclair/typebox'
+import { Type } from 'typebox'
 import * as child_process from 'child_process'
 import * as fs from 'fs'
 import * as path from 'path'
@@ -58,7 +58,7 @@ export const registerTools = (pi: ExtensionAPI) => {
         child_process.execFile(
           cfg.qmd.binary || 'qmd',
           ['search', params.query, '--limit', String(limit)],
-          { maxBuffer: cfg.qmd.maxBuffer },
+          { maxBuffer: cfg.qmd.maxBuffer, signal: _signal },
           (error, stdout, stderr) => {
             if (error) {
               const code = (error as { code?: string }).code
@@ -81,7 +81,7 @@ export const registerTools = (pi: ExtensionAPI) => {
         )
       })
     },
-  })
+  } as any)
 
   /* ── query_ledger ── */
   pi.registerTool({
@@ -183,7 +183,7 @@ export const registerTools = (pi: ExtensionAPI) => {
         details: {},
       }
     },
-  })
+  } as any)
 
   /* ── append_ledger ── */
   pi.registerTool({
@@ -302,7 +302,7 @@ export const registerTools = (pi: ExtensionAPI) => {
         details: {},
       }
     },
-  })
+  } as any)
 
   /* ── configure_ledger ── */
   pi.registerTool({
@@ -359,7 +359,7 @@ export const registerTools = (pi: ExtensionAPI) => {
         details: {},
       }
     },
-  })
+  } as any)
 
   pi.registerTool({
     name: 'describe_ledger',
@@ -445,7 +445,7 @@ export const registerTools = (pi: ExtensionAPI) => {
 
       return { content: [{ type: 'text', text: report }], details: {} }
     },
-  })
+  } as any)
 
   pi.registerTool({
     name: 'ledger_stats',
@@ -513,7 +513,7 @@ export const registerTools = (pi: ExtensionAPI) => {
       const msg = lines.join('\n')
       return { content: [{ type: 'text', text: msg }], details: {} }
     },
-  })
+  } as any)
 
   pi.registerTool({
     name: 'ledger_export',
@@ -616,7 +616,7 @@ export const registerTools = (pi: ExtensionAPI) => {
 
       return { content: [{ type: 'text', text }], details: {} }
     },
-  })
+  } as any)
 
   /* ── qmd_status ── */
   pi.registerTool({
@@ -642,7 +642,7 @@ export const registerTools = (pi: ExtensionAPI) => {
         child_process.execFile(
           'qmd',
           ['status'],
-          { maxBuffer: 10 * 1024 * 1024 },
+          { maxBuffer: 10 * 1024 * 1024, signal: _signal },
           (error, stdout, stderr) => {
             if (error) {
               resolve({
@@ -659,5 +659,5 @@ export const registerTools = (pi: ExtensionAPI) => {
         )
       })
     },
-  })
+  } as any)
 }

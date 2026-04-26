@@ -147,7 +147,7 @@ export const registerCommands = (pi: ExtensionAPI) => {
         .join('\n')
 
       if (ctx.hasUI) ctx.ui.notify(msg, 'info')
-      return { content: [{ type: 'text', text: msg }], details: {} } as any
+      return
     },
   })
 
