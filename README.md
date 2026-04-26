@@ -56,7 +56,7 @@ For more details on extension integration, see [topics/EXTENSIONS.md](topics/EXT
 
 ```bash
 pi install npm:pi-qmd-ledger              # latest
-pi install npm:pi-qmd-ledger@0.2.3       # pinned
+pi install npm:pi-qmd-ledger@0.2.4       # pinned
 pi -e npm:pi-qmd-ledger                  # try without installing
 ```
 

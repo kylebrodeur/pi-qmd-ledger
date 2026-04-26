@@ -20,6 +20,14 @@ All notable changes to this project follow [Semantic Versioning](https://semver.
 
 - Extension review fixes: SKILL.md YAML frontmatter, remove stale tarballs, replace `@sinclair/typebox` with `typebox` devDependency, pin peerDependency, forward AbortSignal to child processes, fix `/qmd-init` return shape.
 
+## [0.2.4] — 2026-04-25
+
+### Added
+
+- LLM prompt guidelines now explicitly teach the agent to auto-append facts when the user says "Remember: [fact]" or "Record this decision: [fact]".
+- `/qmd-init` now prints a helpful tip about using the "Remember:" trigger.
+- `/qmd-init` now automatically prompts the user to enable `pi-context` integration if the tools are detected during scaffolding.
+
 ## [0.2.3] — 2026-04-25
 
 ### Fixed
