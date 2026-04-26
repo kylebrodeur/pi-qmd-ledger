@@ -2,7 +2,7 @@ import * as child_process from 'child_process'
 import * as fs from 'fs'
 import * as path from 'path'
 import type { ExtensionAPI } from '@mariozechner/pi-coding-agent'
-import type { LedgerDef, QmdCheckResult, UniversalConfig } from './types.js'
+import type { LedgerDef, PiContextDef, QmdCheckResult, UniversalConfig } from './types.js'
 import { DEFAULT_CONFIG } from './types.js'
 
 export const CONFIG_FILES = [
@@ -130,14 +130,14 @@ export const hasPiContextTools = (pi: ExtensionAPI): boolean => {
 export const isPiContextEnabled = (cfg: UniversalConfig): boolean =>
   cfg.extensionCompatibility?.['pi-context']?.enabled === true
 
-export const getPiContextConfig = (cfg: UniversalConfig) =>
-  cfg.extensionCompatibility?.['pi-context'] || {
-    enabled: false,
-    tagPatterns: [],
-    enhanceInjectors: false,
-    autoEnableAcm: true,
-    indexContextEvents: true,
-  }
+export const getPiContextConfig = (cfg: UniversalConfig): PiContextDef => ({
+  enabled: false,
+  tagPatterns: [],
+  enhanceInjectors: false,
+  autoEnableAcm: true,
+  indexContextEvents: true,
+  ...cfg.extensionCompatibility?.['pi-context'],
+})
 
 export const ledgerNames = (cfg: UniversalConfig): string[] =>
   Object.keys(cfg.ledgers)

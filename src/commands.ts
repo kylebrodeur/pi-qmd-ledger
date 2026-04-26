@@ -211,7 +211,7 @@ export const registerCommands = (pi: ExtensionAPI) => {
       { label: 'disable', value: 'disable', description: 'Disable pi-context integration' },
     ],
     handler: async (args, ctx: ExtensionContext) => {
-      const enable = args.trim().toLowerCase() === 'enable'
+      const arg = args.trim().toLowerCase()
       const { project: cfgPath } = findConfig(ctx.cwd)
 
       if (!cfgPath) {
@@ -219,16 +219,62 @@ export const registerCommands = (pi: ExtensionAPI) => {
         return
       }
 
+      const ENABLE_ALIASES = new Set(['enable', 'on', 'true', 'yes', '1'])
+      const DISABLE_ALIASES = new Set(['disable', 'off', 'false', 'no', '0'])
+
+      // No arg provided → show current status + usage
+      if (!arg) {
+        const cfg = loadConfig(ctx.cwd)
+        const piContextCfg = getPiContextConfig(cfg)
+        const hasTools = hasPiContextTools(pi)
+        const willCapture = hasTools && piContextCfg.enabled
+
+        const lines = [
+          'pi-context Integration Status',
+          '',
+          `Config file: ${cfgPath}`,
+          `Enabled in config: ${piContextCfg.enabled ? 'Yes' : 'No'}`,
+          `Tools detected: ${hasTools ? 'Yes' : 'No'}`,
+          `Will capture on next turn: ${willCapture ? 'Yes' : 'No'}`,
+          '',
+          'Usage:',
+          '  /qmd-enable-pi-context enable   (aliases: on, true, yes)',
+          '  /qmd-enable-pi-context disable  (aliases: off, false, no)',
+        ]
+        ctx.ui.notify(lines.join('\n'), willCapture ? 'info' : 'warning')
+        return
+      }
+
+      if (!ENABLE_ALIASES.has(arg) && !DISABLE_ALIASES.has(arg)) {
+        ctx.ui.notify(`Unknown argument "${arg}". Use: enable | disable`, 'error')
+        return
+      }
+
+      const enable = ENABLE_ALIASES.has(arg)
+
       const existing = JSON.parse(fs.readFileSync(cfgPath, 'utf-8'))
       existing.extensionCompatibility = existing.extensionCompatibility || {}
+      // Merge with defaults so we never write a partial config
       existing.extensionCompatibility['pi-context'] = {
+        tagPatterns: [],
+        enhanceInjectors: false,
+        autoEnableAcm: true,
+        indexContextEvents: true,
         ...existing.extensionCompatibility['pi-context'],
         enabled: enable,
       }
       fs.writeFileSync(cfgPath, JSON.stringify(existing, null, 2) + '\n', 'utf-8')
 
+      // Read back to confirm persistence
+      const afterCfg = loadConfig(ctx.cwd)
+      const afterPiContext = getPiContextConfig(afterCfg)
       const hasTools = hasPiContextTools(pi)
+      const persisted = afterPiContext.enabled === enable
+
       const msgLines: string[] = []
+      msgLines.push(`Config written to: ${cfgPath}`)
+      msgLines.push(persisted ? '✅ Change persisted successfully.' : '❌ Warning: config write may not have persisted.')
+      msgLines.push('')
 
       if (enable) {
         if (hasTools) {
@@ -237,7 +283,8 @@ export const registerCommands = (pi: ExtensionAPI) => {
           msgLines.push('What this means:')
           msgLines.push('  • On every turn_end, pi-context events will be captured to the context_events ledger')
           msgLines.push('  • Tag patterns from config will trigger ledger lookups on before_agent_start')
-          msgLines.push('  • autoEnableAcm is ' + (existing.extensionCompatibility?.['pi-context']?.autoEnableAcm !== false ? 'ON' : 'OFF'))
+          msgLines.push('  • autoEnableAcm is ' + (afterPiContext.autoEnableAcm ? 'ON' : 'OFF'))
+          msgLines.push('  • indexContextEvents is ' + (afterPiContext.indexContextEvents ? 'ON' : 'OFF'))
         } else {
           msgLines.push('⚠️  pi-context integration ENABLED in config, but pi-context tools NOT found')
           msgLines.push('')
