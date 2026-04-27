@@ -152,7 +152,7 @@ export const qmdInstructions = (binary?: string): string =>
     `  3. Or set the env var: export QMD_BINARY=/path/to/qmd`,
     ``,
     `Build from source (requires Rust):`,
-    `  cargo install qmd-cli`,
+    `  cargo install --git https://github.com/kylebrodeur/qmd --branch patch-0.3.2 qmd-cli`,
     ``,
     `Then restart pi and run /qmd-validate.`,
   ].join('\n')

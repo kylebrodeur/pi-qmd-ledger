@@ -25,7 +25,7 @@ Universal append-only JSONL ledger with hybrid semantic search (qmd) and dynamic
    # and place the binary in /usr/local/bin or ~/bin
 
    # Or build from source (requires Rust)
-   cargo install qmd-cli
+   cargo install --git https://github.com/kylebrodeur/qmd --branch patch-0.3.2 qmd-cli
    ```
 
 2. **pi-qmd-ledger extension** must be installed via pi:

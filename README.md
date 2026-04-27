@@ -49,7 +49,7 @@ For more details on extension integration, see [topics/EXTENSIONS.md](topics/EXT
 
 ### Prerequisites
 
-- **qmd** binary on PATH (prebuilt or via `cargo install qmd-cli`)
+- **qmd** binary on PATH (prebuilt or via `cargo install --git https://github.com/kylebrodeur/qmd --branch patch-0.3.2 qmd-cli`)
 - **Node.js** 20+ (matches `engines` in `package.json`)
 
 ### 1. Install with pi

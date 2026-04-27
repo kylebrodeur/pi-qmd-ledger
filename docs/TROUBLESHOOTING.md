@@ -31,7 +31,7 @@ Seen in: `/qmd-validate`, `qmd_search`, `/qmd-init`
 **Alternative:** Build from source with Rust:
 
 ```bash
-cargo install qmd-cli
+cargo install --git https://github.com/kylebrodeur/qmd --branch patch-0.3.2 qmd-cli
 ```
 
 ---
