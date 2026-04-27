@@ -14,11 +14,77 @@ import {
   qmdInstructions,
   ledgerNames,
 } from './utils.js'
+import { DEFAULT_CONFIG, type UniversalConfig } from './types.js'
 import { setActiveLedger, getActiveLedger } from './state.js'
 import { updateActiveLedgerWidget } from './widget.js'
 import { SelectList, Text, Container } from '@mariozechner/pi-tui'
 
 import { openSettingsDashboard, createLedgerWizard, createInjectorWizard } from './settings-ui.js'
+
+export const auditConfig = async (ctx: ExtensionContext) => {
+  const { project: cfgPath } = findConfig(ctx.cwd)
+  if (!cfgPath) {
+    ctx.ui.notify('No project config file found to audit. Run /qmd-init first.', 'info')
+    return
+  }
+
+  const projectCfg = JSON.parse(fs.readFileSync(cfgPath, 'utf-8')) as Partial<UniversalConfig>
+  const missingLedgers: string[] = []
+  const missingInjectors: string[] = []
+
+  for (const name of Object.keys(DEFAULT_CONFIG.ledgers)) {
+    if (!projectCfg.ledgers?.[name]) {
+      missingLedgers.push(name)
+    }
+  }
+
+  for (const ij of DEFAULT_CONFIG.injectors) {
+    const exists = projectCfg.injectors?.some((pij) => pij.name === ij.name)
+    if (!exists) {
+      missingInjectors.push(ij.name)
+    }
+  }
+
+  if (missingLedgers.length === 0 && missingInjectors.length === 0) {
+    ctx.ui.notify('✅ Project config is up-to-date with all default ledgers and injectors.', 'info')
+    return
+  }
+
+  const report = [
+    '**Config Audit Report**',
+    '',
+    `Project Config: ${path.relative(ctx.cwd, cfgPath)}`,
+    '',
+    `Missing Ledgers (${missingLedgers.length}):`,
+    ...missingLedgers.map((l) => `  • ${l}`),
+    '',
+    `Missing Injectors (${missingInjectors.length}):`,
+    ...missingInjectors.map((i) => `  • ${i}`),
+    '',
+    'Would you like to repair the config by adding the missing defaults?',
+  ].join('\n')
+
+  const repair = await ctx.ui.confirm('Repair Config', report)
+
+  if (repair) {
+    const updatedCfg = { ...projectCfg }
+    updatedCfg.ledgers = { ... (projectCfg.ledgers || {}), ...DEFAULT_CONFIG.ledgers }
+    
+    // Only add missing injectors to avoid duplicates if they were partially defined
+    const injectors = [...(projectCfg.injectors || [])]
+    for (const ij of DEFAULT_CONFIG.injectors) {
+      if (!injectors.some((pij) => pij.name === ij.name)) {
+        injectors.push(ij)
+      }
+    }
+    updatedCfg.injectors = injectors
+
+    fs.writeFileSync(cfgPath, JSON.stringify(updatedCfg, null, 2) + '\n', 'utf-8')
+    ctx.ui.notify('✅ Project config repaired with missing defaults.', 'info')
+  } else {
+    ctx.ui.notify('Audit complete. No changes made.', 'info')
+  }
+}
 
 export const selectActiveLedger = async (ctx: ExtensionContext) => {
   if (!ctx.hasUI) {
@@ -87,6 +153,14 @@ export const registerCommands = (pi: ExtensionAPI) => {
     description: 'Open the comprehensive configuration dashboard',
     handler: async (_args, ctx: ExtensionContext) => {
       await openSettingsDashboard(ctx)
+    },
+  })
+
+  /* ── /qmd-audit ── */
+  pi.registerCommand('qmd-audit', {
+    description: 'Audit project config for missing default ledgers and injectors. Optionally repair.',
+    handler: async (_args, ctx: ExtensionContext) => {
+      await auditConfig(ctx)
     },
   })
 

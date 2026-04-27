@@ -4,6 +4,16 @@ All notable changes to this project follow [Semantic Versioning](https://semver.
 
 ## [Unreleased]
 
+## [0.4.2] — 2026-04-26
+
+### Fixed
+
+- Fixed configuration merge bug where project-level ledger/injector definitions were replacing defaults instead of augmenting them. This prevents accidental loss of critical ledgers like `context_events`.
+
+### Added
+
+- New `/qmd-audit` command to detect and repair missing default ledgers and injectors in project configuration.
+
 ## [0.4.0] — 2026-04-26
 
 ### Added

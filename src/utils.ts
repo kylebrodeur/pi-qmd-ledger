@@ -69,7 +69,7 @@ const mergeConfigLayer = (
   const merged: UniversalConfig = {
     version: layer.version ?? base.version,
     ledgers: {},
-    injectors: layer.injectors ?? base.injectors,
+    injectors: [...(base.injectors || []), ...(layer.injectors || [])],
     qmd: { ...base.qmd, ...layer.qmd },
     extensionCompatibility: {
       ...base.extensionCompatibility,
@@ -77,7 +77,7 @@ const mergeConfigLayer = (
     },
   }
 
-  const ledgersSrc = layer.ledgers ?? base.ledgers
+  const ledgersSrc = { ...base.ledgers, ...layer.ledgers }
   const resolvedLedgers: Record<string, LedgerDef> = {}
   for (const [name, def] of Object.entries(ledgersSrc)) {
     const resolvedBase =
