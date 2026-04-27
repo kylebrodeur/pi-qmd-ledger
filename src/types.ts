@@ -87,7 +87,13 @@ export interface QmdCheckResult {
   instructions?: string
 }
 
-/* ── tool input types ── */
+export interface PromoteLedgerInput {
+  sourceLedger: string
+  targetLedger: string
+  entryIds: string[]
+  reason: string
+}
+
 export interface QmdSearchInput {
   query: string
   limit?: number

@@ -166,6 +166,17 @@ Export a ledger to JSON array, CSV, or Markdown table.
 - `ledger` (string) — ledger name
 - `format` ("json" | "csv" | "markdown") — default is "json"
 
+### promote_ledger
+
+Promote identified "gold nuggets" from one ledger to another via the pending queue for human approval.
+
+**Parameters:**
+
+- `sourceLedger` (string) — ledger where the entries currently reside
+- `targetLedger` (string) — ledger where the entries should be moved
+- `entryIds` (array of strings) — list of entry IDs to promote
+- `reason` (string) — reason for promoting these entries
+
 ## Commands
 
 - `/qmd-init` — scaffold config + empty ledgers + artifact template
@@ -222,6 +233,16 @@ append_ledger(
 ### 4. Pre-fetch in prompts
 
 If your config has `{ "regex": "draft\\s+(\\S+)", "ledger": "main", "filterField": "tag" }`, typing `draft login` will automatically inject all entries where `tag === "login"`.
+
+### 5. Ledger-to-Ledger (L2L) Knowledge Promotion
+
+When you identify insights in a specific ledger (e.g., a session or research ledger) that have broader applicability, promote them to a more permanent ledger (e.g., a global or project-wide ledger):
+
+1. **Source**: Identify valuable entries via `query_ledger` or `qmd_search`.
+2. **Stage**: Use the `promote_ledger` tool to send these entries to the `pending` ledger with a clear `reason`.
+3. **Approve**: The user runs `/qmd-approve` to review your reasoning and finalize the migration to the `targetLedger`.
+
+This distills ephemeral knowledge into permanent project/global knowledge.
 
 ## Patterns
 

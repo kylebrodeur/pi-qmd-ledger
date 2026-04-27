@@ -4,6 +4,15 @@ All notable changes to this project follow [Semantic Versioning](https://semver.
 
 ## [Unreleased]
 
+## [0.5.0] — 2026-04-26
+
+### Added
+
+- **Ledger-to-Ledger (L2L) Knowledge Promotion**: Agents can now autonomously discover "gold nuggets" in ephemeral or project-specific ledgers and promote them to global/permanent ledgers.
+- New `promote_ledger` tool allows agents to stage selected entries into the `pending` queue with `_promotion_target` and `_promotion_reason` metadata.
+- `/qmd-approve` command updated to respect `_promotion_target` metadata, automatically migrating approved entries to their intended destination instead of the default ledger.
+- Updated `SKILL.md` to instruct agents on how to act as "Knowledge Curators" by distilling and transferring insights across ledgers.
+
 ## [0.4.2] — 2026-04-26
 
 ### Fixed

@@ -18,9 +18,92 @@ import type {
   ConfigureLedgerInput,
   DescribeLedgerInput,
   LedgerExportInput,
+  PromoteLedgerInput,
 } from './types.js'
 
 export const registerTools = (pi: ExtensionAPI) => {
+  /* ── promote_ledger ── */
+  pi.registerTool({
+    name: 'promote_ledger',
+    label: 'Promote Ledger Entries',
+    description:
+      'Promote identified "gold nuggets" from one ledger to another via the pending queue for human approval.',
+    promptSnippet:
+      'promote_ledger(sourceLedger="research", targetLedger="main", entryIds=["id1", "id2"], reason="...")',
+    promptGuidelines: [
+      'Use this tool when you find an insight in a specific ledger (e.g. research, session) that should be promoted to a more permanent or global ledger.',
+      'This does NOT append directly to the target; it stages the entries in the "pending" ledger for human review.',
+      'Provide a clear reason why these specific entries are worth promoting.',
+    ],
+    parameters: Type.Object({
+      sourceLedger: Type.String({ description: 'Ledger where the entries currently reside' }),
+      targetLedger: Type.String({ description: 'Ledger where the entries should be moved' }),
+      entryIds: Type.Array(Type.String(), { description: 'List of entry IDs to promote' }),
+      reason: Type.String({ description: 'Reason for promoting these entries' }),
+    }),
+    async execute(
+      _id: string,
+      params: PromoteLedgerInput,
+      _signal: AbortSignal | undefined,
+      _onUpdate: AgentToolUpdateCallback<unknown> | undefined,
+      ctx: ExtensionContext
+    ) {
+      const cfg = loadConfig(ctx.cwd)
+      const sourceDef = cfg.ledgers[params.sourceLedger]
+      const targetDef = cfg.ledgers[params.targetLedger]
+      const pendingDef = cfg.ledgers['pending']
+
+      if (!sourceDef) {
+        return { content: [{ type: 'text', text: `Unknown source ledger "${params.sourceLedger}".` }], details: {} }
+      }
+      if (!targetDef) {
+        return { content: [{ type: 'text', text: `Unknown target ledger "${params.targetLedger}".` }], details: {} }
+      }
+      if (!pendingDef) {
+        return { content: [{ type: 'text', text: `Pending ledger not configured. Run /qmd-init.` }], details: {} }
+      }
+      if (!fs.existsSync(sourceDef.path)) {
+        return { content: [{ type: 'text', text: `Source ledger file missing at ${sourceDef.path}.` }], details: {} }
+      }
+
+      const lines = fs.readFileSync(sourceDef.path, 'utf-8').split('\n').filter(Boolean)
+      const entries = lines.map((l) => {
+        try { return JSON.parse(l) } catch { return null }
+      }).filter(Boolean) as any[]
+
+      const promotedIds: string[] = []
+      for (const id of params.entryIds) {
+        const entry = entries.find((e) => e.id === id)
+        if (!entry) continue
+
+        // Construct the promotion entry for the pending ledger
+        const promotionEntry = {
+          ...entry,
+          _promotion_target: params.targetLedger,
+          _promotion_source: params.sourceLedger,
+          _promotion_reason: params.reason,
+          _promoted_at: new Date().toISOString(),
+        }
+
+        ensureDir(pendingDef.path)
+        fs.appendFileSync(pendingDef.path, JSON.stringify(promotionEntry) + '\n')
+        promotedIds.push(id)
+      }
+
+      return {
+        content: [
+          {
+            type: 'text',
+            text: promotedIds.length > 0
+              ? `Successfully staged ${promotedIds.length} entry(ies) for promotion from "${params.sourceLedger}" to "${params.targetLedger}". Use /qmd-approve to finalize.`
+              : `No matching entries found for IDs: ${params.entryIds.join(', ')}`,
+          },
+        ],
+        details: {},
+      }
+    },
+  } as any)
+
   /* ── qmd_search ── */
   pi.registerTool({
     name: 'qmd_search',

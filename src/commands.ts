@@ -619,8 +619,24 @@ export const registerCommands = (pi: ExtensionAPI) => {
           `${line}\n\nApprove migration to "${targetName}"?`
         )
         if (ok) {
-          ensureDir(target.path)
-          fs.appendFileSync(target.path, line + '\n')
+          // Determine actual target ledger:
+          // If the entry has _promotion_target, it overrides the targetName argument
+          let actualTargetName = targetName
+          try {
+            const entry = JSON.parse(line)
+            if (entry._promotion_target) {
+              actualTargetName = entry._promotion_target
+            }
+          } catch {}
+
+          const actualTarget = cfg.ledgers[actualTargetName]
+          if (!actualTarget) {
+            ctx.ui.notify(`Promotion target "${actualTargetName}" is no longer valid.`, 'error')
+            continue
+          }
+
+          ensureDir(actualTarget.path)
+          fs.appendFileSync(actualTarget.path, line + '\n')
           approved++
         } else {
           rejected.push(line)
