@@ -33,6 +33,22 @@ The `pi-qmd-ledger` now supports a progressive enhancement model for integrating
 2. **LLM Schema Generation / Discovery (`discover_schema`):**
    - A tool that reads an existing un-configured `.jsonl` file, infers the schema, and automatically updates `pi-qmd-ledger.config.json` to map to it.
 
+## Cross-Project Ledger-to-Ledger (L2L) Promotion
+
+See `docs/l2l-design.md` for the full design. Current status: intra-project promotion works (v0.5.0), but promoting entries from one project’s ledger to another project’s ledger (e.g., `pi-qmd-ledger/main` → `pi-tools/knowledge`) is **not yet implemented**.
+
+**Key barriers today:**
+- `loadConfig(ctx.cwd)` is scoped to a single project.
+- `promote_ledger` has no `targetProject` or external config resolution.
+- Schema mismatch between project-local ledgers (e.g., `id, domain, source, fact, tag`) and global knowledge ledgers (e.g., `id, timestamp, source_file, content_summary, full_content, tags, ...`).
+- No schema mapping layer exists.
+
+**Potential approaches:**
+1. **Export → Import pipeline** (simplest, manual)
+2. **Upstream targets in ledger config** (declarative, per-ledger)
+3. **External `targetProject` parameter on `promote_ledger`** (best UX)
+4. **Shared global ledger directory** (most ambitious, true multi-project knowledge base)
+
 ## Ledger Management
 
 1. **Redaction / Tombstoning:**
