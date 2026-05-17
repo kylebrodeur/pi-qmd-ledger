@@ -1,4 +1,4 @@
-import type { ExtensionContext } from '@mariozechner/pi-coding-agent'
+import type { ExtensionContext } from '@earendil-works/pi-coding-agent'
 import * as fs from 'fs'
 import * as path from 'path'
 import { loadConfig, findConfig, ledgerNames, getPiContextConfig } from './utils.js'

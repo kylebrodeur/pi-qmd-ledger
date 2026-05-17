@@ -1,7 +1,7 @@
 import * as child_process from 'child_process'
 import * as fs from 'fs'
 import * as path from 'path'
-import type { ExtensionAPI } from '@mariozechner/pi-coding-agent'
+import type { ExtensionAPI } from '@earendil-works/pi-coding-agent'
 import type { LedgerDef, PiContextDef, QmdCheckResult, UniversalConfig } from './types.js'
 import { DEFAULT_CONFIG } from './types.js'
 

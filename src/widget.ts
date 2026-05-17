@@ -1,4 +1,4 @@
-import type { ExtensionContext } from '@mariozechner/pi-coding-agent';
+import type { ExtensionContext } from '@earendil-works/pi-coding-agent';
 import { getActiveLedger } from './state.js';
 
 export const WIDGET_KEY = 'pi-qmd-ledger-active';

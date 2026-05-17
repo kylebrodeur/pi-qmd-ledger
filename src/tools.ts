@@ -1,4 +1,4 @@
-import type { ExtensionAPI, ExtensionContext, AgentToolUpdateCallback } from '@mariozechner/pi-coding-agent'
+import type { ExtensionAPI, ExtensionContext, AgentToolUpdateCallback } from '@earendil-works/pi-coding-agent'
 import { Type } from 'typebox'
 import * as child_process from 'child_process'
 import * as fs from 'fs'

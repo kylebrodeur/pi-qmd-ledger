@@ -1,4 +1,4 @@
-import type { ExtensionAPI, BeforeAgentStartEvent, TurnEndEvent, ExtensionContext } from '@mariozechner/pi-coding-agent';
+import type { ExtensionAPI, BeforeAgentStartEvent, TurnEndEvent, ExtensionContext } from '@earendil-works/pi-coding-agent';
 import * as fs from 'fs';
 import { ensureDir, getPiContextConfig, hasPiContextTools, loadConfig } from './utils.js';
 import { getActiveLedger } from './state.js';

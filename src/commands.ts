@@ -1,4 +1,4 @@
-import type { ExtensionAPI, ExtensionContext } from '@mariozechner/pi-coding-agent'
+import type { ExtensionAPI, ExtensionContext } from '@earendil-works/pi-coding-agent'
 import * as fs from 'fs'
 import * as path from 'path'
 import * as child_process from 'child_process'
@@ -17,7 +17,7 @@ import {
 import { DEFAULT_CONFIG, type UniversalConfig } from './types.js'
 import { setActiveLedger, getActiveLedger } from './state.js'
 import { updateActiveLedgerWidget } from './widget.js'
-import { SelectList, Text, Container } from '@mariozechner/pi-tui'
+import { SelectList, Text, Container } from '@earendil-works/pi-tui'
 
 import { openSettingsDashboard, createLedgerWizard, createInjectorWizard } from './settings-ui.js'
 
