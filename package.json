@@ -1,6 +1,6 @@
 {
   "name": "pi-qmd-ledger",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "Universal configurable JSONL ledger with qmd hybrid search, tiered HITL, and dynamic context injection.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -48,7 +48,7 @@
     ]
   },
   "scripts": {
-    "prepare": "npm run build",
+    "prepare": "husky",
     "build": "tsc",
     "test": "node --test dist/test/index.test.js",
     "lint": "eslint .",
@@ -60,7 +60,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@earendil-works/pi-coding-agent": "^0.75.0",
+    "@earendil-works/pi-coding-agent": "^0.78.1",
     "@earendil-works/pi-tui": "^0.75.0",
     "@types/node": "^20.0.0",
     "@types/prettier": "^3.0.0",
@@ -82,6 +82,13 @@
   "pnpm": {
     "overrides": {
       "fast-xml-parser": ">=5.7.0"
+    }
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
     }
   }
 }

@@ -1,3 +1,8 @@
+## [0.5.4] - 2026-06-05
+
+- Bumped @earendil-works/pi-coding-agent SDK to 0.78.1.
+- Updated tool `execute` signatures to match the new SDK API.
+
 # Changelog
 
 All notable changes to this project follow [Semantic Versioning](https://semver.org/).
